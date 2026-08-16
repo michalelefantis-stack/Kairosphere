@@ -68,7 +68,9 @@ const EventRow: React.FC<{
         <p className="text-[13px] text-ink-dim truncate">{item.preciseLocation || item.region}</p>
         <p className="text-[13px] mt-0.5">
           <span className={URGENCY_STYLE[lead.urgency]}>{lead.label}</span>
-          {item.dateIsMovable ? (
+          {item.dateIsUnconfirmed ? (
+            <span className="text-ink-faint"> · date not confirmed</span>
+          ) : item.dateIsMovable ? (
             <span className="text-ink-faint"> · date varies by lunar calendar</span>
           ) : (
             <span className="text-ink-faint">

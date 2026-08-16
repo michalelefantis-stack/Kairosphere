@@ -82,6 +82,7 @@ const EVENT_TO_KEY: Record<string, CategoryKey> = {
  */
 const SUBCATEGORY_TO_KEY: Record<string, CategoryKey> = {
   wildlife: 'migration',
+  fauna: 'migration',
   animal: 'migration',
   migration: 'migration',
   botanical: 'flora',

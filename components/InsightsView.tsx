@@ -439,7 +439,18 @@ const InsightsView: React.FC<InsightsViewProps> = ({ item, onClose, isSaved, onT
                   <h3 className="text-[12px] font-semibold uppercase tracking-[0.1em] text-ink-faint">
                     When it happens
                   </h3>
-                  {item.dateIsMovable ? (
+                  {item.dateIsUnconfirmed ? (
+                    <>
+                      <p className="text-2xl md:text-3xl font-semibold text-ink-dim leading-tight">
+                        Date not confirmed
+                      </p>
+                      <p className="text-[14px] text-ink-dim leading-relaxed max-w-prose border-l-2 border-gold pl-3">
+                        This entry arrived in a bulk import that stamped every record with the
+                        same date, so no real date is on file. The month and region are usable;
+                        the day is not.
+                      </p>
+                    </>
+                  ) : item.dateIsMovable ? (
                     <>
                       <p className="text-2xl md:text-3xl font-semibold text-ink-dim leading-tight">
                         Date varies each year

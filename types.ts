@@ -163,6 +163,8 @@ export interface CultureItem {
   dateIsMovable?: boolean;
   /** Set by utils/eventSchedule: date was projected forward from a past record. */
   dateWasProjected?: boolean;
+  /** Set by utils/eventSchedule: stored date is a bulk-import placeholder. */
+  dateIsUnconfirmed?: boolean;
 }
 
 export interface FilterState {

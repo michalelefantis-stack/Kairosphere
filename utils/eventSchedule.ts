@@ -56,6 +56,18 @@ export function isMovableFeast(title: string): boolean {
   return MOVABLE_PATTERNS.some(p => p.test(title));
 }
 
+/**
+ * A bulk import wrote this same date onto every record it created — 77 events
+ * across four continents all claiming to start on 1 May. It is a placeholder,
+ * not a date, so it is reported as unknown rather than projected forward into
+ * a confident-looking lie.
+ */
+const PLACEHOLDER_DATES = new Set(['2026-05-01']);
+
+export function isPlaceholderDate(startDate: string): boolean {
+  return PLACEHOLDER_DATES.has(startDate);
+}
+
 export interface ResolvedSchedule {
   startDate: string;
   endDate: string;
@@ -65,6 +77,8 @@ export interface ResolvedSchedule {
   movable: boolean;
   /** The stored record had endDate before startDate. */
   repaired: boolean;
+  /** The stored date is a bulk-import placeholder, not a real date. */
+  unconfirmed: boolean;
 }
 
 function iso(d: Date): string {
@@ -80,12 +94,15 @@ function iso(d: Date): string {
  * negative.
  */
 export function resolveSchedule(
-  item: Pick<CultureItem, 'title' | 'startDate' | 'endDate'>,
+  item: Pick<CultureItem, 'title' | 'startDate' | 'endDate'> & { dateIsMovable?: boolean },
   now: Date = new Date()
 ): ResolvedSchedule {
   const stored = new Date(item.startDate);
   const stopStored = new Date(item.endDate || item.startDate);
-  const movable = isMovableFeast(item.title);
+  // An explicit flag on the record wins: title matching is a fallback for the
+  // legacy catalogue, and it cannot know that Nyepi or Bau Nyale are lunar.
+  const movable = item.dateIsMovable ?? isMovableFeast(item.title);
+  const unconfirmed = isPlaceholderDate(item.startDate);
 
   if (Number.isNaN(stored.getTime())) {
     return {
@@ -93,7 +110,8 @@ export function resolveSchedule(
       endDate: item.endDate,
       rolledForwardBy: 0,
       movable,
-      repaired: false
+      repaired: false,
+      unconfirmed
     };
   }
 
@@ -110,7 +128,8 @@ export function resolveSchedule(
       endDate: iso(new Date(stored.getTime() + durationMs)),
       rolledForwardBy: 0,
       movable: true,
-      repaired
+      repaired,
+      unconfirmed
     };
   }
 
@@ -128,7 +147,8 @@ export function resolveSchedule(
     endDate: iso(new Date(start.getTime() + durationMs)),
     rolledForwardBy: years,
     movable: false,
-    repaired
+    repaired,
+    unconfirmed
   };
 }
 
@@ -147,7 +167,8 @@ export function withResolvedSchedules(items: CultureItem[], now: Date = new Date
       startDate: resolved.startDate,
       endDate: resolved.endDate,
       dateIsMovable: resolved.movable,
-      dateWasProjected: resolved.rolledForwardBy > 0
+      dateWasProjected: resolved.rolledForwardBy > 0,
+      dateIsUnconfirmed: resolved.unconfirmed
     } as CultureItem;
   });
 }

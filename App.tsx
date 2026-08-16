@@ -59,15 +59,22 @@ const App: React.FC = () => {
   const [cultureData, setCultureData] = useState<CultureItem[]>([]);
   const [dataLoaded, setDataLoaded] = useState(false);
   useEffect(() => {
-    Promise.all([import('./mockData'), import('./utils/eventSchedule')]).then(
-      ([mod, schedule]) => {
-        // The catalogue stores one historical instance per event and 89% of
-        // them have already passed. Resolve each to its next occurrence here,
-        // so the map, calendar and insights all see upcoming dates.
-        setCultureData(schedule.withResolvedSchedules(mod.MOCK_CULTURE_DATA));
-        setDataLoaded(true);
-      }
-    );
+    Promise.all([
+      import('./mockData'),
+      import('./data/southeastAsia'),
+      import('./utils/eventSchedule')
+    ]).then(([mod, sea, schedule]) => {
+      // The catalogue stores one historical instance per event and 89% of
+      // them have already passed. Resolve each to its next occurrence here,
+      // so the map, calendar and insights all see upcoming dates.
+      setCultureData(
+        schedule.withResolvedSchedules([
+          ...mod.MOCK_CULTURE_DATA,
+          ...sea.SOUTHEAST_ASIA_EVENTS
+        ])
+      );
+      setDataLoaded(true);
+    });
   }, []);
 
   const [activeTab, setActiveTab] = useState('map');
@@ -300,10 +307,14 @@ const App: React.FC = () => {
     const onlyVerified = enabledLayers.has('verified') && !ALL_LAYER_IDS.every(id => enabledLayers.has(id));
 
     const filtered = cultureData.filter(item => {
-      // Layer filter: match exact subCategory using the 'sub-[Category]' layer format
+      // Layer filter: match exact subCategory using the 'sub-[Category]' layer format.
+      // Fails OPEN. A subCategory with no matching layer used to drop the event
+      // from the map silently — two events had been invisible that way, and
+      // every new one risked the same. An unknown category now shows through
+      // instead of disappearing, since no toggle exists to bring it back.
       const layerId = item.subCategory ? `sub-${item.subCategory.toLowerCase()}` : `sub-general`;
-      if (!enabledLayers.has(layerId)) {
-        // As a fallback, if the layer ID is somehow missing entirely, we drop it
+      const layerIsToggleable = ALL_LAYER_IDS.includes(layerId);
+      if (layerIsToggleable && !enabledLayers.has(layerId)) {
         return false;
       }
 
