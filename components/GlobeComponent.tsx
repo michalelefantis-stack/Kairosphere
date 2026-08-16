@@ -218,7 +218,7 @@ const GlobeComponent: React.FC<GlobeComponentProps> = ({
           };
 
           const badge = isSelected ? 26 : 20;
-          const glow  = isSelected ? `0 0 14px ${color}, 0 0 6px ${color}88` : `0 0 8px ${color}99`;
+          const glow  = isSelected ? `0 0 14px ${color}, 0 0 6px color-mix(in srgb, ${color} 53%, transparent)` : `0 0 8px color-mix(in srgb, ${color} 60%, transparent)`;
           const iconSize = badge * 0.6;
           const path = getPath();
 
@@ -226,7 +226,7 @@ const GlobeComponent: React.FC<GlobeComponentProps> = ({
              <div class="group relative flex flex-col items-center justify-center cursor-pointer pointer-events-auto" style="width: 36px; height: 36px;">
                <div style="
                  width:${badge}px;height:${badge}px;
-                 background:${color}22;
+                 background:color-mix(in srgb, ${color} 13%, transparent);
                  border:1.5px solid ${color};
                  border-radius:50%;
                  display:flex;align-items:center;justify-content:center;
@@ -237,7 +237,7 @@ const GlobeComponent: React.FC<GlobeComponentProps> = ({
                  <svg width="${iconSize}" height="${iconSize}" viewBox="0 0 16 16" fill="none"
                       stroke="${color}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"
                       xmlns="http://www.w3.org/2000/svg">
-                   <path d="${path}" fill="${color}55"/>
+                   <path d="${path}" fill="color-mix(in srgb, ${color} 33%, transparent)"/>
                  </svg>
                </div>
                <div class="absolute bottom-full mb-1 left-1/2 -translate-x-1/2 bg-raised text-ink text-[12px] font-bold px-2 py-1 rounded border border-line-hard whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50 shadow-lg" style="margin-left: -16px;">

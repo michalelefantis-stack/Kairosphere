@@ -10,19 +10,25 @@ interface LiveDetailPanelProps {
 }
 
 const LiveDetailPanel: React.FC<LiveDetailPanelProps> = ({ event, onClose }) => {
-  const getSeverityColor = (level: number) => {
-    switch(level) {
-      case 5: return '#ef4444'; // Red
-      case 4: return '#f97316'; // Orange
-      case 3: return '#eab308'; // Yellow
-      default: return '#9fff00'; // Neon Green
-    }
-  };
-
-  const color = getSeverityColor(event.severity);
+  // Severity is deliberately not shown. It was largely invented — GDELT events
+  // are hardcoded to 2 or 4, and pipeline events derive it from confidence —
+  // so displaying it was laundering a guess into a number. Category, timing
+  // and confidence are all real.
+  const isLive = event.status === 'Active';
 
   const formatTime = (timestamp: number) => {
     return new Date(timestamp).toLocaleString();
+  };
+
+  /** Which feed stood behind this, in plain words. */
+  const sourceSummary = () => {
+    const first = event.provenance?.sources?.[0]?.name;
+    if (first) return first;
+    try {
+      return new URL(event.sourceUrl).hostname.replace('www.', '');
+    } catch {
+      return 'Source unconfirmed';
+    }
   };
 
   // A blurred coordinate should not be displayed to four decimals.
@@ -44,34 +50,36 @@ const LiveDetailPanel: React.FC<LiveDetailPanelProps> = ({ event, onClose }) => 
           </button>
         </div>
 
-        <div className="flex items-center gap-2 mb-4">
-          <span className="flex items-center gap-1.5 text-[12px] font-black uppercase tracking-widest text-on-accent px-2 py-0.5 rounded" style={{ backgroundColor: color }}>
-            {event.severity >= 4 ? <AlertTriangle className="w-3 h-3" /> : <Radio className="w-3 h-3" />}
-            LIVE SIGNAL
-          </span>
-          <span className="text-[12px] font-mono text-ink-faint flex items-center gap-1">
-            SEVERITY {event.severity}
-          </span>
-        </div>
+        {isLive && (
+          <div className="flex items-center gap-2 mb-3">
+            <span className="flex items-center gap-1.5 text-[12px] font-semibold text-live">
+              <span className="w-2 h-2 rounded-full bg-live animate-pulse" />
+              Happening now
+            </span>
+          </div>
+        )}
 
-        <h2 className="text-2xl font-black text-ink leading-tight uppercase font-sans mb-2">
+        <h2 className="text-2xl font-semibold text-ink leading-tight mb-2">
           {event.title}
         </h2>
-        
-        <div className="flex items-center gap-2 text-[12px] text-ink-dim font-mono uppercase tracking-widest">
-          <Activity className="w-3 h-3 text-accent" />
-          <span>Detected via {event.sourceUrl ? 'Remote Sensor' : 'Unknown Source'}</span>
+
+        <div className="flex items-center gap-2 text-[13px] text-ink-dim">
+          <MapPin className="w-3.5 h-3.5 shrink-0" />
+          <span className="truncate">
+            {event.location
+              ? `${event.location}${event.country && event.country !== event.location ? `, ${event.country}` : ''}`
+              : (event.country || 'Location unconfirmed')}
+          </span>
         </div>
       </div>
 
       {/* Content */}
       <div className="flex-1 p-6 space-y-6">
-        
+
         {/* Description */}
         <div className="space-y-2">
-          <h4 className="text-[12px] text-ink-faint uppercase font-black tracking-[0.1em]">Intercept Data</h4>
-          <div className="bg-raised p-4 rounded-lg border border-white/5">
-            <p className="text-sm text-ink leading-relaxed font-mono">
+          <div className="bg-raised p-4 rounded-lg border border-line-soft">
+            <p className="text-[14px] text-ink leading-relaxed">
               {event.description}
             </p>
           </div>
@@ -80,88 +88,65 @@ const LiveDetailPanel: React.FC<LiveDetailPanelProps> = ({ event, onClose }) => 
         {/* Confidence — only pipeline events carry provenance */}
         {event.provenance && <ConfidenceBadge provenance={event.provenance} />}
 
-         {/* Metadata Grid */}
-        <div className="grid grid-cols-1 gap-4">
-           {/* Time */}
-           <div className="flex items-start gap-3 p-3 bg-raised/50 rounded-lg border border-white/5">
-             <div className="p-2 bg-raised rounded text-accent">
-               <Clock className="w-4 h-4" />
-             </div>
-             <div className="flex flex-col">
-               <span className="text-[11px] font-bold text-ink-faint uppercase tracking-widest mb-0.5">Detection Time</span>
-               <span className="text-xs text-ink font-mono">
-                 {formatTime(event.detectedAt)}
-               </span>
-             </div>
-           </div>
+        {/* When and where, in a plain definition list rather than badge boxes */}
+        <dl className="space-y-3 border-t border-line-soft pt-5">
+          <div className="flex gap-3">
+            <dt className="w-24 shrink-0 text-[13px] text-ink-faint">When</dt>
+            <dd className="text-[13px] text-ink flex-1">
+              {event.status === 'Active' ? (
+                <span className="text-live font-medium">Happening now</span>
+              ) : (
+                <>Opens {new Date(event.startTime).toLocaleDateString('en-GB', {
+                  day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC'
+                })}</>
+              )}
+              <span className="block text-ink-faint mt-0.5">
+                through {new Date(event.endTime).toLocaleDateString('en-GB', {
+                  day: 'numeric', month: 'long', timeZone: 'UTC'
+                })}
+              </span>
+            </dd>
+          </div>
 
-           {/* Status / Scope */}
-           <div className="flex items-start gap-3 p-3 bg-raised/50 rounded-lg border border-white/5">
-             <div className="p-2 bg-raised rounded text-accent">
-               <Activity className="w-4 h-4" />
-             </div>
-             <div className="flex flex-col">
-               <span className="text-[11px] font-bold text-ink-faint uppercase tracking-widest mb-0.5">Timeline Status</span>
-               <span className={`text-xs font-mono font-bold ${event.status === 'Active' ? 'text-accent animate-pulse' : 'text-ink'}`}>
-                 {event.status === 'Active' ? 'HAPPENING NOW' : `SCHEDULED: ${new Date(event.startTime).toLocaleDateString([], { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}`}
-               </span>
-             </div>
-           </div>
+          <div className="flex gap-3">
+            <dt className="w-24 shrink-0 text-[13px] text-ink-faint">Coordinates</dt>
+            <dd className="text-[13px] text-ink flex-1 tabular-nums">
+              {/* Never print more decimals than the source actually supports. */}
+              {event.coordinates[0].toFixed(coordDigits)}, {event.coordinates[1].toFixed(coordDigits)}
+              {event.provenance && event.provenance.precision !== 'point' && (
+                <span className="text-ink-faint"> ({event.provenance.precision} precision)</span>
+              )}
+            </dd>
+          </div>
 
-           {/* Location */}
-           <div className="flex items-start gap-3 p-3 bg-raised/50 rounded-lg border border-white/5">
-             <div className="p-2 bg-raised rounded text-accent">
-               <MapPin className="w-4 h-4" />
-             </div>
-             <div className="flex flex-col">
-               <span className="text-[11px] font-bold text-ink-faint uppercase tracking-widest mb-0.5">Location</span>
-               <span className="text-[12px] text-ink font-bold leading-tight mb-1 uppercase">
-                 {event.location ? `${event.location}${event.country && event.country !== event.location ? `, ${event.country}` : ''}` : (event.country || 'Global Context')}
-               </span>
-               <span className="text-[11px] text-ink-faint font-mono">
-                 {/* Never print more decimals than the source actually supports. */}
-                 COORD: {event.coordinates[0].toFixed(coordDigits)}, {event.coordinates[1].toFixed(coordDigits)}
-                 {event.provenance && event.provenance.precision !== 'point' && (
-                   <span className="text-ink-faint"> ({event.provenance.precision})</span>
-                 )}
-               </span>
-             </div>
-           </div>
-        </div>
+          <div className="flex gap-3">
+            <dt className="w-24 shrink-0 text-[13px] text-ink-faint">Source</dt>
+            <dd className="text-[13px] text-ink flex-1">{sourceSummary()}</dd>
+          </div>
+
+          <div className="flex gap-3">
+            <dt className="w-24 shrink-0 text-[13px] text-ink-faint">Updated</dt>
+            <dd className="text-[13px] text-ink flex-1">{formatTime(event.detectedAt)}</dd>
+          </div>
+        </dl>
 
         {/* Source Link */}
         {event.sourceUrl && (
-          <div className="pt-4 border-t border-white/5">
-            <a 
-              href={event.sourceUrl} 
-              target="_blank" 
+          <div className="pt-2">
+            <a
+              href={event.sourceUrl}
+              target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-between w-full p-3 bg-raised hover:bg-hover border border-line-hard hover:border-accent rounded-lg transition-all group"
+              className="flex items-center justify-between w-full p-3 bg-raised hover:bg-hover border border-line hover:border-accent rounded-lg transition-colors group"
             >
-              <span className="text-[12px] font-bold text-ink-dim group-hover:text-ink uppercase tracking-widest">
-                View Source Signal
+              <span className="text-[13px] font-medium text-ink-dim group-hover:text-ink">
+                Open the source
               </span>
-              <ExternalLink className="w-3 h-3 text-ink-faint group-hover:text-accent" />
+              <ExternalLink className="w-4 h-4 text-ink-faint group-hover:text-accent" />
             </a>
           </div>
         )}
 
-      </div>
-
-      {/* Footer */}
-      <div className="p-4 bg-base/50 border-t border-white/5">
-        <div className="flex items-center justify-between opacity-40">
-          <div className="flex flex-col">
-            <span className="text-[11px] font-black uppercase text-ink-faint tracking-widest">UUID</span>
-            <span className="text-[11px] font-mono text-ink tracking-widest">{event.uuid.substring(0, 8)}...</span>
-          </div>
-          <div className="flex flex-col text-right">
-            <span className="text-[11px] font-black uppercase text-ink-faint tracking-widest">TTL</span>
-            <span className="text-[11px] font-mono text-accent tracking-widest">
-              {new Date(event.endTime).toLocaleTimeString()}
-            </span>
-          </div>
-        </div>
       </div>
     </div>
   );

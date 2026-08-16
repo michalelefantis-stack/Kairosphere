@@ -124,7 +124,9 @@ export function toUnifiedEvent(
     sourceUrl: record.sources?.[0]?.url ?? '',
     severity: severityFor(record, now),
     category: record.category,
-    title: `${record.emoji} ${record.name}`,
+    // The row and the map marker both draw a category glyph now, so the
+    // emoji prefix was a second, less consistent icon on the same line.
+    title: record.name,
     description: record.description,
     coordinates: record.coordinates,
     startTime: start,

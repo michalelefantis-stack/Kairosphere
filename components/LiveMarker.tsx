@@ -1,80 +1,75 @@
-
 import React, { useEffect, useState } from 'react';
 import { Marker, Tooltip } from 'react-leaflet';
 import L from 'leaflet';
 import { UnifiedEvent } from '../types';
-import { Radio, AlertTriangle } from 'lucide-react';
+import { categoryColor, categoryGlyph } from '../utils/categoryTheme';
+import { timingLabel } from '../utils/eventFormat';
 
 interface LiveMarkerProps {
   event: UnifiedEvent;
   onClick?: (event: UnifiedEvent) => void;
 }
 
+/**
+ * One marker language for the whole map.
+ *
+ * Live events used to be bare dots scaled by severity while culture events
+ * were icon badges, so the two layers never read as one system — and the size
+ * encoded a number that was largely invented. Now both are the same badge with
+ * a category glyph, and the pulsing ring means the one thing a reader scans
+ * for: this is happening right now.
+ */
 const LiveMarker: React.FC<LiveMarkerProps> = ({ event, onClick }) => {
-  const [timeLeft, setTimeLeft] = useState<string>('');
+  const [, forceTick] = useState(0);
 
   useEffect(() => {
-    const timer = setInterval(() => {
-      const now = Date.now();
-      const diff = event.endTime - now;
-      if (diff <= 0) {
-        setTimeLeft('Archived');
-      } else {
-        const hours = Math.floor(diff / (1000 * 60 * 60));
-        const mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-        setTimeLeft(`${hours}h ${mins}m`);
-      }
-    }, 60000);
+    // Keeps the "2 days left" tooltip honest without re-rendering the map.
+    const timer = setInterval(() => forceTick(t => t + 1), 60000);
     return () => clearInterval(timer);
-  }, [event.endTime]);
+  }, []);
 
-  const getSeverityColor = (level: number) => {
-    switch(level) {
-      case 5: return '#ef4444'; // Red
-      case 4: return '#f97316'; // Orange
-      case 3: return '#eab308'; // Yellow
-      default: return '#9fff00'; // Neon Green
-    }
-  };
+  const color = categoryColor(event.category);
+  const glyph = categoryGlyph(event.category);
+  const isLive = event.status === 'Active';
 
-  const color = getSeverityColor(event.severity);
-  const visualSize = 12 + (event.severity * 2); // Slightly larger for higher severity
-  const hitBoxSize = Math.max(32, visualSize + 16); // Ensure hitbox is at least 32px
-  
-  const isPulsing = event.status !== 'Scheduled';
+  const badge = 26;
+  const hit = 40;
 
-  const pulseIcon = L.divIcon({
+  const icon = L.divIcon({
     className: 'live-pulse-marker',
     html: `
-      <div class="relative flex items-center justify-center cursor-pointer" style="width: ${hitBoxSize}px; height: ${hitBoxSize}px;">
-        <div class="relative flex items-center justify-center" style="width: ${visualSize}px; height: ${visualSize}px;">
-          ${isPulsing ? `<span class="absolute inline-flex h-full w-full rounded-full opacity-75 animate-ping" style="background-color: ${color}"></span>` : ''}
-          <div class="relative inline-flex rounded-full" style="width: ${visualSize/2}px; height: ${visualSize/2}px; background-color: ${color}; box-shadow: 0 0 3px ${color}55"></div>
+      <div style="width:${hit}px;height:${hit}px;display:flex;align-items:center;justify-content:center;cursor:pointer;">
+        <div style="position:relative;width:${badge}px;height:${badge}px;display:flex;align-items:center;justify-content:center;">
+          ${isLive ? `<span style="position:absolute;inset:-3px;border-radius:50%;border:2px solid ${color};opacity:.75;" class="animate-ping"></span>` : ''}
+          <div style="
+            width:${badge}px;height:${badge}px;border-radius:50%;
+            background:color-mix(in srgb, ${color} 22%, #0d0c0b);
+            border:1.5px solid ${color};
+            display:flex;align-items:center;justify-content:center;
+            box-shadow:0 1px 4px rgb(0 0 0 / .5);
+          ">
+            <svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true">
+              <path d="${glyph}" fill="${color}"/>
+            </svg>
+          </div>
         </div>
-      </div>
-    `,
-    iconSize: [hitBoxSize, hitBoxSize],
-    iconAnchor: [hitBoxSize/2, hitBoxSize/2]
+      </div>`,
+    iconSize: [hit, hit],
+    iconAnchor: [hit / 2, hit / 2]
   });
 
   return (
-    <Marker 
-      position={event.coordinates} 
-      icon={pulseIcon}
-      eventHandlers={{ 
-        click: (e) => {
-          if (onClick) {
-            L.DomEvent.stopPropagation(e);
-            onClick(event);
-          }
-        }
-      }}
+    <Marker
+      position={event.coordinates}
+      icon={icon}
+      eventHandlers={{ click: () => onClick?.(event) }}
     >
       <Tooltip direction="top" offset={[0, -16]} className="custom-tooltip">
-        {event.title}
+        <span className="font-semibold">{event.title}</span>
+        <span className="block opacity-80">{timingLabel(event)}</span>
       </Tooltip>
     </Marker>
   );
 };
 
-export default React.memo(LiveMarker);
+export default LiveMarker;

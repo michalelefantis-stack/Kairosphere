@@ -10,11 +10,19 @@ import { ShieldCheck, Satellite, Users, PencilLine, Clock } from 'lucide-react';
  * verified 2 days ago, 3 sources" — so that string is the thing this renders.
  */
 
-const BAND_STYLE: Record<string, { text: string; border: string; bg: string; label: string }> = {
-  high:        { text: 'text-accent', border: 'border-accent/40', bg: 'bg-accent/10', label: 'High confidence' },
-  medium:      { text: 'text-gold', border: 'border-gold/40', bg: 'bg-gold/10', label: 'Moderate confidence' },
-  low:         { text: 'text-orange-400', border: 'border-orange-400/40', bg: 'bg-orange-400/10', label: 'Low confidence' },
-  speculative: { text: 'text-ink-dim',  border: 'border-line-hard/40',  bg: 'bg-ink-faint/10',  label: 'Speculative' }
+/**
+ * One hue, varying weight — not a traffic light.
+ *
+ * Red/amber/green would read as error / warning / ok. Low confidence is not a
+ * fault; it is the honest answer, and it is the thing this product sells. So
+ * certainty is expressed as intensity of a single accent, and the number is
+ * always present rather than encoded in colour alone.
+ */
+const BAND_STYLE: Record<string, { text: string; border: string; bg: string; fill: string; label: string }> = {
+  high:        { text: 'text-accent',   border: 'border-accent/40',    bg: 'bg-accent/10',    fill: 'bg-accent',            label: 'High confidence' },
+  medium:      { text: 'text-accent/85', border: 'border-accent/25',   bg: 'bg-accent/[0.07]', fill: 'bg-accent/80',        label: 'Moderate confidence' },
+  low:         { text: 'text-gold',     border: 'border-gold/25',      bg: 'bg-gold/[0.07]',  fill: 'bg-accent/55',         label: 'Low confidence' },
+  speculative: { text: 'text-ink-dim',  border: 'border-line-hard/40', bg: 'bg-ink-faint/10', fill: 'bg-ink-faint/50',      label: 'Speculative' }
 };
 
 const TIER_META: Record<SourceTier, { icon: React.ReactNode; label: string; blurb: string }> = {
@@ -68,20 +76,24 @@ export const ConfidenceChip: React.FC<{ provenance: Provenance }> = ({ provenanc
   const style = BAND_STYLE[provenance.band] ?? BAND_STYLE.speculative;
   const tier = TIER_META[provenance.tier];
 
+  // Reads as a sentence rather than a badge to decode. The tier icon carries
+  // the same information as the wording, so colour is never the only channel.
   return (
     <span
-      className={`inline-flex items-center gap-1 px-1.5 py-0.5 rounded border ${style.border} ${style.bg} ${style.text}`}
-      title={`${style.label} - ${tier?.blurb ?? ''} ${formatStaleness(provenance.stalenessDays)}.`}
+      className="inline-flex items-center gap-1.5 text-[12px]"
+      title={`${style.label} — ${tier?.blurb ?? ''} ${formatStaleness(provenance.stalenessDays)}.`}
     >
-      {tier?.icon}
-      <span className="text-[11px] font-black tracking-wider tabular-nums">
+      <span className={`font-semibold tabular-nums ${style.text}`}>
         {Math.round(provenance.confidence * 100)}%
       </span>
-      {provenance.uncertaintyDays >= 1 && (
-        <span className="text-[11px] font-mono opacity-70">
-          ±{Math.round(provenance.uncertaintyDays)}d
-        </span>
-      )}
+      <span className="text-ink-faint">
+        confident
+        {provenance.uncertaintyDays >= 1 && ` · ±${Math.round(provenance.uncertaintyDays)}d`}
+      </span>
+      <span className="text-ink-faint/80 inline-flex items-center gap-1">
+        {tier?.icon}
+        <span className="hidden sm:inline">{tier?.label.toLowerCase()}</span>
+      </span>
     </span>
   );
 };

@@ -233,6 +233,7 @@ const App: React.FC = () => {
   const [liveEvents, setLiveEvents] = useState<UnifiedEvent[]>([]);
   const [selectedLiveEvent, setSelectedLiveEvent] = useState<UnifiedEvent | null>(null);
   const [feedIsStale, setFeedIsStale] = useState(false);
+  const [feedGeneratedAt, setFeedGeneratedAt] = useState<number | null>(null);
 
   useEffect(() => {
     let isMounted = true;
@@ -251,6 +252,7 @@ const App: React.FC = () => {
         if (phenomena.status === 'fulfilled') {
           merged.push(...phenomena.value.events);
           setFeedIsStale(phenomena.value.isStale);
+          setFeedGeneratedAt(phenomena.value.generatedAt);
         } else {
           console.warn('Failed to load phenomena feed:', phenomena.reason);
         }
@@ -441,6 +443,7 @@ const App: React.FC = () => {
                onCloseDetail={() => setSelectedLiveEvent(null)}
                userCoords={userCoords}
                feedIsStale={feedIsStale}
+               feedGeneratedAt={feedGeneratedAt}
              />
           </div>
         )}

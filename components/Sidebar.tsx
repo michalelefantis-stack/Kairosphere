@@ -140,7 +140,7 @@ const Sidebar: React.FC<SidebarProps> = ({
                     whitespace-nowrap px-3 py-1 rounded-full text-[12px] font-mono uppercase tracking-wider border transition-all
                     ${isActive ? 'bg-opacity-20' : 'bg-transparent border-line-hard text-ink-dim hover:border-line-hard hover:text-ink'}
                   `}
-                  style={isActive ? { borderColor: color, color: color, backgroundColor: `${color}15` } : {}}
+                  style={isActive ? { borderColor: color, color: color, backgroundColor: `color-mix(in srgb, ${color} 8%, transparent)` } : {}}
                 >
                   {cat}
                 </button>
@@ -223,7 +223,7 @@ const Sidebar: React.FC<SidebarProps> = ({
                         <span className="text-[12px] text-ink-dim font-medium truncate pr-2">{item.region}</span>
                         <span
                           className="uppercase tracking-wider text-[11px] font-bold border px-1.5 py-0.5 rounded transition-colors whitespace-nowrap"
-                          style={{ borderColor: categoryColor(item.ritualType), color: categoryColor(item.ritualType), backgroundColor: `${categoryColor(item.ritualType)}15` }}
+                          style={{ borderColor: categoryColor(item.ritualType), color: categoryColor(item.ritualType), backgroundColor: `color-mix(in srgb, ${categoryColor(item.ritualType)} 8%, transparent)` }}
                         >
                           {item.ritualType}
                         </span>

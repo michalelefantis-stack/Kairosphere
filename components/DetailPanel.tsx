@@ -263,8 +263,8 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights
                   className="text-[11px] font-bold px-2 py-0.5 rounded uppercase tracking-widest"
                   style={{
                     color: categoryColor(item.ritualType),
-                    backgroundColor: `${categoryColor(item.ritualType)}18`,
-                    border: `1px solid ${categoryColor(item.ritualType)}33`,
+                    backgroundColor: `color-mix(in srgb, ${categoryColor(item.ritualType)} 9%, transparent)`,
+                    border: `1px solid color-mix(in srgb, ${categoryColor(item.ritualType)} 20%, transparent)`,
                   }}
                 >
                   {item.ritualType}

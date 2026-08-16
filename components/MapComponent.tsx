@@ -53,30 +53,31 @@ const CustomMarkerIcon = (isSelected: boolean, type: string, subCategory?: strin
   const cacheKey = `${type}-${subCategory || ''}-${isSelected}`;
   if (iconCache.has(cacheKey)) return iconCache.get(cacheKey)!;
 
-  const color  = categoryColor(type);
-  const path   = getIconPath(type, subCategory);
-  const badge  = isSelected ? 26 : 20;
-  const hit    = 36;
-  const glow   = isSelected ? `0 0 4px ${color}55, 0 0 2px ${color}33` : `0 0 3px ${color}33`;
-  const opacity = isSelected ? 1 : 0.85;
+  const color = categoryColor(type);
+  const path  = getIconPath(type, subCategory);
+
+  // Matches LiveMarker exactly so the two layers read as one system. The old
+  // badge was 20px carrying a 12px glyph at 1.6px stroke with a 33%-alpha
+  // fill, which is unreadable at map scale — bigger badge, solid fill.
+  const badge = isSelected ? 30 : 26;
+  const hit   = 40;
+  const glyph = isSelected ? 17 : 15;
 
   const icon = L.divIcon({
     html: `
       <div style="width:${hit}px;height:${hit}px;display:flex;align-items:center;justify-content:center;cursor:pointer;">
         <div style="
           width:${badge}px;height:${badge}px;
-          background:${color}22;
-          border:1.5px solid ${color};
+          background:color-mix(in srgb, ${color} 22%, #0d0c0b);
+          border:${isSelected ? 2 : 1.5}px solid ${color};
           border-radius:50%;
           display:flex;align-items:center;justify-content:center;
-          box-shadow:${glow};
-          opacity:${opacity};
-          transition:all 0.25s ease;
+          box-shadow:0 1px 4px rgb(0 0 0 / .5);
+          transition:width .2s ease, height .2s ease;
         ">
-          <svg width="${badge * 0.6}" height="${badge * 0.6}" viewBox="0 0 16 16" fill="none"
-               stroke="${color}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"
+          <svg width="${glyph}" height="${glyph}" viewBox="0 0 16 16" aria-hidden="true"
                xmlns="http://www.w3.org/2000/svg">
-            <path d="${path}" fill="${color}55"/>
+            <path d="${path}" fill="${color}"/>
           </svg>
         </div>
       </div>`,
