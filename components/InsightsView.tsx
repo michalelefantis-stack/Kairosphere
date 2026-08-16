@@ -5,6 +5,35 @@ import L from 'leaflet';
 import { X, MapPin, Calendar, BookOpen, ExternalLink, ShoppingBag, ArrowLeft, Image as ImageIcon, ScrollText, Hourglass, Users, AlertTriangle, Loader2, Plane, Compass, Cloud, Sun, CloudRain, CloudLightning, Wind, Youtube, PlayCircle, Star, StarHalf, Backpack } from 'lucide-react';
 import { CultureItem } from '../types';
 import { dotMarkerHtml } from '../utils/markerIcon';
+import {
+  ClimateNormals,
+  Daylight,
+  Encyclopedia,
+  describeRain,
+  describeRecurrence,
+  fetchClimateNormals,
+  fetchDaylight,
+  fetchEncyclopedia,
+  meaningfulText
+} from '../utils/eventContext';
+
+/** "13–16 September 2026", or a single date when the window is one day. */
+function formatEventWindow(startDate: string, endDate?: string): string {
+  const start = new Date(startDate);
+  if (Number.isNaN(start.getTime())) return 'Dates not recorded';
+  const end = endDate ? new Date(endDate) : start;
+
+  const opts: Intl.DateTimeFormatOptions = { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' };
+  if (Number.isNaN(end.getTime()) || start.toDateString() === end.toDateString()) {
+    return start.toLocaleDateString('en-GB', opts);
+  }
+  const sameMonth =
+    start.getUTCMonth() === end.getUTCMonth() && start.getUTCFullYear() === end.getUTCFullYear();
+  if (sameMonth) {
+    return `${start.getUTCDate()}–${end.toLocaleDateString('en-GB', opts)}`;
+  }
+  return `${start.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', timeZone: 'UTC' })} – ${end.toLocaleDateString('en-GB', opts)}`;
+}
 
 interface InsightsViewProps {
   item: CultureItem;
@@ -92,93 +121,58 @@ const StarRating: React.FC<{ rating: number, count?: string }> = ({ rating, coun
 const InsightsView: React.FC<InsightsViewProps> = ({ item, onClose, isSaved, onToggleSave }) => {
   const [analysis, setAnalysis] = useState<any>(null);
   const [loading, setLoading] = useState(true);
+  const [encyclopedia, setEncyclopedia] = useState<Encyclopedia | null>(null);
+  const [climate, setClimate] = useState<ClimateNormals | null>(null);
+  const [daylight, setDaylight] = useState<Daylight | null>(null);
 
-  // Procedural Dynamic Analysis Synthesis (100% Free, Zero AI)
+  /**
+   * Gather real context.
+   *
+   * What used to live here generated an "analysis": it concatenated the
+   * description, the insights field and a Wikipedia extract, split the result
+   * into four equal groups of sentences, and captioned them "Origins &
+   * Mythos", "Ritual Mechanics", "Social Function" and "Contemporary Status".
+   * The captions were unrelated to the text beneath them, and when there was
+   * no article it substituted four fixed sentences — which is why every
+   * thinly-documented event read exactly the same.
+   */
   useEffect(() => {
     let isMounted = true;
     setLoading(true);
+    setEncyclopedia(null);
+    setClimate(null);
+    setDaylight(null);
 
-    const generateAnalysis = async () => {
-      // 1. Adapt layout structure to the type of event
-      const type = item.ritualType?.toLowerCase() || '';
-      let headings = {
-        h1: 'Origins & Mythos',
-        h2: 'Ritual Mechanics',
-        h3: 'Social Function',
-        h4: 'Contemporary Status'
-      };
+    const start = new Date(item.startDate);
+    const end = new Date(item.endDate || item.startDate);
+    const validDates = !Number.isNaN(start.getTime());
 
-      if (type.includes('phenomenon')) {
-        headings = { h1: 'Scientific Origins', h2: 'Observable Mechanics', h3: 'Cultural Impact', h4: 'Modern Observation' };
-      } else if (type.includes('festival')) {
-        headings = { h1: 'Historical Origins', h2: 'Festival Traditions', h3: 'Community Significance', h4: 'Contemporary Celebration' };
-      } else if (type.includes('spiritual') || type.includes('ceremony')) {
-        headings = { h1: 'Spiritual Roots', h2: 'Sacred Mechanics', h3: 'Adherent Function', h4: 'Modern Preservation' };
-      }
+    const gather = async () => {
+      const [article, normals, sun] = await Promise.all([
+        fetchEncyclopedia(item.title, item.region),
+        validDates
+          ? fetchClimateNormals(item.coordinates[0], item.coordinates[1], start, end)
+          : Promise.resolve(null),
+        validDates
+          ? fetchDaylight(item.coordinates[0], item.coordinates[1], start)
+          : Promise.resolve(null)
+      ]);
 
-      // 2. Fetch rich contextual Wikipedia data to fuse with local descriptions
-      let wikiText = '';
-      const wikiSearch = async (query: string) => {
-        try {
-          const url = `https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(query)}&gsrlimit=1&prop=extracts&exintro=1&explaintext=1&format=json&origin=*`;
-          const res = await fetch(url);
-          const data = await res.json();
-          const pages = data.query?.pages;
-          if (!pages) return null;
-          const pageData = pages[Object.keys(pages)[0]];
-          return pageData.extract ? pageData.extract : null;
-        } catch { return null; }
-      };
-
-      const cleanTitle = item.title.replace(/\s*\(.*?\)\s*/g, '').trim();
-      wikiText = (await wikiSearch(item.title)) || (await wikiSearch(cleanTitle)) || '';
-
-      // 3. Synthesize full text blob and split into readable sentences
-      let fullText = `${item.description || ''} ${item.insights || ''} ${wikiText}`;
-      fullText = fullText.replace(/\n/g, ' ').replace(/\s{2,}/g, ' ').trim();
-
-      const sentences = fullText.match(/[^.!?]+[.!?]+/g) || [];
-      const cleanSentences = sentences.map(s => s.trim()).filter(s => s.length > 15);
-
-      // Pad with procedurally generated text if Wikipedia article is too sparse
-      const pad1 = `The ${item.title} traces its legacy deep within the cultural landscape of ${item.region}.`;
-      const pad2 = `At its core, this ${item.ritualType} acts as a vital expression of local identity and tradition.`;
-      const pad3 = `Historically, the event has fundamentally shaped the social fabric and rhythms of life for the community.`;
-      const pad4 = `Today, it continues to draw international interest while navigating the complexities of the modern era.`;
-
-      // Distribute extracted sentences organically into 4 distinct phases
-      const q = Math.max(1, Math.floor(cleanSentences.length / 4));
-
-      let p1 = cleanSentences.slice(0, q).join(' ') || pad1;
-      let p2 = cleanSentences.slice(q, q * 2).join(' ') || pad2;
-      let p3 = cleanSentences.slice(q * 2, q * 3).join(' ') || pad3;
-      let p4 = cleanSentences.slice(q * 3).join(' ') || pad4;
-
-      // Ensure paragraphs aren't empty
-      if (p1.length < 20) p1 = pad1;
-      if (p2.length < 20) p2 = pad2;
-      if (p3.length < 20) p3 = pad3;
-      if (p4.length < 20) p4 = pad4;
-
-      if (isMounted) {
-        setAnalysis({
-          h1: headings.h1, p1: p1,
-          h2: headings.h2, p2: p2,
-          h3: headings.h3, p3: p3,
-          h4: headings.h4, p4: p4,
-          tourOperator: {
-            name: item.tourLink ? 'Verified Experience Partner' : `${item.region.split(',')[0].trim()} Local Guides`,
-            description: item.tourLink 
-              ? `Book a fully curated, expert-led journey specifically designed for the ${item.title}.` 
-              : `Search the affiliate network for specialized local experts to experience the authenticity of the ${item.title}.`,
-            websiteUrl: item.tourLink || `https://www.tourradar.com/search?q=${encodeURIComponent(item.region)}`
-          }
-        });
-        setLoading(false);
-      }
+      if (!isMounted) return;
+      setEncyclopedia(article);
+      setClimate(normals);
+      setDaylight(sun);
+      setAnalysis({
+        tourOperator: {
+          // Copy is chosen at render time from whether tourLink exists, so
+          // there is no templated blurb to repeat across events.
+          websiteUrl: item.tourLink || `https://www.tourradar.com/search?q=${encodeURIComponent(item.region)}`
+        }
+      });
+      setLoading(false);
     };
 
-    generateAnalysis();
+    gather();
     return () => { isMounted = false; };
   }, [item]);
   const [heroImage, setHeroImage] = useState(item.imageUrl);
@@ -190,6 +184,19 @@ const InsightsView: React.FC<InsightsViewProps> = ({ item, onClose, isSaved, onT
     iconSize: [12, 12],
     iconAnchor: [6, 6]
   });
+
+  // The curated line, but only if it is not ingestion boilerplate. 26 events
+  // carry "Automated ingestion data batch from user request." and two dozen
+  // more say only "An incredible cultural event occurring around <Month>."
+  const curatedNote = meaningfulText(item.insights) ?? meaningfulText(item.description);
+  const recurrenceNote = describeRecurrence((item as any).recurrence);
+
+  const isHappeningNow = (() => {
+    const start = new Date(item.startDate).getTime();
+    const end = new Date(item.endDate || item.startDate).getTime();
+    const now = Date.now();
+    return !Number.isNaN(start) && now >= start && now <= (Number.isNaN(end) ? start : end) + 86400000;
+  })();
 
   // Free Weather & Video State
   const [weather, setWeather] = useState<{ temp: number, code: number, wind: number } | null>(null);
@@ -415,49 +422,98 @@ const InsightsView: React.FC<InsightsViewProps> = ({ item, onClose, isSaved, onT
             ) : analysis ? (
               <div className="space-y-16">
 
-                {/* 1. Dynamic Section 1 */}
-                <div className="space-y-4 group">
-                  <div className="flex items-center gap-4 text-accent/80 group-hover:text-accent transition-colors">
-                    <Hourglass className="w-5 h-5" />
-                    <h3 className="text-sm font-black uppercase tracking-[0.12em]">{analysis.h1}</h3>
-                  </div>
-                  <p className="text-lg md:text-xl text-ink font-serif leading-relaxed pl-9 border-l border-line-hard group-hover:border-accent/50 transition-colors">
-                    {analysis.p1}
-                  </p>
-                </div>
+                {/* What this is — the curated line, only when it says something */}
+                {curatedNote && (
+                  <section className="space-y-3">
+                    <h3 className="text-[12px] font-semibold uppercase tracking-[0.1em] text-ink-faint">
+                      What this is
+                    </h3>
+                    <p className="text-lg md:text-xl text-ink font-serif leading-relaxed">
+                      {curatedNote}
+                    </p>
+                  </section>
+                )}
 
-                {/* 2. Dynamic Section 2 */}
-                <div className="space-y-4 group">
-                  <div className="flex items-center gap-4 text-blue-400/80 group-hover:text-blue-400 transition-colors">
-                    <ScrollText className="w-5 h-5" />
-                    <h3 className="text-sm font-black uppercase tracking-[0.12em]">{analysis.h2}</h3>
-                  </div>
-                  <p className="text-lg md:text-xl text-ink font-serif leading-relaxed pl-9 border-l border-line-hard group-hover:border-blue-400/50 transition-colors">
-                    {analysis.p2}
+                {/* When, and how that date is arrived at */}
+                <section className="space-y-3">
+                  <h3 className="text-[12px] font-semibold uppercase tracking-[0.1em] text-ink-faint">
+                    When it happens
+                  </h3>
+                  <p className="text-lg md:text-xl text-ink font-serif leading-relaxed">
+                    {formatEventWindow(item.startDate, item.endDate)}
                   </p>
-                </div>
+                  {recurrenceNote && (
+                    <p className="text-[14px] text-ink-dim leading-relaxed">{recurrenceNote}</p>
+                  )}
+                  {daylight && (
+                    <p className="text-[14px] text-ink-dim leading-relaxed">
+                      Sun up {daylight.sunrise}, down {daylight.sunset} — {daylight.hours} hours of
+                      daylight at this latitude
+                      {daylight.approximated ? ', from the same date last year' : ''}.
+                    </p>
+                  )}
+                </section>
 
-                {/* 3. Dynamic Section 3 */}
-                <div className="space-y-4 group">
-                  <div className="flex items-center gap-4 text-purple-400/80 group-hover:text-purple-400 transition-colors">
-                    <Users className="w-5 h-5" />
-                    <h3 className="text-sm font-black uppercase tracking-[0.12em]">{analysis.h3}</h3>
-                  </div>
-                  <p className="text-lg md:text-xl text-ink font-serif leading-relaxed pl-9 border-l border-line-hard group-hover:border-purple-400/50 transition-colors">
-                    {analysis.p3}
-                  </p>
-                </div>
+                {/* Conditions during the event, not conditions right now */}
+                <section className="space-y-3">
+                  <h3 className="text-[12px] font-semibold uppercase tracking-[0.1em] text-ink-faint">
+                    Conditions in season
+                  </h3>
+                  {climate ? (
+                    <>
+                      <p className="text-lg md:text-xl text-ink font-serif leading-relaxed">
+                        Typically {climate.low}–{climate.high}°C, {describeRain(climate.wetDayShare)}
+                        {climate.wetDayShare >= 0.1 && (
+                          <> — wet on {Math.round(climate.wetDayShare * 100)}% of days
+                            {climate.wetDayRain > 0 && `, around ${climate.wetDayRain}mm when it falls`}</>
+                        )}.
+                      </p>
+                      <p className="text-[13px] text-ink-faint">
+                        Measured across {climate.daysSampled} days in the same window over the last{' '}
+                        {climate.yearsSampled} years. Open-Meteo reanalysis.
+                      </p>
+                    </>
+                  ) : (
+                    <p className="text-[14px] text-ink-dim">
+                      No climate record available for these coordinates.
+                    </p>
+                  )}
+                </section>
 
-                {/* 4. Dynamic Section 4 */}
-                <div className="space-y-4 group">
-                  <div className="flex items-center gap-4 text-red-400/80 group-hover:text-red-400 transition-colors">
-                    <AlertTriangle className="w-5 h-5" />
-                    <h3 className="text-sm font-black uppercase tracking-[0.12em]">{analysis.h4}</h3>
-                  </div>
-                  <p className="text-lg md:text-xl text-ink font-serif leading-relaxed pl-9 border-l border-line-hard group-hover:border-red-400/50 transition-colors">
-                    {analysis.p4}
-                  </p>
-                </div>
+                {/* The encyclopaedia article, whole and attributed */}
+                <section className="space-y-3">
+                  <h3 className="text-[12px] font-semibold uppercase tracking-[0.1em] text-ink-faint">
+                    Background
+                  </h3>
+                  {encyclopedia ? (
+                    <>
+                      {encyclopedia.approximate && (
+                        <p className="text-[13px] text-gold">
+                          Closest article found: “{encyclopedia.title}” — it may describe the wider
+                          tradition rather than this event.
+                        </p>
+                      )}
+                      <p className="text-lg md:text-xl text-ink font-serif leading-relaxed whitespace-pre-line">
+                        {encyclopedia.extract}
+                      </p>
+                      <a
+                        href={encyclopedia.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1.5 text-[13px] text-ink-dim hover:text-accent transition-colors"
+                      >
+                        Wikipedia: {encyclopedia.title}
+                        <ExternalLink className="w-3.5 h-3.5" />
+                      </a>
+                    </>
+                  ) : (
+                    <p className="text-[14px] text-ink-dim leading-relaxed">
+                      No encyclopaedia article matches this event. That is common for
+                      community-scale observances, and it is why the date here is worth more than
+                      the description.
+                    </p>
+                  )}
+                </section>
 
                 {/* 5. Recommended Tour Operator */}
                 {analysis.tourOperator && (
@@ -468,18 +524,42 @@ const InsightsView: React.FC<InsightsViewProps> = ({ item, onClose, isSaved, onT
                     <div className="relative z-10 space-y-4">
                       <div className="flex items-center gap-3">
                         <Plane className="w-5 h-5 text-accent" />
-                        <h3 className="text-sm font-black uppercase tracking-[0.12em] text-ink">Experience This Ritual</h3>
+                        <h3 className="text-[12px] font-semibold uppercase tracking-[0.1em] text-ink">
+                          Getting there
+                        </h3>
                       </div>
+                      {/* Says which of the two situations this is, rather than
+                          dressing a generic search link up as a curated pick. */}
                       <div className="pl-8">
-                        <h4 className="text-xl font-bold text-ink mb-1">{analysis.tourOperator.name}</h4>
-                        <p className="text-sm text-ink-dim mb-4">{analysis.tourOperator.description}</p>
+                        {item.tourLink ? (
+                          <>
+                            <h4 className="text-lg font-semibold text-ink mb-1">
+                              Operator listed for this event
+                            </h4>
+                            <p className="text-[14px] text-ink-dim mb-4">
+                              A trip built specifically around {item.title}.
+                            </p>
+                          </>
+                        ) : (
+                          <>
+                            <h4 className="text-lg font-semibold text-ink mb-1">
+                              No operator listed yet
+                            </h4>
+                            <p className="text-[14px] text-ink-dim mb-4">
+                              Nobody has been verified for this one. The link below is an
+                              unfiltered search for {item.region} — treat the results as leads,
+                              not recommendations.
+                            </p>
+                          </>
+                        )}
                         <a
                           href={analysis.tourOperator.websiteUrl}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-flex items-center gap-2 px-4 py-2 bg-raised hover:bg-accent text-ink hover:text-on-accent rounded-lg text-xs font-bold uppercase tracking-widest transition-all border border-line-hard hover:border-accent"
+                          className="inline-flex items-center gap-2 px-4 py-2 bg-raised hover:bg-accent text-ink hover:text-on-accent rounded-lg text-[13px] font-semibold transition-colors border border-line hover:border-accent"
                         >
-                          Visit Operator Website <ExternalLink className="w-3 h-3" />
+                          {item.tourLink ? 'View the trip' : `Search tours in ${item.region.split(',')[0].trim()}`}
+                          <ExternalLink className="w-3.5 h-3.5" />
                         </a>
                       </div>
                     </div>
@@ -718,10 +798,14 @@ const InsightsView: React.FC<InsightsViewProps> = ({ item, onClose, isSaved, onT
                 </div>
               </div>
 
-              {/* Open-Meteo Live Weather Widget */}
-              {weather && (
+              {/* Weather at the venue right now. Only worth showing while the
+                  event is actually on — for anything months away the season
+                  normals above are the useful number, not today's reading. */}
+              {weather && isHappeningNow && (
                 <div className="pt-8 border-t border-line-soft">
-                  <span className="text-[11px] text-ink-faint font-black uppercase tracking-widest mb-4 block">Current Conditions • Zero-Cost Relay</span>
+                  <span className="text-[12px] text-ink-faint font-semibold uppercase tracking-[0.1em] mb-4 block">
+                    At the venue right now
+                  </span>
                   <div className="flex items-center gap-6">
                     <div className="w-14 h-14 rounded-full bg-raised border border-line flex items-center justify-center shadow-lg">
                       {getWeatherIcon(weather.code)}
