@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Marker, Tooltip } from 'react-leaflet';
 import L from 'leaflet';
 import { UnifiedEvent } from '../types';
-import { categoryColor, categoryGlyph } from '../utils/categoryTheme';
+import { markerHtml, MARKER_HIT_SIZE } from '../utils/markerIcon';
 import { timingLabel } from '../utils/eventFormat';
 
 interface LiveMarkerProps {
@@ -28,34 +28,11 @@ const LiveMarker: React.FC<LiveMarkerProps> = ({ event, onClick }) => {
     return () => clearInterval(timer);
   }, []);
 
-  const color = categoryColor(event.category);
-  const glyph = categoryGlyph(event.category);
-  const isLive = event.status === 'Active';
-
-  const badge = 26;
-  const hit = 40;
-
   const icon = L.divIcon({
     className: 'live-pulse-marker',
-    html: `
-      <div style="width:${hit}px;height:${hit}px;display:flex;align-items:center;justify-content:center;cursor:pointer;">
-        <div style="position:relative;width:${badge}px;height:${badge}px;display:flex;align-items:center;justify-content:center;">
-          ${isLive ? `<span style="position:absolute;inset:-3px;border-radius:50%;border:2px solid ${color};opacity:.75;" class="animate-ping"></span>` : ''}
-          <div style="
-            width:${badge}px;height:${badge}px;border-radius:50%;
-            background:color-mix(in srgb, ${color} 22%, #0d0c0b);
-            border:1.5px solid ${color};
-            display:flex;align-items:center;justify-content:center;
-            box-shadow:0 1px 4px rgb(0 0 0 / .5);
-          ">
-            <svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true">
-              <path d="${glyph}" fill="${color}"/>
-            </svg>
-          </div>
-        </div>
-      </div>`,
-    iconSize: [hit, hit],
-    iconAnchor: [hit / 2, hit / 2]
+    html: markerHtml({ type: event.category, live: event.status === 'Active' }),
+    iconSize: [MARKER_HIT_SIZE, MARKER_HIT_SIZE],
+    iconAnchor: [MARKER_HIT_SIZE / 2, MARKER_HIT_SIZE / 2]
   });
 
   return (

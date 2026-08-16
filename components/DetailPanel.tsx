@@ -434,7 +434,7 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights
         .wiki-content p { font-size: 0.875rem; line-height: 1.6; color: #d4d4d4; margin-bottom: 1rem; }
         .wiki-content ul { list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1rem; color: #d4d4d4; font-size: 0.875rem; }
         .wiki-content li { margin-bottom: 0.25rem; }
-        .wiki-content a { color: #9fff00; text-decoration: none; }
+        .wiki-content a { color: var(--k-accent); text-decoration: none; }
         .wiki-content a:hover { text-decoration: underline; }
         
         @keyframes slideUpFade {

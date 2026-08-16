@@ -215,7 +215,14 @@ const WhisperOverlay: React.FC<WhisperOverlayProps> = ({ ritual, onClose }) => {
       animationFrameRef.current = requestAnimationFrame(draw);
       analyserRef.current!.getByteFrequencyData(dataArray);
 
-      ctx.fillStyle = '#0c0c0c';
+      // A canvas cannot read CSS variables, so resolve them once per frame
+      // against the document — that keeps the visualiser on-palette and
+      // theme-aware instead of hardcoding the old lime.
+      const rootStyle = getComputedStyle(document.documentElement);
+      const panel = rootStyle.getPropertyValue('--k-panel').trim() || '#141311';
+      const accent = rootStyle.getPropertyValue('--k-accent').trim() || '#f5a524';
+
+      ctx.fillStyle = panel;
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
       const barWidth = (canvas.width / bufferLength) * 2.5;
@@ -224,10 +231,12 @@ const WhisperOverlay: React.FC<WhisperOverlayProps> = ({ ritual, onClose }) => {
 
       for (let i = 0; i < bufferLength; i++) {
         barHeight = dataArray[i] / 2; // Scale down
-        ctx.fillStyle = `rgba(159, 255, 0, ${barHeight / 100})`; // #9fff00
+        ctx.globalAlpha = Math.min(1, barHeight / 100);
+        ctx.fillStyle = accent;
         ctx.fillRect(x, canvas.height - barHeight, barWidth, barHeight);
         x += barWidth + 1;
       }
+      ctx.globalAlpha = 1;
     };
     draw();
   };

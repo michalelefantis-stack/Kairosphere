@@ -38,7 +38,7 @@ const LocationPickerMap: React.FC<{
   const pickerIcon = L.divIcon({
     html: `<div class="relative flex items-center justify-center w-6 h-6">
             <span class="absolute inline-flex h-full w-full rounded-full bg-accent opacity-50 animate-ping"></span>
-            <div class="relative w-3 h-3 bg-accent rounded-full border-2 border-black shadow-[0_0_10px_#9fff00]"></div>
+            <div class="relative w-3 h-3 bg-accent rounded-full border-2 border-base shadow-[0_0_10px_var(--k-glow-strong)]"></div>
            </div>`,
     className: 'custom-picker-icon',
     iconSize: [24, 24],
@@ -273,7 +273,7 @@ const ReportRitualModal: React.FC<ReportRitualModalProps> = ({ isOpen, onClose, 
                     </div>
                     
                     {gpsCoords && (
-                      <div className="w-2 h-2 rounded-full bg-accent animate-pulse shadow-[0_0_8px_#9fff00]"></div>
+                      <div className="w-2 h-2 rounded-full bg-accent animate-pulse shadow-[0_0_8px_var(--k-glow)]"></div>
                     )}
                 </div>
              )}

@@ -69,6 +69,9 @@
   --k-on-accent:   #1a1207;
   --k-gold:        #c5a059;   /*  7.6:1 */
   --k-live:        #ff6b35;   /*  6.6:1 */
+  /* "You are here" stays the conventional blue in both themes — it means the
+     reader, not an event, so it deliberately sits outside the brand palette. */
+  --k-user:        #4285f4;
 
   /* Event categories — desaturated so the accent stays the only saturated
      thing on screen. Six separated hues, all >=4.5:1 except unrest (4.5, UI). */
@@ -225,6 +228,14 @@ html.light-mode .leaflet-container {
   color-scheme: dark !important;
   filter: none !important;
   background-color: #0d0c0b !important;
+}
+
+/* ─── Markers ───────────────────────────────────────────────────────────────── */
+/* The live pulse. Defined globally because both the flat map and the globe
+   draw it — it used to be injected only by GlobeComponent, so the flat map's
+   ring silently failed to animate whenever the globe was not mounted. */
+@keyframes custom-ping {
+  75%, 100% { transform: scale(2); opacity: 0; }
 }
 
 /* ─── Motion ────────────────────────────────────────────────────────────────── */

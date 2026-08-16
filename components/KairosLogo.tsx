@@ -7,7 +7,7 @@ interface KairosLogoProps {
   color?: string;
 }
 
-const KairosLogo: React.FC<KairosLogoProps> = ({ className = "", size = 32, color = "#9fff00" }) => {
+const KairosLogo: React.FC<KairosLogoProps> = ({ className = "", size = 32, color = "var(--k-accent)" }) => {
   return (
     <svg
       width={size}

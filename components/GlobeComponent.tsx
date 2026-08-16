@@ -3,7 +3,7 @@ import * as THREE from 'three';
 import Globe from 'react-globe.gl';
 import { CultureItem, UnifiedEvent } from '../types';
 import { calculateDistance } from '../utils/geo';
-import { categoryColor } from '../utils/categoryTheme';
+import { markerBadgeHtml, userMarkerHtml, MARKER_HIT_SIZE } from '../utils/markerIcon';
 
 interface GlobeComponentProps {
   data: CultureItem[];
@@ -160,22 +160,20 @@ const GlobeComponent: React.FC<GlobeComponentProps> = ({
           el.style.pointerEvents = 'auto'; // allow clicking through globe overlay
           
           if (d.isUser) {
-              el.innerHTML = `<div style="width: 12px; height: 12px; background-color: #4285F4; border: 2px solid white; border-radius: 50%; box-shadow: 0 0 10px rgba(0,0,0,0.5);"></div>`;
+              el.innerHTML = userMarkerHtml();
               return el;
           }
 
           if (d.isLive) {
               const event = d.event as UnifiedEvent;
-              const isActive = event.status === 'Active';
-              const color = event.severity >= 4 ? '#f97316' : event.severity === 5 ? '#ef4444' : '#9fff00';
-              
-              // We inject inline animation keyframes if not present, though tailwind ping works too.
+
+              // Same badge as the flat map. This used to be an 8px dot
+              // coloured by severity — including the old lime — so the two
+              // views disagreed about what a live event even looks like.
               el.innerHTML = `
-                 <div class="group relative flex items-center justify-center cursor-pointer pointer-events-auto" style="width:32px; height:32px;">
-                    <div style="width:8px; height:8px; border-radius:50%; z-index:10; background-color: ${color}; box-shadow: 0 0 10px ${color}"></div>
-                    ${isActive ? `<div style="position:absolute; width:100%; height:100%; border-radius:50%; border: 1px solid ${color}; opacity: 0.6; animation: custom-ping 1.5s cubic-bezier(0, 0, 0.2, 1) infinite;"></div>` : ''}
-                    
-                    <div class="absolute bottom-full mb-1 left-1/2 -translate-x-1/2 bg-raised text-ink text-[12px] font-bold px-2 py-1 rounded border border-line-hard whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50 shadow-lg">
+                 <div class="group relative flex items-center justify-center cursor-pointer pointer-events-auto" style="width:${MARKER_HIT_SIZE}px; height:${MARKER_HIT_SIZE}px;">
+                    ${markerBadgeHtml({ type: event.category, live: event.status === 'Active' })}
+                    <div class="absolute bottom-full mb-1 left-1/2 -translate-x-1/2 bg-raised text-ink text-[12px] font-semibold px-2 py-1 rounded border border-line whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50 shadow-lg">
                       ${event.title}
                     </div>
                  </div>
@@ -193,54 +191,11 @@ const GlobeComponent: React.FC<GlobeComponentProps> = ({
           const item = d.item as CultureItem;
           const isSelected = selectedItem?.id === item.id;
           const type = item.ritualType;
-          const sub  = (item.subCategory || '').toLowerCase();
-
-          const color = categoryColor(type, item.subCategory);
-
-          const getPath = () => {
-            if (sub.includes('fire'))      return 'M8,2 C8,2 13,8 13,11 A5,5 0 0,1 3,11 C3,8 8,2 8,2Z';
-            if (sub.includes('water'))     return 'M2,10 C4,7 6,12 8,9 C10,6 12,11 14,8';
-            if (sub.includes('dance') || sub.includes('music') || sub.includes('musical')) return 'M11,2 L11,10 A3,3 0 1,0 8,10 M11,2 L7,4 L7,2Z';
-            if (sub.includes('light'))     return 'M8,8 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0 M8,1 L8,3 M8,13 L8,15 M1,8 L3,8 M13,8 L15,8';
-            if (sub.includes('harvest'))   return 'M8,14 L8,7 M8,7 C8,7 4,4 4,1 C7,2 8,7 8,7 M8,7 C8,7 12,4 12,1 C9,2 8,7 8,7';
-            if (sub.includes('cosmic') || sub.includes('solar')) return 'M8,1 L9.8,6 L15,6 L10.8,9.2 L12.5,14.5 L8,11.5 L3.5,14.5 L5.2,9.2 L1,6 L6.2,6Z';
-            if (sub.includes('mountain'))  return 'M8,2 L14,13 L2,13Z M5.5,13 L8,7.5 L10.5,13';
-            if (sub.includes('ancestor') || sub.includes('trance')) return 'M2,9 Q8,3 14,9 Q8,15 2,9Z M8,6 A2.5,2.5 0 1,0 8,11 A2.5,2.5 0 1,0 8,6Z';
-            switch (type) {
-              case 'Festival':    return 'M8,1 L9.8,6 L15,6 L10.8,9.2 L12.5,14.5 L8,11.5 L3.5,14.5 L5.2,9.2 L1,6 L6.2,6Z';
-              case 'Ceremony':    return 'M8,2 C8,2 13,8 13,11 A5,5 0 0,1 3,11 C3,8 8,2 8,2Z';
-              case 'Spiritual':   return 'M2,9 Q8,3 14,9 Q8,15 2,9Z M8,6 A2.5,2.5 0 1,0 8,11 A2.5,2.5 0 1,0 8,6Z';
-              case 'Pilgrimage':  return 'M8,1 A2.5,2.5 0 1,0 8,6 A2.5,2.5 0 1,0 8,1Z M8,6 L7,11 L9,11Z M7,11 L5,14 M9,11 L11,14';
-              case 'Performance': return 'M11,2 L11,10 A3,3 0 1,0 8,10 M11,2 L7,4 L7,2Z';
-              case 'Phenomenon':  return 'M10,1 L6,8 L9,8 L6,15 L13,6 L10,6Z';
-              default:            return 'M8,8 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0';
-            }
-          };
-
-          const badge = isSelected ? 26 : 20;
-          const glow  = isSelected ? `0 0 14px ${color}, 0 0 6px color-mix(in srgb, ${color} 53%, transparent)` : `0 0 8px color-mix(in srgb, ${color} 60%, transparent)`;
-          const iconSize = badge * 0.6;
-          const path = getPath();
 
           el.innerHTML = `
-             <div class="group relative flex flex-col items-center justify-center cursor-pointer pointer-events-auto" style="width: 36px; height: 36px;">
-               <div style="
-                 width:${badge}px;height:${badge}px;
-                 background:color-mix(in srgb, ${color} 13%, transparent);
-                 border:1.5px solid ${color};
-                 border-radius:50%;
-                 display:flex;align-items:center;justify-content:center;
-                 box-shadow:${glow};
-                 opacity:${isSelected ? 1 : 0.85};
-                 transition:all 0.25s ease;
-               ">
-                 <svg width="${iconSize}" height="${iconSize}" viewBox="0 0 16 16" fill="none"
-                      stroke="${color}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"
-                      xmlns="http://www.w3.org/2000/svg">
-                   <path d="${path}" fill="color-mix(in srgb, ${color} 33%, transparent)"/>
-                 </svg>
-               </div>
-               <div class="absolute bottom-full mb-1 left-1/2 -translate-x-1/2 bg-raised text-ink text-[12px] font-bold px-2 py-1 rounded border border-line-hard whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50 shadow-lg" style="margin-left: -16px;">
+             <div class="group relative flex flex-col items-center justify-center cursor-pointer pointer-events-auto" style="width:${MARKER_HIT_SIZE}px; height:${MARKER_HIT_SIZE}px;">
+               ${markerBadgeHtml({ type, subCategory: item.subCategory, selected: isSelected })}
+               <div class="absolute bottom-full mb-1 left-1/2 -translate-x-1/2 bg-raised text-ink text-[12px] font-semibold px-2 py-1 rounded border border-line whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50 shadow-lg">
                  ${item.title}
                </div>
             </div>
@@ -255,14 +210,6 @@ const GlobeComponent: React.FC<GlobeComponentProps> = ({
           return el;
         }}
       />
-      <style dangerouslySetInnerHTML={{ __html: `
-        @keyframes custom-ping {
-          75%, 100% {
-            transform: scale(2);
-            opacity: 0;
-          }
-        }
-      ` }} />
 
       <div className="absolute bottom-4 right-4 z-50 text-[11px] font-mono text-ink-faint uppercase tracking-widest pointer-events-none bg-black/40 px-2 py-1 rounded backdrop-blur-sm">
         Tiles © Esri — Source: Esri, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, etc.

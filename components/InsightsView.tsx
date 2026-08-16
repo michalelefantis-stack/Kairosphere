@@ -4,6 +4,7 @@ import { MapContainer, TileLayer, Marker, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import { X, MapPin, Calendar, BookOpen, ExternalLink, ShoppingBag, ArrowLeft, Image as ImageIcon, ScrollText, Hourglass, Users, AlertTriangle, Loader2, Plane, Compass, Cloud, Sun, CloudRain, CloudLightning, Wind, Youtube, PlayCircle, Star, StarHalf, Backpack } from 'lucide-react';
 import { CultureItem } from '../types';
+import { dotMarkerHtml } from '../utils/markerIcon';
 
 interface InsightsViewProps {
   item: CultureItem;
@@ -184,7 +185,7 @@ const InsightsView: React.FC<InsightsViewProps> = ({ item, onClose, isSaved, onT
   const [locationName, setLocationName] = useState(item.region);
 
   const dotIcon = L.divIcon({
-    html: `<div style="width: 12px; height: 12px; background: #9fff00; border-radius: 50%; border: 2px solid #000; box-shadow: 0 0 10px color-mix(in srgb, var(--k-accent) 0.8%, transparent);"></div>`,
+    html: dotMarkerHtml(),
     className: '',
     iconSize: [12, 12],
     iconAnchor: [6, 6]

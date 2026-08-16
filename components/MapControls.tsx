@@ -447,7 +447,7 @@ const MapControls: React.FC<MapControlsProps> = ({
               setShowFavoritesPanel(false);
             }}
             isActive={showAccountPanel}
-            accent="#9fff00"
+            accent="var(--k-accent)"
           />
         </div>
 
@@ -477,7 +477,7 @@ const MapControls: React.FC<MapControlsProps> = ({
               setShowAccountPanel(false);
             }}
             isActive={showFavoritesPanel}
-            accent="#9fff00"
+            accent="var(--k-accent)"
             badge={savedCount > 0 ? savedCount : undefined}
           />
 

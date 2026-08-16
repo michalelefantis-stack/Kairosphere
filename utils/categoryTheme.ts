@@ -145,3 +145,43 @@ export function categoryGlyph(type?: string, subCategory?: string): string {
   if (type && RITUAL_GLYPH[type]) return RITUAL_GLYPH[type];
   return CATEGORY_GLYPH[categoryKey(type, subCategory)];
 }
+
+/**
+ * Sub-category glyphs give the map more resolution than the six buckets.
+ *
+ * These are open paths inherited from the original marker set, so they must be
+ * stroked rather than filled — a filled wave or sunburst looks like a blob.
+ * `mode` records that, which is why glyphs are objects and not bare strings.
+ */
+export interface Glyph {
+  d: string;
+  mode: 'fill' | 'stroke';
+}
+
+const SUBCATEGORY_GLYPH: Array<[string[], string]> = [
+  [['fire'], 'M8,2 C8,2 13,8 13,11 A5,5 0 0,1 3,11 C3,8 8,2 8,2Z M6.5,11 C6.5,9.5 8,8.5 9,10'],
+  [['water'], 'M2,10 C4,7 6,12 8,9 C10,6 12,11 14,8'],
+  [['dance', 'music', 'musical'], 'M11,2 L11,10 A3,3 0 1,0 8,10 M11,2 L7,4 L7,2Z'],
+  [['light'], 'M8,8 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0 M8,1 L8,3 M8,13 L8,15 M1,8 L3,8 M13,8 L15,8 M3.5,3.5 L5,5 M11,11 L12.5,12.5 M12.5,3.5 L11,5 M5,11 L3.5,12.5'],
+  [['harvest', 'flora', 'botanical'], 'M8,14 L8,7 M8,7 C8,7 4,4 4,1 C7,2 8,7 8,7 M8,7 C8,7 12,4 12,1 C9,2 8,7 8,7'],
+  [['cosmic', 'solar', 'atmospheric'], 'M8,1 L9.8,6 L15,6 L10.8,9.2 L12.5,14.5 L8,11.5 L3.5,14.5 L5.2,9.2 L1,6 L6.2,6Z'],
+  [['mountain', 'geological'], 'M8,2 L14,13 L2,13Z M5.5,13 L8,7.5 L10.5,13'],
+  [['ancestor', 'trance', 'shamanic'], 'M2,9 Q8,3 14,9 Q8,15 2,9Z M8,6 A2.5,2.5 0 1,0 8,11 A2.5,2.5 0 1,0 8,6Z'],
+  [['initiation', 'journey', 'pilgrimage'], 'M8,1 A2.5,2.5 0 1,0 8,6 A2.5,2.5 0 1,0 8,1Z M8,6 L7,11 L9,11Z M7,11 L5,14 M9,11 L11,14']
+];
+
+/**
+ * The single glyph resolver every renderer uses — flat map, globe and list.
+ * Previously each of those carried its own copy of this table, and they had
+ * already drifted apart.
+ */
+export function glyphFor(type?: string, subCategory?: string): Glyph {
+  const sub = (subCategory || '').toLowerCase();
+  if (sub) {
+    for (const [keys, d] of SUBCATEGORY_GLYPH) {
+      if (keys.some(k => sub.includes(k))) return { d, mode: 'stroke' };
+    }
+  }
+  if (type && RITUAL_GLYPH[type]) return { d: RITUAL_GLYPH[type], mode: 'fill' };
+  return { d: CATEGORY_GLYPH[categoryKey(type, subCategory)], mode: 'fill' };
+}
