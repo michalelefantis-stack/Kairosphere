@@ -22,6 +22,35 @@ export type CategoryKey =
   | 'unrest';
 
 /**
+ * Six categories, three colours.
+ *
+ * Six categorical hues cannot survive colour blindness — validated, the
+ * original set had two pairs indistinguishable under deuteranopia and one
+ * pair too close in normal vision. Colour therefore encodes the domain and
+ * the glyph encodes the kind. See the note in index.css.
+ */
+export type CategoryFamily = 'human' | 'life' | 'sky';
+
+const KEY_TO_FAMILY: Record<CategoryKey, CategoryFamily> = {
+  ritual: 'human',
+  unrest: 'human',
+  migration: 'life',
+  flora: 'life',
+  atmospheric: 'sky',
+  cosmic: 'sky'
+};
+
+export function categoryFamily(type?: string, subCategory?: string): CategoryFamily {
+  return KEY_TO_FAMILY[categoryKey(type, subCategory)];
+}
+
+export const FAMILY_LABEL: Record<CategoryFamily, string> = {
+  human: 'People',
+  life: 'Living world',
+  sky: 'Sky & weather'
+};
+
+/**
  * Colour encodes the broad domain; the glyph encodes the specific kind.
  *
  * Ten fully distinct hues would need a ten-swatch legend nobody reads, and the
@@ -79,12 +108,12 @@ export function categoryKey(type?: string, subCategory?: string): CategoryKey {
 
 /** CSS colour for a category — a token reference, never a literal. */
 export function categoryColor(type?: string, subCategory?: string): string {
-  return `var(--k-cat-${categoryKey(type, subCategory)})`;
+  return `var(--k-cat-${categoryFamily(type, subCategory)})`;
 }
 
 /** Tailwind text class, for when a class is more convenient than a style. */
 export function categoryTextClass(type?: string, subCategory?: string): string {
-  return `text-cat-${categoryKey(type, subCategory)}`;
+  return `text-cat-${categoryFamily(type, subCategory)}`;
 }
 
 export const CATEGORY_LABEL: Record<CategoryKey, string> = {

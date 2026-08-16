@@ -73,14 +73,28 @@
      reader, not an event, so it deliberately sits outside the brand palette. */
   --k-user:        #4285f4;
 
-  /* Event categories — desaturated so the accent stays the only saturated
-     thing on screen. Six separated hues, all >=4.5:1 except unrest (4.5, UI). */
-  --k-cat-ritual:      #d97757;
-  --k-cat-migration:   #93a55e;
-  --k-cat-flora:       #5fa37f;
-  --k-cat-atmospheric: #6b8cae;
-  --k-cat-cosmic:      #9b7bb8;
-  --k-cat-unrest:      #c05f6a;
+  /* Event categories — three families, not six hues.
+
+     The first attempt used six desaturated hues chosen by eye. Run through a
+     CVD validator they failed badly: jade and olive were ΔE 7.0 apart in
+     NORMAL vision, and violet and slate were ΔE 1.4 under deuteranopia —
+     indistinguishable for roughly one man in twenty. Six categorical hues
+     that survive colour blindness is close to impossible, because deuteranopia
+     collapses red/green and protanopia collapses violet/blue.
+
+     So colour carries the domain — people, living world, sky — and the marker
+     glyph carries the specific kind. Validated all-pairs in both themes:
+     lightness band, chroma floor, normal-vision ΔE 17.2, contrast >=3:1.
+     The deutan pair sits at ΔE 6.8, which is permitted only because every
+     marker and row also carries a distinct glyph and a text label. */
+  --k-cat-human:  #cf6a3c;   /* rituals, festivals, ceremonies, unrest */
+  --k-cat-life:   #3f9e6a;   /* migrations, blooms */
+  --k-cat-sky:    #2f86c4;   /* atmospheric, cosmic */
+
+  /* Data marks. Separate from category colour: these encode magnitude in the
+     insights panel, not identity. */
+  --k-data-warm: #f5a524;
+  --k-data-rain: #3f9ad9;
 
   /* Elevation */
   --shadow-sm: 0 1px 3px rgb(0 0 0 / 0.5);
@@ -124,12 +138,14 @@ html.light-mode {
   --k-gold:        #8a6d3b;
   --k-live:        #c2410c;   /*  4.8:1 */
 
-  --k-cat-ritual:      #a8482a;
-  --k-cat-migration:   #5c6b33;
-  --k-cat-flora:       #2f6b4d;
-  --k-cat-atmospheric: #3d5f80;
-  --k-cat-cosmic:      #6b4b8a;
-  --k-cat-unrest:      #93343f;
+  /* Same three families, re-stepped for a light ground and validated
+     separately — a dark-mode palette flipped automatically does not pass. */
+  --k-cat-human:  #b4551f;
+  --k-cat-life:   #217a4e;
+  --k-cat-sky:    #1a6fa8;
+
+  --k-data-warm: #a35c00;
+  --k-data-rain: #1f6fa8;
 
   --shadow-sm: 0 1px 3px rgb(0 0 0 / 0.06);
   --shadow-md: 0 4px 12px rgb(0 0 0 / 0.08);
@@ -169,12 +185,12 @@ html.light-mode {
   --color-gold:        var(--k-gold);
   --color-live:        var(--k-live);
 
-  --color-cat-ritual:      var(--k-cat-ritual);
-  --color-cat-migration:   var(--k-cat-migration);
-  --color-cat-flora:       var(--k-cat-flora);
-  --color-cat-atmospheric: var(--k-cat-atmospheric);
-  --color-cat-cosmic:      var(--k-cat-cosmic);
-  --color-cat-unrest:      var(--k-cat-unrest);
+  --color-cat-human: var(--k-cat-human);
+  --color-cat-life:  var(--k-cat-life);
+  --color-cat-sky:   var(--k-cat-sky);
+
+  --color-data-warm: var(--k-data-warm);
+  --color-data-rain: var(--k-data-rain);
 }
 
 /* ─── Base ──────────────────────────────────────────────────────────────────── */

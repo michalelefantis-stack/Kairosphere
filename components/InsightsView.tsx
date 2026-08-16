@@ -5,11 +5,11 @@ import L from 'leaflet';
 import { X, MapPin, Calendar, BookOpen, ExternalLink, ShoppingBag, ArrowLeft, Image as ImageIcon, ScrollText, Hourglass, Users, AlertTriangle, Loader2, Plane, Compass, Cloud, Sun, CloudRain, CloudLightning, Wind, Youtube, PlayCircle, Star, StarHalf, Backpack } from 'lucide-react';
 import { CultureItem } from '../types';
 import { dotMarkerHtml } from '../utils/markerIcon';
+import ConditionsPanel from './ConditionsPanel';
 import {
   ClimateNormals,
   Daylight,
   Encyclopedia,
-  describeRain,
   describeRecurrence,
   fetchClimateNormals,
   fetchDaylight,
@@ -423,61 +423,40 @@ const InsightsView: React.FC<InsightsViewProps> = ({ item, onClose, isSaved, onT
               <div className="space-y-16">
 
                 {/* What this is — the curated line, only when it says something */}
+                {/* The lead. Set larger than everything below it so the page
+                    opens on a statement rather than on another small label. */}
                 {curatedNote && (
-                  <section className="space-y-3">
-                    <h3 className="text-[12px] font-semibold uppercase tracking-[0.1em] text-ink-faint">
-                      What this is
-                    </h3>
-                    <p className="text-lg md:text-xl text-ink font-serif leading-relaxed">
+                  <section>
+                    <p className="text-xl md:text-2xl text-ink font-serif leading-relaxed max-w-prose">
                       {curatedNote}
                     </p>
                   </section>
                 )}
 
-                {/* When, and how that date is arrived at */}
+                {/* When, and how that date is arrived at. The date is the
+                    headline here, not a sentence containing a date. */}
                 <section className="space-y-3">
                   <h3 className="text-[12px] font-semibold uppercase tracking-[0.1em] text-ink-faint">
                     When it happens
                   </h3>
-                  <p className="text-lg md:text-xl text-ink font-serif leading-relaxed">
+                  <p className="text-2xl md:text-3xl font-semibold text-ink leading-tight">
                     {formatEventWindow(item.startDate, item.endDate)}
                   </p>
                   {recurrenceNote && (
-                    <p className="text-[14px] text-ink-dim leading-relaxed">{recurrenceNote}</p>
-                  )}
-                  {daylight && (
-                    <p className="text-[14px] text-ink-dim leading-relaxed">
-                      Sun up {daylight.sunrise}, down {daylight.sunset} — {daylight.hours} hours of
-                      daylight at this latitude
-                      {daylight.approximated ? ', from the same date last year' : ''}.
+                    <p className="text-[14px] text-ink-dim leading-relaxed max-w-prose border-l-2 border-line pl-3">
+                      {recurrenceNote}
                     </p>
                   )}
                 </section>
 
-                {/* Conditions during the event, not conditions right now */}
-                <section className="space-y-3">
+                {/* Conditions during the event, not conditions right now.
+                    Drawn rather than written — these are quantities, and the
+                    page had four identical paragraph blocks in a row. */}
+                <section className="space-y-4 rounded-2xl border border-line-soft bg-panel/40 p-5 md:p-6">
                   <h3 className="text-[12px] font-semibold uppercase tracking-[0.1em] text-ink-faint">
                     Conditions in season
                   </h3>
-                  {climate ? (
-                    <>
-                      <p className="text-lg md:text-xl text-ink font-serif leading-relaxed">
-                        Typically {climate.low}–{climate.high}°C, {describeRain(climate.wetDayShare)}
-                        {climate.wetDayShare >= 0.1 && (
-                          <> — wet on {Math.round(climate.wetDayShare * 100)}% of days
-                            {climate.wetDayRain > 0 && `, around ${climate.wetDayRain}mm when it falls`}</>
-                        )}.
-                      </p>
-                      <p className="text-[13px] text-ink-faint">
-                        Measured across {climate.daysSampled} days in the same window over the last{' '}
-                        {climate.yearsSampled} years. Open-Meteo reanalysis.
-                      </p>
-                    </>
-                  ) : (
-                    <p className="text-[14px] text-ink-dim">
-                      No climate record available for these coordinates.
-                    </p>
-                  )}
+                  <ConditionsPanel climate={climate} daylight={daylight} />
                 </section>
 
                 {/* The encyclopaedia article, whole and attributed */}
@@ -493,14 +472,16 @@ const InsightsView: React.FC<InsightsViewProps> = ({ item, onClose, isSaved, onT
                           tradition rather than this event.
                         </p>
                       )}
-                      <p className="text-lg md:text-xl text-ink font-serif leading-relaxed whitespace-pre-line">
+                      {/* Long-form prose gets a measure and a quieter size —
+                          it is reference material, not the headline. */}
+                      <p className="text-[15px] md:text-base text-ink-dim leading-[1.7] max-w-prose whitespace-pre-line">
                         {encyclopedia.extract}
                       </p>
                       <a
                         href={encyclopedia.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 text-[13px] text-ink-dim hover:text-accent transition-colors"
+                        className="inline-flex items-center gap-1.5 text-[13px] text-ink-faint hover:text-accent transition-colors"
                       >
                         Wikipedia: {encyclopedia.title}
                         <ExternalLink className="w-3.5 h-3.5" />
