@@ -3,6 +3,7 @@ import { UnifiedEvent } from '../types';
 import { AlertCircle, ChevronRight, Loader2, MapPin, Navigation } from 'lucide-react';
 import LiveDetailPanel from './LiveDetailPanel';
 import { ConfidenceChip } from './ConfidenceBadge';
+import LocalReports from './LocalReports';
 import { categoryColor, categoryGlyph } from '../utils/categoryTheme';
 import {
   BUCKET_LABEL,
@@ -140,6 +141,10 @@ const LiveTicker: React.FC<LiveTickerProps> = ({
                 </span>
               </div>
             )}
+
+            {/* Unconfirmed press reports sit below the verified feed, never
+                mixed into it. */}
+            <LocalReports userCoords={userCoords} />
 
             {sections.map(section => (
               <section key={section.key}>
