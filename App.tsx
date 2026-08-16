@@ -19,6 +19,7 @@ const InsightsView = React.lazy(() => import('./components/InsightsView'));
 const ReportRitualModal = React.lazy(() => import('./components/ReportRitualModal'));
 const WhisperOverlay = React.lazy(() => import('./components/WhisperOverlay'));
 const SignalIntelligence = React.lazy(() => import('./components/SignalIntelligence'));
+const ItineraryView = React.lazy(() => import('./components/ItineraryView'));
 const GlobeComponent = React.lazy(() => import('./components/GlobeComponent'));
 
 // Minimal loading fallback for lazy components
@@ -211,28 +212,7 @@ const App: React.FC = () => {
     });
   };
 
-  // ITINERARY TRIP PLANNER STATE
-  const [tripWhere, setTripWhere] = useState('');
-  const [tripWhen, setTripWhen] = useState('');
-  const [tripSearchResults, setTripSearchResults] = useState<CultureItem[] | null>(null);
 
-  const handleSearchTrip = (e?: React.FormEvent) => {
-    if (e) e.preventDefault();
-    if (!tripWhere && !tripWhen) {
-      setTripSearchResults(null);
-      return;
-    }
-    const results = cultureData.filter(item => {
-      const matchWhere = tripWhere ? (item.region.toLowerCase().includes(tripWhere.toLowerCase()) || item.title.toLowerCase().includes(tripWhere.toLowerCase())) : true;
-      let matchWhen = true;
-      if (tripWhen) {
-        const itemMonthName = new Date(item.startDate).toLocaleString('default', { month: 'long' }).toLowerCase();
-        matchWhen = itemMonthName.includes(tripWhen.toLowerCase()) || item.startDate.includes(tripWhen);
-      }
-      return matchWhere && matchWhen;
-    });
-    setTripSearchResults(results);
-  };
 
   // --- LIVE EVENT SYSTEM: phenomena pipeline + GDELT ---
   const [liveEvents, setLiveEvents] = useState<UnifiedEvent[]>([]);
@@ -604,229 +584,15 @@ const App: React.FC = () => {
             </Suspense>
           )}
           {activeTab === 'itinerary' && (
-            <div className="w-full h-full p-6 md:p-12 pt-16 sm:pt-[100px] md:pt-[120px] pb-safe-tab overflow-y-auto custom-scrollbar">
-              <div className="max-w-4xl mx-auto space-y-12">
-                
-                {/* Trip Planner Header */}
-                <div className="bg-panel border border-line rounded-3xl p-6 md:p-8 shadow-2xl relative overflow-hidden">
-                  <div className="absolute top-0 right-0 p-8 opacity-5">
-                    <Compass className="w-48 h-48 text-accent" />
-                  </div>
-                  <div className="relative z-10 space-y-6">
-                    <div>
-                      <h2 className="text-3xl font-black uppercase tracking-tighter text-ink">Plan Your Next Journey</h2>
-                      <p className="text-sm text-ink-faint font-medium mt-1">Discover verified cultural events anywhere in the world.</p>
-                    </div>
-                    
-                    {/* Airbnb-style Search Bar */}
-                    <form 
-                      onSubmit={handleSearchTrip}
-                      className="flex flex-col md:flex-row items-center bg-raised border border-line-hard rounded-2xl md:rounded-full p-2 gap-2 shadow-lg"
-                    >
-                      <div className="flex-1 w-full flex items-center px-4 py-2 border-b md:border-b-0 md:border-r border-line-hard">
-                        <div className="flex flex-col w-full">
-                          <label className="text-[11px] font-bold text-ink-faint uppercase tracking-widest px-1">Where</label>
-                          <input 
-                            type="text" 
-                            placeholder="Search destinations (e.g. Japan)" 
-                            value={tripWhere}
-                            onChange={e => setTripWhere(e.target.value)}
-                            className="bg-transparent text-sm text-ink font-medium focus:outline-none w-full px-1 placeholder-gray-600"
-                          />
-                        </div>
-                      </div>
-                      <div className="flex-1 w-full flex items-center px-4 py-2">
-                        <div className="flex flex-col w-full">
-                          <label className="text-[11px] font-bold text-ink-faint uppercase tracking-widest px-1">When</label>
-                          <input 
-                            type="text" 
-                            placeholder="Add months (e.g. August)" 
-                            value={tripWhen}
-                            onChange={e => setTripWhen(e.target.value)}
-                            className="bg-transparent text-sm text-ink font-medium focus:outline-none w-full px-1 placeholder-gray-600"
-                          />
-                        </div>
-                      </div>
-                      <button 
-                        type="submit"
-                        className="w-full md:w-auto p-4 md:p-3 bg-accent hover:bg-accent-hi rounded-xl md:rounded-full flex items-center justify-center transition-colors shadow-[0_0_15px_var(--k-glow)]"
-                      >
-                        <Search className="w-5 h-5 text-on-accent" />
-                      </button>
-                    </form>
-                  </div>
-                </div>
-
-                {/* Search Results */}
-                {tripSearchResults !== null && (
-                  <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
-                    <h3 className="text-xl font-black uppercase tracking-widest text-accent border-b border-line pb-4">
-                      {tripSearchResults.length} Results Found
-                    </h3>
-                    {tripSearchResults.length === 0 ? (
-                       <p className="text-ink-faint text-sm py-4">No events match your search criteria. Try a different region or month.</p>
-                    ) : (
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        {tripSearchResults.map(i => (
-                          <div key={i.id} className="bg-panel border border-line hover:border-accent/50 transition-all rounded-2xl overflow-hidden group cursor-pointer flex flex-col" onClick={() => handleViewInsights(i)}>
-                            <div className="w-full h-40 relative overflow-hidden">
-                              <img src={i.imageUrl} alt={i.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
-                              <div className="absolute inset-0 bg-gradient-to-t from-panel/80 via-transparent to-transparent pointer-events-none" />
-                              <div className="absolute top-3 right-3">
-                                <button 
-                                  onClick={(e) => { e.stopPropagation(); toggleSaveRitual(i.id); }}
-                                  className={`p-2 rounded-full backdrop-blur-md transition-all shadow-lg ${savedRitualIds.has(i.id) ? 'bg-accent text-on-accent border border-accent' : 'bg-black/50 text-ink hover:bg-accent hover:text-on-accent border border-white/20'}`}
-                                >
-                                  <Backpack className="w-4 h-4" />
-                                </button>
-                              </div>
-                            </div>
-                            <div className="p-5 flex-1 flex flex-col justify-between -mt-4 relative z-10">
-                              <div>
-                                <span className="text-[11px] font-bold text-accent uppercase tracking-widest bg-panel px-2 py-0.5 rounded border border-line">
-                                  {new Date(i.startDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
-                                </span>
-                                <h4 className="text-lg font-black uppercase tracking-tight mt-3 mb-1 group-hover:text-accent transition-colors">{i.title}</h4>
-                                <div className="flex items-center gap-1.5 text-ink-dim">
-                                  <MapPin className="w-3.5 h-3.5" />
-                                  <span className="text-xs font-bold uppercase tracking-widest truncate">{i.region}</span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                )}
-
-                {/* Saved Itinerary */}
-                <div className="space-y-6">
-                  <div className="flex items-center gap-4 mb-8 border-b border-line pb-6">
-                    <div className="p-3 bg-raised rounded-xl border border-line">
-                      <Archive className="w-6 h-6 text-ink-dim" />
-                    </div>
-                    <div>
-                      <h2 className="text-2xl font-black uppercase tracking-tighter">Saved Itinerary</h2>
-                      <p className="text-sm text-ink-faint font-mono mt-1">{itineraryData.length} Events Tracked</p>
-                    </div>
-                  </div>
-
-                  {itineraryData.length === 0 ? (
-                    <div className="flex flex-col items-center justify-center py-20 border border-dashed border-line rounded-3xl bg-base">
-                      <Backpack className="w-12 h-12 text-ink-faint mb-4" />
-                      <p className="text-ink-dim font-bold uppercase tracking-widest">No rituals saved yet</p>
-                      <p className="text-sm text-ink-faint mt-2">Use the trip planner above to build your journey.</p>
-                    </div>
-                  ) : (
-                    <div className="space-y-6">
-                      {itineraryData.map(i => (
-                        <div key={i.id} className="bg-panel border border-line hover:border-accent/50 transition-all rounded-2xl overflow-hidden group">
-                          <div className="p-6 flex flex-col md:flex-row gap-6">
-                          {/* Image Thumbnail */}
-                          <div 
-                            className="w-full md:w-48 h-32 rounded-xl overflow-hidden flex-shrink-0 relative cursor-pointer"
-                            onClick={() => handleViewInsights(i)}
-                          >
-                            <img 
-                              src={(() => {
-                                const saved = localStorage.getItem('kairos_ai_images');
-                                if (saved) {
-                                  const cache = JSON.parse(saved);
-                                  return cache[i.id] || i.imageUrl;
-                                }
-                                return i.imageUrl;
-                              })()} 
-                              alt={i.title} 
-                              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
-                            />
-                            <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors" />
-                          </div>
-
-                          {/* Content */}
-                          <div className="flex-1 flex flex-col justify-between">
-                            <div>
-                              <div className="flex items-center gap-2 mb-2">
-                                <CalendarIcon className="w-4 h-4 text-accent" />
-                                <span className="text-xs font-bold text-accent uppercase tracking-widest">
-                                  {new Date(i.startDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
-                                </span>
-                              </div>
-                              <h3 
-                                className="text-xl font-black uppercase tracking-tight mb-1 cursor-pointer hover:text-accent transition-colors"
-                                onClick={() => handleViewInsights(i)}
-                              >
-                                {i.title}
-                              </h3>
-                              <div className="flex items-center gap-2 text-ink-dim">
-                                <MapPin className="w-3.5 h-3.5" />
-                                <span className="text-xs font-bold uppercase tracking-widest">{i.region}</span>
-                              </div>
-                            </div>
-
-                            {/* Action Links */}
-                            {/* Trip Planning */}
-                            <div className="flex flex-col gap-3 mt-4 pt-4 border-t border-line">
-                              <p className="text-[12px] font-black uppercase tracking-[0.1em] text-gold mb-1">Plan Your Trip</p>
-                              <div className="flex flex-wrap items-center gap-3">
-                                {/* Option A: Affiliate Travel Agency */}
-                                <a 
-                                  href={`https://www.tourradar.com/search?q=${encodeURIComponent(i.region)}`}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="flex items-center gap-2 px-4 py-2 bg-accent hover:bg-white text-on-accent rounded-lg text-xs font-bold transition-all shadow-[0_0_15px_var(--k-glow)] hover:shadow-[0_0_20px_rgba(255,255,255,0.4)]"
-                                >
-                                  <Compass className="w-4 h-4" />
-                                  Book Curated Tour
-                                </a>
-
-                                {/* Option B: DIY Planning */}
-                                <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-0 border border-line-hard rounded-lg p-1 bg-panel">
-                                   <span className="text-[11px] font-bold text-ink-faint uppercase tracking-widest px-3 sm:border-r border-line-hard pt-1 sm:pt-0">DIY Planning</span>
-                                   <div className="flex items-center">
-                                     <a 
-                                       href={`https://www.google.com/flights?q=flights+to+${encodeURIComponent(i.region)}`}
-                                       target="_blank"
-                                       rel="noopener noreferrer"
-                                       className="flex items-center gap-1.5 px-3 py-1.5 hover:bg-raised hover:text-blue-400 text-ink-dim rounded-md transition-all text-xs font-bold"
-                                     >
-                                       <Plane className="w-3.5 h-3.5" />
-                                       Flights
-                                     </a>
-                                     <a 
-                                       href={`https://www.booking.com/searchresults.html?ss=${encodeURIComponent(i.region)}`}
-                                       target="_blank"
-                                       rel="noopener noreferrer"
-                                       className="flex items-center gap-1.5 px-3 py-1.5 hover:bg-raised hover:text-purple-400 text-ink-dim rounded-md transition-all text-xs font-bold"
-                                     >
-                                       <MapPin className="w-3.5 h-3.5" />
-                                       Hotels
-                                     </a>
-                                   </div>
-                                </div>
-                                
-                                <div className="flex-1"></div>
-                                <button 
-                                  onClick={(e) => {
-                                    e.stopPropagation();
-                                    toggleSaveRitual(i.id);
-                                  }}
-                                  className="p-2 text-ink-faint hover:text-red-400 hover:bg-red-400/10 rounded-lg transition-colors border border-transparent hover:border-red-400/30"
-                                  title="Remove from Itinerary"
-                                >
-                                  <X className="w-4 h-4" />
-                                </button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                )}
-                </div>
-              </div>
-            </div>
+            <Suspense fallback={<LazyFallback />}>
+              <ItineraryView
+                allEvents={cultureData}
+                savedEvents={itineraryData}
+                savedIds={savedRitualIds}
+                onToggleSave={toggleSaveRitual}
+                onViewInsights={handleViewInsights}
+              />
+            </Suspense>
           )}
           {activeTab === 'signals' && (
             <div className="w-full h-full pt-4 sm:pt-[80px] pb-safe-tab">
