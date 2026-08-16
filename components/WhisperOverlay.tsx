@@ -245,22 +245,22 @@ const WhisperOverlay: React.FC<WhisperOverlayProps> = ({ ritual, onClose }) => {
   };
 
   return (
-    <div className="fixed bottom-0 right-0 left-0 h-[300px] z-[100] bg-[#0c0c0c] border-t border-[#333] shadow-[0_-10px_40px_rgba(0,0,0,0.8)] animate-in slide-in-from-bottom duration-500">
+    <div className="fixed bottom-0 right-0 left-0 h-[300px] z-[100] bg-panel border-t border-line-hard shadow-[0_-10px_40px_rgba(0,0,0,0.8)] animate-in slide-in-from-bottom duration-500">
       <div className="max-w-4xl mx-auto h-full flex flex-col relative">
         {/* Header */}
-        <div className="p-4 flex items-center justify-between border-b border-[#222]">
+        <div className="p-4 flex items-center justify-between border-b border-line">
           <div className="flex items-center gap-4">
-             <div className={`flex items-center gap-2 px-3 py-1 rounded-full border ${isConnected ? 'bg-[#9fff00]/10 border-[#9fff00]/30 text-[#9fff00]' : 'bg-red-500/10 border-red-500/30 text-red-500'}`}>
+             <div className={`flex items-center gap-2 px-3 py-1 rounded-full border ${isConnected ? 'bg-accent/10 border-accent/30 text-accent' : 'bg-red-500/10 border-red-500/30 text-red-500'}`}>
                 {isConnected ? <Activity className="w-4 h-4 animate-pulse" /> : <Loader2 className="w-4 h-4 animate-spin" />}
-                <span className="text-[10px] font-black uppercase tracking-widest">{isConnected ? 'Signal Locked' : 'Connecting...'}</span>
+                <span className="text-[12px] font-black uppercase tracking-widest">{isConnected ? 'Signal Locked' : 'Connecting...'}</span>
              </div>
              <div>
-               <h3 className="text-sm font-bold text-white uppercase tracking-wider">{ritual.title}</h3>
-               <p className="text-[10px] text-gray-500 uppercase tracking-widest">{ritual.etiquette.substring(0, 40)}...</p>
+               <h3 className="text-sm font-bold text-ink uppercase tracking-wider">{ritual.title}</h3>
+               <p className="text-[12px] text-ink-faint uppercase tracking-widest">{ritual.etiquette.substring(0, 40)}...</p>
              </div>
           </div>
-          <button onClick={onClose} className="p-2 hover:bg-[#222] rounded-full transition-colors">
-            <X className="w-5 h-5 text-gray-500" />
+          <button onClick={onClose} className="p-2 hover:bg-hover rounded-full transition-colors">
+            <X className="w-5 h-5 text-ink-faint" />
           </button>
         </div>
 
@@ -271,8 +271,8 @@ const WhisperOverlay: React.FC<WhisperOverlayProps> = ({ ritual, onClose }) => {
            {!isConnected && !error && (
              <div className="absolute inset-0 flex items-center justify-center">
                <div className="flex flex-col items-center gap-2">
-                 <Radio className="w-8 h-8 text-[#9fff00] animate-ping" />
-                 <span className="text-[10px] font-mono text-[#9fff00] uppercase tracking-widest mt-4">Establishing Secure Link</span>
+                 <Radio className="w-8 h-8 text-accent animate-ping" />
+                 <span className="text-[12px] font-mono text-accent uppercase tracking-widest mt-4">Establishing Secure Link</span>
                </div>
              </div>
            )}
@@ -285,10 +285,10 @@ const WhisperOverlay: React.FC<WhisperOverlayProps> = ({ ritual, onClose }) => {
         </div>
 
         {/* Controls */}
-        <div className="p-4 flex justify-center gap-6 border-t border-[#222] bg-[#0a0a0a]">
+        <div className="p-4 flex justify-center gap-6 border-t border-line bg-base">
            <button 
              onClick={toggleMute}
-             className="w-12 h-12 rounded-full border border-[#333] flex items-center justify-center hover:border-[#9fff00] hover:text-[#9fff00] transition-all text-gray-400"
+             className="w-12 h-12 rounded-full border border-line-hard flex items-center justify-center hover:border-accent hover:text-accent transition-all text-ink-dim"
            >
              {isMuted ? <VolumeX className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
            </button>
@@ -298,7 +298,7 @@ const WhisperOverlay: React.FC<WhisperOverlayProps> = ({ ritual, onClose }) => {
              className={`w-14 h-14 rounded-full border-2 flex items-center justify-center transition-all ${
                isMicOn 
                ? 'border-red-500 bg-red-500/20 text-red-500 animate-pulse shadow-[0_0_20px_rgba(239,68,68,0.4)]' 
-               : 'border-[#9fff00] text-[#9fff00] hover:bg-[#9fff00] hover:text-black'
+               : 'border-accent text-accent hover:bg-accent hover:text-on-accent'
              }`}
            >
              {isMicOn ? <Mic className="w-6 h-6" /> : <MicOff className="w-6 h-6" />}

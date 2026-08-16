@@ -67,30 +67,30 @@ const NavDashboard: React.FC<NavDashboardProps> = ({ activeTab, setActiveTab, sa
             onClick={() => setActiveTab('map')}
           >
             <KairosLogo size={34} className="transition-transform group-hover:scale-110" />
-            <span className="text-[18px] font-black tracking-[0.2em] text-white hidden md:block mt-1.5 drop-shadow-md">
+            <span className="text-[18px] font-black tracking-[0.1em] text-ink hidden md:block mt-1.5 drop-shadow-md">
               KAIROSPHERE
             </span>
           </div>
         </div>
 
         {/* Center Section - Nav Items */}
-        <div className="flex-shrink flex items-center gap-1.5 bg-[#080808]/80 backdrop-blur-md border border-[#222] rounded-full p-1.5 pointer-events-auto shadow-lg overflow-x-auto no-scrollbar max-w-none">
+        <div className="flex-shrink flex items-center gap-1.5 bg-base/80 backdrop-blur-md border border-line rounded-full p-1.5 pointer-events-auto shadow-lg overflow-x-auto no-scrollbar max-w-none">
           {navItems.map((item) => (
             <button
               key={item.id}
               onClick={() => setActiveTab(item.id)}
               className={`flex-shrink-0 group relative flex items-center gap-1.5 px-4 py-2 rounded-full transition-all duration-300 ${
-                activeTab === item.id ? 'bg-[#9fff00]/10 text-[#9fff00] border border-[#9fff00]/20' : 'text-gray-500 hover:text-gray-200 hover:bg-white/5 border border-transparent'
+                activeTab === item.id ? 'bg-accent/10 text-accent border border-accent/20' : 'text-ink-faint hover:text-ink hover:bg-white/5 border border-transparent'
               }`}
             >
               {item.icon}
-              <span className={`text-[10px] font-bold uppercase tracking-wider transition-all duration-300 ${
+              <span className={`text-[12px] font-bold uppercase tracking-wider transition-all duration-300 ${
                 activeTab === item.id ? 'opacity-100' : 'block'
               }`}>
                 {item.label}
               </span>
               {item.id === 'itinerary' && savedCount > 0 && (
-                <span className="absolute -top-1 -right-1 bg-[#9fff00] text-black text-[8px] font-bold px-1.5 py-0.5 rounded-full">
+                <span className="absolute -top-1 -right-1 bg-accent text-on-accent text-[11px] font-bold px-1.5 py-0.5 rounded-full">
                   {savedCount}
                 </span>
               )}
@@ -107,7 +107,7 @@ const NavDashboard: React.FC<NavDashboardProps> = ({ activeTab, setActiveTab, sa
         className="ui-layer fixed bottom-0 left-0 right-0 z-[60] sm:hidden"
         style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}
       >
-        <div className="bg-[#080808]/95 backdrop-blur-xl border-t border-[#222] flex items-stretch justify-around px-1">
+        <div className="bg-base/95 backdrop-blur-xl border-t border-line flex items-stretch justify-around px-1">
           {navItems.map((item) => {
             const isActive = activeTab === item.id;
             return (
@@ -115,25 +115,25 @@ const NavDashboard: React.FC<NavDashboardProps> = ({ activeTab, setActiveTab, sa
                 key={item.id}
                 onClick={() => setActiveTab(item.id)}
                 className={`relative flex flex-col items-center justify-center gap-0.5 py-2.5 px-3 min-w-0 flex-1 transition-colors duration-200 ${
-                  isActive ? 'text-[#9fff00]' : 'text-gray-600 active:text-gray-300'
+                  isActive ? 'text-accent' : 'text-ink-faint active:text-ink'
                 }`}
               >
                 {/* Active indicator bar */}
                 {isActive && (
-                  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-8 h-[3px] bg-[#9fff00] rounded-b-full shadow-[0_0_10px_rgba(159,255,0,0.5)]" />
+                  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-8 h-[3px] bg-accent rounded-b-full shadow-[0_0_10px_var(--k-glow-strong)]" />
                 )}
                 
                 {item.icon}
                 
-                <span className={`text-[9px] font-bold uppercase tracking-wide leading-tight ${
-                  isActive ? 'text-[#9fff00]' : 'text-gray-600'
+                <span className={`text-[11px] font-bold uppercase tracking-wide leading-tight ${
+                  isActive ? 'text-accent' : 'text-ink-faint'
                 }`}>
                   {item.label}
                 </span>
                 
                 {/* Badge for itinerary */}
                 {item.id === 'itinerary' && savedCount > 0 && (
-                  <span className="absolute top-1 right-1/2 translate-x-4 bg-[#9fff00] text-black text-[7px] font-bold min-w-[14px] h-[14px] flex items-center justify-center rounded-full leading-none">
+                  <span className="absolute top-1 right-1/2 translate-x-4 bg-accent text-on-accent text-[10px] font-bold min-w-[14px] h-[14px] flex items-center justify-center rounded-full leading-none">
                     {savedCount}
                   </span>
                 )}

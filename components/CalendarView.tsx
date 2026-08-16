@@ -2,6 +2,7 @@
 import React, { useState, useRef, useEffect, useMemo } from 'react';
 import { Calendar as CalendarIcon, MapPin, Clock, ArrowRight, Backpack } from 'lucide-react';
 import { CultureItem, RitualType } from '../types';
+import { categoryColor } from '../utils/categoryTheme';
 
 interface CalendarViewProps {
   events: CultureItem[];
@@ -138,44 +139,33 @@ const CalendarView: React.FC<CalendarViewProps> = ({ events, onSelect, selectedI
     }
   };
 
-  const getEventTypeColor = (type: RitualType) => {
-    switch(type) {
-      case RitualType.PHENOMENON: return '#00d4ff';
-      case RitualType.SPIRITUAL: return '#d400ff';
-      case RitualType.FESTIVAL: return '#9fff00';
-      case RitualType.CEREMONY: return '#ff8a00';
-      case RitualType.PILGRIMAGE: return '#ff0055';
-      case RitualType.PERFORMANCE: return '#00ffa2';
-      default: return '#ffffff';
-    }
-  };
 
   return (
-    <div className="w-full h-full bg-[#050505] flex flex-col relative overflow-hidden min-h-0 pt-2 sm:pt-[80px]">
+    <div className="w-full h-full bg-base flex flex-col relative overflow-hidden min-h-0 pt-2 sm:pt-[80px]">
       {/* TOP NAVBAR: Horizontal Month Navigator */}
       <div 
         ref={navContainerRef}
-        className="z-50 bg-[#080808]/90 backdrop-blur-3xl border-b border-[#1a1a1a] px-8 py-5 flex-shrink-0 shadow-[0_10px_40px_rgba(0,0,0,0.6)] overflow-x-auto no-scrollbar"
+        className="z-50 bg-base/90 backdrop-blur-3xl border-b border-line-soft px-8 py-5 flex-shrink-0 shadow-[0_10px_40px_rgba(0,0,0,0.6)] overflow-x-auto no-scrollbar"
       >
         <div className="flex items-center gap-10 min-w-max">
-          <div className="flex items-center gap-3 pr-8 border-r border-[#222]">
-            <div className="p-1.5 bg-[#9fff00]/10 rounded shadow-[0_0_10px_rgba(159,255,0,0.1)]">
-              <CalendarIcon className="w-3.5 h-3.5 text-[#9fff00]" />
+          <div className="flex items-center gap-3 pr-8 border-r border-line">
+            <div className="p-1.5 bg-accent/10 rounded shadow-[0_0_10px_var(--k-glow)]">
+              <CalendarIcon className="w-3.5 h-3.5 text-accent" />
             </div>
-            <span className="text-[9px] font-black uppercase tracking-[0.4em] text-gray-500">Timeline</span>
+            <span className="text-[11px] font-black uppercase tracking-[0.12em] text-ink-faint">Timeline</span>
           </div>
           <div className="flex items-center gap-8 month-buttons-container">
             {MONTHS.map((month, index) => (
               <button
                 key={month}
                 onClick={() => scrollToMonth(index)}
-                className={`text-[9px] font-black uppercase tracking-[0.3em] transition-all duration-300 relative py-2 ${
-                  activeMonthIndex === index ? 'text-[#9fff00] scale-110' : 'text-gray-600 hover:text-gray-300'
+                className={`text-[11px] font-black uppercase tracking-[0.12em] transition-all duration-300 relative py-2 ${
+                  activeMonthIndex === index ? 'text-accent scale-110' : 'text-ink-faint hover:text-ink'
                 }`}
               >
                 {month}
                 {activeMonthIndex === index && (
-                  <div className="absolute -bottom-1.5 left-0 right-0 h-[3px] bg-[#9fff00] shadow-[0_0_15px_rgba(159,255,0,0.8)] rounded-full" />
+                  <div className="absolute -bottom-1.5 left-0 right-0 h-[3px] bg-accent shadow-[0_0_15px_var(--k-glow-strong)] rounded-full" />
                 )}
               </button>
             ))}
@@ -199,16 +189,16 @@ const CalendarView: React.FC<CalendarViewProps> = ({ events, onSelect, selectedI
               className="mb-8 pt-6 snap-start flex flex-col"
             >
               {/* Page Header */}
-              <div className="flex items-end gap-4 mb-6 border-b border-[#1a1a1a] pb-4 relative group">
+              <div className="flex items-end gap-4 mb-6 border-b border-line-soft pb-4 relative group">
                 <div className="flex flex-col">
-                  <h2 className="text-2xl font-black text-white leading-none tracking-tighter uppercase drop-shadow-[0_15px_30px_rgba(0,0,0,0.8)]">
+                  <h2 className="text-2xl font-black text-ink leading-none tracking-tighter uppercase drop-shadow-[0_15px_30px_rgba(0,0,0,0.8)]">
                     {month}
                   </h2>
                 </div>
-                <div className="flex-1 h-px bg-gradient-to-r from-[#222] via-[#222] to-transparent mb-4 opacity-30 group-hover:opacity-60 transition-opacity"></div>
+                <div className="flex-1 h-px bg-gradient-to-r from-hover via-hover to-transparent mb-4 opacity-30 group-hover:opacity-60 transition-opacity"></div>
                 <div className="mb-2 text-right">
-                  <span className="text-[9px] font-mono text-gray-600 block uppercase tracking-[0.2em] mb-1">Detections</span>
-                  <span className="text-3xl font-mono text-white/10 font-black tracking-tighter">
+                  <span className="text-[11px] font-mono text-ink-faint block uppercase tracking-[0.1em] mb-1">Detections</span>
+                  <span className="text-3xl font-mono text-ink/10 font-black tracking-tighter">
                     {monthEvents.length.toString().padStart(2, '0')}
                   </span>
                 </div>
@@ -216,10 +206,10 @@ const CalendarView: React.FC<CalendarViewProps> = ({ events, onSelect, selectedI
 
               {/* Grid Layout - Adjusted for 5 cols */}
               {monthEvents.length === 0 ? (
-                <div className="flex flex-col items-center justify-center py-16 border-2 border-dashed border-[#111] rounded-[32px] transition-all hover:border-[#1a1a1a] group/empty bg-white/[0.01]">
+                <div className="flex flex-col items-center justify-center py-16 border-2 border-dashed border-line-soft rounded-[32px] transition-all hover:border-line-soft group/empty bg-white/[0.01]">
                   <Clock className="w-12 h-12 mb-4 opacity-5 group-hover/empty:opacity-10 transition-opacity" />
                   <p className="text-xl font-black tracking-[0.1em] uppercase opacity-10 group-hover/empty:opacity-20 transition-opacity">Temporal Static</p>
-                  <p className="text-[9px] uppercase tracking-[0.6em] mt-2 opacity-10 group-hover/empty:opacity-20">No verified archival records</p>
+                  <p className="text-[11px] uppercase tracking-[0.6em] mt-2 opacity-10 group-hover/empty:opacity-20">No verified archival records</p>
                 </div>
               ) : (
                 <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-8 gap-4 pb-4">
@@ -227,10 +217,10 @@ const CalendarView: React.FC<CalendarViewProps> = ({ events, onSelect, selectedI
                     <div
                       key={event.id}
                       onClick={() => onSelect(event)}
-                      className={`group relative h-[220px] bg-[#0c0c0c] rounded-2xl overflow-hidden border transition-all duration-700 cursor-pointer ${
+                      className={`group relative h-[220px] bg-panel rounded-2xl overflow-hidden border transition-all duration-700 cursor-pointer ${
                         selectedId === event.id 
-                          ? 'border-[#9fff00] shadow-[0_0_40px_rgba(159,255,0,0.15)] ring-1 ring-[#9fff00]/50 scale-[1.02]' 
-                          : 'border-[#1a1a1a] hover:border-[#444] hover:translate-y-[-4px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.8)]'
+                          ? 'border-accent shadow-[0_0_40px_var(--k-glow)] ring-1 ring-accent/50 scale-[1.02]' 
+                          : 'border-line-soft hover:border-line-hard hover:translate-y-[-4px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.8)]'
                       }`}
                     >
                       {/* Image Layer */}
@@ -247,35 +237,35 @@ const CalendarView: React.FC<CalendarViewProps> = ({ events, onSelect, selectedI
                           className="w-full h-full object-cover opacity-30 transition-all duration-1000 group-hover:scale-110 group-hover:opacity-50" 
                           alt={event.title}
                         />
-                        <div className="absolute inset-0 bg-gradient-to-t from-[#080808] via-[#080808]/50 to-transparent"></div>
+                        <div className="absolute inset-0 bg-gradient-to-t from-base via-base/50 to-transparent"></div>
                       </div>
 
                       {/* Header Badge Layer */}
                       <div className="absolute top-4 left-4 right-4 flex justify-between items-start z-20 pointer-events-none">
                          <div className="flex items-center gap-1.5 px-2 py-1 bg-black/70 backdrop-blur-xl rounded-full border border-white/10 shadow-2xl">
-                           <div className="w-1.5 h-1.5 rounded-full animate-pulse shadow-[0_0_10px_currentcolor]" style={{ color: getEventTypeColor(event.ritualType), backgroundColor: getEventTypeColor(event.ritualType) }}></div>
-                           <span className="text-[8px] font-black uppercase tracking-[0.2em] text-white/90 truncate max-w-[80px]">{event.ritualType}</span>
+                           <div className="w-1.5 h-1.5 rounded-full animate-pulse shadow-[0_0_10px_currentcolor]" style={{ color: categoryColor(event.ritualType), backgroundColor: categoryColor(event.ritualType) }}></div>
+                           <span className="text-[11px] font-black uppercase tracking-[0.1em] text-ink/90 truncate max-w-[80px]">{event.ritualType}</span>
                          </div>
                          <div className="w-6 h-6 rounded-full bg-black/70 backdrop-blur-xl border border-white/10 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-x-2 group-hover:translate-x-0">
-                           <ArrowRight className="w-3 h-3 text-[#9fff00]" />
+                           <ArrowRight className="w-3 h-3 text-accent" />
                          </div>
                       </div>
 
                       {/* Content Overlay */}
                       <div className="absolute inset-0 p-4 flex flex-col justify-end z-10 pointer-events-none">
                         <div className="space-y-1.5">
-                          <h3 className="text-sm font-black text-white group-hover:text-[#9fff00] transition-colors leading-[1.1] tracking-tighter uppercase line-clamp-2">
+                          <h3 className="text-sm font-black text-ink group-hover:text-accent transition-colors leading-[1.1] tracking-tighter uppercase line-clamp-2">
                             {event.title}
                           </h3>
                           
-                          <div className="flex flex-col gap-1.5 pt-1.5 border-l-2 border-[#9fff00]/30 pl-3 relative">
-                            <div className="flex items-center gap-2 text-gray-400 group-hover:text-white transition-colors">
-                              <MapPin className="w-3.5 h-3.5 text-[#9fff00]" />
-                              <span className="text-[10px] font-black uppercase tracking-[0.2em] truncate w-full">{event.region}</span>
+                          <div className="flex flex-col gap-1.5 pt-1.5 border-l-2 border-accent/30 pl-3 relative">
+                            <div className="flex items-center gap-2 text-ink-dim group-hover:text-ink transition-colors">
+                              <MapPin className="w-3.5 h-3.5 text-accent" />
+                              <span className="text-[12px] font-black uppercase tracking-[0.1em] truncate w-full">{event.region}</span>
                             </div>
-                            <div className="flex items-center gap-2 text-gray-600">
+                            <div className="flex items-center gap-2 text-ink-faint">
                               <Clock className="w-3.5 h-3.5" />
-                              <span className="text-[10px] font-mono tracking-tighter text-gray-400">
+                              <span className="text-[12px] font-mono tracking-tighter text-ink-dim">
                                 {new Date(event.startDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
                               </span>
                             </div>
@@ -289,8 +279,8 @@ const CalendarView: React.FC<CalendarViewProps> = ({ events, onSelect, selectedI
                                 }}
                                 className={`absolute right-0 bottom-0 p-1.5 rounded-full backdrop-blur-md transition-all border shadow-lg pointer-events-auto ${
                                   savedRitualIds.has(event.id)
-                                  ? 'bg-[#9fff00] border-[#9fff00] text-black' 
-                                  : 'bg-black/60 border-white/10 text-gray-300 hover:bg-[#9fff00] hover:border-[#9fff00] hover:text-black'
+                                  ? 'bg-accent border-accent text-on-accent' 
+                                  : 'bg-black/60 border-white/10 text-ink hover:bg-accent hover:border-accent hover:text-on-accent'
                                 }`}
                                 title={savedRitualIds.has(event.id) ? "Remove from Itinerary" : "Add to Itinerary"}
                               >
@@ -303,21 +293,21 @@ const CalendarView: React.FC<CalendarViewProps> = ({ events, onSelect, selectedI
                         {/* Expandable Meta on Hover */}
                         <div className="mt-3 pt-3 border-t border-white/5 flex items-center justify-between opacity-0 group-hover:opacity-100 transition-all translate-y-2 group-hover:translate-y-0 duration-700 delay-100">
                           <div className="flex flex-col">
-                            <span className="text-[7px] font-bold uppercase text-gray-600 tracking-[0.2em] mb-1">Verif.</span>
+                            <span className="text-[10px] font-bold uppercase text-ink-faint tracking-[0.1em] mb-1">Verif.</span>
                             <div className="flex gap-0.5">
                                {Array.from({length: 6}).map((_, i) => (
-                                 <div key={i} className={`w-2 h-1 rounded-full ${i < 5 ? 'bg-[#9fff00]/60' : 'bg-gray-900'}`}></div>
+                                 <div key={i} className={`w-2 h-1 rounded-full ${i < 5 ? 'bg-accent/60' : 'bg-raised'}`}></div>
                                ))}
                             </div>
                           </div>
-                          <span className="text-[8px] font-mono text-gray-700 font-black">#{event.id.substring(0, 3).toUpperCase()}</span>
+                          <span className="text-[11px] font-mono text-ink-faint font-black">#{event.id.substring(0, 3).toUpperCase()}</span>
                         </div>
                       </div>
 
                       {/* Visual Category Stripe */}
                       <div 
                         className="absolute bottom-0 left-0 right-0 h-1 transition-all duration-700 opacity-0 group-hover:opacity-100"
-                        style={{ backgroundColor: getEventTypeColor(event.ritualType), boxShadow: `0 -15px 40px ${getEventTypeColor(event.ritualType)}` }}
+                        style={{ backgroundColor: categoryColor(event.ritualType), boxShadow: `0 -15px 40px ${categoryColor(event.ritualType)}` }}
                       />
                     </div>
                   ))}

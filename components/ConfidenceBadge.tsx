@@ -11,10 +11,10 @@ import { ShieldCheck, Satellite, Users, PencilLine, Clock } from 'lucide-react';
  */
 
 const BAND_STYLE: Record<string, { text: string; border: string; bg: string; label: string }> = {
-  high:        { text: 'text-[#9fff00]', border: 'border-[#9fff00]/40', bg: 'bg-[#9fff00]/10', label: 'High confidence' },
-  medium:      { text: 'text-[#C5A059]', border: 'border-[#C5A059]/40', bg: 'bg-[#C5A059]/10', label: 'Moderate confidence' },
+  high:        { text: 'text-accent', border: 'border-accent/40', bg: 'bg-accent/10', label: 'High confidence' },
+  medium:      { text: 'text-gold', border: 'border-gold/40', bg: 'bg-gold/10', label: 'Moderate confidence' },
   low:         { text: 'text-orange-400', border: 'border-orange-400/40', bg: 'bg-orange-400/10', label: 'Low confidence' },
-  speculative: { text: 'text-gray-400',  border: 'border-gray-500/40',  bg: 'bg-gray-500/10',  label: 'Speculative' }
+  speculative: { text: 'text-ink-dim',  border: 'border-line-hard/40',  bg: 'bg-ink-faint/10',  label: 'Speculative' }
 };
 
 const TIER_META: Record<SourceTier, { icon: React.ReactNode; label: string; blurb: string }> = {
@@ -74,11 +74,11 @@ export const ConfidenceChip: React.FC<{ provenance: Provenance }> = ({ provenanc
       title={`${style.label} - ${tier?.blurb ?? ''} ${formatStaleness(provenance.stalenessDays)}.`}
     >
       {tier?.icon}
-      <span className="text-[9px] font-black tracking-wider tabular-nums">
+      <span className="text-[11px] font-black tracking-wider tabular-nums">
         {Math.round(provenance.confidence * 100)}%
       </span>
       {provenance.uncertaintyDays >= 1 && (
-        <span className="text-[9px] font-mono opacity-70">
+        <span className="text-[11px] font-mono opacity-70">
           ±{Math.round(provenance.uncertaintyDays)}d
         </span>
       )}
@@ -95,7 +95,7 @@ const ConfidenceBadge: React.FC<{ provenance: Provenance }> = ({ provenance }) =
 
   return (
     <div className="space-y-2">
-      <h4 className="text-[10px] text-gray-500 uppercase font-black tracking-[0.2em]">
+      <h4 className="text-[12px] text-ink-faint uppercase font-black tracking-[0.1em]">
         Prediction Confidence
       </h4>
 
@@ -104,12 +104,12 @@ const ConfidenceBadge: React.FC<{ provenance: Provenance }> = ({ provenance }) =
         <div className="flex items-start justify-between gap-3">
           <div>
             <div className={`text-3xl font-black tabular-nums leading-none ${style.text}`}>{pct}%</div>
-            <div className={`text-[10px] font-bold uppercase tracking-widest mt-1 ${style.text}`}>
+            <div className={`text-[12px] font-bold uppercase tracking-widest mt-1 ${style.text}`}>
               {style.label}
             </div>
           </div>
           <span
-            className={`flex items-center gap-1.5 px-2 py-1 rounded border ${style.border} ${style.text} text-[9px] font-black uppercase tracking-widest shrink-0`}
+            className={`flex items-center gap-1.5 px-2 py-1 rounded border ${style.border} ${style.text} text-[11px] font-black uppercase tracking-widest shrink-0`}
             title={tier?.blurb}
           >
             {tier?.icon}
@@ -128,19 +128,19 @@ const ConfidenceBadge: React.FC<{ provenance: Provenance }> = ({ provenance }) =
         {/* The claim, spelled out */}
         <div className="space-y-1.5 pt-1">
           <div className="flex items-baseline justify-between gap-2">
-            <span className="text-[9px] font-bold text-gray-500 uppercase tracking-widest">Predicted window</span>
-            <span className="text-[11px] font-mono text-white text-right">
+            <span className="text-[11px] font-bold text-ink-faint uppercase tracking-widest">Predicted window</span>
+            <span className="text-[12px] font-mono text-ink text-right">
               {formatWindow(provenance.windowStart, provenance.windowEnd)}
               {provenance.uncertaintyDays >= 1 && (
-                <span className="text-gray-400"> ±{Math.round(provenance.uncertaintyDays)}d</span>
+                <span className="text-ink-dim"> ±{Math.round(provenance.uncertaintyDays)}d</span>
               )}
             </span>
           </div>
 
           {provenance.peak && (
             <div className="flex items-baseline justify-between gap-2">
-              <span className="text-[9px] font-bold text-gray-500 uppercase tracking-widest">Peak</span>
-              <span className="text-[11px] font-mono text-white">
+              <span className="text-[11px] font-bold text-ink-faint uppercase tracking-widest">Peak</span>
+              <span className="text-[12px] font-mono text-ink">
                 {new Date(provenance.peak).toLocaleDateString('en-GB', {
                   day: 'numeric', month: 'short', timeZone: 'UTC'
                 })}
@@ -149,8 +149,8 @@ const ConfidenceBadge: React.FC<{ provenance: Provenance }> = ({ provenance }) =
           )}
 
           <div className="flex items-baseline justify-between gap-2">
-            <span className="text-[9px] font-bold text-gray-500 uppercase tracking-widest">Last verified</span>
-            <span className="text-[11px] font-mono text-gray-300 flex items-center gap-1">
+            <span className="text-[11px] font-bold text-ink-faint uppercase tracking-widest">Last verified</span>
+            <span className="text-[12px] font-mono text-ink flex items-center gap-1">
               <Clock className="w-3 h-3 opacity-60" />
               {formatStaleness(provenance.stalenessDays)}
             </span>
@@ -161,24 +161,24 @@ const ConfidenceBadge: React.FC<{ provenance: Provenance }> = ({ provenance }) =
       {/* Why we believe it */}
       {provenance.sources.length > 0 && (
         <div className="space-y-1.5 pt-1">
-          <span className="text-[9px] font-bold text-gray-500 uppercase tracking-widest">
+          <span className="text-[11px] font-bold text-ink-faint uppercase tracking-widest">
             {provenance.sources.length} source{provenance.sources.length === 1 ? '' : 's'}
           </span>
           {provenance.sources.map((source, index) => (
-            <div key={`${source.url}-${index}`} className="text-[10px] leading-snug">
+            <div key={`${source.url}-${index}`} className="text-[12px] leading-snug">
               {source.url?.startsWith('http') ? (
                 <a
                   href={source.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-[#9fff00] underline decoration-gray-700 underline-offset-2"
+                  className="text-ink hover:text-accent underline decoration-gray-700 underline-offset-2"
                 >
                   {source.name}
                 </a>
               ) : (
-                <span className="text-gray-300">{source.name}</span>
+                <span className="text-ink">{source.name}</span>
               )}
-              {source.note && <p className="text-gray-600 mt-0.5">{source.note}</p>}
+              {source.note && <p className="text-ink-faint mt-0.5">{source.note}</p>}
             </div>
           ))}
         </div>
@@ -186,7 +186,7 @@ const ConfidenceBadge: React.FC<{ provenance: Provenance }> = ({ provenance }) =
 
       {/* Access and precision caveats */}
       {(isBlurred || provenance.sensitivity === 'restricted') && (
-        <div className="text-[10px] text-gray-500 leading-snug border-l-2 border-[#C5A059]/40 pl-2 py-1">
+        <div className="text-[12px] text-ink-faint leading-snug border-l-2 border-gold/40 pl-2 py-1">
           {isBlurred && (
             <p>
               Location shown at {provenance.precision === 'country' ? 'country' : 'regional'} precision
@@ -196,7 +196,7 @@ const ConfidenceBadge: React.FC<{ provenance: Provenance }> = ({ provenance }) =
           {/* Skip if a source note already said the same thing. */}
           {provenance.consent &&
             !provenance.sources.some(s => s.note === provenance.consent) && (
-              <p className="mt-1 text-gray-600">{provenance.consent}</p>
+              <p className="mt-1 text-ink-faint">{provenance.consent}</p>
             )}
         </div>
       )}

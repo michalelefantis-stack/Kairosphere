@@ -94,28 +94,28 @@ const SignalIntelligence: React.FC<SignalIntelligenceProps> = ({ onEventFound })
   };
 
   const getAgentStatusColor = (stage: number, myStage: number) => {
-    if (stage === myStage) return 'text-[#9fff00] border-[#9fff00] bg-[#9fff00]/10 animate-pulse';
-    if (stage > myStage) return 'text-[#9fff00] border-[#9fff00] opacity-50'; // Done
-    return 'text-gray-600 border-gray-800'; // Waiting
+    if (stage === myStage) return 'text-accent border-accent bg-accent/10 animate-pulse';
+    if (stage > myStage) return 'text-accent border-accent opacity-50'; // Done
+    return 'text-ink-faint border-line-soft'; // Waiting
   };
 
   return (
-    <div className="w-full h-full bg-[#050505] p-8 flex flex-col font-mono text-sm relative overflow-hidden">
+    <div className="w-full h-full bg-base p-8 flex flex-col font-mono text-sm relative overflow-hidden">
       {/* Background Grid */}
       <div className="absolute inset-0 bg-[linear-gradient(rgba(18,18,18,0)_1px,transparent_1px),linear-gradient(90deg,rgba(18,18,18,0)_1px,transparent_1px)] bg-[size:40px_40px] [mask-image:radial-gradient(ellipse_60%_60%_at_50%_50%,#000_70%,transparent_100%)] pointer-events-none opacity-20" />
 
       {/* Header */}
-      <header className="flex justify-between items-end mb-10 relative z-10 border-b border-[#222] pb-6">
+      <header className="flex justify-between items-end mb-10 relative z-10 border-b border-line pb-6">
         <div>
-          <h1 className="text-3xl font-black text-white uppercase tracking-tighter flex items-center gap-3">
-             <Radio className="w-8 h-8 text-[#9fff00] animate-pulse" />
+          <h1 className="text-3xl font-black text-ink uppercase tracking-tighter flex items-center gap-3">
+             <Radio className="w-8 h-8 text-accent animate-pulse" />
              Signal Intelligence
           </h1>
-          <p className="text-[#9fff00] text-xs uppercase tracking-[0.4em] mt-2">Multi-Agent Autonomous Reconnaissance</p>
+          <p className="text-accent text-xs uppercase tracking-[0.12em] mt-2">Multi-Agent Autonomous Reconnaissance</p>
         </div>
         <div className="flex items-center gap-4">
           <div className="relative">
-            <MapIcon className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-gray-500" />
+            <MapIcon className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-ink-faint" />
             <input 
               type="text"
               placeholder="Target Location (Optional)"
@@ -123,7 +123,7 @@ const SignalIntelligence: React.FC<SignalIntelligenceProps> = ({ onEventFound })
               onChange={(e) => setLocationInput(e.target.value)}
               onKeyDown={(e) => e.key === 'Enter' && !isScanning && startScan()}
               disabled={isScanning}
-              className="bg-[#111] border border-[#333] text-white text-xs uppercase tracking-widest pl-10 pr-4 py-3 outline-none focus:border-[#9fff00] transition-colors w-64 disabled:opacity-50"
+              className="bg-raised border border-line-hard text-ink text-xs uppercase tracking-widest pl-10 pr-4 py-3 outline-none focus:border-accent transition-colors w-64 disabled:opacity-50"
             />
           </div>
           <button 
@@ -131,8 +131,8 @@ const SignalIntelligence: React.FC<SignalIntelligenceProps> = ({ onEventFound })
             disabled={isScanning}
             className={`px-8 py-3 font-bold uppercase tracking-widest transition-all clip-path-polygon ${
               isScanning 
-              ? 'bg-[#222] text-gray-500 cursor-not-allowed' 
-              : 'bg-[#9fff00] text-black hover:bg-white hover:shadow-[0_0_30px_rgba(159,255,0,0.5)]'
+              ? 'bg-hover text-ink-faint cursor-not-allowed' 
+              : 'bg-accent text-on-accent hover:bg-white hover:shadow-[0_0_30px_var(--k-glow-strong)]'
             }`}
           >
             {isScanning ? 'Agents Active...' : 'Initiate Scan'}
@@ -155,7 +155,7 @@ const SignalIntelligence: React.FC<SignalIntelligenceProps> = ({ onEventFound })
             <agent.icon className="w-6 h-6" />
             <div>
               <h3 className="font-bold uppercase leading-none">{agent.name}</h3>
-              <p className="text-[10px] uppercase opacity-70 mt-1">{agent.role}</p>
+              <p className="text-[12px] uppercase opacity-70 mt-1">{agent.role}</p>
             </div>
             {currentStage === agent.id && <Loader2 className="w-4 h-4 ml-auto animate-spin" />}
           </div>
@@ -163,7 +163,7 @@ const SignalIntelligence: React.FC<SignalIntelligenceProps> = ({ onEventFound })
       </div>
 
       {/* Terminal Output */}
-      <div className="flex-1 bg-[#0a0a0a] border border-[#222] p-6 overflow-y-auto custom-scrollbar relative z-10 shadow-inner">
+      <div className="flex-1 bg-base border border-line p-6 overflow-y-auto custom-scrollbar relative z-10 shadow-inner">
         {logs.length === 0 ? (
            <div className="h-full flex flex-col items-center justify-center opacity-30 text-center">
              <Cpu className="w-16 h-16 mb-4" />
@@ -174,24 +174,24 @@ const SignalIntelligence: React.FC<SignalIntelligenceProps> = ({ onEventFound })
             {logs.map((log) => (
               <div key={log.id} className="animate-in fade-in slide-in-from-left-2 duration-300">
                 <div className="flex items-start gap-4">
-                  <span className="text-[10px] text-gray-600 pt-1">{new Date(log.timestamp).toLocaleTimeString()}</span>
-                  <span className={`text-[10px] font-bold uppercase pt-1 min-w-[100px] ${
+                  <span className="text-[12px] text-ink-faint pt-1">{new Date(log.timestamp).toLocaleTimeString()}</span>
+                  <span className={`text-[12px] font-bold uppercase pt-1 min-w-[100px] ${
                     log.agent === 'SCOUT' ? 'text-blue-400' :
                     log.agent === 'POLYGLOT' ? 'text-purple-400' :
                     log.agent === 'FACT_CHECKER' ? 'text-orange-400' :
-                    'text-[#9fff00]'
+                    'text-accent'
                   }`}>
                     [{log.agent}]
                   </span>
                   <div className="flex-1">
                     <p className={`text-sm ${
                       log.status === 'failed' ? 'text-red-500' : 
-                      log.status === 'success' ? 'text-white' : 'text-gray-400'
+                      log.status === 'success' ? 'text-ink' : 'text-ink-dim'
                     }`}>
                       {log.message}
                     </p>
                     {log.data && (
-                      <div className="mt-2 bg-[#111] p-3 border-l-2 border-gray-700 text-xs text-gray-400 font-mono whitespace-pre-wrap">
+                      <div className="mt-2 bg-raised p-3 border-l-2 border-line text-xs text-ink-dim font-mono whitespace-pre-wrap">
                         {JSON.stringify(log.data, null, 2)}
                       </div>
                     )}
@@ -204,7 +204,7 @@ const SignalIntelligence: React.FC<SignalIntelligenceProps> = ({ onEventFound })
         )}
       </div>
       
-      <div className="mt-2 flex justify-between text-[10px] text-gray-600 font-mono uppercase">
+      <div className="mt-2 flex justify-between text-[12px] text-ink-faint font-mono uppercase">
          <span>Secure Connection: TLS 1.3</span>
          <span>Latency: 24ms</span>
          <span className="flex items-center gap-2"><Wifi className="w-3 h-3" /> Online</span>

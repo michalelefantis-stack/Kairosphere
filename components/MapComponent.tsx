@@ -5,6 +5,7 @@ import L from 'leaflet';
 import { CultureItem, UnifiedEvent } from '../types';
 import LiveMarker from './LiveMarker';
 import { calculateDistance } from '../utils/geo';
+import { categoryColor } from '../utils/categoryTheme';
 
 interface MapComponentProps {
   data: CultureItem[];
@@ -47,23 +48,12 @@ const getIconPath = (type: string, subCategory?: string): string => {
   }
 };
 
-const getColor = (type: string): string => {
-  switch (type) {
-    case 'Phenomenon':  return '#00d4ff';
-    case 'Spiritual':   return '#d400ff';
-    case 'Festival':    return '#9fff00';
-    case 'Ceremony':    return '#ff8a00';
-    case 'Pilgrimage':  return '#ff0055';
-    case 'Performance': return '#00ffa2';
-    default:            return '#ffffff';
-  }
-};
 
 const CustomMarkerIcon = (isSelected: boolean, type: string, subCategory?: string) => {
   const cacheKey = `${type}-${subCategory || ''}-${isSelected}`;
   if (iconCache.has(cacheKey)) return iconCache.get(cacheKey)!;
 
-  const color  = getColor(type);
+  const color  = categoryColor(type);
   const path   = getIconPath(type, subCategory);
   const badge  = isSelected ? 26 : 20;
   const hit    = 36;
@@ -164,7 +154,7 @@ const MapComponent: React.FC<MapComponentProps> = ({ data, onSelect, selectedIte
   const targetCoords = focusCoords || selectedItem?.coordinates || null;
 
   return (
-    <div className="w-full h-full bg-[#050505] relative overflow-hidden">
+    <div className="w-full h-full bg-base relative overflow-hidden">
       <MapContainer
         center={[20, 0]}
         zoom={2}

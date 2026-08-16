@@ -3,6 +3,7 @@ import * as THREE from 'three';
 import Globe from 'react-globe.gl';
 import { CultureItem, UnifiedEvent } from '../types';
 import { calculateDistance } from '../utils/geo';
+import { categoryColor } from '../utils/categoryTheme';
 
 interface GlobeComponentProps {
   data: CultureItem[];
@@ -141,7 +142,7 @@ const GlobeComponent: React.FC<GlobeComponentProps> = ({
   }, []);
 
   return (
-    <div className="globe-container relative w-full h-full bg-[#050505] overflow-hidden cursor-move pointer-events-auto z-10">
+    <div className="globe-container relative w-full h-full bg-base overflow-hidden cursor-move pointer-events-auto z-10">
       <Globe
         ref={globeRef}
         width={dimensions.width}
@@ -174,7 +175,7 @@ const GlobeComponent: React.FC<GlobeComponentProps> = ({
                     <div style="width:8px; height:8px; border-radius:50%; z-index:10; background-color: ${color}; box-shadow: 0 0 10px ${color}"></div>
                     ${isActive ? `<div style="position:absolute; width:100%; height:100%; border-radius:50%; border: 1px solid ${color}; opacity: 0.6; animation: custom-ping 1.5s cubic-bezier(0, 0, 0.2, 1) infinite;"></div>` : ''}
                     
-                    <div class="absolute bottom-full mb-1 left-1/2 -translate-x-1/2 bg-[#111] text-white text-[10px] font-bold px-2 py-1 rounded border border-[#333] whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50 shadow-lg">
+                    <div class="absolute bottom-full mb-1 left-1/2 -translate-x-1/2 bg-raised text-ink text-[12px] font-bold px-2 py-1 rounded border border-line-hard whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50 shadow-lg">
                       ${event.title}
                     </div>
                  </div>
@@ -194,11 +195,7 @@ const GlobeComponent: React.FC<GlobeComponentProps> = ({
           const type = item.ritualType;
           const sub  = (item.subCategory || '').toLowerCase();
 
-          const colorMap: Record<string, string> = {
-            Phenomenon: '#00d4ff', Spiritual: '#d400ff', Festival: '#9fff00',
-            Ceremony: '#ff8a00', Pilgrimage: '#ff0055', Performance: '#00ffa2'
-          };
-          const color = colorMap[type] || '#ffffff';
+          const color = categoryColor(type, item.subCategory);
 
           const getPath = () => {
             if (sub.includes('fire'))      return 'M8,2 C8,2 13,8 13,11 A5,5 0 0,1 3,11 C3,8 8,2 8,2Z';
@@ -243,7 +240,7 @@ const GlobeComponent: React.FC<GlobeComponentProps> = ({
                    <path d="${path}" fill="${color}55"/>
                  </svg>
                </div>
-               <div class="absolute bottom-full mb-1 left-1/2 -translate-x-1/2 bg-[#111] text-white text-[10px] font-bold px-2 py-1 rounded border border-[#333] whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50 shadow-lg" style="margin-left: -16px;">
+               <div class="absolute bottom-full mb-1 left-1/2 -translate-x-1/2 bg-raised text-ink text-[12px] font-bold px-2 py-1 rounded border border-line-hard whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50 shadow-lg" style="margin-left: -16px;">
                  ${item.title}
                </div>
             </div>
@@ -267,7 +264,7 @@ const GlobeComponent: React.FC<GlobeComponentProps> = ({
         }
       ` }} />
 
-      <div className="absolute bottom-4 right-4 z-50 text-[9px] font-mono text-gray-500 uppercase tracking-widest pointer-events-none bg-black/40 px-2 py-1 rounded backdrop-blur-sm">
+      <div className="absolute bottom-4 right-4 z-50 text-[11px] font-mono text-ink-faint uppercase tracking-widest pointer-events-none bg-black/40 px-2 py-1 rounded backdrop-blur-sm">
         Tiles © Esri — Source: Esri, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, etc.
       </div>
     </div>

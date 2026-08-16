@@ -37,8 +37,8 @@ const LocationPickerMap: React.FC<{
 
   const pickerIcon = L.divIcon({
     html: `<div class="relative flex items-center justify-center w-6 h-6">
-            <span class="absolute inline-flex h-full w-full rounded-full bg-[#9fff00] opacity-50 animate-ping"></span>
-            <div class="relative w-3 h-3 bg-[#9fff00] rounded-full border-2 border-black shadow-[0_0_10px_#9fff00]"></div>
+            <span class="absolute inline-flex h-full w-full rounded-full bg-accent opacity-50 animate-ping"></span>
+            <div class="relative w-3 h-3 bg-accent rounded-full border-2 border-black shadow-[0_0_10px_#9fff00]"></div>
            </div>`,
     className: 'custom-picker-icon',
     iconSize: [24, 24],
@@ -172,14 +172,14 @@ const ReportRitualModal: React.FC<ReportRitualModalProps> = ({ isOpen, onClose, 
 
   return (
     <div className="fixed inset-0 z-[200] flex items-center justify-center bg-black/80 backdrop-blur-sm p-4 animate-in">
-      <div className="bg-[#0c0c0c] border border-[#333] w-full max-w-md rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[90vh]">
+      <div className="bg-panel border border-line-hard w-full max-w-md rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[90vh]">
         {/* Header */}
-        <div className="p-5 border-b border-[#222] flex justify-between items-center bg-[#111]">
+        <div className="p-5 border-b border-line flex justify-between items-center bg-raised">
           <div className="flex items-center gap-2 text-[#FFD700]">
             <Radio className="w-5 h-5 animate-pulse" />
             <h2 className="text-sm font-black uppercase tracking-widest">Report Live Ritual</h2>
           </div>
-          <button onClick={onClose} className="text-gray-500 hover:text-white transition-colors">
+          <button onClick={onClose} className="text-ink-faint hover:text-ink transition-colors">
             <X className="w-5 h-5" />
           </button>
         </div>
@@ -188,17 +188,17 @@ const ReportRitualModal: React.FC<ReportRitualModalProps> = ({ isOpen, onClose, 
         <div className="p-6 space-y-6 flex-1 overflow-y-auto custom-scrollbar">
           {/* Section 1: Image */}
           <div className="space-y-2">
-            <label className="text-[10px] font-bold text-gray-500 uppercase tracking-widest">1. Visual Proof</label>
+            <label className="text-[12px] font-bold text-ink-faint uppercase tracking-widest">1. Visual Proof</label>
             <div 
               onClick={() => fileInputRef.current?.click()}
               className={`border-2 border-dashed rounded-xl h-40 flex flex-col items-center justify-center cursor-pointer transition-all ${
-                image ? 'border-[#9fff00] bg-[#1a1a1a]' : 'border-[#333] hover:border-gray-500 hover:bg-[#111]'
+                image ? 'border-accent bg-raised' : 'border-line-hard hover:border-line-hard hover:bg-raised'
               }`}
             >
               {image ? (
                 <img src={image} className="h-full w-full object-cover rounded-lg" alt="Preview" />
               ) : (
-                <div className="text-center text-gray-500 space-y-2">
+                <div className="text-center text-ink-faint space-y-2">
                   <Camera className="w-8 h-8 mx-auto" />
                   <span className="text-xs font-bold uppercase tracking-widest block">Tap to Capture</span>
                 </div>
@@ -216,28 +216,28 @@ const ReportRitualModal: React.FC<ReportRitualModalProps> = ({ isOpen, onClose, 
           {/* Section 2: Location */}
           <div className="space-y-3">
              <div className="flex justify-between items-center">
-               <label className="text-[10px] font-bold text-gray-500 uppercase tracking-widest">2. Location Data</label>
+               <label className="text-[12px] font-bold text-ink-faint uppercase tracking-widest">2. Location Data</label>
                {locationMode === 'gps' && locationError && (
-                 <button onClick={fetchLocation} className="text-[10px] flex items-center gap-1 text-[#FFD700] hover:underline">
+                 <button onClick={fetchLocation} className="text-[12px] flex items-center gap-1 text-[#FFD700] hover:underline">
                    <RefreshCw className="w-3 h-3" /> Retry
                  </button>
                )}
              </div>
 
              {/* Mode Switcher */}
-             <div className="flex p-1 bg-[#111] rounded-lg border border-[#222]">
+             <div className="flex p-1 bg-raised rounded-lg border border-line">
                 <button 
                   onClick={() => setLocationMode('gps')}
-                  className={`flex-1 py-2 rounded-md text-[10px] font-bold uppercase tracking-wider flex items-center justify-center gap-2 transition-all ${
-                    locationMode === 'gps' ? 'bg-[#222] text-[#9fff00] shadow-sm' : 'text-gray-500 hover:text-gray-300'
+                  className={`flex-1 py-2 rounded-md text-[12px] font-bold uppercase tracking-wider flex items-center justify-center gap-2 transition-all ${
+                    locationMode === 'gps' ? 'bg-hover text-accent shadow-sm' : 'text-ink-faint hover:text-ink'
                   }`}
                 >
                   <Navigation className="w-3 h-3" /> Auto GPS
                 </button>
                 <button 
                   onClick={() => setLocationMode('map')}
-                  className={`flex-1 py-2 rounded-md text-[10px] font-bold uppercase tracking-wider flex items-center justify-center gap-2 transition-all ${
-                    locationMode === 'map' ? 'bg-[#222] text-[#9fff00] shadow-sm' : 'text-gray-500 hover:text-gray-300'
+                  className={`flex-1 py-2 rounded-md text-[12px] font-bold uppercase tracking-wider flex items-center justify-center gap-2 transition-all ${
+                    locationMode === 'map' ? 'bg-hover text-accent shadow-sm' : 'text-ink-faint hover:text-ink'
                   }`}
                 >
                   <Globe className="w-3 h-3" /> Select on Map
@@ -248,8 +248,8 @@ const ReportRitualModal: React.FC<ReportRitualModalProps> = ({ isOpen, onClose, 
              {locationMode === 'gps' && (
                 <div className={`p-4 rounded-lg border flex items-center justify-between transition-colors ${
                   locationError ? 'bg-red-900/10 border-red-500/30' : 
-                  gpsCoords ? 'bg-[#9fff00]/5 border-[#9fff00]/30' : 
-                  'bg-[#111] border-[#222]'
+                  gpsCoords ? 'bg-accent/5 border-accent/30' : 
+                  'bg-raised border-line'
                 }`}>
                     <div className="flex items-center gap-3">
                       {isLocating ? (
@@ -257,13 +257,13 @@ const ReportRitualModal: React.FC<ReportRitualModalProps> = ({ isOpen, onClose, 
                       ) : locationError ? (
                         <AlertTriangle className="w-4 h-4 text-red-500" />
                       ) : (
-                        <MapPin className={`w-4 h-4 ${gpsCoords ? 'text-[#9fff00]' : 'text-gray-500'}`} />
+                        <MapPin className={`w-4 h-4 ${gpsCoords ? 'text-accent' : 'text-ink-faint'}`} />
                       )}
                       
                       <span className={`text-xs font-mono ${
                         isLocating ? 'text-[#FFD700]' : 
                         locationError ? 'text-red-400' : 
-                        gpsCoords ? 'text-[#9fff00]' : 'text-gray-400'
+                        gpsCoords ? 'text-accent' : 'text-ink-dim'
                       }`}>
                         {isLocating ? "Acquiring Satellite Lock..." : 
                         locationError ? "Signal Failed" :
@@ -273,18 +273,18 @@ const ReportRitualModal: React.FC<ReportRitualModalProps> = ({ isOpen, onClose, 
                     </div>
                     
                     {gpsCoords && (
-                      <div className="w-2 h-2 rounded-full bg-[#9fff00] animate-pulse shadow-[0_0_8px_#9fff00]"></div>
+                      <div className="w-2 h-2 rounded-full bg-accent animate-pulse shadow-[0_0_8px_#9fff00]"></div>
                     )}
                 </div>
              )}
 
              {/* MAP MODE UI */}
              {locationMode === 'map' && (
-               <div className="h-48 w-full rounded-lg border border-[#333] overflow-hidden relative group">
+               <div className="h-48 w-full rounded-lg border border-line-hard overflow-hidden relative group">
                   <MapContainer 
                     center={gpsCoords || userCoordinates || [20, 0]} 
                     zoom={2} 
-                    className="w-full h-full bg-[#050505]"
+                    className="w-full h-full bg-base"
                     zoomControl={false}
                   >
                      <TileLayer url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png" />
@@ -298,15 +298,15 @@ const ReportRitualModal: React.FC<ReportRitualModalProps> = ({ isOpen, onClose, 
                   {/* Overlay Hint */}
                   {!manualCoords && (
                     <div className="absolute inset-0 flex items-center justify-center pointer-events-none bg-black/20">
-                      <span className="text-[10px] bg-black/80 text-white px-2 py-1 rounded backdrop-blur border border-white/10">Tap to set location</span>
+                      <span className="text-[12px] bg-black/80 text-ink px-2 py-1 rounded backdrop-blur border border-white/10">Tap to set location</span>
                     </div>
                   )}
 
                   {/* Manual Coordinates Display */}
                   {manualCoords && (
-                    <div className="absolute bottom-2 left-2 right-2 bg-black/80 backdrop-blur border border-[#9fff00]/30 p-2 rounded flex justify-between items-center z-[500]">
-                       <span className="text-[9px] text-gray-400 font-bold uppercase">Selected</span>
-                       <span className="text-[10px] font-mono text-[#9fff00]">
+                    <div className="absolute bottom-2 left-2 right-2 bg-black/80 backdrop-blur border border-accent/30 p-2 rounded flex justify-between items-center z-[500]">
+                       <span className="text-[11px] text-ink-dim font-bold uppercase">Selected</span>
+                       <span className="text-[12px] font-mono text-accent">
                          {manualCoords[0].toFixed(4)}, {manualCoords[1].toFixed(4)}
                        </span>
                     </div>
@@ -315,7 +315,7 @@ const ReportRitualModal: React.FC<ReportRitualModalProps> = ({ isOpen, onClose, 
              )}
 
              {locationError && locationMode === 'gps' && (
-               <p className="text-[10px] text-red-400 mt-1">{locationError}</p>
+               <p className="text-[12px] text-red-400 mt-1">{locationError}</p>
              )}
           </div>
 
@@ -329,7 +329,7 @@ const ReportRitualModal: React.FC<ReportRitualModalProps> = ({ isOpen, onClose, 
         </div>
 
         {/* Footer */}
-        <div className="p-5 border-t border-[#222] bg-[#0c0c0c]">
+        <div className="p-5 border-t border-line bg-panel">
           <button 
             onClick={handleVerifyAndSubmit}
             disabled={
@@ -338,10 +338,10 @@ const ReportRitualModal: React.FC<ReportRitualModalProps> = ({ isOpen, onClose, 
               (locationMode === 'gps' && !gpsCoords && !userCoordinates) ||
               (locationMode === 'map' && !manualCoords)
             }
-            className={`w-full py-3.5 rounded-xl font-bold text-xs uppercase tracking-[0.2em] flex items-center justify-center gap-2 transition-all ${
+            className={`w-full py-3.5 rounded-xl font-bold text-xs uppercase tracking-[0.1em] flex items-center justify-center gap-2 transition-all ${
               verifying || !image || (locationMode === 'gps' && !gpsCoords && !userCoordinates) || (locationMode === 'map' && !manualCoords)
-                ? 'bg-[#222] text-gray-500 cursor-not-allowed border border-[#333]'
-                : 'bg-[#FFD700] hover:bg-[#e6c200] text-black shadow-[0_0_20px_rgba(255,215,0,0.3)] border border-[#FFD700]'
+                ? 'bg-hover text-ink-faint cursor-not-allowed border border-line-hard'
+                : 'bg-[#FFD700] hover:bg-[#e6c200] text-on-accent shadow-[0_0_20px_rgba(255,215,0,0.3)] border border-[#FFD700]'
             }`}
           >
             {verifying ? (

@@ -1,0 +1,147 @@
+import { EventCategory, RitualType } from '../types';
+
+/**
+ * One source of truth for what a category looks like.
+ *
+ * This taxonomy was previously duplicated as a switch statement in
+ * CalendarView, DetailPanel, MapComponent and Sidebar — four copies that had
+ * already drifted. Colours resolve to theme tokens rather than literals, so a
+ * palette change is one edit in index.css.
+ *
+ * The app carries two overlapping taxonomies: RitualType for curated culture
+ * items and EventCategory for pipeline events. Both map onto the same six
+ * visual buckets so one legend covers the whole map.
+ */
+
+export type CategoryKey =
+  | 'ritual'
+  | 'migration'
+  | 'flora'
+  | 'atmospheric'
+  | 'cosmic'
+  | 'unrest';
+
+/**
+ * Colour encodes the broad domain; the glyph encodes the specific kind.
+ *
+ * Ten fully distinct hues would need a ten-swatch legend nobody reads, and the
+ * old palette spent six saturated neons on ritual sub-types alone. Grouping to
+ * three colours here (gathering / devotional / sky) keeps one legend for the
+ * whole map, and CATEGORY_GLYPH still separates a pilgrimage from a festival.
+ */
+const RITUAL_TO_KEY: Record<string, CategoryKey> = {
+  [RitualType.FESTIVAL]: 'ritual',
+  [RitualType.CEREMONY]: 'ritual',
+  [RitualType.PERFORMANCE]: 'ritual',
+  [RitualType.SPIRITUAL]: 'cosmic',
+  [RitualType.PILGRIMAGE]: 'cosmic',
+  [RitualType.PHENOMENON]: 'atmospheric'
+};
+
+const EVENT_TO_KEY: Record<string, CategoryKey> = {
+  [EventCategory.RITUAL]: 'ritual',
+  [EventCategory.MIGRATION]: 'migration',
+  [EventCategory.FLORA]: 'flora',
+  [EventCategory.ATMOSPHERIC]: 'atmospheric',
+  [EventCategory.COSMIC]: 'cosmic',
+  [EventCategory.UNREST]: 'unrest'
+};
+
+/**
+ * Sub-categories give the map more resolution than the six buckets.
+ * Anything unmatched falls back to its parent bucket.
+ */
+const SUBCATEGORY_TO_KEY: Record<string, CategoryKey> = {
+  wildlife: 'migration',
+  animal: 'migration',
+  migration: 'migration',
+  botanical: 'flora',
+  bloom: 'flora',
+  nature: 'flora',
+  astronomical: 'cosmic',
+  cosmic: 'cosmic',
+  celestial: 'cosmic',
+  weather: 'atmospheric',
+  atmospheric: 'atmospheric',
+  geological: 'atmospheric'
+};
+
+export function categoryKey(type?: string, subCategory?: string): CategoryKey {
+  if (subCategory) {
+    const hit = SUBCATEGORY_TO_KEY[subCategory.toLowerCase()];
+    if (hit) return hit;
+  }
+  if (type) {
+    return EVENT_TO_KEY[type] ?? RITUAL_TO_KEY[type] ?? 'ritual';
+  }
+  return 'ritual';
+}
+
+/** CSS colour for a category — a token reference, never a literal. */
+export function categoryColor(type?: string, subCategory?: string): string {
+  return `var(--k-cat-${categoryKey(type, subCategory)})`;
+}
+
+/** Tailwind text class, for when a class is more convenient than a style. */
+export function categoryTextClass(type?: string, subCategory?: string): string {
+  return `text-cat-${categoryKey(type, subCategory)}`;
+}
+
+export const CATEGORY_LABEL: Record<CategoryKey, string> = {
+  ritual: 'Human ritual',
+  migration: 'Animal migration',
+  flora: 'Bloom',
+  atmospheric: 'Atmospheric',
+  cosmic: 'Cosmic',
+  unrest: 'Civil unrest'
+};
+
+/**
+ * Marker glyphs, drawn on a 16x16 grid.
+ *
+ * Deliberately simple: these render at ~14px inside a map badge, where a
+ * detailed path turns to mush. Two or three strokes each, closed shapes so
+ * they can take a solid fill.
+ */
+export const CATEGORY_GLYPH: Record<CategoryKey, string> = {
+  // Flame
+  ritual: 'M8 1.5c2.2 2.4 3.4 4.2 3.4 6a3.4 3.4 0 0 1-6.8 0c0-1.1.4-2 1.2-3 .1 1 .6 1.6 1.3 1.8-.3-1.8.3-3.4.9-4.8Z',
+  // Bird
+  migration: 'M1.5 6.5c2 0 3.2-.8 4.3-2 .8-.9 1.4-1.3 2.2-1.3 1.5 0 2.4 1.1 2.9 2.2.4.9 1.1 1.4 2.6 1.6-1.2 1-2.2 1.3-3.4 1.1-.2 1.9-1.6 3.4-3.6 3.4-.6 0-1.1-.1-1.6-.4 1.4-.3 2.3-1.1 2.6-2.3-1.9.3-3.9-.6-6-2.3Z',
+  // Blossom
+  flora: 'M8 2.2c1.1 0 1.9.8 1.9 1.8 1-.5 2.1-.1 2.6.8.5.9.2 2-.7 2.6.9.6 1.2 1.7.7 2.6-.5.9-1.6 1.3-2.6.8 0 1-.8 1.8-1.9 1.8s-1.9-.8-1.9-1.8c-1 .5-2.1.1-2.6-.8-.5-.9-.2-2 .7-2.6-.9-.6-1.2-1.7-.7-2.6.5-.9 1.6-1.3 2.6-.8 0-1 .8-1.8 1.9-1.8Z',
+  // Cloud with a bolt
+  atmospheric: 'M4.4 10.5a2.9 2.9 0 0 1-.3-5.7 3.7 3.7 0 0 1 7.1.6 2.6 2.6 0 0 1 .2 5.1H9.2l1-2.3H7.5l-1.1 2.3Z',
+  // Star
+  cosmic: 'M8 1.6l1.7 4.1 4.4.3-3.4 2.8 1.1 4.3L8 10.7l-3.8 2.4 1.1-4.3-3.4-2.8 4.4-.3Z',
+  // Raised hands / crowd
+  unrest: 'M3.2 14V8.2a1 1 0 0 1 2 0v2.1h.6V6.4a1 1 0 0 1 2 0v3.9h.6V5.2a1 1 0 0 1 2 0v5.1h.6V7.4a1 1 0 0 1 2 0V14Z'
+};
+
+/**
+ * Ritual sub-types share a colour but keep their own glyph, so a pilgrimage
+ * still reads differently from a festival at 20px on the map.
+ */
+const RITUAL_GLYPH: Record<string, string> = {
+  // Flame
+  [RitualType.FESTIVAL]: CATEGORY_GLYPH.ritual,
+  // Bowl / offering
+  [RitualType.CEREMONY]:
+    'M2.4 6.5h11.2c0 3.2-2.5 5.8-5.6 5.8S2.4 9.7 2.4 6.5Zm5.6-3.3c.7.6.7 1.3 0 2.1-.7-.8-.7-1.5 0-2.1Z',
+  // Praying hands / arch
+  [RitualType.SPIRITUAL]:
+    'M8 1.8c2.6 0 4.7 2.1 4.7 4.7V14H9.4V8.2a1.4 1.4 0 0 0-2.8 0V14H3.3V6.5C3.3 3.9 5.4 1.8 8 1.8Z',
+  // Footsteps
+  [RitualType.PILGRIMAGE]:
+    'M4.6 2.2c1 0 1.7 1 1.7 2.4 0 1.3-.6 2.3-1.6 2.3S3 5.9 3 4.6c0-1.4.6-2.4 1.6-2.4Zm-.2 6.2c1.1 0 1.8.6 1.8 1.5s-.6 1.4-.6 2.2c0 .7-.5 1.2-1.3 1.2s-1.4-.6-1.4-1.6c0-1.2.4-1.7.4-2.3 0-.6.3-1 1.1-1Zm7-7.4c1 0 1.6 1 1.6 2.3 0 1.4-.6 2.4-1.6 2.4S9.7 4.7 9.7 3.3c0-1.3.7-2.3 1.7-2.3Zm.2 6.1c.8 0 1.1.4 1.1 1 0 .6.4 1.1.4 2.3 0 1-.6 1.6-1.4 1.6s-1.3-.5-1.3-1.2c0-.8-.6-1.3-.6-2.2s.7-1.5 1.8-1.5Z',
+  // Mask
+  [RitualType.PERFORMANCE]:
+    'M8 2c3 0 5.2 1 5.2 2.6 0 4.2-2.3 8.4-5.2 8.4S2.8 8.8 2.8 4.6C2.8 3 5 2 8 2Zm-2.3 4.1a.9.9 0 1 0 0 1.8.9.9 0 0 0 0-1.8Zm4.6 0a.9.9 0 1 0 0 1.8.9.9 0 0 0 0-1.8Z',
+  // Bolt
+  [RitualType.PHENOMENON]: 'M9.6 1.4 4.2 8.9h3.1L6.4 14.6l5.4-7.9H8.6Z'
+};
+
+export function categoryGlyph(type?: string, subCategory?: string): string {
+  if (type && RITUAL_GLYPH[type]) return RITUAL_GLYPH[type];
+  return CATEGORY_GLYPH[categoryKey(type, subCategory)];
+}

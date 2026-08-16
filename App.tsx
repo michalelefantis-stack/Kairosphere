@@ -23,10 +23,10 @@ const GlobeComponent = React.lazy(() => import('./components/GlobeComponent'));
 
 // Minimal loading fallback for lazy components
 const LazyFallback = () => (
-  <div className="w-full h-full flex items-center justify-center bg-[#050505]">
+  <div className="w-full h-full flex items-center justify-center bg-base">
     <div className="flex flex-col items-center gap-3">
-      <div className="w-6 h-6 border-2 border-[#9fff00] border-t-transparent rounded-full animate-spin" />
-      <span className="text-[10px] uppercase tracking-[0.3em] text-gray-600 font-bold">Loading module...</span>
+      <div className="w-6 h-6 border-2 border-accent border-t-transparent rounded-full animate-spin" />
+      <span className="text-[12px] uppercase tracking-[0.12em] text-ink-faint font-bold">Loading module...</span>
     </div>
   </div>
 );
@@ -38,17 +38,17 @@ const StarRating: React.FC<{ rating: number, count?: string }> = ({ rating, coun
 
   return (
     <div className="flex items-center gap-1.5 mt-1.5 mb-2">
-      <div className="flex text-[#C5A059]">
+      <div className="flex text-gold">
         {[...Array(fullStars)].map((_, i) => (
           <Star key={`full-${i}`} className="w-3.5 h-3.5 fill-current" />
         ))}
         {hasHalfStar && <StarHalf className="w-3.5 h-3.5 fill-current" />}
         {[...Array(emptyStars)].map((_, i) => (
-          <Star key={`empty-${i}`} className="w-3.5 h-3.5 text-gray-700" />
+          <Star key={`empty-${i}`} className="w-3.5 h-3.5 text-ink-faint" />
         ))}
       </div>
-      <span className="text-[10px] font-bold text-[#C5A059]/90">{rating.toFixed(2)}</span>
-      {count && <span className="text-[9px] text-gray-500 ml-1">({count} ratings)</span>}
+      <span className="text-[12px] font-bold text-gold/90">{rating.toFixed(2)}</span>
+      {count && <span className="text-[11px] text-ink-faint ml-1">({count} ratings)</span>}
     </div>
   );
 };
@@ -386,7 +386,7 @@ const App: React.FC = () => {
 
   return (
     <div
-      className="relative h-screen w-full bg-[#050505] text-white overflow-hidden font-sans flex flex-col"
+      className="relative h-screen w-full bg-base text-ink overflow-hidden font-sans flex flex-col"
       style={{ height: '100vh', width: '100vw' }}
     >
       {/* JSON-LD Structured Data for SEO */}
@@ -408,12 +408,12 @@ const App: React.FC = () => {
         {activeTab === 'live' && (
           <div 
             ref={activeTab === 'live' ? sheetRef : undefined}
-            className={`ui-layer absolute left-0 sm:left-4 top-auto sm:top-4 bottom-[64px] sm:bottom-4 z-[40] sm:z-30 flex flex-col w-full sm:w-[380px] bg-[#0c0c0c]/95 sm:backdrop-blur-md border-0 sm:border border-[#222] rounded-t-[32px] sm:rounded-2xl shadow-[0_-15px_40px_rgba(0,0,0,0.8)] sm:shadow-2xl overflow-hidden pointer-events-auto ${dragHeight === null ? 'transition-all duration-300 ' + getMobileHeightClass() : ''}`}
+            className={`ui-layer absolute left-0 sm:left-4 top-auto sm:top-4 bottom-[64px] sm:bottom-4 z-[40] sm:z-30 flex flex-col w-full sm:w-[380px] bg-panel/95 sm:backdrop-blur-md border-0 sm:border border-line rounded-t-[32px] sm:rounded-2xl shadow-[0_-15px_40px_rgba(0,0,0,0.8)] sm:shadow-2xl overflow-hidden pointer-events-auto ${dragHeight === null ? 'transition-all duration-300 ' + getMobileHeightClass() : ''}`}
             style={dragHeight !== null && activeTab === 'live' ? { height: `${dragHeight}px` } : undefined}
           >
              {/* Drag Handle & Mobile Top Bar */}
              <div 
-               className={`w-full flex items-center justify-center pt-3 pb-6 block sm:hidden ${selectedLiveEvent ? 'absolute top-0 left-0 z-[60] bg-gradient-to-b from-[#050505]/80 via-[#050505]/40 to-transparent rounded-t-[32px]' : 'relative bg-[#0c0c0c]/95 rounded-t-[32px]'} sm:bg-transparent`}
+               className={`w-full flex items-center justify-center pt-3 pb-6 block sm:hidden ${selectedLiveEvent ? 'absolute top-0 left-0 z-[60] bg-gradient-to-b from-base/80 via-base/40 to-transparent rounded-t-[32px]' : 'relative bg-panel/95 rounded-t-[32px]'} sm:bg-transparent`}
                onTouchStart={handleTouchStart}
                onTouchMove={handleTouchMove}
                onTouchEnd={handleTouchEnd}
@@ -427,7 +427,7 @@ const App: React.FC = () => {
                {!selectedLiveEvent && (
                  <button 
                    onClick={() => setMobileSheetState('collapsed')}
-                   className="absolute right-4 top-2.5 p-1.5 bg-white/10 hover:bg-white/20 rounded-full text-white transition-colors z-50"
+                   className="absolute right-4 top-2.5 p-1.5 bg-white/10 hover:bg-white/20 rounded-full text-ink transition-colors z-50"
                    style={{ display: mobileSheetState === 'collapsed' ? 'none' : 'block' }}
                  >
                    <X className="w-3.5 h-3.5" />
@@ -452,10 +452,10 @@ const App: React.FC = () => {
             className={`ui-layer absolute left-0 sm:left-4 top-auto sm:top-4 bottom-[64px] sm:bottom-4 z-[40] sm:z-30 flex flex-col pointer-events-none w-full sm:w-[380px] ${dragHeight === null ? 'transition-all duration-300 ' + getMobileHeightClass() : ''}`}
             style={dragHeight !== null && activeTab === 'map' ? { height: `${dragHeight}px` } : undefined}
           >
-            <div className={`flex-1 overflow-hidden pointer-events-auto flex flex-col ${selectedItem || selectedLiveEvent ? 'bg-[#0c0c0c]/95 sm:backdrop-blur-md border-0 sm:border border-[#222] sm:rounded-2xl shadow-[0_-15px_40px_rgba(0,0,0,0.8)] sm:shadow-2xl rounded-t-[32px]' : 'rounded-t-[32px] sm:rounded-none bg-[#0c0c0c]/95 sm:bg-transparent shadow-[0_-15px_40px_rgba(0,0,0,0.8)] sm:shadow-none border-0 sm:border sm:border-transparent border-[#222]'}`}>
+            <div className={`flex-1 overflow-hidden pointer-events-auto flex flex-col ${selectedItem || selectedLiveEvent ? 'bg-panel/95 sm:backdrop-blur-md border-0 sm:border border-line sm:rounded-2xl shadow-[0_-15px_40px_rgba(0,0,0,0.8)] sm:shadow-2xl rounded-t-[32px]' : 'rounded-t-[32px] sm:rounded-none bg-panel/95 sm:bg-transparent shadow-[0_-15px_40px_rgba(0,0,0,0.8)] sm:shadow-none border-0 sm:border sm:border-transparent border-line'}`}>
               {/* Drag Handle & Mobile Top Bar */}
               <div 
-                className={`w-full flex items-center justify-center pt-3 pb-6 block sm:hidden ${selectedItem || selectedLiveEvent ? 'absolute top-0 left-0 z-[60] bg-gradient-to-b from-[#050505]/80 via-[#050505]/40 to-transparent rounded-t-[32px]' : 'relative bg-[#0c0c0c]/95 rounded-t-[32px]'} sm:bg-transparent`}
+                className={`w-full flex items-center justify-center pt-3 pb-6 block sm:hidden ${selectedItem || selectedLiveEvent ? 'absolute top-0 left-0 z-[60] bg-gradient-to-b from-base/80 via-base/40 to-transparent rounded-t-[32px]' : 'relative bg-panel/95 rounded-t-[32px]'} sm:bg-transparent`}
                 onTouchStart={handleTouchStart}
                 onTouchMove={handleTouchMove}
                 onTouchEnd={handleTouchEnd}
@@ -469,7 +469,7 @@ const App: React.FC = () => {
                 {!selectedItem && !selectedLiveEvent && (
                   <button 
                     onClick={() => setMobileSheetState('collapsed')}
-                    className="absolute right-4 top-2.5 p-1.5 bg-white/10 hover:bg-white/20 rounded-full text-white transition-colors z-50"
+                    className="absolute right-4 top-2.5 p-1.5 bg-white/10 hover:bg-white/20 rounded-full text-ink transition-colors z-50"
                     style={{ display: mobileSheetState === 'collapsed' ? 'none' : 'block' }}
                   >
                     <X className="w-3.5 h-3.5" />
@@ -496,7 +496,7 @@ const App: React.FC = () => {
             {/* Collapse Button */}
             <button 
               onClick={toggleSidebar}
-              className="absolute -right-3 top-1/2 -translate-y-1/2 bg-[#0c0c0c] border border-[#222] p-1.5 rounded-full hover:bg-[#111] hover:text-[#9fff00] transition-colors z-40 shadow-lg pointer-events-auto hidden sm:block"
+              className="absolute -right-3 top-1/2 -translate-y-1/2 bg-panel border border-line p-1.5 rounded-full hover:bg-raised hover:text-accent transition-colors z-40 shadow-lg pointer-events-auto hidden sm:block"
             >
               <ChevronLeft className="w-4 h-4" />
             </button>
@@ -508,7 +508,7 @@ const App: React.FC = () => {
            <div className="ui-layer absolute left-0 sm:top-1/2 bottom-5 sm:bottom-auto sm:-translate-y-1/2 z-30 pointer-events-auto hidden sm:flex w-full sm:w-auto justify-center sm:justify-start">
              <button 
               onClick={toggleSidebar}
-              className="bg-[#0c0c0c]/90 backdrop-blur-md border border-[#222] sm:border-l-0 p-2 rounded-full sm:rounded-r-xl sm:rounded-l-none hover:bg-[#111] hover:text-[#9fff00] transition-colors shadow-[0_4px_20px_rgba(0,0,0,0.7)] text-gray-400"
+              className="bg-panel/90 backdrop-blur-md border border-line sm:border-l-0 p-2 rounded-full sm:rounded-r-xl sm:rounded-l-none hover:bg-raised hover:text-accent transition-colors shadow-[0_4px_20px_rgba(0,0,0,0.7)] text-ink-dim"
             >
               <ChevronRight className="w-5 h-5 block" />
             </button>
@@ -516,7 +516,7 @@ const App: React.FC = () => {
         )}
 
         {/* CENTER/RIGHT: Main Viewport (Map, Calendar, etc) */}
-        <div className="flex-1 relative z-0 h-full overflow-hidden flex flex-col min-w-0 bg-[#050505]">
+        <div className="flex-1 relative z-0 h-full overflow-hidden flex flex-col min-w-0 bg-base">
           
           {/* MAP COMPONENT: Shared by Map and Live tabs */}
           {(activeTab === 'map' || activeTab === 'live') && (
@@ -600,50 +600,50 @@ const App: React.FC = () => {
               <div className="max-w-4xl mx-auto space-y-12">
                 
                 {/* Trip Planner Header */}
-                <div className="bg-[#0c0c0c] border border-[#222] rounded-3xl p-6 md:p-8 shadow-2xl relative overflow-hidden">
+                <div className="bg-panel border border-line rounded-3xl p-6 md:p-8 shadow-2xl relative overflow-hidden">
                   <div className="absolute top-0 right-0 p-8 opacity-5">
-                    <Compass className="w-48 h-48 text-[#9fff00]" />
+                    <Compass className="w-48 h-48 text-accent" />
                   </div>
                   <div className="relative z-10 space-y-6">
                     <div>
-                      <h2 className="text-3xl font-black uppercase tracking-tighter text-white">Plan Your Next Journey</h2>
-                      <p className="text-sm text-gray-500 font-medium mt-1">Discover verified cultural events anywhere in the world.</p>
+                      <h2 className="text-3xl font-black uppercase tracking-tighter text-ink">Plan Your Next Journey</h2>
+                      <p className="text-sm text-ink-faint font-medium mt-1">Discover verified cultural events anywhere in the world.</p>
                     </div>
                     
                     {/* Airbnb-style Search Bar */}
                     <form 
                       onSubmit={handleSearchTrip}
-                      className="flex flex-col md:flex-row items-center bg-[#111] border border-[#333] rounded-2xl md:rounded-full p-2 gap-2 shadow-lg"
+                      className="flex flex-col md:flex-row items-center bg-raised border border-line-hard rounded-2xl md:rounded-full p-2 gap-2 shadow-lg"
                     >
-                      <div className="flex-1 w-full flex items-center px-4 py-2 border-b md:border-b-0 md:border-r border-[#333]">
+                      <div className="flex-1 w-full flex items-center px-4 py-2 border-b md:border-b-0 md:border-r border-line-hard">
                         <div className="flex flex-col w-full">
-                          <label className="text-[9px] font-bold text-gray-500 uppercase tracking-widest px-1">Where</label>
+                          <label className="text-[11px] font-bold text-ink-faint uppercase tracking-widest px-1">Where</label>
                           <input 
                             type="text" 
                             placeholder="Search destinations (e.g. Japan)" 
                             value={tripWhere}
                             onChange={e => setTripWhere(e.target.value)}
-                            className="bg-transparent text-sm text-white font-medium focus:outline-none w-full px-1 placeholder-gray-600"
+                            className="bg-transparent text-sm text-ink font-medium focus:outline-none w-full px-1 placeholder-gray-600"
                           />
                         </div>
                       </div>
                       <div className="flex-1 w-full flex items-center px-4 py-2">
                         <div className="flex flex-col w-full">
-                          <label className="text-[9px] font-bold text-gray-500 uppercase tracking-widest px-1">When</label>
+                          <label className="text-[11px] font-bold text-ink-faint uppercase tracking-widest px-1">When</label>
                           <input 
                             type="text" 
                             placeholder="Add months (e.g. August)" 
                             value={tripWhen}
                             onChange={e => setTripWhen(e.target.value)}
-                            className="bg-transparent text-sm text-white font-medium focus:outline-none w-full px-1 placeholder-gray-600"
+                            className="bg-transparent text-sm text-ink font-medium focus:outline-none w-full px-1 placeholder-gray-600"
                           />
                         </div>
                       </div>
                       <button 
                         type="submit"
-                        className="w-full md:w-auto p-4 md:p-3 bg-[#9fff00] hover:bg-[#b0ff33] rounded-xl md:rounded-full flex items-center justify-center transition-colors shadow-[0_0_15px_rgba(159,255,0,0.3)]"
+                        className="w-full md:w-auto p-4 md:p-3 bg-accent hover:bg-accent-hi rounded-xl md:rounded-full flex items-center justify-center transition-colors shadow-[0_0_15px_var(--k-glow)]"
                       >
-                        <Search className="w-5 h-5 text-black" />
+                        <Search className="w-5 h-5 text-on-accent" />
                       </button>
                     </form>
                   </div>
@@ -652,22 +652,22 @@ const App: React.FC = () => {
                 {/* Search Results */}
                 {tripSearchResults !== null && (
                   <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
-                    <h3 className="text-xl font-black uppercase tracking-widest text-[#9fff00] border-b border-[#222] pb-4">
+                    <h3 className="text-xl font-black uppercase tracking-widest text-accent border-b border-line pb-4">
                       {tripSearchResults.length} Results Found
                     </h3>
                     {tripSearchResults.length === 0 ? (
-                       <p className="text-gray-500 text-sm py-4">No events match your search criteria. Try a different region or month.</p>
+                       <p className="text-ink-faint text-sm py-4">No events match your search criteria. Try a different region or month.</p>
                     ) : (
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         {tripSearchResults.map(i => (
-                          <div key={i.id} className="bg-[#0c0c0c] border border-[#222] hover:border-[#9fff00]/50 transition-all rounded-2xl overflow-hidden group cursor-pointer flex flex-col" onClick={() => handleViewInsights(i)}>
+                          <div key={i.id} className="bg-panel border border-line hover:border-accent/50 transition-all rounded-2xl overflow-hidden group cursor-pointer flex flex-col" onClick={() => handleViewInsights(i)}>
                             <div className="w-full h-40 relative overflow-hidden">
                               <img src={i.imageUrl} alt={i.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
-                              <div className="absolute inset-0 bg-gradient-to-t from-[#0c0c0c]/80 via-transparent to-transparent pointer-events-none" />
+                              <div className="absolute inset-0 bg-gradient-to-t from-panel/80 via-transparent to-transparent pointer-events-none" />
                               <div className="absolute top-3 right-3">
                                 <button 
                                   onClick={(e) => { e.stopPropagation(); toggleSaveRitual(i.id); }}
-                                  className={`p-2 rounded-full backdrop-blur-md transition-all shadow-lg ${savedRitualIds.has(i.id) ? 'bg-[#9fff00] text-black border border-[#9fff00]' : 'bg-black/50 text-white hover:bg-[#9fff00] hover:text-black border border-white/20'}`}
+                                  className={`p-2 rounded-full backdrop-blur-md transition-all shadow-lg ${savedRitualIds.has(i.id) ? 'bg-accent text-on-accent border border-accent' : 'bg-black/50 text-ink hover:bg-accent hover:text-on-accent border border-white/20'}`}
                                 >
                                   <Backpack className="w-4 h-4" />
                                 </button>
@@ -675,11 +675,11 @@ const App: React.FC = () => {
                             </div>
                             <div className="p-5 flex-1 flex flex-col justify-between -mt-4 relative z-10">
                               <div>
-                                <span className="text-[9px] font-bold text-[#9fff00] uppercase tracking-widest bg-[#0c0c0c] px-2 py-0.5 rounded border border-[#222]">
+                                <span className="text-[11px] font-bold text-accent uppercase tracking-widest bg-panel px-2 py-0.5 rounded border border-line">
                                   {new Date(i.startDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
                                 </span>
-                                <h4 className="text-lg font-black uppercase tracking-tight mt-3 mb-1 group-hover:text-[#9fff00] transition-colors">{i.title}</h4>
-                                <div className="flex items-center gap-1.5 text-gray-400">
+                                <h4 className="text-lg font-black uppercase tracking-tight mt-3 mb-1 group-hover:text-accent transition-colors">{i.title}</h4>
+                                <div className="flex items-center gap-1.5 text-ink-dim">
                                   <MapPin className="w-3.5 h-3.5" />
                                   <span className="text-xs font-bold uppercase tracking-widest truncate">{i.region}</span>
                                 </div>
@@ -694,26 +694,26 @@ const App: React.FC = () => {
 
                 {/* Saved Itinerary */}
                 <div className="space-y-6">
-                  <div className="flex items-center gap-4 mb-8 border-b border-[#222] pb-6">
-                    <div className="p-3 bg-[#111] rounded-xl border border-[#222]">
-                      <Archive className="w-6 h-6 text-gray-400" />
+                  <div className="flex items-center gap-4 mb-8 border-b border-line pb-6">
+                    <div className="p-3 bg-raised rounded-xl border border-line">
+                      <Archive className="w-6 h-6 text-ink-dim" />
                     </div>
                     <div>
                       <h2 className="text-2xl font-black uppercase tracking-tighter">Saved Itinerary</h2>
-                      <p className="text-sm text-gray-500 font-mono mt-1">{itineraryData.length} Events Tracked</p>
+                      <p className="text-sm text-ink-faint font-mono mt-1">{itineraryData.length} Events Tracked</p>
                     </div>
                   </div>
 
                   {itineraryData.length === 0 ? (
-                    <div className="flex flex-col items-center justify-center py-20 border border-dashed border-[#222] rounded-3xl bg-[#0a0a0a]">
-                      <Backpack className="w-12 h-12 text-gray-700 mb-4" />
-                      <p className="text-gray-400 font-bold uppercase tracking-widest">No rituals saved yet</p>
-                      <p className="text-sm text-gray-600 mt-2">Use the trip planner above to build your journey.</p>
+                    <div className="flex flex-col items-center justify-center py-20 border border-dashed border-line rounded-3xl bg-base">
+                      <Backpack className="w-12 h-12 text-ink-faint mb-4" />
+                      <p className="text-ink-dim font-bold uppercase tracking-widest">No rituals saved yet</p>
+                      <p className="text-sm text-ink-faint mt-2">Use the trip planner above to build your journey.</p>
                     </div>
                   ) : (
                     <div className="space-y-6">
                       {itineraryData.map(i => (
-                        <div key={i.id} className="bg-[#0c0c0c] border border-[#222] hover:border-[#9fff00]/50 transition-all rounded-2xl overflow-hidden group">
+                        <div key={i.id} className="bg-panel border border-line hover:border-accent/50 transition-all rounded-2xl overflow-hidden group">
                           <div className="p-6 flex flex-col md:flex-row gap-6">
                           {/* Image Thumbnail */}
                           <div 
@@ -739,18 +739,18 @@ const App: React.FC = () => {
                           <div className="flex-1 flex flex-col justify-between">
                             <div>
                               <div className="flex items-center gap-2 mb-2">
-                                <CalendarIcon className="w-4 h-4 text-[#9fff00]" />
-                                <span className="text-xs font-bold text-[#9fff00] uppercase tracking-widest">
+                                <CalendarIcon className="w-4 h-4 text-accent" />
+                                <span className="text-xs font-bold text-accent uppercase tracking-widest">
                                   {new Date(i.startDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
                                 </span>
                               </div>
                               <h3 
-                                className="text-xl font-black uppercase tracking-tight mb-1 cursor-pointer hover:text-[#9fff00] transition-colors"
+                                className="text-xl font-black uppercase tracking-tight mb-1 cursor-pointer hover:text-accent transition-colors"
                                 onClick={() => handleViewInsights(i)}
                               >
                                 {i.title}
                               </h3>
-                              <div className="flex items-center gap-2 text-gray-400">
+                              <div className="flex items-center gap-2 text-ink-dim">
                                 <MapPin className="w-3.5 h-3.5" />
                                 <span className="text-xs font-bold uppercase tracking-widest">{i.region}</span>
                               </div>
@@ -758,29 +758,29 @@ const App: React.FC = () => {
 
                             {/* Action Links */}
                             {/* Trip Planning */}
-                            <div className="flex flex-col gap-3 mt-4 pt-4 border-t border-[#222]">
-                              <p className="text-[10px] font-black uppercase tracking-[0.2em] text-[#C5A059] mb-1">Plan Your Trip</p>
+                            <div className="flex flex-col gap-3 mt-4 pt-4 border-t border-line">
+                              <p className="text-[12px] font-black uppercase tracking-[0.1em] text-gold mb-1">Plan Your Trip</p>
                               <div className="flex flex-wrap items-center gap-3">
                                 {/* Option A: Affiliate Travel Agency */}
                                 <a 
                                   href={`https://www.tourradar.com/search?q=${encodeURIComponent(i.region)}`}
                                   target="_blank"
                                   rel="noopener noreferrer"
-                                  className="flex items-center gap-2 px-4 py-2 bg-[#9fff00] hover:bg-white text-black rounded-lg text-xs font-bold transition-all shadow-[0_0_15px_rgba(159,255,0,0.3)] hover:shadow-[0_0_20px_rgba(255,255,255,0.4)]"
+                                  className="flex items-center gap-2 px-4 py-2 bg-accent hover:bg-white text-on-accent rounded-lg text-xs font-bold transition-all shadow-[0_0_15px_var(--k-glow)] hover:shadow-[0_0_20px_rgba(255,255,255,0.4)]"
                                 >
                                   <Compass className="w-4 h-4" />
                                   Book Curated Tour
                                 </a>
 
                                 {/* Option B: DIY Planning */}
-                                <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-0 border border-[#333] rounded-lg p-1 bg-[#0c0c0c]">
-                                   <span className="text-[9px] font-bold text-gray-500 uppercase tracking-widest px-3 sm:border-r border-[#333] pt-1 sm:pt-0">DIY Planning</span>
+                                <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-0 border border-line-hard rounded-lg p-1 bg-panel">
+                                   <span className="text-[11px] font-bold text-ink-faint uppercase tracking-widest px-3 sm:border-r border-line-hard pt-1 sm:pt-0">DIY Planning</span>
                                    <div className="flex items-center">
                                      <a 
                                        href={`https://www.google.com/flights?q=flights+to+${encodeURIComponent(i.region)}`}
                                        target="_blank"
                                        rel="noopener noreferrer"
-                                       className="flex items-center gap-1.5 px-3 py-1.5 hover:bg-[#1a1a1a] hover:text-blue-400 text-gray-400 rounded-md transition-all text-xs font-bold"
+                                       className="flex items-center gap-1.5 px-3 py-1.5 hover:bg-raised hover:text-blue-400 text-ink-dim rounded-md transition-all text-xs font-bold"
                                      >
                                        <Plane className="w-3.5 h-3.5" />
                                        Flights
@@ -789,7 +789,7 @@ const App: React.FC = () => {
                                        href={`https://www.booking.com/searchresults.html?ss=${encodeURIComponent(i.region)}`}
                                        target="_blank"
                                        rel="noopener noreferrer"
-                                       className="flex items-center gap-1.5 px-3 py-1.5 hover:bg-[#1a1a1a] hover:text-purple-400 text-gray-400 rounded-md transition-all text-xs font-bold"
+                                       className="flex items-center gap-1.5 px-3 py-1.5 hover:bg-raised hover:text-purple-400 text-ink-dim rounded-md transition-all text-xs font-bold"
                                      >
                                        <MapPin className="w-3.5 h-3.5" />
                                        Hotels
@@ -803,7 +803,7 @@ const App: React.FC = () => {
                                     e.stopPropagation();
                                     toggleSaveRitual(i.id);
                                   }}
-                                  className="p-2 text-gray-500 hover:text-red-400 hover:bg-red-400/10 rounded-lg transition-colors border border-transparent hover:border-red-400/30"
+                                  className="p-2 text-ink-faint hover:text-red-400 hover:bg-red-400/10 rounded-lg transition-colors border border-transparent hover:border-red-400/30"
                                   title="Remove from Itinerary"
                                 >
                                   <X className="w-4 h-4" />
@@ -831,50 +831,50 @@ const App: React.FC = () => {
             <div className="w-full h-full p-6 md:p-12 pt-16 sm:pt-[100px] md:pt-[120px] pb-safe-tab overflow-y-auto custom-scrollbar">
               <div className="max-w-6xl mx-auto">
                 <div className="flex items-center gap-4 mb-8">
-                  <div className="p-3 bg-[#C5A059]/10 rounded-xl border border-[#C5A059]/20">
-                    <Archive className="w-6 h-6 text-[#C5A059]" />
+                  <div className="p-3 bg-gold/10 rounded-xl border border-gold/20">
+                    <Archive className="w-6 h-6 text-gold" />
                   </div>
                   <div>
                     <h2 className="text-3xl font-black uppercase tracking-tighter">Archival Library</h2>
-                    <p className="text-sm text-gray-500 font-mono mt-1">{allBooks.length} Recommended Texts</p>
+                    <p className="text-sm text-ink-faint font-mono mt-1">{allBooks.length} Recommended Texts</p>
                   </div>
                 </div>
 
                 {allBooks.length === 0 ? (
-                  <div className="flex flex-col items-center justify-center py-20 border border-dashed border-[#222] rounded-3xl bg-[#0a0a0a]">
-                    <Archive className="w-12 h-12 text-gray-700 mb-4" />
-                    <p className="text-gray-400 font-bold uppercase tracking-widest">No books available</p>
+                  <div className="flex flex-col items-center justify-center py-20 border border-dashed border-line rounded-3xl bg-base">
+                    <Archive className="w-12 h-12 text-ink-faint mb-4" />
+                    <p className="text-ink-dim font-bold uppercase tracking-widest">No books available</p>
                   </div>
                 ) : (
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                     {allBooks.map((book, idx) => (
-                      <div key={idx} className="bg-[#0c0c0c] border border-[#222] hover:border-[#C5A059]/50 transition-all rounded-2xl overflow-hidden group flex flex-col">
+                      <div key={idx} className="bg-panel border border-line hover:border-gold/50 transition-all rounded-2xl overflow-hidden group flex flex-col">
                         {book.coverUrl ? (
-                          <div className="w-full h-48 bg-[#111] overflow-hidden">
+                          <div className="w-full h-48 bg-raised overflow-hidden">
                             <img src={book.coverUrl} alt={book.title} className="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500" />
                           </div>
                         ) : (
-                          <div className="w-full h-48 bg-gradient-to-br from-[#111] to-[#050505] flex items-center justify-center border-b border-[#222]">
+                          <div className="w-full h-48 bg-gradient-to-br from-raised to-base flex items-center justify-center border-b border-line">
                             <Archive className="w-12 h-12 text-[#333]" />
                           </div>
                         )}
                         <div className="p-5 flex-1 flex flex-col">
-                          <h3 className="text-lg font-bold leading-tight mb-1 group-hover:text-[#C5A059] transition-colors">{book.title}</h3>
-                          <p className="text-sm text-gray-400 mb-1">{book.author}</p>
+                          <h3 className="text-lg font-bold leading-tight mb-1 group-hover:text-gold transition-colors">{book.title}</h3>
+                          <p className="text-sm text-ink-dim mb-1">{book.author}</p>
                           {book.goodreadsRating && (
                             <StarRating rating={book.goodreadsRating} count={book.ratingCount} />
                           )}
                           
                           {book.description && (
-                            <div className="text-xs text-gray-500 max-h-24 overflow-y-auto custom-scrollbar pr-2 mb-4 flex-1">
+                            <div className="text-xs text-ink-faint max-h-24 overflow-y-auto custom-scrollbar pr-2 mb-4 flex-1">
                               {book.description}
                             </div>
                           )}
                           
-                          <div className="mt-auto pt-4 border-t border-[#222] flex items-center justify-between">
+                          <div className="mt-auto pt-4 border-t border-line flex items-center justify-between">
                             <button 
                               onClick={() => handleViewInsights(book.relatedEvent)}
-                              className="text-[10px] font-bold uppercase tracking-wider text-gray-500 hover:text-white transition-colors flex items-center gap-1"
+                              className="text-[12px] font-bold uppercase tracking-wider text-ink-faint hover:text-ink transition-colors flex items-center gap-1"
                             >
                               <MapPin className="w-3 h-3" />
                               {book.relatedEvent.title}
@@ -886,7 +886,7 @@ const App: React.FC = () => {
                                   href={book.bookshopLink} 
                                   target="_blank" 
                                   rel="noopener noreferrer"
-                                  className="flex items-center gap-1.5 px-3 py-1.5 bg-[#ff3c20]/10 hover:bg-[#ff3c20]/20 border border-[#ff3c20]/30 hover:border-[#ff3c20] text-[#ff3c20] rounded-lg text-[10px] uppercase font-bold tracking-wider transition-all"
+                                  className="flex items-center gap-1.5 px-3 py-1.5 bg-[#ff3c20]/10 hover:bg-[#ff3c20]/20 border border-[#ff3c20]/30 hover:border-[#ff3c20] text-[#ff3c20] rounded-lg text-[12px] uppercase font-bold tracking-wider transition-all"
                                   title="Support Local Bookstores via Bookshop.org"
                                 >
                                   <BookOpen className="w-3.5 h-3.5" />
@@ -898,7 +898,7 @@ const App: React.FC = () => {
                                   href={book.amazonLink || book.url} 
                                   target="_blank" 
                                   rel="noopener noreferrer"
-                                  className="p-1.5 bg-[#111] hover:bg-[#C5A059]/20 text-gray-400 hover:text-[#C5A059] border border-[#222] hover:border-[#C5A059]/50 rounded-lg transition-all"
+                                  className="p-1.5 bg-raised hover:bg-gold/20 text-ink-dim hover:text-gold border border-line hover:border-gold/50 rounded-lg transition-all"
                                   title="View on Amazon"
                                 >
                                   <ExternalLink className="w-3.5 h-3.5" />
@@ -934,24 +934,24 @@ const App: React.FC = () => {
         {/* Location Permission Popup */}
         {showLocationPopup && (
           <div className="absolute inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm">
-            <div className="bg-[#111] border border-[#333] rounded-2xl p-8 max-w-md w-full shadow-2xl text-center flex flex-col items-center">
-              <div className="w-16 h-16 bg-[#9fff00]/10 rounded-full flex items-center justify-center mb-6">
-                <MapPin className="w-8 h-8 text-[#9fff00]" />
+            <div className="bg-raised border border-line-hard rounded-2xl p-8 max-w-md w-full shadow-2xl text-center flex flex-col items-center">
+              <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mb-6">
+                <MapPin className="w-8 h-8 text-accent" />
               </div>
               <h3 className="text-2xl font-bold mb-3">Enable Location</h3>
-              <p className="text-gray-400 mb-8 leading-relaxed">
+              <p className="text-ink-dim mb-8 leading-relaxed">
                 To show you live events and signals in your immediate vicinity (500km radius), we need access to your location.
               </p>
               <div className="flex gap-4 w-full">
                 <button 
                   onClick={handleDenyLocation}
-                  className="flex-1 py-3 px-4 rounded-xl border border-[#333] text-gray-300 hover:bg-[#222] transition-colors font-bold"
+                  className="flex-1 py-3 px-4 rounded-xl border border-line-hard text-ink hover:bg-hover transition-colors font-bold"
                 >
                   Skip
                 </button>
                 <button 
                   onClick={handleAllowLocation}
-                  className="flex-1 py-3 px-4 rounded-xl bg-[#9fff00] text-black hover:bg-white transition-colors font-bold"
+                  className="flex-1 py-3 px-4 rounded-xl bg-accent text-on-accent hover:bg-white transition-colors font-bold"
                 >
                   Allow Access
                 </button>

@@ -16,8 +16,8 @@ const BottomPanel: React.FC<BottomPanelProps> = ({ items, onSelectItem, selected
             <div
               key={item.id}
               onClick={() => onSelectItem(item)}
-              className={`flex-shrink-0 w-64 bg-[#111]/90 backdrop-blur-md border rounded-xl overflow-hidden cursor-pointer transition-all hover:border-white/50 hover:-translate-y-1 ${
-                selectedId === item.id ? 'border-white' : 'border-[#333]'
+              className={`flex-shrink-0 w-64 bg-raised/90 backdrop-blur-md border rounded-xl overflow-hidden cursor-pointer transition-all hover:border-white/50 hover:-translate-y-1 ${
+                selectedId === item.id ? 'border-white' : 'border-line-hard'
               }`}
             >
               <div className="h-32 w-full overflow-hidden">
@@ -36,10 +36,10 @@ const BottomPanel: React.FC<BottomPanelProps> = ({ items, onSelectItem, selected
                 />
               </div>
               <div className="p-3">
-                <h4 className="text-sm font-bold text-white truncate">{item.title}</h4>
-                <p className="text-xs text-gray-400 mt-1 truncate">{item.region}</p>
+                <h4 className="text-sm font-bold text-ink truncate">{item.title}</h4>
+                <p className="text-xs text-ink-dim mt-1 truncate">{item.region}</p>
                 <div className="mt-2 flex items-center justify-between">
-                  <span className="text-[10px] uppercase tracking-wider text-gray-500 bg-[#222] px-2 py-1 rounded">
+                  <span className="text-[12px] uppercase tracking-wider text-ink-faint bg-hover px-2 py-1 rounded">
                     {item.ritualType}
                   </span>
                 </div>

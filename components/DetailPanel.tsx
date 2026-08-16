@@ -3,6 +3,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { CultureItem } from '../types';
 import { X, MapPin, BookOpen, ShoppingBag, Sparkles, Loader2, Calendar, AlignLeft, Backpack } from 'lucide-react';
 import { aiClient } from "../utils/aiClient";
+import { categoryColor } from '../utils/categoryTheme';
 
 interface DetailPanelProps {
   item: CultureItem;
@@ -12,17 +13,6 @@ interface DetailPanelProps {
   onToggleSave?: () => void;
 }
 
-const getRitualColor = (type: string): string => {
-  switch (type) {
-    case 'Phenomenon':  return '#00d4ff';
-    case 'Spiritual':   return '#d400ff';
-    case 'Festival':    return '#9fff00';
-    case 'Ceremony':    return '#ff8a00';
-    case 'Pilgrimage':  return '#ff0055';
-    case 'Performance': return '#00ffa2';
-    default:            return '#ffffff';
-  }
-};
 
 const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights, isSaved = false, onToggleSave }) => {
   const [displayImage, setDisplayImage] = useState(item.imageUrl);
@@ -142,14 +132,14 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights
       }
 
       if (!result) {
-        setWikiContent(`<p class="text-gray-400 italic">No relevant Wikipedia articles could be found for this event.</p>`);
+        setWikiContent(`<p class="text-ink-dim italic">No relevant Wikipedia articles could be found for this event.</p>`);
         return;
       }
 
       // Show a "Related Article" banner if the found article title differs from the event title
       const isExactMatch = result.title.toLowerCase() === item.title.toLowerCase() || result.title.toLowerCase() === cleanTitle.toLowerCase();
       const prefix = !isExactMatch
-        ? `<div class="mb-4 p-3 bg-[#9fff00]/10 border border-[#9fff00]/20 rounded-lg"><p class="text-xs text-[#9fff00] font-mono mb-1 uppercase tracking-widest">Related Article</p><h4 class="text-lg font-bold text-white">${result.title}</h4></div>`
+        ? `<div class="mb-4 p-3 bg-accent/10 border border-accent/20 rounded-lg"><p class="text-xs text-accent font-mono mb-1 uppercase tracking-widest">Related Article</p><h4 class="text-lg font-bold text-ink">${result.title}</h4></div>`
         : '';
       setWikiContent(prefix + result.extract);
     } catch (e) {
@@ -219,15 +209,15 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights
   };
 
   return (
-    <div className="h-full relative text-white overflow-y-auto custom-scrollbar flex flex-col">
+    <div className="h-full relative text-ink overflow-y-auto custom-scrollbar flex flex-col">
       {/* Header Image */}
       <div
         className="h-[260px] w-full relative overflow-hidden flex-shrink-0 group stagger-item"
         style={{ animationDelay: '0s' }}
       >
-        <div className="absolute inset-0 bg-gray-900 animate-pulse flex items-center justify-center" style={{ display: isLoadingAi ? 'flex' : 'none' }}>
-          <div className="text-[10px] text-gray-500 font-mono uppercase tracking-widest flex flex-col items-center gap-2">
-            <Loader2 className="w-5 h-5 animate-spin text-[#9fff00]" />
+        <div className="absolute inset-0 bg-raised animate-pulse flex items-center justify-center" style={{ display: isLoadingAi ? 'flex' : 'none' }}>
+          <div className="text-[12px] text-ink-faint font-mono uppercase tracking-widest flex flex-col items-center gap-2">
+            <Loader2 className="w-5 h-5 animate-spin text-accent" />
             <span>Reconstructing Scene...</span>
           </div>
         </div>
@@ -236,7 +226,7 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights
           className={`w-full h-full object-cover transition-all duration-700 ${isLoadingAi ? 'opacity-0' : 'opacity-100'} ${isAiGenerated ? 'brightness-100' : 'brightness-100 group-hover:scale-105'}`}
           alt={item.title}
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0f0f0f] via-transparent to-black/40 pointer-events-none"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-base via-transparent to-black/40 pointer-events-none"></div>
 
         {/* Top Controls */}
         <div className="absolute top-4 right-4 flex gap-2 z-20">
@@ -244,8 +234,8 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights
             <button
               onClick={onToggleSave}
               className={`p-1.5 rounded-full backdrop-blur-md transition-all border shadow-lg ${isSaved
-                  ? 'bg-[#9fff00] border-[#9fff00] text-black'
-                  : 'bg-black/60 border-white/10 text-gray-300 hover:bg-[#9fff00] hover:border-[#9fff00] hover:text-black'
+                  ? 'bg-accent border-accent text-on-accent'
+                  : 'bg-black/60 border-white/10 text-ink hover:bg-accent hover:border-accent hover:text-on-accent'
                 }`}
               title={isSaved ? "Remove from Itinerary" : "Add to Itinerary"}
             >
@@ -254,7 +244,7 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights
           )}
           <button
             onClick={onClose}
-            className="p-1.5 bg-black/60 hover:bg-[#9fff00] rounded-full transition-all border border-white/10 shadow-lg text-gray-300 hover:text-black"
+            className="p-1.5 bg-black/60 hover:bg-accent rounded-full transition-all border border-white/10 shadow-lg text-ink hover:text-on-accent"
             title="Close Panel"
           >
             <X className="w-5 h-5" />
@@ -263,41 +253,41 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights
       </div>
 
       {/* Content */}
-      <div className="flex-1 p-6 pb-20 space-y-8 relative z-10 bg-[#0c0c0c]/95">
+      <div className="flex-1 p-6 pb-20 space-y-8 relative z-10 bg-panel/95">
         {activeTab === 'summary' ? (
           <>
             {/* Title Block */}
             <div className="space-y-4 stagger-item" style={{ animationDelay: '0.05s' }}>
               <div className="flex items-center gap-2">
                 <span
-                  className="text-[9px] font-bold px-2 py-0.5 rounded uppercase tracking-widest"
+                  className="text-[11px] font-bold px-2 py-0.5 rounded uppercase tracking-widest"
                   style={{
-                    color: getRitualColor(item.ritualType),
-                    backgroundColor: `${getRitualColor(item.ritualType)}18`,
-                    border: `1px solid ${getRitualColor(item.ritualType)}33`,
+                    color: categoryColor(item.ritualType),
+                    backgroundColor: `${categoryColor(item.ritualType)}18`,
+                    border: `1px solid ${categoryColor(item.ritualType)}33`,
                   }}
                 >
                   {item.ritualType}
                 </span>
                 {isSaved && (
-                  <span className="text-[9px] font-bold text-black bg-[#9fff00] px-2 py-0.5 rounded uppercase tracking-widest flex items-center gap-1">
+                  <span className="text-[11px] font-bold text-on-accent bg-accent px-2 py-0.5 rounded uppercase tracking-widest flex items-center gap-1">
                     <Backpack className="w-3 h-3" /> Saved
                   </span>
                 )}
               </div>
-              <h2 className="text-3xl font-black text-white leading-[1.1] tracking-tight uppercase font-sans">
+              <h2 className="text-3xl font-black text-ink leading-[1.1] tracking-tight uppercase font-sans">
                 {item.title}
               </h2>
             </div>
 
             {/* Essential Info compact */}
-            <div className="flex flex-col gap-2.5 bg-[#1a1a1a]/40 rounded-xl p-3.5 border border-white/5 stagger-item" style={{ animationDelay: '0.1s' }}>
+            <div className="flex flex-col gap-2.5 bg-raised/40 rounded-xl p-3.5 border border-white/5 stagger-item" style={{ animationDelay: '0.1s' }}>
               {/* Date */}
               <div className="flex items-center gap-3">
-                <div className="text-[#9fff00]">
+                <div className="text-accent">
                   <Calendar className="w-3.5 h-3.5" />
                 </div>
-                <span className="text-[11px] text-gray-300 font-medium uppercase tracking-wide">
+                <span className="text-[12px] text-ink font-medium uppercase tracking-wide">
                   {formatDisplayDate(item.startDate, item.endDate)}
                 </span>
               </div>
@@ -306,14 +296,14 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights
 
               {/* Location */}
               <div className="flex items-center gap-3">
-                <div className="text-[#9fff00]">
+                <div className="text-accent">
                   <MapPin className="w-3.5 h-3.5" />
                 </div>
                 <div className="flex flex-wrap items-baseline gap-2">
-                  <span className="text-[11px] text-gray-300 font-medium uppercase tracking-wide">
+                  <span className="text-[12px] text-ink font-medium uppercase tracking-wide">
                     {preciseLocation || item.region}
                   </span>
-                  <span className="text-[9px] text-gray-600 font-mono">
+                  <span className="text-[11px] text-ink-faint font-mono">
                     {Math.abs(item.coordinates[0]).toFixed(4)}°{item.coordinates[0] >= 0 ? 'N' : 'S'}, {Math.abs(item.coordinates[1]).toFixed(4)}°{item.coordinates[1] >= 0 ? 'E' : 'W'}
                   </span>
                 </div>
@@ -324,7 +314,7 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights
             <div className="stagger-item" style={{ animationDelay: '0.15s' }}>
               <button
                 onClick={() => onViewInsights(item)}
-                className="w-full bg-[#1a1a1a] hover:bg-[#9fff00] hover:text-black text-white border border-[#333] hover:border-[#9fff00] font-bold py-3.5 rounded-xl text-[11px] uppercase tracking-[0.2em] transition-all flex items-center justify-center gap-3 shadow-lg hover:shadow-[0_0_20px_rgba(159,255,0,0.2)]"
+                className="w-full bg-raised hover:bg-accent hover:text-on-accent text-ink border border-line-hard hover:border-accent font-bold py-3.5 rounded-xl text-[12px] uppercase tracking-[0.1em] transition-all flex items-center justify-center gap-3 shadow-lg hover:shadow-[0_0_20px_var(--k-glow)]"
               >
                 <Sparkles className="w-4 h-4" />
                 <span>Open Full Analysis</span>
@@ -337,22 +327,22 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights
               {/* Overview */}
               <div className="space-y-3">
                 <div className="flex items-center gap-2">
-                  <AlignLeft className="w-4 h-4 text-[#9fff00]" />
-                  <h4 className="text-[10px] text-gray-400 uppercase font-black tracking-[0.2em]">Briefing</h4>
+                  <AlignLeft className="w-4 h-4 text-accent" />
+                  <h4 className="text-[12px] text-ink-dim uppercase font-black tracking-[0.1em]">Briefing</h4>
                 </div>
-                <p className="text-sm text-gray-300 leading-relaxed font-light border-l border-[#333] pl-4">
+                <p className="text-sm text-ink leading-relaxed font-light border-l border-line-hard pl-4">
                   {item.description}
                 </p>
               </div>
 
               {/* Insights */}
               {item.insights && (
-                <div className="space-y-3 bg-[#111]/30 p-5 rounded-2xl border border-white/5">
+                <div className="space-y-3 bg-raised/30 p-5 rounded-2xl border border-white/5">
                   <div className="flex items-center gap-2 mb-1">
-                    <Sparkles className="w-3.5 h-3.5 text-[#9fff00]" />
-                    <h4 className="text-[10px] text-[#9fff00] uppercase font-black tracking-[0.2em]">Cultural Intelligence</h4>
+                    <Sparkles className="w-3.5 h-3.5 text-accent" />
+                    <h4 className="text-[12px] text-accent uppercase font-black tracking-[0.1em]">Cultural Intelligence</h4>
                   </div>
-                  <p className="text-sm text-gray-400 leading-relaxed font-light italic">
+                  <p className="text-sm text-ink-dim leading-relaxed font-light italic">
                     "{item.insights}"
                   </p>
                 </div>
@@ -361,9 +351,9 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights
 
             {/* BOOK RECOMMENDATIONS SECTION */}
             {item.recommendedBooks && item.recommendedBooks.length > 0 && (
-              <div className="space-y-5 pt-8 border-t border-[#222] stagger-item" style={{ animationDelay: '0.25s' }}>
+              <div className="space-y-5 pt-8 border-t border-line stagger-item" style={{ animationDelay: '0.25s' }}>
                 <div className="flex items-center justify-between">
-                  <h4 className="text-[10px] text-gray-500 uppercase font-black tracking-[0.3em] flex items-center gap-2">
+                  <h4 className="text-[12px] text-ink-faint uppercase font-black tracking-[0.12em] flex items-center gap-2">
                     Related Scholarship
                   </h4>
                 </div>
@@ -375,16 +365,16 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights
                       href={book.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="block group bg-[#111] border border-[#222] rounded-xl p-4 transition-all hover:border-[#9fff00]/30 hover:bg-[#151515]"
+                      className="block group bg-raised border border-line rounded-xl p-4 transition-all hover:border-accent/30 hover:bg-raised"
                     >
                       <div className="flex justify-between items-start mb-2">
-                        <h5 className="text-[12px] font-bold text-gray-200 group-hover:text-white transition-colors pr-4 leading-tight">
+                        <h5 className="text-[12px] font-bold text-ink group-hover:text-ink transition-colors pr-4 leading-tight">
                           {book.title}
                         </h5>
-                        <ShoppingBag className="w-3.5 h-3.5 text-gray-700 group-hover:text-[#9fff00] flex-shrink-0 transition-colors" />
+                        <ShoppingBag className="w-3.5 h-3.5 text-ink-faint group-hover:text-accent flex-shrink-0 transition-colors" />
                       </div>
                       <div className="flex items-center justify-between">
-                        <span className="text-[10px] text-gray-500 group-hover:text-gray-400 transition-colors uppercase tracking-widest font-medium">
+                        <span className="text-[12px] text-ink-faint group-hover:text-ink-dim transition-colors uppercase tracking-widest font-medium">
                           BY {book.author}
                         </span>
                       </div>
@@ -397,14 +387,14 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights
         ) : (
           <div className="space-y-6 animate-in fade-in duration-300">
             <div className="flex items-center gap-2 mb-4">
-              <BookOpen className="w-5 h-5 text-[#9fff00]" />
-              <h2 className="text-xl font-black text-white uppercase tracking-widest">Wikipedia</h2>
+              <BookOpen className="w-5 h-5 text-accent" />
+              <h2 className="text-xl font-black text-ink uppercase tracking-widest">Wikipedia</h2>
             </div>
 
             {isLoadingWiki ? (
               <div className="flex flex-col items-center justify-center py-12 gap-4">
-                <Loader2 className="w-8 h-8 animate-spin text-[#9fff00]" />
-                <span className="text-xs text-gray-500 font-mono uppercase tracking-widest">Loading Article...</span>
+                <Loader2 className="w-8 h-8 animate-spin text-accent" />
+                <span className="text-xs text-ink-faint font-mono uppercase tracking-widest">Loading Article...</span>
               </div>
             ) : (
               <div
@@ -417,17 +407,17 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights
       </div>
 
       {/* Footer Tabs */}
-      <div className="flex border-t border-white/5 bg-[#0a0a0a]/50 stagger-item" style={{ animationDelay: '0.3s' }}>
+      <div className="flex border-t border-white/5 bg-base/50 stagger-item" style={{ animationDelay: '0.3s' }}>
         <button
           onClick={() => setActiveTab('summary')}
-          className={`flex-1 py-4 text-center text-[10px] font-black uppercase tracking-widest transition-colors ${activeTab === 'summary' ? 'text-[#9fff00] bg-white/5' : 'text-gray-500 hover:text-gray-300 hover:bg-white/5'}`}
+          className={`flex-1 py-4 text-center text-[12px] font-black uppercase tracking-widest transition-colors ${activeTab === 'summary' ? 'text-accent bg-white/5' : 'text-ink-faint hover:text-ink hover:bg-white/5'}`}
         >
           Summary
         </button>
         <div className="w-px bg-white/5"></div>
         <button
           onClick={() => setActiveTab('wikipedia')}
-          className={`flex-1 py-4 text-center text-[10px] font-black uppercase tracking-widest transition-colors ${activeTab === 'wikipedia' ? 'text-[#9fff00] bg-white/5' : 'text-gray-500 hover:text-gray-300 hover:bg-white/5'}`}
+          className={`flex-1 py-4 text-center text-[12px] font-black uppercase tracking-widest transition-colors ${activeTab === 'wikipedia' ? 'text-accent bg-white/5' : 'text-ink-faint hover:text-ink hover:bg-white/5'}`}
         >
           Wikipedia
         </button>

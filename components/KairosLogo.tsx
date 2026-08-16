@@ -15,7 +15,7 @@ const KairosLogo: React.FC<KairosLogoProps> = ({ className = "", size = 32, colo
       viewBox="0 0 100 100"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className={`${className} filter drop-shadow-[0_0_8px_rgba(159,255,0,0.4)]`}
+      className={`${className} filter drop-shadow-[0_0_8px_var(--k-glow)]`}
     >
       {/* Outer Sphere Frame */}
       <circle

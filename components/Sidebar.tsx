@@ -3,6 +3,7 @@ import { Search, Sliders, X, Play, SkipBack, SkipForward, Heart, Share2, Chevron
 import { FilterState, CultureItem, UnifiedEvent } from '../types';
 import DetailPanel from './DetailPanel';
 import LiveDetailPanel from './LiveDetailPanel';
+import { categoryColor } from '../utils/categoryTheme';
 
 interface SidebarProps {
   filters: FilterState;
@@ -18,17 +19,6 @@ interface SidebarProps {
   onToggleSave: () => void;
 }
 
-const getCategoryColor = (type: string) => {
-  switch (type) {
-    case 'Phenomenon': return '#00d4ff';
-    case 'Spiritual': return '#d400ff';
-    case 'Festival': return '#9fff00';
-    case 'Ceremony': return '#ff8a00';
-    case 'Pilgrimage': return '#ff0055';
-    case 'Performance': return '#00ffa2';
-    default: return '#ffffff';
-  }
-};
 
 const ITEM_HEIGHT = 82; // px per list item (64px image + padding)
 const BUFFER_COUNT = 5; // extra items above/below viewport
@@ -113,17 +103,17 @@ const Sidebar: React.FC<SidebarProps> = ({
   const offsetY = startIdx * ITEM_HEIGHT;
 
   return (
-    <div className="h-full flex flex-col bg-transparent text-white font-sans gap-4">
+    <div className="h-full flex flex-col bg-transparent text-ink font-sans gap-4">
       {/* Search & Filter Header - Top Card */}
-      <div className="p-4 pt-6 sm:pt-[64px] space-y-4 bg-[#0c0c0c]/95 sm:backdrop-blur-md border-0 sm:border border-[#222] sm:rounded-2xl shadow-2xl flex-shrink-0">
+      <div className="p-4 pt-6 sm:pt-[64px] space-y-4 bg-panel/95 sm:backdrop-blur-md border-0 sm:border border-line sm:rounded-2xl shadow-2xl flex-shrink-0">
         <div className="relative">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500" />
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-ink-faint" />
           <input
             type="text"
             placeholder="Search rituals, places..."
             value={filters.search}
             onChange={(e) => setFilters({ ...filters, search: e.target.value })}
-            className="w-full bg-[#111] border border-[#333] rounded-full py-2 pl-9 pr-4 text-sm text-gray-200 focus:outline-none focus:border-[#9fff00] transition-colors placeholder:text-gray-600"
+            className="w-full bg-raised border border-line-hard rounded-full py-2 pl-9 pr-4 text-sm text-ink focus:outline-none focus:border-accent transition-colors placeholder:text-ink-faint"
           />
         </div>
 
@@ -131,7 +121,7 @@ const Sidebar: React.FC<SidebarProps> = ({
         <div className="flex items-center -mx-2">
           <button
             onClick={scrollLeft}
-            className="p-1 text-gray-600 hover:text-white transition-colors flex-shrink-0"
+            className="p-1 text-ink-faint hover:text-ink transition-colors flex-shrink-0"
           >
             <ChevronLeft className="w-4 h-4" />
           </button>
@@ -141,14 +131,14 @@ const Sidebar: React.FC<SidebarProps> = ({
           >
             {['All', 'Phenomenon', 'Spiritual', 'Festival', 'Ceremony', 'Pilgrimage', 'Performance'].map((cat) => {
               const isActive = filters.type === cat;
-              const color = cat === 'All' ? '#fff' : getCategoryColor(cat);
+              const color = cat === 'All' ? '#fff' : categoryColor(cat);
               return (
                 <button
                   key={cat}
                   onClick={() => setFilters({ ...filters, type: cat as any })}
                   className={`
-                    whitespace-nowrap px-3 py-1 rounded-full text-[10px] font-mono uppercase tracking-wider border transition-all
-                    ${isActive ? 'bg-opacity-20' : 'bg-transparent border-[#333] text-gray-400 hover:border-[#555] hover:text-gray-200'}
+                    whitespace-nowrap px-3 py-1 rounded-full text-[12px] font-mono uppercase tracking-wider border transition-all
+                    ${isActive ? 'bg-opacity-20' : 'bg-transparent border-line-hard text-ink-dim hover:border-line-hard hover:text-ink'}
                   `}
                   style={isActive ? { borderColor: color, color: color, backgroundColor: `${color}15` } : {}}
                 >
@@ -159,7 +149,7 @@ const Sidebar: React.FC<SidebarProps> = ({
           </div>
           <button
             onClick={scrollRight}
-            className="p-1 text-gray-600 hover:text-white transition-colors flex-shrink-0"
+            className="p-1 text-ink-faint hover:text-ink transition-colors flex-shrink-0"
           >
             <ChevronRight className="w-4 h-4" />
           </button>
@@ -167,7 +157,7 @@ const Sidebar: React.FC<SidebarProps> = ({
 
         {/* Minimal Timeline Slider */}
         <div className="flex items-center gap-3 px-1">
-          <span className="text-[10px] font-mono text-gray-500 uppercase tracking-wider">Timeline</span>
+          <span className="text-[12px] font-mono text-ink-faint uppercase tracking-wider">Timeline</span>
           <input
             type="range"
             min="0"
@@ -175,17 +165,17 @@ const Sidebar: React.FC<SidebarProps> = ({
             step="1"
             value={filters.month}
             onChange={(e) => setFilters({ ...filters, month: parseInt(e.target.value) })}
-            className="flex-1 h-0.5 bg-[#333] rounded-lg appearance-none cursor-pointer accent-[#9fff00]"
+            className="flex-1 h-0.5 bg-line-hard rounded-lg appearance-none cursor-pointer accent-accent"
           />
-          <span className="text-[10px] font-mono text-[#9fff00] w-8 text-right">
+          <span className="text-[12px] font-mono text-accent w-8 text-right">
             {filters.month === 0 ? 'ALL' : new Date(0, filters.month - 1).toLocaleString('en-US', { month: 'short' }).toUpperCase()}
           </span>
         </div>
       </div>
 
       {/* List Content - Bottom Card (VIRTUALIZED) */}
-      <div className="flex-1 overflow-hidden bg-[#0c0c0c]/95 sm:backdrop-blur-md border-0 sm:border border-[#222] sm:rounded-2xl shadow-2xl flex flex-col min-h-0">
-        <div className="px-4 py-3 text-[10px] font-mono text-gray-500 uppercase tracking-widest border-b border-[#1a1a1a] flex-shrink-0">
+      <div className="flex-1 overflow-hidden bg-panel/95 sm:backdrop-blur-md border-0 sm:border border-line sm:rounded-2xl shadow-2xl flex flex-col min-h-0">
+        <div className="px-4 py-3 text-[12px] font-mono text-ink-faint uppercase tracking-widest border-b border-line-soft flex-shrink-0">
           {items.length} Results Found
         </div>
         <div 
@@ -200,12 +190,12 @@ const Sidebar: React.FC<SidebarProps> = ({
                   key={item.id}
                   onClick={() => onSelectItem(item)}
                   className={`
-                  group px-4 py-3 border-b border-[#1a1a1a] cursor-pointer transition-all hover:bg-[#111]
-                  ${selectedId === item.id ? 'bg-[#111] border-l-2 border-l-[#9fff00]' : 'border-l-2 border-l-transparent'}
+                  group px-4 py-3 border-b border-line-soft cursor-pointer transition-all hover:bg-raised
+                  ${selectedId === item.id ? 'bg-raised border-l-2 border-l-accent' : 'border-l-2 border-l-transparent'}
                 `}
                 >
                   <div className="flex gap-3 items-center">
-                    <div className="w-16 h-16 bg-[#222] rounded-lg overflow-hidden flex-shrink-0 border border-[#333] relative">
+                    <div className="w-16 h-16 bg-hover rounded-lg overflow-hidden flex-shrink-0 border border-line-hard relative">
                       <img
                         src={item.imageUrl}
                         alt={item.title}
@@ -226,14 +216,14 @@ const Sidebar: React.FC<SidebarProps> = ({
                       />
                     </div>
                     <div className="flex-1 min-w-0 flex flex-col justify-center py-0.5">
-                      <h3 className={`text-sm font-bold leading-tight transition-colors truncate ${selectedId === item.id ? 'text-[#9fff00]' : 'text-gray-200 group-hover:text-white'}`}>
+                      <h3 className={`text-sm font-bold leading-tight transition-colors truncate ${selectedId === item.id ? 'text-accent' : 'text-ink group-hover:text-ink'}`}>
                         {item.title}
                       </h3>
                       <div className="flex items-center justify-between mt-1.5">
-                        <span className="text-[11px] text-gray-400 font-medium truncate pr-2">{item.region}</span>
+                        <span className="text-[12px] text-ink-dim font-medium truncate pr-2">{item.region}</span>
                         <span
-                          className="uppercase tracking-wider text-[9px] font-bold border px-1.5 py-0.5 rounded transition-colors whitespace-nowrap"
-                          style={{ borderColor: getCategoryColor(item.ritualType), color: getCategoryColor(item.ritualType), backgroundColor: `${getCategoryColor(item.ritualType)}15` }}
+                          className="uppercase tracking-wider text-[11px] font-bold border px-1.5 py-0.5 rounded transition-colors whitespace-nowrap"
+                          style={{ borderColor: categoryColor(item.ritualType), color: categoryColor(item.ritualType), backgroundColor: `${categoryColor(item.ritualType)}15` }}
                         >
                           {item.ritualType}
                         </span>
@@ -246,7 +236,7 @@ const Sidebar: React.FC<SidebarProps> = ({
           </div>
 
           {items.length === 0 && (
-            <div className="p-8 text-center text-gray-600 text-sm">
+            <div className="p-8 text-center text-ink-faint text-sm">
               No rituals found matching your criteria.
             </div>
           )}
