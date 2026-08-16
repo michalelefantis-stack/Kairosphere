@@ -58,3 +58,6 @@ temp_extract/
 # git history is permanent and this is a record, not source. Remove this line
 # if you want it versioned.
 migrated_prompt_history/
+
+# Monitor output — regenerate with `python -m pipeline.monitor`
+public/data/local/
