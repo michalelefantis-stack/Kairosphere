@@ -1,0 +1,394 @@
+@import "tailwindcss";
+
+/* ═══════════════════════════════════════════════════════════════════════════════
+   KAIROSPHERE — Design Token System
+   ═══════════════════════════════════════════════════════════════════════════════ */
+
+/* ─── SAFE AREA (edge-to-edge mobile) ───────────────────────────────────────── */
+:root {
+  --safe-area-top: env(safe-area-inset-top, 0px);
+  --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-area-left: env(safe-area-inset-left, 0px);
+  --safe-area-right: env(safe-area-inset-right, 0px);
+  --tab-bar-height: 64px;
+}
+
+/* Utility: pad content above the tab bar on mobile */
+@media (max-width: 639px) {
+  .pb-safe-tab {
+    padding-bottom: calc(var(--tab-bar-height) + var(--safe-area-bottom));
+  }
+}
+   
+   Architecture:
+   ┌─────────────────────────────────────────────┐
+   │  :root               → dark theme (default) │
+   │  html.light-mode      → light theme          │
+   │  html.theme-[name]    → future themes        │
+   ├─────────────────────────────────────────────┤
+   │  .ui-layer overrides  → bridge for Tailwind  │
+   │  Map/Globe protection → always dark          │
+   └─────────────────────────────────────────────┘
+
+   Token naming:
+     --surface-*       Background layers (base → overlay)
+     --on-surface-*    Foreground text on surfaces
+     --border-*        Border colors
+     --accent-*        Brand accent (interactive elements)
+     --status-*        Semantic status colors
+     --category-*      Event type colors (fixed across themes)
+     --shadow-*        Elevation shadows
+     --scrollbar-*     Scrollbar theming
+
+   WCAG AA contrast ratios (≥4.5:1 for normal text, ≥3:1 for large):
+   Documented inline as "CR: X.X:1 on [surface]"
+
+   Adding a new theme:
+   1. Copy the html.light-mode block
+   2. Rename to html.theme-[name] (e.g. html.theme-midnight)
+   3. Adjust values
+   4. Toggle via: document.documentElement.className = 'theme-[name]'
+   ═══════════════════════════════════════════════════════════════════════════════ */
+
+
+/* ─── DARK THEME (default) ──────────────────────────────────────────────────── */
+:root {
+  /* Surface layers (darkest → lightest) */
+  --surface-base:       #050505;
+  --surface-raised:     #0c0c0c;
+  --surface-overlay:    #111111;
+  --surface-elevated:   #1a1a1a;
+  --surface-hover:      #222222;
+
+  /* Semi-transparent surfaces */
+  --surface-panel:      rgba(12, 12, 12, 0.95);
+  --surface-scrim:      rgba(5, 5, 5, 0.8);
+  --surface-glass:      rgba(5, 5, 5, 0.6);
+
+  /* Foreground: text on dark surfaces */
+  --on-surface:         #ffffff;    /* CR: 19.2:1 on #050505 */
+  --on-surface-medium:  #d1d5db;    /* CR: 12.7:1 on #050505 */
+  --on-surface-muted:   #6b7280;    /* CR:  4.6:1 on #050505 (AA pass) */
+  --on-surface-faint:   #4b5563;    /* CR:  3.1:1 on #050505 (large text only) */
+  --on-surface-ghost:   #374151;    /* decorative / non-text only */
+
+  /* Borders */
+  --border-default:     #222222;
+  --border-strong:      #333333;
+  --border-subtle:      #1a1a1a;
+
+  /* Accent — brand green */
+  --accent:             #9fff00;    /* CR: 12.8:1 on #050505 */
+  --accent-hover:       #b5ff33;
+  --accent-muted:       rgba(159, 255, 0, 0.15);
+  --accent-on-accent:   #000000;    /* text on accent bg */
+
+  /* Status colors (semantic, theme-independent hue, adjusted lightness) */
+  --status-success:     #22c55e;    /* CR:  6.1:1 on #050505 */
+  --status-warning:     #f59e0b;    /* CR:  8.6:1 on #050505 */
+  --status-danger:      #ef4444;    /* CR:  5.0:1 on #050505 */
+  --status-info:        #3b82f6;    /* CR:  4.6:1 on #050505 */
+  --status-live:        #f97316;    /* live event pulse */
+
+  /* Shadows & elevation */
+  --shadow-sm:          0 1px 3px rgba(0, 0, 0, 0.5);
+  --shadow-md:          0 4px 12px rgba(0, 0, 0, 0.6);
+  --shadow-lg:          0 10px 30px rgba(0, 0, 0, 0.7);
+  --shadow-glow-accent: 0 0 15px rgba(159, 255, 0, 0.3);
+
+  /* Scrollbar */
+  --scrollbar-track:    #0a0a0a;
+  --scrollbar-thumb:    #222222;
+  --scrollbar-hover:    #333333;
+
+  /* Transitions */
+  --transition-theme:   background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+
+  /* ─── Legacy aliases (back-compat with inline references) ─── */
+  --bg-primary:         var(--surface-base);
+  --bg-secondary:       var(--surface-raised);
+  --bg-tertiary:        var(--surface-overlay);
+  --bg-elevated:        var(--surface-elevated);
+  --bg-hover:           var(--surface-hover);
+  --border-primary:     var(--border-default);
+  --border-secondary:   var(--border-strong);
+  --text-primary:       var(--on-surface);
+  --text-secondary:     var(--on-surface-medium);
+  --text-muted:         var(--on-surface-muted);
+  --panel-bg:           var(--surface-panel);
+  --overlay-bg:         var(--surface-scrim);
+}
+
+
+/* ─── LIGHT THEME ───────────────────────────────────────────────────────────── */
+html.light-mode {
+  /* Surface layers (lightest → slightly tinted) */
+  --surface-base:       #f5f5f0;
+  --surface-raised:     #eeeeea;
+  --surface-overlay:    #e8e8e2;
+  --surface-elevated:   #ffffff;
+  --surface-hover:      #e0e0da;
+
+  /* Semi-transparent surfaces */
+  --surface-panel:      rgba(245, 245, 240, 0.95);
+  --surface-scrim:      rgba(245, 245, 240, 0.8);
+  --surface-glass:      rgba(255, 255, 255, 0.6);
+
+  /* Foreground: text on light surfaces */
+  --on-surface:         #1a1a1a;    /* CR: 14.7:1 on #f5f5f0 */
+  --on-surface-medium:  #4a4a4a;    /* CR:  7.6:1 on #f5f5f0 */
+  --on-surface-muted:   #6b6b6b;    /* CR:  4.7:1 on #f5f5f0 (AA pass) */
+  --on-surface-faint:   #888888;    /* CR:  3.3:1 on #f5f5f0 (large text only) */
+  --on-surface-ghost:   #aaaaaa;    /* decorative / non-text only */
+
+  /* Borders */
+  --border-default:     #d0d0c8;
+  --border-strong:      #c0c0b8;
+  --border-subtle:      #e0e0d8;
+
+  /* Accent — darker green for contrast on light bg */
+  --accent:             #5a8f00;    /* CR:  4.7:1 on #f5f5f0 (AA pass) */
+  --accent-hover:       #4a7700;
+  --accent-muted:       rgba(90, 143, 0, 0.12);
+  --accent-on-accent:   #ffffff;    /* text on accent bg */
+
+  /* Status colors adjusted for light backgrounds */
+  --status-success:     #16a34a;    /* CR:  4.6:1 on #f5f5f0 */
+  --status-warning:     #d97706;    /* CR:  4.6:1 on #f5f5f0 */
+  --status-danger:      #dc2626;    /* CR:  5.6:1 on #f5f5f0 */
+  --status-info:        #2563eb;    /* CR:  5.2:1 on #f5f5f0 */
+  --status-live:        #ea580c;
+
+  /* Shadows (lighter, subtler) */
+  --shadow-sm:          0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-md:          0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-lg:          0 10px 30px rgba(0, 0, 0, 0.12);
+  --shadow-glow-accent: 0 0 15px rgba(90, 143, 0, 0.2);
+
+  /* Scrollbar */
+  --scrollbar-track:    #eeeeea;
+  --scrollbar-thumb:    #c0c0b8;
+  --scrollbar-hover:    #aaa8a0;
+}
+
+
+/* ─── EVENT CATEGORY COLORS (consistent across all themes) ──────────────────── */
+:root {
+  --category-festival:    #9fff00;
+  --category-ceremony:    #ff8a00;
+  --category-spiritual:   #d400ff;
+  --category-pilgrimage:  #ff0055;
+  --category-performance: #00ffa2;
+  --category-phenomenon:  #00d4ff;
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════════════════
+   UI-LAYER OVERRIDES — Bridge between hardcoded Tailwind classes and theme tokens
+   
+   These selectors remap inline Tailwind colors (e.g. bg-[#0c0c0c]) to CSS 
+   variables so light mode works without modifying component source.
+   Scoped to .ui-layer to avoid affecting map/globe.
+   ═══════════════════════════════════════════════════════════════════════════════ */
+
+html.light-mode .ui-layer {
+  color: var(--on-surface);
+}
+
+/* ── Surface remapping ─────────────────────────────────────────────────────── */
+html.light-mode .ui-layer nav,
+html.light-mode .ui-layer[class*="bg-[#0c0c0c]"],
+html.light-mode .ui-layer [class*="bg-[#0c0c0c]"],
+html.light-mode .ui-layer[class*="bg-[#050505]"],
+html.light-mode .ui-layer [class*="bg-[#050505]"],
+html.light-mode .ui-layer[class*="bg-black"],
+html.light-mode .ui-layer [class*="bg-black"] {
+  background-color: var(--surface-elevated) !important;
+  border-color: var(--border-default) !important;
+  color: var(--on-surface) !important;
+}
+
+html.light-mode .ui-layer[class*="bg-[#111]"],
+html.light-mode .ui-layer [class*="bg-[#111]"],
+html.light-mode .ui-layer[class*="bg-[#1a1a1a]"],
+html.light-mode .ui-layer [class*="bg-[#1a1a1a]"] {
+  background-color: var(--surface-overlay) !important;
+}
+
+html.light-mode .ui-layer.sidebar-panel,
+html.light-mode .ui-layer .sidebar-panel,
+html.light-mode .ui-layer[class*="bg-[#0a0a0a]"],
+html.light-mode .ui-layer [class*="bg-[#0a0a0a]"],
+html.light-mode .ui-layer[class*="bg-[#0c0c0c]/95"],
+html.light-mode .ui-layer [class*="bg-[#0c0c0c]/95"],
+html.light-mode .ui-layer[class*="bg-[#0c0c0c]/90"],
+html.light-mode .ui-layer [class*="bg-[#0c0c0c]/90"] {
+  background-color: var(--surface-panel) !important;
+}
+
+html.light-mode .ui-layer[class*="bg-[#222]"],
+html.light-mode .ui-layer [class*="bg-[#222]"],
+html.light-mode .ui-layer[class*="bg-[#1e1e1e]"],
+html.light-mode .ui-layer [class*="bg-[#1e1e1e]"] {
+  background-color: var(--surface-hover) !important;
+}
+
+html.light-mode .ui-layer[class*="backdrop-blur"],
+html.light-mode .ui-layer [class*="backdrop-blur"] {
+  background-color: var(--surface-panel) !important;
+}
+
+html.light-mode .ui-layer .absolute[class*="bg-[#0c0c0c]"] {
+  background-color: var(--surface-elevated) !important;
+}
+
+/* ── Border remapping ──────────────────────────────────────────────────────── */
+html.light-mode .ui-layer[class*="border-[#222]"],
+html.light-mode .ui-layer [class*="border-[#222]"],
+html.light-mode .ui-layer[class*="border-[#1a1a1a]"],
+html.light-mode .ui-layer [class*="border-[#1a1a1a]"],
+html.light-mode .ui-layer[class*="border-[#111]"],
+html.light-mode .ui-layer [class*="border-[#111]"] {
+  border-color: var(--border-default) !important;
+}
+
+html.light-mode .ui-layer[class*="border-[#333]"],
+html.light-mode .ui-layer [class*="border-[#333]"] {
+  border-color: var(--border-strong) !important;
+}
+
+/* ── Text remapping ────────────────────────────────────────────────────────── */
+html.light-mode .ui-layer .text-white,
+html.light-mode .ui-layer[class*="text-white"],
+html.light-mode .ui-layer [class*="text-white"] {
+  color: var(--on-surface) !important;
+}
+
+html.light-mode .ui-layer .text-gray-200,
+html.light-mode .ui-layer [class*="text-gray-200"],
+html.light-mode .ui-layer .text-gray-300 {
+  color: var(--on-surface-medium) !important;
+}
+
+html.light-mode .ui-layer .text-gray-400,
+html.light-mode .ui-layer[class*="text-gray-400"],
+html.light-mode .ui-layer [class*="text-gray-400"] {
+  color: var(--on-surface-medium) !important;
+}
+
+html.light-mode .ui-layer .text-gray-500,
+html.light-mode .ui-layer[class*="text-gray-500"],
+html.light-mode .ui-layer [class*="text-gray-500"] {
+  color: var(--on-surface-muted) !important;
+}
+
+html.light-mode .ui-layer .text-gray-600,
+html.light-mode .ui-layer [class*="text-gray-600"] {
+  color: var(--on-surface-muted) !important;
+}
+
+html.light-mode .ui-layer .text-gray-700,
+html.light-mode .ui-layer [class*="text-gray-700"] {
+  color: var(--on-surface-ghost) !important;
+}
+
+/* ── Accent remapping ──────────────────────────────────────────────────────── */
+html.light-mode .ui-layer[class*="text-[#9fff00]"],
+html.light-mode .ui-layer [class*="text-[#9fff00]"] {
+  color: var(--accent) !important;
+}
+
+html.light-mode .ui-layer[class*="bg-[#9fff00]"],
+html.light-mode .ui-layer [class*="bg-[#9fff00]"] {
+  background-color: var(--accent) !important;
+}
+
+html.light-mode .ui-layer[class*="border-[#9fff00]"],
+html.light-mode .ui-layer [class*="border-[#9fff00]"] {
+  border-color: var(--accent) !important;
+}
+
+/* ── Hover states ──────────────────────────────────────────────────────────── */
+html.light-mode .ui-layer[class*="hover:bg-[#222]"]:hover,
+html.light-mode .ui-layer [class*="hover:bg-[#222]"]:hover,
+html.light-mode .ui-layer[class*="hover:bg-[#1a1a1a]"]:hover,
+html.light-mode .ui-layer [class*="hover:bg-[#1a1a1a]"]:hover,
+html.light-mode .ui-layer[class*="hover:bg-[#111]"]:hover,
+html.light-mode .ui-layer [class*="hover:bg-[#111]"]:hover {
+  background-color: var(--surface-hover) !important;
+}
+
+/* ── Scrollbar ─────────────────────────────────────────────────────────────── */
+html.light-mode .ui-layer ::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+html.light-mode .ui-layer ::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+}
+html.light-mode .ui-layer ::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-hover);
+}
+
+/* ── Leaflet attribution ───────────────────────────────────────────────────── */
+html.light-mode .leaflet-control-attribution {
+  background: var(--surface-panel) !important;
+  color: var(--on-surface-muted) !important;
+}
+html.light-mode .leaflet-control-attribution a {
+  color: var(--accent) !important;
+}
+
+
+/* ═══ CRITICAL: Protect map & globe from any theme leakage ═══════════════════ */
+html.light-mode .globe-container,
+html.light-mode .globe-container canvas,
+html.light-mode .leaflet-container {
+  color-scheme: dark !important;
+  filter: none !important;
+  background-color: #050505 !important;
+}
+
+
+/* ═══════════════════════════════════════════════════════════════════════════════
+   THEME TEMPLATE — Copy this block and rename to add a new theme.
+   Toggle via: document.documentElement.className = 'theme-midnight';
+   ═══════════════════════════════════════════════════════════════════════════════
+
+html.theme-midnight {
+  --surface-base:       #0a0a1a;
+  --surface-raised:     #10102a;
+  --surface-overlay:    #18183a;
+  --surface-elevated:   #22224a;
+  --surface-hover:      #2a2a5a;
+  --surface-panel:      rgba(16, 16, 42, 0.95);
+  --surface-scrim:      rgba(10, 10, 26, 0.8);
+  --surface-glass:      rgba(10, 10, 26, 0.6);
+  --on-surface:         #e0e0ff;
+  --on-surface-medium:  #b0b0d0;
+  --on-surface-muted:   #7070a0;
+  --on-surface-faint:   #505080;
+  --on-surface-ghost:   #404070;
+  --border-default:     #2a2a5a;
+  --border-strong:      #3a3a6a;
+  --border-subtle:      #1a1a3a;
+  --accent:             #7c4dff;
+  --accent-hover:       #9e7bff;
+  --accent-muted:       rgba(124, 77, 255, 0.15);
+  --accent-on-accent:   #ffffff;
+  --status-success:     #22c55e;
+  --status-warning:     #f59e0b;
+  --status-danger:      #ef4444;
+  --status-info:        #818cf8;
+  --status-live:        #f97316;
+  --shadow-sm:          0 1px 3px rgba(0, 0, 10, 0.5);
+  --shadow-md:          0 4px 12px rgba(0, 0, 10, 0.6);
+  --shadow-lg:          0 10px 30px rgba(0, 0, 10, 0.7);
+  --shadow-glow-accent: 0 0 15px rgba(124, 77, 255, 0.3);
+  --scrollbar-track:    #10102a;
+  --scrollbar-thumb:    #2a2a5a;
+  --scrollbar-hover:    #3a3a6a;
+}
+
+
+═══════════════════════════════════════════════════════════════════════════════ */
+

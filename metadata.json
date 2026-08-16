@@ -1,0 +1,7 @@
+{
+  "name": "KAIROSPHERE",
+  "description": "A geospatial database of intangible cultural heritage, rituals, and festivals, providing a source of truth for researchers and AI.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

@@ -1,0 +1,7 @@
+# The pipeline deliberately runs on one dependency.
+#
+# Tier 1 (astronomy and calendar math) is pure stdlib — Meeus algorithms in
+# pipeline/astro.py — so the map can be rebuilt with no network and no
+# ephemeris download. Skyfield would be more precise than day-level windows
+# need, at the cost of a ~17MB JPL kernel.
+requests>=2.31.0

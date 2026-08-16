@@ -1,0 +1,45 @@
+# Kairosphere
+
+> A cultural intelligence platform mapping the world's most extraordinary rituals, festivals, ceremonies, and natural phenomena.
+
+Kairosphere is an interactive web application that catalogs and visualizes over 340 cultural events and natural phenomena from around the world. It provides real-time event tracking, detailed cultural analysis, and an immersive map-based exploration experience.
+
+## Core Features
+
+- **Interactive Map & 3D Globe**: Explore cultural events plotted on a flat map or a 3D globe view with geographic context
+- **Cultural Event Database**: Over 340 curated entries spanning festivals, ceremonies, spiritual practices, pilgrimages, performances, and natural phenomena across 100+ countries
+- **Real-Time Live Events**: Integration with GDELT for live cultural event detection and monitoring
+- **AI-Powered Analysis**: Full event analysis powered by Google Gemini, including weather forecasts, travel logistics, and cultural context
+- **Wikipedia Integration**: Automatic sourcing of relevant Wikipedia articles for each event
+- **Calendar View**: Timeline-based exploration of events throughout the year
+- **Itinerary Builder**: Save and plan trips around cultural events with flight and accommodation links
+
+## Event Categories
+
+- **Festival**: Public celebrations and cultural gatherings (e.g., Las Fallas, Naadam, Junkanoo)
+- **Ceremony**: Sacred or traditional ritualistic events (e.g., Famadihana, Naghol Land Diving)
+- **Spiritual**: Religious practices and devotional events (e.g., Hopi Snake Dance, Vattienti)
+- **Pilgrimage**: Journey-based spiritual practices
+- **Performance**: Traditional arts and competitive cultural displays (e.g., Te Matatini, Calcio Storico)
+- **Phenomenon**: Natural and astronomical events (e.g., Aurora Borealis, Bioluminescence, Midnight Sun)
+
+## Data Coverage
+
+Events span all continents including:
+- Africa: Gerewol, Famadihana, Chale Wote, Lamu Cultural Festival
+- Americas: Day of the Dead, Guelaguetza, Crow Fair, Gathering of Nations, Junkanoo
+- Asia & Oceania: Naadam, Naghol Land Diving, Mt Hagen Show, Goroka Show
+- Europe: Las Fallas, Palio di Siena, Krampusnacht, Busójárás, Up Helly Aa
+- Pacific: Heiva i Tahiti, Hawaiki Nui Va'a, Tapati Rapa Nui
+
+## Technical Stack
+
+- React 19 with TypeScript
+- Leaflet for flat maps, Three.js for 3D globe
+- Google Gemini AI for analysis and image generation
+- GDELT API for live event intelligence
+- Wikipedia API for article sourcing
+
+## Contact
+
+Website: https://kairosphere.app

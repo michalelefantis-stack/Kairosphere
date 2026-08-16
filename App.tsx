@@ -1,0 +1,987 @@
+
+import React, { useState, useMemo, useEffect, useRef, Suspense } from 'react';
+import Sidebar from './components/Sidebar';
+import MapComponent from './components/MapComponent';
+import NavDashboard from './components/NavDashboard';
+import KairosLogo from './components/KairosLogo';
+import LiveTicker from './components/LiveTicker';
+import MapControls, { LAYER_GROUPS } from './components/MapControls';
+import JsonLdSchema from './components/JsonLdSchema';
+import { FilterState, CultureItem, UnifiedEvent } from './types';
+import { ChevronLeft, ChevronRight, ChevronUp, ChevronDown, ExternalLink, Radio, Ear, Backpack, MapPin, Calendar as CalendarIcon, ArrowRight, Plane, X, Archive, Star, StarHalf, BookOpen, Compass, Search } from 'lucide-react';
+import { useGeolocation } from './hooks/useGeolocation';
+
+import LiveDetailPanel from './components/LiveDetailPanel';
+
+// ── Lazy-loaded components (only fetched when their tab/modal is active) ──
+const CalendarView = React.lazy(() => import('./components/CalendarView'));
+const InsightsView = React.lazy(() => import('./components/InsightsView'));
+const ReportRitualModal = React.lazy(() => import('./components/ReportRitualModal'));
+const WhisperOverlay = React.lazy(() => import('./components/WhisperOverlay'));
+const SignalIntelligence = React.lazy(() => import('./components/SignalIntelligence'));
+const GlobeComponent = React.lazy(() => import('./components/GlobeComponent'));
+
+// Minimal loading fallback for lazy components
+const LazyFallback = () => (
+  <div className="w-full h-full flex items-center justify-center bg-[#050505]">
+    <div className="flex flex-col items-center gap-3">
+      <div className="w-6 h-6 border-2 border-[#9fff00] border-t-transparent rounded-full animate-spin" />
+      <span className="text-[10px] uppercase tracking-[0.3em] text-gray-600 font-bold">Loading module...</span>
+    </div>
+  </div>
+);
+
+const StarRating: React.FC<{ rating: number, count?: string }> = ({ rating, count }) => {
+  const fullStars = Math.floor(rating);
+  const hasHalfStar = rating % 1 >= 0.5;
+  const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
+
+  return (
+    <div className="flex items-center gap-1.5 mt-1.5 mb-2">
+      <div className="flex text-[#C5A059]">
+        {[...Array(fullStars)].map((_, i) => (
+          <Star key={`full-${i}`} className="w-3.5 h-3.5 fill-current" />
+        ))}
+        {hasHalfStar && <StarHalf className="w-3.5 h-3.5 fill-current" />}
+        {[...Array(emptyStars)].map((_, i) => (
+          <Star key={`empty-${i}`} className="w-3.5 h-3.5 text-gray-700" />
+        ))}
+      </div>
+      <span className="text-[10px] font-bold text-[#C5A059]/90">{rating.toFixed(2)}</span>
+      {count && <span className="text-[9px] text-gray-500 ml-1">({count} ratings)</span>}
+    </div>
+  );
+};
+
+const App: React.FC = () => {
+  // ── Lazy-load mockData (303KB) — fetched after initial render ──
+  const [cultureData, setCultureData] = useState<CultureItem[]>([]);
+  const [dataLoaded, setDataLoaded] = useState(false);
+  useEffect(() => {
+    import('./mockData').then(mod => {
+      setCultureData(mod.MOCK_CULTURE_DATA);
+      setDataLoaded(true);
+    });
+  }, []);
+
+  const [activeTab, setActiveTab] = useState('map');
+  const [viewMode, setViewMode] = useState<'flat' | 'globe'>('flat');
+  const [mobileSheetState, setMobileSheetState] = useState<'collapsed' | 'half' | 'full'>('half');
+  const [dragHeight, setDragHeight] = useState<number | null>(null);
+
+  const sheetRef = useRef<HTMLDivElement>(null);
+  const dragStartY = useRef<number>(0);
+  const dragStartHeight = useRef<number>(0);
+  const dragLastY = useRef<number>(0);
+  const dragLastTime = useRef<number>(0);
+  const dragVelocity = useRef<number>(0);
+  const isDragging = useRef<boolean>(false);
+
+  const getMobileHeightClass = () => {
+    switch (mobileSheetState) {
+      case 'collapsed': return 'h-[175px] sm:h-auto';
+      case 'full': return 'h-[75dvh] sm:h-auto';
+      case 'half':
+      default: return 'h-[55vh] sm:h-auto';
+    }
+  };
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    if (!sheetRef.current) return;
+    isDragging.current = false;
+    dragStartY.current = e.touches[0].clientY;
+    dragStartHeight.current = sheetRef.current.getBoundingClientRect().height;
+    dragLastY.current = e.touches[0].clientY;
+    dragLastTime.current = Date.now();
+    dragVelocity.current = 0;
+  };
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    if (!sheetRef.current) return;
+    const currentY = e.touches[0].clientY;
+    const deltaY = dragStartY.current - currentY;
+    
+    if (Math.abs(deltaY) > 5) {
+      isDragging.current = true;
+    }
+    
+    if (isDragging.current) {
+      const newHeight = dragStartHeight.current + deltaY;
+      
+      const now = Date.now();
+      const timeDelta = now - dragLastTime.current;
+      if (timeDelta > 0) {
+        dragVelocity.current = (dragLastY.current - currentY) / timeDelta;
+        dragLastTime.current = now;
+        dragLastY.current = currentY;
+      }
+      
+      const minHeight = 175;
+      const maxHeight = window.innerHeight - 67;
+      setDragHeight(Math.max(minHeight, Math.min(maxHeight, newHeight)));
+    }
+  };
+
+  const handleTouchEnd = () => {
+    if (!isDragging.current || dragHeight === null) return;
+    
+    const minHeight = 175;
+    const halfHeight = window.innerHeight * 0.6;
+    const fullHeight = window.innerHeight - 67;
+    
+    if (Math.abs(dragVelocity.current) > 0.5) {
+      if (dragVelocity.current > 0) {
+        if (mobileSheetState === 'collapsed') setMobileSheetState('half');
+        else setMobileSheetState('full');
+      } else {
+        if (mobileSheetState === 'full') setMobileSheetState('half');
+        else setMobileSheetState('collapsed');
+      }
+    } else {
+      const distCollapsed = Math.abs(dragHeight - minHeight);
+      const distHalf = Math.abs(dragHeight - halfHeight);
+      const distFull = Math.abs(dragHeight - fullHeight);
+      
+      const minDist = Math.min(distCollapsed, distHalf, distFull);
+      if (minDist === distCollapsed) setMobileSheetState('collapsed');
+      else if (minDist === distHalf) setMobileSheetState('half');
+      else setMobileSheetState('full');
+    }
+    
+    setDragHeight(null);
+    setTimeout(() => { isDragging.current = false; }, 50);
+  };
+
+  const handleDragClick = (e?: React.MouseEvent) => {
+    if (isDragging.current) return;
+    if (mobileSheetState === 'collapsed') setMobileSheetState('half');
+    else if (mobileSheetState === 'half') setMobileSheetState('full');
+    else setMobileSheetState('half');
+  };
+
+  // LAYER FILTER STATE — maps to exact subCategory values
+  const ALL_LAYER_IDS = LAYER_GROUPS.flatMap(g => g.items.map(i => i.id));
+  const [enabledLayers, setEnabledLayers] = useState<Set<string>>(() => new Set(ALL_LAYER_IDS));
+
+  const handleToggleLayer = (layerId: string) => {
+    setEnabledLayers(prev => {
+      const next = new Set(prev);
+      if (next.has(layerId)) next.delete(layerId);
+      else next.add(layerId);
+      return next;
+    });
+  };
+
+  const handleSetAllLayers = (enabled: boolean) => {
+    if (enabled) {
+      setEnabledLayers(new Set(ALL_LAYER_IDS));
+    } else {
+      setEnabledLayers(new Set());
+    }
+  };
+
+  const [filters, setFilters] = useState<FilterState>({
+    search: '',
+    type: 'All' as any,
+    region: 'All Region',
+    month: 0
+  });
+
+  const [selectedItem, setSelectedItem] = useState<CultureItem | null>(null);
+  const [insightsItem, setInsightsItem] = useState<CultureItem | null>(null);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  
+  // ITINERARY STATE
+  const [savedRitualIds, setSavedRitualIds] = useState<Set<string>>(() => {
+    const saved = localStorage.getItem('kairos_saved_ids');
+    return saved ? new Set(JSON.parse(saved)) : new Set();
+  });
+
+  const toggleSaveRitual = (id: string) => {
+    setSavedRitualIds(prev => {
+      const newSet = new Set(prev);
+      if (newSet.has(id)) { newSet.delete(id); } else { newSet.add(id); }
+      localStorage.setItem('kairos_saved_ids', JSON.stringify(Array.from(newSet)));
+      return newSet;
+    });
+  };
+
+  // ITINERARY TRIP PLANNER STATE
+  const [tripWhere, setTripWhere] = useState('');
+  const [tripWhen, setTripWhen] = useState('');
+  const [tripSearchResults, setTripSearchResults] = useState<CultureItem[] | null>(null);
+
+  const handleSearchTrip = (e?: React.FormEvent) => {
+    if (e) e.preventDefault();
+    if (!tripWhere && !tripWhen) {
+      setTripSearchResults(null);
+      return;
+    }
+    const results = cultureData.filter(item => {
+      const matchWhere = tripWhere ? (item.region.toLowerCase().includes(tripWhere.toLowerCase()) || item.title.toLowerCase().includes(tripWhere.toLowerCase())) : true;
+      let matchWhen = true;
+      if (tripWhen) {
+        const itemMonthName = new Date(item.startDate).toLocaleString('default', { month: 'long' }).toLowerCase();
+        matchWhen = itemMonthName.includes(tripWhen.toLowerCase()) || item.startDate.includes(tripWhen);
+      }
+      return matchWhere && matchWhen;
+    });
+    setTripSearchResults(results);
+  };
+
+  // --- LIVE EVENT SYSTEM: phenomena pipeline + GDELT ---
+  const [liveEvents, setLiveEvents] = useState<UnifiedEvent[]>([]);
+  const [selectedLiveEvent, setSelectedLiveEvent] = useState<UnifiedEvent | null>(null);
+  const [feedIsStale, setFeedIsStale] = useState(false);
+
+  useEffect(() => {
+    let isMounted = true;
+    let interval: ReturnType<typeof setInterval>;
+    const loadEvents = async () => {
+        // The pipeline feed and GDELT are independent; a failure in one must
+        // not blank the other, so they settle separately.
+        const [phenomena, gdelt] = await Promise.allSettled([
+          import('./utils/phenomenaService').then(m => m.fetchPhenomena()),
+          import('./utils/gdeltService').then(m => m.fetchGdeltLiveEvents())
+        ]);
+
+        if (!isMounted) return;
+
+        const merged: UnifiedEvent[] = [];
+        if (phenomena.status === 'fulfilled') {
+          merged.push(...phenomena.value.events);
+          setFeedIsStale(phenomena.value.isStale);
+        } else {
+          console.warn('Failed to load phenomena feed:', phenomena.reason);
+        }
+        if (gdelt.status === 'fulfilled') {
+          // Pipeline entries win on title collision — they carry provenance.
+          const known = new Set(merged.map(e => e.title.toLowerCase().slice(0, 40)));
+          merged.push(...gdelt.value.filter(e => !known.has(e.title.toLowerCase().slice(0, 40))));
+        } else {
+          console.warn('Failed to load GDELT events:', gdelt.reason);
+        }
+
+        setLiveEvents(merged);
+    };
+
+    // Defer live event fetch by 3s so the map/UI renders first
+    const startDelay = setTimeout(() => {
+      loadEvents();
+      // Refresh every 3 minutes
+      interval = setInterval(loadEvents, 3 * 60 * 1000);
+    }, 3000);
+
+    return () => {
+        isMounted = false;
+        clearTimeout(startDelay);
+        if (interval) clearInterval(interval);
+    };
+  }, []);
+
+
+
+  // Reset selections when tab changes
+  useEffect(() => {
+    setSelectedItem(null);
+    setSelectedLiveEvent(null);
+  }, [activeTab]);
+
+  // --- END LIVE EVENT SYSTEM ---
+
+  const [isReportModalOpen, setIsReportModalOpen] = useState(false);
+  
+  // WHISPER / GEOLOCATION STATE
+  const { coords: userCoords, error: geoError, isRequesting: isRequestingLocation, requestLocation } = useGeolocation();
+  const [whisperRitual, setWhisperRitual] = useState<any | null>(null);
+  const [showWhisperPrompt, setShowWhisperPrompt] = useState<any | null>(null);
+  const [hasRequestedLocation, setHasRequestedLocation] = useState(false);
+
+  // When switching to live tab, if we haven't requested location yet, we show the popup
+  const showLocationPopup = activeTab === 'live' && !userCoords && !hasRequestedLocation && !geoError;
+
+  const handleAllowLocation = () => {
+    setHasRequestedLocation(true);
+    requestLocation();
+  };
+
+  const handleDenyLocation = () => {
+    setHasRequestedLocation(true);
+  };
+
+  const filteredData = useMemo(() => {
+    const onlyVerified = enabledLayers.has('verified') && !ALL_LAYER_IDS.every(id => enabledLayers.has(id));
+
+    const filtered = cultureData.filter(item => {
+      // Layer filter: match exact subCategory using the 'sub-[Category]' layer format
+      const layerId = item.subCategory ? `sub-${item.subCategory.toLowerCase()}` : `sub-general`;
+      if (!enabledLayers.has(layerId)) {
+        // As a fallback, if the layer ID is somehow missing entirely, we drop it
+        return false;
+      }
+
+      // Verified filter
+      if (onlyVerified && !item.verified) return false;
+
+      const matchesSearch = item.title.toLowerCase().includes(filters.search.toLowerCase()) ||
+                          item.description.toLowerCase().includes(filters.search.toLowerCase());
+      const matchesType = filters.type === 'All' || item.ritualType === filters.type;
+      const matchesRegion = filters.region === 'All Region' || item.region === filters.region;
+      const itemMonth = new Date(item.startDate).getUTCMonth() + 1;
+      const matchesMonth = filters.month === 0 || itemMonth === filters.month;
+      return matchesSearch && matchesType && matchesRegion && matchesMonth;
+    });
+    return filtered.sort((a, b) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime());
+  }, [filters, enabledLayers, cultureData]);
+
+  // Data for Calendar/Itinerary... (omitted for brevity, same logic)
+  const itineraryData = useMemo(() => {
+    return cultureData.filter(item => savedRitualIds.has(item.id));
+  }, [savedRitualIds, cultureData]);
+
+  const allBooks = useMemo(() => {
+    const booksMap = new Map();
+    cultureData.forEach(item => {
+      if (item.recommendedBooks) {
+        item.recommendedBooks.forEach(book => {
+          if (!booksMap.has(book.title)) {
+            booksMap.set(book.title, { ...book, relatedEvent: item });
+          }
+        });
+      }
+    });
+    return Array.from(booksMap.values());
+  }, [cultureData]);
+
+  const handleSelectItem = (item: CultureItem | null) => {
+    setSelectedItem(item);
+    setSelectedLiveEvent(null);
+    if (item && activeTab === 'map') {
+      setIsSidebarOpen(true);
+      if (mobileSheetState === 'collapsed') {
+        setMobileSheetState('half');
+      }
+    }
+  };
+
+  const handleEventClick = (event: UnifiedEvent) => {
+    setSelectedLiveEvent(event);
+    setSelectedItem(null);
+    if (activeTab === 'map') {
+       setIsSidebarOpen(true);
+    }
+    if (mobileSheetState === 'collapsed') {
+      setMobileSheetState('half');
+    }
+  };
+
+  const handleViewInsights = (item: CultureItem) => {
+    setInsightsItem(item);
+  };
+
+  const toggleSidebar = () => setIsSidebarOpen(!isSidebarOpen);
+  
+  // Layout Constants
+  const SIDEBAR_WIDTH = 380;
+
+  return (
+    <div
+      className="relative h-screen w-full bg-[#050505] text-white overflow-hidden font-sans flex flex-col"
+      style={{ height: '100vh', width: '100vw' }}
+    >
+      {/* JSON-LD Structured Data for SEO */}
+      <JsonLdSchema events={cultureData} />
+
+      {/* Main Content Row */}
+      <div className="flex-1 relative overflow-hidden flex flex-row h-full">
+        
+        {/* TOP: Nav Dashboard */}
+        <NavDashboard 
+          activeTab={activeTab} 
+          setActiveTab={setActiveTab} 
+          savedCount={savedRitualIds.size} 
+          viewMode={viewMode}
+          setViewMode={setViewMode}
+        />
+        
+        {/* LEFT PANEL: LiveTicker (Live Mode) */}
+        {activeTab === 'live' && (
+          <div 
+            ref={activeTab === 'live' ? sheetRef : undefined}
+            className={`ui-layer absolute left-0 sm:left-4 top-auto sm:top-4 bottom-[64px] sm:bottom-4 z-[40] sm:z-30 flex flex-col w-full sm:w-[380px] bg-[#0c0c0c]/95 sm:backdrop-blur-md border-0 sm:border border-[#222] rounded-t-[32px] sm:rounded-2xl shadow-[0_-15px_40px_rgba(0,0,0,0.8)] sm:shadow-2xl overflow-hidden pointer-events-auto ${dragHeight === null ? 'transition-all duration-300 ' + getMobileHeightClass() : ''}`}
+            style={dragHeight !== null && activeTab === 'live' ? { height: `${dragHeight}px` } : undefined}
+          >
+             {/* Drag Handle & Mobile Top Bar */}
+             <div 
+               className={`w-full flex items-center justify-center pt-3 pb-6 block sm:hidden ${selectedLiveEvent ? 'absolute top-0 left-0 z-[60] bg-gradient-to-b from-[#050505]/80 via-[#050505]/40 to-transparent rounded-t-[32px]' : 'relative bg-[#0c0c0c]/95 rounded-t-[32px]'} sm:bg-transparent`}
+               onTouchStart={handleTouchStart}
+               onTouchMove={handleTouchMove}
+               onTouchEnd={handleTouchEnd}
+             >
+               <div 
+                 className="flex-1 flex justify-center cursor-pointer absolute inset-0 items-start pt-3"
+                 onClick={handleDragClick}
+               >
+                 <div className="w-12 h-1.5 bg-white/40 shadow-[0_2px_4px_rgba(0,0,0,0.5)] rounded-full"></div>
+               </div>
+               {!selectedLiveEvent && (
+                 <button 
+                   onClick={() => setMobileSheetState('collapsed')}
+                   className="absolute right-4 top-2.5 p-1.5 bg-white/10 hover:bg-white/20 rounded-full text-white transition-colors z-50"
+                   style={{ display: mobileSheetState === 'collapsed' ? 'none' : 'block' }}
+                 >
+                   <X className="w-3.5 h-3.5" />
+                 </button>
+               )}
+             </div>
+             <LiveTicker
+               events={liveEvents}
+               onEventClick={handleEventClick}
+               selectedEvent={selectedLiveEvent}
+               onCloseDetail={() => setSelectedLiveEvent(null)}
+               userCoords={userCoords}
+               feedIsStale={feedIsStale}
+             />
+          </div>
+        )}
+
+        {/* LEFT PANEL / BOTTOM SHEET: Sidebar (Map Mode) */}
+        {activeTab === 'map' && isSidebarOpen && (
+          <div 
+            ref={activeTab === 'map' ? sheetRef : undefined}
+            className={`ui-layer absolute left-0 sm:left-4 top-auto sm:top-4 bottom-[64px] sm:bottom-4 z-[40] sm:z-30 flex flex-col pointer-events-none w-full sm:w-[380px] ${dragHeight === null ? 'transition-all duration-300 ' + getMobileHeightClass() : ''}`}
+            style={dragHeight !== null && activeTab === 'map' ? { height: `${dragHeight}px` } : undefined}
+          >
+            <div className={`flex-1 overflow-hidden pointer-events-auto flex flex-col ${selectedItem || selectedLiveEvent ? 'bg-[#0c0c0c]/95 sm:backdrop-blur-md border-0 sm:border border-[#222] sm:rounded-2xl shadow-[0_-15px_40px_rgba(0,0,0,0.8)] sm:shadow-2xl rounded-t-[32px]' : 'rounded-t-[32px] sm:rounded-none bg-[#0c0c0c]/95 sm:bg-transparent shadow-[0_-15px_40px_rgba(0,0,0,0.8)] sm:shadow-none border-0 sm:border sm:border-transparent border-[#222]'}`}>
+              {/* Drag Handle & Mobile Top Bar */}
+              <div 
+                className={`w-full flex items-center justify-center pt-3 pb-6 block sm:hidden ${selectedItem || selectedLiveEvent ? 'absolute top-0 left-0 z-[60] bg-gradient-to-b from-[#050505]/80 via-[#050505]/40 to-transparent rounded-t-[32px]' : 'relative bg-[#0c0c0c]/95 rounded-t-[32px]'} sm:bg-transparent`}
+                onTouchStart={handleTouchStart}
+                onTouchMove={handleTouchMove}
+                onTouchEnd={handleTouchEnd}
+              >
+                <div 
+                  className="flex-1 flex justify-center cursor-pointer absolute inset-0 items-start pt-3"
+                  onClick={handleDragClick}
+                >
+                  <div className="w-12 h-1.5 bg-white/40 shadow-[0_2px_4px_rgba(0,0,0,0.5)] rounded-full"></div>
+                </div>
+                {!selectedItem && !selectedLiveEvent && (
+                  <button 
+                    onClick={() => setMobileSheetState('collapsed')}
+                    className="absolute right-4 top-2.5 p-1.5 bg-white/10 hover:bg-white/20 rounded-full text-white transition-colors z-50"
+                    style={{ display: mobileSheetState === 'collapsed' ? 'none' : 'block' }}
+                  >
+                    <X className="w-3.5 h-3.5" />
+                  </button>
+                )}
+              </div>
+              <Sidebar 
+                filters={filters} 
+                setFilters={setFilters} 
+                items={filteredData} 
+                onSelectItem={handleSelectItem}
+                selectedId={selectedItem?.id}
+                selectedItem={selectedItem}
+                selectedLiveEvent={selectedLiveEvent}
+                onCloseDetail={() => {
+                  setSelectedItem(null);
+                  setSelectedLiveEvent(null);
+                }}
+                onViewInsights={handleViewInsights}
+                isSaved={selectedItem ? savedRitualIds.has(selectedItem.id) : false}
+                onToggleSave={() => selectedItem && toggleSaveRitual(selectedItem.id)}
+              />
+            </div>
+            {/* Collapse Button */}
+            <button 
+              onClick={toggleSidebar}
+              className="absolute -right-3 top-1/2 -translate-y-1/2 bg-[#0c0c0c] border border-[#222] p-1.5 rounded-full hover:bg-[#111] hover:text-[#9fff00] transition-colors z-40 shadow-lg pointer-events-auto hidden sm:block"
+            >
+              <ChevronLeft className="w-4 h-4" />
+            </button>
+          </div>
+        )}
+        
+        {/* Expand Button for Sidebar when closed */}
+        {activeTab === 'map' && !isSidebarOpen && (
+           <div className="ui-layer absolute left-0 sm:top-1/2 bottom-5 sm:bottom-auto sm:-translate-y-1/2 z-30 pointer-events-auto hidden sm:flex w-full sm:w-auto justify-center sm:justify-start">
+             <button 
+              onClick={toggleSidebar}
+              className="bg-[#0c0c0c]/90 backdrop-blur-md border border-[#222] sm:border-l-0 p-2 rounded-full sm:rounded-r-xl sm:rounded-l-none hover:bg-[#111] hover:text-[#9fff00] transition-colors shadow-[0_4px_20px_rgba(0,0,0,0.7)] text-gray-400"
+            >
+              <ChevronRight className="w-5 h-5 block" />
+            </button>
+           </div>
+        )}
+
+        {/* CENTER/RIGHT: Main Viewport (Map, Calendar, etc) */}
+        <div className="flex-1 relative z-0 h-full overflow-hidden flex flex-col min-w-0 bg-[#050505]">
+          
+          {/* MAP COMPONENT: Shared by Map and Live tabs */}
+          {(activeTab === 'map' || activeTab === 'live') && (
+            <>
+              {/* Flat Map Layer */}
+              <div 
+                className={`absolute inset-0 transition-opacity duration-300 ${
+                  viewMode === 'flat' ? 'opacity-100 z-10 pointer-events-auto' : 'opacity-0 z-0 pointer-events-none'
+                }`}
+              >
+                <MapComponent 
+                  data={activeTab === 'map' ? filteredData : []} 
+                  onSelect={handleSelectItem} 
+                  selectedItem={selectedItem}
+                  liveEvents={activeTab === 'live' ? liveEvents : []}
+                  focusCoords={activeTab === 'map' ? selectedItem?.coordinates : selectedLiveEvent?.coordinates}
+                  onLiveEventSelect={handleEventClick}
+                  userCoords={userCoords}
+                  activeTab={activeTab}
+                />
+              </div>
+
+              {/* 3D Globe Layer */}
+              <div 
+                className={`absolute inset-0 transition-opacity duration-300 ${
+                  viewMode === 'globe' ? 'opacity-100 z-10 pointer-events-auto' : 'opacity-0 z-0 pointer-events-none'
+                }`}
+              >
+              <Suspense fallback={<LazyFallback />}>
+                <GlobeComponent 
+                  data={activeTab === 'map' ? filteredData : []} 
+                  onSelect={handleSelectItem} 
+                  selectedItem={selectedItem}
+                  liveEvents={activeTab === 'live' ? liveEvents : []}
+                  focusCoords={activeTab === 'map' ? selectedItem?.coordinates : selectedLiveEvent?.coordinates}
+                  onLiveEventSelect={handleEventClick}
+                  userCoords={userCoords}
+                  activeTab={activeTab}
+                />
+              </Suspense>
+              </div>
+
+              {/* Right-side Map Controls */}
+              <MapControls
+                viewMode={viewMode}
+                setViewMode={setViewMode}
+                savedCount={savedRitualIds.size}
+                savedEvents={itineraryData}
+                onOpenItinerary={() => setActiveTab('itinerary')}
+                onSelectSavedEvent={handleSelectItem}
+                totalEvents={filteredData.length}
+                liveEventsCount={liveEvents.length}
+                onToggleTheme={() => {
+                  const html = document.documentElement;
+                  html.classList.toggle('light-mode');
+                }}
+                isLightMode={typeof document !== 'undefined' && document.documentElement.classList.contains('light-mode')}
+                activeTab={activeTab}
+                enabledLayers={enabledLayers}
+                onToggleLayer={handleToggleLayer}
+                onSetAllLayers={handleSetAllLayers}
+              />
+            </>
+          )}
+
+          {activeTab === 'calendar' && (
+            <Suspense fallback={<LazyFallback />}>
+              <div className="pb-safe-tab h-full min-h-0 flex flex-col">
+             <CalendarView 
+                events={filteredData} 
+                onSelect={handleViewInsights} 
+                selectedId={insightsItem?.id || selectedItem?.id}
+                savedRitualIds={savedRitualIds}
+                onToggleSave={toggleSaveRitual}
+             />
+              </div>
+            </Suspense>
+          )}
+          {activeTab === 'itinerary' && (
+            <div className="w-full h-full p-6 md:p-12 pt-16 sm:pt-[100px] md:pt-[120px] pb-safe-tab overflow-y-auto custom-scrollbar">
+              <div className="max-w-4xl mx-auto space-y-12">
+                
+                {/* Trip Planner Header */}
+                <div className="bg-[#0c0c0c] border border-[#222] rounded-3xl p-6 md:p-8 shadow-2xl relative overflow-hidden">
+                  <div className="absolute top-0 right-0 p-8 opacity-5">
+                    <Compass className="w-48 h-48 text-[#9fff00]" />
+                  </div>
+                  <div className="relative z-10 space-y-6">
+                    <div>
+                      <h2 className="text-3xl font-black uppercase tracking-tighter text-white">Plan Your Next Journey</h2>
+                      <p className="text-sm text-gray-500 font-medium mt-1">Discover verified cultural events anywhere in the world.</p>
+                    </div>
+                    
+                    {/* Airbnb-style Search Bar */}
+                    <form 
+                      onSubmit={handleSearchTrip}
+                      className="flex flex-col md:flex-row items-center bg-[#111] border border-[#333] rounded-2xl md:rounded-full p-2 gap-2 shadow-lg"
+                    >
+                      <div className="flex-1 w-full flex items-center px-4 py-2 border-b md:border-b-0 md:border-r border-[#333]">
+                        <div className="flex flex-col w-full">
+                          <label className="text-[9px] font-bold text-gray-500 uppercase tracking-widest px-1">Where</label>
+                          <input 
+                            type="text" 
+                            placeholder="Search destinations (e.g. Japan)" 
+                            value={tripWhere}
+                            onChange={e => setTripWhere(e.target.value)}
+                            className="bg-transparent text-sm text-white font-medium focus:outline-none w-full px-1 placeholder-gray-600"
+                          />
+                        </div>
+                      </div>
+                      <div className="flex-1 w-full flex items-center px-4 py-2">
+                        <div className="flex flex-col w-full">
+                          <label className="text-[9px] font-bold text-gray-500 uppercase tracking-widest px-1">When</label>
+                          <input 
+                            type="text" 
+                            placeholder="Add months (e.g. August)" 
+                            value={tripWhen}
+                            onChange={e => setTripWhen(e.target.value)}
+                            className="bg-transparent text-sm text-white font-medium focus:outline-none w-full px-1 placeholder-gray-600"
+                          />
+                        </div>
+                      </div>
+                      <button 
+                        type="submit"
+                        className="w-full md:w-auto p-4 md:p-3 bg-[#9fff00] hover:bg-[#b0ff33] rounded-xl md:rounded-full flex items-center justify-center transition-colors shadow-[0_0_15px_rgba(159,255,0,0.3)]"
+                      >
+                        <Search className="w-5 h-5 text-black" />
+                      </button>
+                    </form>
+                  </div>
+                </div>
+
+                {/* Search Results */}
+                {tripSearchResults !== null && (
+                  <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
+                    <h3 className="text-xl font-black uppercase tracking-widest text-[#9fff00] border-b border-[#222] pb-4">
+                      {tripSearchResults.length} Results Found
+                    </h3>
+                    {tripSearchResults.length === 0 ? (
+                       <p className="text-gray-500 text-sm py-4">No events match your search criteria. Try a different region or month.</p>
+                    ) : (
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        {tripSearchResults.map(i => (
+                          <div key={i.id} className="bg-[#0c0c0c] border border-[#222] hover:border-[#9fff00]/50 transition-all rounded-2xl overflow-hidden group cursor-pointer flex flex-col" onClick={() => handleViewInsights(i)}>
+                            <div className="w-full h-40 relative overflow-hidden">
+                              <img src={i.imageUrl} alt={i.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                              <div className="absolute inset-0 bg-gradient-to-t from-[#0c0c0c]/80 via-transparent to-transparent pointer-events-none" />
+                              <div className="absolute top-3 right-3">
+                                <button 
+                                  onClick={(e) => { e.stopPropagation(); toggleSaveRitual(i.id); }}
+                                  className={`p-2 rounded-full backdrop-blur-md transition-all shadow-lg ${savedRitualIds.has(i.id) ? 'bg-[#9fff00] text-black border border-[#9fff00]' : 'bg-black/50 text-white hover:bg-[#9fff00] hover:text-black border border-white/20'}`}
+                                >
+                                  <Backpack className="w-4 h-4" />
+                                </button>
+                              </div>
+                            </div>
+                            <div className="p-5 flex-1 flex flex-col justify-between -mt-4 relative z-10">
+                              <div>
+                                <span className="text-[9px] font-bold text-[#9fff00] uppercase tracking-widest bg-[#0c0c0c] px-2 py-0.5 rounded border border-[#222]">
+                                  {new Date(i.startDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                                </span>
+                                <h4 className="text-lg font-black uppercase tracking-tight mt-3 mb-1 group-hover:text-[#9fff00] transition-colors">{i.title}</h4>
+                                <div className="flex items-center gap-1.5 text-gray-400">
+                                  <MapPin className="w-3.5 h-3.5" />
+                                  <span className="text-xs font-bold uppercase tracking-widest truncate">{i.region}</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                )}
+
+                {/* Saved Itinerary */}
+                <div className="space-y-6">
+                  <div className="flex items-center gap-4 mb-8 border-b border-[#222] pb-6">
+                    <div className="p-3 bg-[#111] rounded-xl border border-[#222]">
+                      <Archive className="w-6 h-6 text-gray-400" />
+                    </div>
+                    <div>
+                      <h2 className="text-2xl font-black uppercase tracking-tighter">Saved Itinerary</h2>
+                      <p className="text-sm text-gray-500 font-mono mt-1">{itineraryData.length} Events Tracked</p>
+                    </div>
+                  </div>
+
+                  {itineraryData.length === 0 ? (
+                    <div className="flex flex-col items-center justify-center py-20 border border-dashed border-[#222] rounded-3xl bg-[#0a0a0a]">
+                      <Backpack className="w-12 h-12 text-gray-700 mb-4" />
+                      <p className="text-gray-400 font-bold uppercase tracking-widest">No rituals saved yet</p>
+                      <p className="text-sm text-gray-600 mt-2">Use the trip planner above to build your journey.</p>
+                    </div>
+                  ) : (
+                    <div className="space-y-6">
+                      {itineraryData.map(i => (
+                        <div key={i.id} className="bg-[#0c0c0c] border border-[#222] hover:border-[#9fff00]/50 transition-all rounded-2xl overflow-hidden group">
+                          <div className="p-6 flex flex-col md:flex-row gap-6">
+                          {/* Image Thumbnail */}
+                          <div 
+                            className="w-full md:w-48 h-32 rounded-xl overflow-hidden flex-shrink-0 relative cursor-pointer"
+                            onClick={() => handleViewInsights(i)}
+                          >
+                            <img 
+                              src={(() => {
+                                const saved = localStorage.getItem('kairos_ai_images');
+                                if (saved) {
+                                  const cache = JSON.parse(saved);
+                                  return cache[i.id] || i.imageUrl;
+                                }
+                                return i.imageUrl;
+                              })()} 
+                              alt={i.title} 
+                              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
+                            />
+                            <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors" />
+                          </div>
+
+                          {/* Content */}
+                          <div className="flex-1 flex flex-col justify-between">
+                            <div>
+                              <div className="flex items-center gap-2 mb-2">
+                                <CalendarIcon className="w-4 h-4 text-[#9fff00]" />
+                                <span className="text-xs font-bold text-[#9fff00] uppercase tracking-widest">
+                                  {new Date(i.startDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+                                </span>
+                              </div>
+                              <h3 
+                                className="text-xl font-black uppercase tracking-tight mb-1 cursor-pointer hover:text-[#9fff00] transition-colors"
+                                onClick={() => handleViewInsights(i)}
+                              >
+                                {i.title}
+                              </h3>
+                              <div className="flex items-center gap-2 text-gray-400">
+                                <MapPin className="w-3.5 h-3.5" />
+                                <span className="text-xs font-bold uppercase tracking-widest">{i.region}</span>
+                              </div>
+                            </div>
+
+                            {/* Action Links */}
+                            {/* Trip Planning */}
+                            <div className="flex flex-col gap-3 mt-4 pt-4 border-t border-[#222]">
+                              <p className="text-[10px] font-black uppercase tracking-[0.2em] text-[#C5A059] mb-1">Plan Your Trip</p>
+                              <div className="flex flex-wrap items-center gap-3">
+                                {/* Option A: Affiliate Travel Agency */}
+                                <a 
+                                  href={`https://www.tourradar.com/search?q=${encodeURIComponent(i.region)}`}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="flex items-center gap-2 px-4 py-2 bg-[#9fff00] hover:bg-white text-black rounded-lg text-xs font-bold transition-all shadow-[0_0_15px_rgba(159,255,0,0.3)] hover:shadow-[0_0_20px_rgba(255,255,255,0.4)]"
+                                >
+                                  <Compass className="w-4 h-4" />
+                                  Book Curated Tour
+                                </a>
+
+                                {/* Option B: DIY Planning */}
+                                <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-0 border border-[#333] rounded-lg p-1 bg-[#0c0c0c]">
+                                   <span className="text-[9px] font-bold text-gray-500 uppercase tracking-widest px-3 sm:border-r border-[#333] pt-1 sm:pt-0">DIY Planning</span>
+                                   <div className="flex items-center">
+                                     <a 
+                                       href={`https://www.google.com/flights?q=flights+to+${encodeURIComponent(i.region)}`}
+                                       target="_blank"
+                                       rel="noopener noreferrer"
+                                       className="flex items-center gap-1.5 px-3 py-1.5 hover:bg-[#1a1a1a] hover:text-blue-400 text-gray-400 rounded-md transition-all text-xs font-bold"
+                                     >
+                                       <Plane className="w-3.5 h-3.5" />
+                                       Flights
+                                     </a>
+                                     <a 
+                                       href={`https://www.booking.com/searchresults.html?ss=${encodeURIComponent(i.region)}`}
+                                       target="_blank"
+                                       rel="noopener noreferrer"
+                                       className="flex items-center gap-1.5 px-3 py-1.5 hover:bg-[#1a1a1a] hover:text-purple-400 text-gray-400 rounded-md transition-all text-xs font-bold"
+                                     >
+                                       <MapPin className="w-3.5 h-3.5" />
+                                       Hotels
+                                     </a>
+                                   </div>
+                                </div>
+                                
+                                <div className="flex-1"></div>
+                                <button 
+                                  onClick={(e) => {
+                                    e.stopPropagation();
+                                    toggleSaveRitual(i.id);
+                                  }}
+                                  className="p-2 text-gray-500 hover:text-red-400 hover:bg-red-400/10 rounded-lg transition-colors border border-transparent hover:border-red-400/30"
+                                  title="Remove from Itinerary"
+                                >
+                                  <X className="w-4 h-4" />
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+                </div>
+              </div>
+            </div>
+          )}
+          {activeTab === 'signals' && (
+            <div className="w-full h-full pt-4 sm:pt-[80px] pb-safe-tab">
+              <Suspense fallback={<LazyFallback />}>
+                <SignalIntelligence onEventFound={() => {}} />
+              </Suspense>
+            </div>
+          )}
+          {activeTab === 'library' && (
+            <div className="w-full h-full p-6 md:p-12 pt-16 sm:pt-[100px] md:pt-[120px] pb-safe-tab overflow-y-auto custom-scrollbar">
+              <div className="max-w-6xl mx-auto">
+                <div className="flex items-center gap-4 mb-8">
+                  <div className="p-3 bg-[#C5A059]/10 rounded-xl border border-[#C5A059]/20">
+                    <Archive className="w-6 h-6 text-[#C5A059]" />
+                  </div>
+                  <div>
+                    <h2 className="text-3xl font-black uppercase tracking-tighter">Archival Library</h2>
+                    <p className="text-sm text-gray-500 font-mono mt-1">{allBooks.length} Recommended Texts</p>
+                  </div>
+                </div>
+
+                {allBooks.length === 0 ? (
+                  <div className="flex flex-col items-center justify-center py-20 border border-dashed border-[#222] rounded-3xl bg-[#0a0a0a]">
+                    <Archive className="w-12 h-12 text-gray-700 mb-4" />
+                    <p className="text-gray-400 font-bold uppercase tracking-widest">No books available</p>
+                  </div>
+                ) : (
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                    {allBooks.map((book, idx) => (
+                      <div key={idx} className="bg-[#0c0c0c] border border-[#222] hover:border-[#C5A059]/50 transition-all rounded-2xl overflow-hidden group flex flex-col">
+                        {book.coverUrl ? (
+                          <div className="w-full h-48 bg-[#111] overflow-hidden">
+                            <img src={book.coverUrl} alt={book.title} className="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500" />
+                          </div>
+                        ) : (
+                          <div className="w-full h-48 bg-gradient-to-br from-[#111] to-[#050505] flex items-center justify-center border-b border-[#222]">
+                            <Archive className="w-12 h-12 text-[#333]" />
+                          </div>
+                        )}
+                        <div className="p-5 flex-1 flex flex-col">
+                          <h3 className="text-lg font-bold leading-tight mb-1 group-hover:text-[#C5A059] transition-colors">{book.title}</h3>
+                          <p className="text-sm text-gray-400 mb-1">{book.author}</p>
+                          {book.goodreadsRating && (
+                            <StarRating rating={book.goodreadsRating} count={book.ratingCount} />
+                          )}
+                          
+                          {book.description && (
+                            <div className="text-xs text-gray-500 max-h-24 overflow-y-auto custom-scrollbar pr-2 mb-4 flex-1">
+                              {book.description}
+                            </div>
+                          )}
+                          
+                          <div className="mt-auto pt-4 border-t border-[#222] flex items-center justify-between">
+                            <button 
+                              onClick={() => handleViewInsights(book.relatedEvent)}
+                              className="text-[10px] font-bold uppercase tracking-wider text-gray-500 hover:text-white transition-colors flex items-center gap-1"
+                            >
+                              <MapPin className="w-3 h-3" />
+                              {book.relatedEvent.title}
+                            </button>
+                            
+                            <div className="flex items-center gap-2">
+                              {book.bookshopLink && (
+                                <a 
+                                  href={book.bookshopLink} 
+                                  target="_blank" 
+                                  rel="noopener noreferrer"
+                                  className="flex items-center gap-1.5 px-3 py-1.5 bg-[#ff3c20]/10 hover:bg-[#ff3c20]/20 border border-[#ff3c20]/30 hover:border-[#ff3c20] text-[#ff3c20] rounded-lg text-[10px] uppercase font-bold tracking-wider transition-all"
+                                  title="Support Local Bookstores via Bookshop.org"
+                                >
+                                  <BookOpen className="w-3.5 h-3.5" />
+                                  <span>Bookshop</span>
+                                </a>
+                              )}
+                              {(!book.bookshopLink && (book.amazonLink || book.url)) && (
+                                <a 
+                                  href={book.amazonLink || book.url} 
+                                  target="_blank" 
+                                  rel="noopener noreferrer"
+                                  className="p-1.5 bg-[#111] hover:bg-[#C5A059]/20 text-gray-400 hover:text-[#C5A059] border border-[#222] hover:border-[#C5A059]/50 rounded-lg transition-all"
+                                  title="View on Amazon"
+                                >
+                                  <ExternalLink className="w-3.5 h-3.5" />
+                                </a>
+                              )}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+
+          {/* Detail Panel - Anchored to the LEFT (next to sidebar) */}
+          {/* REMOVED FLOATING PANEL */}
+        </div>
+
+        {/* Insights Overlay */}
+        {insightsItem && (
+          <Suspense fallback={<LazyFallback />}>
+            <InsightsView 
+              item={insightsItem} 
+              onClose={() => setInsightsItem(null)} 
+              isSaved={savedRitualIds.has(insightsItem.id)}
+              onToggleSave={toggleSaveRitual}
+            />
+          </Suspense>
+        )}
+
+        {/* Location Permission Popup */}
+        {showLocationPopup && (
+          <div className="absolute inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm">
+            <div className="bg-[#111] border border-[#333] rounded-2xl p-8 max-w-md w-full shadow-2xl text-center flex flex-col items-center">
+              <div className="w-16 h-16 bg-[#9fff00]/10 rounded-full flex items-center justify-center mb-6">
+                <MapPin className="w-8 h-8 text-[#9fff00]" />
+              </div>
+              <h3 className="text-2xl font-bold mb-3">Enable Location</h3>
+              <p className="text-gray-400 mb-8 leading-relaxed">
+                To show you live events and signals in your immediate vicinity (500km radius), we need access to your location.
+              </p>
+              <div className="flex gap-4 w-full">
+                <button 
+                  onClick={handleDenyLocation}
+                  className="flex-1 py-3 px-4 rounded-xl border border-[#333] text-gray-300 hover:bg-[#222] transition-colors font-bold"
+                >
+                  Skip
+                </button>
+                <button 
+                  onClick={handleAllowLocation}
+                  className="flex-1 py-3 px-4 rounded-xl bg-[#9fff00] text-black hover:bg-white transition-colors font-bold"
+                >
+                  Allow Access
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+
+      <style>{`
+        .custom-scrollbar::-webkit-scrollbar { width: 5px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: #0a0a0a; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: #222; border-radius: 10px; }
+        
+        .leaflet-tooltip.custom-tooltip {
+          background-color: #111;
+          color: #fff;
+          border: 1px solid #333;
+          border-radius: 6px;
+          font-family: inherit;
+          font-weight: 600;
+          padding: 6px 10px;
+          box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+        }
+        .leaflet-tooltip-top.custom-tooltip::before {
+          border-top-color: #333;
+        }
+      `}</style>
+    </div>
+  );
+};
+
+export default App;

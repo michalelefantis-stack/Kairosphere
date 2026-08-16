@@ -1,0 +1,217 @@
+{
+  "_comment": [
+    "Tier 4 — the entries no API will ever cover. A human confirms each one and",
+    "signs it with a date; nothing here auto-publishes.",
+    "",
+    "reviewStatus  published | pending_review | rejected",
+    "sensitivity   public     openly promoted by the community or tourism board",
+    "              restricted real but access-controlled; coordinates blurred",
+    "              sacred     not offered to outsiders; NEVER published, whatever",
+    "                         reviewStatus says",
+    "lastVerifiedAt drives confidence decay. Let it age and the entry fades from",
+    "the map on its own, then surfaces in the review queue asking for a human.",
+    "",
+    "operatorSignals are the proxy the pipeline watches: specialist operators",
+    "publish dated departures months before the community announces anything."
+  ],
+  "events": [
+    {
+      "id": "naghol-pentecost",
+      "name": "Naghol (Land Diving)",
+      "description": "Men dive from wooden towers up to 30m with only forest vines at the ankles, timed to the yam harvest. The rite the modern bungee jump was copied from.",
+      "lat": -15.7500,
+      "lon": 168.1833,
+      "locationHint": "South Pentecost Island",
+      "country": "Vanuatu",
+      "category": "Human Ritual",
+      "emoji": "🪢",
+      "recurrence": { "type": "month_window", "startMonth": 4, "startDay": 1, "endMonth": 6, "endDay": 30 },
+      "sensitivity": "restricted",
+      "precision": "regional",
+      "consent": "Villages sell scheduled visitor access through the Vanuatu Tourism Office; dates set by elders around the yam harvest.",
+      "reviewStatus": "published",
+      "lastVerifiedAt": "2026-05-02",
+      "sources": [
+        { "name": "Vanuatu Tourism Office", "url": "https://vanuatu.travel/" }
+      ],
+      "operatorSignals": ["https://vanuatu.travel/"],
+      "notes": "Saturdays through the season. Exact dates are announced locally, often only days ahead."
+    },
+    {
+      "id": "gerewol-wodaabe",
+      "name": "Gerewol",
+      "description": "Wodaabe men dance the yaake in ochre and beads for hours in the heat, judged by women of the clan. Held where herding groups converge as the rains end.",
+      "lat": 15.0000,
+      "lon": 10.0000,
+      "locationHint": "Southern Niger (location follows the herds)",
+      "country": "Niger",
+      "category": "Human Ritual",
+      "emoji": "💃",
+      "recurrence": { "type": "month_window", "startMonth": 9, "startDay": 1, "endMonth": 9, "endDay": 30 },
+      "sensitivity": "restricted",
+      "precision": "country",
+      "consent": "Attend only with Wodaabe hosts or the specialist operators who arrange with them. No fixed public venue exists.",
+      "reviewStatus": "published",
+      "lastVerifiedAt": "2026-06-10",
+      "sources": [
+        { "name": "UNESCO ICH nomination context", "url": "https://ich.unesco.org/" }
+      ],
+      "operatorSignals": [],
+      "notes": "Nomadic and weather-dependent — the gathering point shifts year to year, so coordinates are country-level on purpose."
+    },
+    {
+      "id": "goroka-show",
+      "name": "Goroka Show",
+      "description": "Over a hundred highland sing-sing groups in full regalia, the largest tribal gathering in Papua New Guinea.",
+      "lat": -6.0833,
+      "lon": 145.3870,
+      "locationHint": "Goroka, Eastern Highlands",
+      "country": "Papua New Guinea",
+      "category": "Human Ritual",
+      "emoji": "🪶",
+      "recurrence": { "type": "fixed", "month": 9, "day": 13, "durationDays": 3 },
+      "sensitivity": "public",
+      "precision": "point",
+      "consent": "Ticketed public festival with an official organising committee.",
+      "reviewStatus": "published",
+      "lastVerifiedAt": "2026-07-28",
+      "sources": [
+        { "name": "Papua New Guinea Tourism Promotion Authority", "url": "https://www.papuanewguinea.travel/" }
+      ],
+      "operatorSignals": ["https://www.papuanewguinea.travel/"],
+      "notes": "Held around PNG's Independence Day weekend in mid-September."
+    },
+    {
+      "id": "mount-hagen-show",
+      "name": "Mount Hagen Cultural Show",
+      "description": "Western Highlands sing-sing, staged the month before Goroka and generally less crowded with visitors.",
+      "lat": -5.8575,
+      "lon": 144.2300,
+      "locationHint": "Mount Hagen, Western Highlands",
+      "country": "Papua New Guinea",
+      "category": "Human Ritual",
+      "emoji": "🪶",
+      "recurrence": { "type": "fixed", "month": 8, "day": 15, "durationDays": 2 },
+      "sensitivity": "public",
+      "precision": "point",
+      "consent": "Ticketed public festival.",
+      "reviewStatus": "published",
+      "lastVerifiedAt": "2026-08-01",
+      "sources": [
+        { "name": "Papua New Guinea Tourism Promotion Authority", "url": "https://www.papuanewguinea.travel/" }
+      ],
+      "operatorSignals": [],
+      "notes": "Third weekend of August in most years."
+    },
+    {
+      "id": "timkat-gondar",
+      "name": "Timkat (Ethiopian Epiphany)",
+      "description": "Replicas of the Ark are carried to water by torchlight and the crowd is mass-baptised at dawn; Gondar's stone bath is the focal point.",
+      "lat": 12.6030,
+      "lon": 37.4521,
+      "locationHint": "Gondar, Amhara",
+      "country": "Ethiopia",
+      "category": "Human Ritual",
+      "emoji": "✝️",
+      "recurrence": { "type": "fixed", "month": 1, "day": 19, "durationDays": 3 },
+      "sensitivity": "public",
+      "precision": "point",
+      "consent": "Public religious festival, UNESCO-inscribed and openly attended.",
+      "reviewStatus": "published",
+      "lastVerifiedAt": "2026-01-22",
+      "sources": [
+        { "name": "UNESCO Intangible Cultural Heritage", "url": "https://ich.unesco.org/en/RL/timket-01582" }
+      ],
+      "operatorSignals": [],
+      "notes": "Falls on 20 January in Ethiopian leap years."
+    },
+    {
+      "id": "hornbill-nagaland",
+      "name": "Hornbill Festival",
+      "description": "Seventeen Naga tribes gather at Kisama for a week of morungs, log drums and dance — a state-organised meeting of groups that were once hostile.",
+      "lat": 25.6000,
+      "lon": 94.1000,
+      "locationHint": "Kisama Heritage Village, Kohima",
+      "country": "India",
+      "category": "Human Ritual",
+      "emoji": "🪘",
+      "recurrence": { "type": "fixed", "month": 12, "day": 1, "durationDays": 10 },
+      "sensitivity": "public",
+      "precision": "point",
+      "consent": "Organised by the Nagaland state tourism department.",
+      "reviewStatus": "published",
+      "lastVerifiedAt": "2025-12-05",
+      "sources": [
+        { "name": "Nagaland Tourism", "url": "https://tourism.nagaland.gov.in/" }
+      ],
+      "operatorSignals": [],
+      "notes": "Protected Area Permit rules for foreign visitors change periodically — re-check before each season."
+    },
+    {
+      "id": "inti-raymi-cusco",
+      "name": "Inti Raymi",
+      "description": "Reconstructed Inca sun festival at Sacsayhuamán on the southern winter solstice, staged for a crowd in the tens of thousands.",
+      "lat": -13.5100,
+      "lon": -71.9820,
+      "locationHint": "Sacsayhuaman, Cusco",
+      "country": "Peru",
+      "category": "Human Ritual",
+      "emoji": "☀️",
+      "recurrence": { "type": "fixed", "month": 6, "day": 24, "durationDays": 1 },
+      "sensitivity": "public",
+      "precision": "point",
+      "consent": "Municipal public event with ticketed seating.",
+      "reviewStatus": "published",
+      "lastVerifiedAt": "2026-06-25",
+      "sources": [
+        { "name": "Municipalidad del Cusco", "url": "https://www.cusco.gob.pe/" }
+      ],
+      "operatorSignals": [],
+      "notes": "Fixed civic date, unlike the astronomical solstice a few days earlier."
+    },
+    {
+      "id": "dia-de-muertos-oaxaca",
+      "name": "Dia de Muertos",
+      "description": "Families keep vigil at gravesides through the night with marigolds, candles and the food the dead preferred.",
+      "lat": 17.0732,
+      "lon": -96.7266,
+      "locationHint": "Oaxaca de Juarez",
+      "country": "Mexico",
+      "category": "Human Ritual",
+      "emoji": "💀",
+      "recurrence": { "type": "fixed", "month": 11, "day": 1, "durationDays": 2 },
+      "sensitivity": "public",
+      "precision": "point",
+      "consent": "Public observance; cemetery vigils are family occasions where visitors are expected to be unobtrusive.",
+      "reviewStatus": "published",
+      "lastVerifiedAt": "2025-11-03",
+      "sources": [
+        { "name": "UNESCO Intangible Cultural Heritage", "url": "https://ich.unesco.org/en/RL/indigenous-festivity-dedicated-to-the-dead-00054" }
+      ],
+      "operatorSignals": [],
+      "notes": "Village cemeteries around Oaxaca differ sharply from the city's tourist-heavy comparsas."
+    },
+    {
+      "id": "hopi-closed-ceremonies",
+      "name": "Hopi village ceremonies",
+      "description": "Recorded so the pipeline knows to stay silent. Most Hopi ceremonies have been closed to non-Hopi for decades, and the villages ask that dates and locations not be circulated.",
+      "lat": 35.8500,
+      "lon": -110.6000,
+      "locationHint": "Hopi Nation, Arizona",
+      "country": "United States",
+      "category": "Human Ritual",
+      "emoji": "🚫",
+      "recurrence": { "type": "month_window", "startMonth": 1, "startDay": 1, "endMonth": 12, "endDay": 31 },
+      "sensitivity": "sacred",
+      "precision": "country",
+      "consent": "None, and none sought. The villages have publicly asked outsiders to stay away from these observances.",
+      "reviewStatus": "published",
+      "lastVerifiedAt": "2026-01-01",
+      "sources": [
+        { "name": "Hopi Cultural Preservation Office", "url": "https://www.hopi-nsn.gov/" }
+      ],
+      "operatorSignals": [],
+      "notes": "Deliberate negative entry: reviewStatus is 'published' and it still must never reach the map. If this ever appears in output, the sensitivity gate is broken."
+    }
+  ]
+}
