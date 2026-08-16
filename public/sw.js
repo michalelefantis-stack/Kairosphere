@@ -1,8 +1,9 @@
 const CACHE_NAME = 'kairosphere-v1';
+// The stylesheet is no longer a stable path — Vite emits it as a hashed asset,
+// so it is cached at runtime by the fetch handler instead of precached here.
 const ASSETS_TO_CACHE = [
   '/',
-  '/index.html',
-  '/index.css'
+  '/index.html'
 ];
 
 // Install event: cache static assets
