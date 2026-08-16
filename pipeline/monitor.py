@@ -24,6 +24,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+from . import verification
 from .sources import local_news as ln
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -31,6 +32,17 @@ OUT_DIR = ROOT / "public" / "data" / "local"
 STATE = ROOT / "pipeline" / "out" / "monitor_state.json"
 
 log = logging.getLogger("monitor")
+
+
+def _catalogue_titles() -> list[str]:
+    """Curated event names, used to cross-check reports against what we hold."""
+    source = ROOT / "data" / "southeastAsia.ts"
+    try:
+        import re
+        text = source.read_text(encoding="utf-8")
+        return re.findall(r"title: '([^']+)'", text)
+    except OSError:
+        return []
 
 
 def _load_state() -> dict:
@@ -97,10 +109,15 @@ def main(argv=None) -> int:
     log.info("refreshing %d locale(s)", len(locales))
     totals = {"raw": 0, "published": 0, "withheld_private": 0, "dropped_noise": 0}
 
+    known_titles = _catalogue_titles()
+
     for locale in locales:
         raw = ln.collect(locale)
         classified = ln.classify(raw)
-        keep = ln.publishable(classified)
+        # Verification stands in for the crowd until there is one: geocoding,
+        # publisher standing, cross-run corroboration and the pawukon calendar.
+        verified = verification.verify(classified, known_titles)
+        keep = ln.publishable(verified)
 
         totals["raw"] += len(raw)
         totals["published"] += len(keep)
@@ -129,7 +146,14 @@ def main(argv=None) -> int:
             # or for private-vs-public, so the client must refuse to show it.
             "status": "unconfirmed" if filtered else "unfiltered",
             "count": len(keep),
-            "reports": [c.to_dict() for c in keep],
+            "reports": [
+                {
+                    **c.to_dict(),
+                    **({"coordinates": list(getattr(c, "coordinates"))}
+                       if hasattr(c, "coordinates") else {}),
+                }
+                for c in keep
+            ],
         }
         (OUT_DIR / f"{locale['country']}.json").write_text(
             json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"

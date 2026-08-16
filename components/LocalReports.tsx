@@ -28,6 +28,11 @@ const ReportRow: React.FC<{ report: LocalReport }> = ({ report }) => (
       <p className="text-[14px] text-ink leading-snug group-hover:text-accent transition-colors">
         {report.title}
       </p>
+      {report.reasons.length > 0 && (
+        <p className="text-[12px] text-ink-dim mt-1 leading-snug">
+          {report.reasons.slice(0, 2).join(' · ')}
+        </p>
+      )}
       <p className="text-[12px] text-ink-faint mt-1 flex flex-wrap items-center gap-x-2">
         {report.place && <span className="text-ink-dim">{report.place}</span>}
         {report.whenText && <span>· {report.whenText}</span>}
