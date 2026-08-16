@@ -1,0 +1,120 @@
+name: Update phenomena feed
+
+# Rebuilds the live-events feed on a schedule and publishes it.
+#
+# Cadence is set by how fast each tier actually moves: aurora is a ~30-minute
+# nowcast, blooms and citizen-science signals shift daily, deterministic
+# astronomy never moves at all. Every two hours keeps the fastest layer
+# honest without burning minutes on maths that cannot change.
+#
+# Cost: ~90s per run, ~12 runs/day, so roughly 550 minutes/month — inside the
+# 2,000 free minutes a private repo gets. Public repos are unlimited, and can
+# drop the cron to '*/30 * * * *' if the aurora layer deserves it.
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:        # a manual "run now" button
+    inputs:
+      force:
+        description: 'Publish even if the gate reports a regression'
+        type: boolean
+        default: false
+
+concurrency:
+  group: phenomena-feed
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Run tests
+        # The deterministic tiers are pure maths; if that breaks, publishing a
+        # feed built from it is worse than publishing nothing.
+        run: python -m unittest discover -s pipeline/tests -t .
+
+      - name: Build feed
+        id: build
+        run: python -m pipeline.run ${{ inputs.force && '--force' || '' }}
+
+      - name: Summarise
+        if: always()
+        run: |
+          if [ -f public/data/phenomena.json ]; then
+            python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json, pathlib
+          feed = json.loads(pathlib.Path('public/data/phenomena.json').read_text(encoding='utf-8'))
+          counts = feed.get('counts', {})
+          print(f"### Phenomena feed\n")
+          print(f"- generated: `{feed.get('generatedAt')}`")
+          print(f"- events: **{counts.get('total')}** ({counts.get('active')} active)")
+          print(f"- by tier: `{counts.get('byTier')}`")
+          print(f"- by confidence: `{counts.get('byBand')}`")
+          queue = pathlib.Path('pipeline/out/review_queue.json')
+          if queue.exists():
+              items = json.loads(queue.read_text(encoding='utf-8')).get('items', [])
+              if items:
+                  print(f"\n### Needs human review ({len(items)})\n")
+                  for item in items:
+                      print(f"- **{item['name']}** — {'; '.join(item['reasons'])}")
+          PY
+          fi
+
+      - name: Commit the feed
+        run: |
+          git config user.name  'kairosphere-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add public/data/phenomena.json public/data/live_events.geojson
+          if git diff --cached --quiet; then
+            echo 'Feed unchanged; nothing to commit.'
+            exit 0
+          fi
+          git commit -m "chore(data): refresh phenomena feed [skip ci]"
+          # The schedule can overlap a human push; rebase rather than fail.
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Stage feed for Pages
+        if: vars.PUBLISH_PAGES == 'true'
+        run: |
+          mkdir -p _site/data
+          cp public/data/phenomena.json public/data/live_events.geojson _site/data/
+
+      - uses: actions/upload-pages-artifact@v3
+        if: vars.PUBLISH_PAGES == 'true'
+        with:
+          path: _site
+
+  # Serves the feed at https://<user>.github.io/<repo>/data/phenomena.json
+  # with permissive CORS, which is what the mobile build fetches.
+  # Opt in by setting the repository variable PUBLISH_PAGES to 'true' and
+  # enabling Pages (Settings > Pages > Source: GitHub Actions).
+  publish:
+    needs: build
+    if: vars.PUBLISH_PAGES == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

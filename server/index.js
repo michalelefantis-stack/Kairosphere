@@ -21,9 +21,21 @@ const PORT = Number(process.env.PORT) || 8787;
 // Base64 image uploads are the largest legitimate payload.
 app.use(express.json({ limit: '8mb' }));
 
-// Default covers local dev; set ALLOWED_ORIGINS in production.
+// Default covers local dev and the packaged mobile app; set ALLOWED_ORIGINS
+// in production.
+//
+// The Capacitor origins are not optional: capacitor.config.ts sets
+// androidScheme 'https', so the Android webview reports https://localhost,
+// and iOS reports capacitor://localhost. Omit either and the mobile build
+// gets a 403 on every AI call while the browser works fine.
 const ALLOWED_ORIGINS = (process.env.ALLOWED_ORIGINS ??
-  'http://localhost:3000,http://localhost:4173,capacitor://localhost,http://localhost')
+  [
+    'http://localhost:3000',   // vite dev
+    'http://localhost:4173',   // vite preview
+    'https://localhost',       // Capacitor Android (androidScheme: 'https')
+    'capacitor://localhost',   // Capacitor iOS
+    'http://localhost'         // Capacitor Android with the http scheme
+  ].join(','))
   .split(',')
   .map(origin => origin.trim())
   .filter(Boolean);

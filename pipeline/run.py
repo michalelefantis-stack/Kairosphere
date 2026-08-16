@@ -22,7 +22,7 @@ from datetime import timedelta
 from pathlib import Path
 from typing import Any, Callable
 
-from . import SCHEMA_VERSION
+from . import SCHEMA_VERSION, publish_gate
 from .confidence import apply as apply_confidence, band, reconcile
 from .schema import PhenomenonEvent, iso, utcnow
 from .sources import citizen, curated, deterministic, model_feeds
@@ -135,6 +135,11 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--offline", action="store_true", help="tier 1 and 4 only, no network")
     parser.add_argument("--horizon-days", type=int, default=DEFAULT_HORIZON_DAYS)
     parser.add_argument("--dry-run", action="store_true", help="print a summary, write nothing")
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="publish even if the run looks like a regression (see publish_gate)",
+    )
     parser.add_argument("--verbose", "-v", action="store_true")
     args = parser.parse_args(argv)
 
@@ -177,6 +182,30 @@ def main(argv: list[str] | None = None) -> int:
             )
         log.info("dry run — nothing written")
         return 0
+
+    # Compare against what is already published before overwriting it.
+    feed_path = PUBLIC_DATA / "phenomena.json"
+    previous = None
+    if feed_path.exists():
+        try:
+            previous = json.loads(feed_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as exc:
+            log.warning("could not read the existing feed for comparison: %s", exc)
+
+    gate = publish_gate.check(payload, previous)
+    if not gate.ok:
+        for reason in gate.reasons:
+            log.error("publish gate: %s", reason)
+        if not args.force:
+            log.error(
+                "refusing to publish (%s). The previous feed is left in place. "
+                "Re-run with --force to override.",
+                gate.summary,
+            )
+            return 1
+        log.warning("--force given; publishing anyway despite the gate")
+    else:
+        log.info("publish gate passed: %s", gate.summary)
 
     PUBLIC_DATA.mkdir(parents=True, exist_ok=True)
     OUT_DIR.mkdir(parents=True, exist_ok=True)

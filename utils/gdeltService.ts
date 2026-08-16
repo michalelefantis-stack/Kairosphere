@@ -196,7 +196,9 @@ export async function fetchGdeltLiveEvents(): Promise<UnifiedEvent[]> {
 
   // --- 4. PYTHON RESEARCH PIPELINE (GeoJSON from scripts/research_events.py) ---
   try {
-    const res = await fetch('/data/live_events.geojson?t=' + Date.now());
+    // Relative, not root-absolute: keeps working under Capacitor's
+    // https://localhost origin and any non-root base path.
+    const res = await fetch('data/live_events.geojson?t=' + Date.now());
     if (res.ok) {
       const geojson = await res.json();
       const features = geojson?.features || [];

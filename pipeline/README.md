@@ -118,14 +118,67 @@ Data that changes without code changes lives in `pipeline/registry/`:
   observance by up to a day, which is encoded as `uncertainty_days=1.5` rather
   than hidden.
 
-## Scheduling
+## Keeping it current
 
-Deterministic entries need rebuilding roughly monthly; model feeds go stale in
-days. A reasonable cron:
+`.github/workflows/phenomena.yml` runs the whole thing every two hours, free.
 
-```
-*/30 * * * *  cd /path/to/kairosphere && python -m pipeline.run
-```
+**Why two hours.** Cadence should follow the fastest-moving tier, and only the
+aurora nowcast moves in minutes; blooms and citizen-science signals shift daily,
+and deterministic astronomy never moves at all. Two hours costs roughly 550
+GitHub Actions minutes a month — inside the 2,000 a private repo gets free.
+Public repos have unlimited minutes and can drop to `*/30 * * * *`.
 
-Nothing breaks if it runs less often — the confidence just visibly decays,
-which is the point.
+The workflow runs the pipeline tests *before* building, because the
+deterministic tiers are pure maths: if those break, publishing a feed derived
+from them is worse than publishing nothing.
+
+### The publish gate
+
+Every adapter fails soft, which is correct — one dead upstream should not sink a
+run. But soft failures compound: three simultaneous timeouts still produce a
+"successful" run carrying a third of the events. Unattended, on a schedule, that
+is exactly how a live map goes quietly wrong.
+
+So `publish_gate.py` compares each run against what is already published and
+refuses to publish when:
+
+- the run produced no events at all,
+- there are no tier-1 events (that tier has no upstream, so its absence means
+  the code broke, not the internet),
+- the event count fell by more than half,
+- or a tier that had at least three events went to zero.
+
+On refusal the old feed stays exactly where it is, the process exits non-zero,
+the workflow goes red, and GitHub emails you. `--force` overrides it.
+
+Verified end to end: a run with every network source disabled loses tiers 2 and
+3, trips the gate, exits 1, and leaves the previous feed byte-identical.
+
+### Publishing the feed
+
+The workflow commits the rebuilt feed. How the apps *read* it depends on the
+repository:
+
+| repo | serve from | `VITE_PHENOMENA_URL` |
+| --- | --- | --- |
+| public | GitHub Pages — set repo variable `PUBLISH_PAGES=true` and Settings > Pages > Source: GitHub Actions | `https://<user>.github.io/<repo>/data/phenomena.json` |
+| public, no Pages | raw.githubusercontent (sends `access-control-allow-origin: *`, ~5 min cache) | `https://raw.githubusercontent.com/<user>/<repo>/main/public/data/phenomena.json` |
+| private | Cloudflare Pages or R2 — free tier, add a `wrangler deploy` step | your Cloudflare URL |
+
+Avoid jsDelivr for this: it caches branch-pinned files for up to 12 hours, which
+outlives a two-hour feed.
+
+A web deploy that ships `public/data/` with the build needs none of this — the
+feed is served from the same origin. It matters for the **mobile** build, where
+the bundled copy is frozen at build time.
+
+### If the scheduler stops
+
+Nothing catches fire. Confidence decays against the wall clock in
+`utils/phenomenaService.ts`, so entries visibly fade, and the ticker shows a
+"feed not refreshed recently" banner past two days. Degrading honestly is the
+designed failure mode.
+
+Two caveats worth knowing: GitHub disables scheduled workflows on public repos
+after 60 days without commits, and scheduled runs are queued rather than
+punctual — a `0 */2` cron can land several minutes late under load.
