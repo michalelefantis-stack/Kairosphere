@@ -192,9 +192,12 @@ def collect(locale: dict, max_age_days: int = MAX_AGE_DAYS) -> list[Candidate]:
 
 # ── extraction ────────────────────────────────────────────────────────────
 
+# Overridable, because model availability differs per key and project.
+# `python -m pipeline.check_ai` reports which flash variants a key can see.
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 GEMINI_URL = (
-    "https://generativelanguage.googleapis.com/v1beta/models/"
-    "gemini-2.5-flash:generateContent"
+    f"https://generativelanguage.googleapis.com/v1beta/models/"
+    f"{GEMINI_MODEL}:generateContent"
 )
 
 EXTRACTION_PROMPT = """You are filtering a news feed for a travel app about cultural rituals and natural phenomena.
@@ -222,7 +225,9 @@ def _gemini(payload: dict, api_key: str) -> dict | None:
             headers={"Content-Type": "application/json"},
         )
         if response.status_code != 200:
-            log.warning("gemini http %s", response.status_code)
+            body = response.text[:300].replace(api_key, "<KEY>")
+            log.error("gemini http %s — classification skipped. %s",
+                      response.status_code, body)
             return None
         return response.json()
     except Exception as exc:
@@ -246,7 +251,10 @@ def classify(candidates: list[Candidate], api_key: str | None = None, batch: int
         log.info("no GEMINI_API_KEY: skipping extraction, candidates stay unclassified")
         return candidates
 
+    failures = 0
+    batches = 0
     for start in range(0, len(candidates), batch):
+        batches += 1
         chunk = candidates[start:start + batch]
         listing = "\n".join(f"{i+1}. {c.title}" for i, c in enumerate(chunk))
         result = _gemini(
@@ -257,6 +265,7 @@ def classify(candidates: list[Candidate], api_key: str | None = None, batch: int
             api_key,
         )
         if not result:
+            failures += 1
             continue
 
         try:
@@ -290,6 +299,14 @@ def classify(candidates: list[Candidate], api_key: str | None = None, batch: int
             if candidate.is_public is False:
                 candidate.reasons.append("private observance — withheld")
 
+    if failures:
+        # Loudly, because everything downstream will otherwise look like a
+        # quiet news day rather than a broken key.
+        log.error(
+            "%d of %d classification batches failed — run "
+            "`python -m pipeline.check_ai` to find out why",
+            failures, batches,
+        )
     return candidates
 
 
