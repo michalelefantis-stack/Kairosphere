@@ -439,12 +439,30 @@ const InsightsView: React.FC<InsightsViewProps> = ({ item, onClose, isSaved, onT
                   <h3 className="text-[12px] font-semibold uppercase tracking-[0.1em] text-ink-faint">
                     When it happens
                   </h3>
-                  <p className="text-2xl md:text-3xl font-semibold text-ink leading-tight">
-                    {formatEventWindow(item.startDate, item.endDate)}
-                  </p>
+                  {item.dateIsMovable ? (
+                    <>
+                      <p className="text-2xl md:text-3xl font-semibold text-ink-dim leading-tight">
+                        Date varies each year
+                      </p>
+                      <p className="text-[14px] text-ink-dim leading-relaxed max-w-prose border-l-2 border-gold pl-3">
+                        This observance follows a lunar or lunisolar calendar, so its Gregorian
+                        date moves annually — the stored date is a past instance, not a forecast.
+                        The live feed computes the current one.
+                      </p>
+                    </>
+                  ) : (
+                    <p className="text-2xl md:text-3xl font-semibold text-ink leading-tight">
+                      {formatEventWindow(item.startDate, item.endDate)}
+                    </p>
+                  )}
                   {recurrenceNote && (
                     <p className="text-[14px] text-ink-dim leading-relaxed max-w-prose border-l-2 border-line pl-3">
                       {recurrenceNote}
+                    </p>
+                  )}
+                  {item.dateWasProjected && !item.dateIsMovable && (
+                    <p className="text-[13px] text-ink-faint">
+                      Projected from the last recorded occurrence — confirm locally before booking.
                     </p>
                   )}
                 </section>

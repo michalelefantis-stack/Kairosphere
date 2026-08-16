@@ -58,10 +58,15 @@ const App: React.FC = () => {
   const [cultureData, setCultureData] = useState<CultureItem[]>([]);
   const [dataLoaded, setDataLoaded] = useState(false);
   useEffect(() => {
-    import('./mockData').then(mod => {
-      setCultureData(mod.MOCK_CULTURE_DATA);
-      setDataLoaded(true);
-    });
+    Promise.all([import('./mockData'), import('./utils/eventSchedule')]).then(
+      ([mod, schedule]) => {
+        // The catalogue stores one historical instance per event and 89% of
+        // them have already passed. Resolve each to its next occurrence here,
+        // so the map, calendar and insights all see upcoming dates.
+        setCultureData(schedule.withResolvedSchedules(mod.MOCK_CULTURE_DATA));
+        setDataLoaded(true);
+      }
+    );
   }, []);
 
   const [activeTab, setActiveTab] = useState('map');

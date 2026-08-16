@@ -159,6 +159,10 @@ export interface CultureItem {
   recommendedBooks?: Book[];
   tourLink?: string;
   analysis?: any;
+  /** Set by utils/eventSchedule: date comes from a lunar/lunisolar calendar. */
+  dateIsMovable?: boolean;
+  /** Set by utils/eventSchedule: date was projected forward from a past record. */
+  dateWasProjected?: boolean;
 }
 
 export interface FilterState {
