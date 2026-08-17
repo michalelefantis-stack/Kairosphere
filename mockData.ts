@@ -1907,7 +1907,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Tromsø, Norway',
     description: 'Charged particles from the sun meet the upper atmosphere and make it glow, mostly green from oxygen, red and violet higher up. Tromsø sits under the auroral oval, so the lights appear on any clear dark night between roughly September and March rather than only during storms.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [69.65, 18.96]. General timing pattern: Sept to March.',
+    insights: 'Darkness and clear sky decide this, not solar activity — a strong aurora is invisible through cloud. Get away from town lights, allow several nights rather than one, and watch the local forecast for cloud cover rather than the KP index alone.',
     imageUrl: 'https://images.unsplash.com/photo-1531366936337-7c912a4589a7?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -1922,7 +1922,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'South Pole',
     description: 'The southern counterpart of the northern lights, driven by the same solar wind striking the upper atmosphere. It is far harder to see than the aurora borealis for a simple reason: almost all of the land beneath the southern auroral oval is ocean or Antarctica.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-90, 0]. General timing pattern: March to Sept.',
+    insights: 'Almost all the land under the southern auroral oval is ocean or Antarctica, which is why the northern lights are famous and these are not. Tasmania and the far south of New Zealand are the practical options.',
     imageUrl: 'https://images.unsplash.com/photo-1504198453319-5ce911bafcde?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -1937,7 +1937,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Lake Maracaibo, Venezuela',
     description: 'Where the Catatumbo River meets Lake Maracaibo, warm air off the water collides with cold air spilling from the Andes and produces near-continuous lightning. Storms occur on well over half the nights of the year, concentrated after dark and heaviest late in the wet season.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [9.75, -73]. General timing pattern: Year-round (Peak: Sept/Oct).',
+    insights: 'It is a night event and a distant one: the storms sit over the water, so the view is from a boat or a stilt village on the lake rather than from the shore. Late in the wet season gives the most active nights.',
     imageUrl: 'https://images.unsplash.com/photo-1461511669078-d46bf351cd6e?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -1952,7 +1952,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Burketown, Australia',
     description: 'A roll cloud that can run for a thousand kilometres, arriving over the Gulf of Carpentaria as a single tube of turning air moving ahead of a pressure surge. Glider pilots come to Burketown to soar along its leading edge, most reliably in spring.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-17.74, 139.55]. General timing pattern: Late Sept to early Nov.',
+    insights: 'The cloud arrives early and passes quickly, so this means being in position before dawn. September and October are the months pilots plan around, and even then it is a matter of waiting for the right morning.',
     imageUrl: 'https://images.unsplash.com/photo-1534088568595-a066f410bcda?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -1967,7 +1967,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Sakurajima, Japan',
     description: 'Ash particles grind against each other inside an eruption column and separate charge, producing lightning inside the plume itself. Sakurajima erupts often enough that the effect has been photographed there more than almost anywhere, though it depends entirely on the volcano\'s own timing.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [31.59, 130.66]. General timing pattern: Unpredictable (Eruption-dependent).',
+    insights: 'There is no season, only an eruption. Sakurajima is unusually active, which is why the photographs come from there, but any given visit is a gamble on the volcano rather than the weather.',
     imageUrl: 'https://images.unsplash.com/photo-1562557009-a4d26b0f5dae?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -1982,7 +1982,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Longyearbyen, Svalbard',
     description: 'Above the Arctic Circle the sun does not set for weeks either side of the summer solstice. At Longyearbyen\'s latitude it stays up continuously from about late April to late August, circling the sky rather than rising and setting.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [78.22, 15.63]. General timing pattern: April 20 to Aug 22.',
+    insights: 'The sun does not set, which sounds obvious and is disorienting in practice: there is no dusk to tell you it is late. Bring an eye mask, and expect the town to keep going at two in the morning.',
     imageUrl: 'https://images.unsplash.com/photo-1507400492013-162706c8c05e?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -1997,7 +1997,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Victoria Falls, Zambia/Zimbabwe',
     description: 'A rainbow formed by moonlight rather than sunlight, faint enough that the eye often reads it as white while a long exposure shows the colours. It needs a bright moon near full, and spray — which Victoria Falls supplies from its own gorge when the river is high.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-17.92, 25.86]. General timing pattern: Full Moon, April to July.',
+    insights: 'Needs a bright moon, a dark sky and spray, so the window is a few nights either side of full moon in the high-water months. The colour is usually too faint to see and shows up in a long exposure.',
     imageUrl: 'https://images.unsplash.com/photo-1507400492013-162706c8c05e?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2012,7 +2012,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'The Brocken, Germany',
     description: 'The magnified shadow of an observer cast onto cloud or mist below them, ringed by coloured light. Named for the Harz mountain where it was first described, it appears whenever you stand between the sun and a bank of fog, which the Brocken provides for much of the year.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [51.8, 10.62]. General timing pattern: Year-round (Misty conditions).',
+    insights: 'You have to be above the cloud with the sun behind you, which is a matter of standing in the right place at the right moment rather than travelling on a date. Common on any misty summit, not only the Brocken.',
     imageUrl: 'https://images.unsplash.com/photo-1534088568595-a066f410bcda?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2027,7 +2027,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Matsu Islands, Taiwan',
     description: 'Dinoflagellates bloom in the waters around the Matsu Islands and emit blue light when the water is disturbed, so breaking waves and boat wakes glow at night. Strongest in the warmer months, and dependent on the bloom rather than on any date.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [26.15, 119.95]. General timing pattern: April to August.',
+    insights: 'Bloom-dependent and moon-dependent: a dark night with no moon shows it best, and a bloom that has not arrived shows nothing. Boats run from the harbours in the warm months and the glow appears where the water is disturbed.',
     imageUrl: 'https://images.unsplash.com/photo-1507400492013-162706c8c05e?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2042,7 +2042,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Odisha, India',
     description: 'Olive ridley turtles come ashore to nest not singly but in an arribada — tens of thousands of females emerging over a few nights on the same stretch of sand. The Odisha rookeries are among the largest anywhere, and the timing shifts with weather and moon.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [19.38, 85.07]. General timing pattern: February to March.',
+    insights: 'The arribada is triggered rather than scheduled, and the beaches are protected — access is controlled and often closed at the peak. Watching means going with the forest department rather than turning up.',
     imageUrl: 'https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2057,7 +2057,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Amazon Estuary, Brazil',
     description: 'A spring tide pushes up the Amazon against the current as a standing wave that can travel far inland, audible before it arrives. Surfers ride it for minutes at a time, which is the point: the wave does not break and reform, it simply keeps going.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [0, -50]. General timing pattern: Feb/March (Equinoxes).',
+    insights: 'Driven by the spring tides around new and full moon, so the dates are known well ahead even though the size is not. The wave carries debris and wildlife; this is not a beginner\'s surf.',
     imageUrl: 'https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2072,7 +2072,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Haining, China',
     description: 'The world\'s largest tidal bore, funnelled by the narrowing Hangzhou Bay into a wall of water that runs upstream past Haining. It is at its most dramatic around the eighth lunar month, when viewing has been a public occasion for well over a thousand years.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [30.53, 120.68]. General timing pattern: 18th day of 8th Lunar Month (Sept).',
+    insights: 'Viewing is organised and crowded, with designated embankments and a long history of spectators being swept off unofficial ones. The eighth lunar month draws the largest bores and the largest crowds.',
     imageUrl: 'https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2087,7 +2087,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Gloucestershire, UK',
     description: 'The Severn\'s funnel-shaped estuary has one of the greatest tidal ranges on earth, and on the largest spring tides the incoming water forms a wave that travels upriver through Gloucestershire. Published tide tables rate each bore in advance, so the big ones are known months ahead.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [51.86, -2.24]. General timing pattern: Spring/Autumn Equinoxes.',
+    insights: 'The only one of these you can plan to the minute: published tide tables rate each bore months ahead on a one-to-five star scale. Four and five star bores are worth travelling for; anything less is a ripple.',
     imageUrl: 'https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2102,7 +2102,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Strait of Corryvreckan, Scotland',
     description: 'Between Jura and Scarba the flood tide meets a pinnacle rising from the seabed and a deep hole beside it, throwing up standing waves and a whirlpool audible from the shore. It runs on the tide, so it is genuinely predictable — and genuinely dangerous.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [56.16, -5.73]. General timing pattern: New/Full Moon tides.',
+    insights: 'It runs on the flood tide, so the timing is exact and so is the danger — this is viewed from a chartered boat or from the Jura shore, never from a small craft of your own.',
     imageUrl: 'https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2117,7 +2117,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Broome, Australia',
     description: 'A full moon rising over exposed tidal flats at Roebuck Bay reflects off the wet mud in broken bands, so the light appears as a series of steps climbing to the horizon. It happens on a handful of evenings a month between roughly March and October.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-17.96, 122.24]. General timing pattern: March to Oct (Full Moon).',
+    insights: 'Published dates: it needs a full moon rising over an exposed tidal flat, so the tourism office lists the two or three evenings a month it will happen between March and October.',
     imageUrl: 'https://images.unsplash.com/photo-1532693322450-2cb5c511067d?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2132,7 +2132,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'British Columbia, Canada',
     description: 'As the water evaporates each summer, the lake\'s dissolved minerals concentrate into hundreds of separate pools, each ringed and coloured by its own salts. It is on Okanagan Nation land and is viewed from the roadside rather than entered.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [49.08, -119.57]. General timing pattern: June to September.',
+    insights: 'The spots appear as the water evaporates, so late summer is the time. The lake is on Okanagan Nation land and is viewed from the fence at the roadside — going in is not permitted.',
     imageUrl: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2147,7 +2147,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Maranhão, Brazil',
     description: 'A field of white dunes that fills with rainwater rather than staying dry: the rains arrive, water collects in the hollows between the dunes and cannot drain through the rock beneath, leaving thousands of clear lagoons. They are fullest a month or two after the wet season, and gone by the end of the dry.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-2.53, -43.12]. General timing pattern: May to September.',
+    insights: 'The lagoons need the rains to have fallen and the sun to not yet have taken them back, which is roughly July to September. Arrive too early and the hollows are dry; too late and they are gone.',
     imageUrl: 'https://images.unsplash.com/photo-1512100356356-de1b84283e18?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2162,7 +2162,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Lake Abraham, Canada',
     description: 'Methane from decaying plant matter on the lake bed rises in columns and is caught by the advancing ice, freezing into stacked white discs suspended beneath the surface. Best seen on clear black ice before snow covers it.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [52.22, -116.43]. General timing pattern: January to February.',
+    insights: 'Needs clear black ice, which means cold that arrives before the snow does. A single snowfall hides the whole thing until the wind clears it again.',
     imageUrl: 'https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2177,7 +2177,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Lake Baikal, Russia',
     description: 'Baikal freezes so clear that the ice itself is transparent, and pressure ridges shatter into slabs that stand on edge and glow turquoise in the light. It needs deep winter cold and, more importantly, wind that keeps the snow off.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [53.56, 108.17]. General timing pattern: February to March.',
+    insights: 'Deep winter, and wind rather than cold is the deciding factor — snow cover turns the transparent ice white. February and March are when the pressure ridges are largest.',
     imageUrl: 'https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2192,7 +2192,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Lighthouse Reef, Belize',
     description: 'A limestone cave system that formed above sea level during the ice ages and flooded when the sea rose, leaving a near-circular shaft over a hundred metres deep in the middle of the reef. Divers descend past the old cave formations still hanging in the dark.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [17.32, -87.54]. General timing pattern: Nov to May (Dry Season).',
+    insights: 'A technical dive rather than a snorkel: the formations are at forty metres and the shaft is dark and largely lifeless. Most of the reef\'s marine life is on the rim, not inside.',
     imageUrl: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2207,7 +2207,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Serranía de la Macarena, Colombia',
     description: 'For a few months a year the riverbed plant Macarenia clavigera turns deep red, and against the yellow sand, green moss and blue water the river is known locally as the one that ran away from paradise. Too little water and it will not colour; too much and the plants are hidden.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [2.26, -73.79]. General timing pattern: July to November.',
+    insights: 'The park closes when the water is too low or too high for the plants to colour, so it opens roughly June to November. Numbers are capped and a guide is compulsory.',
     imageUrl: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2222,7 +2222,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Los Glaciares, Argentina',
     description: 'One of the few glaciers not retreating, Perito Moreno advances until it dams an arm of the lake; the water rises behind the ice, tunnels through, and eventually collapses the arch in front of an audience. Smaller calving happens daily, the full rupture only every few years.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-50.47, -73.04]. General timing pattern: Nov to March (Ruptures vary).',
+    insights: 'Ice falls from the face daily and can be watched from the boardwalks without any timing at all. The full rupture of the ice dam is the rare event, and it cannot be predicted more than a few days ahead.',
     imageUrl: 'https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2237,7 +2237,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Okavango, Botswana',
     description: 'Rain that falls in the Angolan highlands takes months to arrive here, so the delta floods at the height of the dry season — water spreading into the Kalahari exactly when there is none anywhere else, and drawing animals in behind it.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-19.42, 22.9]. General timing pattern: June to August.',
+    insights: 'The counter-intuitive part is the timing: the water peaks in the dry season, months after the rain that caused it fell in Angola. That mismatch is exactly why the game viewing is so good then.',
     imageUrl: 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2252,7 +2252,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Atacama, Chile',
     description: 'In years when rain reaches the world\'s driest desert, seeds that have waited in the ground germinate at once and the gravel turns purple and white with flowers. It does not happen annually and cannot be booked in advance; it follows the rain.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-27.37, -70.33]. General timing pattern: Sept to Nov (El Niño years).',
+    insights: 'Rain-dependent and irregular — some years there is nothing at all. When it happens the flowers follow the coastal fog belt, and the roadside verges are often as good as the reserves.',
     imageUrl: 'https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2267,7 +2267,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Northern Cape, South Africa',
     description: 'After the winter rains, a semi-arid landscape that looks bare for most of the year covers itself in orange and white daisies, opening with the sun and closing again in the afternoon. Roughly August into September, earlier or later with the rain.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-30.05, 17.6]. General timing pattern: August to September.',
+    insights: 'The flowers open with the sun and close in the afternoon, so late morning is the time to be there, and they face the sun — drive north in the morning and you will be looking at the backs of them.',
     imageUrl: 'https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2282,7 +2282,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Anza-Borrego, USA',
     description: 'An unusually wet winter wakes a seed bank that can lie dormant for years, and desert hillsides turn to poppies and verbena. Superblooms are irregular by definition — the word exists precisely because the ordinary spring is nothing like it.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [33.26, -116.41]. General timing pattern: February to April.',
+    insights: 'Superblooms follow a wet winter and cannot be booked ahead. When one happens the crowds are the problem: parking fills at dawn and trampled poppies are the reason some reserves now close.',
     imageUrl: 'https://images.unsplash.com/photo-1490750967868-88aa4f44baee?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2297,7 +2297,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Uttarakhand, India',
     description: 'A high Himalayan valley that spends most of the year under snow and, in the weeks after the monsoon arrives, fills with hundreds of alpine species in flower. The park opens for a short season and closes again with the weather.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [30.73, 79.62]. General timing pattern: Mid-July to Mid-August.',
+    insights: 'The park opens for a short season and reaching it is a day\'s walk from Govindghat with no accommodation inside. It flowers in the monsoon, which means the trail is wet and the views are often cloud.',
     imageUrl: 'https://images.unsplash.com/photo-1490750967868-88aa4f44baee?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2312,7 +2312,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Umbria, Italy',
     description: 'The high plain above Castelluccio is farmed for lentils, and as the crop comes into flower the wild poppies, cornflowers and mustard come with it, laying bands of red, blue and yellow across the basin. Late spring into early summer, and short.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [42.83, 13.21]. General timing pattern: Late June to early July.',
+    insights: 'Short and hard to time — the flowering runs for a couple of weeks somewhere between late June and early July, and the plain is high enough that a cold spring pushes everything back.',
     imageUrl: 'https://images.unsplash.com/photo-1490750967868-88aa4f44baee?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2327,7 +2327,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Kyoto, Japan',
     description: 'The bloom advances northward up the archipelago as spring warms, tracked and forecast as a moving line. Any single tree is at its best for only a few days, so the front matters more than the date: it tells you where the peak is this week.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [35.01, 135.77]. General timing pattern: Late March to early April.',
+    insights: 'Forecasts are published weeks ahead and revised often, and full bloom lasts only a few days before rain or wind takes it. Book flexible, and remember the front moves north: if Kyoto is over, somewhere further up still is not.',
     imageUrl: 'https://images.unsplash.com/photo-1522383225653-ed111181a951?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2342,7 +2342,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Micheldever, UK',
     description: 'English woodland floors turn blue for a few weeks in spring, as bluebells flower and set seed before the tree canopy closes over them and takes the light. Ancient woodland holds the densest carpets, and the flowers are easily destroyed by being walked on.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [51.15, -1.22]. General timing pattern: Late April to May.',
+    insights: 'Late April into May, and earlier in the south. Bluebells are killed by being walked on and take years to recover, so the paths are not a suggestion.',
     imageUrl: 'https://images.unsplash.com/photo-1444930694458-01babde71a13?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2357,7 +2357,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Matsumoto, Japan',
     description: 'Larch is a conifer that sheds its needles, and before it does they turn gold. In the mountains around Matsumoto the change runs down the slopes as autumn deepens, so altitude decides the timing as much as the calendar.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [36.27, 137.63]. General timing pattern: October.',
+    insights: 'Altitude sets the timing more than the calendar does: the gold runs down the mountainside over several weeks, so there is almost always a band of it somewhere between late October and mid-November.',
     imageUrl: 'https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2372,7 +2372,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Port St Johns, South Africa',
     description: 'Cold currents carry billions of sardines north along the coast, and everything that eats them follows: dolphins working the shoals into bait balls, sharks, gannets diving from height, whales moving through. Roughly May to July, and it fails in some years.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-31.62, 29.43]. General timing pattern: May to July.',
+    insights: 'It fails in some years and is watched from boats in cold water with poor visibility. The action is the predators rather than the sardines, and finding it means a skipper who is following the birds.',
     imageUrl: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2387,7 +2387,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Australia',
     description: 'Tens of millions of red land crabs leave the forest and cross the island to spawn at the sea, closing roads and covering ground in a moving red sheet. The migration is triggered by the first rains of the wet season and timed to a particular moon and tide.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-10.48, 105.63]. General timing pattern: Oct to Dec (Last Moon Quarter).',
+    insights: 'The roads close and the island provides crab bridges and rakes; driving during the migration is discouraged and in places impossible. It follows the first rains and a particular moon, so the date moves each year.',
     imageUrl: 'https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2402,7 +2402,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Great Barrier Reef, Australia',
     description: 'On a few nights after a full moon in the warmer months, corals across the reef release eggs and sperm simultaneously, filling the water with slicks of pink. The synchrony is the remarkable part: a reef reproducing at once, in the dark.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-18.29, 147.7]. General timing pattern: Nov/Dec (Post-Full Moon).',
+    insights: 'A few nights a year, after dark, some days after a full moon in the warm months — and predicted rather than guaranteed. Dive operators announce their spawning trips well in advance and it can still miss.',
     imageUrl: 'https://images.unsplash.com/photo-1546026423-cc4642628d2b?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2417,7 +2417,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Southern California, USA',
     description: 'A small fish that spawns on land. On certain nights after the highest tides, grunion strand themselves on southern Californian beaches, the females burying their tails to lay before the next wave carries them back out.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [33.71, -118.29]. General timing pattern: March to Aug (New/Full Moon).',
+    insights: 'Predicted runs are published for specific nights after the highest tides. There are closed months when taking them is banned, and the fish come in after dark on a falling tide.',
     imageUrl: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2432,7 +2432,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Delaware Bay, USA',
     description: 'An animal older than the dinosaurs comes ashore in Delaware Bay on the spring tides to lay in the sand, and migrating shorebirds time their arrival to eat the eggs. Late spring, on the highest tides around new and full moon.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [39, -75.2]. General timing pattern: May and June (New/Full Moon).',
+    insights: 'Highest tides around new and full moon in late spring, at night. The shorebirds that come to eat the eggs are the other half of the spectacle and the reason the beaches are protected.',
     imageUrl: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2447,7 +2447,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Hanifaru Bay, Maldives',
     description: 'When the tide traps plankton in Hanifaru Bay, reef mantas gather to feed in numbers, circling in chains and somersaulting through the concentration. It depends on the tide and the plankton, mainly in the southwest monsoon.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [5.17, 73.13]. General timing pattern: May to Nov (Peak: July–Oct).',
+    insights: 'It happens when the tide traps plankton in the bay, so it is tide-dependent and short. The bay is a protected area — no scuba, limited numbers, snorkelling only.',
     imageUrl: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2462,7 +2462,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Nunavut, Canada',
     description: 'At the edge of the landfast ice, where solid ice gives way to open water, narwhal gather in early summer as the floe edge retreats. Reaching it means travelling out over the sea ice with people who know its condition.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [72.7, -77.96]. General timing pattern: May to June.',
+    insights: 'Getting there means travelling out over the sea ice with an outfitter, camping at the edge and waiting. Early summer, before the ice becomes unsafe.',
     imageUrl: 'https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2477,7 +2477,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Troms, Norway',
     description: 'Orca herd herring into a tight ball, drive it towards the surface and stun the fish with their tails before feeding. It happens where the herring overwinter in the northern Norwegian fjords, in the dark months, often with humpbacks working the same shoal.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [69.97, 21]. General timing pattern: October to January.',
+    insights: 'It happens in the polar night, so the light is a brief blue window in the middle of the day. Where the herring overwinter shifts between fjords from year to year, so the operators follow them.',
     imageUrl: 'https://images.unsplash.com/photo-1568430462989-44163eb1752f?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2492,7 +2492,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Mara River, Kenya',
     description: 'Over a million wildebeest move in a continuous circuit through the Serengeti and Masai Mara following the rain and the grass. The river crossings are the famous part and the least predictable: the herds gather for days before anything happens.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-1.57, 35]. General timing pattern: July to October.',
+    insights: 'The herds are somewhere on the circuit all year; only the river crossings are seasonal, and they cannot be scheduled. Camps position themselves by month, so booking is really about choosing which stretch to be near.',
     imageUrl: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2507,7 +2507,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Michoacán, Mexico',
     description: 'Monarch butterflies from across eastern North America converge on a few hectares of high-altitude fir forest in Michoacán, clustering so densely that branches bend. No individual makes the round trip; the butterflies that return north are several generations removed from those that left.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [19.6, -100.27]. General timing pattern: November to March.',
+    insights: 'The butterflies cluster at altitude in cold forest, so the sanctuaries involve a steep climb and it is genuinely cold. They fly when the sun warms them, which makes late morning the time to be there.',
     imageUrl: 'https://images.unsplash.com/photo-1559253664-ca249d4608c6?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2522,7 +2522,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Kasanka, Zambia',
     description: 'Straw-coloured fruit bats gather in a small patch of swamp forest in numbers estimated in the millions — thought to be the largest mammal migration anywhere. They arrive with the fruiting season and leave when it ends, roughly November into December.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-12.57, 30.18]. General timing pattern: Late Oct to Mid-Dec.',
+    insights: 'A short window, and the numbers build and fall within it. The bats leave at dusk and return at dawn, so both ends of the day are worth being in a hide for.',
     imageUrl: 'https://images.unsplash.com/photo-1504006833117-8886a355efbf?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2537,7 +2537,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Nagaland, India',
     description: 'Amur falcons stop in Nagaland to feed before crossing the Arabian Sea to Africa, one of the longest over-water flights of any raptor. Villages that once trapped them in large numbers now protect the roosts, and the birds pass through in autumn.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [26.24, 94.31]. General timing pattern: October to November.',
+    insights: 'The roosts are near villages that once trapped these birds in enormous numbers and now guard them, and that turnaround is the reason there is anything to see. Autumn passage, and the birds move on quickly.',
     imageUrl: 'https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2552,7 +2552,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Great Smoky Mtns, USA',
     description: 'One firefly species in the Smokies flashes in unison rather than at random, producing waves of light through the trees followed by darkness. The display lasts a couple of weeks in early summer and access is balloted.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [35.65, -83.58]. General timing pattern: Late May to Mid-June.',
+    insights: 'Access is by lottery — demand far exceeds the parking, and white torchlight disrupts the display, so red filters are required. A couple of weeks in late spring or early summer.',
     imageUrl: 'https://images.unsplash.com/photo-1507400492013-162706c8c05e?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2567,7 +2567,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Maolin, Taiwan',
     description: 'Purple crow butterflies overwinter in the sheltered valleys of southern Taiwan in enormous numbers, and when they leave in spring the authorities close a motorway lane to let them cross. One of only two known butterfly overwintering migrations of this scale.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [22.88, 120.67]. General timing pattern: November to March.',
+    insights: 'The overwintering valleys are the reliable place; the spring departure is the famous one, when a motorway lane is closed to let them cross. Warm still mornings bring them out.',
     imageUrl: 'https://images.unsplash.com/photo-1559253664-ca249d4608c6?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2582,7 +2582,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Betpak-Dala, Kazakhstan',
     description: 'Saiga gather on the steppe to give birth within a few days of each other, so the calves arrive in an overwhelming pulse that predators cannot keep pace with. The species has come back from catastrophic die-offs, and the calving grounds are kept at a distance.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [48, 67]. General timing pattern: May (One specific week).',
+    insights: 'The calving grounds are closed to visitors and the species is recovering from mass die-offs, so this is watched at a distance or not at all. Its inclusion here is about knowing when and where, not about attending.',
     imageUrl: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2597,7 +2597,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Portland, USA',
     description: 'On autumn migration, thousands of Vaux\'s swifts funnel into a single brick chimney in Portland to roost for the night, spiralling into it at dusk in a column. Crowds gather on the lawn opposite to watch them go in.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [45.53, -122.71]. General timing pattern: September.',
+    insights: 'A city event with a lawn full of people watching a chimney. Peak numbers come in the second half of September, and the birds go in at dusk over about twenty minutes.',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Mary-vaux-walcott.jpg',
     mediaLinks: {}
   },
@@ -2612,7 +2612,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Cueva del Guácharo, Venezuela',
     description: 'Oilbirds are nocturnal, fruit-eating and echolocating, and they leave the Cueva del Guácharo in a clattering stream at dusk to feed. The colony numbers in the thousands and the cave is protected as a national monument.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [10.17, -63.55]. General timing pattern: Daily at dusk (Peak: April/May).',
+    insights: 'The birds leave at dusk and the cave itself is closed during breeding to avoid disturbing them. The sound is as much of it as the sight — they echolocate audibly, in clicks.',
     imageUrl: 'https://images.unsplash.com/photo-1504006833117-8886a355efbf?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2627,7 +2627,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Missouri/NM, USA',
     description: 'Snow geese stage in vast flocks on their way south and north again, lifting off a lake all at once in a roar that carries for a mile. Numbers peak on passage rather than through the winter, so the timing is everything.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [40.08, -95.23]. General timing pattern: Nov to Jan / Feb to March.',
+    insights: 'Numbers swing wildly week to week as flocks move through, so the refuges\' own counts are the only reliable guide. Dawn lift-off is the moment worth being there for.',
     imageUrl: 'https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
@@ -2642,7 +2642,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     verified: true,
     region: 'Lake Natron, Tanzania',
     description: 'Lesser flamingos breed almost nowhere else. The lake\'s caustic soda water keeps predators out, and the birds nest on salt mounds in the middle of it, which is exactly why the colony survives.',
-    insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-2.42, 36]. General timing pattern: August to October.',
+    insights: 'The water is caustic and the nesting colony is unreachable on foot, which is precisely why the birds use it. Viewing is from the shore or from the air, and the breeding years are not every year.',
     imageUrl: 'https://images.unsplash.com/photo-1497206365907-f5e630693df0?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
