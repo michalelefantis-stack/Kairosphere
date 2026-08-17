@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Check, SlidersHorizontal, UserCircle2 } from 'lucide-react';
+import { X, Check, SlidersHorizontal, UserCircle2, Search as SearchIcon } from 'lucide-react';
 import { FilterState } from '../types';
 import KairosLogo from './KairosLogo';
 
@@ -117,24 +117,9 @@ const MobileFilterSheet: React.FC<MobileFilterSheetProps> = ({
         </div>
 
         <div className="px-4 py-4 space-y-6">
-          <div>
-            <label htmlFor="filter-search" className="block text-[13px] text-ink-dim mb-2">
-              Search
-            </label>
-            <input
-              id="filter-search"
-              type="text"
-              value={filters.search}
-              onChange={e => setFilters(f => ({ ...f, search: e.target.value }))}
-              placeholder="Ritual, place, country…"
-              className="w-full min-h-[48px] px-4 rounded-xl bg-hover border border-line
-                         text-[16px] text-ink placeholder:text-ink-faint
-                         focus:outline-none focus:border-accent"
-            />
-            {/* 16px is not a style choice: iOS Safari zooms the page on focus
-                for anything smaller, which then strands the layout. */}
-          </div>
-
+          {/* No search field here: it lives in the top bar, always visible.
+              Two inputs bound to the same value invite the reader to type in
+              one and wonder why the other disagrees. */}
           <div>
             <p className="text-[13px] text-ink-dim mb-2">Category</p>
             <div className="flex flex-wrap gap-2">
@@ -198,60 +183,80 @@ const BUBBLE =
   'bg-base/80 backdrop-blur-xl border border-line rounded-full shadow-lg pointer-events-auto';
 
 export const MobileTopBar: React.FC<{
-  /** Omit to hide the filter control on screens that do not filter. */
-  filter?: { count: number; activeCount: number; onOpen: () => void };
+  /** Omit on screens that do not search or filter. */
+  search?: {
+    value: string;
+    onChange: (v: string) => void;
+    count: number;
+    activeCount: number;
+    onOpenFilters: () => void;
+  };
   onOpenAccount: () => void;
   signedIn: boolean;
-}> = ({ filter, onOpenAccount, signedIn }) => (
+}> = ({ search, onOpenAccount, signedIn }) => (
   <div
-    className="absolute top-0 left-0 right-0 z-[55] flex items-start justify-between
+    className="absolute top-0 left-0 right-0 z-[55] flex items-start
                gap-2 px-3 pointer-events-none"
     style={{ paddingTop: 'calc(env(safe-area-inset-top, 0px) + 10px)' }}
   >
-    {/* Brand left, controls right — the desktop arrangement, at phone size. */}
-    <div className={`${BUBBLE} w-11 h-11 flex items-center justify-center`}>
-      <KairosLogo size={24} />
-    </div>
-
-    <div className={`${BUBBLE} flex items-center h-11 px-1`}>
-      {filter && (
+    {search ? (
+      // Search occupies the bar, with the filter tucked inside it. It is the
+      // most-used control on the screen and was two taps away behind the
+      // filter sheet; the logo it replaces was decoration, and the app's name
+      // is already on the launcher icon and the splash.
+      <div className={`${BUBBLE} flex items-center h-11 flex-1 min-w-0 pl-3 pr-1`}>
+        <SearchIcon className="w-[18px] h-[18px] text-ink-faint shrink-0" aria-hidden="true" />
+        <input
+          type="search"
+          value={search.value}
+          onChange={e => search.onChange(e.target.value)}
+          placeholder="Search rituals, places…"
+          aria-label="Search events"
+          // 16px: anything smaller and iOS Safari zooms the page on focus.
+          className="flex-1 min-w-0 h-11 bg-transparent px-2 text-[16px] text-ink
+                     placeholder:text-ink-faint focus:outline-none"
+        />
         <button
           type="button"
-          onClick={filter.onOpen}
-          className="relative h-11 px-3 rounded-full inline-flex items-center gap-2
-                     text-[14px] font-medium text-ink-dim active:text-ink transition-colors"
+          onClick={search.onOpenFilters}
+          aria-label="Filter events"
+          className="relative w-9 h-9 shrink-0 rounded-full flex items-center justify-center
+                     text-ink-dim active:text-ink transition-colors"
         >
           <SlidersHorizontal className="w-[18px] h-[18px]" />
-          Filter
-          {filter.activeCount > 0 && (
-            <span className="absolute top-0.5 right-1 min-w-[18px] h-[18px] px-1
+          {search.activeCount > 0 && (
+            <span className="absolute -top-0.5 -right-0.5 min-w-[16px] h-[16px] px-1
                              rounded-full bg-accent text-on-accent
-                             text-[11px] font-bold leading-[18px] text-center">
-              {filter.activeCount}
+                             text-[10px] font-bold leading-[16px] text-center">
+              {search.activeCount}
             </span>
           )}
           <span className="sr-only">
-            {filter.count} events match the current filters
+            {search.count} events match the current filters
           </span>
         </button>
-      )}
+      </div>
+    ) : (
+      <div className={`${BUBBLE} w-11 h-11 flex items-center justify-center`}>
+        <KairosLogo size={24} />
+      </div>
+    )}
 
-      <button
-        type="button"
-        onClick={onOpenAccount}
-        aria-label={signedIn ? 'Account' : 'Sign in'}
-        className="w-11 h-11 rounded-full flex items-center justify-center
-                   text-ink-dim active:text-ink transition-colors"
-      >
-        {/* A filled ring when signed in: the only thing the reader needs from
-            this control at a glance is whether their saved trips are backed
-            up or living on this handset alone. */}
-        <UserCircle2
-          className={`w-[22px] h-[22px] ${signedIn ? 'text-accent' : ''}`}
-          strokeWidth={signedIn ? 2.2 : 1.8}
-        />
-      </button>
-    </div>
+    <button
+      type="button"
+      onClick={onOpenAccount}
+      aria-label={signedIn ? 'Account' : 'Sign in'}
+      className={`${BUBBLE} w-11 h-11 shrink-0 ml-auto flex items-center justify-center
+                  text-ink-dim active:text-ink transition-colors`}
+    >
+      {/* A filled ring when signed in: the only thing the reader needs from
+          this control at a glance is whether their saved trips are backed up
+          or living on this handset alone. */}
+      <UserCircle2
+        className={`w-[22px] h-[22px] ${signedIn ? 'text-accent' : ''}`}
+        strokeWidth={signedIn ? 2.2 : 1.8}
+      />
+    </button>
   </div>
 );
 

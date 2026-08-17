@@ -526,10 +526,12 @@ const App: React.FC = () => {
                 )}
 
                 <MobileTopBar
-                  filter={{
+                  search={{
+                    value: filters.search,
+                    onChange: v => setFilters(f => ({ ...f, search: v })),
                     count: filteredData.length,
                     activeCount: activeFilterCount,
-                    onOpen: () => setIsFilterSheetOpen(true)
+                    onOpenFilters: () => setIsFilterSheetOpen(true)
                   }}
                   onOpenAccount={() => setIsAccountOpen(true)}
                   signedIn={isSignedIn}

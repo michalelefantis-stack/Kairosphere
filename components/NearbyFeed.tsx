@@ -24,6 +24,50 @@ import { leadTime } from '../utils/tripPlanner';
  * half of the decision missing.
  */
 
+/**
+ * Reasons to go, rather than a taxonomy to translate.
+ *
+ * The category chips ask the reader to pick between Phenomenon, Spiritual,
+ * Festival, Ceremony, Pilgrimage and Performance — an ontology that is
+ * useful to whoever catalogued the events and to almost nobody else. Nobody
+ * on the road thinks "I am in the mood for a Ceremony"; they think "what can
+ * I still get to" and "what is on this week".
+ *
+ * These sit alongside the category filter rather than replacing it, because
+ * they answer a different question.
+ */
+export type Lens = 'all' | 'now' | 'soon' | 'reachable' | 'rare';
+
+const LENSES: { id: Lens; label: string }[] = [
+  { id: 'all', label: 'All' },
+  { id: 'now', label: 'Happening now' },
+  { id: 'soon', label: 'Next 30 days' },
+  { id: 'reachable', label: 'Within reach' },
+  { id: 'rare', label: 'Rarely seen' }
+];
+
+function passesLens(r: RankedEvent, lens: Lens): boolean {
+  if (lens === 'all') return true;
+  const lead = leadTime(r.item);
+  switch (lens) {
+    case 'now':
+      return lead.label === 'Happening now' || lead.urgency === 'season';
+    case 'soon':
+      return lead.days >= 0 && lead.days <= 30;
+    case 'reachable':
+      // Meaningless without a location, so the chip is hidden in that case
+      // rather than quietly returning everything.
+      return !!r.reach && r.reach.km <= 1200;
+    case 'rare':
+      // Events that do not come round every year are the ones worth
+      // rearranging a trip for.
+      return !!(r.item as any).recurrence &&
+        !/annual|year/i.test(String((r.item as any).recurrence));
+    default:
+      return true;
+  }
+}
+
 interface NearbyFeedProps {
   items: CultureItem[];
   userCoords: [number, number] | null;
@@ -63,12 +107,35 @@ const Thumb: React.FC<{ item: CultureItem }> = ({ item }) => {
   );
 };
 
+/**
+ * One event.
+ *
+ * Photo-led when there is a photograph, a compact row when there is not.
+ *
+ * The mixed rhythm is deliberate. A photo-led feed is the right shape for
+ * this product — the reason to fly to Niger for Gerewol is what it looks
+ * like, and a 72px thumbnail throws that away — but 152 of 373 events still
+ * have no photograph we can vouch for. Giving those a large empty panel
+ * would read as a broken image 40% of the time. A shorter row reads as a
+ * different kind of entry, which is what it is.
+ */
 const Card: React.FC<{ ranked: RankedEvent; onSelect: (i: CultureItem) => void }> = ({
   ranked,
   onSelect
 }) => {
   const { item, reach } = ranked;
   const lead = leadTime(item);
+  const [failed, setFailed] = React.useState(false);
+  React.useEffect(() => setFailed(false), [item.id]);
+
+  // Only a *verified* photograph earns the large treatment.
+  //
+  // Scaling the image up scales up whatever is wrong with it. Crow Fair's
+  // catalogue stock is an antique nautical chart: unnoticeable at 72px,
+  // absurd at full width. Tying prominence to evidence means the feed can
+  // never confidently show something it cannot vouch for — the events with
+  // a checked Wikimedia photo get the card, the rest get an honest row.
+  const hasPhoto = !!item.imageUrl && !!(item as any).imageCredit && !failed;
 
   // Only imminence earns colour. If everything is highlighted the highlight
   // stops meaning anything, and "in 4 months" is not news.
@@ -78,36 +145,83 @@ const Card: React.FC<{ ranked: RankedEvent; onSelect: (i: CultureItem) => void }
       : lead.urgency === 'soon' ? 'text-accent'
       : 'text-ink-dim';
 
+  const meta = (
+    <div className="flex items-center gap-2 text-[13px] flex-wrap">
+      <span className={whenClass}>
+        {item.dateIsUnconfirmed ? 'Date not confirmed' : lead.label}
+      </span>
+      {reach && (
+        <>
+          <span className="text-ink-faint" aria-hidden="true">·</span>
+          <span className="inline-flex items-center gap-1 text-ink-dim tabular-nums">
+            <Navigation className="w-3.5 h-3.5 text-ink-faint" aria-hidden="true" />
+            {reach.label}
+          </span>
+        </>
+      )}
+    </div>
+  );
+
+  if (!hasPhoto) {
+    return (
+      <button
+        type="button"
+        onClick={() => onSelect(item)}
+        // select-none: tapping a row used to select the word under the finger
+        // instead of opening the event.
+        className="w-full flex gap-3 px-4 py-3 text-left select-none
+                   active:bg-hover transition-colors"
+      >
+        <div className="w-14 h-14 rounded-xl shrink-0 bg-hover border border-line
+                        flex items-center justify-center">
+          <svg width="22" height="22" viewBox="0 0 16 16" aria-hidden="true"
+               style={{ color: categoryColor(item.ritualType, item.subCategory), opacity: 0.5 }}>
+            <path d={categoryGlyph(item.ritualType, item.subCategory)} fill="currentColor" />
+          </svg>
+        </div>
+        <div className="min-w-0 flex-1">
+          <p className="text-[15px] font-semibold text-ink leading-snug line-clamp-2">
+            {item.title}
+          </p>
+          <p className="text-[13px] text-ink-dim mt-0.5 truncate">{item.region}</p>
+          <div className="mt-1">{meta}</div>
+        </div>
+      </button>
+    );
+  }
+
   return (
     <button
       type="button"
       onClick={() => onSelect(item)}
-      // select-none: tapping a row used to select the word under the finger
-      // instead of opening the event.
-      className="w-full flex gap-3 px-4 py-3 text-left select-none active:bg-hover
-                 transition-colors border-b border-line-soft"
+      className="w-full px-4 pb-5 text-left select-none block"
     >
-      <Thumb item={item} />
-
-      <div className="min-w-0 flex-1">
-        <p className="text-[15px] font-semibold text-ink leading-snug line-clamp-2">
-          {item.title}
-        </p>
-        <p className="text-[13px] text-ink-dim mt-0.5 truncate">{item.region}</p>
-
-        <div className="flex items-center gap-2 mt-1.5 text-[13px]">
-          {reach && (
-            <span className="inline-flex items-center gap-1 text-ink font-medium tabular-nums">
-              <Navigation className="w-3.5 h-3.5 text-ink-faint" aria-hidden="true" />
-              {reach.label}
-            </span>
-          )}
-          {reach && <span className="text-ink-faint" aria-hidden="true">·</span>}
-          <span className={whenClass}>
-            {item.dateIsUnconfirmed ? 'Date not confirmed' : lead.label}
-          </span>
-        </div>
+      <div className="relative rounded-2xl overflow-hidden bg-hover border border-line">
+        <img
+          src={item.imageUrl}
+          alt=""
+          loading="lazy"
+          referrerPolicy="no-referrer"
+          className="w-full aspect-[16/10] object-cover"
+          onError={() => setFailed(true)}
+        />
+        {/* Category mark over the photo, so the kind of event is readable
+            without reading. Sits on a scrim because photographs are not a
+            reliable background for a small glyph. */}
+        <span className="absolute top-2.5 left-2.5 w-7 h-7 rounded-full bg-black/55
+                         backdrop-blur-sm flex items-center justify-center">
+          <svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"
+               style={{ color: categoryColor(item.ritualType, item.subCategory) }}>
+            <path d={categoryGlyph(item.ritualType, item.subCategory)} fill="currentColor" />
+          </svg>
+        </span>
       </div>
+
+      <p className="text-[16px] font-semibold text-ink leading-snug mt-2.5 line-clamp-2">
+        {item.title}
+      </p>
+      <p className="text-[13px] text-ink-dim mt-0.5 truncate">{item.region}</p>
+      <div className="mt-1">{meta}</div>
     </button>
   );
 };
@@ -160,10 +274,20 @@ const NearbyFeed: React.FC<NearbyFeedProps> = ({
   onSelect,
   children
 }) => {
+  const [lens, setLens] = React.useState<Lens>('all');
+
   const ranked = React.useMemo(
     () => rankNearby(items, userCoords),
     [items, userCoords]
   );
+
+  const shown = React.useMemo(
+    () => ranked.filter(r => passesLens(r, lens)),
+    [ranked, lens]
+  );
+
+  // "Within reach" cannot mean anything before the reader shares a location.
+  const lenses = LENSES.filter(l => l.id !== 'reachable' || userCoords);
 
   return (
     <div
@@ -183,19 +307,41 @@ const NearbyFeed: React.FC<NearbyFeedProps> = ({
         />
       )}
 
+      <div className="flex gap-2 overflow-x-auto no-scrollbar px-4 pb-1 pt-1">
+        {lenses.map(l => (
+          <button
+            key={l.id}
+            type="button"
+            onClick={() => setLens(l.id)}
+            className={`shrink-0 min-h-[38px] px-4 rounded-full text-[14px] font-medium
+                        border transition-colors select-none ${
+              lens === l.id
+                ? 'bg-accent text-on-accent border-accent'
+                : 'border-line text-ink-dim active:text-ink'
+            }`}
+          >
+            {l.label}
+          </button>
+        ))}
+      </div>
+
       <p className="px-4 pt-3 pb-2 text-[12px] text-ink-faint">
         {userCoords
-          ? `${ranked.length} events, nearest and soonest first`
-          : `${ranked.length} events, soonest first`}
+          ? `${shown.length} events, nearest and soonest first`
+          : `${shown.length} events, soonest first`}
       </p>
 
-      {ranked.length === 0 ? (
+      {shown.length === 0 ? (
         <div className="px-4 py-16 text-center">
           <CalendarDays className="w-8 h-8 text-ink-faint mx-auto mb-3" />
-          <p className="text-[14px] text-ink-dim">Nothing matches these filters.</p>
+          <p className="text-[14px] text-ink-dim">
+            {lens === 'all'
+              ? 'Nothing matches these filters.'
+              : 'Nothing in this view right now.'}
+          </p>
         </div>
       ) : (
-        ranked.map(r => <Card key={r.item.id} ranked={r} onSelect={onSelect} />)
+        shown.map(r => <Card key={r.item.id} ranked={r} onSelect={onSelect} />)
       )}
 
       {/* Clears the floating tab pill and the map switch above it, so the
