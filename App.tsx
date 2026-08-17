@@ -491,17 +491,15 @@ const App: React.FC = () => {
             Desktop keeps its map-plus-sidebar below; this replaces it entirely
             on a phone, where splitting the screen left the list unusable. */}
         {activeTab === 'map' && (
-          // In map mode this layer holds nothing but the floating switch, so
-          // it must not paint over the map or swallow taps meant for it.
-          <div
-            className={`sm:hidden absolute inset-0 z-[45] flex flex-col ${
-              selectedItem || mobileView === 'list'
-                ? 'bg-base'
-                : 'bg-transparent pointer-events-none'
-            }`}
-          >
+          // Transparent and inert by default so the map underneath stays
+          // live; each child that needs taps opts back in. Switching to the
+          // map used to hide this whole layer, which took the filter and the
+          // account with it — the map is the view where filtering matters
+          // most, and there is no reason signing in should depend on which
+          // way you happen to be looking at the same events.
+          <div className="sm:hidden absolute inset-0 z-[45] flex flex-col pointer-events-none">
             {selectedItem ? (
-              <div className="flex-1 min-h-0 pb-[64px]">
+              <div className="flex-1 min-h-0 pb-[64px] bg-base pointer-events-auto">
                 <DetailPanel
                   item={selectedItem}
                   onClose={() => setSelectedItem(null)}
@@ -510,29 +508,34 @@ const App: React.FC = () => {
                   onToggleSave={() => toggleSaveRitual(selectedItem.id)}
                 />
               </div>
-            ) : mobileView === 'list' ? (
+            ) : (
               <>
-                <MobileTopBar
-                  filter={{
-                    count: filteredData.length,
-                    activeCount: activeFilterCount,
-                    onOpen: () => setIsFilterSheetOpen(true)
-                  }}
-                  onOpenAccount={() => setIsAccountOpen(true)}
-                  signedIn={isSignedIn}
-                />
-                <div className="flex-1 min-h-0">
-                  <NearbyFeed
-                    items={filteredData}
-                    userCoords={userCoords}
-                    isRequestingLocation={isRequestingLocation}
-                    geoError={geoError}
-                    onRequestLocation={requestLocation}
-                    onSelect={handleSelectItem}
+                <div className="pointer-events-auto">
+                  <MobileTopBar
+                    filter={{
+                      count: filteredData.length,
+                      activeCount: activeFilterCount,
+                      onOpen: () => setIsFilterSheetOpen(true)
+                    }}
+                    onOpenAccount={() => setIsAccountOpen(true)}
+                    signedIn={isSignedIn}
                   />
                 </div>
+
+                {mobileView === 'list' && (
+                  <div className="flex-1 min-h-0 bg-base pointer-events-auto">
+                    <NearbyFeed
+                      items={filteredData}
+                      userCoords={userCoords}
+                      isRequestingLocation={isRequestingLocation}
+                      geoError={geoError}
+                      onRequestLocation={requestLocation}
+                      onSelect={handleSelectItem}
+                    />
+                  </div>
+                )}
               </>
-            ) : null}
+            )}
 
             {/* Switch between the feed and the map. Bottom-centre, above the
                 tab bar: the reachable third of the screen, unlike the
