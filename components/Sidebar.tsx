@@ -1,5 +1,5 @@
 import React, { useRef, useState, useCallback, useEffect } from 'react';
-import { Search, Sliders, X, Play, SkipBack, SkipForward, Heart, Share2, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Search, Sliders, X, Play, SkipBack, SkipForward, Heart, Share2, ChevronLeft, ChevronRight, MapPin } from 'lucide-react';
 import { FilterState, CultureItem, UnifiedEvent } from '../types';
 import DetailPanel from './DetailPanel';
 import LiveDetailPanel from './LiveDetailPanel';
@@ -70,6 +70,8 @@ interface SidebarProps {
   onToggleSave: () => void;
   /** Enables sorting by proximity when the reader has shared a location. */
   userCoords?: [number, number] | null;
+  /** Asks for a location when the reader picks a sort that needs one. */
+  onRequestLocation?: () => void;
 }
 
 
@@ -90,7 +92,7 @@ const Sidebar: React.FC<SidebarProps> = ({
   onViewInsights,
   isSaved,
   onToggleSave
-, userCoords }) => {
+, userCoords, onRequestLocation }) => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const listScrollRef = useRef<HTMLDivElement>(null);
   const [scrollTop, setScrollTop] = useState(0);
@@ -128,6 +130,18 @@ const Sidebar: React.FC<SidebarProps> = ({
   }, []);
 
   const [sortMode, setSortMode] = React.useState<SortMode>('date');
+
+  // Tapping "Nearest" before sharing a location asks for one; when it
+  // arrives, apply the sort that was asked for. Without this the reader
+  // grants permission and nothing visibly happens, so they have to work out
+  // that they need to press the same button a second time.
+  const [wantsDistance, setWantsDistance] = React.useState(false);
+  React.useEffect(() => {
+    if (wantsDistance && userCoords) {
+      setSortMode('distance');
+      setWantsDistance(false);
+    }
+  }, [wantsDistance, userCoords]);
 
   // Sort before virtualising. Catalogue order put six lunar festivals at the
   // top, all reading "Date varies each year", which made the date column look
@@ -283,19 +297,31 @@ const Sidebar: React.FC<SidebarProps> = ({
             ['distance', 'Nearest'],
             ['name', 'A–Z'],
           ] as [SortMode, string][]).map(([mode, label]) => {
-            const disabled = mode === 'distance' && !userCoords;
+            // "Nearest" without a location is not a broken button, it is a
+            // button whose prerequisite is missing. Greying it out told the
+            // reader they could not have the thing and left them to work out
+            // why on their own; asking for the location when they tap it
+            // turns a dead end into the one step that fixes it.
+            const needsLocation = mode === 'distance' && !userCoords;
             return (
               <button
                 key={mode}
-                onClick={() => setSortMode(mode)}
-                disabled={disabled}
-                title={disabled ? 'Enable location to sort by distance' : undefined}
-                className={`px-2.5 py-1 rounded-full text-[12px] border transition-colors ${
+                onClick={() => {
+                  if (needsLocation) {
+                    setWantsDistance(true);
+                    onRequestLocation?.();
+                    return;
+                  }
+                  setSortMode(mode);
+                }}
+                title={needsLocation ? 'Share your location to sort by distance' : undefined}
+                className={`px-2.5 py-1 rounded-full text-[12px] border transition-colors inline-flex items-center gap-1 ${
                   sortMode === mode
                     ? 'bg-accent text-on-accent border-accent font-semibold'
                     : 'border-line text-ink-dim hover:text-ink hover:border-line-hard'
-                } ${disabled ? 'opacity-40 cursor-not-allowed' : ''}`}
+                }`}
               >
+                {needsLocation && <MapPin className="w-3 h-3" aria-hidden="true" />}
                 {label}
               </button>
             );

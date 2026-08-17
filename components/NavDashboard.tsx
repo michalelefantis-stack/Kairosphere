@@ -126,11 +126,15 @@ const NavDashboard: React.FC<NavDashboardProps> = ({ activeTab, setActiveTab, sa
       </div>
 
       {/* ═══ MOBILE: Bottom tab bar (hidden on desktop) ═══ */}
-      <div 
-        className="ui-layer fixed bottom-0 left-0 right-0 z-[60] sm:hidden"
-        style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}
+      {/* Floating rather than a full-width bar, matching the desktop nav pill:
+          same glass, same rounded-full shape, same idea that the chrome sits
+          over the content instead of walling it off. Content scrolls beneath
+          it and stays legible through the blur. */}
+      <div
+        className="ui-layer fixed bottom-0 left-0 right-0 z-[60] sm:hidden flex justify-center px-4 pointer-events-none"
+        style={{ paddingBottom: 'calc(env(safe-area-inset-bottom, 0px) + 10px)' }}
       >
-        <div className="bg-base/95 backdrop-blur-xl border-t border-line flex items-stretch justify-around px-1">
+        <div className="bg-base/80 backdrop-blur-xl border border-line rounded-full shadow-xl flex items-stretch px-1 pointer-events-auto">
           {mobileNavItems.map((item) => {
             // Calendar folded into Plan, so the tab lights up for either.
             const isActive =
@@ -140,15 +144,10 @@ const NavDashboard: React.FC<NavDashboardProps> = ({ activeTab, setActiveTab, sa
               <button
                 key={item.id}
                 onClick={() => setActiveTab(item.id)}
-                className={`relative flex flex-col items-center justify-center gap-1 min-h-[56px] py-2 px-3 min-w-0 flex-1 transition-colors duration-200 ${
-                  isActive ? 'text-accent' : 'text-ink-faint active:text-ink'
+                className={`relative flex items-center justify-center gap-2 min-h-[52px] px-4 rounded-full transition-colors duration-200 ${
+                  isActive ? 'text-accent bg-accent/10' : 'text-ink-faint active:text-ink'
                 }`}
               >
-                {/* Active indicator bar */}
-                {isActive && (
-                  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-8 h-[3px] bg-accent rounded-b-full shadow-[0_0_10px_var(--k-glow-strong)]" />
-                )}
-
                 {item.icon}
 
                 {/* Sentence case at 12px. The old 11px uppercase with letter

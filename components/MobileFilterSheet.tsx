@@ -193,6 +193,10 @@ const MobileFilterSheet: React.FC<MobileFilterSheetProps> = ({
  * Sits inside each tab's flex column rather than being fixed, so no screen
  * has to know the bar's height — including the part of it that is notch.
  */
+/** Same glass treatment as the desktop nav pill, so the two read as one app. */
+const BUBBLE =
+  'bg-base/80 backdrop-blur-xl border border-line rounded-full shadow-lg pointer-events-auto';
+
 export const MobileTopBar: React.FC<{
   /** Omit to hide the filter control on screens that do not filter. */
   filter?: { count: number; activeCount: number; onOpen: () => void };
@@ -200,29 +204,27 @@ export const MobileTopBar: React.FC<{
   signedIn: boolean;
 }> = ({ filter, onOpenAccount, signedIn }) => (
   <div
-    className="shrink-0 flex items-center justify-between gap-2 px-4 h-14 border-b border-line-soft bg-base"
-    style={{ paddingTop: 'env(safe-area-inset-top, 0px)' }}
+    className="absolute top-0 left-0 right-0 z-[55] flex items-start justify-between
+               gap-2 px-3 pointer-events-none"
+    style={{ paddingTop: 'calc(env(safe-area-inset-top, 0px) + 10px)' }}
   >
-    <div className="flex items-center gap-2 min-w-0">
-      <KairosLogo size={26} />
-      <span className="text-[15px] font-bold tracking-[0.08em] text-ink truncate">
-        KAIROSPHERE
-      </span>
+    {/* Brand left, controls right — the desktop arrangement, at phone size. */}
+    <div className={`${BUBBLE} w-11 h-11 flex items-center justify-center`}>
+      <KairosLogo size={24} />
     </div>
 
-    <div className="flex items-center shrink-0">
+    <div className={`${BUBBLE} flex items-center h-11 px-1`}>
       {filter && (
         <button
           type="button"
           onClick={filter.onOpen}
-          className="relative min-h-[44px] px-3 rounded-xl
-                     inline-flex items-center gap-2 text-[14px] font-medium
-                     text-ink-dim active:bg-hover transition-colors"
+          className="relative h-11 px-3 rounded-full inline-flex items-center gap-2
+                     text-[14px] font-medium text-ink-dim active:text-ink transition-colors"
         >
           <SlidersHorizontal className="w-[18px] h-[18px]" />
           Filter
           {filter.activeCount > 0 && (
-            <span className="absolute top-1 right-1 min-w-[18px] h-[18px] px-1
+            <span className="absolute top-0.5 right-1 min-w-[18px] h-[18px] px-1
                              rounded-full bg-accent text-on-accent
                              text-[11px] font-bold leading-[18px] text-center">
               {filter.activeCount}
@@ -238,8 +240,8 @@ export const MobileTopBar: React.FC<{
         type="button"
         onClick={onOpenAccount}
         aria-label={signedIn ? 'Account' : 'Sign in'}
-        className="w-11 h-11 -mr-2 rounded-full flex items-center justify-center
-                   text-ink-dim active:bg-hover transition-colors"
+        className="w-11 h-11 rounded-full flex items-center justify-center
+                   text-ink-dim active:text-ink transition-colors"
       >
         {/* A filled ring when signed in: the only thing the reader needs from
             this control at a glance is whether their saved trips are backed

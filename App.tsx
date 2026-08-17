@@ -497,9 +497,9 @@ const App: React.FC = () => {
           // account with it — the map is the view where filtering matters
           // most, and there is no reason signing in should depend on which
           // way you happen to be looking at the same events.
-          <div className="sm:hidden absolute inset-0 z-[45] flex flex-col pointer-events-none">
+          <div className="sm:hidden absolute inset-0 z-[45] pointer-events-none">
             {selectedItem ? (
-              <div className="flex-1 min-h-0 pb-[64px] bg-base pointer-events-auto">
+              <div className="absolute inset-0 bg-base pointer-events-auto">
                 <DetailPanel
                   item={selectedItem}
                   onClose={() => setSelectedItem(null)}
@@ -510,20 +510,10 @@ const App: React.FC = () => {
               </div>
             ) : (
               <>
-                <div className="pointer-events-auto">
-                  <MobileTopBar
-                    filter={{
-                      count: filteredData.length,
-                      activeCount: activeFilterCount,
-                      onOpen: () => setIsFilterSheetOpen(true)
-                    }}
-                    onOpenAccount={() => setIsAccountOpen(true)}
-                    signedIn={isSignedIn}
-                  />
-                </div>
-
+                {/* The list sits under the floating chrome and scrolls
+                    beneath it, rather than being boxed in by it. */}
                 {mobileView === 'list' && (
-                  <div className="flex-1 min-h-0 bg-base pointer-events-auto">
+                  <div className="absolute inset-0 bg-base pointer-events-auto">
                     <NearbyFeed
                       items={filteredData}
                       userCoords={userCoords}
@@ -534,6 +524,16 @@ const App: React.FC = () => {
                     />
                   </div>
                 )}
+
+                <MobileTopBar
+                  filter={{
+                    count: filteredData.length,
+                    activeCount: activeFilterCount,
+                    onOpen: () => setIsFilterSheetOpen(true)
+                  }}
+                  onOpenAccount={() => setIsAccountOpen(true)}
+                  signedIn={isSignedIn}
+                />
               </>
             )}
 
@@ -544,10 +544,15 @@ const App: React.FC = () => {
               <button
                 type="button"
                 onClick={() => setMobileView(v => (v === 'list' ? 'map' : 'list'))}
-                className="absolute left-1/2 -translate-x-1/2 bottom-[76px] z-[50]
-                           min-h-[44px] px-5 rounded-full bg-ink text-base
-                           text-[14px] font-semibold shadow-xl pointer-events-auto
-                           inline-flex items-center gap-2 active:opacity-80"
+                // Same glass as the rest of the chrome, tinted with the accent
+                // rather than inverted: a solid white pill read as a different
+                // design system sitting on top of this one.
+                className="absolute left-1/2 -translate-x-1/2 z-[50]
+                           min-h-[44px] px-5 rounded-full pointer-events-auto
+                           bg-base/80 backdrop-blur-xl border border-accent/40
+                           text-accent text-[14px] font-semibold shadow-xl
+                           inline-flex items-center gap-2 active:bg-hover transition-colors"
+                style={{ bottom: 'calc(env(safe-area-inset-bottom, 0px) + 76px)' }}
               >
                 {mobileView === 'list'
                   ? <><MapPin className="w-4 h-4" /> Map</>
@@ -604,6 +609,7 @@ const App: React.FC = () => {
                 isSaved={selectedItem ? savedRitualIds.has(selectedItem.id) : false}
                 onToggleSave={() => selectedItem && toggleSaveRitual(selectedItem.id)}
                 userCoords={userCoords}
+                onRequestLocation={handleAllowLocation}
               />
             </div>
             {/* Collapse Button */}
@@ -705,7 +711,7 @@ const App: React.FC = () => {
           )}
 
           {(activeTab === 'calendar' || activeTab === 'itinerary') && (
-            <div className="h-full min-h-0 flex flex-col">
+            <div className="relative h-full min-h-0 flex flex-col">
               {isPhone && (
                 <MobileTopBar
                   onOpenAccount={() => setIsAccountOpen(true)}
@@ -716,7 +722,7 @@ const App: React.FC = () => {
                   dates, what is on" — so on a phone they are two views of one
                   tab rather than two of five tabs. Desktop still has room to
                   show them separately in the top nav. */}
-              <div className="sm:hidden shrink-0 flex gap-2 px-4 py-3 border-b border-line-soft bg-base">
+              <div className="sm:hidden shrink-0 flex gap-2 px-4 pb-3 pt-safe-bar">
                 {([
                   { id: 'itinerary', label: 'My trips' },
                   { id: 'calendar', label: 'Calendar' }
@@ -769,14 +775,14 @@ const App: React.FC = () => {
             </div>
           )}
           {activeTab === 'library' && (
-            <div className="w-full h-full flex flex-col min-h-0">
+            <div className="relative w-full h-full flex flex-col min-h-0">
             {isPhone && (
               <MobileTopBar
                 onOpenAccount={() => setIsAccountOpen(true)}
                 signedIn={isSignedIn}
               />
             )}
-            <div className="w-full flex-1 min-h-0 p-6 md:p-12 pt-6 sm:pt-[100px] md:pt-[120px] pb-safe-tab overflow-y-auto custom-scrollbar">
+            <div className="w-full flex-1 min-h-0 p-6 md:p-12 pt-safe-bar sm:pt-[100px] md:pt-[120px] pb-safe-tab overflow-y-auto custom-scrollbar">
               <div className="max-w-6xl mx-auto">
                 <div className="flex items-center gap-4 mb-8">
                   <div className="p-3 bg-gold/10 rounded-xl border border-gold/20">

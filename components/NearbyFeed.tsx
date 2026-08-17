@@ -166,7 +166,13 @@ const NearbyFeed: React.FC<NearbyFeedProps> = ({
   );
 
   return (
-    <div className="h-full overflow-y-auto custom-scrollbar overscroll-contain">
+    <div
+      className="h-full overflow-y-auto custom-scrollbar overscroll-contain"
+      // Clears the floating chrome at both ends. Padding rather than a
+      // shorter viewport, so the list still scrolls the full height and
+      // content passes under the glass instead of stopping at it.
+      style={{ paddingTop: 'calc(env(safe-area-inset-top, 0px) + 64px)' }}
+    >
       {children}
 
       {!userCoords && (
@@ -192,8 +198,9 @@ const NearbyFeed: React.FC<NearbyFeedProps> = ({
         ranked.map(r => <Card key={r.item.id} ranked={r} onSelect={onSelect} />)
       )}
 
-      {/* Clears the tab bar so the last card is reachable. */}
-      <div className="h-24" aria-hidden="true" />
+      {/* Clears the floating tab pill and the map switch above it, so the
+          last card can be scrolled clear of both. */}
+      <div className="h-40" aria-hidden="true" />
     </div>
   );
 };
