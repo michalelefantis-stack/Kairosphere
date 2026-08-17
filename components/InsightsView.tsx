@@ -405,6 +405,20 @@ const InsightsView: React.FC<InsightsViewProps> = ({ item, onClose, isSaved, onT
                   className="w-full h-full object-cover transition-all duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
+
+                {/* Attribution is not decoration: most Commons photographs are
+                    CC-BY or CC-BY-SA, which oblige us to credit the author. */}
+                {item.imageCredit && (
+                  <a
+                    href={item.imageCredit.sourcePage}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="absolute bottom-2 right-3 text-[11px] text-white/70 hover:text-white bg-black/40 backdrop-blur-sm px-2 py-1 rounded transition-colors"
+                    title={`Verified against Wikimedia by: ${item.imageCredit.verifiedBy}`}
+                  >
+                    {item.imageCredit.credit} · {item.imageCredit.license}
+                  </a>
+                )}
               </div>
             </section>
 

@@ -62,17 +62,19 @@ const App: React.FC = () => {
     Promise.all([
       import('./mockData'),
       import('./data/southeastAsia'),
-      import('./utils/eventSchedule')
-    ]).then(([mod, sea, schedule]) => {
+      import('./utils/eventSchedule'),
+      import('./utils/eventImages')
+    ]).then(async ([mod, sea, schedule, images]) => {
       // The catalogue stores one historical instance per event and 89% of
       // them have already passed. Resolve each to its next occurrence here,
       // so the map, calendar and insights all see upcoming dates.
-      setCultureData(
-        schedule.withResolvedSchedules([
-          ...mod.MOCK_CULTURE_DATA,
-          ...sea.SOUTHEAST_ASIA_EVENTS
-        ])
-      );
+      const resolved = schedule.withResolvedSchedules([
+        ...mod.MOCK_CULTURE_DATA,
+        ...sea.SOUTHEAST_ASIA_EVENTS
+      ]);
+      // Overlay photographs verified against Wikimedia descriptions, replacing
+      // the generic stock that had one image serving four unrelated events.
+      setCultureData(images.applyEventImages(resolved, await images.loadEventImages()));
       setDataLoaded(true);
     });
   }, []);

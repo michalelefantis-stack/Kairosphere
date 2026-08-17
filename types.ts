@@ -165,6 +165,14 @@ export interface CultureItem {
   dateWasProjected?: boolean;
   /** Set by utils/eventSchedule: stored date is a bulk-import placeholder. */
   dateIsUnconfirmed?: boolean;
+  /** Set by utils/eventImages: provenance for a verified photograph. */
+  imageCredit?: {
+    credit: string;
+    license: string;
+    licenseUrl: string;
+    sourcePage: string;
+    verifiedBy: string;
+  };
 }
 
 export interface FilterState {
