@@ -31,10 +31,16 @@ interface DetailPanelProps {
   userCoords?: [number, number] | null;
   /** Opens the trip this event was just saved into. */
   onViewSaved?: () => void;
+  /**
+   * 'panel' is the 380px map column. 'reader' opens straight into the
+   * full-window layout, for the desktop tabs that have no column to put a
+   * panel in — the calendar, the library, the collections.
+   */
+  variant?: 'panel' | 'reader';
 }
 
 
-const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = false, onToggleSave, userCoords, onViewSaved }) => {
+const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = false, onToggleSave, userCoords, onViewSaved, variant = 'panel' }) => {
   const [displayImage, setDisplayImage] = useState(item.imageUrl);
   const [isAiGenerated, setIsAiGenerated] = useState(false);
   const [isLoadingAi, setIsLoadingAi] = useState(false);
@@ -47,7 +53,12 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
   // A sidebar sets a measure of roughly 45 characters, which is half of what
   // continuous prose wants — the eye makes a return sweep every few words,
   // and that is what makes a long briefing tiring rather than the length.
-  const [isReader, setIsReader] = useState(false);
+  const [isReader, setIsReader] = useState(variant === 'reader');
+
+  // Leaving the reader means going back to the column it grew out of, unless
+  // there is no column — opened from the calendar or the library, the reader
+  // *is* the panel, so closing it closes the event.
+  const exitReader = () => (variant === 'reader' ? onClose() : setIsReader(false));
 
   // Sourced description, resolved once at build time rather than searched on
   // every open. Falls back to the catalogue line only when that line says
@@ -62,7 +73,7 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
 
   useEffect(() => {
     if (!isReader) return;
-    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setIsReader(false); };
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') exitReader(); };
     window.addEventListener('keydown', onKey);
     const previous = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
@@ -70,7 +81,7 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
       window.removeEventListener('keydown', onKey);
       document.body.style.overflow = previous;
     };
-  }, [isReader]);
+  }, [isReader, variant, onClose]);
 
   const curatedNote = meaningfulDescription(item);
 
@@ -622,9 +633,9 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
             </button>
           )}
           <button
-            onClick={() => setIsReader(false)}
+            onClick={exitReader}
             className="p-2 bg-black/60 hover:bg-accent rounded-full transition-all border border-white/10 shadow-lg text-ink hover:text-on-accent"
-            title="Back to the map (Esc)"
+            title={variant === 'reader' ? 'Close (Esc)' : 'Back to the map (Esc)'}
           >
             <Minimize2 className="w-5 h-5" />
           </button>

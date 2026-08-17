@@ -959,6 +959,24 @@ const App: React.FC = () => {
         </div>
       )}
 
+      {/* The event detail, on desktop, from a tab that has no sidebar to put
+          it in. Selecting an event in the calendar, the library or the
+          collections set state that nothing rendered — the click did nothing
+          at all — because the only desktop panel lives inside the map's
+          column. The reader is that missing surface, and a better one than
+          the full-analysis screen it replaces. */}
+      {!isPhone && selectedItem && activeTab !== 'map' && (
+        <DetailPanel
+          item={selectedItem}
+          variant="reader"
+          onClose={() => setSelectedItem(null)}
+          isSaved={savedRitualIds.has(selectedItem.id)}
+          onToggleSave={() => toggleSaveRitual(selectedItem.id)}
+          userCoords={userCoords}
+          onViewSaved={handleViewSaved}
+        />
+      )}
+
       {/* Account, reachable from every mobile tab.
           AccountMenu is a self-contained panel, so it only needs somewhere to
           sit; on a phone that is a bottom sheet rather than a map flyout. */}
