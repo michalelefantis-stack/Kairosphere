@@ -780,7 +780,13 @@ const App: React.FC = () => {
               )}
               <div className="flex-1 min-h-0">
                 <Suspense fallback={<LazyFallback />}>
-                  <CollectionsView items={cultureData} onSelect={handleSelectItem} />
+                  <CollectionsView
+                    items={cultureData}
+                    onSelect={handleSelectItem}
+                    savedIds={savedRitualIds}
+                    onToggleSave={toggleSaveRitual}
+                    userCoords={userCoords}
+                  />
                 </Suspense>
               </div>
             </div>
