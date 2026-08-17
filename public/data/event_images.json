@@ -2354,6 +2354,396 @@
       "score": 5,
       "via": "commons-search",
       "eventId": "asia-2026-19"
+    },
+    "australia-coming-light": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/All_Saints_Anglican_Church_%282011%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Heritage branch staff",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:All_Saints_Anglican_Church_(2011).jpg",
+      "verifiedBy": "lead image of “Coming of the Light Festival”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "vanuatu-naghol": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Landdiving1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Paul Stein from New Jersey, USA",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Landdiving1.jpg",
+      "verifiedBy": "lead image of “Land diving”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "greece-rouketopolemos": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/%CE%92%CF%81%CE%BF%CE%BD%CF%84%CE%AC%CE%B4%CE%BF%CF%82_%CE%A7%CE%AF%CE%BF%CF%85_-_%CE%9F%CE%B9_%22%CF%81%CE%BF%CF%85%CE%BA%CE%B5%CF%84%CE%B1%CF%84%CE%B6%CE%AE%CE%B4%CE%B5%CF%82%22.jpg/1280px-%CE%92%CF%81%CE%BF%CE%BD%CF%84%CE%AC%CE%B4%CE%BF%CF%82_%CE%A7%CE%AF%CE%BF%CF%85_-_%CE%9F%CE%B9_%22%CF%81%CE%BF%CF%85%CE%BA%CE%B5%CF%84%CE%B1%CF%84%CE%B6%CE%AE%CE%B4%CE%B5%CF%82%22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Dimitris Tachynakos",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Βροντάδος_Χίου_-_Οι_\"ρουκετατζήδες\".jpg",
+      "verifiedBy": "lead image of “Rouketopolemos”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "italy-calcio-storico": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Giovanni-Stradano-Gioco-del-calcio-in-piazza-Santa-Maria-Novella-1561-62-1024x721.jpg/1280px-Giovanni-Stradano-Gioco-del-calcio-in-piazza-Santa-Maria-Novella-1561-62-1024x721.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Stradanus / After Giorgio Vasari",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Giovanni-Stradano-Gioco-del-calcio-in-piazza-Santa-Maria-Novella-1561-62-1024x721.jpg",
+      "verifiedBy": "lead image of “Calcio storico fiorentino”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "nz-te-matatini": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Te_Matatini_2015_028.jpg/1280px-Te_Matatini_2015_028.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Schwede66",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Te_Matatini_2015_028.jpg",
+      "verifiedBy": "lead image of “Te Matatini”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "uk-cheese-rolling": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Cheese_Rolling_2006_-_Dionne_Carter_leading_the_Ladies_downhill_race.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "michael warren from Bristol, UK",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cheese_Rolling_2006_-_Dionne_Carter_leading_the_Ladies_downhill_race.jpg",
+      "verifiedBy": "lead image of “Cooper's Hill Cheese-Rolling and Wake”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "usa-gathering-nations": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/GatheringOfNations2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Joekoz451 at en.wikipedia",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:GatheringOfNations2007.jpg",
+      "verifiedBy": "lead image of “Gathering of Nations”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "usa-crow-fair": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Crowdance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Marion Post Wolcott",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Crowdance.jpg",
+      "verifiedBy": "lead image of “Crow Fair”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "peru-qoyllur-riti": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/IMAG4693.jpg/1280px-IMAG4693.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Jeannegron",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:IMAG4693.jpg",
+      "verifiedBy": "lead image of “Quyllurit'i”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "bolivia-aymara-new-year": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Wilancha_Wilaqala_21_de_junio_2011.jpg/1280px-Wilancha_Wilaqala_21_de_junio_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Tuco Quispe",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Wilancha_Wilaqala_21_de_junio_2011.jpg",
+      "verifiedBy": "lead image of “Willkakuti”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "peru-pachamama-raymi": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Inti_Raymi.jpg/1280px-Inti_Raymi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Cyntia Motta",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Inti_Raymi.jpg",
+      "verifiedBy": "lead image of “Inti Raymi”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "spain-els-enfarinats": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Enfarinats.JPG/1280px-Enfarinats.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Fotógrafo Ibi",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Enfarinats.JPG",
+      "verifiedBy": "lead image of “Els Enfarinats”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "india-kumbh-mela": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Third_Shahi_Snan_in_Hari_Ki_Pauri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Coupdoeil / Philipp Eyer",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Third_Shahi_Snan_in_Hari_Ki_Pauri.jpg",
+      "verifiedBy": "lead image of “Kumbh Mela”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "india-rath-yatra": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Rath_Yatra_Puri_07-11027.jpg/1280px-Rath_Yatra_Puri_07-11027.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "G.-U. Tolkiehn",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rath_Yatra_Puri_07-11027.jpg",
+      "verifiedBy": "lead image of “Ratha Yatra”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "asia-2026-30": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Getting_ready_for_Losar.jpg/1280px-Getting_ready_for_Losar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Ailiajameel",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Getting_ready_for_Losar.jpg",
+      "verifiedBy": "lead image of “Losar”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "asia-2026-34": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Cavalry_of_Nepal-1573.jpg/1280px-Cavalry_of_Nepal-1573.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Bijay Chaurasia",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cavalry_of_Nepal-1573.jpg",
+      "verifiedBy": "lead image of “Ghode Jatra”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "asia-2026-40": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Melons_and_watermelons.jpg/1280px-Melons_and_watermelons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "AltynAsyr",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Melons_and_watermelons.jpg",
+      "verifiedBy": "lead image of “Melon Day”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "asia-2026-43": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/20110725_Kora_pilgrimage_Bodhnath_stupa_Kathmandu_Nepal.jpg/1280px-20110725_Kora_pilgrimage_Bodhnath_stupa_Kathmandu_Nepal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "User:Ggia",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:20110725_Kora_pilgrimage_Bodhnath_stupa_Kathmandu_Nepal.jpg",
+      "verifiedBy": "lead image of “Kora (pilgrimage)”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "asia-2026-50": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Sonepur_Famous_Fair.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Abhifrm.masaurhi at English Wikipedia",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sonepur_Famous_Fair.jpeg",
+      "verifiedBy": "lead image of “Sonepur Cattle Fair”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "africa-2026-2": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Argungu_fishing_and_cultural_festival_23.jpg/1280px-Argungu_fishing_and_cultural_festival_23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Yemi festus",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Argungu_fishing_and_cultural_festival_23.jpg",
+      "verifiedBy": "lead image of “Argungu Fishing Festival”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "africa-2026-28": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ethiopian_New_Year.jpg/1280px-Ethiopian_New_Year.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Nati Tad",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ethiopian_New_Year.jpg",
+      "verifiedBy": "lead image of “Enkutatash”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "africa-2026-32": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Wiyaala_1.jpg/1280px-Wiyaala_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "U.S. Embassy Ghana",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Wiyaala_1.jpg",
+      "verifiedBy": "lead image of “Wiyaala”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "africa-2026-35": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Hogb1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "JY midey",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hogb1.jpg",
+      "verifiedBy": "lead image of “Hogbetsotso festival”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "middle-east-2026-2": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Jenadriyah_27_%2813%29.JPG/1280px-Jenadriyah_27_%2813%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Abodi009",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jenadriyah_27_(13).JPG",
+      "verifiedBy": "lead image of “Jenadriyah”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "middle-east-2026-4": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Eid_al_fitr_photo.jpg/1280px-Eid_al_fitr_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Viceskeeni2",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Eid_al_fitr_photo.jpg",
+      "verifiedBy": "lead image of “Eid al-Fitr”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "middle-east-2026-11": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Jerash_Festival_2018_15.jpg/1280px-Jerash_Festival_2018_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Addustour, Jordan Press &amp; Publication Co.",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jerash_Festival_2018_15.jpg",
+      "verifiedBy": "lead image of “Jerash Festival”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "middle-east-2026-14": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Yagli_gures1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "No machine-readable author provided. Math34 assumed (based on copyright claims).",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Yagli_gures1.jpg",
+      "verifiedBy": "lead image of “Kırkpınar”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "middle-east-2026-27": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Lanterns_from_below.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "B. Simpson Cairocamels",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lanterns_from_below.JPG",
+      "verifiedBy": "lead image of “Fanous”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "middle-east-2026-28": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Maulidur_Rasul_%288413657269%29.jpg/1280px-Maulidur_Rasul_%288413657269%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Firdaus Latif",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Maulidur_Rasul_(8413657269).jpg",
+      "verifiedBy": "lead image of “Mawlid”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "middle-east-2026-32": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Gole_mohamadi.JPG/1280px-Gole_mohamadi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "جواد",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gole_mohamadi.JPG",
+      "verifiedBy": "lead image of “Golabgiri”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "middle-east-2026-34": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Kha_b%27Nissan_parade_in_Alqosh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Chaldean at English Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kha_b'Nissan_parade_in_Alqosh.jpg",
+      "verifiedBy": "lead image of “Kha b-Nisan”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "middle-east-2026-46": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Burbara_dish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Durziil89",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Burbara_dish.jpg",
+      "verifiedBy": "lead image of “Eid il-Burbara”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "ngaben": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/BaliCremationTower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Sean.hoyland",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:BaliCremationTower.jpg",
+      "verifiedBy": "lead image of “Ngaben”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "feria-de-sevilla": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/19495423168_c324d53029_o_feria_abril_2013.jpg/1280px-19495423168_c324d53029_o_feria_abril_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Sevilla Congress &amp; Convention Bureau",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:19495423168_c324d53029_o_feria_abril_2013.jpg",
+      "verifiedBy": "lead image of “Seville Fair”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "grand-kadooment": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Brucelee_Almighty.jpg/1280px-Brucelee_Almighty.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Ronaldwalcott",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Brucelee_Almighty.jpg",
+      "verifiedBy": "lead image of “Brucelee Almightee”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "atherstone-ball-game": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Atherstone_Ball_game_2012.jpg/1280px-Atherstone_Ball_game_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Adrian Roebuck",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Atherstone_Ball_game_2012.jpg",
+      "verifiedBy": "lead image of “Atherstone Ball Game”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "id-bau-nyale": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Berburu_Cacing_Laut.jpg/1280px-Berburu_Cacing_Laut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Focusfeel",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Berburu_Cacing_Laut.jpg",
+      "verifiedBy": "lead image of “Bau Nyale”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "vn-tet": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Xuan_2016_Binh_Than%2C_duong_nguyen_hue%2C_phuong_ben_nghe%2C_Qu%E1%BA%ADn_1%2C_TPHCM%2C_Vi%E1%BB%87t_Nam_-_panoramio.jpg/1280px-Xuan_2016_Binh_Than%2C_duong_nguyen_hue%2C_phuong_ben_nghe%2C_Qu%E1%BA%ADn_1%2C_TPHCM%2C_Vi%E1%BB%87t_Nam_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "trungydang",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Xuan_2016_Binh_Than,_duong_nguyen_hue,_phuong_ben_nghe,_Quận_1,_TPHCM,_Việt_Nam_-_panoramio.jpg",
+      "verifiedBy": "lead image of “Tết”",
+      "via": "wikipedia-lead",
+      "score": 5
+    },
+    "mm-taunggyi-balloon": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Taungyi_Fireballoon_Event2.jpg/1280px-Taungyi_Fireballoon_Event2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Maungthargi",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Taungyi_Fireballoon_Event2.jpg",
+      "verifiedBy": "lead image of “Taunggyi Hot Air Balloon Festival”",
+      "via": "wikipedia-lead",
+      "score": 5
     }
   }
 }

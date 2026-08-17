@@ -144,6 +144,19 @@ def _is_photograph(name: str, description: str) -> bool:
     return not any(re.search(p, haystack) for p in NOT_A_PHOTOGRAPH)
 
 
+def _is_photograph_name(filename: str) -> bool:
+    """As above, judged on a filename alone.
+
+    Used where there is no description to read — an article's lead image is
+    identified by file name only, and "Flag of Nepal.svg" or "Map of the
+    Sahel.jpg" should be rejected on that alone.
+    """
+    readable = filename.replace("_", " ").lower()
+    if any(re.search(p, readable) for p in NOT_A_PHOTOGRAPH):
+        return False
+    return not any(weak in readable for weak in WEAK_SUBJECTS)
+
+
 def _corroborates_place(word: str | None) -> bool:
     """Is this place word specific enough to mean anything?
 

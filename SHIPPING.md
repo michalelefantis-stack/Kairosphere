@@ -58,9 +58,23 @@ npm run build && npx cap sync android
   the catalogue is static and small enough to ship entirely offline, but the
   Wikipedia extracts, Open-Meteo lookups and Commons photographs are all
   fetched live. Nothing caches them for a saved event.
-- **152 of 373 events have no verified photograph.** They keep their original
-  image. Re-run `python -m pipeline.images` to pick up newly-added Commons
-  material; it is resumable and only tries unmapped ids.
+- **253 of 327 events have a verified photograph; 74 do not.** Two sources
+  feed it, in order of how much they prove:
+
+  `python -m pipeline.lead_images` takes the lead photograph from the
+  Wikipedia article that `pipeline.briefings` already verified. That article
+  had to name the event, name its place and read like an event before it was
+  accepted, so its lead image needs no separate check — somebody who read the
+  article chose it. This is the higher-yield and higher-quality path.
+
+  `python -m pipeline.images` searches Commons directly and has to prove the
+  match itself. Use it for events with no article.
+
+  Both are resumable and only try unmapped ids. **Review what they add.** The
+  lead-image pass produced four bad results out of forty and none of them
+  looked wrong in the log: a tourist posing in national dress for Navruz, a
+  mosque for an event about boats, Bulgarian Easter eggs for an Egyptian
+  spring festival, and one photo used twice. All four were removed by hand.
 - **Keyword matching produced one genuinely harmful photograph.** Crow Fair,
   an Apsáalooke powwow, was illustrated with a Jim Crow segregation cartoon:
   the matcher accepted "crow" for the subject and "united" — from United
