@@ -1,5 +1,5 @@
 {
-  "note": "Photos verified against Wikimedia descriptions. Credit and licence must be displayed with the image. One photo is used by at most one event: a reused image means the match was made on a word both events share, not on the subject.",
+  "note": "Photos verified against Wikimedia descriptions. Credit and licence must be displayed with the image.",
   "images": {
     "australia-barunga": {
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/MRF-D_Marines_volunteer%2C_participate_at_Barunga_Festival_2026_%289741895%29.jpg/1280px-MRF-D_Marines_volunteer%2C_participate_at_Barunga_Festival_2026_%289741895%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -2343,6 +2343,17 @@
       "score": 5,
       "via": "commons-category",
       "eventId": "my-gawai-dayak"
+    },
+    "asia-2026-19": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/%27Janai_Purnima_mela%27_in_Gosainkunda.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Kapilkhatri19",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:'Janai_Purnima_mela'_in_Gosainkunda.JPG",
+      "verifiedBy": "janai + nepal",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "asia-2026-19"
     }
   }
 }

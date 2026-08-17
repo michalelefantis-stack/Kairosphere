@@ -138,7 +138,10 @@ function iso(d: Date): string {
  * negative.
  */
 export function resolveSchedule(
-  item: Pick<CultureItem, 'title' | 'startDate' | 'endDate'> & { dateIsMovable?: boolean },
+  item: Pick<CultureItem, 'title' | 'startDate' | 'endDate'> & {
+    dateIsMovable?: boolean;
+    dateIsUnconfirmed?: boolean;
+  },
   now: Date = new Date()
 ): ResolvedSchedule {
   const stored = new Date(item.startDate);
@@ -146,7 +149,11 @@ export function resolveSchedule(
   // An explicit flag on the record wins: title matching is a fallback for the
   // legacy catalogue, and it cannot know that Nyepi or Bau Nyale are lunar.
   const movable = item.dateIsMovable ?? isMovableFeast(item.title);
-  const unconfirmed = isPlaceholderDate(item.startDate);
+  // Some events are neither placeholder-dated nor lunar, and still have no
+  // date worth printing: Baalbeck and Byblos run every July, but announce the
+  // programme a few months ahead. A record can now say so directly rather
+  // than being detected, and the stored month still drives the season.
+  const unconfirmed = item.dateIsUnconfirmed === true || isPlaceholderDate(item.startDate);
 
   if (Number.isNaN(stored.getTime())) {
     return {

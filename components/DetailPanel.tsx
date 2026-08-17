@@ -447,7 +447,11 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights
                   {item.recommendedBooks.map((book, idx) => (
                     <a
                       key={idx}
-                      href={book.url}
+                      // bookshopLink first: it is the field every book in the
+                      // catalogue actually has. This read `book.url`, which
+                      // almost none of them carry, so the whole reading list
+                      // rendered as links to nowhere.
+                      href={book.bookshopLink || book.url || book.amazonLink}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block group bg-raised border border-line rounded-xl p-4 transition-all hover:border-accent/30 hover:bg-raised"

@@ -2743,14 +2743,31 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     coordinates: [25.3176, 83.0062],
     ritualType: RitualType.PILGRIMAGE,
     subCategory: 'Sacred Journey',
-    startDate: '2025-02-26',
-    endDate: '2025-02-26',
+    startDate: '2026-02-15',
+    dateIsMovable: true,
+    endDate: '2026-02-15',
     verified: true,
     region: 'Varanasi, India',
     description: 'A night of fasting and meditation honoring Lord Shiva.',
     insights: 'Devotees stay awake all night to perform pujas, chant the Om Namah Shivaya mantra, and bathe Shiva Lingams.',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/02_Mahashivratree_festival.JPG/960px-02_Mahashivratree_festival.JPG',
-    mediaLinks: {}
+    mediaLinks: {},
+    recommendedBooks: [
+      {
+        title: "Siva, the Erotic Ascetic",
+        author: "Wendy Doniger",
+        coverUrl: "https://covers.openlibrary.org/b/id/15230754-L.jpg",
+        bookshopLink: "https://bookshop.org/book/9780195202502",
+        description: "The contradiction at the centre of Shiva, and why the night belongs to him."
+      },
+      {
+        title: "Shiva",
+        author: "Wolf-Dieter Storl",
+        coverUrl: "https://covers.openlibrary.org/b/id/4857888-L.jpg",
+        bookshopLink: "https://bookshop.org/book/9781594770623",
+        description: "The wild god and his ascetics, followed through practice rather than text."
+      }
+    ]
   },
   {
     id: 'india-raksha-bandhan',
@@ -3262,6 +3279,31 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     insights: 'Women carry heavy brass pots on their heads while men perform fiercely energetic ritual trance dances.',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Pochamma_Temple_Bonalu_Deity.jpg/960px-Pochamma_Temple_Bonalu_Deity.jpg',
     mediaLinks: {}
+  },
+  {
+    id: 'asia-2026-19',
+    title: 'Janai Purnima',
+    coordinates: [28.0819, 85.4147],
+    ritualType: RitualType.PILGRIMAGE,
+    subCategory: 'Sacred',
+    startDate: '2026-08-28',
+    endDate: '2026-08-28',
+    dateIsMovable: true,
+    verified: true,
+    region: 'Gosaikunda, Nepal',
+    description: 'On the full moon of Shravan, Hindu men replace the janai, the sacred thread worn across the chest, and a yellow protective cord is tied around the wrist. Pilgrims climb to the alpine lake at Gosaikunda, said to have been formed when Shiva struck the mountain for water after swallowing poison, and bathe in it despite the altitude and the cold.',
+    insights: 'The wrist thread is worn until it is tied to a cow\'s tail at Laxmi Puja months later. At Gosaikunda the pilgrimage doubles as a shamanic gathering: jhankri drummers walk up together and circle the lake through the night.',
+    imageUrl: '',
+    mediaLinks: {},
+    recommendedBooks: [
+      {
+        title: "Himalayan Pilgrimage",
+        author: "David L. Snellgrove",
+        coverUrl: "https://covers.openlibrary.org/b/id/8555314-L.jpg",
+        bookshopLink: "https://bookshop.org/book/9780877737209",
+        description: "A long walk through the Nepal Himalaya, and the shrines that structure it."
+      }
+    ]
   },
   {
     id: 'asia-2026-1',
@@ -4049,14 +4091,31 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     coordinates: [21.42, 39.82],
     ritualType: RitualType.FESTIVAL,
     subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
+    startDate: '2026-05-26',
+    dateIsMovable: true,
+    endDate: '2026-05-29',
     verified: true,
     region: 'Mecca, Saudi Arabia',
     description: 'Eid al-Adha (Sacrifice) celebrated in Mecca, Saudi Arabia.',
     insights: 'An incredible cultural event occurring around May 27–30.',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/20/1_animal_sacrifice_at_Eid_al_Adha_sacrifice_festival_Morocco.jpg',
-    mediaLinks: {}
+    mediaLinks: {},
+    recommendedBooks: [
+      {
+        title: "The Hajj",
+        author: "F. E. Peters",
+        coverUrl: "https://covers.openlibrary.org/b/id/440458-L.jpg",
+        bookshopLink: "https://bookshop.org/book/9780691021201",
+        description: "A history of the pilgrimage to Mecca, the rite Eid al-Adha closes."
+      },
+      {
+        title: "The Hajj",
+        author: "Eric Tagliacozzo",
+        coverUrl: "https://covers.openlibrary.org/b/id/13473649-L.jpg",
+        bookshopLink: "https://bookshop.org/book/9781139343794",
+        description: "The pilgrimage seen from Asia, and the sea routes that carried it."
+      }
+    ]
   },
   {
     id: 'middle-east-2026-6',
@@ -4124,8 +4183,9 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     coordinates: [34, 36.2],
     ritualType: RitualType.FESTIVAL,
     subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
+    startDate: '2026-07-03',
+    dateIsUnconfirmed: true,
+    endDate: '2026-08-09',
     verified: true,
     region: 'Baalbeck, Lebanon',
     description: 'Baalbeck Int. Festival celebrated in Baalbeck, Lebanon.',
@@ -4199,14 +4259,23 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     coordinates: [35.68, 51.38],
     ritualType: RitualType.FESTIVAL,
     subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
+    startDate: '2026-12-21',
+    endDate: '2026-12-21',
     verified: true,
     region: 'Regional (Iran/Iraq)',
     description: 'Yalda Night (Winter) celebrated in Regional (Iran/Iraq).',
     insights: 'An incredible cultural event occurring around December 21.',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Grphymahyd_Persian_model_in_Yalda_Night_Style_2020_%281%29.jpg/960px-Grphymahyd_Persian_model_in_Yalda_Night_Style_2020_%281%29.jpg',
-    mediaLinks: {}
+    mediaLinks: {},
+    recommendedBooks: [
+      {
+        title: "Persian Mythology",
+        author: "John R. Hinnells",
+        coverUrl: "https://covers.openlibrary.org/b/id/500908-L.jpg",
+        bookshopLink: "https://bookshop.org/book/9780872260177",
+        description: "The older layer beneath Yalda: light against dark, and a night to be survived."
+      }
+    ]
   },
   {
     id: 'middle-east-2026-22',
@@ -4229,8 +4298,9 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     coordinates: [34.12, 35.64],
     ritualType: RitualType.FESTIVAL,
     subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
+    startDate: '2026-07-10',
+    dateIsUnconfirmed: true,
+    endDate: '2026-08-16',
     verified: true,
     region: 'Byblos, Lebanon',
     description: 'Byblos Int. Festival celebrated in Byblos, Lebanon.',
@@ -4289,14 +4359,24 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     coordinates: [41, 28.97],
     ritualType: RitualType.FESTIVAL,
     subCategory: 'Harvest',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
+    startDate: '2026-08-25',
+    dateIsMovable: true,
+    endDate: '2026-08-25',
     verified: true,
     region: 'Regional (e.g. Istanbul)',
     description: 'Mawlid al-Nabi celebrated in Regional (e.g. Istanbul).',
     insights: 'An incredible cultural event occurring around August 25.',
     imageUrl: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80',
-    mediaLinks: {}
+    mediaLinks: {},
+    recommendedBooks: [
+      {
+        title: "Mulid!",
+        author: "Sharif Sunbul",
+        coverUrl: "https://covers.openlibrary.org/b/id/2297660-L.jpg",
+        bookshopLink: "https://bookshop.org/book/9789774245190",
+        description: "Photographs from inside the mawlid crowds, saints' festivals as they are actually lived."
+      }
+    ]
   },
   {
     id: 'middle-east-2026-32',

@@ -3530,6 +3530,22 @@
         "km": 40.5,
         "type": "large_airport"
       }
+    },
+    "asia-2026-19": {
+      "arrival": {
+        "iata": "LTG",
+        "name": "Langtang Airport",
+        "place": "Langtang",
+        "km": 21.1,
+        "type": "small_airport"
+      },
+      "gateway": {
+        "iata": "KTM",
+        "name": "Tribhuvan International Airport",
+        "place": "Kathmandu",
+        "km": 43.2,
+        "type": "large_airport"
+      }
     }
   },
   "departures": [
