@@ -5,6 +5,7 @@ import DetailPanel from './DetailPanel';
 import LiveDetailPanel from './LiveDetailPanel';
 import { categoryColor, categoryGlyph } from '../utils/categoryTheme';
 import { leadTime } from '../utils/tripPlanner';
+import { calculateDistance } from '../utils/geo';
 
 /** Thumbnail with a fallback that survives list recycling. */
 const Thumbnail: React.FC<{ item: CultureItem }> = ({ item }) => {
@@ -61,11 +62,15 @@ interface SidebarProps {
   onViewInsights: (item: CultureItem) => void;
   isSaved: boolean;
   onToggleSave: () => void;
+  /** Enables sorting by proximity when the reader has shared a location. */
+  userCoords?: [number, number] | null;
 }
 
 
 const ITEM_HEIGHT = 82; // px per list item (64px image + padding)
 const BUFFER_COUNT = 5; // extra items above/below viewport
+
+type SortMode = 'date' | 'distance' | 'name';
 
 const Sidebar: React.FC<SidebarProps> = ({
   filters,
@@ -79,7 +84,7 @@ const Sidebar: React.FC<SidebarProps> = ({
   onViewInsights,
   isSaved,
   onToggleSave
-}) => {
+, userCoords }) => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const listScrollRef = useRef<HTMLDivElement>(null);
   const [scrollTop, setScrollTop] = useState(0);
@@ -141,9 +146,30 @@ const Sidebar: React.FC<SidebarProps> = ({
   // Virtual list calculations
   const totalHeight = items.length * ITEM_HEIGHT;
   const startIdx = Math.max(0, Math.floor(scrollTop / ITEM_HEIGHT) - BUFFER_COUNT);
+  const [sortMode, setSortMode] = React.useState<SortMode>('date');
+
+  // Sort before virtualising. Catalogue order put six lunar festivals at the
+  // top, all reading "Date varies each year", which made the date column look
+  // useless on first glance.
+  const sorted = React.useMemo(() => {
+    const withDate = (e: CultureItem) => {
+      const t = new Date(e.startDate).getTime();
+      // Undated entries sink rather than colonising the top of the list.
+      return Number.isNaN(t) || e.dateIsUnconfirmed || e.dateIsMovable ? Infinity : t;
+    };
+    const copy = [...items];
+    if (sortMode === 'name') return copy.sort((a, b) => a.title.localeCompare(b.title));
+    if (sortMode === 'distance' && userCoords) {
+      const away = (e: CultureItem) =>
+        calculateDistance(userCoords[0], userCoords[1], e.coordinates[0], e.coordinates[1]);
+      return copy.sort((a, b) => away(a) - away(b));
+    }
+    return copy.sort((a, b) => withDate(a) - withDate(b));
+  }, [items, sortMode, userCoords]);
+
   const visibleCount = Math.ceil(containerHeight / ITEM_HEIGHT) + BUFFER_COUNT * 2;
-  const endIdx = Math.min(items.length, startIdx + visibleCount);
-  const visibleItems = items.slice(startIdx, endIdx);
+  const endIdx = Math.min(sorted.length, startIdx + visibleCount);
+  const visibleItems = sorted.slice(startIdx, endIdx);
   const offsetY = startIdx * ITEM_HEIGHT;
 
   return (
@@ -199,9 +225,11 @@ const Sidebar: React.FC<SidebarProps> = ({
           </button>
         </div>
 
-        {/* Minimal Timeline Slider */}
+        {/* Month filter and sort. The month control stays a filter — the
+            itinerary tab owns proper date-range planning — but the list now
+            has an order, which it did not before. */}
         <div className="flex items-center gap-3 px-1">
-          <span className="text-[12px] font-mono text-ink-faint uppercase tracking-wider">Timeline</span>
+          <span className="text-[12px] text-ink-faint shrink-0">Month</span>
           <input
             type="range"
             min="0"
@@ -210,10 +238,37 @@ const Sidebar: React.FC<SidebarProps> = ({
             value={filters.month}
             onChange={(e) => setFilters({ ...filters, month: parseInt(e.target.value) })}
             className="flex-1 h-0.5 bg-line-hard rounded-lg appearance-none cursor-pointer accent-accent"
+            aria-label="Filter by month"
           />
-          <span className="text-[12px] font-mono text-accent w-8 text-right">
-            {filters.month === 0 ? 'ALL' : new Date(0, filters.month - 1).toLocaleString('en-US', { month: 'short' }).toUpperCase()}
+          <span className="text-[12px] text-accent w-9 text-right tabular-nums">
+            {filters.month === 0 ? 'All' : new Date(0, filters.month - 1).toLocaleString('en-GB', { month: 'short' })}
           </span>
+        </div>
+
+        <div className="flex items-center gap-2 px-1">
+          <span className="text-[12px] text-ink-faint shrink-0">Sort</span>
+          {([
+            ['date', 'Soonest'],
+            ['distance', 'Nearest'],
+            ['name', 'A–Z'],
+          ] as [SortMode, string][]).map(([mode, label]) => {
+            const disabled = mode === 'distance' && !userCoords;
+            return (
+              <button
+                key={mode}
+                onClick={() => setSortMode(mode)}
+                disabled={disabled}
+                title={disabled ? 'Enable location to sort by distance' : undefined}
+                className={`px-2.5 py-1 rounded-full text-[12px] border transition-colors ${
+                  sortMode === mode
+                    ? 'bg-accent text-on-accent border-accent font-semibold'
+                    : 'border-line text-ink-dim hover:text-ink hover:border-line-hard'
+                } ${disabled ? 'opacity-40 cursor-not-allowed' : ''}`}
+              >
+                {label}
+              </button>
+            );
+          })}
         </div>
       </div>
 

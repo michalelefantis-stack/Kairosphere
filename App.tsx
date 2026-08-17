@@ -494,6 +494,7 @@ const App: React.FC = () => {
                 onViewInsights={handleViewInsights}
                 isSaved={selectedItem ? savedRitualIds.has(selectedItem.id) : false}
                 onToggleSave={() => selectedItem && toggleSaveRitual(selectedItem.id)}
+                userCoords={userCoords}
               />
             </div>
             {/* Collapse Button */}
