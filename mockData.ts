@@ -289,7 +289,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-11-22',
     verified: true,
     region: 'Mkomami ward, Kenya',
-    description: 'Lamu or Lamu Town is a small town on Lamu Island, which in turn is a part of the Lamu Archipelago in Kenya. Situated 341 kilometres (212 mi) by road northeast of Mombasa that ends at Mokowe Jetty, from where the sea channel has to be crossed to reach Lamu Island, it is the headquarter of Lamu County and a UNESCO World Heritage Site.',
+    description: 'An annual celebration of Swahili culture in Lamu Old Town, a UNESCO World Heritage site on the Kenyan coast. The programme is built from what the island already does: dhow sailing races off the waterfront, donkey races through lanes too narrow for cars, and competitions in craft, poetry and henna.',
     insights: 'Lamu has no cars, only donkeys. The festival features donkey races along the waterfront, dhow sailing competitions, Henna painting, and Bao (mancala) tournaments. It preserves the unique fusion of African, Arab, and Indian influences that define the Swahili Coast.',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Lamu_2015-76_%2824088960521%29.jpg/960px-Lamu_2015-76_%2824088960521%29.jpg',
     mediaLinks: {}

@@ -86,14 +86,27 @@ npm run build && npx cap sync android
   an audience. `pipeline/verification.py` stands in for it meanwhile.
 - **Triwara in `pipeline/pawukon.py` is unverified.** Structurally right,
   phase unconfirmed; nothing published depends on it.
-- **Descriptions are not all about the event they are attached to.** The Abu
-  Simbel Sun Festival was described with a biography of Nefertari — an
-  Egyptian queen, nothing about the alignment or the temple. It survived
-  because it is long and well written, so no boilerplate check catches it,
-  and because no Wikipedia briefing resolved for that event it was what the
-  panel actually showed. That one is fixed; **154 events still have no
-  briefing**, so their catalogue description is what readers see. Worth
-  sampling before launch.
+- **Two descriptions were about the wrong subject, and both are fixed.** The
+  Abu Simbel Sun Festival carried a biography of Nefertari; the Lamu Cultural
+  Festival carried a gazetteer entry about Lamu Town. Both survived every
+  automated check because they are long, fluent and factually true — just
+  about something else.
+
+  `python -m pipeline.verify_descriptions` now looks for that shape and
+  reports **zero remaining**. Treat that number with suspicion: the check
+  earned it only after two rounds of false positives, first flagging 57
+  correct descriptions for not repeating their own title, then 5 of 6 because
+  an unbounded wildcard let "is a yearly gathering … in the northern Niger
+  town" match the pattern for "is a town".
+
+- **No Wikipedia article exists for the Lamu Cultural Festival**, so its
+  replacement is written from general knowledge, like the Southeast Asia
+  entries. Accurate as far as it goes; not sourced.
+
+- **179 descriptions are thin rather than wrong** — 129 under 60 characters,
+  50 templated. The UI suppresses the templated ones and says "No sourced
+  description yet" instead of restating the title. 154 events still have no
+  briefing.
 
 ## Affiliate links
 
