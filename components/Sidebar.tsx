@@ -121,6 +121,33 @@ const Sidebar: React.FC<SidebarProps> = ({
     return () => window.removeEventListener('resize', measure);
   }, []);
 
+  const [sortMode, setSortMode] = React.useState<SortMode>('date');
+
+  // Sort before virtualising. Catalogue order put six lunar festivals at the
+  // top, all reading "Date varies each year", which made the date column look
+  // useless on first glance.
+  //
+  // Declared here, above the detail-panel early returns below, and not next to
+  // the code that uses it: selecting an event returns before the end of this
+  // function, so a hook placed after that point runs on some renders and not
+  // others. React counts hooks by call order, and the mismatch crashed the
+  // panel the moment a marker was clicked.
+  const sorted = React.useMemo(() => {
+    const withDate = (e: CultureItem) => {
+      const t = new Date(e.startDate).getTime();
+      // Undated entries sink rather than colonising the top of the list.
+      return Number.isNaN(t) || e.dateIsUnconfirmed || e.dateIsMovable ? Infinity : t;
+    };
+    const copy = [...items];
+    if (sortMode === 'name') return copy.sort((a, b) => a.title.localeCompare(b.title));
+    if (sortMode === 'distance' && userCoords) {
+      const away = (e: CultureItem) =>
+        calculateDistance(userCoords[0], userCoords[1], e.coordinates[0], e.coordinates[1]);
+      return copy.sort((a, b) => away(a) - away(b));
+    }
+    return copy.sort((a, b) => withDate(a) - withDate(b));
+  }, [items, sortMode, userCoords]);
+
   // If a detail panel is active, render it directly
   if (selectedItem) {
     return (
@@ -146,26 +173,6 @@ const Sidebar: React.FC<SidebarProps> = ({
   // Virtual list calculations
   const totalHeight = items.length * ITEM_HEIGHT;
   const startIdx = Math.max(0, Math.floor(scrollTop / ITEM_HEIGHT) - BUFFER_COUNT);
-  const [sortMode, setSortMode] = React.useState<SortMode>('date');
-
-  // Sort before virtualising. Catalogue order put six lunar festivals at the
-  // top, all reading "Date varies each year", which made the date column look
-  // useless on first glance.
-  const sorted = React.useMemo(() => {
-    const withDate = (e: CultureItem) => {
-      const t = new Date(e.startDate).getTime();
-      // Undated entries sink rather than colonising the top of the list.
-      return Number.isNaN(t) || e.dateIsUnconfirmed || e.dateIsMovable ? Infinity : t;
-    };
-    const copy = [...items];
-    if (sortMode === 'name') return copy.sort((a, b) => a.title.localeCompare(b.title));
-    if (sortMode === 'distance' && userCoords) {
-      const away = (e: CultureItem) =>
-        calculateDistance(userCoords[0], userCoords[1], e.coordinates[0], e.coordinates[1]);
-      return copy.sort((a, b) => away(a) - away(b));
-    }
-    return copy.sort((a, b) => withDate(a) - withDate(b));
-  }, [items, sortMode, userCoords]);
 
   const visibleCount = Math.ceil(containerHeight / ITEM_HEIGHT) + BUFFER_COUNT * 2;
   const endIdx = Math.min(sorted.length, startIdx + visibleCount);
