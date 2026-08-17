@@ -29,6 +29,7 @@ const WhisperOverlay = React.lazy(() => import('./components/WhisperOverlay'));
 const SignalIntelligence = React.lazy(() => import('./components/SignalIntelligence'));
 const ItineraryView = React.lazy(() => import('./components/ItineraryView'));
 const GlobeComponent = React.lazy(() => import('./components/GlobeComponent'));
+const CollectionsView = React.lazy(() => import('./components/CollectionsView'));
 
 // Minimal loading fallback for lazy components
 const LazyFallback = () => (
@@ -498,17 +499,10 @@ const App: React.FC = () => {
           // most, and there is no reason signing in should depend on which
           // way you happen to be looking at the same events.
           <div className="sm:hidden absolute inset-0 z-[45] pointer-events-none">
-            {selectedItem ? (
-              <div className="absolute inset-0 bg-base pointer-events-auto">
-                <DetailPanel
-                  item={selectedItem}
-                  onClose={() => setSelectedItem(null)}
-                  onViewInsights={handleViewInsights}
-                  isSaved={savedRitualIds.has(selectedItem.id)}
-                  onToggleSave={() => toggleSaveRitual(selectedItem.id)}
-                />
-              </div>
-            ) : (
+            {/* The detail panel is not here — it is a phone-wide overlay near
+                the root, so an event opened from Collections shows the same
+                panel as one opened from the feed. */}
+            {!selectedItem && (
               <>
                 {/* The list sits under the floating chrome and scrolls
                     beneath it, rather than being boxed in by it. */}
@@ -776,6 +770,22 @@ const App: React.FC = () => {
               </Suspense>
             </div>
           )}
+          {activeTab === 'collections' && (
+            <div className="relative w-full h-full flex flex-col min-h-0">
+              {isPhone && (
+                <MobileTopBar
+                  onOpenAccount={() => setIsAccountOpen(true)}
+                  signedIn={isSignedIn}
+                />
+              )}
+              <div className="flex-1 min-h-0">
+                <Suspense fallback={<LazyFallback />}>
+                  <CollectionsView items={cultureData} onSelect={handleSelectItem} />
+                </Suspense>
+              </div>
+            </div>
+          )}
+
           {activeTab === 'library' && (
             <div className="relative w-full h-full flex flex-col min-h-0">
             {isPhone && (
@@ -917,6 +927,22 @@ const App: React.FC = () => {
           </div>
         )}
       </div>
+
+      {/* The event detail, on a phone, from wherever it was opened.
+          Rendered once at the root rather than inside the map tab, so tapping
+          an event in Collections opens the same panel as tapping one in the
+          feed. Desktop keeps its own copy inside the sidebar. */}
+      {isPhone && selectedItem && (
+        <div className="sm:hidden fixed inset-0 z-[75] bg-base">
+          <DetailPanel
+            item={selectedItem}
+            onClose={() => setSelectedItem(null)}
+            onViewInsights={handleViewInsights}
+            isSaved={savedRitualIds.has(selectedItem.id)}
+            onToggleSave={() => toggleSaveRitual(selectedItem.id)}
+          />
+        </div>
+      )}
 
       {/* Account, reachable from every mobile tab.
           AccountMenu is a self-contained panel, so it only needs somewhere to

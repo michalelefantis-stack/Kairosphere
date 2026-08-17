@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Calendar, Map as MapIcon, Backpack, Radio, Activity, Archive, User as UserIcon, Globe, Maximize, Minimize } from 'lucide-react';
+import { Calendar, Map as MapIcon, Backpack, Radio, Activity, Archive, Layers, User as UserIcon, Globe, Maximize, Minimize } from 'lucide-react';
 import KairosLogo from './KairosLogo';
 import AccountMenu from './AccountMenu';
 import { auth } from '../firebase';
@@ -70,13 +70,20 @@ const NavDashboard: React.FC<NavDashboardProps> = ({ activeTab, setActiveTab, sa
    *   Calendar and Itinerary answer the same question, "I have these dates,
    *   what is on" — one tab, two views.
    *
-   * Library keeps its own tab but sinks to last; nobody reads background
-   * texts while deciding which bus to catch.
+   * Library lost its tab. It is a flattened list of the 21 books that
+   * DetailPanel already shows on the 19 events they belong to, so a third of
+   * the phone's navigation pointed at a duplicate — and background reading is
+   * not what anyone opens this app for while deciding which bus to catch. The
+   * books stay where they mean something, on the event.
+   *
+   * Collections took the slot instead, because it answers the one question
+   * nothing else here does: not "what is near me" but "where should I go at
+   * all".
    */
   const mobileNavItems = [
     { id: 'map', icon: <MapIcon className="w-[22px] h-[22px]" />, label: 'Nearby' },
+    { id: 'collections', icon: <Layers className="w-[22px] h-[22px]" />, label: 'Explore' },
     { id: 'itinerary', icon: <Backpack className="w-[22px] h-[22px]" />, label: 'Plan' },
-    { id: 'library', icon: <Archive className="w-[22px] h-[22px]" />, label: 'Library' },
   ];
 
   return (
