@@ -1,4 +1,5 @@
 {
+  "note": "Photos verified against Wikimedia descriptions. Credit and licence must be displayed with the image.",
   "images": {
     "australia-barunga": {
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/MRF-D_Marines_volunteer%2C_participate_at_Barunga_Festival_2026_%289741895%29.jpg/1280px-MRF-D_Marines_volunteer%2C_participate_at_Barunga_Festival_2026_%289741895%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -2287,6 +2288,193 @@
       "score": 5,
       "via": "commons-search",
       "eventId": "jazz-fest"
+    },
+    "red-dress-run": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Lima_Red_Dress_Hash_Chaclacayo_01.jpg/1280px-Lima_Red_Dress_Hash_Chaclacayo_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Jair Zuta La Rosa",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lima_Red_Dress_Hash_Chaclacayo_01.jpg",
+      "verifiedBy": "dress",
+      "score": 2,
+      "via": "commons-category",
+      "eventId": "red-dress-run"
+    },
+    "th-yi-peng": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/LK_02_loy_krathong_yi_peng_san_sai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Takeaway",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:LK_02_loy_krathong_yi_peng_san_sai.jpg",
+      "verifiedBy": "peng + chiang",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "th-yi-peng"
+    },
+    "th-songkran": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Grand_songkran_%28Thai_New_Year_%29_Water_Festival.jpg/1280px-Grand_songkran_%28Thai_New_Year_%29_Water_Festival.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "laurence king",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Grand_songkran_(Thai_New_Year_)_Water_Festival.jpg",
+      "verifiedBy": "songkran + thailand",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "th-songkran"
+    },
+    "th-phi-ta-khon": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Phi_Ta_Khon_Costume.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "GrandTV",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Phi_Ta_Khon_Costume.png",
+      "verifiedBy": "khon + thailand",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "th-phi-ta-khon"
+    },
+    "th-naga-fireballs": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Beung_Fai_Phraya_Nag_%28182%29_ball.JPG/1280px-Beung_Fai_Phraya_Nag_%28182%29_ball.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "J A Forbes",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Beung_Fai_Phraya_Nag_(182)_ball.JPG",
+      "verifiedBy": "naga",
+      "score": 5,
+      "via": "commons-category",
+      "eventId": "th-naga-fireballs"
+    },
+    "id-nyepi": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Close_up_of_a_three_faced_ogoh-ogoh_in_Ubud%2C_2018.jpg/1280px-Close_up_of_a_three_faced_ogoh-ogoh_in_Ubud%2C_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "MagdaLena7",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Close_up_of_a_three_faced_ogoh-ogoh_in_Ubud,_2018.jpg",
+      "verifiedBy": "nyepi + bali",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "id-nyepi"
+    },
+    "id-pasola": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Pasola.jpg/1280px-Pasola.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "RaiyaniM",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pasola.jpg",
+      "verifiedBy": "pasola",
+      "score": 5,
+      "via": "commons-category",
+      "eventId": "id-pasola"
+    },
+    "id-kawah-ijen": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Blue_fire_of_Ijen%2C_Kawah_Ijen%2C_Java%2C_Indonesia%2C_20220821_0432_9579.jpg/1280px-Blue_fire_of_Ijen%2C_Kawah_Ijen%2C_Java%2C_Indonesia%2C_20220821_0432_9579.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Jakub Hałun",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Blue_fire_of_Ijen,_Kawah_Ijen,_Java,_Indonesia,_20220821_0432_9579.jpg",
+      "verifiedBy": "ijen + java",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "id-kawah-ijen"
+    },
+    "ph-ati-atihan": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/A_Woman_At_The_Kalibo_Ati-Atihan_Festival%2C_Philippines.jpg/1280px-A_Woman_At_The_Kalibo_Ati-Atihan_Festival%2C_Philippines.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Elisolidum",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_Woman_At_The_Kalibo_Ati-Atihan_Festival,_Philippines.jpg",
+      "verifiedBy": "atihan + kalibo",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "ph-ati-atihan"
+    },
+    "ph-sinulog": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/SINULOG_FESTIVAL_QUEEN_02.jpg/1280px-SINULOG_FESTIVAL_QUEEN_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Jumelito Capilot",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:SINULOG_FESTIVAL_QUEEN_02.jpg",
+      "verifiedBy": "sinulog + cebu",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "ph-sinulog"
+    },
+    "ph-moriones": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/09315jfLandmarks_Plaza_Moriones_Street_Monuments_Barangays_Tondofvf_13.jpg/1280px-09315jfLandmarks_Plaza_Moriones_Street_Monuments_Barangays_Tondofvf_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Judgefloro",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:09315jfLandmarks_Plaza_Moriones_Street_Monuments_Barangays_Tondofvf_13.jpg",
+      "verifiedBy": "moriones + philippines",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "ph-moriones"
+    },
+    "vn-perfume-pagoda": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/VN_Chua_Huong1_tango7174.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Tango7174",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:VN_Chua_Huong1_tango7174.JPG",
+      "verifiedBy": "perfume + hanoi",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "vn-perfume-pagoda"
+    },
+    "mm-phaung-daw-oo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Phaung_Daw_Oo_Barge_%2843577010414%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "David Stanley from Nanaimo, Canada",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Phaung_Daw_Oo_Barge_(43577010414).jpg",
+      "verifiedBy": "phaung + inle",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "mm-phaung-daw-oo"
+    },
+    "kh-bon-om-touk": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Ak_Ambok.jpg/1280px-Ak_Ambok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Willuconquer",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ak_Ambok.jpg",
+      "verifiedBy": "touk + cambodia",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "kh-bon-om-touk"
+    },
+    "la-that-luang": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Boun_Bang_Fai_in_Luang_Nam_Tha%2C_Northern_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Alfred Raquez (1865-1907)",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Boun_Bang_Fai_in_Luang_Nam_Tha,_Northern_Laos.jpg",
+      "verifiedBy": "boun + laos",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "la-that-luang"
+    },
+    "my-thaipusam": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Thaipusam_2025_Crowded_Walkway_Facing_Lord_Murugan_Statue_at_Batu_Caves_%28250211%29.jpg/1280px-Thaipusam_2025_Crowded_Walkway_Facing_Lord_Murugan_Statue_at_Batu_Caves_%28250211%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "*angys*",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Thaipusam_2025_Crowded_Walkway_Facing_Lord_Murugan_Statue_at_Batu_Caves_(250211).jpg",
+      "verifiedBy": "thaipusam + batu",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "my-thaipusam"
+    },
+    "my-gawai-dayak": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/YanAriefTarianNgajat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "Yan Arief Purwanto from Yogyakarta, Indonesia; original uploader was Yosri at ms.wikipedia.",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:YanAriefTarianNgajat.jpg",
+      "verifiedBy": "dayak",
+      "score": 5,
+      "via": "commons-category",
+      "eventId": "my-gawai-dayak"
     }
   }
 }
