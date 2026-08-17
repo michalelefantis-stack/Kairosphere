@@ -42,7 +42,7 @@ log = logging.getLogger("briefings")
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "public" / "data" / "event_briefings.json"
-CATALOGUE = [ROOT / "mockData.ts", ROOT / "data" / "southeastAsia.ts"]
+CATALOGUE_JSON = ROOT / "public" / "data" / "catalogue.json"
 
 WIKI = "https://en.wikipedia.org/w/api.php"
 UA = "kairosphere-briefings/1.0 (+https://kairosphere.app)"
@@ -278,36 +278,22 @@ def briefing_for(title: str, region: str, require_place: bool = True) -> dict | 
     return None
 
 
-FIELD = re.compile(r"(\w+):\s*(?:'((?:[^'\\]|\\.)*)'|\"((?:[^\"\\]|\\.)*)\")")
-
-
-def unescape(text: str) -> str:
-    r"""Undo TypeScript string escaping.
-
-    The catalogue stores 'Cooper\'s Hill Cheese Rolling'. Left as-is the
-    backslash travels into the search query and Wikipedia finds nothing —
-    which read as "no article exists" rather than "we asked badly".
-    """
-    return re.sub(r"\\(.)", r"\1", text)
-
-
 def load_catalogue() -> list[dict]:
-    """Pull id, title and region out of the TypeScript catalogue files."""
-    text = "\n".join(p.read_text(encoding="utf-8", errors="replace")
-                     for p in CATALOGUE if p.exists())
-    events = []
-    for blob in re.split(r"\n\s*\{\s*\n?", text):
-        fields: dict[str, str] = {}
-        for m in FIELD.finditer(blob):
-            fields[m.group(1)] = m.group(2) if m.group(2) is not None else (m.group(3) or "")
-        if "id" in fields and "title" in fields:
-            events.append({
-                "id": fields["id"],
-                "title": unescape(fields["title"]),
-                "region": unescape(fields.get("region", "")),
-                "description": unescape(fields.get("description", "")),
-            })
-    return events
+    """Read the catalogue.
+
+    Straight JSON now. This used to run a regex over two TypeScript files and
+    every pass eventually met something it did not expect — an escaped
+    apostrophe in "Cooper\\'s Hill", a non-breaking space inside "341
+    kilometres (212 mi)" that made an edit silently fail to match. Each of
+    those was a wrong answer rather than an error, which is the worst kind.
+    """
+    if not CATALOGUE_JSON.exists():
+        raise FileNotFoundError(
+            f"{CATALOGUE_JSON} is missing. It is the catalogue; regenerate or "
+            "restore it before running any pipeline step."
+        )
+    payload = json.loads(CATALOGUE_JSON.read_text(encoding="utf-8"))
+    return payload.get("events", [])
 
 
 def load_existing() -> dict:

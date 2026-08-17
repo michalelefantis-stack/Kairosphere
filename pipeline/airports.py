@@ -44,11 +44,12 @@ from pathlib import Path
 
 import requests
 
+from pipeline.briefings import load_catalogue
+
 log = logging.getLogger("airports")
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "public" / "data" / "event_airports.json"
-CATALOGUE = [ROOT / "mockData.ts", ROOT / "data" / "southeastAsia.ts"]
 CACHE = ROOT / "pipeline" / "cache" / "airports.csv"
 
 SOURCE = "https://davidmegginson.github.io/ourairports-data/airports.csv"
@@ -105,26 +106,23 @@ def load_airports() -> list[dict]:
     return airports
 
 
-FIELD = re.compile(r"(\w+):\s*(?:'((?:[^'\\]|\\.)*)'|\"((?:[^\"\\]|\\.)*)\")")
-COORDS = re.compile(r"coordinates:\s*\[\s*(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)\s*\]")
-
-
 def load_events() -> list[dict]:
-    text = "\n".join(p.read_text(encoding="utf-8", errors="replace")
-                     for p in CATALOGUE if p.exists())
+    """Events with usable coordinates, read from the catalogue JSON."""
     events = []
-    for blob in re.split(r"\n\s*\{\s*\n?", text):
-        fields = {}
-        for m in FIELD.finditer(blob):
-            fields[m.group(1)] = m.group(2) if m.group(2) is not None else (m.group(3) or "")
-        coords = COORDS.search(blob)
-        if "id" in fields and coords:
-            events.append({
-                "id": fields["id"],
-                "title": re.sub(r"\\(.)", r"\1", fields.get("title", "")),
-                "lat": float(coords.group(1)),
-                "lon": float(coords.group(2)),
-            })
+    for event in load_catalogue():
+        coords = event.get("coordinates") or []
+        if len(coords) != 2:
+            continue
+        try:
+            lat, lon = float(coords[0]), float(coords[1])
+        except (TypeError, ValueError):
+            continue
+        events.append({
+            "id": event["id"],
+            "title": event.get("title", ""),
+            "lat": lat,
+            "lon": lon,
+        })
     return events
 
 

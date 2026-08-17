@@ -1,6 +1,6 @@
 import { UnifiedEvent, EventCategory, EventStatus, CultureItem, RitualType } from '../types';
-import { MOCK_CULTURE_DATA } from '../mockData';
 import { COUNTRY_COORDS } from './countryCoords';
+import { loadCatalogue } from './catalogue';
 
 function getEonetCategory(catId: string): EventCategory {
   catId = catId.toLowerCase();
@@ -160,7 +160,10 @@ export async function fetchGdeltLiveEvents(): Promise<UnifiedEvent[]> {
     console.error("Nager.Date Holidays fetch failed", err);
   }
 
-  const ALL_CULTURES = [...MOCK_CULTURE_DATA, ...GLOBAL_CURRENT_EVENTS];
+  // The catalogue is fetched rather than imported now, and this module runs
+  // after it has loaded, so the shared cache answers without a second request.
+  const { events: catalogue } = await loadCatalogue();
+  const ALL_CULTURES = [...catalogue, ...GLOBAL_CURRENT_EVENTS];
   const activeAndUpcomingCultures = ALL_CULTURES.filter(cult => {
      const start = new Date(cult.startDate).getTime();
      const end = new Date(cult.endDate).getTime();

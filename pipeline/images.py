@@ -347,23 +347,13 @@ def resolve(event_id: str, title: str, region: str) -> dict | None:
 # ── catalogue reading ─────────────────────────────────────────────────────
 
 def read_catalogue() -> list[dict]:
-    """Pull id/title/region out of the data files without importing TypeScript."""
-    events: list[dict] = []
-    for path in (ROOT / "mockData.ts", ROOT / "data" / "southeastAsia.ts"):
-        if not path.exists():
-            continue
-        text = path.read_text(encoding="utf-8")
-        for block in re.findall(r"\{\s*id:\s*'([^']+)'(.*?)\n  \}", text, re.S):
-            event_id, body = block
-            title = re.search(r"title:\s*'((?:\\.|[^'\\])*)'", body)
-            region = re.search(r"region:\s*'((?:\\.|[^'\\])*)'", body)
-            if title:
-                events.append({
-                    "id": event_id,
-                    "title": title.group(1),
-                    "region": region.group(1) if region else "",
-                })
-    return events
+    """The catalogue, from JSON.
+
+    Previously a regex over TypeScript, which is how "Cooper\\'s Hill" reached
+    Wikipedia with its backslash intact and found nothing.
+    """
+    from pipeline.briefings import load_catalogue
+    return load_catalogue()
 
 
 def main(argv=None) -> int:

@@ -64,23 +64,24 @@ const StarRating: React.FC<{ rating: number, count?: string }> = ({ rating, coun
 };
 
 const App: React.FC = () => {
-  // ── Lazy-load mockData (303KB) — fetched after initial render ──
+  // ── The catalogue is fetched, not compiled in ──
+  //
+  // It is a JSON file rather than a TypeScript module, so adding an event or
+  // correcting a date is a file upload instead of a release. See
+  // utils/catalogue for why this is a static file and not a database.
   const [cultureData, setCultureData] = useState<CultureItem[]>([]);
   const [dataLoaded, setDataLoaded] = useState(false);
   useEffect(() => {
     Promise.all([
-      import('./mockData'),
-      import('./data/southeastAsia'),
+      import('./utils/catalogue'),
       import('./utils/eventSchedule'),
       import('./utils/eventImages')
-    ]).then(async ([mod, sea, schedule, images]) => {
+    ]).then(async ([catalogue, schedule, images]) => {
+      const { events } = await catalogue.loadCatalogue();
       // The catalogue stores one historical instance per event and 89% of
       // them have already passed. Resolve each to its next occurrence here,
       // so the map, calendar and insights all see upcoming dates.
-      const resolved = schedule.withResolvedSchedules([
-        ...mod.MOCK_CULTURE_DATA,
-        ...sea.SOUTHEAST_ASIA_EVENTS
-      ]);
+      const resolved = schedule.withResolvedSchedules(events);
       // Overlay photographs verified against Wikimedia descriptions, replacing
       // the generic stock that had one image serving four unrelated events.
       setCultureData(images.applyEventImages(resolved, await images.loadEventImages()));
