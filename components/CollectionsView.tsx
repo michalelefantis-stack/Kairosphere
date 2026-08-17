@@ -3,6 +3,7 @@ import { ChevronLeft, ChevronRight, Heart } from 'lucide-react';
 import { CultureItem } from '../types';
 import { populatedCollections, PopulatedCollection } from '../utils/collections';
 import { reachFrom } from '../utils/nearby';
+import { useSwipeBack } from '../hooks/useSwipeBack';
 import { categoryColor, categoryGlyph } from '../utils/categoryTheme';
 import { leadTime } from '../utils/tripPlanner';
 
@@ -53,13 +54,31 @@ const Tile: React.FC<{ item: CultureItem; onSelect: (i: CultureItem) => void }> 
           </svg>
         )}
       </div>
-      <p className="text-[13px] font-medium text-ink leading-snug mt-1.5 line-clamp-2">
+      {/* Two lines' worth of space whether the title needs it or not, so the
+          dates sit on one line across the strip instead of stepping up and
+          down with every title length. */}
+      <p className="text-[13px] font-medium text-ink leading-snug mt-1.5 line-clamp-2 min-h-[34px]">
         {item.title}
       </p>
       <p className="text-[12px] text-ink-faint truncate">{item.region}</p>
+      {/* What, where, when — the same order as the feed cards, so moving
+          between the two screens does not mean re-learning where to look.
+          A tile without a date is browsing; with one it is planning. */}
+      <p className={`text-[12px] mt-0.5 truncate ${tileWhenClass(item)}`}>
+        {item.dateIsUnconfirmed ? 'Date not confirmed' : leadTime(item).label}
+      </p>
     </button>
   );
 };
+
+/** Only imminence earns colour, or the highlight stops meaning anything. */
+function tileWhenClass(item: CultureItem): string {
+  if (item.dateIsUnconfirmed) return 'text-ink-faint';
+  const urgency = leadTime(item).urgency;
+  if (urgency === 'imminent') return 'text-live';
+  if (urgency === 'soon') return 'text-accent';
+  return 'text-ink-dim';
+}
 
 /** One row in a collection, with the save control on it. */
 const Row: React.FC<{
@@ -134,9 +153,13 @@ const CollectionDetail: React.FC<{
   // sentence of context before any list, which makes a theme feel curated
   // rather than computed.
   const cover = collection.events.find(e => (e as any).imageCredit && e.imageUrl);
+  const swipeBack = useSwipeBack(onBack);
 
   return (
-    <div className="h-full overflow-y-auto custom-scrollbar overscroll-contain pb-safe-tab">
+    <div
+      className="h-full overflow-y-auto custom-scrollbar overscroll-contain pb-safe-tab"
+      {...swipeBack}
+    >
       {cover && (
         <div className="relative">
           <img
