@@ -76,6 +76,11 @@ npm run build && npx cap sync android
   coordinates, representative dates, lunar ones flagged as varying — but the
   fixed dates deserve checking against official sources before you sell a trip
   on them.
+- **Sign-in does not work in the packaged app.** `signInWithPopup` needs a
+  popup window the Capacitor WebView cannot provide, so Google and Apple both
+  fail silently on Android. The panel says so rather than showing dead
+  buttons. Fixing it needs `@capacitor-firebase/authentication` plus console
+  work — see below.
 - **USA-NPN is wired but unverified.** It times out; the adapter fails soft.
 - **Crowd verification is designed but not built.** It needs a write path and
   an audience. `pipeline/verification.py` stands in for it meanwhile.
@@ -84,6 +89,41 @@ npm run build && npx cap sync android
 - **`Abu Simbel Sun Fest` and `Abu Simbel Sun Festival`** are a duplicate pair
   the deduper missed — the titles differ enough to clear the similarity check.
   Worth a manual sweep for others like it.
+
+## Native sign-in (Firebase console)
+
+Nothing here can be done from the repository — it all needs the Firebase and
+Apple consoles. Until it is done the app is usable but account-less, which is
+a deliberate state, not a bug.
+
+1. **Register the Android app.** Firebase console → Project settings → Your
+   apps → Add app → Android. Package name must be **`com.kairosphere.app`**,
+   matching `appId` in `capacitor.config.ts`. A mismatch fails at runtime with
+   an unhelpful error.
+2. **Add the signing fingerprints.** Google Sign-In on Android will not work
+   without SHA-1 registered. Get them with:
+
+   ```bash
+   cd android && ./gradlew signingReport
+   ```
+
+   Add the **debug** SHA-1 now and the **release** SHA-1 before you publish —
+   they are different keys, and forgetting the second means sign-in works in
+   testing and breaks in the store build. If you use Play App Signing, take
+   the SHA-1 from the Play Console, not your local keystore.
+3. **Download `google-services.json`** into `android/app/`. It is not in the
+   repository today.
+4. **Authentication → Sign-in method → enable Google.** Note the auto-created
+   *Web client ID*; the plugin needs it as `serverClientId`.
+5. **Add your production domain** under Authentication → Settings → Authorized
+   domains, alongside `localhost`.
+6. Then, in the repo: `npm i @capacitor-firebase/authentication`, and swap
+   `signInWithPopup` in `components/AccountMenu.tsx` for the plugin's native
+   call, keeping the popup path for the web build.
+
+Apple sign-in on Android is a separate and larger job — it needs an Apple
+Developer account, a Services ID and a signing key, and runs through a web
+redirect. Worth skipping unless you have iOS users asking for it.
 
 ## Release checks
 

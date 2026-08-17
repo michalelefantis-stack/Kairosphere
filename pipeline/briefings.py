@@ -94,6 +94,18 @@ EVENT_MARKERS = (
 # definition of the subject.
 LEDE_CHARS = 420
 
+# Wikipedia's own categories, which are the better signal when the prose does
+# not cooperate. Requiring an EVENT_MARKER in the lede correctly rejected
+# "Crow Indian Reservation", but also rejected Calcio Storico, whose lede
+# calls it "an early form of football" and never says "annual" — while its
+# categories place it squarely among Italian festivals.
+EVENT_CATEGORIES = re.compile(
+    r"festival|holiday|observance|tradition|carnival|ritual|ceremon|"
+    r"pilgrimage|feast|parade|powwow|folk|annual events|recurring events|"
+    r"culture of|natural phenomen|astronomical",
+    re.I,
+)
+
 _last_call = 0.0
 
 
@@ -133,7 +145,7 @@ def trim(text: str, limit: int = TARGET_CHARS) -> str:
 
 
 def _acceptable(title: str, extract: str, words: list[str],
-                place_words: list[str]) -> str | None:
+                place_words: list[str], categories: list[str] | None = None) -> str | None:
     """The evidence this article is about this event, or None."""
     body = extract.lower()
     lede = body[:LEDE_CHARS]
@@ -143,9 +155,11 @@ def _acceptable(title: str, extract: str, words: list[str],
         return None
     if any(marker in lede for marker in WRONG_KIND):
         return None
-    # The lede has to describe an event. Without this, any article whose title
+    # The article has to be about an event. Without this, anything whose title
     # shares a word with the festival qualifies, including the geography.
-    if not any(marker in lede for marker in EVENT_MARKERS):
+    # Either the prose says so, or Wikipedia has already filed it that way.
+    filed_as_event = any(EVENT_CATEGORIES.search(c) for c in (categories or []))
+    if not filed_as_event and not any(marker in lede for marker in EVENT_MARKERS):
         return None
 
     # The subject has to appear near the top — an event mentioned once in
@@ -188,7 +202,8 @@ def briefing_for(title: str, region: str) -> dict | None:
         data = _get({
             "action": "query", "generator": "search",
             "gsrsearch": query, "gsrlimit": 3,
-            "prop": "extracts", "exintro": 1, "explaintext": 1,
+            "prop": "extracts|categories", "exintro": 1, "explaintext": 1,
+            "cllimit": 40, "clshow": "!hidden",
             "format": "json", "origin": "*",
         })
         pages = ((data or {}).get("query") or {}).get("pages") or {}
@@ -202,7 +217,8 @@ def briefing_for(title: str, region: str) -> dict | None:
             seen.add(page_title)
 
             extract = (page.get("extract") or "").strip()
-            evidence = _acceptable(page_title, extract, words, place_words)
+            categories = [c.get("title", "") for c in (page.get("categories") or [])]
+            evidence = _acceptable(page_title, extract, words, place_words, categories)
             if not evidence:
                 continue
 
