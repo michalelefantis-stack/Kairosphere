@@ -12,6 +12,7 @@ import { ChevronLeft, ChevronRight, ChevronUp, ChevronDown, ExternalLink, Radio,
 import { useGeolocation } from './hooks/useGeolocation';
 
 import LiveDetailPanel from './components/LiveDetailPanel';
+import { readJson, writeJson } from './utils/safeStorage';
 
 // ── Lazy-loaded components (only fetched when their tab/modal is active) ──
 const CalendarView = React.lazy(() => import('./components/CalendarView'));
@@ -208,15 +209,16 @@ const App: React.FC = () => {
   
   // ITINERARY STATE
   const [savedRitualIds, setSavedRitualIds] = useState<Set<string>>(() => {
-    const saved = localStorage.getItem('kairos_saved_ids');
-    return saved ? new Set(JSON.parse(saved)) : new Set();
+    // Guarded: this runs inside a useState initialiser, so a throw here
+    // white-screened the whole app before any of it rendered.
+    return new Set(readJson<string[]>('kairos_saved_ids', []));
   });
 
   const toggleSaveRitual = (id: string) => {
     setSavedRitualIds(prev => {
       const newSet = new Set(prev);
       if (newSet.has(id)) { newSet.delete(id); } else { newSet.add(id); }
-      localStorage.setItem('kairos_saved_ids', JSON.stringify(Array.from(newSet)));
+      writeJson('kairos_saved_ids', Array.from(newSet));
       return newSet;
     });
   };

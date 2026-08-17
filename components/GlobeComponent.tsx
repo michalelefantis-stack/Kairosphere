@@ -26,7 +26,7 @@ const GlobeComponent: React.FC<GlobeComponentProps> = ({
   userCoords,
   activeTab = 'map'
 }) => {
-  const globeRef = useRef<any>();
+  const globeRef = useRef<any>(null);
   const [dimensions, setDimensions] = useState({ width: window.innerWidth, height: window.innerHeight });
   const globeReadyRef = useRef(false);
 

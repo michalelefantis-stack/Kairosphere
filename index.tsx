@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import { LanguageProvider } from './LanguageContext';
+import ErrorBoundary from './components/ErrorBoundary';
 
 // Imported here, not linked from index.html, so Vite actually compiles the
 // `@import "tailwindcss"` inside it. While this file lived in public/ it was
@@ -17,8 +18,10 @@ if (!rootElement) {
 const root = ReactDOM.createRoot(rootElement);
 root.render(
   <React.StrictMode>
-    <LanguageProvider>
-      <App />
-    </LanguageProvider>
+    <ErrorBoundary>
+      <LanguageProvider>
+        <App />
+      </LanguageProvider>
+    </ErrorBoundary>
   </React.StrictMode>
 );

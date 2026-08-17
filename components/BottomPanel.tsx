@@ -1,5 +1,6 @@
 import React from 'react';
 import { CultureItem } from '../types';
+import { aiImageFor } from '../utils/aiImageCache';
 
 interface BottomPanelProps {
   items: CultureItem[];
@@ -22,14 +23,7 @@ const BottomPanel: React.FC<BottomPanelProps> = ({ items, onSelectItem, selected
             >
               <div className="h-32 w-full overflow-hidden">
                 <img
-                  src={(() => {
-                    const saved = localStorage.getItem('kairos_ai_images');
-                    if (saved) {
-                      const cache = JSON.parse(saved);
-                      return cache[item.id] || item.imageUrl;
-                    }
-                    return item.imageUrl;
-                  })()}
+                  src={aiImageFor(item.id, item.imageUrl)}
                   alt={item.title}
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"

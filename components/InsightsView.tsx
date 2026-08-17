@@ -6,6 +6,7 @@ import { X, MapPin, Calendar, BookOpen, ExternalLink, ShoppingBag, ArrowLeft, Im
 import { CultureItem } from '../types';
 import { dotMarkerHtml } from '../utils/markerIcon';
 import ConditionsPanel from './ConditionsPanel';
+import { aiImageFor, cachedLocation } from '../utils/aiImageCache';
 import {
   ClimateNormals,
   Daylight,
@@ -222,25 +223,9 @@ const InsightsView: React.FC<InsightsViewProps> = ({ item, onClose, isSaved, onT
 
   // Load hero image and location cache
   useEffect(() => {
-    try {
-      const savedImages = localStorage.getItem('kairos_ai_images');
-      if (savedImages) {
-        const cache = JSON.parse(savedImages);
-        if (cache[item.id]) {
-          setHeroImage(cache[item.id]);
-        }
-      }
-
-      const savedLocations = localStorage.getItem('kairos_locations');
-      if (savedLocations) {
-        const cache = JSON.parse(savedLocations);
-        if (cache[item.id]) {
-          setLocationName(cache[item.id]);
-        }
-      }
-    } catch (e) {
-      console.error("Error loading cached data", e);
-    }
+    setHeroImage(aiImageFor(item.id, item.imageUrl));
+    const place = cachedLocation(item.id);
+    if (place) setLocationName(place);
   }, [item.id, item.region]);
 
   // Fetch Open-Meteo Weather (100% Free, No API Key)

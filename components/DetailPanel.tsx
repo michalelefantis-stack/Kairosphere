@@ -4,6 +4,7 @@ import { CultureItem } from '../types';
 import { X, MapPin, BookOpen, ShoppingBag, Sparkles, Loader2, Calendar, AlignLeft, Backpack } from 'lucide-react';
 import { aiClient } from "../utils/aiClient";
 import { categoryColor } from '../utils/categoryTheme';
+import { cachedLocation, storeAiImage, storeLocation } from '../utils/aiImageCache';
 
 interface DetailPanelProps {
   item: CultureItem;
@@ -57,11 +58,9 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights
     setIsLoadingAi(false);
 
     // --- LOCATION LOGIC ---
-    const savedLocations = localStorage.getItem('kairos_locations');
-    const locationCache = savedLocations ? JSON.parse(savedLocations) : {};
-
-    if (locationCache[item.id]) {
-      setPreciseLocation(locationCache[item.id]);
+    const cachedPlace = cachedLocation(item.id);
+    if (cachedPlace) {
+      setPreciseLocation(cachedPlace);
     } else {
       // Set initial fallback derived from ID
       setPreciseLocation(getInitialLocation());
@@ -86,7 +85,7 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights
     // Helper: search Wikipedia and return { title, extract } or null
     const wikiSearch = async (query: string): Promise<{ title: string; extract: string } | null> => {
       try {
-        const url = `https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(query)}&gsrlimit=1&prop=extracts&exintro=1&format=json&origin=*`;
+        const url = `https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(query)}&gsrlimit=1&prop=extracts&exintro=1&explaintext=1&format=json&origin=*`;
         const res = await fetch(url);
         const data = await res.json();
         const pages = data.query?.pages;
@@ -132,18 +131,18 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights
       }
 
       if (!result) {
-        setWikiContent(`<p class="text-ink-dim italic">No relevant Wikipedia articles could be found for this event.</p>`);
+        setWikiContent('No relevant Wikipedia article could be found for this event.');
         return;
       }
 
       // Show a "Related Article" banner if the found article title differs from the event title
       const isExactMatch = result.title.toLowerCase() === item.title.toLowerCase() || result.title.toLowerCase() === cleanTitle.toLowerCase();
-      const prefix = !isExactMatch
-        ? `<div class="mb-4 p-3 bg-accent/10 border border-accent/20 rounded-lg"><p class="text-xs text-accent font-mono mb-1 uppercase tracking-widest">Related Article</p><h4 class="text-lg font-bold text-ink">${result.title}</h4></div>`
-        : '';
+      const prefix = !isExactMatch ? `Closest article found: ${result.title}
+
+` : '';
       setWikiContent(prefix + result.extract);
     } catch (e) {
-      setWikiContent('<p class="text-red-400">Failed to load Wikipedia article.</p>');
+      setWikiContent('Could not load the Wikipedia article.');
     } finally {
       setIsLoadingWiki(false);
     }
@@ -154,11 +153,7 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights
       const locationText = await aiClient.preciseLocation(item.title, item.description);
       if (locationText) {
         setPreciseLocation(locationText);
-        // Cache it
-        const savedLocations = localStorage.getItem('kairos_locations');
-        const cache = savedLocations ? JSON.parse(savedLocations) : {};
-        cache[item.id] = locationText;
-        localStorage.setItem('kairos_locations', JSON.stringify(cache));
+        storeLocation(item.id, locationText);
       }
     } catch (e) {
       console.error("Location fetch failed", e);
@@ -178,11 +173,7 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights
       const dataUrl = await aiClient.eventImage(item.title, item.region, item.description);
 
       if (dataUrl) {
-        const savedImages = localStorage.getItem('kairos_ai_images');
-        const cache = savedImages ? JSON.parse(savedImages) : {};
-        cache[item.id] = dataUrl;
-        localStorage.setItem('kairos_ai_images', JSON.stringify(cache));
-
+        storeAiImage(item.id, dataUrl);
         setDisplayImage(dataUrl);
         setIsAiGenerated(true);
       }
