@@ -49,6 +49,21 @@
   }
 }
 
+/* Horizontal strips that are scrolled by dragging, not by a scrollbar: the
+   category chips, the collection tiles, the desktop nav pill.
+
+   This class was already on thirteen elements and had never been defined, so
+   every one of them drew a scrollbar under itself — most visibly beneath the
+   filter chips on the phone, where a grey bar appeared the moment the row was
+   touched. Tailwind does not ship it; it has to be written out. */
+.no-scrollbar {
+  scrollbar-width: none;        /* Firefox */
+  -ms-overflow-style: none;     /* legacy Edge */
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;                /* WebKit and Blink */
+}
+
 /* ─── Dark theme (default) ──────────────────────────────────────────────────── */
 :root {
   /* Surfaces. Warm near-black rather than pure #000: map tiles and

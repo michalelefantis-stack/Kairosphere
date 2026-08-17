@@ -23,7 +23,6 @@ import { readJson, writeJson } from './utils/safeStorage';
 
 // ── Lazy-loaded components (only fetched when their tab/modal is active) ──
 const CalendarView = React.lazy(() => import('./components/CalendarView'));
-const InsightsView = React.lazy(() => import('./components/InsightsView'));
 const ReportRitualModal = React.lazy(() => import('./components/ReportRitualModal'));
 const WhisperOverlay = React.lazy(() => import('./components/WhisperOverlay'));
 const SignalIntelligence = React.lazy(() => import('./components/SignalIntelligence'));
@@ -244,7 +243,6 @@ const App: React.FC = () => {
   }, [filters]);
 
   const [selectedItem, setSelectedItem] = useState<CultureItem | null>(null);
-  const [insightsItem, setInsightsItem] = useState<CultureItem | null>(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   
   // ITINERARY STATE
@@ -429,8 +427,11 @@ const App: React.FC = () => {
     }
   };
 
+  // The full-analysis screen is gone; everything it was worth opening for is
+  // in the detail panel now. Callers that used to ask for "insights" — the
+  // calendar, the library — open the event itself.
   const handleViewInsights = (item: CultureItem) => {
-    setInsightsItem(item);
+    handleSelectItem(item);
   };
 
   const toggleSidebar = () => setIsSidebarOpen(!isSidebarOpen);
@@ -619,7 +620,6 @@ const App: React.FC = () => {
                   setSelectedItem(null);
                   setSelectedLiveEvent(null);
                 }}
-                onViewInsights={handleViewInsights}
                 isSaved={selectedItem ? savedRitualIds.has(selectedItem.id) : false}
                 onToggleSave={() => selectedItem && toggleSaveRitual(selectedItem.id)}
                 userCoords={userCoords}
@@ -764,7 +764,7 @@ const App: React.FC = () => {
                       <CalendarView
                         events={filteredData}
                         onSelect={handleViewInsights}
-                        selectedId={insightsItem?.id || selectedItem?.id}
+                        selectedId={selectedItem?.id}
                         savedRitualIds={savedRitualIds}
                         onToggleSave={toggleSaveRitual}
                       />
@@ -775,7 +775,7 @@ const App: React.FC = () => {
                       savedEvents={itineraryData}
                       savedIds={savedRitualIds}
                       onToggleSave={toggleSaveRitual}
-                      onViewInsights={handleViewInsights}
+                      onOpenEvent={handleSelectItem}
                     />
                   )}
                 </Suspense>
@@ -911,17 +911,6 @@ const App: React.FC = () => {
           {/* REMOVED FLOATING PANEL */}
         </div>
 
-        {/* Insights Overlay */}
-        {insightsItem && (
-          <Suspense fallback={<LazyFallback />}>
-            <InsightsView 
-              item={insightsItem} 
-              onClose={() => setInsightsItem(null)} 
-              isSaved={savedRitualIds.has(insightsItem.id)}
-              onToggleSave={toggleSaveRitual}
-            />
-          </Suspense>
-        )}
 
         {/* Location Permission Popup */}
         {showLocationPopup && (
@@ -962,7 +951,6 @@ const App: React.FC = () => {
           <DetailPanel
             item={selectedItem}
             onClose={() => setSelectedItem(null)}
-            onViewInsights={handleViewInsights}
             isSaved={savedRitualIds.has(selectedItem.id)}
             onToggleSave={() => toggleSaveRitual(selectedItem.id)}
             userCoords={userCoords}

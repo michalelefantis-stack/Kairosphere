@@ -19,7 +19,8 @@ interface ItineraryViewProps {
   savedEvents: CultureItem[];
   savedIds: Set<string>;
   onToggleSave: (id: string) => void;
-  onViewInsights: (item: CultureItem) => void;
+  /** Opens an event's detail panel. */
+  onOpenEvent: (item: CultureItem) => void;
 }
 
 /**
@@ -184,7 +185,7 @@ const TripCard: React.FC<{
 };
 
 const ItineraryView: React.FC<ItineraryViewProps> = ({
-  allEvents, savedEvents, savedIds, onToggleSave, onViewInsights
+  allEvents, savedEvents, savedIds, onToggleSave, onOpenEvent
 }) => {
   const presets = React.useMemo(() => presetWindows(), []);
   const [from, setFrom] = React.useState('');
@@ -276,7 +277,7 @@ const ItineraryView: React.FC<ItineraryViewProps> = ({
                       item={item}
                       saved={savedIds.has(item.id)}
                       onToggleSave={onToggleSave}
-                      onOpen={onViewInsights}
+                      onOpen={onOpenEvent}
                     />
                   ))}
                 </ul>
@@ -341,7 +342,7 @@ const ItineraryView: React.FC<ItineraryViewProps> = ({
                   trip={trip}
                   index={i}
                   onToggleSave={onToggleSave}
-                  onOpen={onViewInsights}
+                  onOpen={onOpenEvent}
                 />
               ))}
             </div>

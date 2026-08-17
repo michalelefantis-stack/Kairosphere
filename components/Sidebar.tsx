@@ -65,7 +65,6 @@ interface SidebarProps {
   selectedItem: CultureItem | null;
   selectedLiveEvent: UnifiedEvent | null;
   onCloseDetail: () => void;
-  onViewInsights: (item: CultureItem) => void;
   isSaved: boolean;
   onToggleSave: () => void;
   /** Enables sorting by proximity when the reader has shared a location. */
@@ -91,7 +90,6 @@ const Sidebar: React.FC<SidebarProps> = ({
   selectedItem,
   selectedLiveEvent,
   onCloseDetail,
-  onViewInsights,
   isSaved,
   onToggleSave
 , userCoords, onRequestLocation, onViewSaved }) => {
@@ -194,7 +192,6 @@ const Sidebar: React.FC<SidebarProps> = ({
       <DetailPanel
         item={selectedItem}
         onClose={onCloseDetail}
-        onViewInsights={onViewInsights}
         isSaved={isSaved}
         onToggleSave={onToggleSave}
         userCoords={userCoords}
