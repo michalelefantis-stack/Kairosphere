@@ -56,6 +56,29 @@ const NavDashboard: React.FC<NavDashboardProps> = ({ activeTab, setActiveTab, sa
     { id: 'library', icon: <Archive className="w-5 h-5 sm:w-4 sm:h-4" />, label: t('library') },
   ];
 
+  /**
+   * Three tabs on a phone, five on a desktop.
+   *
+   * Five tabs on a 375px bar gave each 75px, which forced 11px uppercase
+   * labels and still wrapped "LIVE MAP" onto two lines. More to the point,
+   * two of the five were not places:
+   *
+   *   Live map is not a destination, it is a state of the home feed — local
+   *   reports belong at the top of what you already opened. Putting them
+   *   behind their own tab hid the one feature with a daily reason to return.
+   *
+   *   Calendar and Itinerary answer the same question, "I have these dates,
+   *   what is on" — one tab, two views.
+   *
+   * Library keeps its own tab but sinks to last; nobody reads background
+   * texts while deciding which bus to catch.
+   */
+  const mobileNavItems = [
+    { id: 'map', icon: <MapIcon className="w-[22px] h-[22px]" />, label: 'Nearby' },
+    { id: 'itinerary', icon: <Backpack className="w-[22px] h-[22px]" />, label: 'Plan' },
+    { id: 'library', icon: <Archive className="w-[22px] h-[22px]" />, label: 'Library' },
+  ];
+
   return (
     <>
       {/* ═══ DESKTOP: Floating pill (unchanged, hidden on mobile) ═══ */}
@@ -108,13 +131,16 @@ const NavDashboard: React.FC<NavDashboardProps> = ({ activeTab, setActiveTab, sa
         style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}
       >
         <div className="bg-base/95 backdrop-blur-xl border-t border-line flex items-stretch justify-around px-1">
-          {navItems.map((item) => {
-            const isActive = activeTab === item.id;
+          {mobileNavItems.map((item) => {
+            // Calendar folded into Plan, so the tab lights up for either.
+            const isActive =
+              activeTab === item.id ||
+              (item.id === 'itinerary' && activeTab === 'calendar');
             return (
               <button
                 key={item.id}
                 onClick={() => setActiveTab(item.id)}
-                className={`relative flex flex-col items-center justify-center gap-0.5 py-2.5 px-3 min-w-0 flex-1 transition-colors duration-200 ${
+                className={`relative flex flex-col items-center justify-center gap-1 min-h-[56px] py-2 px-3 min-w-0 flex-1 transition-colors duration-200 ${
                   isActive ? 'text-accent' : 'text-ink-faint active:text-ink'
                 }`}
               >
@@ -122,18 +148,20 @@ const NavDashboard: React.FC<NavDashboardProps> = ({ activeTab, setActiveTab, sa
                 {isActive && (
                   <div className="absolute top-0 left-1/2 -translate-x-1/2 w-8 h-[3px] bg-accent rounded-b-full shadow-[0_0_10px_var(--k-glow-strong)]" />
                 )}
-                
+
                 {item.icon}
-                
-                <span className={`text-[11px] font-bold uppercase tracking-wide leading-tight ${
+
+                {/* Sentence case at 12px. The old 11px uppercase with letter
+                    spacing was the least legible setting available and still
+                    wrapped onto two lines. */}
+                <span className={`text-[12px] font-semibold leading-none ${
                   isActive ? 'text-accent' : 'text-ink-faint'
                 }`}>
                   {item.label}
                 </span>
-                
-                {/* Badge for itinerary */}
+
                 {item.id === 'itinerary' && savedCount > 0 && (
-                  <span className="absolute top-1 right-1/2 translate-x-4 bg-accent text-on-accent text-[10px] font-bold min-w-[14px] h-[14px] flex items-center justify-center rounded-full leading-none">
+                  <span className="absolute top-1.5 right-1/2 translate-x-5 bg-accent text-on-accent text-[10px] font-bold min-w-[16px] h-[16px] flex items-center justify-center rounded-full leading-none px-1">
                     {savedCount}
                   </span>
                 )}

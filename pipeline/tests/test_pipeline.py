@@ -7,10 +7,13 @@ No network: every case here exercises math, scoring, or the sensitivity gate.
 
 from __future__ import annotations
 
+import json
 import unittest
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
+from urllib.parse import unquote
 
-from pipeline import astro, calendars, confidence
+from pipeline import astro, calendars, confidence, images
 from pipeline.confidence import ConfidenceBreakdown, band, reconcile, score
 from pipeline.schema import (
     Category,
@@ -23,6 +26,8 @@ from pipeline.schema import (
     stable_id,
 )
 from pipeline.sources import curated
+
+ROOT = Path(__file__).resolve().parents[2]
 
 
 def utc(y, m, d, hh=0, mm=0):
@@ -250,6 +255,61 @@ class TestSensitivityGate(unittest.TestCase):
         for event in curated.fetch():
             if event.sensitivity is Sensitivity.RESTRICTED:
                 self.assertNotEqual(event.precision, Precision.POINT, event.name)
+
+
+class TestImageEvidence(unittest.TestCase):
+    """Guards on what counts as proof that a photo shows the right thing.
+
+    Written after the matcher put a Jim Crow segregation cartoon on Crow
+    Fair, an Apsáalooke powwow, having vouched for it with "crow + united".
+    Both words matched. Neither meant anything. That failure is worse than
+    showing no photograph at all, so it gets a test rather than a fix.
+    """
+
+    def test_country_words_do_not_corroborate_a_place(self):
+        for word in ("united", "states", "new", "south", "republic"):
+            self.assertFalse(
+                images._corroborates_place(word),
+                f'"{word}" is too generic to place a photograph',
+            )
+
+    def test_real_place_names_do_corroborate(self):
+        for word in ("varanasi", "sumba", "oaxaca", "shetland"):
+            self.assertTrue(images._corroborates_place(word), word)
+
+    def test_maps_and_charts_are_not_photographs(self):
+        self.assertFalse(
+            images._is_photograph(
+                "Countries where Eid al-Fitr is an Official Public Holiday", ""
+            )
+        )
+        self.assertFalse(images._is_photograph("Flag of Nepal", ""))
+
+    def test_geograph_credit_is_not_mistaken_for_a_chart(self):
+        # "graph" as a substring matched geograph.org.uk and rejected a large
+        # source of good landscape photography.
+        self.assertTrue(
+            images._is_photograph("Brocken Spectre - geograph.org.uk - 332287", "")
+        )
+
+    def test_shipped_overlay_carries_no_generic_corroboration(self):
+        """The published mapping must satisfy the same rule, not just future runs."""
+        path = ROOT / "public" / "data" / "event_images.json"
+        images_by_id = json.loads(path.read_text(encoding="utf-8"))["images"]
+
+        offenders = []
+        for event_id, record in images_by_id.items():
+            if record.get("via") != "commons-search":
+                continue
+            parts = [p.strip().lower() for p in record.get("verifiedBy", "").split("+")]
+            if len(parts) == 2 and parts[1] in images.GENERIC_PLACE_WORDS:
+                title = unquote(record.get("sourcePage", "").rsplit("/", 1)[-1])
+                # Exempt when the filename itself names the subject.
+                if not any(len(t) > 5 and t in title.lower()
+                           for t in event_id.lower().split("-")):
+                    offenders.append(event_id)
+
+        self.assertEqual(offenders, [], f"weakly-matched photographs: {offenders}")
 
 
 if __name__ == "__main__":

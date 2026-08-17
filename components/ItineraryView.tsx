@@ -329,8 +329,8 @@ const ItineraryView: React.FC<ItineraryViewProps> = ({
               <Backpack className="w-10 h-10 text-ink-faint mb-3" />
               <p className="text-[15px] font-medium text-ink">Nothing saved yet</p>
               <p className="text-[13px] text-ink-faint mt-1.5 max-w-xs text-center leading-snug">
-                Save events from the map or from a date search above, and anything close in time
-                and place will be grouped into a trip.
+                Save events from the list, the map, or a date search above, and anything close
+                in time and place will be grouped into a trip.
               </p>
             </div>
           ) : (

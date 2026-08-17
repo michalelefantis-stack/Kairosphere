@@ -241,7 +241,11 @@ const MapControls: React.FC<MapControlsProps> = ({
   );
 
   return (
-    <div className="ui-layer absolute right-3 top-4 z-30 flex flex-row gap-2 pointer-events-auto" ref={layersPanelRef}>
+    // Desktop only. On a phone this rail sat in the top-right corner — the
+    // hardest place to reach one-handed — and stacked six controls at 24-40px
+    // each, all below the 44px minimum. Its functions live in the filter sheet
+    // and the map/list switch instead.
+    <div className="ui-layer absolute right-3 top-4 z-30 hidden sm:flex flex-row gap-2 pointer-events-auto" ref={layersPanelRef}>
       
       {/* ── FAVORITES FLYOUT PANEL ───────────────────────────────────── */}
       {showFavoritesPanel && (

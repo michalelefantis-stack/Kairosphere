@@ -10,8 +10,12 @@ import JsonLdSchema from './components/JsonLdSchema';
 import { FilterState, CultureItem, UnifiedEvent } from './types';
 import { ChevronLeft, ChevronRight, ChevronUp, ChevronDown, ExternalLink, Radio, Ear, Backpack, MapPin, Calendar as CalendarIcon, ArrowRight, Plane, X, Archive, Star, StarHalf, BookOpen, Compass, Search } from 'lucide-react';
 import { useGeolocation } from './hooks/useGeolocation';
+import { useIsPhone } from './hooks/useIsPhone';
 
 import LiveDetailPanel from './components/LiveDetailPanel';
+import DetailPanel from './components/DetailPanel';
+import NearbyFeed from './components/NearbyFeed';
+import MobileFilterSheet, { MobileHomeBar } from './components/MobileFilterSheet';
 import { readJson, writeJson } from './utils/safeStorage';
 
 // ── Lazy-loaded components (only fetched when their tab/modal is active) ──
@@ -82,6 +86,18 @@ const App: React.FC = () => {
 
   const [activeTab, setActiveTab] = useState('map');
   const [viewMode, setViewMode] = useState<'flat' | 'globe'>('flat');
+
+  /**
+   * What the phone shows on the home tab.
+   *
+   * Desktop keeps map-with-a-sidebar, which works on a wide screen. The phone
+   * cannot show both usefully — splitting a 375px display gave the list 23% of
+   * it — so the two are separate views with an explicit switch, and the list
+   * is the one you land on.
+   */
+  const [mobileView, setMobileView] = useState<'list' | 'map'>('list');
+  const isPhone = useIsPhone();
+  const [isFilterSheetOpen, setIsFilterSheetOpen] = useState(false);
   const [mobileSheetState, setMobileSheetState] = useState<'collapsed' | 'half' | 'full'>('half');
   const [dragHeight, setDragHeight] = useState<number | null>(null);
 
@@ -202,6 +218,19 @@ const App: React.FC = () => {
     region: 'All Region',
     month: 0
   });
+
+  /**
+   * Badge on the Filter button. With the controls behind a sheet, a filter
+   * left on from a previous session is invisible, and the reader is left
+   * wondering why half the catalogue is missing.
+   */
+  const activeFilterCount = useMemo(() => {
+    let n = 0;
+    if (filters.search.trim()) n += 1;
+    if (filters.type && (filters.type as string) !== 'All') n += 1;
+    if (filters.month) n += 1;
+    return n;
+  }, [filters]);
 
   const [selectedItem, setSelectedItem] = useState<CultureItem | null>(null);
   const [insightsItem, setInsightsItem] = useState<CultureItem | null>(null);
@@ -448,11 +477,75 @@ const App: React.FC = () => {
           </div>
         )}
 
-        {/* LEFT PANEL / BOTTOM SHEET: Sidebar (Map Mode) */}
+        {/* ═══ MOBILE HOME: ranked feed, with the map as a switchable view ═══
+
+            Desktop keeps its map-plus-sidebar below; this replaces it entirely
+            on a phone, where splitting the screen left the list unusable. */}
+        {activeTab === 'map' && (
+          // In map mode this layer holds nothing but the floating switch, so
+          // it must not paint over the map or swallow taps meant for it.
+          <div
+            className={`sm:hidden absolute inset-0 z-[45] flex flex-col ${
+              selectedItem || mobileView === 'list'
+                ? 'bg-base'
+                : 'bg-transparent pointer-events-none'
+            }`}
+          >
+            {selectedItem ? (
+              <div className="flex-1 min-h-0 pb-[64px]">
+                <DetailPanel
+                  item={selectedItem}
+                  onClose={() => setSelectedItem(null)}
+                  onViewInsights={handleViewInsights}
+                  isSaved={savedRitualIds.has(selectedItem.id)}
+                  onToggleSave={() => toggleSaveRitual(selectedItem.id)}
+                />
+              </div>
+            ) : mobileView === 'list' ? (
+              <>
+                <MobileHomeBar
+                  count={filteredData.length}
+                  activeFilterCount={activeFilterCount}
+                  onOpenFilters={() => setIsFilterSheetOpen(true)}
+                />
+                <div className="flex-1 min-h-0">
+                  <NearbyFeed
+                    items={filteredData}
+                    userCoords={userCoords}
+                    isRequestingLocation={isRequestingLocation}
+                    geoError={geoError}
+                    onRequestLocation={requestLocation}
+                    onSelect={handleSelectItem}
+                  />
+                </div>
+              </>
+            ) : null}
+
+            {/* Switch between the feed and the map. Bottom-centre, above the
+                tab bar: the reachable third of the screen, unlike the
+                top-right rail this replaces on mobile. */}
+            {!selectedItem && (
+              <button
+                type="button"
+                onClick={() => setMobileView(v => (v === 'list' ? 'map' : 'list'))}
+                className="absolute left-1/2 -translate-x-1/2 bottom-[76px] z-[50]
+                           min-h-[44px] px-5 rounded-full bg-ink text-base
+                           text-[14px] font-semibold shadow-xl pointer-events-auto
+                           inline-flex items-center gap-2 active:opacity-80"
+              >
+                {mobileView === 'list'
+                  ? <><MapPin className="w-4 h-4" /> Map</>
+                  : <><Search className="w-4 h-4" /> List</>}
+              </button>
+            )}
+          </div>
+        )}
+
+        {/* LEFT PANEL / BOTTOM SHEET: Sidebar (Map Mode) — desktop only */}
         {activeTab === 'map' && isSidebarOpen && (
-          <div 
+          <div
             ref={activeTab === 'map' ? sheetRef : undefined}
-            className={`ui-layer absolute left-0 sm:left-4 top-auto sm:top-4 bottom-[64px] sm:bottom-4 z-[40] sm:z-30 flex flex-col pointer-events-none w-full sm:w-[380px] ${dragHeight === null ? 'transition-all duration-300 ' + getMobileHeightClass() : ''}`}
+            className={`ui-layer absolute left-0 sm:left-4 top-auto sm:top-4 bottom-[64px] sm:bottom-4 z-[40] sm:z-30 hidden sm:flex flex-col pointer-events-none w-full sm:w-[380px] ${dragHeight === null ? 'transition-all duration-300 ' + getMobileHeightClass() : ''}`}
             style={dragHeight !== null && activeTab === 'map' ? { height: `${dragHeight}px` } : undefined}
           >
             <div className={`flex-1 overflow-hidden pointer-events-auto flex flex-col ${selectedItem || selectedLiveEvent ? 'bg-panel/95 sm:backdrop-blur-md border-0 sm:border border-line sm:rounded-2xl shadow-[0_-15px_40px_rgba(0,0,0,0.8)] sm:shadow-2xl rounded-t-[32px]' : 'rounded-t-[32px] sm:rounded-none bg-panel/95 sm:bg-transparent shadow-[0_-15px_40px_rgba(0,0,0,0.8)] sm:shadow-none border-0 sm:border sm:border-transparent border-line'}`}>
@@ -543,14 +636,22 @@ const App: React.FC = () => {
                 />
               </div>
 
-              {/* 3D Globe Layer */}
-              <div 
+              {/* 3D Globe Layer — desktop only.
+                  Not merely hidden on a phone but never mounted: it pulls
+                  several megabytes of Earth textures from unpkg at runtime, so
+                  it is dead weight on mobile data and simply broken offline,
+                  which is exactly when someone on the road needs the app. It
+                  is also worse than the flat map at every task on a 375px
+                  screen, and its own overlay tells the reader to use a mouse
+                  wheel. */}
+              {!isPhone && (
+              <div
                 className={`absolute inset-0 transition-opacity duration-300 ${
                   viewMode === 'globe' ? 'opacity-100 z-10 pointer-events-auto' : 'opacity-0 z-0 pointer-events-none'
                 }`}
               >
               <Suspense fallback={<LazyFallback />}>
-                <GlobeComponent 
+                <GlobeComponent
                   data={activeTab === 'map' ? filteredData : []} 
                   onSelect={handleSelectItem} 
                   selectedItem={selectedItem}
@@ -562,6 +663,7 @@ const App: React.FC = () => {
                 />
               </Suspense>
               </div>
+              )}
 
               {/* Right-side Map Controls */}
               <MapControls
@@ -586,29 +688,57 @@ const App: React.FC = () => {
             </>
           )}
 
-          {activeTab === 'calendar' && (
-            <Suspense fallback={<LazyFallback />}>
-              <div className="pb-safe-tab h-full min-h-0 flex flex-col">
-             <CalendarView 
-                events={filteredData} 
-                onSelect={handleViewInsights} 
-                selectedId={insightsItem?.id || selectedItem?.id}
-                savedRitualIds={savedRitualIds}
-                onToggleSave={toggleSaveRitual}
-             />
+          {(activeTab === 'calendar' || activeTab === 'itinerary') && (
+            <div className="h-full min-h-0 flex flex-col">
+              {/* Calendar and Itinerary answer one question — "I have these
+                  dates, what is on" — so on a phone they are two views of one
+                  tab rather than two of five tabs. Desktop still has room to
+                  show them separately in the top nav. */}
+              <div className="sm:hidden shrink-0 flex gap-2 px-4 py-3 border-b border-line-soft bg-base"
+                   style={{ paddingTop: 'calc(env(safe-area-inset-top, 0px) + 12px)' }}>
+                {([
+                  { id: 'itinerary', label: 'My trips' },
+                  { id: 'calendar', label: 'Calendar' }
+                ] as const).map(view => (
+                  <button
+                    key={view.id}
+                    type="button"
+                    onClick={() => setActiveTab(view.id)}
+                    className={`min-h-[44px] px-4 rounded-xl text-[14px] font-semibold transition-colors ${
+                      activeTab === view.id
+                        ? 'bg-accent text-on-accent'
+                        : 'bg-hover text-ink-dim active:bg-raised'
+                    }`}
+                  >
+                    {view.label}
+                  </button>
+                ))}
               </div>
-            </Suspense>
-          )}
-          {activeTab === 'itinerary' && (
-            <Suspense fallback={<LazyFallback />}>
-              <ItineraryView
-                allEvents={cultureData}
-                savedEvents={itineraryData}
-                savedIds={savedRitualIds}
-                onToggleSave={toggleSaveRitual}
-                onViewInsights={handleViewInsights}
-              />
-            </Suspense>
+
+              <div className="flex-1 min-h-0">
+                <Suspense fallback={<LazyFallback />}>
+                  {activeTab === 'calendar' ? (
+                    <div className="pb-safe-tab h-full min-h-0 flex flex-col">
+                      <CalendarView
+                        events={filteredData}
+                        onSelect={handleViewInsights}
+                        selectedId={insightsItem?.id || selectedItem?.id}
+                        savedRitualIds={savedRitualIds}
+                        onToggleSave={toggleSaveRitual}
+                      />
+                    </div>
+                  ) : (
+                    <ItineraryView
+                      allEvents={cultureData}
+                      savedEvents={itineraryData}
+                      savedIds={savedRitualIds}
+                      onToggleSave={toggleSaveRitual}
+                      onViewInsights={handleViewInsights}
+                    />
+                  )}
+                </Suspense>
+              </div>
+            </div>
           )}
           {activeTab === 'signals' && (
             <div className="w-full h-full pt-4 sm:pt-[80px] pb-safe-tab">
@@ -750,6 +880,14 @@ const App: React.FC = () => {
           </div>
         )}
       </div>
+
+      <MobileFilterSheet
+        open={isFilterSheetOpen}
+        onClose={() => setIsFilterSheetOpen(false)}
+        filters={filters}
+        setFilters={setFilters}
+        resultCount={filteredData.length}
+      />
 
       <style>{`
         .custom-scrollbar::-webkit-scrollbar { width: 5px; }

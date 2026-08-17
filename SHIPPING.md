@@ -40,18 +40,34 @@ npm run build && npx cap sync android
       that only ever decays.
 - [ ] Android launcher icons: Capacitor uses `android/app/src/main/res`, which
       is separate from the web manifest. Generate them from `public/icon.svg`.
-- [ ] Check the map, the globe and the live tab on a real device. The globe
-      pulls its textures from unpkg at runtime and will not render offline.
+- [ ] Check the feed, the map switch and the Plan tab on a real device. The
+      phone gets a different shell from the desktop — a ranked list as home,
+      three tabs, filters in a sheet, and no globe — so testing the desktop
+      layout in a narrow window does not exercise it.
 
 ## Known open items
 
 **Not blocking, but you should know before you ship.**
 
 - **The globe fetches Earth textures from unpkg** at runtime. Offline, or with
-  the CDN blocked, it fails. Bundling them adds a few MB to the app.
-- **148 of 373 events have no verified photograph.** They keep their original
+  the CDN blocked, it fails. Bundling them adds a few MB to the app. It is no
+  longer mounted on phone-width viewports at all, so this affects desktop
+  only — and saves mobile the 518 kB gzipped chunk as a side effect.
+- **The app still assumes a network in several places.** For a reader in
+  Sumba or the Danakil with no signal — exactly when the app is most useful —
+  the catalogue is static and small enough to ship entirely offline, but the
+  Wikipedia extracts, Open-Meteo lookups and Commons photographs are all
+  fetched live. Nothing caches them for a saved event.
+- **152 of 373 events have no verified photograph.** They keep their original
   image. Re-run `python -m pipeline.images` to pick up newly-added Commons
   material; it is resumable and only tries unmapped ids.
+- **Keyword matching produced one genuinely harmful photograph.** Crow Fair,
+  an Apsáalooke powwow, was illustrated with a Jim Crow segregation cartoon:
+  the matcher accepted "crow" for the subject and "united" — from United
+  States — as the place. Both matched, neither meant anything. The rule now
+  rejects generic country words as corroboration, and a test asserts the
+  shipped mapping contains no others. **Review new matches before shipping
+  them**; a wrong photograph on a cultural event is worse than none.
 - **133 events carry a placeholder date** (`2026-05-01` from a bulk import).
   They are flagged and the UI says "Date not confirmed" rather than inventing
   a day, but they are not usable for planning until someone sources real
@@ -73,7 +89,7 @@ npm run build && npx cap sync android
 
 ```bash
 npm run typecheck                                   # must be clean
-python -m unittest discover -s pipeline/tests -t .  # 28 tests
+python -m unittest discover -s pipeline/tests -t .  # 33 tests
 npm run build
 python -m pipeline.run --dry-run                    # feed still builds
 python -m pipeline.check_ai                         # key actually works

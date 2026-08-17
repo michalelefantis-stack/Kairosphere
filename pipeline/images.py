@@ -111,6 +111,49 @@ WEAK_SUBJECTS = (
     "leaflet", "brochure", "portrait of", "cover",
 )
 
+# Titles that describe data *about* an event rather than showing one. Eid
+# al-Fitr was illustrated with "Countries where Eid al-Fitr is an Official
+# Public Holiday" — a choropleth. It is a jpg, so the mime check passed, and
+# it never says "map", so WEAK_SUBJECTS missed it.
+#
+# Matched on word boundaries, not substrings: an early version looked for
+# "graph" and rejected every photo credited to geograph.org.uk, which is a
+# large source of good landscape photography.
+NOT_A_PHOTOGRAPH = (
+    r"countries where", r"\blist of\b", r"distribution of", r"\blocator\b",
+    r"\bflag of\b", r"\bemblem\b", r"\bseal of\b", r"\btimeline\b",
+    r"\bchart\b", r"\binfographic\b", r"\bschematic\b", r"\bfloor plan\b",
+)
+
+# Words that cannot corroborate a place because they belong to half the
+# gazetteer. "Crow Fair" was vouched for by "crow + united" — "united" from
+# United States — and landed on a Jim Crow segregation cartoon. Both keywords
+# matched, both were meaningless, and the result was an image about racial
+# segregation attached to an Apsáalooke powwow.
+GENERIC_PLACE_WORDS = {
+    "united", "states", "state", "republic", "kingdom", "island", "islands",
+    "north", "south", "east", "west", "central", "city", "town", "province",
+    "region", "district", "county", "saint", "san", "new", "old",
+    "upper", "lower", "greater", "national", "federal", "territory",
+}
+
+
+def _is_photograph(name: str, description: str) -> bool:
+    """False for maps, charts and other pictures *about* an event."""
+    haystack = f"{name} {description}".lower()
+    return not any(re.search(p, haystack) for p in NOT_A_PHOTOGRAPH)
+
+
+def _corroborates_place(word: str | None) -> bool:
+    """Is this place word specific enough to mean anything?
+
+    Only asked of free-text search results. A Commons *category* is human
+    curation — somebody decided these files depict this subject — and second-
+    guessing it with a word list rejects correct photographs like
+    "Holi - The festival of colours".
+    """
+    return bool(word) and word.lower() not in GENERIC_PLACE_WORDS
+
 
 def _score(name: str, description: str, words: list[str], place_words: list[str]) -> tuple[int, str]:
     """Rank a candidate. Higher is a better lead image."""
@@ -154,13 +197,28 @@ def _usable(page: dict, words: list[str], place_words: list[str], trusted: bool)
     if not hit:
         return None
 
+    # Pictures *about* an event are not pictures *of* one.
+    if not _is_photograph(name, description):
+        return None
+
     # A keyword alone is not proof. "Pasola" matched a New Jersey fire marshal
     # named John Pasola. Outside a curated category, the place must appear too.
     if not trusted:
         place = matches(haystack, place_words)
-        if not place:
-            return None
-        hit = f"{hit} + {place}"
+        # ...and the place has to be a real one. Corroborating "Crow Fair"
+        # with "united" put a Jim Crow segregation cartoon on an Apsáalooke
+        # powwow: an offensive result from two matches that were both
+        # technically correct and jointly meaningless.
+        if not _corroborates_place(place):
+            # Unless the filename itself names the subject. A photographer who
+            # typed "Namaqualand" was photographing Namaqualand, and that is
+            # stronger evidence than any country word. Short tokens are
+            # excluded because they are the ambiguous ones — "crow" appears in
+            # JimCrowCar2.jpg.
+            if not (len(hit) > 5 and hit in name.lower()):
+                return None
+            place = None
+        hit = f"{hit} + {place}" if place else hit
 
     score, _ = _score(name, description, words, place_words)
 

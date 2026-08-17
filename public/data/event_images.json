@@ -353,17 +353,6 @@
       "via": "commons-search",
       "eventId": "usa-gallup-inter-tribal"
     },
-    "usa-crow-fair": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/JimCrowCar2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "credit": "John T. McCutcheon",
-      "license": "Public domain",
-      "licenseUrl": "",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:JimCrowCar2.jpg",
-      "verifiedBy": "crow + united",
-      "score": 5,
-      "via": "commons-search",
-      "eventId": "usa-crow-fair"
-    },
     "usa-santa-fe-indian-market": {
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Santa_Fe_Indian_Market_Fashion_show_2014.jpg/1280px-Santa_Fe_Indian_Market_Fashion_show_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "credit": "Larry Lamsa",
@@ -1299,17 +1288,6 @@
       "via": "commons-category",
       "eventId": "india-makar-sankranti"
     },
-    "india-poila-baisakh": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/HORSE_RACE_FESTIVAL.jpg/1280px-HORSE_RACE_FESTIVAL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "credit": "Amarchobiabhi",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:HORSE_RACE_FESTIVAL.jpg",
-      "verifiedBy": "poila + west",
-      "score": 5,
-      "via": "commons-search",
-      "eventId": "india-poila-baisakh"
-    },
     "nepal-tiji": {
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Tiji_Festival_in_Mustang.jpg/1280px-Tiji_Festival_in_Mustang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "credit": "Nibas123",
@@ -1980,17 +1958,6 @@
       "score": 5,
       "via": "commons-search",
       "eventId": "middle-east-2026-1"
-    },
-    "middle-east-2026-4": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Countries_where_Eid_al-Fitr_is_an_Official_Public_Holiday.jpeg/1280px-Countries_where_Eid_al-Fitr_is_an_Official_Public_Holiday.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "credit": "Wikimedia Commons contributor",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Countries_where_Eid_al-Fitr_is_an_Official_Public_Holiday.jpeg",
-      "verifiedBy": "fitr",
-      "score": 2,
-      "via": "commons-category",
-      "eventId": "middle-east-2026-4"
     },
     "middle-east-2026-5": {
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Happy_Eid_ul-Adha_%28Eid-e-Qorban%29_to_all_my_Muslim_friends.jpg/1280px-Happy_Eid_ul-Adha_%28Eid-e-Qorban%29_to_all_my_Muslim_friends.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
