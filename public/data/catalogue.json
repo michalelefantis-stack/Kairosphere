@@ -703,7 +703,8 @@
           "ratingCount": "2,410",
           "description": "A humorous but penetrating look into the Swiss psyche, revealing why a notoriously orderly society like Basel needs the anarchic, satirical release of the Fasnacht."
         }
-      ]
+      ],
+      "dateIsMovable": true
     },
     {
       "id": "png-sepik-crocodile",
@@ -1478,7 +1479,8 @@
       "description": "Trinidad Carnival is known as the \"Greatest Show on Earth\", held annually on the Monday and Tuesday before Ash Wednesday. It is famous for its massive masquerade (mas) bands, calypso and soca music, and steelpan competitions (Panorama).",
       "insights": "The Caribbean's biggest party, deeply rooted in African emancipation celebrations. The streets of Port of Spain explode with massive masquerade bands, the metallic ring of steel pan orchestras, and the infectious, fast-paced rhythms of soca music. The pre-dawn J'ouvert involves revelers covered in paint and mud.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Orange_Carnival_Masqueraders_in_Trinidad.jpg",
-      "mediaLinks": {}
+      "mediaLinks": {},
+      "dateIsMovable": true
     },
     {
       "id": "ecuador-diablada-pillaro",
@@ -1568,7 +1570,8 @@
       "description": "The Carnival of Barranquilla is Colombia's most important folklore celebration, blending European, African, and Indigenous traditions on the Caribbean coast. It features iconic characters like the Marimondas and Garabato, and is a UNESCO Masterpiece of the Oral and Intangible Heritage of Humanity.",
       "insights": "A 4-day explosion of cumbia, mapalé, and congo dances. Famous for the Battle of the Flowers parade and the surreal, elephant-trunked Marimonda costumes. The phrase \"quien lo vive, es quien lo goza\" (he who lives it, enjoys it) encapsulates its infectious, open spirit.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/African_dance_group_participant.jpg/960px-African_dance_group_participant.jpg",
-      "mediaLinks": {}
+      "mediaLinks": {},
+      "dateIsMovable": true
     },
     {
       "id": "brazil-rio-carnival",
@@ -1586,7 +1589,8 @@
       "description": "The Rio de Janeiro Carnival is considered the biggest carnival in the world, with two million people per day on the streets. The centerpiece is the fiercely competitive parade of the top Samba Schools in the Sambadrome.",
       "insights": "The world's ultimate carnival. Top-tier Samba schools (each representing a neighborhood) compete in the Sambadrome, presenting mind-bogglingly opulent allegorical floats, thousands of synchronized dancers, and powerful drum batteries (baterias). Meanwhile, massive street parties (blocos) consume the city.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Carnaval_do_Rio_de_Janeiro_%28RLS-1515904850%29.jpg/960px-Carnaval_do_Rio_de_Janeiro_%28RLS-1515904850%29.jpg",
-      "mediaLinks": {}
+      "mediaLinks": {},
+      "dateIsMovable": true
     },
     {
       "id": "argentina-vendimia",
@@ -2036,7 +2040,8 @@
       "description": "The Entrudo Chocalheiro (Rattling Carnival) is held in the small village of Podence in Trás-os-Montes. It is an ancient Celtic-influenced spring rite marking the end of winter's stagnation.",
       "insights": "Diabolical, enigmatic figures known as \"Caretos\" wear bright, fringed wool suits (red, yellow, green) and brass or leather masks with pointed noses. They run wildly through the village rattling heavy bandoliers of cowbells around their waists. They playfully \"attack\" and shake next to unmarried women, a primitive symbol of fertility and the awakening of spring.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Careto_de_Podence.jpg/960px-Careto_de_Podence.jpg",
-      "mediaLinks": {}
+      "mediaLinks": {},
+      "dateIsMovable": true
     },
     {
       "id": "spain-el-cipotegato",
@@ -2216,7 +2221,8 @@
       "description": "The Carnival in Huejotzingo features thousands of locals split into \"battalions\" firing loud, black-powder loaded homemade muskets in a massive historical reenactment.",
       "insights": "A massive mock battle reenactment involving thousands of participants firing handmade muskets loaded with real gunpowder. The noise and smoke are overwhelming and visceral, representing the Battle of Puebla and local bandit legends.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Carnaval_de_Huejotzingo_en_ni%C3%B1os.jpg/960px-Carnaval_de_Huejotzingo_en_ni%C3%B1os.jpg",
-      "mediaLinks": {}
+      "mediaLinks": {},
+      "dateIsMovable": true
     },
     {
       "id": "phenom-aurora-borealis",
@@ -3915,7 +3921,6 @@
       "verified": true,
       "region": "Samarkand, Uzbekistan",
       "description": "Navruz (Persian New Year) celebrated in Samarkand, Uzbekistan.",
-      "insights": "An incredible cultural event occurring around March 21.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Mountain_child.jpg/960px-Mountain_child.jpg",
       "mediaLinks": {}
     },
@@ -3933,7 +3938,6 @@
       "verified": true,
       "region": "Bhaktapur, Nepal",
       "description": "Bisket Jatra celebrated in Bhaktapur, Nepal.",
-      "insights": "An incredible cultural event occurring around April 10–18.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Bhaktapur_Biska_Jatra_2.jpg/960px-Bhaktapur_Biska_Jatra_2.jpg",
       "mediaLinks": {}
     },
@@ -3951,7 +3955,6 @@
       "verified": true,
       "region": "Bukhara, Uzbekistan",
       "description": "Silk & Spices Festival celebrated in Bukhara, Uzbekistan.",
-      "insights": "An incredible cultural event occurring around May 21–31.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Bukhara%2C_Silk_%26_Spice_festival_%286231185581%29.jpg/960px-Bukhara%2C_Silk_%26_Spice_festival_%286231185581%29.jpg",
       "mediaLinks": {}
     },
@@ -3969,7 +3972,6 @@
       "verified": true,
       "region": "Cholpon-Ata, Kyrgyzstan",
       "description": "World Nomad Games celebrated in Cholpon-Ata, Kyrgyzstan.",
-      "insights": "An incredible cultural event occurring around Aug 31 – Sep 6.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Kok-boru_2018_World_Nomad_Games.jpg/960px-Kok-boru_2018_World_Nomad_Games.jpg",
       "mediaLinks": {}
     },
@@ -3987,7 +3989,6 @@
       "verified": true,
       "region": "Dushanbe, Tajikistan",
       "description": "Sayri Guli Lola (Tulips) celebrated in Dushanbe, Tajikistan.",
-      "insights": "An incredible cultural event occurring around Late April.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Damdami_Taksal_Head_%26_Dal_Baba_Bidhi_Chand_Head_%28Nihang_Singh%29_at_Holla_Mohalla_Anandpur_Sahib.jpg",
       "mediaLinks": {}
     },
@@ -4005,7 +4006,6 @@
       "verified": true,
       "region": "Kathmandu, Nepal",
       "description": "Indra Jatra celebrated in Kathmandu, Nepal.",
-      "insights": "An incredible cultural event occurring around September 25.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Indra_Jatra_Special_image_%284%29.JPG/960px-Indra_Jatra_Special_image_%284%29.JPG",
       "mediaLinks": {}
     },
@@ -4023,7 +4023,6 @@
       "verified": true,
       "region": "Nashik, India",
       "description": "Kumbh Mela (Nasik) celebrated in Nashik, India.",
-      "insights": "An incredible cultural event occurring around Aug – Sep.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Kumbh_%40_Nashik_2015_%2821752545956%29.jpg/960px-Kumbh_%40_Nashik_2015_%2821752545956%29.jpg",
       "mediaLinks": {}
     },
@@ -4041,7 +4040,6 @@
       "verified": true,
       "region": "Samarkand City, Uzbekistan",
       "description": "Buzkashi (Kupkari) celebrated in Samarkand Steppes.",
-      "insights": "An incredible cultural event occurring around Mar & Oct.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Buzkashi%2C_national_sport.jpg/960px-Buzkashi%2C_national_sport.jpg",
       "mediaLinks": {}
     },
@@ -4059,7 +4057,6 @@
       "verified": true,
       "region": "Meghalaya, India",
       "description": "Wangala (100 Drums) celebrated in Meghalaya, India.",
-      "insights": "An incredible cultural event occurring around Nov 12.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/100_Drums_wangala_fest.jpg/960px-100_Drums_wangala_fest.jpg",
       "mediaLinks": {}
     },
@@ -4077,7 +4074,6 @@
       "verified": true,
       "region": "Khumbu, Nepal",
       "description": "Losar (Sherpa New Year) celebrated in Khumbu, Nepal.",
-      "insights": "An incredible cultural event occurring around February 17.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Gyalpo_Lhosar_2146.jpg/960px-Gyalpo_Lhosar_2146.jpg",
       "mediaLinks": {}
     },
@@ -4095,7 +4091,6 @@
       "verified": true,
       "region": "Anandpur Sahib, IN",
       "description": "Holla Mohalla celebrated in Anandpur Sahib, IN.",
-      "insights": "An incredible cultural event occurring around March 4–6.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/FB_20151104_19_47_01_Saved_Picture%281%29.jpg",
       "mediaLinks": {}
     },
@@ -4113,7 +4108,6 @@
       "verified": true,
       "region": "Kathmandu, Nepal",
       "description": "Gai Jatra celebrated in Kathmandu, Nepal.",
-      "insights": "An incredible cultural event occurring around August 29.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Gai_Jatra_Festival_in_Silgadhi.jpg",
       "mediaLinks": {}
     },
@@ -4131,7 +4125,6 @@
       "verified": true,
       "region": "Tundikhel, Nepal",
       "description": "Ghode Jatra celebrated in Tundikhel, Nepal.",
-      "insights": "An incredible cultural event occurring around March 18.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Cavalry_of_Nepal-1573.jpg/960px-Cavalry_of_Nepal-1573.jpg",
       "mediaLinks": {}
     },
@@ -4149,7 +4142,6 @@
       "verified": true,
       "region": "Telangana, India",
       "description": "Bathukamma celebrated in Telangana, India.",
-      "insights": "An incredible cultural event occurring around Oct 11–19.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Bathukamma.jpg/960px-Bathukamma.jpg",
       "mediaLinks": {}
     },
@@ -4167,7 +4159,6 @@
       "verified": true,
       "region": "Ashgabat, TM",
       "description": "Melon Day celebrated in Ashgabat, TM.",
-      "insights": "An incredible cultural event occurring around August 9.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/MELON_REFRESHING_DRINKS_PANGASINAN.jpg",
       "mediaLinks": {}
     },
@@ -4185,7 +4176,6 @@
       "verified": true,
       "region": "Mt. Kailash, Tibet",
       "description": "Saka Dawa (Kora) celebrated in Mt. Kailash, Tibet.",
-      "insights": "An incredible cultural event occurring around May 31.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Manifestation_pour_la_libert%C3%A9_au_Tibet_%28Paris%29_%288264026976%29.jpg/960px-Manifestation_pour_la_libert%C3%A9_au_Tibet_%28Paris%29_%288264026976%29.jpg",
       "mediaLinks": {}
     },
@@ -4203,7 +4193,6 @@
       "verified": true,
       "region": "Barabati, Cuttack, IN",
       "description": "Bali Jatra celebrated in Barabati, Cuttack, IN.",
-      "insights": "An incredible cultural event occurring around November 24.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Bali_Jatra_of_Cuttack%2C_Odisha.jpg/960px-Bali_Jatra_of_Cuttack%2C_Odisha.jpg",
       "mediaLinks": {}
     },
@@ -4221,7 +4210,6 @@
       "verified": true,
       "region": "Khajuraho, India",
       "description": "Khajuraho Dance celebrated in Khajuraho, India.",
-      "insights": "An incredible cultural event occurring around Feb 20–26.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Khajuraho_Dance_Festival_2026_%2827403%29.jpg/960px-Khajuraho_Dance_Festival_2026_%2827403%29.jpg",
       "mediaLinks": {}
     },
@@ -4239,7 +4227,6 @@
       "verified": true,
       "region": "Mumbai, India",
       "description": "Kala Ghoda Arts celebrated in Mumbai, India.",
-      "insights": "An incredible cultural event occurring around Feb 7–15.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/%27Kala_Ghoda_Selfie%27.JPG/960px-%27Kala_Ghoda_Selfie%27.JPG",
       "mediaLinks": {}
     },
@@ -4257,7 +4244,6 @@
       "verified": true,
       "region": "Sonepur, India",
       "description": "Sonepur Cattle Mela celebrated in Sonepur, India.",
-      "insights": "An incredible cultural event occurring around November 24.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Sonepur_Famous_Fair.jpeg",
       "mediaLinks": {}
     },
@@ -4275,7 +4261,6 @@
       "verified": true,
       "region": "Gondar, Ethiopia",
       "description": "Timkat (Epiphany) celebrated in Gondar, Ethiopia.",
-      "insights": "An incredible cultural event occurring around January 19.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Le_festival_gnaoui_favorise_louverture_et_la_tol%C3%A9rance_%287851916574%29.jpg/960px-Le_festival_gnaoui_favorise_louverture_et_la_tol%C3%A9rance_%287851916574%29.jpg",
       "mediaLinks": {}
     },
@@ -4293,7 +4278,6 @@
       "verified": true,
       "region": "Kebbi, Nigeria",
       "description": "Argungu Fishing Fest celebrated in Kebbi, Nigeria.",
-      "insights": "An incredible cultural event occurring around March (Post-Harvest).",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Agworok_hunters_marching.jpg",
       "mediaLinks": {}
     },
@@ -4311,7 +4295,6 @@
       "verified": true,
       "region": "Addis Ababa, Ethiopia",
       "description": "Meskel (Finding Cross) celebrated in Addis Ababa, Ethiopia.",
-      "insights": "An incredible cultural event occurring around September 27.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Meskel%2C_Efiopiya_bayram%C4%B1_26-Sep-2024_09.jpg/960px-Meskel%2C_Efiopiya_bayram%C4%B1_26-Sep-2024_09.jpg",
       "mediaLinks": {}
     },
@@ -4329,7 +4312,6 @@
       "verified": true,
       "region": "Lealui/Limulunga, Zambia",
       "description": "Kuomboka Ceremony celebrated in Lealui/Limulunga, Zambia.",
-      "insights": "An incredible cultural event occurring around April (Flood peak).",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Kuomboka_ceremony_in_Zambia_06.jpg/960px-Kuomboka_ceremony_in_Zambia_06.jpg",
       "mediaLinks": {}
     },
@@ -4347,7 +4329,6 @@
       "verified": true,
       "region": "Kano, Nigeria",
       "description": "Durbar Festival celebrated in Kano, Nigeria.",
-      "insights": "An incredible cultural event occurring around Eid al-Adha (May).",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/BidaDurbar2019.jpg/960px-BidaDurbar2019.jpg",
       "mediaLinks": {}
     },
@@ -4365,7 +4346,6 @@
       "verified": true,
       "region": "Ouagadougou, Burkina Faso",
       "description": "Panafrican Film Fest celebrated in Ouagadougou, Burkina Faso.",
-      "insights": "An incredible cultural event occurring around Feb 21–28.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Fespaco1969_flyer.jpg",
       "mediaLinks": {}
     },
@@ -4383,7 +4363,6 @@
       "verified": true,
       "region": "Essaouira, Morocco",
       "description": "Gnaoua World Music celebrated in Essaouira, Morocco.",
-      "insights": "An incredible cultural event occurring around June.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Maulidur_Rasul_%288413657269%29.jpg/960px-Maulidur_Rasul_%288413657269%29.jpg",
       "mediaLinks": {}
     },
@@ -4401,7 +4380,6 @@
       "verified": true,
       "region": "Ouidah, Benin",
       "description": "Ouidah International celebrated in Ouidah, Benin.",
-      "insights": "An incredible cultural event occurring around January.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Ouidah-Festival_Quintessence_%281%29.jpg/960px-Ouidah-Festival_Quintessence_%281%29.jpg",
       "mediaLinks": {}
     },
@@ -4419,7 +4397,6 @@
       "verified": true,
       "region": "Ludzindzini, Eswatini",
       "description": "Reed Dance (Umhlanga) celebrated in Ludzindzini, Eswatini.",
-      "insights": "An incredible cultural event occurring around Aug/Sept.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Eswatini_Reed_Dance_2006_-01.jpg/960px-Eswatini_Reed_Dance_2006_-01.jpg",
       "mediaLinks": {}
     },
@@ -4437,7 +4414,6 @@
       "verified": true,
       "region": "Tamale, Ghana",
       "description": "Damba Festival celebrated in Tamale, Ghana.",
-      "insights": "An incredible cultural event occurring around Sept (Lunar).",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Image_of_Damba_festival_B.jpg/960px-Image_of_Damba_festival_B.jpg",
       "mediaLinks": {}
     },
@@ -4455,7 +4431,6 @@
       "verified": true,
       "region": "Casablanca, Morocco",
       "description": "L'Boulevard celebrated in Casablanca, Morocco.",
-      "insights": "An incredible cultural event occurring around September.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/CubeLitre.svg/960px-CubeLitre.svg.png",
       "mediaLinks": {}
     },
@@ -4473,7 +4448,6 @@
       "verified": true,
       "region": "Timbuktu, Mali",
       "description": "Festival of the Desert celebrated in Timbuktu, Mali.",
-      "insights": "An incredible cultural event occurring around January.",
       "imageUrl": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
       "mediaLinks": {}
     },
@@ -4491,7 +4465,6 @@
       "verified": true,
       "region": "Stone Town, Zanzibar",
       "description": "Sauti za Busara celebrated in Stone Town, Zanzibar.",
-      "insights": "An incredible cultural event occurring around February.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Seats_used_on_Zanzibar_Festivals.jpg/960px-Seats_used_on_Zanzibar_Festivals.jpg",
       "mediaLinks": {}
     },
@@ -4509,7 +4482,6 @@
       "verified": true,
       "region": "Makhanda, South Africa",
       "description": "National Arts Festival celebrated in Makhanda, South Africa.",
-      "insights": "An incredible cultural event occurring around June/July.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Bilbao_-_NAF_NAF_%28Calle_Marqu%C3%A9s_del_Puerto%29.jpg/960px-Bilbao_-_NAF_NAF_%28Calle_Marqu%C3%A9s_del_Puerto%29.jpg",
       "mediaLinks": {}
     },
@@ -4527,7 +4499,6 @@
       "verified": true,
       "region": "Lake Malawi, Malawi",
       "description": "Lake of Stars celebrated in Lake Malawi, Malawi.",
-      "insights": "An incredible cultural event occurring around September.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Canoes_on_Lake_Malawi.jpg",
       "mediaLinks": {}
     },
@@ -4545,7 +4516,6 @@
       "verified": true,
       "region": "Accra, Ghana",
       "description": "Homowo Festival celebrated in Accra, Ghana.",
-      "insights": "An incredible cultural event occurring around August.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Homowo_Festival_50.jpg/960px-Homowo_Festival_50.jpg",
       "mediaLinks": {}
     },
@@ -4563,7 +4533,6 @@
       "verified": true,
       "region": "Porto-Novo, Benin",
       "description": "Ouidah Voodoo celebrated in Porto-Novo, Benin.",
-      "insights": "An incredible cultural event occurring around January 10.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Voodoo_Temple_%28Ouidah%2C_Benin%29.jpg/960px-Voodoo_Temple_%28Ouidah%2C_Benin%29.jpg",
       "mediaLinks": {}
     },
@@ -4581,7 +4550,6 @@
       "verified": true,
       "region": "Regional, Ethiopia",
       "description": "Enkutatash (New Year) celebrated in Regional, Ethiopia.",
-      "insights": "An incredible cultural event occurring around September 11.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Ground_Forces_Festival_2025_-_0053.jpg/960px-Ground_Forces_Festival_2025_-_0053.jpg",
       "mediaLinks": {}
     },
@@ -4599,7 +4567,6 @@
       "verified": true,
       "region": "Gaborone, Botswana",
       "description": "Gaborone Music Fest celebrated in Gaborone, Botswana.",
-      "insights": "An incredible cultural event occurring around September.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Thami_Mnyele_culture_and_resistance_poster.jpg",
       "mediaLinks": {}
     },
@@ -4617,7 +4584,6 @@
       "verified": true,
       "region": "Ludzindzini, Eswatini",
       "description": "Incwala (Kingship) celebrated in Ludzindzini, Eswatini.",
-      "insights": "An incredible cultural event occurring around Dec/Jan.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Incwala_ceremony.jpg",
       "mediaLinks": {}
     },
@@ -4635,7 +4601,6 @@
       "verified": true,
       "region": "Cape Town, South Africa",
       "description": "Cape Town Minstrel celebrated in Cape Town, South Africa.",
-      "insights": "An incredible cultural event occurring around January 2.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Face_painter_during_the_Kaapse_Klopse_competitions.jpg/960px-Face_painter_during_the_Kaapse_Klopse_competitions.jpg",
       "mediaLinks": {}
     },
@@ -4653,7 +4618,6 @@
       "verified": true,
       "region": "Sandema, Ghana",
       "description": "Wiyaala (Lions Fest) celebrated in Sandema, Ghana.",
-      "insights": "An incredible cultural event occurring around December.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Cultural_Troupe_at_Public_Festival_Ghana_1.jpg/960px-Cultural_Troupe_at_Public_Festival_Ghana_1.jpg",
       "mediaLinks": {}
     },
@@ -4671,7 +4635,6 @@
       "verified": true,
       "region": "Anloga, Ghana",
       "description": "Hogbetsotso Festival celebrated in Anloga, Ghana.",
-      "insights": "An incredible cultural event occurring around November.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Juan_Livingstone%2C_Los_Sports%2C_1923-07-06_%2817%29.jpg",
       "mediaLinks": {}
     },
@@ -4689,7 +4652,6 @@
       "verified": true,
       "region": "Osogbo, Nigeria",
       "description": "Osun-Osogbo Festival celebrated in Osogbo, Nigeria.",
-      "insights": "An incredible cultural event occurring around August.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Osun_Osogbo_Festival_01.jpg/960px-Osun_Osogbo_Festival_01.jpg",
       "mediaLinks": {}
     },
@@ -4707,7 +4669,6 @@
       "verified": true,
       "region": "Soweto, South Africa",
       "description": "Soweto Wine Fest celebrated in Soweto, South Africa.",
-      "insights": "An incredible cultural event occurring around September.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Aardklop_Jazz_in_the_stadium_%28450083906%29.jpg",
       "mediaLinks": {}
     },
@@ -4725,7 +4686,6 @@
       "verified": true,
       "region": "Malkerns, Eswatini",
       "description": "Bushfire Festival celebrated in Malkerns, Eswatini.",
-      "insights": "An incredible cultural event occurring around May 22–24.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Malandelas_Farm.jpg/960px-Malandelas_Farm.jpg",
       "mediaLinks": {}
     },
@@ -4743,7 +4703,6 @@
       "verified": true,
       "region": "Omo Valley, Ethiopia",
       "description": "Bull Jumping (Maza) celebrated in Omo Valley, Ethiopia.",
-      "insights": "An incredible cultural event occurring around Unpredictable.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Hamar_Maza_Warrior_Ceremony%2C_Sth_Ethiopia_%2852851877392%29.jpg/960px-Hamar_Maza_Warrior_Ceremony%2C_Sth_Ethiopia_%2852851877392%29.jpg",
       "mediaLinks": {}
     },
@@ -4761,7 +4720,6 @@
       "verified": true,
       "region": "Sefrou, Morocco",
       "description": "Cherry Festival celebrated in Sefrou, Morocco.",
-      "insights": "An incredible cultural event occurring around June.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Cherry_blossoms-_Cherry_Blossom_Festival_2009%2C_Macon_GA_USA.jpg/960px-Cherry_blossoms-_Cherry_Blossom_Festival_2009%2C_Macon_GA_USA.jpg",
       "mediaLinks": {}
     },
@@ -4779,7 +4737,6 @@
       "verified": true,
       "region": "Lilongwe, Malawi",
       "description": "Gule Wamkulu celebrated in Regional (Chewa people).",
-      "insights": "An incredible cultural event occurring around Varies.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Gule_Wamkulu_mask.jpg/960px-Gule_Wamkulu_mask.jpg",
       "mediaLinks": {}
     },
@@ -4797,7 +4754,6 @@
       "verified": true,
       "region": "Tehran, Iran",
       "description": "Nowruz (Spring Equinox) celebrated in Tehran, Iran.",
-      "insights": "An incredible cultural event occurring around March 21.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Nowruz_2017_in_Bisaran%2C_Kurdistan_province.jpg/960px-Nowruz_2017_in_Bisaran%2C_Kurdistan_province.jpg",
       "mediaLinks": {}
     },
@@ -4815,7 +4771,6 @@
       "verified": true,
       "region": "Riyadh, Saudi Arabia",
       "description": "Janadriyah Festival celebrated in Riyadh, Saudi Arabia.",
-      "insights": "An incredible cultural event occurring around Feb (Post-Winter).",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/7-_India_Exhibition_at_Al-Jenadriyah_32_%28My_Trip_To_Al-Jenadriyah_32%29.jpg/960px-7-_India_Exhibition_at_Al-Jenadriyah_32_%28My_Trip_To_Al-Jenadriyah_32%29.jpg",
       "mediaLinks": {}
     },
@@ -4833,7 +4788,6 @@
       "verified": true,
       "region": "Regional (e.g. Cairo)",
       "description": "Eid al-Fitr (Celebration) celebrated in Regional (e.g. Cairo).",
-      "insights": "An incredible cultural event occurring around March 20–22.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Eid_al-Fitr_celebrations%2C_Somalia%3B_June_2019_%2811%29.jpg/960px-Eid_al-Fitr_celebrations%2C_Somalia%3B_June_2019_%2811%29.jpg",
       "mediaLinks": {}
     },
@@ -4852,7 +4806,6 @@
       "verified": true,
       "region": "Mecca, Saudi Arabia",
       "description": "Eid al-Adha (Sacrifice) celebrated in Mecca, Saudi Arabia.",
-      "insights": "An incredible cultural event occurring around May 27–30.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/1_animal_sacrifice_at_Eid_al_Adha_sacrifice_festival_Morocco.jpg",
       "mediaLinks": {},
       "recommendedBooks": [
@@ -4886,7 +4839,6 @@
       "verified": true,
       "region": "Mecca/Mina, Saudi Arabia",
       "description": "Hajj Pilgrimage celebrated in Mecca/Mina, Saudi Arabia.",
-      "insights": "An incredible cultural event occurring around May 24–29.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Khalili_Collection_Hajj_and_Arts_of_Pilgrimage_MSS_1288.jpg/960px-Khalili_Collection_Hajj_and_Arts_of_Pilgrimage_MSS_1288.jpg",
       "mediaLinks": {}
     },
@@ -4904,7 +4856,6 @@
       "verified": true,
       "region": "Karbala, Iraq",
       "description": "Ashura (Ritual) celebrated in Karbala, Iraq.",
-      "insights": "An incredible cultural event occurring around July 25.",
       "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80",
       "mediaLinks": {}
     },
@@ -4922,7 +4873,6 @@
       "verified": true,
       "region": "Yazd, Iran",
       "description": "Sadeh (Fire Festival) celebrated in Yazd, Iran.",
-      "insights": "An incredible cultural event occurring around January 30.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/JashnSadeh1.jpg",
       "mediaLinks": {}
     },
@@ -4940,7 +4890,6 @@
       "verified": true,
       "region": "Jerash, Jordan",
       "description": "Jerash Arts Festival celebrated in Jerash, Jordan.",
-      "insights": "An incredible cultural event occurring around July.",
       "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80",
       "mediaLinks": {}
     },
@@ -4959,7 +4908,6 @@
       "verified": true,
       "region": "Baalbeck, Lebanon",
       "description": "Baalbeck Int. Festival celebrated in Baalbeck, Lebanon.",
-      "insights": "An incredible cultural event occurring around July/August.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Bay_Area_Lebanese_Festival_in_Redwood_City_%28August_27%2C_2022%29_-_20.jpg/960px-Bay_Area_Lebanese_Festival_in_Redwood_City_%28August_27%2C_2022%29_-_20.jpg",
       "mediaLinks": {}
     },
@@ -4977,7 +4925,6 @@
       "verified": true,
       "region": "Konya, Turkey",
       "description": "Sufi Whirling (Sema) celebrated in Konya, Turkey.",
-      "insights": "An incredible cultural event occurring around Dec 7–17.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Sema_ceremony_dervishes.jpg/960px-Sema_ceremony_dervishes.jpg",
       "mediaLinks": {}
     },
@@ -4995,7 +4942,6 @@
       "verified": true,
       "region": "Edirne, Turkey",
       "description": "Kirkpinar Oil Wrestling celebrated in Edirne, Turkey.",
-      "insights": "An incredible cultural event occurring around July.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/K%C4%B1rkp%C4%B1narArena.JPG/960px-K%C4%B1rkp%C4%B1narArena.JPG",
       "mediaLinks": {}
     },
@@ -5013,7 +4959,6 @@
       "verified": true,
       "region": "Taif, Saudi Arabia",
       "description": "Souq Okaz (Poetry) celebrated in Taif, Saudi Arabia.",
-      "insights": "An incredible cultural event occurring around August.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/7-_India_Exhibition_at_Al-Jenadriyah_32_%28My_Trip_To_Al-Jenadriyah_32%29.jpg/960px-7-_India_Exhibition_at_Al-Jenadriyah_32_%28My_Trip_To_Al-Jenadriyah_32%29.jpg",
       "mediaLinks": {}
     },
@@ -5031,7 +4976,6 @@
       "verified": true,
       "region": "Muscat, Oman",
       "description": "Muscat Festival celebrated in Muscat, Oman.",
-      "insights": "An incredible cultural event occurring around Jan/Feb.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Muscat_Festival_%2826283225478%29.jpg/960px-Muscat_Festival_%2826283225478%29.jpg",
       "mediaLinks": {}
     },
@@ -5049,7 +4993,6 @@
       "verified": true,
       "region": "Regional (Iran/Iraq)",
       "description": "Yalda Night (Winter) celebrated in Regional (Iran/Iraq).",
-      "insights": "An incredible cultural event occurring around December 21.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Grphymahyd_Persian_model_in_Yalda_Night_Style_2020_%281%29.jpg/960px-Grphymahyd_Persian_model_in_Yalda_Night_Style_2020_%281%29.jpg",
       "mediaLinks": {},
       "recommendedBooks": [
@@ -5076,7 +5019,6 @@
       "verified": true,
       "region": "Doha, Qatar",
       "description": "Katara Traditional Boats celebrated in Doha, Qatar.",
-      "insights": "An incredible cultural event occurring around November.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Garangao_Festival_in_Dana_Club_Doha.png/960px-Garangao_Festival_in_Dana_Club_Doha.png",
       "mediaLinks": {}
     },
@@ -5095,7 +5037,6 @@
       "verified": true,
       "region": "Byblos, Lebanon",
       "description": "Byblos Int. Festival celebrated in Byblos, Lebanon.",
-      "insights": "An incredible cultural event occurring around July.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Bay_Area_Lebanese_Festival_in_Redwood_City_%28August_27%2C_2022%29_-_20.jpg/960px-Bay_Area_Lebanese_Festival_in_Redwood_City_%28August_27%2C_2022%29_-_20.jpg",
       "mediaLinks": {}
     },
@@ -5113,7 +5054,6 @@
       "verified": true,
       "region": "Dubai, UAE",
       "description": "Dubai Shopping Fest celebrated in Dubai, UAE.",
-      "insights": "An incredible cultural event occurring around Jan 1 – Feb 1.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/A6-EMG_B777-21HER_Emirates%28Shop_Fest_2002%29_MAN_09FEB02_%286950908412%29.jpg/960px-A6-EMG_B777-21HER_Emirates%28Shop_Fest_2002%29_MAN_09FEB02_%286950908412%29.jpg",
       "mediaLinks": {}
     },
@@ -5131,7 +5071,6 @@
       "verified": true,
       "region": "Tehran, Iran",
       "description": "Chaharshanbe Suri celebrated in Tehran, Iran.",
-      "insights": "An incredible cultural event occurring around March 17.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Chaharshanbe_Suri_2019_in_Tehran_09.jpg/960px-Chaharshanbe_Suri_2019_in_Tehran_09.jpg",
       "mediaLinks": {}
     },
@@ -5149,7 +5088,6 @@
       "verified": true,
       "region": "Cairo, Egypt",
       "description": "Fanoos (Lantern) Lighting celebrated in Cairo, Egypt.",
-      "insights": "An incredible cultural event occurring around March (Ramadan).",
       "imageUrl": "https://images.unsplash.com/photo-1512100356356-de1b84283e18?auto=format&fit=crop&w=800&q=80",
       "mediaLinks": {}
     },
@@ -5168,7 +5106,6 @@
       "verified": true,
       "region": "Regional (e.g. Istanbul)",
       "description": "Mawlid al-Nabi celebrated in Regional (e.g. Istanbul).",
-      "insights": "An incredible cultural event occurring around August 25.",
       "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
       "mediaLinks": {},
       "recommendedBooks": [
@@ -5195,7 +5132,6 @@
       "verified": true,
       "region": "Kashan, Iran",
       "description": "Golab-giri (Rosewater) celebrated in Kashan, Iran.",
-      "insights": "An incredible cultural event occurring around May to June.",
       "imageUrl": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80",
       "mediaLinks": {}
     },
@@ -5213,7 +5149,6 @@
       "verified": true,
       "region": "Al-Ahsa, Saudi Arabia",
       "description": "Date Palm Festival celebrated in Al-Ahsa, Saudi Arabia.",
-      "insights": "An incredible cultural event occurring around August.",
       "imageUrl": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80",
       "mediaLinks": {}
     },
@@ -5231,7 +5166,6 @@
       "verified": true,
       "region": "Nohadra/Duhok, Iraq",
       "description": "Mesopotamian Akitu celebrated in Nohadra/Duhok, Iraq.",
-      "insights": "An incredible cultural event occurring around April 1.",
       "imageUrl": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=800&q=80",
       "mediaLinks": {}
     },
@@ -5249,7 +5183,6 @@
       "verified": true,
       "region": "Al Dhafra, UAE",
       "description": "Camel Beauty Contest celebrated in Al Dhafra, UAE.",
-      "insights": "An incredible cultural event occurring around Dec to Jan.",
       "imageUrl": "https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?auto=format&fit=crop&w=800&q=80",
       "mediaLinks": {}
     },
@@ -5267,7 +5200,6 @@
       "verified": true,
       "region": "Mazandaran, Iran",
       "description": "Tirgan (Water Fest) celebrated in Mazandaran, Iran.",
-      "insights": "An incredible cultural event occurring around July 4.",
       "imageUrl": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=800&q=80",
       "mediaLinks": {}
     },
@@ -5285,7 +5217,6 @@
       "verified": true,
       "region": "Erbil/Duhok, Iraq",
       "description": "Kurdish New Year (Newroz) celebrated in Erbil/Duhok, Iraq.",
-      "insights": "An incredible cultural event occurring around March 21.",
       "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80",
       "mediaLinks": {}
     },
@@ -5303,7 +5234,6 @@
       "verified": true,
       "region": "Regional, Egypt",
       "description": "Sham el-Nessim (Spring) celebrated in Regional, Egypt.",
-      "insights": "An incredible cultural event occurring around April 13.",
       "imageUrl": "https://images.unsplash.com/photo-1542224566-6e85f2e6772f?auto=format&fit=crop&w=800&q=80",
       "mediaLinks": {}
     },
@@ -5321,7 +5251,6 @@
       "verified": true,
       "region": "Al Qassim, Saudi Arabia",
       "description": "Buraidah Camel Market celebrated in Al Qassim, Saudi Arabia.",
-      "insights": "An incredible cultural event occurring around Daily at Dawn.",
       "imageUrl": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=800&q=80",
       "mediaLinks": {}
     },
@@ -5339,7 +5268,6 @@
       "verified": true,
       "region": "Riyadh, Saudi Arabia",
       "description": "Al-Janadriyah Camel Race celebrated in Riyadh, Saudi Arabia.",
-      "insights": "An incredible cultural event occurring around February.",
       "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
       "mediaLinks": {}
     },
@@ -5357,7 +5285,6 @@
       "verified": true,
       "region": "Levant Region",
       "description": "Eid el-Burbara celebrated in Levant Region.",
-      "insights": "An incredible cultural event occurring around December 4.",
       "imageUrl": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=800&q=80",
       "mediaLinks": {}
     },
@@ -5375,7 +5302,6 @@
       "verified": true,
       "region": "Jerusalem, Israel",
       "description": "Festival of Lights celebrated in Jerusalem.",
-      "insights": "An incredible cultural event occurring around June.",
       "imageUrl": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80",
       "mediaLinks": {}
     },
@@ -5393,7 +5319,6 @@
       "verified": true,
       "region": "Regional, Iran",
       "description": "Mehregan (Autumn) celebrated in Regional, Iran.",
-      "insights": "An incredible cultural event occurring around October 2.",
       "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=800&q=80",
       "mediaLinks": {}
     },
@@ -5411,7 +5336,6 @@
       "verified": true,
       "region": "Oaxaca, Mexico",
       "description": "Noche de Rábanos (Night of Radishes), a renowned cultural phenomenon celebrated in Oaxaca, Mexico. This traditionally takes place around December 23.",
-      "insights": "Automated ingestion data batch from user request.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/NocheRabanos1L.JPG/800px-NocheRabanos1L.JPG",
       "mediaLinks": {}
     },
@@ -5429,7 +5353,6 @@
       "verified": true,
       "region": "San Sebastián, Spain",
       "description": "La Tamborrada (Drum Festival), a renowned cultural phenomenon celebrated in San Sebastián, Spain. This traditionally takes place around January 20.",
-      "insights": "Automated ingestion data batch from user request.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Tamborrada_San_Sebastian_2011.jpg/800px-Tamborrada_San_Sebastian_2011.jpg",
       "mediaLinks": {}
     },
@@ -5447,7 +5370,6 @@
       "verified": true,
       "region": "Netherlands (Scheveningen)",
       "description": "Nieuwjaarsduik (New Year's Dive), a renowned cultural phenomenon celebrated in Netherlands (Scheveningen). This traditionally takes place around January 1.",
-      "insights": "Automated ingestion data batch from user request.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Nieuwjaarsduik_Scheveningen_2019.jpg/800px-Nieuwjaarsduik_Scheveningen_2019.jpg",
       "mediaLinks": {}
     },
@@ -5465,7 +5387,6 @@
       "verified": true,
       "region": "Bali, Indonesia",
       "description": "Ngaben (Balinese Funeral Ritual), a renowned cultural phenomenon celebrated in Bali, Indonesia. This traditionally takes place around Varies (check local calendar).",
-      "insights": "Automated ingestion data batch from user request.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Pelebon_Agung.jpg/800px-Pelebon_Agung.jpg",
       "mediaLinks": {}
     },
@@ -5483,7 +5404,6 @@
       "verified": true,
       "region": "Seville, Spain",
       "description": "Feria de Sevilla, a renowned cultural phenomenon celebrated in Seville, Spain. This traditionally takes place around Two weeks after Easter.",
-      "insights": "Automated ingestion data batch from user request.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Feria_de_Abril_de_Sevilla_%282006%29.jpg/800px-Feria_de_Abril_de_Sevilla_%282006%29.jpg",
       "mediaLinks": {}
     },
@@ -5501,7 +5421,6 @@
       "verified": true,
       "region": "Lagos, Portugal",
       "description": "Banho 29 (Traditional Midnight Swim), a renowned cultural phenomenon celebrated in Lagos, Portugal. This traditionally takes place around August 29.",
-      "insights": "Automated ingestion data batch from user request.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Praia_da_Batata_Lagos.jpg/800px-Praia_da_Batata_Lagos.jpg",
       "mediaLinks": {}
     },
@@ -5519,7 +5438,6 @@
       "verified": true,
       "region": "Sonkajärvi, Finland",
       "description": "Wife Carrying World Championship, a renowned cultural phenomenon celebrated in Sonkajärvi, Finland. This traditionally takes place around July.",
-      "insights": "Automated ingestion data batch from user request.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Wife_carrying_Sonkajarvi_2008_7.jpg/800px-Wife_carrying_Sonkajarvi_2008_7.jpg",
       "mediaLinks": {}
     },
@@ -5537,7 +5455,6 @@
       "verified": true,
       "region": "Sumpango, Guatemala",
       "description": "Kite Festival (Giant Barriletes), a renowned cultural phenomenon celebrated in Sumpango, Guatemala. This traditionally takes place around November 1.",
-      "insights": "Automated ingestion data batch from user request.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Festival_de_Barriletes_Gigantes%2C_Sumpango_2016-18.jpg/800px-Festival_de_Barriletes_Gigantes%2C_Sumpango_2016-18.jpg",
       "mediaLinks": {}
     },
@@ -5555,7 +5472,6 @@
       "verified": true,
       "region": "Okinawa, Japan",
       "description": "Naha Great Tug of War, a renowned cultural phenomenon celebrated in Okinawa, Japan. This traditionally takes place around October (Health & Sports Day).",
-      "insights": "Automated ingestion data batch from user request.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Naha_tug_of_war_2010.jpg/800px-Naha_tug_of_war_2010.jpg",
       "mediaLinks": {}
     },
@@ -5573,7 +5489,6 @@
       "verified": true,
       "region": "Siena, Italy",
       "description": "Il Palio (Horse Race), a renowned cultural phenomenon celebrated in Siena, Italy. This traditionally takes place around July 2 and August 16.",
-      "insights": "Automated ingestion data batch from user request.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Palio_2005.jpg/800px-Palio_2005.jpg",
       "mediaLinks": {}
     },
@@ -5591,7 +5506,6 @@
       "verified": true,
       "region": "Lewes, UK",
       "description": "Lewes Bonfire Night, a renowned cultural phenomenon celebrated in Lewes, UK. This traditionally takes place around November 5.",
-      "insights": "Automated ingestion data batch from user request.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Lewes_Bonfire_Night_2011_-_Cliffe_Society_First_Procession.jpg/800px-Lewes_Bonfire_Night_2011_-_Cliffe_Society_First_Procession.jpg",
       "mediaLinks": {}
     },
@@ -5609,7 +5523,6 @@
       "verified": true,
       "region": "Padstow, Cornwall, UK",
       "description": "The Padstow 'Obby 'Oss, a renowned cultural phenomenon celebrated in Padstow, Cornwall, UK. This traditionally takes place around May 1 (May Day).",
-      "insights": "Automated ingestion data batch from user request.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Padstow_Obby_Oss_-_Old_Oss.jpg/800px-Padstow_Obby_Oss_-_Old_Oss.jpg",
       "mediaLinks": {}
     },
@@ -5627,7 +5540,6 @@
       "verified": true,
       "region": "Sapporo, Japan",
       "description": "Sapporo Snow Festival, a renowned cultural phenomenon celebrated in Sapporo, Japan. This traditionally takes place around Early February.",
-      "insights": "Automated ingestion data batch from user request.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Sapporo_Snow_Festival_2010.jpg/800px-Sapporo_Snow_Festival_2010.jpg",
       "mediaLinks": {}
     },
@@ -5645,7 +5557,6 @@
       "verified": true,
       "region": "Barbados",
       "description": "Grand Kadooment (Crop Over), a renowned cultural phenomenon celebrated in Barbados. This traditionally takes place around First Monday of August.",
-      "insights": "Automated ingestion data batch from user request.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Crop_Over_Grand_Kadooment_2011.jpg/800px-Crop_Over_Grand_Kadooment_2011.jpg",
       "mediaLinks": {}
     },
@@ -5663,7 +5574,6 @@
       "verified": true,
       "region": "Atherstone, UK",
       "description": "Atherstone Ball Game, a renowned cultural phenomenon celebrated in Atherstone, UK. This traditionally takes place around Shrove Tuesday (Feb/March).",
-      "insights": "Automated ingestion data batch from user request.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Atherstone_Ball_Game_2011.jpg/800px-Atherstone_Ball_Game_2011.jpg",
       "mediaLinks": {}
     },
@@ -5681,7 +5591,6 @@
       "verified": true,
       "region": "Willaston, UK",
       "description": "International Worm Charming, a renowned cultural phenomenon celebrated in Willaston, UK. This traditionally takes place around June.",
-      "insights": "Automated ingestion data batch from user request.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Worm_charming.jpg/800px-Worm_charming.jpg",
       "mediaLinks": {}
     },
@@ -5699,7 +5608,6 @@
       "verified": true,
       "region": "Ouidah, Benin",
       "description": "Voodoo Festival, a renowned cultural phenomenon celebrated in Ouidah, Benin. This traditionally takes place around January 10.",
-      "insights": "Automated ingestion data batch from user request.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ouidah_Voodoo_Festival_2008.jpg/800px-Ouidah_Voodoo_Festival_2008.jpg",
       "mediaLinks": {}
     },
@@ -5717,7 +5625,6 @@
       "verified": true,
       "region": "La Paz, Bolivia",
       "description": "La Paz Day Parade, a renowned cultural phenomenon celebrated in La Paz, Bolivia. This traditionally takes place around July 16.",
-      "insights": "Automated ingestion data batch from user request.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/La_Paz_city_center.jpg/800px-La_Paz_city_center.jpg",
       "mediaLinks": {}
     },
@@ -5735,7 +5642,6 @@
       "verified": true,
       "region": "Tokyo, Japan",
       "description": "St. Patrick's Parade, a renowned cultural phenomenon celebrated in Tokyo, Japan. This traditionally takes place around March (around the 17th).",
-      "insights": "Automated ingestion data batch from user request.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/St._Patrick%27s_Day_parade_in_Tokyo.jpg/800px-St._Patrick%27s_Day_parade_in_Tokyo.jpg",
       "mediaLinks": {}
     },
@@ -5753,7 +5659,6 @@
       "verified": true,
       "region": "Inis Mór, Ireland",
       "description": "Ted Fest (Father Ted Tribute), a renowned cultural phenomenon celebrated in Inis Mór, Ireland. This traditionally takes place around Late February.",
-      "insights": "Automated ingestion data batch from user request.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Inishmore_Pier.jpg/800px-Inishmore_Pier.jpg",
       "mediaLinks": {}
     },
@@ -5771,7 +5676,6 @@
       "verified": true,
       "region": "New Orleans, USA",
       "description": "Jazz Fest, a renowned cultural phenomenon celebrated in New Orleans, USA. This traditionally takes place around Late April / Early May.",
-      "insights": "Automated ingestion data batch from user request.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Jazz_Fest_New_Orleans_2010.jpg/800px-Jazz_Fest_New_Orleans_2010.jpg",
       "mediaLinks": {}
     },
@@ -5789,7 +5693,6 @@
       "verified": true,
       "region": "New Orleans, USA",
       "description": "Red Dress Run, a renowned cultural phenomenon celebrated in New Orleans, USA. This traditionally takes place around Second Saturday of August.",
-      "insights": "Automated ingestion data batch from user request.",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Red_Dress_Run_2011.jpg/800px-Red_Dress_Run_2011.jpg",
       "mediaLinks": {}
     },
