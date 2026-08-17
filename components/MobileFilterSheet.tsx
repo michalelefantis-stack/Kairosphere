@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Check, SlidersHorizontal } from 'lucide-react';
+import { X, Check, SlidersHorizontal, UserCircle2 } from 'lucide-react';
 import { FilterState } from '../types';
 import KairosLogo from './KairosLogo';
 
@@ -182,19 +182,25 @@ const MobileFilterSheet: React.FC<MobileFilterSheetProps> = ({
 };
 
 /**
- * The phone's top bar: identity, result count, one way in to the filters.
+ * The phone's top bar: identity, filters, account.
  *
- * Replaces four stacked control rows with a single 56px strip. The badge
- * matters — with the controls hidden, a filter left on from a previous
- * session would otherwise silently explain why the list looks short.
+ * Replaces four stacked control rows with a single 56px strip, and is shared
+ * by all three mobile tabs so the account is reachable from anywhere. It had
+ * become reachable from nowhere: the only sign-in affordance lived in the
+ * desktop map rail, and NavDashboard still imports AccountMenu and tracks a
+ * user it never renders.
+ *
+ * Sits inside each tab's flex column rather than being fixed, so no screen
+ * has to know the bar's height — including the part of it that is notch.
  */
-export const MobileHomeBar: React.FC<{
-  count: number;
-  activeFilterCount: number;
-  onOpenFilters: () => void;
-}> = ({ count, activeFilterCount, onOpenFilters }) => (
+export const MobileTopBar: React.FC<{
+  /** Omit to hide the filter control on screens that do not filter. */
+  filter?: { count: number; activeCount: number; onOpen: () => void };
+  onOpenAccount: () => void;
+  signedIn: boolean;
+}> = ({ filter, onOpenAccount, signedIn }) => (
   <div
-    className="shrink-0 flex items-center justify-between gap-3 px-4 h-14 border-b border-line-soft bg-base"
+    className="shrink-0 flex items-center justify-between gap-2 px-4 h-14 border-b border-line-soft bg-base"
     style={{ paddingTop: 'env(safe-area-inset-top, 0px)' }}
   >
     <div className="flex items-center gap-2 min-w-0">
@@ -204,26 +210,46 @@ export const MobileHomeBar: React.FC<{
       </span>
     </div>
 
-    <button
-      type="button"
-      onClick={onOpenFilters}
-      className="relative shrink-0 min-h-[44px] px-3 -mr-1 rounded-xl
-                 inline-flex items-center gap-2 text-[14px] font-medium
-                 text-ink-dim active:bg-hover transition-colors"
-    >
-      <SlidersHorizontal className="w-[18px] h-[18px]" />
-      Filter
-      {activeFilterCount > 0 && (
-        <span className="absolute top-1 right-0 min-w-[18px] h-[18px] px-1
-                         rounded-full bg-accent text-on-accent
-                         text-[11px] font-bold leading-[18px] text-center">
-          {activeFilterCount}
-        </span>
+    <div className="flex items-center shrink-0">
+      {filter && (
+        <button
+          type="button"
+          onClick={filter.onOpen}
+          className="relative min-h-[44px] px-3 rounded-xl
+                     inline-flex items-center gap-2 text-[14px] font-medium
+                     text-ink-dim active:bg-hover transition-colors"
+        >
+          <SlidersHorizontal className="w-[18px] h-[18px]" />
+          Filter
+          {filter.activeCount > 0 && (
+            <span className="absolute top-1 right-1 min-w-[18px] h-[18px] px-1
+                             rounded-full bg-accent text-on-accent
+                             text-[11px] font-bold leading-[18px] text-center">
+              {filter.activeCount}
+            </span>
+          )}
+          <span className="sr-only">
+            {filter.count} events match the current filters
+          </span>
+        </button>
       )}
-      <span className="sr-only">
-        {count} events match the current filters
-      </span>
-    </button>
+
+      <button
+        type="button"
+        onClick={onOpenAccount}
+        aria-label={signedIn ? 'Account' : 'Sign in'}
+        className="w-11 h-11 -mr-2 rounded-full flex items-center justify-center
+                   text-ink-dim active:bg-hover transition-colors"
+      >
+        {/* A filled ring when signed in: the only thing the reader needs from
+            this control at a glance is whether their saved trips are backed
+            up or living on this handset alone. */}
+        <UserCircle2
+          className={`w-[22px] h-[22px] ${signedIn ? 'text-accent' : ''}`}
+          strokeWidth={signedIn ? 2.2 : 1.8}
+        />
+      </button>
+    </div>
   </div>
 );
 

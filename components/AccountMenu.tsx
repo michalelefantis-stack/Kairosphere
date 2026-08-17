@@ -8,6 +8,22 @@ interface AccountMenuProps {
   onClose: () => void;
 }
 
+/**
+ * True inside the packaged Capacitor app rather than a browser.
+ *
+ * Matters because signInWithPopup cannot work here. The native WebView has no
+ * popup to hand the OAuth result back through, so the call opens something
+ * the user cannot complete and never resolves. Shipping the button anyway
+ * would mean a sign-in screen that silently does nothing on the platform this
+ * app is mainly for.
+ *
+ * The real fix is @capacitor-firebase/authentication, which needs Firebase
+ * console work — SHA-1 fingerprints, google-services.json — that cannot be
+ * done from here. Until then this says so rather than pretending.
+ */
+const isNativeShell =
+  typeof window !== 'undefined' && !!(window as any).Capacitor;
+
 const AccountMenu: React.FC<AccountMenuProps> = ({ onClose }) => {
   const [user, setUser] = useState<User | null>(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -137,8 +153,20 @@ const AccountMenu: React.FC<AccountMenuProps> = ({ onClose }) => {
                 </div>
               )}
 
+              {isNativeShell ? (
+                <div className="p-4 rounded-xl border border-line bg-raised space-y-2">
+                  <p className="text-[14px] font-semibold text-ink">
+                    Sign-in is not available in the app yet
+                  </p>
+                  <p className="text-[13px] text-ink-dim leading-relaxed">
+                    Google and Apple sign-in need native support that this build
+                    does not have. Everything else works without an account —
+                    your saved events live on this device.
+                  </p>
+                </div>
+              ) : (
               <div className="space-y-4">
-                <button 
+                <button
                   onClick={handleAppleSignIn}
                   className="w-full flex items-center justify-center gap-3 bg-white text-on-accent text-sm font-bold py-3.5 px-4 rounded-xl hover:bg-hover transition-colors shadow-sm"
                 >
@@ -152,17 +180,23 @@ const AccountMenu: React.FC<AccountMenuProps> = ({ onClose }) => {
                   <svg className="w-5 h-5" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"></path><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"></path><path d="M1 1h22v22H1z" fill="none"></path></svg>
                   Continue with Google
                 </button>
-                <button 
-                  onClick={() => alert("Email sign-in coming soon!")}
-                  className="w-full flex items-center justify-center gap-3 bg-raised text-ink text-sm font-bold py-3.5 px-4 rounded-xl border border-line-hard hover:bg-hover transition-colors shadow-sm"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-mail w-5 h-5" aria-hidden="true"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
-                  Continue with Email
-                </button>
+                {/* "Continue with Email" used to sit here and did nothing but
+                    raise an alert saying it was coming soon. A disabled-looking
+                    button that fires a browser dialog is worse than no button,
+                    so it is gone until email auth exists. */}
               </div>
-              
+              )}
+
+              {/* No Terms or Privacy Policy has been written, and this line
+                  previously claimed agreement to two "#" links. Asserting
+                  consent to documents that do not exist is not a placeholder,
+                  it is a false statement, so the claim is gone until the
+                  documents are real. */}
               <div className="pt-4 border-t border-line-soft text-center">
-                <p className="text-[12px] text-ink-faint">By continuing, you agree to our <a href="#" className="text-accent hover:underline">Terms of Service</a> and <a href="#" className="text-accent hover:underline">Privacy Policy</a>.</p>
+                <p className="text-[12px] text-ink-faint">
+                  Signing in stores your saved events against your account so they
+                  survive reinstalling the app.
+                </p>
               </div>
             </>
           )}

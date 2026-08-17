@@ -15,7 +15,10 @@ import { useIsPhone } from './hooks/useIsPhone';
 import LiveDetailPanel from './components/LiveDetailPanel';
 import DetailPanel from './components/DetailPanel';
 import NearbyFeed from './components/NearbyFeed';
-import MobileFilterSheet, { MobileHomeBar } from './components/MobileFilterSheet';
+import MobileFilterSheet, { MobileTopBar } from './components/MobileFilterSheet';
+import AccountMenu from './components/AccountMenu';
+import { auth } from './firebase';
+import { onAuthStateChanged } from 'firebase/auth';
 import { readJson, writeJson } from './utils/safeStorage';
 
 // ── Lazy-loaded components (only fetched when their tab/modal is active) ──
@@ -98,6 +101,12 @@ const App: React.FC = () => {
   const [mobileView, setMobileView] = useState<'list' | 'map'>('list');
   const isPhone = useIsPhone();
   const [isFilterSheetOpen, setIsFilterSheetOpen] = useState(false);
+  const [isAccountOpen, setIsAccountOpen] = useState(false);
+
+  // Only used to show whether the reader is signed in; AccountMenu keeps its
+  // own subscription for everything else.
+  const [isSignedIn, setIsSignedIn] = useState(false);
+  useEffect(() => onAuthStateChanged(auth, user => setIsSignedIn(!!user)), []);
   const [mobileSheetState, setMobileSheetState] = useState<'collapsed' | 'half' | 'full'>('half');
   const [dragHeight, setDragHeight] = useState<number | null>(null);
 
@@ -503,10 +512,14 @@ const App: React.FC = () => {
               </div>
             ) : mobileView === 'list' ? (
               <>
-                <MobileHomeBar
-                  count={filteredData.length}
-                  activeFilterCount={activeFilterCount}
-                  onOpenFilters={() => setIsFilterSheetOpen(true)}
+                <MobileTopBar
+                  filter={{
+                    count: filteredData.length,
+                    activeCount: activeFilterCount,
+                    onOpen: () => setIsFilterSheetOpen(true)
+                  }}
+                  onOpenAccount={() => setIsAccountOpen(true)}
+                  signedIn={isSignedIn}
                 />
                 <div className="flex-1 min-h-0">
                   <NearbyFeed
@@ -690,12 +703,17 @@ const App: React.FC = () => {
 
           {(activeTab === 'calendar' || activeTab === 'itinerary') && (
             <div className="h-full min-h-0 flex flex-col">
+              {isPhone && (
+                <MobileTopBar
+                  onOpenAccount={() => setIsAccountOpen(true)}
+                  signedIn={isSignedIn}
+                />
+              )}
               {/* Calendar and Itinerary answer one question — "I have these
                   dates, what is on" — so on a phone they are two views of one
                   tab rather than two of five tabs. Desktop still has room to
                   show them separately in the top nav. */}
-              <div className="sm:hidden shrink-0 flex gap-2 px-4 py-3 border-b border-line-soft bg-base"
-                   style={{ paddingTop: 'calc(env(safe-area-inset-top, 0px) + 12px)' }}>
+              <div className="sm:hidden shrink-0 flex gap-2 px-4 py-3 border-b border-line-soft bg-base">
                 {([
                   { id: 'itinerary', label: 'My trips' },
                   { id: 'calendar', label: 'Calendar' }
@@ -748,7 +766,14 @@ const App: React.FC = () => {
             </div>
           )}
           {activeTab === 'library' && (
-            <div className="w-full h-full p-6 md:p-12 pt-16 sm:pt-[100px] md:pt-[120px] pb-safe-tab overflow-y-auto custom-scrollbar">
+            <div className="w-full h-full flex flex-col min-h-0">
+            {isPhone && (
+              <MobileTopBar
+                onOpenAccount={() => setIsAccountOpen(true)}
+                signedIn={isSignedIn}
+              />
+            )}
+            <div className="w-full flex-1 min-h-0 p-6 md:p-12 pt-6 sm:pt-[100px] md:pt-[120px] pb-safe-tab overflow-y-auto custom-scrollbar">
               <div className="max-w-6xl mx-auto">
                 <div className="flex items-center gap-4 mb-8">
                   <div className="p-3 bg-gold/10 rounded-xl border border-gold/20">
@@ -833,6 +858,7 @@ const App: React.FC = () => {
                 )}
               </div>
             </div>
+            </div>
           )}
 
           {/* Detail Panel - Anchored to the LEFT (next to sidebar) */}
@@ -880,6 +906,27 @@ const App: React.FC = () => {
           </div>
         )}
       </div>
+
+      {/* Account, reachable from every mobile tab.
+          AccountMenu is a self-contained panel, so it only needs somewhere to
+          sit; on a phone that is a bottom sheet rather than a map flyout. */}
+      {isAccountOpen && isPhone && (
+        <div className="sm:hidden fixed inset-0 z-[90] flex flex-col justify-end">
+          <button
+            type="button"
+            aria-label="Close account"
+            onClick={() => setIsAccountOpen(false)}
+            className="absolute inset-0 bg-black/60"
+          />
+          <div
+            className="relative bg-panel rounded-t-[28px] border-t border-line max-h-[85vh] overflow-y-auto"
+            style={{ paddingBottom: 'calc(env(safe-area-inset-bottom, 0px) + 8px)' }}
+          >
+            <div className="w-10 h-1 bg-line-hard rounded-full mx-auto mt-3" aria-hidden="true" />
+            <AccountMenu onClose={() => setIsAccountOpen(false)} />
+          </div>
+        </div>
+      )}
 
       <MobileFilterSheet
         open={isFilterSheetOpen}
