@@ -178,6 +178,8 @@ export interface CultureItem {
       credit: string;
       license: string;
       sourcePage: string;
+      verifiedBy?: string;
+      via?: string;
     }[];
   };
 }

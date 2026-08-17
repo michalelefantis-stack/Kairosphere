@@ -30,7 +30,6 @@ from pathlib import Path
 
 from pipeline.briefings import load_catalogue, load_existing
 from pipeline.images import COMMONS, WIKI, _get, _usable, keywords
-from pipeline.lead_images import commons_record
 
 log = logging.getLogger("gallery")
 
@@ -56,11 +55,23 @@ def from_category(title: str, words: list[str], place_words: list[str]) -> list[
     return sorted(found, key=lambda r: -r["score"])
 
 
-def from_article(article_title: str) -> list[dict]:
-    """Photographs used on the Wikipedia article we already verified."""
+def from_article(article_title: str, words: list[str], place_words: list[str]) -> list[dict]:
+    """Photographs on the Wikipedia article, verified like any other search.
+
+    Appearing on the right article is not evidence of being a picture of the
+    subject. This path first took every image the page carried, which put the
+    cupola of St Peter's on eight different carnivals, a Tiepolo painting on
+    two, a museum object on a Dogon funeral and a 1980 portrait of the Dalai
+    Lama on Losar -- all of them legitimately illustrating those articles,
+    none of them a photograph of the event.
+
+    So a file has to earn its place the way an untrusted Commons search result
+    does: named subject, a real corroborating place, and a photograph rather
+    than a painting, a diagram or a museum object.
+    """
     data = _get(WIKI, {
         "action": "query", "titles": article_title,
-        "prop": "images", "imlimit": 20,
+        "prop": "images", "imlimit": 30,
         "format": "json", "origin": "*",
     })
     pages = ((data or {}).get("query") or {}).get("pages") or {}
@@ -69,18 +80,24 @@ def from_article(article_title: str) -> list[dict]:
         for entry in page.get("images") or []:
             title = entry.get("title", "")
             if title.startswith("File:"):
-                names.append(title[5:])
+                names.append(title)
+    if not names:
+        return []
 
-    frames = []
-    for name in names:
-        record = commons_record(name)
-        if record:
-            record["verifiedBy"] = f"used on “{article_title}”"
-            record["via"] = "wikipedia-article"
-            frames.append(record)
-        if len(frames) >= MAX_FRAMES:
-            break
-    return frames
+    # One request for the batch; Commons takes up to 50 titles at a time.
+    meta = _get(COMMONS, {
+        "action": "query", "titles": "|".join(names[:50]),
+        "prop": "imageinfo", "iiprop": "url|extmetadata|mime|size",
+        "iiurlwidth": 1200, "format": "json", "origin": "*",
+    })
+    found = [
+        _usable(page, words, place_words, trusted=False)
+        for page in (((meta or {}).get("query") or {}).get("pages") or {}).values()
+    ]
+    found = [f for f in found if f]
+    for frame in found:
+        frame["via"] = "wikipedia-article"
+    return sorted(found, key=lambda r: -r["score"])[:MAX_FRAMES]
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -102,6 +119,13 @@ def main(argv: list[str] | None = None) -> int:
 
     log.info("%d events with a lead photograph and no gallery\n", len(targets))
 
+    # Every url already spoken for: each event's lead photograph, plus any
+    # gallery frame assigned earlier in this run or a previous one.
+    claimed = {v["url"] for v in images.values() if v.get("url")}
+    for record in images.values():
+        for frame in record.get("gallery") or []:
+            claimed.add(frame["url"])
+
     added = 0
     for i, event in enumerate(targets, 1):
         words = keywords(event["title"])
@@ -110,20 +134,29 @@ def main(argv: list[str] | None = None) -> int:
 
         frames = from_category(event["title"], words, place_words)
         if len(frames) < 2 and event["id"] in briefings:
-            frames += from_article(briefings[event["id"]]["sourceTitle"])
+            frames += from_article(briefings[event["id"]]["sourceTitle"], words, place_words)
 
-        # Never repeat the lead image inside its own gallery.
+        # Never repeat the lead image inside its own gallery, and never let a
+        # frame serve two events. A photograph used twice is proof it was not
+        # chosen for either subject -- the same rule utils/eventImages applies
+        # to the lead images it strips.
         seen = {lead_url}
         gallery = []
         for frame in frames:
-            if frame["url"] in seen:
+            if frame["url"] in seen or frame["url"] in claimed:
                 continue
             seen.add(frame["url"])
+            claimed.add(frame["url"])
             gallery.append({
                 "url": frame["url"],
                 "credit": frame["credit"],
                 "license": frame["license"],
                 "sourcePage": frame["sourcePage"],
+                # Kept so a later audit can tell a curated-category frame from
+                # one found on an article. The first pass could not, which is
+                # why the bad frames had to be rebuilt rather than filtered.
+                "verifiedBy": frame["verifiedBy"],
+                "via": frame["via"],
             })
             if len(gallery) >= MAX_FRAMES:
                 break

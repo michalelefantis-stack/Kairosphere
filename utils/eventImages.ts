@@ -29,6 +29,9 @@ export interface EventImage {
     credit: string;
     license: string;
     sourcePage: string;
+    /** Which words tied this frame to this event. */
+    verifiedBy?: string;
+    via?: string;
   }[];
 }
 

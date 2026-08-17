@@ -393,6 +393,37 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
     </div>
   );
 
+  // The way out of the narrow column, offered where the narrowness is felt.
+  // The icon in the header corner is findable once you know it exists; this
+  // sits directly under the paragraph that was tiring to read.
+  //
+  // Withheld unless the width would actually change something: a one-line
+  // briefing with no photographs takes two lines at 380px and offering a
+  // second screen for it is noise. The header control stays either way.
+  const readingLength = (briefing?.summary ?? curatedNote ?? '').length;
+  const readerCta = (readingLength > 400 || gallery.length > 0) ? (
+    <button
+      type="button"
+      onClick={() => setIsReader(true)}
+      className="hidden sm:flex w-full items-center gap-3 px-4 py-3 rounded-xl text-left
+                 bg-raised/40 border border-white/5 group
+                 hover:bg-raised hover:border-accent/30 transition-colors"
+    >
+      <Maximize2 className="w-4 h-4 text-accent shrink-0" />
+      <span className="flex-1 min-w-0">
+        <span className="block text-[12px] font-bold text-ink uppercase tracking-wide">
+          Read full screen
+        </span>
+        <span className="block text-[11px] text-ink-faint">
+          {gallery.length > 0
+            ? 'A wider column, and the photographs at size'
+            : 'A wider column, and room to read'}
+        </span>
+      </span>
+      <ChevronRight className="w-4 h-4 text-ink-faint group-hover:text-accent transition-colors shrink-0" />
+    </button>
+  ) : null;
+
   // More photographs, when the resolver found more than one. A single frame
   // proves the event exists; several show what it is, which for this
   // catalogue is most of the reason to go.
@@ -486,6 +517,16 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
     </div>
   ) : null;
 
+  // The extract arrives as plain text (`explaintext=1`), and was being set as
+  // innerHTML — so the blank lines between paragraphs collapsed and the whole
+  // article rendered as one unbroken 14px run. Splitting it into real <p>
+  // elements restores the paragraphs, lets the stylesheet reach them, and
+  // stops us injecting remote text as markup for no reason.
+  const wikiParagraphs = (wikiContent ?? '')
+    .split(/\n+/)
+    .map(line => line.trim())
+    .filter(Boolean);
+
   const wikipediaBody = (
     <div className="space-y-6 animate-in fade-in duration-300">
       <div className="flex items-center gap-2 mb-4">
@@ -498,11 +539,14 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
           <Loader2 className="w-8 h-8 animate-spin text-accent" />
           <span className="text-xs text-ink-faint font-mono uppercase tracking-widest">Loading Article...</span>
         </div>
+      ) : wikiParagraphs.length > 0 ? (
+        <div className="wiki-content">
+          {wikiParagraphs.map((para, i) => <p key={i}>{para}</p>)}
+        </div>
       ) : (
-        <div
-          className="wiki-content"
-          dangerouslySetInnerHTML={{ __html: wikiContent || '' }}
-        />
+        <p className="text-sm text-ink-dim leading-relaxed font-light">
+          No article loaded for this event.
+        </p>
       )}
     </div>
   );
@@ -514,13 +558,8 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
       .custom-scrollbar::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
       .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #555; }
 
-      .wiki-content h2 { font-size: 1.25rem; font-weight: 900; text-transform: uppercase; letter-spacing: 0.1em; color: white; margin-top: 2rem; margin-bottom: 1rem; }
-      .wiki-content h3 { font-size: 1.125rem; font-weight: 700; color: #e5e5e5; margin-top: 1.5rem; margin-bottom: 0.75rem; }
       .wiki-content p { font-size: 0.875rem; line-height: 1.6; color: #d4d4d4; margin-bottom: 1rem; }
-      .wiki-content ul { list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1rem; color: #d4d4d4; font-size: 0.875rem; }
-      .wiki-content li { margin-bottom: 0.25rem; }
-      .wiki-content a { color: var(--k-accent); text-decoration: none; }
-      .wiki-content a:hover { text-decoration: underline; }
+      .wiki-content p:last-child { margin-bottom: 0; }
 
       @keyframes slideUpFade {
         from { opacity: 0; transform: translateY(10px); }
@@ -750,6 +789,7 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
             {/* Information Sections */}
             <div className="space-y-8 pt-2 stagger-item" style={{ animationDelay: '0.2s' }}>
               {briefingSection}
+              {readerCta}
               {gallerySection}
               {conditionsSection}
               {gettingThereSection}

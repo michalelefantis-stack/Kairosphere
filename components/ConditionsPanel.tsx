@@ -13,6 +13,13 @@ import { ClimateNormals, Daylight, describeRain } from '../utils/eventContext';
  * day/night strip. None of them is a chart with axes, because none of this
  * data has enough dimensions to earn one. Every value is also written out, so
  * colour is never the only channel.
+ *
+ * The panel sizes itself to its container, not the window. It had viewport
+ * breakpoints, which meant a desktop-width window put three columns inside a
+ * 330px sidebar: "typical daily range" broke across three lines beside its
+ * own number. Container queries ask the right question — how much room do I
+ * have — and the label now sits above the value, where it cannot collide
+ * with it at any width.
  */
 
 /** Plausible span of inhabited daily temperatures, for positioning the bar. */
@@ -22,19 +29,29 @@ const SCALE_MAX = 45;
 const pct = (celsius: number) =>
   Math.max(0, Math.min(100, ((celsius - SCALE_MIN) / (SCALE_MAX - SCALE_MIN)) * 100));
 
+/** Caption, then value, then the drawing. One vertical rhythm for all three. */
+const Metric: React.FC<{
+  label: string;
+  value: string;
+  children: React.ReactNode;
+}> = ({ label, value, children }) => (
+  <div>
+    <p className="text-[11px] text-ink-faint uppercase tracking-[0.1em] font-medium">
+      {label}
+    </p>
+    <p className="mt-1.5 text-[28px] font-semibold tabular-nums text-ink leading-none">
+      {value}
+    </p>
+    {children}
+  </div>
+);
+
 const TemperatureRange: React.FC<{ low: number; high: number }> = ({ low, high }) => {
   const left = pct(low);
   const width = Math.max(2, pct(high) - left);
 
   return (
-    <div>
-      <div className="flex items-baseline gap-2">
-        <span className="text-3xl font-semibold tabular-nums text-ink leading-none">
-          {low}°–{high}°
-        </span>
-        <span className="text-[13px] text-ink-faint">typical daily range</span>
-      </div>
-
+    <Metric label="Typical daily range" value={`${low}°–${high}°`}>
       {/* Track spans the inhabited range so the bar's position carries meaning:
           a Nordic winter sits left, an equatorial lowland sits right. */}
       <div className="relative mt-3 h-1.5 rounded-full bg-hover overflow-hidden" aria-hidden="true">
@@ -48,7 +65,7 @@ const TemperatureRange: React.FC<{ low: number; high: number }> = ({ low, high }
         <span>0°</span>
         <span>{SCALE_MAX}°</span>
       </div>
-    </div>
+    </Metric>
   );
 };
 
@@ -58,12 +75,7 @@ const RainMeter: React.FC<{ share: number; mm: number }> = ({ share, mm }) => {
   const filled = Math.round(share * 10);
 
   return (
-    <div>
-      <div className="flex items-baseline gap-2">
-        <span className="text-3xl font-semibold tabular-nums text-ink leading-none">{percent}%</span>
-        <span className="text-[13px] text-ink-faint">of days see rain</span>
-      </div>
-
+    <Metric label="Days that see rain" value={`${percent}%`}>
       <div className="flex gap-1 mt-3" role="img" aria-label={`${filled} days in ten see rain`}>
         {Array.from({ length: 10 }).map((_, i) => (
           <span
@@ -77,7 +89,7 @@ const RainMeter: React.FC<{ share: number; mm: number }> = ({ share, mm }) => {
         {describeRain(share)}
         {mm > 0 && ` · about ${mm}mm on a wet day`}
       </p>
-    </div>
+    </Metric>
   );
 };
 
@@ -92,14 +104,7 @@ const DaylightStrip: React.FC<{ daylight: Daylight }> = ({ daylight }) => {
   const width = Math.max(2, ((set - rise) / 1440) * 100);
 
   return (
-    <div>
-      <div className="flex items-baseline gap-2">
-        <span className="text-3xl font-semibold tabular-nums text-ink leading-none">
-          {daylight.hours}h
-        </span>
-        <span className="text-[13px] text-ink-faint">of daylight</span>
-      </div>
-
+    <Metric label="Hours of daylight" value={`${daylight.hours}h`}>
       {/* The full bar is midnight to midnight, so the lit block shows both the
           length of the day and where it sits — which is what matters for a
           dawn alignment or a night-sky event. */}
@@ -117,7 +122,7 @@ const DaylightStrip: React.FC<{ daylight: Daylight }> = ({ daylight }) => {
           {daylight.sunset} <Sunset className="w-3 h-3" />
         </span>
       </div>
-    </div>
+    </Metric>
   );
 };
 
@@ -136,8 +141,8 @@ const ConditionsPanel: React.FC<ConditionsPanelProps> = ({ climate, daylight }) 
   }
 
   return (
-    <div className="space-y-5">
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="@container space-y-5">
+      <div className="grid gap-6 @[24rem]:grid-cols-2 @[40rem]:grid-cols-3">
         {climate && <TemperatureRange low={climate.low} high={climate.high} />}
         {climate && <RainMeter share={climate.wetDayShare} mm={climate.wetDayRain} />}
         {daylight && <DaylightStrip daylight={daylight} />}
