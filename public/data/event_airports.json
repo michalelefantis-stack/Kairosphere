@@ -2009,22 +2009,6 @@
         "type": "medium_airport"
       }
     },
-    "nepal-dumji": {
-      "arrival": {
-        "iata": "SYH",
-        "name": "Syangboche Airport",
-        "place": "Namche Bazaar",
-        "km": 1.3,
-        "type": "small_airport"
-      },
-      "gateway": {
-        "iata": "LUA",
-        "name": "Tenzing-Hillary Airport",
-        "place": "Lukla",
-        "km": 12.7,
-        "type": "medium_airport"
-      }
-    },
     "india-vishu": {
       "arrival": {
         "iata": "COK",
@@ -2260,37 +2244,12 @@
         "type": "large_airport"
       }
     },
-    "asia-2026-5": {
-      "arrival": {
-        "iata": "RBZ",
-        "name": "Shahrisabz Southwest Airport",
-        "place": "Shahrisabz",
-        "km": 98.4,
-        "type": "small_airport"
-      },
-      "gateway": {
-        "iata": "TMJ",
-        "name": "Termez Airport",
-        "place": "Termez",
-        "km": 103.1,
-        "type": "medium_airport"
-      }
-    },
     "asia-2026-6": {
       "arrival": {
         "iata": "IKU",
         "name": "Issyk-Kul International Airport",
         "place": "Tamchy",
         "km": 31.6,
-        "type": "large_airport"
-      }
-    },
-    "asia-2026-7": {
-      "arrival": {
-        "iata": "IKU",
-        "name": "Issyk-Kul International Airport",
-        "place": "Tamchy",
-        "km": 56.3,
         "type": "large_airport"
       }
     },
@@ -2321,62 +2280,12 @@
         "type": "large_airport"
       }
     },
-    "asia-2026-12": {
-      "arrival": {
-        "iata": "SGA",
-        "name": "Sheghnan Airport",
-        "place": "Shiveh",
-        "km": 3.8,
-        "type": "small_airport"
-      },
-      "gateway": {
-        "iata": "TJU",
-        "name": "Kulob International Airport",
-        "place": "Kulob",
-        "km": 163.1,
-        "type": "large_airport"
-      }
-    },
-    "asia-2026-14": {
-      "arrival": {
-        "iata": "PKR",
-        "name": "Pokhara Domestic Airport",
-        "place": "Pokhara",
-        "km": 25.1,
-        "type": "medium_airport"
-      }
-    },
     "asia-2026-18": {
       "arrival": {
         "iata": "SKD",
         "name": "Samarkand International Airport",
         "place": "Samarkand",
         "km": 1.6,
-        "type": "large_airport"
-      }
-    },
-    "asia-2026-19": {
-      "arrival": {
-        "iata": "LTG",
-        "name": "Langtang Airport",
-        "place": "Langtang",
-        "km": 21.6,
-        "type": "small_airport"
-      },
-      "gateway": {
-        "iata": "KTM",
-        "name": "Tribhuvan International Airport",
-        "place": "Kathmandu",
-        "km": 42.9,
-        "type": "large_airport"
-      }
-    },
-    "asia-2026-20": {
-      "arrival": {
-        "iata": "DYU",
-        "name": "Dushanbe International Airport",
-        "place": "Dushanbe",
-        "km": 7.0,
         "type": "large_airport"
       }
     },
@@ -2471,24 +2380,6 @@
         "type": "large_airport"
       }
     },
-    "asia-2026-41": {
-      "arrival": {
-        "iata": "IKU",
-        "name": "Issyk-Kul International Airport",
-        "place": "Tamchy",
-        "km": 88.6,
-        "type": "large_airport"
-      }
-    },
-    "asia-2026-42": {
-      "arrival": {
-        "iata": "HQL",
-        "name": "Tashikuergan Hongqilafu Airport",
-        "place": "Tashikuergan",
-        "km": 129.6,
-        "type": "medium_airport"
-      }
-    },
     "asia-2026-43": {
       "arrival": {
         "iata": "APJ",
@@ -2523,15 +2414,6 @@
         "type": "medium_airport"
       }
     },
-    "asia-2026-46": {
-      "arrival": {
-        "iata": "GWL",
-        "name": "Gwalior Airport",
-        "place": "Gwalior",
-        "km": 10.9,
-        "type": "medium_airport"
-      }
-    },
     "asia-2026-48": {
       "arrival": {
         "iata": "BOM",
@@ -2539,22 +2421,6 @@
         "place": "Mumbai",
         "km": 19.2,
         "type": "large_airport"
-      }
-    },
-    "asia-2026-49": {
-      "arrival": {
-        "iata": "JMO",
-        "name": "Jomsom Airport",
-        "place": "Jomsom",
-        "km": 5.4,
-        "type": "small_airport"
-      },
-      "gateway": {
-        "iata": "PKR",
-        "name": "Pokhara Domestic Airport",
-        "place": "Pokhara",
-        "km": 67.8,
-        "type": "medium_airport"
       }
     },
     "asia-2026-50": {
@@ -2584,46 +2450,12 @@
         "type": "large_airport"
       }
     },
-    "africa-2026-4": {
-      "arrival": {
-        "iata": "MZI",
-        "name": "Mopti Airport",
-        "place": "Sévaré",
-        "km": 82.2,
-        "type": "medium_airport"
-      }
-    },
     "africa-2026-7": {
       "arrival": {
         "iata": "ADD",
         "name": "Addis Ababa Bole International Airport",
         "place": "Addis Ababa",
         "km": 6.5,
-        "type": "large_airport"
-      }
-    },
-    "africa-2026-8": {
-      "arrival": {
-        "iata": "DUR",
-        "name": "King Shaka International Airport",
-        "place": "Durban",
-        "km": 35.2,
-        "type": "large_airport"
-      }
-    },
-    "africa-2026-9": {
-      "arrival": {
-        "iata": "ZZU",
-        "name": "Mzuzu Airport",
-        "place": "Mzuzu",
-        "km": 79.8,
-        "type": "medium_airport"
-      },
-      "gateway": {
-        "iata": "LLW",
-        "name": "Kamuzu International Airport",
-        "place": "Lumbadzi",
-        "km": 199.3,
         "type": "large_airport"
       }
     },
@@ -2713,15 +2545,6 @@
         "type": "large_airport"
       }
     },
-    "africa-2026-18": {
-      "arrival": {
-        "iata": "CPT",
-        "name": "Cape Town International Airport",
-        "place": "Cape Town",
-        "km": 75.9,
-        "type": "large_airport"
-      }
-    },
     "africa-2026-19": {
       "arrival": {
         "iata": "TOM",
@@ -2731,30 +2554,12 @@
         "type": "large_airport"
       }
     },
-    "africa-2026-20": {
-      "arrival": {
-        "iata": "RAK",
-        "name": "Marrakesh Menara Airport",
-        "place": "Marrakesh",
-        "km": 5.5,
-        "type": "large_airport"
-      }
-    },
     "africa-2026-21": {
       "arrival": {
         "iata": "ZNZ",
         "name": "Abeid Amani Karume International Airport",
         "place": "Zanzibar",
         "km": 7.4,
-        "type": "large_airport"
-      }
-    },
-    "africa-2026-22": {
-      "arrival": {
-        "iata": "LVI",
-        "name": "Harry Mwanga Nkumbula International Airport",
-        "place": "Livingstone",
-        "km": 11.4,
         "type": "large_airport"
       }
     },
@@ -2788,15 +2593,6 @@
         "place": "Lichinga",
         "km": 93.9,
         "type": "medium_airport"
-      }
-    },
-    "africa-2026-25": {
-      "arrival": {
-        "iata": "ACC",
-        "name": "Kotoka International Airport",
-        "place": "Accra",
-        "km": 57.6,
-        "type": "large_airport"
       }
     },
     "africa-2026-26": {
@@ -2876,31 +2672,6 @@
         "type": "large_airport"
       }
     },
-    "africa-2026-33": {
-      "arrival": {
-        "iata": "LTA",
-        "name": "Tzaneen Airport",
-        "place": "Tzaneen",
-        "km": 24.6,
-        "type": "medium_airport"
-      },
-      "gateway": {
-        "iata": "PTG",
-        "name": "Polokwane International Airport",
-        "place": "Polokwane",
-        "km": 70.2,
-        "type": "large_airport"
-      }
-    },
-    "africa-2026-34": {
-      "arrival": {
-        "iata": "OZG",
-        "name": "Zagora Airport",
-        "place": "Zagora",
-        "km": 51.4,
-        "type": "large_airport"
-      }
-    },
     "africa-2026-35": {
       "arrival": {
         "iata": "LFW",
@@ -2935,15 +2706,6 @@
         "type": "large_airport"
       }
     },
-    "africa-2026-38": {
-      "arrival": {
-        "iata": "ACC",
-        "name": "Kotoka International Airport",
-        "place": "Accra",
-        "km": 1.6,
-        "type": "large_airport"
-      }
-    },
     "africa-2026-39": {
       "arrival": {
         "iata": "MTS",
@@ -2960,15 +2722,6 @@
         "type": "large_airport"
       }
     },
-    "africa-2026-40": {
-      "arrival": {
-        "iata": "TKD",
-        "name": "Takoradi Airport",
-        "place": "Sekondi-Takoradi",
-        "km": 19.7,
-        "type": "medium_airport"
-      }
-    },
     "africa-2026-41": {
       "arrival": {
         "iata": "BCO",
@@ -2978,40 +2731,6 @@
         "type": "medium_airport"
       }
     },
-    "africa-2026-42": {
-      "arrival": {
-        "iata": "AJY",
-        "name": "Mano Dayak International Airport",
-        "place": "Agadez",
-        "km": 56.0,
-        "type": "medium_airport"
-      },
-      "gateway": {
-        "iata": "ZND",
-        "name": "Zinder Airport",
-        "place": "Zinder",
-        "km": 328.2,
-        "type": "medium_airport"
-      }
-    },
-    "africa-2026-43": {
-      "arrival": {
-        "iata": "TOM",
-        "name": "Tombouktou Airport",
-        "place": "Timbuktu",
-        "km": 3.4,
-        "type": "large_airport"
-      }
-    },
-    "africa-2026-44": {
-      "arrival": {
-        "iata": "OZZ",
-        "name": "Ouarzazate International Airport",
-        "place": "Ouarzazate",
-        "km": 82.3,
-        "type": "large_airport"
-      }
-    },
     "africa-2026-45": {
       "arrival": {
         "iata": "FEZ",
@@ -3019,49 +2738,6 @@
         "place": "Saïss",
         "km": 17.4,
         "type": "large_airport"
-      }
-    },
-    "africa-2026-46": {
-      "arrival": {
-        "iata": "CIP",
-        "name": "Chipata Airport",
-        "place": "Chipata",
-        "km": 9.8,
-        "type": "small_airport"
-      },
-      "gateway": {
-        "iata": "MFU",
-        "name": "Mfuwe International Airport",
-        "place": "Mfuwe",
-        "km": 86.5,
-        "type": "large_airport"
-      }
-    },
-    "africa-2026-47": {
-      "arrival": {
-        "iata": "MUB",
-        "name": "Maun International Airport",
-        "place": "Maun",
-        "km": 2.5,
-        "type": "large_airport"
-      }
-    },
-    "africa-2026-48": {
-      "arrival": {
-        "iata": "LVI",
-        "name": "Harry Mwanga Nkumbula International Airport",
-        "place": "Livingstone",
-        "km": 4.5,
-        "type": "large_airport"
-      }
-    },
-    "africa-2026-49": {
-      "arrival": {
-        "iata": "LAU",
-        "name": "Manda Airport",
-        "place": "Lamu",
-        "km": 1.7,
-        "type": "medium_airport"
       }
     },
     "africa-2026-50": {
@@ -3088,22 +2764,6 @@
         "name": "King Khalid International Airport",
         "place": "Riyadh",
         "km": 9.2,
-        "type": "large_airport"
-      }
-    },
-    "middle-east-2026-3": {
-      "arrival": {
-        "iata": "DHF",
-        "name": "Al Dhafra Air Base",
-        "place": "AE",
-        "km": 108.8,
-        "type": "medium_airport"
-      },
-      "gateway": {
-        "iata": "AUH",
-        "name": "Zayed International Airport",
-        "place": "Abu Dhabi",
-        "km": 130.5,
         "type": "large_airport"
       }
     },
@@ -3140,38 +2800,6 @@
         "name": "Baghdad International Airport / New Al Muthana Air Base",
         "place": "Baghdad",
         "km": 75.5,
-        "type": "large_airport"
-      }
-    },
-    "middle-east-2026-8": {
-      "arrival": {
-        "iata": "MNH",
-        "name": "Mussanah Airport",
-        "place": "Al Masna'ah",
-        "km": 65.8,
-        "type": "medium_airport"
-      },
-      "gateway": {
-        "iata": "MCT",
-        "name": "Muscat International Airport",
-        "place": "Muscat/Seeb",
-        "km": 86.9,
-        "type": "large_airport"
-      }
-    },
-    "middle-east-2026-9": {
-      "arrival": {
-        "iata": "DHF",
-        "name": "Al Dhafra Air Base",
-        "place": "AE",
-        "km": 148.0,
-        "type": "medium_airport"
-      },
-      "gateway": {
-        "iata": "AUH",
-        "name": "Zayed International Airport",
-        "place": "Abu Dhabi",
-        "km": 171.6,
         "type": "large_airport"
       }
     },
@@ -3234,31 +2862,6 @@
         "type": "medium_airport"
       }
     },
-    "middle-east-2026-15": {
-      "arrival": {
-        "iata": "BEY",
-        "name": "Beirut Rafic Hariri International Airport",
-        "place": "Beirut",
-        "km": 16.8,
-        "type": "large_airport"
-      }
-    },
-    "middle-east-2026-16": {
-      "arrival": {
-        "iata": "DHL",
-        "name": "Ad-Dali Airport",
-        "place": "Ad-Dali",
-        "km": 36.6,
-        "type": "small_airport"
-      },
-      "gateway": {
-        "iata": "ADE",
-        "name": "Aden International Airport",
-        "place": "Aden",
-        "km": 77.0,
-        "type": "large_airport"
-      }
-    },
     "middle-east-2026-17": {
       "arrival": {
         "iata": "TIF",
@@ -3274,31 +2877,6 @@
         "name": "Muscat International Airport",
         "place": "Muscat/Seeb",
         "km": 11.9,
-        "type": "large_airport"
-      }
-    },
-    "middle-east-2026-19": {
-      "arrival": {
-        "iata": "SXI",
-        "name": "Siri Airport",
-        "place": "Siri",
-        "km": 83.0,
-        "type": "medium_airport"
-      },
-      "gateway": {
-        "iata": "AUH",
-        "name": "Zayed International Airport",
-        "place": "Abu Dhabi",
-        "km": 96.9,
-        "type": "large_airport"
-      }
-    },
-    "middle-east-2026-20": {
-      "arrival": {
-        "iata": "KWI",
-        "name": "Kuwait International Airport",
-        "place": "Kuwait City",
-        "km": 16.2,
         "type": "large_airport"
       }
     },
@@ -3338,15 +2916,6 @@
         "type": "large_airport"
       }
     },
-    "middle-east-2026-25": {
-      "arrival": {
-        "iata": "TLV",
-        "name": "Ben Gurion International Airport",
-        "place": "Tel Aviv",
-        "km": 42.1,
-        "type": "large_airport"
-      }
-    },
     "middle-east-2026-26": {
       "arrival": {
         "iata": "THR",
@@ -3379,40 +2948,6 @@
         "place": "Pendik, Istanbul",
         "km": 30.6,
         "type": "large_airport"
-      }
-    },
-    "middle-east-2026-29": {
-      "arrival": {
-        "iata": "MCT",
-        "name": "Muscat International Airport",
-        "place": "Muscat/Seeb",
-        "km": 31.1,
-        "type": "large_airport"
-      }
-    },
-    "middle-east-2026-30": {
-      "arrival": {
-        "iata": "NHD",
-        "name": "Al Minhad Air Base",
-        "place": "Dubai",
-        "km": 7.6,
-        "type": "medium_airport"
-      },
-      "gateway": {
-        "iata": "DXB",
-        "name": "Dubai International Airport",
-        "place": "Dubai",
-        "km": 22.3,
-        "type": "large_airport"
-      }
-    },
-    "middle-east-2026-31": {
-      "arrival": {
-        "iata": "SMI",
-        "name": "Samos Airport",
-        "place": "Samos Island",
-        "km": 26.3,
-        "type": "medium_airport"
       }
     },
     "middle-east-2026-32": {
@@ -3474,33 +3009,6 @@
         "type": "medium_airport"
       }
     },
-    "middle-east-2026-37": {
-      "arrival": {
-        "iata": "ABS",
-        "name": "Abu Simbel Airport",
-        "place": "Abu Simbel",
-        "km": 5.2,
-        "type": "medium_airport"
-      }
-    },
-    "middle-east-2026-38": {
-      "arrival": {
-        "iata": "CMN",
-        "name": "Mohammed V International Airport",
-        "place": "Casablanca",
-        "km": 22.6,
-        "type": "large_airport"
-      }
-    },
-    "middle-east-2026-39": {
-      "arrival": {
-        "iata": "DIA",
-        "name": "Doha International Airport",
-        "place": "Doha",
-        "km": 3.8,
-        "type": "large_airport"
-      }
-    },
     "middle-east-2026-40": {
       "arrival": {
         "iata": "EBL",
@@ -3510,37 +3018,12 @@
         "type": "large_airport"
       }
     },
-    "middle-east-2026-41": {
-      "arrival": {
-        "iata": "ISL",
-        "name": "İstanbul Atatürk Airport",
-        "place": "Istanbul(Bakırköy)",
-        "km": 13.4,
-        "type": "large_airport"
-      },
-      "gateway": {
-        "iata": "SAW",
-        "name": "Istanbul Sabiha Gökçen International Airport",
-        "place": "Pendik, Istanbul",
-        "km": 31.5,
-        "type": "large_airport"
-      }
-    },
     "middle-east-2026-42": {
       "arrival": {
         "iata": "CAI",
         "name": "Cairo International Airport",
         "place": "Cairo",
         "km": 17.9,
-        "type": "large_airport"
-      }
-    },
-    "middle-east-2026-43": {
-      "arrival": {
-        "iata": "IFN",
-        "name": "Isfahan Shahid Beheshti International Airport",
-        "place": "Isfahan",
-        "km": 24.0,
         "type": "large_airport"
       }
     },
@@ -3577,24 +3060,6 @@
         "name": "Ben Gurion International Airport",
         "place": "Tel Aviv",
         "km": 40.6,
-        "type": "large_airport"
-      }
-    },
-    "middle-east-2026-48": {
-      "arrival": {
-        "iata": "MZR",
-        "name": "Mazar-i-Sharif International Airport",
-        "place": "Mazar-i-Sharif",
-        "km": 9.0,
-        "type": "large_airport"
-      }
-    },
-    "middle-east-2026-49": {
-      "arrival": {
-        "iata": "DWC",
-        "name": "Al Maktoum International Airport",
-        "place": "Dubai(Jebel Ali)",
-        "km": 19.4,
         "type": "large_airport"
       }
     },

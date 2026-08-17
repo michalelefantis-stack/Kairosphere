@@ -103,10 +103,24 @@ npm run build && npx cap sync android
   replacement is written from general knowledge, like the Southeast Asia
   entries. Accurate as far as it goes; not sourced.
 
-- **179 descriptions are thin rather than wrong** — 129 under 60 characters,
-  50 templated. The UI suppresses the templated ones and says "No sourced
-  description yet" instead of restating the title. 154 events still have no
-  briefing.
+- **The catalogue is 326 events, down from 372.** 46 were removed: their
+  descriptions were a single line and two rounds of Wikipedia searching under
+  different rules found nothing to replace them with. Mostly regional
+  festivals documented in Arabic, Persian, Kyrgyz or French rather than
+  English. `git revert` brings them back if that was the wrong call.
+
+- **Every event a reader can open now has a description of itself.**
+  `python -m pipeline.verify_descriptions` reports zero weak descriptions
+  reaching the UI. 83 catalogue lines are still thin, but all 83 have a
+  sourced briefing shown in front of them.
+
+- **The 50 natural phenomena were written by hand, not sourced.** Three
+  rounds of automated matching failed on them and failed dishonestly:
+  "Aurora Borealis" resolved to a Frederic Church painting of one, saiga
+  calving to *Bongo (antelope)*, the Valley of Flowers to a different valley
+  in Sikkim. Their names are descriptive phrases rather than article titles,
+  so the nearest match is always the place or the organism. Accurate as far
+  as they go; verify before selling a trip on one.
 
 ## Affiliate links
 

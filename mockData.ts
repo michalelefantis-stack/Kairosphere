@@ -1906,7 +1906,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-03-31',
     verified: true,
     region: 'Tromsø, Norway',
-    description: 'A spectacular natural phenomenon in Tromsø, Norway. Timing: Sept to March.',
+    description: 'Charged particles from the sun meet the upper atmosphere and make it glow, mostly green from oxygen, red and violet higher up. Tromsø sits under the auroral oval, so the lights appear on any clear dark night between roughly September and March rather than only during storms.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [69.65, 18.96]. General timing pattern: Sept to March.',
     imageUrl: 'https://images.unsplash.com/photo-1531366936337-7c912a4589a7?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -1921,7 +1921,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-09-30',
     verified: true,
     region: 'South Pole',
-    description: 'A spectacular natural phenomenon in South Pole. Timing: March to Sept.',
+    description: 'The southern counterpart of the northern lights, driven by the same solar wind striking the upper atmosphere. It is far harder to see than the aurora borealis for a simple reason: almost all of the land beneath the southern auroral oval is ocean or Antarctica.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-90, 0]. General timing pattern: March to Sept.',
     imageUrl: 'https://images.unsplash.com/photo-1504198453319-5ce911bafcde?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -1936,7 +1936,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-11-30',
     verified: true,
     region: 'Lake Maracaibo, Venezuela',
-    description: 'A spectacular natural phenomenon in Lake Maracaibo, Venezuela. Timing: Year-round (Peak: Sept/Oct).',
+    description: 'Where the Catatumbo River meets Lake Maracaibo, warm air off the water collides with cold air spilling from the Andes and produces near-continuous lightning. Storms occur on well over half the nights of the year, concentrated after dark and heaviest late in the wet season.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [9.75, -73]. General timing pattern: Year-round (Peak: Sept/Oct).',
     imageUrl: 'https://images.unsplash.com/photo-1461511669078-d46bf351cd6e?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -1951,7 +1951,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-11-30',
     verified: true,
     region: 'Burketown, Australia',
-    description: 'A spectacular natural phenomenon in Burketown, Australia. Timing: Late Sept to early Nov.',
+    description: 'A roll cloud that can run for a thousand kilometres, arriving over the Gulf of Carpentaria as a single tube of turning air moving ahead of a pressure surge. Glider pilots come to Burketown to soar along its leading edge, most reliably in spring.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-17.74, 139.55]. General timing pattern: Late Sept to early Nov.',
     imageUrl: 'https://images.unsplash.com/photo-1534088568595-a066f410bcda?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -1966,7 +1966,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-12-31',
     verified: true,
     region: 'Sakurajima, Japan',
-    description: 'A spectacular natural phenomenon in Sakurajima, Japan. Timing: Unpredictable (Eruption-dependent).',
+    description: 'Ash particles grind against each other inside an eruption column and separate charge, producing lightning inside the plume itself. Sakurajima erupts often enough that the effect has been photographed there more than almost anywhere, though it depends entirely on the volcano\'s own timing.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [31.59, 130.66]. General timing pattern: Unpredictable (Eruption-dependent).',
     imageUrl: 'https://images.unsplash.com/photo-1562557009-a4d26b0f5dae?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -1981,7 +1981,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-07-01',
     verified: true,
     region: 'Longyearbyen, Svalbard',
-    description: 'A spectacular natural phenomenon in Longyearbyen, Svalbard. Timing: April 20 to Aug 22.',
+    description: 'Above the Arctic Circle the sun does not set for weeks either side of the summer solstice. At Longyearbyen\'s latitude it stays up continuously from about late April to late August, circling the sky rather than rising and setting.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [78.22, 15.63]. General timing pattern: April 20 to Aug 22.',
     imageUrl: 'https://images.unsplash.com/photo-1507400492013-162706c8c05e?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -1996,7 +1996,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-08-30',
     verified: true,
     region: 'Victoria Falls, Zambia/Zimbabwe',
-    description: 'A spectacular natural phenomenon in Victoria Falls, Zambia/Zimbabwe. Timing: Full Moon, April to July.',
+    description: 'A rainbow formed by moonlight rather than sunlight, faint enough that the eye often reads it as white while a long exposure shows the colours. It needs a bright moon near full, and spray — which Victoria Falls supplies from its own gorge when the river is high.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-17.92, 25.86]. General timing pattern: Full Moon, April to July.',
     imageUrl: 'https://images.unsplash.com/photo-1507400492013-162706c8c05e?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2011,7 +2011,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-03-31',
     verified: true,
     region: 'The Brocken, Germany',
-    description: 'A spectacular natural phenomenon in The Brocken, Germany. Timing: Year-round (Misty conditions).',
+    description: 'The magnified shadow of an observer cast onto cloud or mist below them, ringed by coloured light. Named for the Harz mountain where it was first described, it appears whenever you stand between the sun and a bank of fog, which the Brocken provides for much of the year.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [51.8, 10.62]. General timing pattern: Year-round (Misty conditions).',
     imageUrl: 'https://images.unsplash.com/photo-1534088568595-a066f410bcda?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2026,7 +2026,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-08-31',
     verified: true,
     region: 'Matsu Islands, Taiwan',
-    description: 'A spectacular natural phenomenon in Matsu Islands, Taiwan. Timing: April to August.',
+    description: 'Dinoflagellates bloom in the waters around the Matsu Islands and emit blue light when the water is disturbed, so breaking waves and boat wakes glow at night. Strongest in the warmer months, and dependent on the bloom rather than on any date.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [26.15, 119.95]. General timing pattern: April to August.',
     imageUrl: 'https://images.unsplash.com/photo-1507400492013-162706c8c05e?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2041,7 +2041,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-12-15',
     verified: true,
     region: 'Odisha, India',
-    description: 'A spectacular natural phenomenon in Odisha, India. Timing: February to March.',
+    description: 'Olive ridley turtles come ashore to nest not singly but in an arribada — tens of thousands of females emerging over a few nights on the same stretch of sand. The Odisha rookeries are among the largest anywhere, and the timing shifts with weather and moon.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [19.38, 85.07]. General timing pattern: February to March.',
     imageUrl: 'https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2056,7 +2056,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-04-30',
     verified: true,
     region: 'Amazon Estuary, Brazil',
-    description: 'A spectacular natural phenomenon in Amazon Estuary, Brazil. Timing: Feb/March (Equinoxes).',
+    description: 'A spring tide pushes up the Amazon against the current as a standing wave that can travel far inland, audible before it arrives. Surfers ride it for minutes at a time, which is the point: the wave does not break and reform, it simply keeps going.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [0, -50]. General timing pattern: Feb/March (Equinoxes).',
     imageUrl: 'https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2071,7 +2071,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-10-15',
     verified: true,
     region: 'Haining, China',
-    description: 'A spectacular natural phenomenon in Haining, China. Timing: 18th day of 8th Lunar Month (Sept).',
+    description: 'The world\'s largest tidal bore, funnelled by the narrowing Hangzhou Bay into a wall of water that runs upstream past Haining. It is at its most dramatic around the eighth lunar month, when viewing has been a public occasion for well over a thousand years.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [30.53, 120.68]. General timing pattern: 18th day of 8th Lunar Month (Sept).',
     imageUrl: 'https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2086,7 +2086,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-04-30',
     verified: true,
     region: 'Gloucestershire, UK',
-    description: 'A spectacular natural phenomenon in Gloucestershire, UK. Timing: Spring/Autumn Equinoxes.',
+    description: 'The Severn\'s funnel-shaped estuary has one of the greatest tidal ranges on earth, and on the largest spring tides the incoming water forms a wave that travels upriver through Gloucestershire. Published tide tables rate each bore in advance, so the big ones are known months ahead.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [51.86, -2.24]. General timing pattern: Spring/Autumn Equinoxes.',
     imageUrl: 'https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2101,7 +2101,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-10-31',
     verified: true,
     region: 'Strait of Corryvreckan, Scotland',
-    description: 'A spectacular natural phenomenon in Strait of Corryvreckan, Scotland. Timing: New/Full Moon tides.',
+    description: 'Between Jura and Scarba the flood tide meets a pinnacle rising from the seabed and a deep hole beside it, throwing up standing waves and a whirlpool audible from the shore. It runs on the tide, so it is genuinely predictable — and genuinely dangerous.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [56.16, -5.73]. General timing pattern: New/Full Moon tides.',
     imageUrl: 'https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2116,7 +2116,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-11-30',
     verified: true,
     region: 'Broome, Australia',
-    description: 'A spectacular natural phenomenon in Broome, Australia. Timing: March to Oct (Full Moon).',
+    description: 'A full moon rising over exposed tidal flats at Roebuck Bay reflects off the wet mud in broken bands, so the light appears as a series of steps climbing to the horizon. It happens on a handful of evenings a month between roughly March and October.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-17.96, 122.24]. General timing pattern: March to Oct (Full Moon).',
     imageUrl: 'https://images.unsplash.com/photo-1532693322450-2cb5c511067d?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2131,7 +2131,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-08-31',
     verified: true,
     region: 'British Columbia, Canada',
-    description: 'A spectacular natural phenomenon in British Columbia, Canada. Timing: June to September.',
+    description: 'As the water evaporates each summer, the lake\'s dissolved minerals concentrate into hundreds of separate pools, each ringed and coloured by its own salts. It is on Okanagan Nation land and is viewed from the roadside rather than entered.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [49.08, -119.57]. General timing pattern: June to September.',
     imageUrl: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2146,7 +2146,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-09-30',
     verified: true,
     region: 'Maranhão, Brazil',
-    description: 'A spectacular natural phenomenon in Maranhão, Brazil. Timing: May to September.',
+    description: 'A field of white dunes that fills with rainwater rather than staying dry: the rains arrive, water collects in the hollows between the dunes and cannot drain through the rock beneath, leaving thousands of clear lagoons. They are fullest a month or two after the wet season, and gone by the end of the dry.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-2.53, -43.12]. General timing pattern: May to September.',
     imageUrl: 'https://images.unsplash.com/photo-1512100356356-de1b84283e18?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2161,7 +2161,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-02-28',
     verified: true,
     region: 'Lake Abraham, Canada',
-    description: 'A spectacular natural phenomenon in Lake Abraham, Canada. Timing: January to February.',
+    description: 'Methane from decaying plant matter on the lake bed rises in columns and is caught by the advancing ice, freezing into stacked white discs suspended beneath the surface. Best seen on clear black ice before snow covers it.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [52.22, -116.43]. General timing pattern: January to February.',
     imageUrl: 'https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2176,7 +2176,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-03-15',
     verified: true,
     region: 'Lake Baikal, Russia',
-    description: 'A spectacular natural phenomenon in Lake Baikal, Russia. Timing: February to March.',
+    description: 'Baikal freezes so clear that the ice itself is transparent, and pressure ridges shatter into slabs that stand on edge and glow turquoise in the light. It needs deep winter cold and, more importantly, wind that keeps the snow off.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [53.56, 108.17]. General timing pattern: February to March.',
     imageUrl: 'https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2191,7 +2191,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-12-31',
     verified: true,
     region: 'Lighthouse Reef, Belize',
-    description: 'A spectacular natural phenomenon in Lighthouse Reef, Belize. Timing: Nov to May (Dry Season).',
+    description: 'A limestone cave system that formed above sea level during the ice ages and flooded when the sea rose, leaving a near-circular shaft over a hundred metres deep in the middle of the reef. Divers descend past the old cave formations still hanging in the dark.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [17.32, -87.54]. General timing pattern: Nov to May (Dry Season).',
     imageUrl: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2206,7 +2206,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-11-30',
     verified: true,
     region: 'Serranía de la Macarena, Colombia',
-    description: 'A spectacular natural phenomenon in Serranía de la Macarena, Colombia. Timing: July to November.',
+    description: 'For a few months a year the riverbed plant Macarenia clavigera turns deep red, and against the yellow sand, green moss and blue water the river is known locally as the one that ran away from paradise. Too little water and it will not colour; too much and the plants are hidden.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [2.26, -73.79]. General timing pattern: July to November.',
     imageUrl: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2221,7 +2221,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-03-31',
     verified: true,
     region: 'Los Glaciares, Argentina',
-    description: 'A spectacular natural phenomenon in Los Glaciares, Argentina. Timing: Nov to March (Ruptures vary).',
+    description: 'One of the few glaciers not retreating, Perito Moreno advances until it dams an arm of the lake; the water rises behind the ice, tunnels through, and eventually collapses the arch in front of an audience. Smaller calving happens daily, the full rupture only every few years.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-50.47, -73.04]. General timing pattern: Nov to March (Ruptures vary).',
     imageUrl: 'https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2236,7 +2236,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-08-31',
     verified: true,
     region: 'Okavango, Botswana',
-    description: 'A spectacular natural phenomenon in Okavango, Botswana. Timing: June to August.',
+    description: 'Rain that falls in the Angolan highlands takes months to arrive here, so the delta floods at the height of the dry season — water spreading into the Kalahari exactly when there is none anywhere else, and drawing animals in behind it.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-19.42, 22.9]. General timing pattern: June to August.',
     imageUrl: 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2251,7 +2251,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-11-30',
     verified: true,
     region: 'Atacama, Chile',
-    description: 'A spectacular natural phenomenon in Atacama, Chile. Timing: Sept to Nov (El Niño years).',
+    description: 'In years when rain reaches the world\'s driest desert, seeds that have waited in the ground germinate at once and the gravel turns purple and white with flowers. It does not happen annually and cannot be booked in advance; it follows the rain.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-27.37, -70.33]. General timing pattern: Sept to Nov (El Niño years).',
     imageUrl: 'https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2266,7 +2266,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-09-30',
     verified: true,
     region: 'Northern Cape, South Africa',
-    description: 'A spectacular natural phenomenon in Northern Cape, South Africa. Timing: August to September.',
+    description: 'After the winter rains, a semi-arid landscape that looks bare for most of the year covers itself in orange and white daisies, opening with the sun and closing again in the afternoon. Roughly August into September, earlier or later with the rain.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-30.05, 17.6]. General timing pattern: August to September.',
     imageUrl: 'https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2281,7 +2281,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-05-31',
     verified: true,
     region: 'Anza-Borrego, USA',
-    description: 'A spectacular natural phenomenon in Anza-Borrego, USA. Timing: February to April.',
+    description: 'An unusually wet winter wakes a seed bank that can lie dormant for years, and desert hillsides turn to poppies and verbena. Superblooms are irregular by definition — the word exists precisely because the ordinary spring is nothing like it.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [33.26, -116.41]. General timing pattern: February to April.',
     imageUrl: 'https://images.unsplash.com/photo-1490750967868-88aa4f44baee?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2296,7 +2296,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-09-30',
     verified: true,
     region: 'Uttarakhand, India',
-    description: 'A spectacular natural phenomenon in Uttarakhand, India. Timing: Mid-July to Mid-August.',
+    description: 'A high Himalayan valley that spends most of the year under snow and, in the weeks after the monsoon arrives, fills with hundreds of alpine species in flower. The park opens for a short season and closes again with the weather.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [30.73, 79.62]. General timing pattern: Mid-July to Mid-August.',
     imageUrl: 'https://images.unsplash.com/photo-1490750967868-88aa4f44baee?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2311,7 +2311,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-07-10',
     verified: true,
     region: 'Umbria, Italy',
-    description: 'A spectacular natural phenomenon in Umbria, Italy. Timing: Late June to early July.',
+    description: 'The high plain above Castelluccio is farmed for lentils, and as the crop comes into flower the wild poppies, cornflowers and mustard come with it, laying bands of red, blue and yellow across the basin. Late spring into early summer, and short.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [42.83, 13.21]. General timing pattern: Late June to early July.',
     imageUrl: 'https://images.unsplash.com/photo-1490750967868-88aa4f44baee?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2326,7 +2326,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-05-10',
     verified: true,
     region: 'Kyoto, Japan',
-    description: 'A spectacular natural phenomenon in Kyoto, Japan. Timing: Late March to early April.',
+    description: 'The bloom advances northward up the archipelago as spring warms, tracked and forecast as a moving line. Any single tree is at its best for only a few days, so the front matters more than the date: it tells you where the peak is this week.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [35.01, 135.77]. General timing pattern: Late March to early April.',
     imageUrl: 'https://images.unsplash.com/photo-1522383225653-ed111181a951?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2341,7 +2341,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-05-20',
     verified: true,
     region: 'Micheldever, UK',
-    description: 'A spectacular natural phenomenon in Micheldever, UK. Timing: Late April to May.',
+    description: 'English woodland floors turn blue for a few weeks in spring, as bluebells flower and set seed before the tree canopy closes over them and takes the light. Ancient woodland holds the densest carpets, and the flowers are easily destroyed by being walked on.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [51.15, -1.22]. General timing pattern: Late April to May.',
     imageUrl: 'https://images.unsplash.com/photo-1444930694458-01babde71a13?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2356,7 +2356,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-10-15',
     verified: true,
     region: 'Matsumoto, Japan',
-    description: 'A spectacular natural phenomenon in Japanese Alps. Timing: October.',
+    description: 'Larch is a conifer that sheds its needles, and before it does they turn gold. In the mountains around Matsumoto the change runs down the slopes as autumn deepens, so altitude decides the timing as much as the calendar.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [36.27, 137.63]. General timing pattern: October.',
     imageUrl: 'https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2371,7 +2371,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-07-31',
     verified: true,
     region: 'Port St Johns, South Africa',
-    description: 'A spectacular natural phenomenon in Port St Johns, South Africa. Timing: May to July.',
+    description: 'Cold currents carry billions of sardines north along the coast, and everything that eats them follows: dolphins working the shoals into bait balls, sharks, gannets diving from height, whales moving through. Roughly May to July, and it fails in some years.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-31.62, 29.43]. General timing pattern: May to July.',
     imageUrl: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2386,7 +2386,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-12-31',
     verified: true,
     region: 'Australia',
-    description: 'A spectacular natural phenomenon in Christmas Island. Timing: Oct to Dec (Last Moon Quarter).',
+    description: 'Tens of millions of red land crabs leave the forest and cross the island to spawn at the sea, closing roads and covering ground in a moving red sheet. The migration is triggered by the first rains of the wet season and timed to a particular moon and tide.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-10.48, 105.63]. General timing pattern: Oct to Dec (Last Moon Quarter).',
     imageUrl: 'https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2401,7 +2401,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-12-20',
     verified: true,
     region: 'Great Barrier Reef, Australia',
-    description: 'A spectacular natural phenomenon in Great Barrier Reef, Australia. Timing: Nov/Dec (Post-Full Moon).',
+    description: 'On a few nights after a full moon in the warmer months, corals across the reef release eggs and sperm simultaneously, filling the water with slicks of pink. The synchrony is the remarkable part: a reef reproducing at once, in the dark.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-18.29, 147.7]. General timing pattern: Nov/Dec (Post-Full Moon).',
     imageUrl: 'https://images.unsplash.com/photo-1546026423-cc4642628d2b?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2416,7 +2416,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-08-31',
     verified: true,
     region: 'Southern California, USA',
-    description: 'A spectacular natural phenomenon in Southern California, USA. Timing: March to Aug (New/Full Moon).',
+    description: 'A small fish that spawns on land. On certain nights after the highest tides, grunion strand themselves on southern Californian beaches, the females burying their tails to lay before the next wave carries them back out.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [33.71, -118.29]. General timing pattern: March to Aug (New/Full Moon).',
     imageUrl: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2431,7 +2431,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-06-30',
     verified: true,
     region: 'Delaware Bay, USA',
-    description: 'A spectacular natural phenomenon in Delaware Bay, USA. Timing: May and June (New/Full Moon).',
+    description: 'An animal older than the dinosaurs comes ashore in Delaware Bay on the spring tides to lay in the sand, and migrating shorebirds time their arrival to eat the eggs. Late spring, on the highest tides around new and full moon.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [39, -75.2]. General timing pattern: May and June (New/Full Moon).',
     imageUrl: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2446,7 +2446,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-11-30',
     verified: true,
     region: 'Hanifaru Bay, Maldives',
-    description: 'A spectacular natural phenomenon in Hanifaru Bay, Maldives. Timing: May to Nov (Peak: July–Oct).',
+    description: 'When the tide traps plankton in Hanifaru Bay, reef mantas gather to feed in numbers, circling in chains and somersaulting through the concentration. It depends on the tide and the plankton, mainly in the southwest monsoon.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [5.17, 73.13]. General timing pattern: May to Nov (Peak: July–Oct).',
     imageUrl: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2461,7 +2461,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-06-30',
     verified: true,
     region: 'Nunavut, Canada',
-    description: 'A spectacular natural phenomenon in Nunavut, Canada. Timing: May to June.',
+    description: 'At the edge of the landfast ice, where solid ice gives way to open water, narwhal gather in early summer as the floe edge retreats. Reaching it means travelling out over the sea ice with people who know its condition.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [72.7, -77.96]. General timing pattern: May to June.',
     imageUrl: 'https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2476,7 +2476,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-01-31',
     verified: true,
     region: 'Troms, Norway',
-    description: 'A spectacular natural phenomenon in Northern Norway. Timing: October to January.',
+    description: 'Orca herd herring into a tight ball, drive it towards the surface and stun the fish with their tails before feeding. It happens where the herring overwinter in the northern Norwegian fjords, in the dark months, often with humpbacks working the same shoal.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [69.97, 21]. General timing pattern: October to January.',
     imageUrl: 'https://images.unsplash.com/photo-1568430462989-44163eb1752f?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2491,7 +2491,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-10-31',
     verified: true,
     region: 'Mara River, Kenya',
-    description: 'A spectacular natural phenomenon in Mara River, Kenya. Timing: July to October.',
+    description: 'Over a million wildebeest move in a continuous circuit through the Serengeti and Masai Mara following the rain and the grass. The river crossings are the famous part and the least predictable: the herds gather for days before anything happens.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-1.57, 35]. General timing pattern: July to October.',
     imageUrl: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2506,7 +2506,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-03-31',
     verified: true,
     region: 'Michoacán, Mexico',
-    description: 'A spectacular natural phenomenon in Michoacán, Mexico. Timing: November to March.',
+    description: 'Monarch butterflies from across eastern North America converge on a few hectares of high-altitude fir forest in Michoacán, clustering so densely that branches bend. No individual makes the round trip; the butterflies that return north are several generations removed from those that left.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [19.6, -100.27]. General timing pattern: November to March.',
     imageUrl: 'https://images.unsplash.com/photo-1559253664-ca249d4608c6?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2521,7 +2521,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-12-15',
     verified: true,
     region: 'Kasanka, Zambia',
-    description: 'A spectacular natural phenomenon in Kasanka, Zambia. Timing: Late Oct to Mid-Dec.',
+    description: 'Straw-coloured fruit bats gather in a small patch of swamp forest in numbers estimated in the millions — thought to be the largest mammal migration anywhere. They arrive with the fruiting season and leave when it ends, roughly November into December.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-12.57, 30.18]. General timing pattern: Late Oct to Mid-Dec.',
     imageUrl: 'https://images.unsplash.com/photo-1504006833117-8886a355efbf?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2536,7 +2536,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-11-30',
     verified: true,
     region: 'Nagaland, India',
-    description: 'A spectacular natural phenomenon in Nagaland, India. Timing: October to November.',
+    description: 'Amur falcons stop in Nagaland to feed before crossing the Arabian Sea to Africa, one of the longest over-water flights of any raptor. Villages that once trapped them in large numbers now protect the roosts, and the birds pass through in autumn.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [26.24, 94.31]. General timing pattern: October to November.',
     imageUrl: 'https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2551,7 +2551,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-06-20',
     verified: true,
     region: 'Great Smoky Mtns, USA',
-    description: 'A spectacular natural phenomenon in Great Smoky Mtns, USA. Timing: Late May to Mid-June.',
+    description: 'One firefly species in the Smokies flashes in unison rather than at random, producing waves of light through the trees followed by darkness. The display lasts a couple of weeks in early summer and access is balloted.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [35.65, -83.58]. General timing pattern: Late May to Mid-June.',
     imageUrl: 'https://images.unsplash.com/photo-1507400492013-162706c8c05e?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2566,7 +2566,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-03-31',
     verified: true,
     region: 'Maolin, Taiwan',
-    description: 'A spectacular natural phenomenon in Maolin, Taiwan. Timing: November to March.',
+    description: 'Purple crow butterflies overwinter in the sheltered valleys of southern Taiwan in enormous numbers, and when they leave in spring the authorities close a motorway lane to let them cross. One of only two known butterfly overwintering migrations of this scale.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [22.88, 120.67]. General timing pattern: November to March.',
     imageUrl: 'https://images.unsplash.com/photo-1559253664-ca249d4608c6?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2581,7 +2581,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-05-31',
     verified: true,
     region: 'Betpak-Dala, Kazakhstan',
-    description: 'A spectacular natural phenomenon in Betpak-Dala, Kazakhstan. Timing: May (One specific week).',
+    description: 'Saiga gather on the steppe to give birth within a few days of each other, so the calves arrive in an overwhelming pulse that predators cannot keep pace with. The species has come back from catastrophic die-offs, and the calving grounds are kept at a distance.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [48, 67]. General timing pattern: May (One specific week).',
     imageUrl: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2596,7 +2596,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-12-31',
     verified: true,
     region: 'Portland, USA',
-    description: 'A spectacular natural phenomenon in Portland, USA. Timing: September.',
+    description: 'On autumn migration, thousands of Vaux\'s swifts funnel into a single brick chimney in Portland to roost for the night, spiralling into it at dusk in a column. Crowds gather on the lawn opposite to watch them go in.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [45.53, -122.71]. General timing pattern: September.',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Mary-vaux-walcott.jpg',
     mediaLinks: {}
@@ -2611,7 +2611,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-12-31',
     verified: true,
     region: 'Cueva del Guácharo, Venezuela',
-    description: 'A spectacular natural phenomenon in Cueva del Guácharo, Venezuela. Timing: Daily at dusk (Peak: April/May).',
+    description: 'Oilbirds are nocturnal, fruit-eating and echolocating, and they leave the Cueva del Guácharo in a clattering stream at dusk to feed. The colony numbers in the thousands and the cave is protected as a national monument.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [10.17, -63.55]. General timing pattern: Daily at dusk (Peak: April/May).',
     imageUrl: 'https://images.unsplash.com/photo-1504006833117-8886a355efbf?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2626,7 +2626,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-11-30',
     verified: true,
     region: 'Missouri/NM, USA',
-    description: 'A spectacular natural phenomenon in Missouri/NM, USA. Timing: Nov to Jan / Feb to March.',
+    description: 'Snow geese stage in vast flocks on their way south and north again, lifting off a lake all at once in a roar that carries for a mile. Numbers peak on passage rather than through the winter, so the timing is everything.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [40.08, -95.23]. General timing pattern: Nov to Jan / Feb to March.',
     imageUrl: 'https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2641,7 +2641,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-10-31',
     verified: true,
     region: 'Lake Natron, Tanzania',
-    description: 'A spectacular natural phenomenon in Lake Natron, Tanzania. Timing: August to October.',
+    description: 'Lesser flamingos breed almost nowhere else. The lake\'s caustic soda water keeps predators out, and the birds nest on salt mounds in the middle of it, which is exactly why the colony survives.',
     insights: 'The Global Phenological Atlas records this event globally. Location coordinates: [-2.42, 36]. General timing pattern: August to October.',
     imageUrl: 'https://images.unsplash.com/photo-1497206365907-f5e630693df0?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
@@ -2960,21 +2960,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     description: 'An exuberant horse-racing festival marking the end of the harvest in Mustang.',
     insights: 'Features thrilling bareback horse racing, archery, and dancing by locals clad in traditional Tibetan garments.',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Haribodhani_Ekadashi_Thulo_Ekadashi_Nepal_Festival_Kathmandu_Nepal_Rajesh_Dhungana_%2810%29.jpg/960px-Haribodhani_Ekadashi_Thulo_Ekadashi_Nepal_Festival_Kathmandu_Nepal_Rajesh_Dhungana_%2810%29.jpg',
-    mediaLinks: {}
-  },
-  {
-    id: 'nepal-dumji',
-    title: 'Dumji',
-    coordinates: [27.80, 86.71],
-    ritualType: RitualType.CEREMONY,
-    subCategory: 'Ritual',
-    startDate: '2026-07-01',
-    endDate: '2026-07-07',
-    verified: true,
-    region: 'Namche/Khumjung, Nepal',
-    description: 'Sherpa community rites celebrating Guru Rinpoche.',
-    insights: 'Villages collectively sponsor feasts and engage in serious traditional Tibetan rites combined with Sherpa merriment in the Everest region.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/8/8e/Speelkaarten%2C_asset_xdRFUJ2EXYI2ejTmJcDUMjiC.jpg',
     mediaLinks: {}
   },
   // --- BATCH 2 ---
@@ -3324,21 +3309,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     mediaLinks: {}
   },
   {
-    id: 'asia-2026-5',
-    title: 'Boysun Bahori (Spring)',
-    coordinates: [38.21, 67.2],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Boysun, Uzbekistan',
-    description: 'Boysun Bahori (Spring) celebrated in Boysun, Uzbekistan.',
-    insights: 'An incredible cultural event occurring around April 25–27.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/GAYA1966.jpg/960px-GAYA1966.jpg',
-    mediaLinks: {}
-  },
-  {
     id: 'asia-2026-6',
     title: 'World Nomad Games',
     coordinates: [42.64, 77.08],
@@ -3351,21 +3321,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     description: 'World Nomad Games celebrated in Cholpon-Ata, Kyrgyzstan.',
     insights: 'An incredible cultural event occurring around Aug 31 – Sep 6.',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Kok-boru_2018_World_Nomad_Games.jpg/960px-Kok-boru_2018_World_Nomad_Games.jpg',
-    mediaLinks: {}
-  },
-  {
-    id: 'asia-2026-7',
-    title: 'Birds of Prey Festival',
-    coordinates: [42.15, 77.05],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Ton, Kyrgyzstan',
-    description: 'Birds of Prey Festival celebrated in Ton, Kyrgyzstan.',
-    insights: 'An incredible cultural event occurring around August 8–10.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Birds_of_Bray_and_their_birds_of_prey_at_Linslade_Canal_Festival_2023_-_geograph.org.uk_-_7555408.jpg',
     mediaLinks: {}
   },
   {
@@ -3414,36 +3369,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     mediaLinks: {}
   },
   {
-    id: 'asia-2026-12',
-    title: 'Roof of the World Fest',
-    coordinates: [37.49, 71.55],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Khorog, Tajikistan',
-    description: 'Roof of the World Fest celebrated in Khorog, Tajikistan.',
-    insights: 'An incredible cultural event occurring around Late July.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/c/ce/PM_Modi_speaking_at_the_closing_function_of_the_Manipur_Sangai_Festival.jpg',
-    mediaLinks: {}
-  },
-  {
-    id: 'asia-2026-14',
-    title: 'Honey Hunting Ritual',
-    coordinates: [28.39, 84.12],
-    ritualType: RitualType.CEREMONY,
-    subCategory: 'Ritual',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Lamjung, Nepal',
-    description: 'Honey Hunting Ritual celebrated in Lamjung, Nepal.',
-    insights: 'An incredible cultural event occurring around May & Nov.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Haribodhani_Ekadashi_Thulo_Ekadashi_Nepal_Festival_Kathmandu_Nepal_Rajesh_Dhungana_%2810%29.jpg/960px-Haribodhani_Ekadashi_Thulo_Ekadashi_Nepal_Festival_Kathmandu_Nepal_Rajesh_Dhungana_%2810%29.jpg',
-    mediaLinks: {}
-  },
-  {
     id: 'asia-2026-18',
     title: 'Buzkashi (Kupkari)',
     coordinates: [39.7, 67],
@@ -3456,36 +3381,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     description: 'Buzkashi (Kupkari) celebrated in Samarkand Steppes.',
     insights: 'An incredible cultural event occurring around Mar & Oct.',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Buzkashi%2C_national_sport.jpg/960px-Buzkashi%2C_national_sport.jpg',
-    mediaLinks: {}
-  },
-  {
-    id: 'asia-2026-19',
-    title: 'Janai Purnima',
-    coordinates: [28.08, 85.41],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Gosaikunda, Nepal',
-    description: 'Janai Purnima celebrated in Gosaikunda, Nepal.',
-    insights: 'An incredible cultural event occurring around August 28.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/f/f2/%27Janai_Purnima_mela%27_in_Gosainkunda.JPG',
-    mediaLinks: {}
-  },
-  {
-    id: 'asia-2026-20',
-    title: 'Sada Fire Festival',
-    coordinates: [38.57, 68.75],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Fire',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Dushanbe, Tajikistan',
-    description: 'Sada Fire Festival celebrated in Dushanbe, Tajikistan.',
-    insights: 'An incredible cultural event occurring around January 30.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/e9/JashnSadeh1.jpg',
     mediaLinks: {}
   },
   {
@@ -3594,36 +3489,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     mediaLinks: {}
   },
   {
-    id: 'asia-2026-41',
-    title: 'Kymyz Festival',
-    coordinates: [42.21, 75.75],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Kochkor, Kyrgyzstan',
-    description: 'Kymyz Festival celebrated in Kochkor, Kyrgyzstan.',
-    insights: 'An incredible cultural event occurring around June 20.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Festival_des_Handwerks%2C_Glasbl%C3%A4serei%2C_2024_Budapest.jpg/960px-Festival_des_Handwerks%2C_Glasbl%C3%A4serei%2C_2024_Budapest.jpg',
-    mediaLinks: {}
-  },
-  {
-    id: 'asia-2026-42',
-    title: 'At Chabysh (Horse)',
-    coordinates: [38.17, 73.96],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Murghab, Tajikistan',
-    description: 'At Chabysh (Horse) celebrated in Murghab, Tajikistan.',
-    insights: 'An incredible cultural event occurring around July 15.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/7/7d/Aardklop_Jazz_in_the_stadium_%28450083906%29.jpg',
-    mediaLinks: {}
-  },
-  {
     id: 'asia-2026-43',
     title: 'Saka Dawa (Kora)',
     coordinates: [31.06, 81.31],
@@ -3669,21 +3534,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     mediaLinks: {}
   },
   {
-    id: 'asia-2026-46',
-    title: 'Tansen Music Fest',
-    coordinates: [26.21, 78.17],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Gwalior, India',
-    description: 'Tansen Music Fest celebrated in Gwalior, India.',
-    insights: 'An incredible cultural event occurring around Dec 24–28.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Molgi%2C_Nadurbar%2C_Maharastra%2C_India._Tribal_Holi_Cultural_Folk_festival_2023_01.jpg/960px-Molgi%2C_Nadurbar%2C_Maharastra%2C_India._Tribal_Holi_Cultural_Folk_festival_2023_01.jpg',
-    mediaLinks: {}
-  },
-  {
     id: 'asia-2026-48',
     title: 'Kala Ghoda Arts',
     coordinates: [18.92, 72.83],
@@ -3696,21 +3546,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     description: 'Kala Ghoda Arts celebrated in Mumbai, India.',
     insights: 'An incredible cultural event occurring around Feb 7–15.',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/%27Kala_Ghoda_Selfie%27.JPG/960px-%27Kala_Ghoda_Selfie%27.JPG',
-    mediaLinks: {}
-  },
-  {
-    id: 'asia-2026-49',
-    title: 'Toren Lha (Archery)',
-    coordinates: [28.75, 83.68],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Marpha, Mustang',
-    description: 'Toren Lha (Archery) celebrated in Marpha, Mustang.',
-    insights: 'An incredible cultural event occurring around Feb/Mar.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/1447_AH_The_ritual_of_reciting_Ta%27zieh_on_the_day_of_Ashura_in_Minab_3_Mehr.jpg/960px-1447_AH_The_ritual_of_reciting_Ta%27zieh_on_the_day_of_Ashura_in_Minab_3_Mehr.jpg',
     mediaLinks: {}
   },
   {
@@ -3759,21 +3594,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     mediaLinks: {}
   },
   {
-    id: 'africa-2026-4',
-    title: 'Fête des Masques',
-    coordinates: [14.44, -3.32],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Dogon Country, Mali',
-    description: 'Fête des Masques celebrated in Dogon Country, Mali.',
-    insights: 'An incredible cultural event occurring around April/May.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/f/f6/La_F%C3%AAte_des_Champs_Elis%C3%A9es._G.28226.jpg',
-    mediaLinks: {}
-  },
-  {
     id: 'africa-2026-7',
     title: 'Meskel (Finding Cross)',
     coordinates: [9.01, 38.75],
@@ -3786,36 +3606,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     description: 'Meskel (Finding Cross) celebrated in Addis Ababa, Ethiopia.',
     insights: 'An incredible cultural event occurring around September 27.',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Meskel%2C_Efiopiya_bayram%C4%B1_26-Sep-2024_09.jpg/960px-Meskel%2C_Efiopiya_bayram%C4%B1_26-Sep-2024_09.jpg',
-    mediaLinks: {}
-  },
-  {
-    id: 'africa-2026-8',
-    title: 'Zululand Shaka Day',
-    coordinates: [-29.33, 31.28],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Stanger, South Africa',
-    description: 'Zululand Shaka Day celebrated in Stanger, South Africa.',
-    insights: 'An incredible cultural event occurring around September 24.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/A_touareg_at_the_Festival_au_Desert_near_Timbuktu%2C_Mali_2012.jpg/960px-A_touareg_at_the_Festival_au_Desert_near_Timbuktu%2C_Mali_2012.jpg',
-    mediaLinks: {}
-  },
-  {
-    id: 'africa-2026-9',
-    title: 'Umthetho Cultural Fest',
-    coordinates: [-12.01, 33.56],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Hora Mountain, Malawi',
-    description: 'Umthetho Cultural Fest celebrated in Hora Mountain, Malawi.',
-    insights: 'An incredible cultural event occurring around August.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/dd/The_Gonapamuhanya_festival_2025.jpg',
     mediaLinks: {}
   },
   {
@@ -3939,21 +3729,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     mediaLinks: {}
   },
   {
-    id: 'africa-2026-18',
-    title: 'Hermanus Whale Fest',
-    coordinates: [-34.41, 19.24],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Hermanus, South Africa',
-    description: 'Hermanus Whale Fest celebrated in Hermanus, South Africa.',
-    insights: 'An incredible cultural event occurring around Sept 25–27.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Collectie_Nationaal_Museum_van_Wereldculturen_TM-60050755_Vijf_Europese_mannen_in_pak_met_hoge_hoed_te_midden_van_een_grote_groep_arme_Antillianen_Curacao_Soublette_et_Fils.jpg/960px-thumbnail.jpg',
-    mediaLinks: {}
-  },
-  {
     id: 'africa-2026-19',
     title: 'Festival of the Desert',
     coordinates: [16.76, -3],
@@ -3969,21 +3744,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     mediaLinks: {}
   },
   {
-    id: 'africa-2026-20',
-    title: 'Marrakesh Folklore',
-    coordinates: [31.62, -7.98],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Marrakesh, Morocco',
-    description: 'Marrakesh Folklore celebrated in Marrakesh, Morocco.',
-    insights: 'An incredible cultural event occurring around July.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/A_glimpse_of_daily_life_after_the_Covid-19_pandemic_in_the_Moroccan_city_of_Marrakesh%2C_a_colorful_and_culturally_rich_heritage_preservation.jpg/960px-A_glimpse_of_daily_life_after_the_Covid-19_pandemic_in_the_Moroccan_city_of_Marrakesh%2C_a_colorful_and_culturally_rich_heritage_preservation.jpg',
-    mediaLinks: {}
-  },
-  {
     id: 'africa-2026-21',
     title: 'Sauti za Busara',
     coordinates: [-6.16, 39.2],
@@ -3996,21 +3756,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     description: 'Sauti za Busara celebrated in Stone Town, Zanzibar.',
     insights: 'An incredible cultural event occurring around February.',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Seats_used_on_Zanzibar_Festivals.jpg/960px-Seats_used_on_Zanzibar_Festivals.jpg',
-    mediaLinks: {}
-  },
-  {
-    id: 'africa-2026-22',
-    title: 'Vic Falls Carnival',
-    coordinates: [-17.92, 25.85],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Victoria Falls, Zimbabwe',
-    description: 'Vic Falls Carnival celebrated in Victoria Falls, Zimbabwe.',
-    insights: 'An incredible cultural event occurring around Dec 29–31.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Assert_Chabata_at_Mzantsi_Festival_in_East_London_September_2017.png',
     mediaLinks: {}
   },
   {
@@ -4041,21 +3786,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     description: 'Lake of Stars celebrated in Lake Malawi, Malawi.',
     insights: 'An incredible cultural event occurring around September.',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/51/Canoes_on_Lake_Malawi.jpg',
-    mediaLinks: {}
-  },
-  {
-    id: 'africa-2026-25',
-    title: 'Aboakyer Festival',
-    coordinates: [5.35, -0.62],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Winneba, Ghana',
-    description: 'Aboakyer Festival celebrated in Winneba, Ghana.',
-    insights: 'An incredible cultural event occurring around May (First Saturday).',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Aboakyer_festival_Ghana.jpg/960px-Aboakyer_festival_Ghana.jpg',
     mediaLinks: {}
   },
   {
@@ -4164,36 +3894,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     mediaLinks: {}
   },
   {
-    id: 'africa-2026-33',
-    title: 'Rainmaking Ritual',
-    coordinates: [-23.7, 30.13],
-    ritualType: RitualType.CEREMONY,
-    subCategory: 'Seasonal',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Modjadjiskloof, SA',
-    description: 'Rainmaking Ritual celebrated in Modjadjiskloof, SA.',
-    insights: 'An incredible cultural event occurring around Nov (Spring).',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Dumagat_Rain_Dance_%28City_of_SJDM%29_06.jpg/960px-Dumagat_Rain_Dance_%28City_of_SJDM%29_06.jpg',
-    mediaLinks: {}
-  },
-  {
-    id: 'africa-2026-34',
-    title: 'International Nomads',
-    coordinates: [29.82, -5.72],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'M\'Hamid El Ghizlane, Morocco',
-    description: 'International Nomads celebrated in M\'Hamid, Morocco.',
-    insights: 'An incredible cultural event occurring around March.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Nomads_Day_Festival_7.jpg/960px-Nomads_Day_Festival_7.jpg',
-    mediaLinks: {}
-  },
-  {
     id: 'africa-2026-35',
     title: 'Hogbetsotso Festival',
     coordinates: [5.79, 0.89],
@@ -4239,21 +3939,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     mediaLinks: {}
   },
   {
-    id: 'africa-2026-38',
-    title: 'Jalsa Salana',
-    coordinates: [5.6, -0.18],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Accra, Ghana',
-    description: 'Jalsa Salana celebrated in Regional (e.g. Ghana).',
-    insights: 'An incredible cultural event occurring around Varies.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Aerial_view_of_Hadeeqatul_Mahdi_-_Jalsa_Salana_UK.jpg/960px-Aerial_view_of_Hadeeqatul_Mahdi_-_Jalsa_Salana_UK.jpg',
-    mediaLinks: {}
-  },
-  {
     id: 'africa-2026-39',
     title: 'Bushfire Festival',
     coordinates: [-26.54, 31.19],
@@ -4266,21 +3951,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     description: 'Bushfire Festival celebrated in Malkerns, Eswatini.',
     insights: 'An incredible cultural event occurring around May 22–24.',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Malandelas_Farm.jpg/960px-Malandelas_Farm.jpg',
-    mediaLinks: {}
-  },
-  {
-    id: 'africa-2026-40',
-    title: 'Asa Baako',
-    coordinates: [4.81, -1.93],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Busua, Ghana',
-    description: 'Asa Baako celebrated in Busua, Ghana.',
-    insights: 'An incredible cultural event occurring around March 4–8.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/%27indlamu%27_traditional_dance.jpg/960px-%27indlamu%27_traditional_dance.jpg',
     mediaLinks: {}
   },
   {
@@ -4299,51 +3969,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     mediaLinks: {}
   },
   {
-    id: 'africa-2026-42',
-    title: 'Great Salt Festival',
-    coordinates: [16.5, 7.8],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Tiguidit, Niger',
-    description: 'Great Salt Festival celebrated in Tiguidit, Niger.',
-    insights: 'An incredible cultural event occurring around September.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Cultural_attire_at_leboku_festival_in_ugep%2C_cross_river_state.jpg/960px-Cultural_attire_at_leboku_festival_in_ugep%2C_cross_river_state.jpg',
-    mediaLinks: {}
-  },
-  {
-    id: 'africa-2026-43',
-    title: 'Sand Festivals',
-    coordinates: [16.76, -3],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Timbuktu, Mali',
-    description: 'Sand Festivals celebrated in Timbuktu, Mali.',
-    insights: 'An incredible cultural event occurring around January.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Driftwood_and_Sand_2021_MRD_04.jpg/960px-Driftwood_and_Sand_2021_MRD_04.jpg',
-    mediaLinks: {}
-  },
-  {
-    id: 'africa-2026-44',
-    title: 'Roses Festival',
-    coordinates: [31.24, -6.12],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Kalaat M\'Gouna, Morocco',
-    description: 'Roses Festival celebrated in El Kelaa M\'Gouna, Mor..',
-    insights: 'An incredible cultural event occurring around May.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Artificial_roses_at_Hatfield_Heath_Festival_2023_darker.jpg/960px-Artificial_roses_at_Hatfield_Heath_Festival_2023_darker.jpg',
-    mediaLinks: {}
-  },
-  {
     id: 'africa-2026-45',
     title: 'Cherry Festival',
     coordinates: [33.83, -4.83],
@@ -4356,66 +3981,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     description: 'Cherry Festival celebrated in Sefrou, Morocco.',
     insights: 'An incredible cultural event occurring around June.',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Cherry_blossoms-_Cherry_Blossom_Festival_2009%2C_Macon_GA_USA.jpg/960px-Cherry_blossoms-_Cherry_Blossom_Festival_2009%2C_Macon_GA_USA.jpg',
-    mediaLinks: {}
-  },
-  {
-    id: 'africa-2026-46',
-    title: 'N\'cwala (Harvest)',
-    coordinates: [-13.63, 32.64],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Harvest',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Mtenguleni, Zambia',
-    description: 'N\'cwala (Harvest) celebrated in Mtenguleni, Zambia.',
-    insights: 'An incredible cultural event occurring around February 24.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Fluessiger_Stickstoff.jpg/960px-Fluessiger_Stickstoff.jpg',
-    mediaLinks: {}
-  },
-  {
-    id: 'africa-2026-47',
-    title: 'Mawakiri Ritual',
-    coordinates: [-19.98, 23.41],
-    ritualType: RitualType.CEREMONY,
-    subCategory: 'Ritual',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Maun, Botswana',
-    description: 'Mawakiri Ritual celebrated in Maun, Botswana.',
-    insights: 'An incredible cultural event occurring around Post-Flood.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/34/Botswana_Cultural_festivals.jpg',
-    mediaLinks: {}
-  },
-  {
-    id: 'africa-2026-48',
-    title: 'Livingstone Cultural',
-    coordinates: [-17.85, 25.85],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Harvest',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Livingstone, Zambia',
-    description: 'Livingstone Cultural celebrated in Livingstone, Zambia.',
-    insights: 'An incredible cultural event occurring around May.',
-    imageUrl: 'https://images.unsplash.com/photo-1512100356356-de1b84283e18?auto=format&fit=crop&w=800&q=80',
-    mediaLinks: {}
-  },
-  {
-    id: 'africa-2026-49',
-    title: 'Lamu Cultural Fest',
-    coordinates: [-2.26, 40.9],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Lamu Island, Kenya',
-    description: 'Lamu Cultural Fest celebrated in Lamu Island, Kenya.',
-    insights: 'An incredible cultural event occurring around November.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Lamu_Culture_Swahili_%2867%29.jpg/960px-Lamu_Culture_Swahili_%2867%29.jpg',
     mediaLinks: {}
   },
   {
@@ -4461,21 +4026,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     description: 'Janadriyah Festival celebrated in Riyadh, Saudi Arabia.',
     insights: 'An incredible cultural event occurring around Feb (Post-Winter).',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/7-_India_Exhibition_at_Al-Jenadriyah_32_%28My_Trip_To_Al-Jenadriyah_32%29.jpg/960px-7-_India_Exhibition_at_Al-Jenadriyah_32_%28My_Trip_To_Al-Jenadriyah_32%29.jpg',
-    mediaLinks: {}
-  },
-  {
-    id: 'middle-east-2026-3',
-    title: 'Al-Dhafra Camel Fest',
-    coordinates: [23.65, 53.7],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Madinat Zayed, UAE',
-    description: 'Al-Dhafra Camel Fest celebrated in Madinat Zayed, UAE.',
-    insights: 'An incredible cultural event occurring around January.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Jerash_Festival_2018_03.jpg/960px-Jerash_Festival_2018_03.jpg',
     mediaLinks: {}
   },
   {
@@ -4536,36 +4086,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     description: 'Ashura (Ritual) celebrated in Karbala, Iraq.',
     insights: 'An incredible cultural event occurring around July 25.',
     imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80',
-    mediaLinks: {}
-  },
-  {
-    id: 'middle-east-2026-8',
-    title: 'Rose Harvest Ritual',
-    coordinates: [23.07, 57.66],
-    ritualType: RitualType.CEREMONY,
-    subCategory: 'Ritual',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Al Jabal Al Akhdar, Oman',
-    description: 'Rose Harvest Ritual celebrated in Al Jabal Al Akhdar, Oman.',
-    insights: 'An incredible cultural event occurring around April to May.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Description-_A_presentation_on_adornment_in_Omani_women%27s_culture_takes_place_at_the_2005_Smithsonian_Folklife_Festival_on_the_National_Mall._%282548949804%29.jpg/960px-Description-_A_presentation_on_adornment_in_Omani_women%27s_culture_takes_place_at_the_2005_Smithsonian_Folklife_Festival_on_the_National_Mall._%282548949804%29.jpg',
-    mediaLinks: {}
-  },
-  {
-    id: 'middle-east-2026-9',
-    title: 'Liwa Date Festival',
-    coordinates: [23.13, 53.76],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Liwa Oasis, UAE',
-    description: 'Liwa Date Festival celebrated in Liwa Oasis, UAE.',
-    insights: 'An incredible cultural event occurring around July (Peak Heat).',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Liwa_Sports_Club_Car_Sand_Race_in_Liwa_International_Festival_2022.jpg/960px-Liwa_Sports_Club_Car_Sand_Race_in_Liwa_International_Festival_2022.jpg',
     mediaLinks: {}
   },
   {
@@ -4644,36 +4164,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     mediaLinks: {}
   },
   {
-    id: 'middle-east-2026-15',
-    title: 'Beiteddine Art Fest',
-    coordinates: [33.69, 35.58],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Shouf, Lebanon',
-    description: 'Beiteddine Art Fest celebrated in Shouf, Lebanon.',
-    insights: 'An incredible cultural event occurring around July.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Bay_Area_Lebanese_Festival_in_Redwood_City_%28August_27%2C_2022%29_-_20.jpg/960px-Bay_Area_Lebanese_Festival_in_Redwood_City_%28August_27%2C_2022%29_-_20.jpg',
-    mediaLinks: {}
-  },
-  {
-    id: 'middle-east-2026-16',
-    title: 'Habil Al-Jabr (Harvest)',
-    coordinates: [13.52, 44.98],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Harvest',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Lahij, Yemen',
-    description: 'Habil Al-Jabr (Harvest) celebrated in Lahij, Yemen.',
-    insights: 'An incredible cultural event occurring around Post-Monsoon.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/7/77/%D8%A7%D9%84%D8%B1%D9%88%D8%A7%D8%A6%D9%8A_%D8%B2%D9%8A%D8%AF_%D8%A7%D9%84%D8%B4%D9%87%D9%8A%D8%AF.jpg',
-    mediaLinks: {}
-  },
-  {
     id: 'middle-east-2026-17',
     title: 'Souq Okaz (Poetry)',
     coordinates: [21.26, 40.41],
@@ -4701,36 +4191,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     description: 'Muscat Festival celebrated in Muscat, Oman.',
     insights: 'An incredible cultural event occurring around Jan/Feb.',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Muscat_Festival_%2826283225478%29.jpg/960px-Muscat_Festival_%2826283225478%29.jpg',
-    mediaLinks: {}
-  },
-  {
-    id: 'middle-east-2026-19',
-    title: 'Dhow Sailing Race',
-    coordinates: [25.22, 54.22],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Sir Bu Nair, UAE',
-    description: 'Dhow Sailing Race celebrated in Sir Bu Nair, UAE.',
-    insights: 'An incredible cultural event occurring around May.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Ground_Forces_Festival_2025_-_0053.jpg/960px-Ground_Forces_Festival_2025_-_0053.jpg',
-    mediaLinks: {}
-  },
-  {
-    id: 'middle-east-2026-20',
-    title: 'Gargaric (Children\'s)',
-    coordinates: [29.37, 47.97],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Kuwait City, Kuwait',
-    description: 'Gargaric (Children\'s) celebrated in Kuwait/Gulf Region.',
-    insights: 'An incredible cultural event occurring around Ramadan Midpoint.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Kuwaiti_singers_performing_at_a_dhow_festival_in_Katara_Cultural_Village.jpg/960px-Kuwaiti_singers_performing_at_a_dhow_festival_in_Katara_Cultural_Village.jpg',
     mediaLinks: {}
   },
   {
@@ -4794,21 +4254,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     mediaLinks: {}
   },
   {
-    id: 'middle-east-2026-25',
-    title: 'Olive Harvest Ritual',
-    coordinates: [32.22, 35.26],
-    ritualType: RitualType.CEREMONY,
-    subCategory: 'Ritual',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'West Bank/Palestine',
-    description: 'Olive Harvest Ritual celebrated in West Bank/Palestine.',
-    insights: 'An incredible cultural event occurring around Oct to Nov.',
-    imageUrl: 'https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=800&q=80',
-    mediaLinks: {}
-  },
-  {
     id: 'middle-east-2026-26',
     title: 'Chaharshanbe Suri',
     coordinates: [35.72, 51.33],
@@ -4851,51 +4296,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     description: 'Mawlid al-Nabi celebrated in Regional (e.g. Istanbul).',
     insights: 'An incredible cultural event occurring around August 25.',
     imageUrl: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80',
-    mediaLinks: {}
-  },
-  {
-    id: 'middle-east-2026-29',
-    title: 'Beit al-Zubair (Omani)',
-    coordinates: [23.61, 58.59],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Muscat, Oman',
-    description: 'Beit al-Zubair (Omani) celebrated in Muscat, Oman.',
-    insights: 'An incredible cultural event occurring around November 18.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Description-_A_presentation_on_adornment_in_Omani_women%27s_culture_takes_place_at_the_2005_Smithsonian_Folklife_Festival_on_the_National_Mall._%282548949804%29.jpg/960px-Description-_A_presentation_on_adornment_in_Omani_women%27s_culture_takes_place_at_the_2005_Smithsonian_Folklife_Festival_on_the_National_Mall._%282548949804%29.jpg',
-    mediaLinks: {}
-  },
-  {
-    id: 'middle-east-2026-30',
-    title: 'Global Village Assembly',
-    coordinates: [25.06, 55.3],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Dubai, UAE',
-    description: 'Global Village Assembly celebrated in Dubai, UAE.',
-    insights: 'An incredible cultural event occurring around Oct to April.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Ambassador%E2%80%99s_UAE_Trip_in_Support_of_the_Abraham_Accords._March_28-30%2C_2022_33.jpg/960px-Ambassador%E2%80%99s_UAE_Trip_in_Support_of_the_Abraham_Accords._March_28-30%2C_2022_33.jpg',
-    mediaLinks: {}
-  },
-  {
-    id: 'middle-east-2026-31',
-    title: 'Guzelcamli (Zeus)',
-    coordinates: [37.71, 27.21],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Cultural',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Kusadasi, Turkey',
-    description: 'Guzelcamli (Zeus) celebrated in Kusadasi, Turkey.',
-    insights: 'An incredible cultural event occurring around August.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/32/Zeus_Caves%2C_Kusadasi%2C_Turke.jpg',
     mediaLinks: {}
   },
   {
@@ -4974,36 +4374,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     mediaLinks: {}
   },
   {
-    id: 'middle-east-2026-38',
-    title: 'Meskouta (Orange)',
-    coordinates: [33.57, -7.61],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Harvest',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Maghreb/Mashriq',
-    description: 'Meskouta (Orange) celebrated in Maghreb/Mashriq.',
-    insights: 'An incredible cultural event occurring around Spring.',
-    imageUrl: 'https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=800&q=80',
-    mediaLinks: {}
-  },
-  {
-    id: 'middle-east-2026-39',
-    title: 'Wafi (Falconry) Ritual',
-    coordinates: [25.27, 51.53],
-    ritualType: RitualType.CEREMONY,
-    subCategory: 'Seasonal',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Kuwait/Qatar',
-    description: 'Wafi (Falconry) Ritual celebrated in Kuwait/Qatar.',
-    insights: 'An incredible cultural event occurring around Winter Months.',
-    imageUrl: 'https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=800&q=80',
-    mediaLinks: {}
-  },
-  {
     id: 'middle-east-2026-40',
     title: 'Kurdish New Year (Newroz)',
     coordinates: [36.19, 44],
@@ -5019,21 +4389,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     mediaLinks: {}
   },
   {
-    id: 'middle-east-2026-41',
-    title: 'Sema Zen Ritual',
-    coordinates: [41.02, 28.97],
-    ritualType: RitualType.CEREMONY,
-    subCategory: 'Ritual',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Istanbul, Turkey',
-    description: 'Sema Zen Ritual celebrated in Istanbul, Turkey.',
-    insights: 'An incredible cultural event occurring around Every Sunday.',
-    imageUrl: 'https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=800&q=80',
-    mediaLinks: {}
-  },
-  {
     id: 'middle-east-2026-42',
     title: 'Sham el-Nessim (Spring)',
     coordinates: [30.04, 31.23],
@@ -5046,21 +4401,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     description: 'Sham el-Nessim (Spring) celebrated in Regional, Egypt.',
     insights: 'An incredible cultural event occurring around April 13.',
     imageUrl: 'https://images.unsplash.com/photo-1542224566-6e85f2e6772f?auto=format&fit=crop&w=800&q=80',
-    mediaLinks: {}
-  },
-  {
-    id: 'middle-east-2026-43',
-    title: 'Zayandeh-rud Flow',
-    coordinates: [32.65, 51.66],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Harvest',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Isfahan, Iran',
-    description: 'Zayandeh-rud Flow celebrated in Isfahan, Iran.',
-    insights: 'An incredible cultural event occurring around Hydrological (Varies).',
-    imageUrl: 'https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
   {
@@ -5121,36 +4461,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     description: 'Festival of Lights celebrated in Jerusalem.',
     insights: 'An incredible cultural event occurring around June.',
     imageUrl: 'https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80',
-    mediaLinks: {}
-  },
-  {
-    id: 'middle-east-2026-48',
-    title: 'Gala-e-Zard (Yellow)',
-    coordinates: [36.7, 67.11],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Harvest',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Mazar-i-Sharif, Afghanistan',
-    description: 'Gala-e-Zard (Yellow) celebrated in Mazar-i-Sharif.',
-    insights: 'An incredible cultural event occurring around March/April.',
-    imageUrl: 'https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?auto=format&fit=crop&w=800&q=80',
-    mediaLinks: {}
-  },
-  {
-    id: 'middle-east-2026-49',
-    title: 'Camel Trekking Al Marmoom',
-    coordinates: [24.81, 55.33],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Harvest',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Dubai, UAE',
-    description: 'Camel Trekking Al Marmoom celebrated in Dubai, UAE.',
-    insights: 'An incredible cultural event occurring around Winter Months.',
-    imageUrl: 'https://images.unsplash.com/photo-1488866022916-f7f2a032a1e0?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
   {

@@ -145,7 +145,8 @@ def trim(text: str, limit: int = TARGET_CHARS) -> str:
 
 
 def _acceptable(title: str, extract: str, words: list[str],
-                place_words: list[str], categories: list[str] | None = None) -> str | None:
+                place_words: list[str], categories: list[str] | None = None,
+                require_place: bool = True) -> str | None:
     """The evidence this article is about this event, or None."""
     body = extract.lower()
     lede = body[:LEDE_CHARS]
@@ -153,14 +154,27 @@ def _acceptable(title: str, extract: str, words: list[str],
 
     if len(extract) < MIN_CHARS:
         return None
-    if any(marker in lede for marker in WRONG_KIND):
+    # Bounded gap, so an adjective cannot smuggle a place past the check:
+    # "Namaqualand is an arid region" did not match the literal "is a region",
+    # and a gazetteer entry was accepted as a description of a flower bloom.
+    if any(re.search(m.replace("is a ", r"is an? (?:\w+ ){0,2}")
+                     .replace("is an ", r"is an? (?:\w+ ){0,2}"), lede)
+           for m in WRONG_KIND):
         return None
     # The article has to be about an event. Without this, anything whose title
     # shares a word with the festival qualifies, including the geography.
     # Either the prose says so, or Wikipedia has already filed it that way.
-    filed_as_event = any(EVENT_CATEGORIES.search(c) for c in (categories or []))
-    if not filed_as_event and not any(marker in lede for marker in EVENT_MARKERS):
-        return None
+    #
+    # Skipped for natural phenomena. The gate exists to reject articles about
+    # places and people, and WRONG_KIND already does that directly; what it
+    # actually tests for is festival vocabulary, which an aurora has none of.
+    # The article opens "a natural light display in Earth's sky" — no
+    # ceremony, no procession, nothing held annually — and was rejected for
+    # it, along with 31 of the other 35 phenomena.
+    if require_place:
+        filed_as_event = any(EVENT_CATEGORIES.search(c) for c in (categories or []))
+        if not filed_as_event and not any(marker in lede for marker in EVENT_MARKERS):
+            return None
 
     # The subject has to appear near the top — an event mentioned once in
     # passing halfway down an article about something else is not a briefing.
@@ -171,13 +185,43 @@ def _acceptable(title: str, extract: str, words: list[str],
     # ...and the place has to appear somewhere, which is what separates the
     # right festival from one with the same name on another continent.
     place = next((w for w in place_words if w in body), None)
-    if not place:
+    if place:
+        return f"{hit} + {place}"
+
+    if require_place:
         return None
 
-    return f"{hit} + {place}"
+    # A natural phenomenon is not local in the way a festival is. The article
+    # on auroras does not mention Tromsø, and should not have to: the subject
+    # is the aurora, and Tromsø is merely somewhere you can stand and watch
+    # one. Demanding the place rejected all 36 phenomena in the catalogue.
+    #
+    # What replaces it is the name itself — but in the article's *title*, not
+    # merely somewhere in its opening. Accepting a lede match sent "Aurora
+    # Borealis" to a Frederic Church painting of one, "Vaux's Swift Roosting"
+    # to the chimney swift (a different bird, which the article mentions only
+    # to compare), and "Matsu Blue Tears" to the Matsu Islands.
+    lowered_title = title.lower()
+
+    # A disambiguating parenthetical is Wikipedia stating outright that this
+    # is the other thing with that name.
+    if re.search(r"\((painting|film|movie|album|song|book|novel|band|"
+                 r"video game|TV series|magazine|opera)\)", title, re.I):
+        return None
+
+    # *Every* distinctive word, not two of them. Two was enough to accept
+    # "Atacama Desert" for the Atacama Desert Bloom, "Christmas Island" for
+    # the crab migration and "Bongo (antelope)" for saiga calving — an
+    # antelope from the wrong continent. The dropped word is the one that
+    # names the event: bloom, crabs, calving.
+    distinct = list(dict.fromkeys(words))
+    matched = [w for w in distinct if w in lowered_title]
+    if matched and len(matched) == len(distinct):
+        return " + ".join(matched[:3])
+    return None
 
 
-def briefing_for(title: str, region: str) -> dict | None:
+def briefing_for(title: str, region: str, require_place: bool = True) -> dict | None:
     """Search Wikipedia and return a verified summary, or None."""
     # Keep what is inside the brackets. keywords() drops parentheticals, which
     # for "Naghol (Land Diving)" threw away the only two words Wikipedia files
@@ -218,7 +262,8 @@ def briefing_for(title: str, region: str) -> dict | None:
 
             extract = (page.get("extract") or "").strip()
             categories = [c.get("title", "") for c in (page.get("categories") or [])]
-            evidence = _acceptable(page_title, extract, words, place_words, categories)
+            evidence = _acceptable(page_title, extract, words, place_words,
+                                   categories, require_place)
             if not evidence:
                 continue
 

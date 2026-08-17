@@ -30,13 +30,6 @@
       "verifiedBy": "takanakuy + santo",
       "chars": 680
     },
-    "phenom-catatumbo-lightning": {
-      "summary": "The Catatumbo lightning (Spanish: Relámpago del Catatumbo), also known as The Everlasting Storm, is an atmospheric phenomenon that occurs over and around Lake Maracaibo in Venezuela, typically over a bog area formed where the Catatumbo River flows into the lake. Catatumbo means \"House of Thunder\" in the language of the Barí people. It originates from a mass of storm clouds at an altitude of more than 1 km (3,000 ft), and occurs for 140 to 160 nights a year, nine hours per day, and with lightning flashes from 16 to 40 times per minute. The phenomenon sees the highest density of lightning in the world, at 250 per km2 per year.",
-      "sourceTitle": "Catatumbo lightning",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Catatumbo_lightning",
-      "verifiedBy": "catatumbo + lake",
-      "chars": 632
-    },
     "india-holi": {
       "summary": "Holi (IPA: ['hoːli:, hoːɭiː]) is a major Hindu festival of colours, love and spring. It celebrates the love between the deities Radha and Krishna. Additionally, the day signifies the triumph of good over evil, as it commemorates the victory of Vishnu as Narasimha over Hiranyakashipu. Holi originated in ancient Indian subcontinent and is predominantly celebrated in the Indian subcontinent, but has also spread to other regions of Asia and parts of the Western world. Holi also celebrates the arrival of spring in India and Nepal, the end of winter, and the blossoming of love. It is also an invocation for a good spring harvest season.",
       "sourceTitle": "Holi",
@@ -456,90 +449,6 @@
       "sourceUrl": "https://en.wikipedia.org/wiki/Carnival_in_Mexico",
       "verifiedBy": "carnaval + puebla",
       "chars": 621
-    },
-    "phenom-aurora-australis": {
-      "summary": "An aurora (pl. aurorae or auroras) is a natural light display in Earth's upper atmosphere caused by charged particles from the Sun colliding with atoms in the atmosphere. These collisions excite oxygen and nitrogen, which then emit light of different colors such as green, red, and purple. When observed in high-latitude regions they are called polar lights and aurora polaris. In the Arctic they are called the northern lights or aurora borealis; in the Antarctic, the term southern lights or aurora australis is used. Auroras display dynamic patterns of radiant light that appear as curtains, rays, spirals or dynamic flickers covering the entire sky.",
-      "sourceTitle": "Aurora",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Aurora",
-      "verifiedBy": "aurora + south",
-      "chars": 653
-    },
-    "phenom-morning-glory-clouds": {
-      "summary": "The Morning Glory cloud is a rare meteorological phenomenon consisting of a low-level atmospheric solitary wave and associated cloud, occasionally observed in different locations around the world. The wave often occurs as an amplitude-ordered series of waves forming bands of roll clouds. The southern part of the Gulf of Carpentaria in Northern Australia is the only known location where it can be predicted and observed regularly due to the configuration of land and sea in the area.",
-      "sourceTitle": "Morning Glory cloud",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Morning_Glory_cloud",
-      "verifiedBy": "morning + australia",
-      "chars": 485
-    },
-    "phenom-brocken-spectre": {
-      "summary": "A Brocken spectre (British English; American spelling: Brocken specter; German: Brockengespenst), also called Brocken bow, mountain spectre, or spectre of the Brocken, is the magnified (and apparently enormous) shadow of an observer cast in midair upon any type of cloud opposite a strong light source. The figure's head can be surrounded by a bright area called Heiligenschein, or halo-like rings of rainbow-coloured light forming a glory, which appear opposite the Sun's direction when uniformly sized water droplets in clouds refract and backscatter sunlight.",
-      "sourceTitle": "Brocken spectre",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Brocken_spectre",
-      "verifiedBy": "brocken + brocken",
-      "chars": 562
-    },
-    "phenom-pororoca-tidal-bore": {
-      "summary": "The Pororoca (Portuguese pronunciation: [pɔɾɔˈɾɔkɐ], [poɾoˈɾɔkɐ]) is a tidal bore, with waves up to 4 m (13 ft) high that travel as much as 800 km (500 mi) inland upstream on the Amazon River and adjacent rivers. It occurs at the mouth of the river where its waters meet the Atlantic Ocean. It can be observed from the islands Marajó and Caviana, and in various rivers of the state Pará.",
-      "sourceTitle": "Pororoca",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Pororoca",
-      "verifiedBy": "pororoca + amazon",
-      "chars": 387
-    },
-    "phenom-frozen-methane-bubbles": {
-      "summary": "Ice is water that is frozen into a solid state, typically forming at or below temperatures of 0 °C, 32 °F, or 273.15 K. It occurs naturally on Earth, on other planets, in Oort cloud objects, and as interstellar ice. As a naturally occurring crystalline inorganic solid with an ordered structure, ice is considered to be a mineral. Depending on the presence of impurities such as particles of soil or bubbles of air, it can appear transparent or a more or less opaque bluish-white color. Virtually all of the ice on Earth is of a hexagonal crystalline structure denoted as ice Ih (spoken as \"ice one h\"). Depending on temperature and pressure, at least nineteen phases (packing geometries) can exist.",
-      "sourceTitle": "Ice",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Ice",
-      "verifiedBy": "frozen + lake",
-      "chars": 699
-    },
-    "phenom-cherry-blossom-front": {
-      "summary": "The cherry blossom front (桜前線, sakura zensen) is the advance of the cherry blossoms across Japan. The Japan Meteorological Agency records the opening and full bloom of the blossoms from Kyūshū in late March to Hokkaidō in the middle of May. The advancing front is also the subject of regular reports by the major news agencies. The cherry blossom is of great public interest in Japan due to its symbolism and the custom of flower viewing known as hanami.",
-      "sourceTitle": "Cherry blossom front",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Cherry_blossom_front",
-      "verifiedBy": "cherry + japan",
-      "chars": 454
-    },
-    "phenom-the-sardine-run": {
-      "summary": "The KwaZulu-Natal sardine run of southern Africa occurs from May through July when billions of sardines – or more specifically the Southern African pilchard Sardinops sagax – spawn in the cool waters of the Agulhas Bank and move northward along the east coast of South Africa. Their sheer numbers create a feeding frenzy along the coastline. The run, containing millions of individual sardines, occurs when a current of cold water heads north from the Agulhas Bank up to Mozambique. Fisherman are sometimes observed singing songs while hauling in the fishing nets in typical South African style. It is estimated that the sardine run is the biggest Biomass migration in terms of numbers.",
-      "sourceTitle": "Sardine run",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Sardine_run",
-      "verifiedBy": "sardine + south",
-      "chars": 686
-    },
-    "phenom-christmas-island-crabs": {
-      "summary": "Island of the Hungry Ghosts is a hybrid documentary film by director Gabrielle Brady that explores the conflict faced by trauma therapist Poh Lin Lee, who works in the Australian Detention Centre for Asylum Seekers on Christmas Island. It premiered at Tribeca Film Festival in 2018 where it won the Award for Best International Documentary. It was shown at festivals all over the world, winning several prizes. It was also released in cinemas in the United Kingdom, Australia, North America and Germany.",
-      "sourceTitle": "Island of the Hungry Ghosts",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Island_of_the_Hungry_Ghosts",
-      "verifiedBy": "island + australia",
-      "chars": 503
-    },
-    "phenom-monarch-migration": {
-      "summary": "Monarch butterfly migration is the phenomenon, mainly throughout North America, where the monarch subspecies Danaus plexippus plexippus migrates each autumn to overwintering sites near the west coast of California or mountainous sites in central Mexico. Other populations from around the world perform minor migrations or none at all. This massive movement of butterflies has been recognized as \"one of the most spectacular natural phenomena in the world\". The North American monarchs begin their southern migration in September and October. Migratory monarchs originate in southern Canada and the northern United States.",
-      "sourceTitle": "Monarch butterfly migration",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Monarch_butterfly_migration",
-      "verifiedBy": "monarch + mexico",
-      "chars": 621
-    },
-    "phenom-amur-falcon-migration": {
-      "summary": "Falcon Festival is an annual festival celebrated in Umrangso, Dima Hasao district in the Northeast Indian state of Assam. The Festival is held to bring conservation awareness to the migratory bird, Amur falcon, that visit the region during the month of October–November every year. The festival is usually held after the birds has left the region.",
-      "sourceTitle": "Falcon Festival",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Falcon_Festival",
-      "verifiedBy": "amur + india",
-      "chars": 347
-    },
-    "phenom-oilbird-cave-flight": {
-      "summary": "The oilbird (Steatornis caripensis), locally known as the guácharo, is a bird species found in the northern areas of South America including the Caribbean island of Trinidad. It is the only living species in the genus Steatornis, the family Steatornithidae, and the order Steatornithiformes. Nesting in colonies in caves, oilbirds are nocturnal feeders on the fruits of the oil palm and tropical laurels. They are the only nocturnal flying fruit-eating birds in the world (the kākāpō, also nocturnal, is flightless). They forage at night, with specially adapted eyesight. However, they navigate by echolocation in the same way as bats, one of the few birds to do so.",
-      "sourceTitle": "Oilbird",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Oilbird",
-      "verifiedBy": "oilbird + charo",
-      "chars": 666
-    },
-    "phenom-lake-natron-flamingos": {
-      "summary": "The Crimson Wing: Mystery of the Flamingos is a 2008 nature documentary that explores the great gathering of lesser flamingos which occurs every year at Lake Natron in Tanzania and along the salt lakes of the African Rift Valley. It was the first film released under the then-new Disneynature film label through Walt Disney Studios Motion Pictures. It premiered in France on 26 October 2008, with narration by Zabou Breitman. The film was released in theatres in the UK on 29 September 2009 and direct-to-video in the United States on 19 October 2010 with narration by Mariella Frostrup.",
-      "sourceTitle": "The Crimson Wing: Mystery of the Flamingos",
-      "sourceUrl": "https://en.wikipedia.org/wiki/The_Crimson_Wing:_Mystery_of_the_Flamingos",
-      "verifiedBy": "lake + lake",
-      "chars": 587
     },
     "india-diwali": {
       "summary": "Dipavali (IAST: Dīpāvalī), commonly known as Diwali (), is the Hindu festival of lights, with variations celebrated in other Indian religions such as Jainism and Sikhism. It symbolises the spiritual victory of Dharma over Adharma, light over darkness, good over evil, and knowledge over ignorance. Diwali is celebrated during the Hindu lunisolar months of Ashvin (according to the amanta tradition) and Kārtika – between around mid-October and mid-November. The celebrations generally last five or six days.",
@@ -1493,13 +1402,6 @@
       "verifiedBy": "danza + huancavelica",
       "chars": 625
     },
-    "phenom-corryvreckan-whirlpool": {
-      "summary": "The Gulf of Corryvreckan, also called the Strait of Corryvreckan, is a narrow strait off the west coast of mainland Scotland. It is located between the islands of Jura and Scarba, in the council area of Argyll and Bute. Its name derives from the Gaelic Coire Bhreacain, meaning 'cauldron of the speckled seas' or 'cauldron of the plaid'. The strait is known for its unusually intense tidal currents, which include the third largest whirlpool in the world. Tourists can visit the site by way of boat trips from local harbours or sightseeing flights from Oban Airport.",
-      "sourceTitle": "Gulf of Corryvreckan",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Gulf_of_Corryvreckan",
-      "verifiedBy": "corryvreckan + strait",
-      "chars": 566
-    },
     "india-jallikattu": {
       "summary": "Jallikattu (or Sallikkattu), also known as Eru Taḻuvuṭal and Manju-virattu, is a traditional event in which a zebu bull (Bos indicus), such as the Pulikulam or Kangayam breeds, is released into a crowd of people, and many people attempt to grab the large hump on the bull's back with both arms and hang on to it while the bull attempts to escape. They hold the hump for as long as possible, attempting to bring the bull to a stop. In some cases, they must ride long enough to remove flags on the bull's horns or cross a finish line.",
       "sourceTitle": "Jallikattu",
@@ -1534,6 +1436,48 @@
       "sourceUrl": "https://en.wikipedia.org/wiki/Fanous",
       "verifiedBy": "fanoos + egypt",
       "chars": 363
+    },
+    "middle-east-2026-5": {
+      "summary": "Eid al-Adha (Arabic: عيد الأضحى, romanized: ʿĪd al-ʾAḍḥā, lit. 'Feast of the Sacrifice') is the second of the two main festivals in Islam, alongside Eid al-Fitr. It falls on the 10th of Dhu'l-Hijja, the twelfth and final month of the Islamic calendar. Celebrations and observances are generally carried forward to the three following days, known as the Tashreeq days. Eid al-Adha, depending on country and language is also called the Greater or Large Eid (Arabic: العيد الكبير, romanized: al-ʿĪd al-Kabīr). As with Eid al-Fitr, the Eid prayer is performed on the morning of Eid al-Adha, after which the udhiyah or the ritual sacrifice of a livestock animal, is performed.",
+      "sourceTitle": "Eid al-Adha",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Eid_al-Adha",
+      "verifiedBy": "adha",
+      "chars": 671
+    },
+    "india-maha-shivratri": {
+      "summary": "Maha Shivaratri is a Hindu festival celebrated annually to worship the deity Shiva, between February and March. According to the Hindu calendar, The festival is observed on the caturdaśī (the 14th lunar day) of kṛṣṇapakṣa (waning fortnight) of the month of Māgha (in the Amānta reckoning of months) or Phālguṇa (in the Pūrṇimānta reckoning of months). The discrepancy is only in the name of the month and the festival is observed on the same lunar night across the regions. The festival commemorates the marriage of Shiva and Parvati, and the occasion of Shiva performing his ritual dance called tandava.",
+      "sourceTitle": "Maha Shivaratri",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Maha_Shivaratri",
+      "verifiedBy": "maha + shivaratri",
+      "chars": 604
+    },
+    "middle-east-2026-28": {
+      "summary": "The Mawlid (Arabic: مولد) is an annual festival commemorating the birthday of the Islamic prophet Muhammad on the traditional date of 12 or 17 Rabi I, the third month of the Islamic calendar. The Muslim general Gökböri, a deputy of Saladin (r. 1174–1193), is believed to have been the first to publicly celebrate Mawlid, which he did in an impressive ceremony at the Prophet's Mosque in Medina. The Ottomans under Murad III (r. 1574–1595) declared it an official holiday. Celebrants hold mahfils on Mawlid in which religious poetry is recited in praise of Muhammad accompanied by a feast. Other customs affiliated with Mawlid are supererogatory fasting, music and dhikr.",
+      "sourceTitle": "Mawlid",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mawlid",
+      "verifiedBy": "mawlid",
+      "chars": 670
+    },
+    "middle-east-2026-21": {
+      "summary": "Yaldā Night (Persian: شب یلدا, romanized: shab-e yaldâ) or Chelle Night (also Chellah Night, Persian: شب چلّه, romanized: shab-e chelle, lit. \"fortieth night\") is an ancient festival in Iran, Kurdistan, Uzbekistan, Tajikistan, Afghanistan, Azerbaijan and Turkmenistan that is celebrated on the winter solstice of the Northern Hemisphere. This corresponds to the night of December 21 (or 20 during leap years) in the Gregorian calendar, and to the night between the last day of the ninth month (Azar) and the first day of the tenth month (Dey) of the Iranian solar calendar.",
+      "sourceTitle": "Yalda Night",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Yalda_Night",
+      "verifiedBy": "yalda",
+      "chars": 573
+    },
+    "middle-east-2026-12": {
+      "summary": "The Baalbeck International Festival (Arabic: مهرجانات بعلبك الدولية, romanized: Mahrajānāt Baʿlabakk ad-Duwaliyya; French: Festival International de Baalbeck) is a cultural event in Lebanon. Since 1955, people from around the world have gone to the city of Baalbek in the Beqaa Valley of Lebanon to attend the annual festival. Classical music, dance, theater, opera, and jazz as well as modern world music are performed each July and August in the ancient Roman Acropolis. The presidents of the festival have been as follows: Aimée Kettaneh from 1956 to 1968, Salwa es-Said from 1969 to 1972, May Arida from 1973 to 2010 and Nayla de Freige from 2011 to present.",
+      "sourceTitle": "Baalbeck International Festival",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Baalbeck_International_Festival",
+      "verifiedBy": "baalbeck + baalbeck",
+      "chars": 662
+    },
+    "middle-east-2026-23": {
+      "summary": "The Byblos International Festival is a Lebanese festival held in Byblos, believed to be the first Phoenician city, founded around 5000 BC. The festival is the biggest in Lebanon, and attracts thousands of tourists from all over the world.",
+      "sourceTitle": "Byblos International Festival",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Byblos_International_Festival",
+      "verifiedBy": "byblos + byblos",
+      "chars": 238
     }
   }
 }
