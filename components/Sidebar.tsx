@@ -3,7 +3,51 @@ import { Search, Sliders, X, Play, SkipBack, SkipForward, Heart, Share2, Chevron
 import { FilterState, CultureItem, UnifiedEvent } from '../types';
 import DetailPanel from './DetailPanel';
 import LiveDetailPanel from './LiveDetailPanel';
-import { categoryColor } from '../utils/categoryTheme';
+import { categoryColor, categoryGlyph } from '../utils/categoryTheme';
+import { leadTime } from '../utils/tripPlanner';
+
+/** Thumbnail with a fallback that survives list recycling. */
+const Thumbnail: React.FC<{ item: CultureItem }> = ({ item }) => {
+  const [failed, setFailed] = React.useState(false);
+  // Reset when the row is recycled onto a different event, otherwise one
+  // broken image would blank every event that later reuses the node.
+  React.useEffect(() => setFailed(false), [item.id]);
+
+  return (
+    <div className="w-16 h-16 bg-hover rounded-lg overflow-hidden flex-shrink-0 border border-line relative flex items-center justify-center">
+      {failed ? (
+        <svg width="20" height="20" viewBox="0 0 16 16" aria-hidden="true"
+             style={{ color: categoryColor(item.ritualType, item.subCategory), opacity: 0.55 }}>
+          <path d={categoryGlyph(item.ritualType, item.subCategory)} fill="currentColor" />
+        </svg>
+      ) : (
+        <img
+          src={item.imageUrl}
+          alt={item.title}
+          loading="lazy"
+          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+          referrerPolicy="no-referrer"
+          onError={() => setFailed(true)}
+        />
+      )}
+    </div>
+  );
+};
+
+/** Short, honest timing for a list row. */
+function sidebarWhen(item: CultureItem): string {
+  if (item.dateIsUnconfirmed) return 'Date not confirmed';
+  if (item.dateIsMovable) return 'Date varies each year';
+  return leadTime(item).label;
+}
+
+function sidebarWhenClass(item: CultureItem): string {
+  if (item.dateIsUnconfirmed || item.dateIsMovable) return 'text-ink-faint';
+  const urgency = leadTime(item).urgency;
+  if (urgency === 'imminent') return 'text-live font-medium';
+  if (urgency === 'soon') return 'text-accent';
+  return 'text-ink-faint';
+}
 
 interface SidebarProps {
   filters: FilterState;
@@ -175,8 +219,8 @@ const Sidebar: React.FC<SidebarProps> = ({
 
       {/* List Content - Bottom Card (VIRTUALIZED) */}
       <div className="flex-1 overflow-hidden bg-panel/95 sm:backdrop-blur-md border-0 sm:border border-line sm:rounded-2xl shadow-2xl flex flex-col min-h-0">
-        <div className="px-4 py-3 text-[12px] font-mono text-ink-faint uppercase tracking-widest border-b border-line-soft flex-shrink-0">
-          {items.length} Results Found
+        <div className="px-4 py-2.5 text-[12px] text-ink-faint border-b border-line-soft flex-shrink-0">
+          {items.length.toLocaleString('en-GB')} {items.length === 1 ? 'event' : 'events'}
         </div>
         <div 
           ref={listScrollRef}
@@ -195,39 +239,26 @@ const Sidebar: React.FC<SidebarProps> = ({
                 `}
                 >
                   <div className="flex gap-3 items-center">
-                    <div className="w-16 h-16 bg-hover rounded-lg overflow-hidden flex-shrink-0 border border-line-hard relative">
-                      <img
-                        src={item.imageUrl}
-                        alt={item.title}
-                        loading="lazy"
-                        className="w-full h-full object-cover transition-all duration-500 group-hover:scale-105"
-                        referrerPolicy="no-referrer"
-                        onError={(e) => {
-                          const target = e.currentTarget;
-                          target.style.display = 'none';
-                          if (target.parentElement) {
-                            target.parentElement.style.display = 'flex';
-                            target.parentElement.style.alignItems = 'center';
-                            target.parentElement.style.justifyContent = 'center';
-                            target.parentElement.style.fontSize = '24px';
-                            target.parentElement.textContent = '🌍';
-                          }
-                        }}
-                      />
-                    </div>
+                    <Thumbnail item={item} />
                     <div className="flex-1 min-w-0 flex flex-col justify-center py-0.5">
-                      <h3 className={`text-sm font-bold leading-tight transition-colors truncate ${selectedId === item.id ? 'text-accent' : 'text-ink group-hover:text-ink'}`}>
-                        {item.title}
-                      </h3>
-                      <div className="flex items-center justify-between mt-1.5">
-                        <span className="text-[12px] text-ink-dim font-medium truncate pr-2">{item.region}</span>
-                        <span
-                          className="uppercase tracking-wider text-[11px] font-bold border px-1.5 py-0.5 rounded transition-colors whitespace-nowrap"
-                          style={{ borderColor: categoryColor(item.ritualType), color: categoryColor(item.ritualType), backgroundColor: `color-mix(in srgb, ${categoryColor(item.ritualType)} 8%, transparent)` }}
+                      <div className="flex items-start gap-1.5">
+                        <svg
+                          width="13" height="13" viewBox="0 0 16 16" aria-hidden="true"
+                          className="shrink-0 mt-[3px]"
+                          style={{ color: categoryColor(item.ritualType, item.subCategory) }}
                         >
-                          {item.ritualType}
-                        </span>
+                          <path d={categoryGlyph(item.ritualType, item.subCategory)} fill="currentColor" />
+                        </svg>
+                        <h3 className={`text-[14px] font-semibold leading-snug transition-colors truncate ${selectedId === item.id ? 'text-accent' : 'text-ink'}`}>
+                          {item.title}
+                        </h3>
                       </div>
+                      <p className="text-[12px] text-ink-dim truncate mt-0.5">{item.region}</p>
+                      {/* When it happens. The whole product is timing accuracy,
+                          and this list showed everything except the date. */}
+                      <p className="text-[12px] mt-0.5 truncate">
+                        <span className={sidebarWhenClass(item)}>{sidebarWhen(item)}</span>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -246,8 +277,8 @@ const Sidebar: React.FC<SidebarProps> = ({
       <style>{`
         .custom-scrollbar::-webkit-scrollbar { width: 4px; height: 2px; }
         .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
-        .custom-scrollbar::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
-        .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #555; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: var(--k-line); border-radius: 2px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: var(--k-line-hard); }
         .no-scrollbar::-webkit-scrollbar { display: none; }
         .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
       `}</style>

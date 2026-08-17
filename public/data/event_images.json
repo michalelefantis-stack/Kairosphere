@@ -2122,6 +2122,171 @@
       "score": 5,
       "via": "commons-search",
       "eventId": "middle-east-2026-43"
+    },
+    "middle-east-2026-47": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/PikiWiki_Israel_20282_Festival_of_Lights_in_Jerusalem.jpg/1280px-PikiWiki_Israel_20282_Festival_of_Lights_in_Jerusalem.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Hedva Sanderovitz",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_20282_Festival_of_Lights_in_Jerusalem.jpg",
+      "verifiedBy": "lights + jerusalem",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "middle-east-2026-47"
+    },
+    "middle-east-2026-50": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Table_setting_of_Mehregan_Festival.png/1280px-Table_setting_of_Mehregan_Festival.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "میتراکانا",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Table_setting_of_Mehregan_Festival.png",
+      "verifiedBy": "mehregan",
+      "score": 5,
+      "via": "commons-category",
+      "eventId": "middle-east-2026-50"
+    },
+    "noche-de-rabanos": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/59_Oaxaca_En_SF_Danza_De_Diablos_STG_Juxtlahuaca_%2853748769539%29.jpg/1280px-59_Oaxaca_En_SF_Danza_De_Diablos_STG_Juxtlahuaca_%2853748769539%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Carnaval.com Studios from The Inner Mission San Francisco, Earth",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:59_Oaxaca_En_SF_Danza_De_Diablos_STG_Juxtlahuaca_(53748769539).jpg",
+      "verifiedBy": "noche + oaxaca",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "noche-de-rabanos"
+    },
+    "la-tamborrada": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/San_Sebastian_Tamborrada_Infantil.jpg/1280px-San_Sebastian_Tamborrada_Infantil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "bichuas",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:San_Sebastian_Tamborrada_Infantil.jpg",
+      "verifiedBy": "tamborrada + sebasti",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "la-tamborrada"
+    },
+    "nieuwjaarsduik": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/2010-01-01_Nieuwjaarsduik.jpg/1280px-2010-01-01_Nieuwjaarsduik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Ziko van Dijk",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2010-01-01_Nieuwjaarsduik.jpg",
+      "verifiedBy": "nieuwjaarsduik",
+      "score": 2,
+      "via": "commons-category",
+      "eventId": "nieuwjaarsduik"
+    },
+    "kite-festival": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Festival_de_Sumpango_14.jpg/1280px-Festival_de_Sumpango_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Josué Goge",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Festival_de_Sumpango_14.jpg",
+      "verifiedBy": "kite + sumpango",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "kite-festival"
+    },
+    "naha-great-tug-of-war": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Naha_Tsunahiki20081012.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "投稿者が撮影",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Naha_Tsunahiki20081012.JPG",
+      "verifiedBy": "naha + okinawa",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "naha-great-tug-of-war"
+    },
+    "il-palio": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Atmosfera_Da_Palio_%2853613532%29.jpeg/1280px-Atmosfera_Da_Palio_%2853613532%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Luca Casartelli",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Atmosfera_Da_Palio_(53613532).jpeg",
+      "verifiedBy": "palio + siena",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "il-palio"
+    },
+    "lewes-bonfire-night": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Lewes_Bonfire_Night_2010_a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "heather buckley",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lewes_Bonfire_Night_2010_a.jpg",
+      "verifiedBy": "lewes + lewes",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "lewes-bonfire-night"
+    },
+    "the-padstow-obby-oss": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/%27Obby_%27Oss.jpg/1280px-%27Obby_%27Oss.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Nomis Elaws",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:'Obby_'Oss.jpg",
+      "verifiedBy": "padstow + padstow",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "the-padstow-obby-oss"
+    },
+    "sapporo-snow-festival": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/170204-N-OK605-206_%2832848247525%29.jpg/1280px-170204-N-OK605-206_%2832848247525%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "National Museum of the U.S. Navy",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:170204-N-OK605-206_(32848247525).jpg",
+      "verifiedBy": "sapporo",
+      "score": 5,
+      "via": "commons-category",
+      "eventId": "sapporo-snow-festival"
+    },
+    "voodoo-festival": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Voodoo_Arts_Festival_%28218414695%29.jpg/1280px-Voodoo_Arts_Festival_%28218414695%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Brian Kelley from Auggen, Germany",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Voodoo_Arts_Festival_(218414695).jpg",
+      "verifiedBy": "voodoo + ouidah",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "voodoo-festival"
+    },
+    "la-paz-day-parade": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/20170805_Bolivia_1140_Sucre_sRGB_%2837979749771%29.jpg/1280px-20170805_Bolivia_1140_Sucre_sRGB_%2837979749771%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Dan Lundberg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:20170805_Bolivia_1140_Sucre_sRGB_(37979749771).jpg",
+      "verifiedBy": "parade + bolivia",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "la-paz-day-parade"
+    },
+    "st-patricks-parade": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/170312-N-XN177-301_-_U.S._Navy_sailors_at_St._Patrick%27s_Day_parade_in_Yokohama%2C_Japan.jpg/1280px-170312-N-XN177-301_-_U.S._Navy_sailors_at_St._Patrick%27s_Day_parade_in_Yokohama%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "PO1 Peter Burghart, USN",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:170312-N-XN177-301_-_U.S._Navy_sailors_at_St._Patrick's_Day_parade_in_Yokohama,_Japan.jpg",
+      "verifiedBy": "patrick + japan",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "st-patricks-parade"
+    },
+    "jazz-fest": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/New_Orleans_Jazz_%26_Heritage_Fest_Early_1990s_Piano_with_Washbord.jpg/1280px-New_Orleans_Jazz_%26_Heritage_Fest_Early_1990s_Piano_with_Washbord.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:New_Orleans_Jazz_&_Heritage_Fest_Early_1990s_Piano_with_Washbord.jpg",
+      "verifiedBy": "jazz + orleans",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "jazz-fest"
     }
   }
 }
