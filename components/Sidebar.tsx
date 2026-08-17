@@ -195,6 +195,7 @@ const Sidebar: React.FC<SidebarProps> = ({
         onViewInsights={onViewInsights}
         isSaved={isSaved}
         onToggleSave={onToggleSave}
+        userCoords={userCoords}
       />
     );
   }

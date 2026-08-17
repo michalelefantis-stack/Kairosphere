@@ -90,6 +90,22 @@ npm run build && npx cap sync android
   the deduper missed — the titles differ enough to clear the similarity check.
   Worth a manual sweep for others like it.
 
+## Affiliate links
+
+- [ ] **21 book links point at `https://amzn.to/example`.** Twenty go to
+      `example`, one to `example2`. They render today in the book sections and
+      every one is dead. Either put real tags on them or remove the buttons.
+- [ ] Only 3 of 373 events have a real `tourLink`; the rest fall back to a
+      TourRadar search for the region.
+- [ ] Flights and stays hand off to Google Flights and Booking.com with the
+      dates prefilled, and neither carries an affiliate tag. Both URLs are
+      built in one place — `flightSearchUrl` and `staySearchUrl` in
+      `utils/travelPlan.ts` — so swapping in Travelpayouts, Skyscanner or a
+      Booking partner id touches no component.
+- [ ] Nothing here sells anything. The app is not merchant of record and
+      should stay that way: selling a ticket means owning refunds, schedule
+      changes and consumer-protection duties in every country you sell into.
+
 ## Native sign-in (Firebase console)
 
 Nothing here can be done from the repository — it all needs the Firebase and

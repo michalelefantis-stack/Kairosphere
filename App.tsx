@@ -558,8 +558,13 @@ const App: React.FC = () => {
           </div>
         )}
 
-        {/* LEFT PANEL / BOTTOM SHEET: Sidebar (Map Mode) — desktop only */}
-        {activeTab === 'map' && isSidebarOpen && (
+        {/* LEFT PANEL: Sidebar (Map Mode) — desktop only.
+            Gated on !isPhone rather than only hidden with `sm:`, because a
+            hidden component is still a mounted one: this renders a second
+            DetailPanel on every phone, which then runs the same briefing
+            load, the same AI location lookup and the same airport fetch as
+            the visible one. */}
+        {activeTab === 'map' && isSidebarOpen && !isPhone && (
           <div
             ref={activeTab === 'map' ? sheetRef : undefined}
             className={`ui-layer absolute left-0 sm:left-4 top-auto sm:top-4 bottom-[64px] sm:bottom-4 z-[40] sm:z-30 hidden sm:flex flex-col pointer-events-none w-full sm:w-[380px] ${dragHeight === null ? 'transition-all duration-300 ' + getMobileHeightClass() : ''}`}
@@ -946,6 +951,7 @@ const App: React.FC = () => {
             onViewInsights={handleViewInsights}
             isSaved={savedRitualIds.has(selectedItem.id)}
             onToggleSave={() => toggleSaveRitual(selectedItem.id)}
+            userCoords={userCoords}
           />
         </div>
       )}

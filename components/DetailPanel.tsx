@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { CultureItem } from '../types';
-import { X, MapPin, BookOpen, ShoppingBag, Sparkles, Loader2, Calendar, AlignLeft, Backpack } from 'lucide-react';
+import { X, MapPin, BookOpen, ShoppingBag, Sparkles, Loader2, Calendar, AlignLeft, Backpack, Plane } from 'lucide-react';
 import { aiClient } from "../utils/aiClient";
 import { categoryColor } from '../utils/categoryTheme';
 import { cachedLocation, storeAiImage, storeLocation } from '../utils/aiImageCache';
@@ -11,6 +11,7 @@ import {
   meaningfulDescription
 } from '../utils/eventBriefings';
 import { useSwipeBack } from '../hooks/useSwipeBack';
+import GettingTherePanel from './GettingTherePanel';
 
 interface DetailPanelProps {
   item: CultureItem;
@@ -18,10 +19,12 @@ interface DetailPanelProps {
   onViewInsights: (item: CultureItem) => void;
   isSaved?: boolean;
   onToggleSave?: () => void;
+  /** Lets the flight handoff fill in a departure airport. */
+  userCoords?: [number, number] | null;
 }
 
 
-const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights, isSaved = false, onToggleSave }) => {
+const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights, isSaved = false, onToggleSave, userCoords }) => {
   const [displayImage, setDisplayImage] = useState(item.imageUrl);
   const [isAiGenerated, setIsAiGenerated] = useState(false);
   const [isLoadingAi, setIsLoadingAi] = useState(false);
@@ -400,6 +403,19 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights
                     No sourced description yet for this event.
                   </p>
                 )}
+              </div>
+
+              {/* Getting there. Placed directly under the briefing, because
+                  "how would I even reach this" is the next thought after
+                  "what is it", and long before any book recommendation. */}
+              <div className="space-y-3">
+                <div className="flex items-center gap-2">
+                  <Plane className="w-4 h-4 text-accent" />
+                  <h4 className="text-[12px] text-ink-dim uppercase font-black tracking-[0.1em]">
+                    Getting there
+                  </h4>
+                </div>
+                <GettingTherePanel item={item} userCoords={userCoords} />
               </div>
 
               {/* Insights */}

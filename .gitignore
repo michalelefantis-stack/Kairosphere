@@ -61,3 +61,4 @@ migrated_prompt_history/
 
 # Monitor output — regenerate with `python -m pipeline.monitor`
 public/data/local/
+pipeline/cache/
