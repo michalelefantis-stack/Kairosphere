@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { CultureItem } from '../types';
-import { X, MapPin, BookOpen, ShoppingBag, Sparkles, Loader2, Calendar, AlignLeft, Backpack, Plane } from 'lucide-react';
+import { X, MapPin, BookOpen, ShoppingBag, Sparkles, Loader2, Calendar, AlignLeft, Backpack, Plane, ChevronRight } from 'lucide-react';
 import { aiClient } from "../utils/aiClient";
 import { categoryColor } from '../utils/categoryTheme';
 import { cachedLocation, storeAiImage, storeLocation } from '../utils/aiImageCache';
@@ -21,10 +21,12 @@ interface DetailPanelProps {
   onToggleSave?: () => void;
   /** Lets the flight handoff fill in a departure airport. */
   userCoords?: [number, number] | null;
+  /** Opens the trip this event was just saved into. */
+  onViewSaved?: () => void;
 }
 
 
-const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights, isSaved = false, onToggleSave, userCoords }) => {
+const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights, isSaved = false, onToggleSave, userCoords, onViewSaved }) => {
   const [displayImage, setDisplayImage] = useState(item.imageUrl);
   const [isAiGenerated, setIsAiGenerated] = useState(false);
   const [isLoadingAi, setIsLoadingAi] = useState(false);
@@ -298,24 +300,24 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, onViewInsights
                 >
                   {item.ritualType}
                 </span>
-                {/* A badge that reports a state the reader just set by tapping
-                    should also undo it. This was a plain span, so the only way
-                    back out was the small backpack floating on the photograph
-                    above — which is easy to miss and easy to mistake for a
-                    decoration. */}
-                {isSaved && onToggleSave && (
+                {/* Goes to the trip, rather than undoing the save.
+                    "Saved" answers "where did it go?", and the useful reply is
+                    to show the reader. Unsaving stays on the backpack above,
+                    which is where they just pressed to save — so the two
+                    controls do not compete for the same tap with opposite
+                    outcomes. */}
+                {isSaved && onViewSaved && (
                   <button
                     type="button"
-                    onClick={onToggleSave}
-                    aria-pressed={true}
-                    title="Remove from your saved events"
-                    className="group text-[11px] font-bold text-on-accent bg-accent
+                    onClick={onViewSaved}
+                    title="See it in your trips"
+                    className="text-[11px] font-bold text-on-accent bg-accent
                                px-2 min-h-[28px] rounded uppercase tracking-widest
                                inline-flex items-center gap-1 active:opacity-80 transition-opacity"
                   >
-                    <Backpack className="w-3 h-3 group-hover:hidden" />
-                    <X className="w-3 h-3 hidden group-hover:block" />
+                    <Backpack className="w-3 h-3" />
                     Saved
+                    <ChevronRight className="w-3 h-3" />
                   </button>
                 )}
               </div>

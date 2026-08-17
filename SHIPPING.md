@@ -86,15 +86,23 @@ npm run build && npx cap sync android
   an audience. `pipeline/verification.py` stands in for it meanwhile.
 - **Triwara in `pipeline/pawukon.py` is unverified.** Structurally right,
   phase unconfirmed; nothing published depends on it.
-- **`Abu Simbel Sun Fest` and `Abu Simbel Sun Festival`** are a duplicate pair
-  the deduper missed — the titles differ enough to clear the similarity check.
-  Worth a manual sweep for others like it.
+- **Descriptions are not all about the event they are attached to.** The Abu
+  Simbel Sun Festival was described with a biography of Nefertari — an
+  Egyptian queen, nothing about the alignment or the temple. It survived
+  because it is long and well written, so no boilerplate check catches it,
+  and because no Wikipedia briefing resolved for that event it was what the
+  panel actually showed. That one is fixed; **154 events still have no
+  briefing**, so their catalogue description is what readers see. Worth
+  sampling before launch.
 
 ## Affiliate links
 
-- [ ] **21 book links point at `https://amzn.to/example`.** Twenty go to
-      `example`, one to `example2`. They render today in the book sections and
-      every one is dead. Either put real tags on them or remove the buttons.
+- [x] The 21 `https://amzn.to/example` links are gone — they carried no ISBN
+      and could not be repaired, only removed.
+- [x] The 21 Bookshop links used a placeholder partner id (`/a/12345/`). The
+      ISBNs were real, so they now point at `bookshop.org/book/<isbn>`: a
+      working page and no false claim of an affiliate relationship. Put the
+      real id back in that one path when you have one.
 - [ ] Only 3 of 373 events have a real `tourLink`; the rest fall back to a
       TourRadar search for the region.
 - [ ] Flights and stays hand off to Google Flights and Booking.com with the

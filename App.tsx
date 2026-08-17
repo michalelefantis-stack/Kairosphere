@@ -394,6 +394,18 @@ const App: React.FC = () => {
     return Array.from(booksMap.values());
   }, [cultureData]);
 
+  /**
+   * Show the reader where a saved event went.
+   *
+   * The detail panel has to close: leaving it open would drop the reader onto
+   * the trips screen with the event still covering it, and the back gesture
+   * would then take them somewhere they never chose to be.
+   */
+  const handleViewSaved = () => {
+    setSelectedItem(null);
+    setActiveTab('itinerary');
+  };
+
   const handleSelectItem = (item: CultureItem | null) => {
     setSelectedItem(item);
     setSelectedLiveEvent(null);
@@ -611,6 +623,7 @@ const App: React.FC = () => {
                 onToggleSave={() => selectedItem && toggleSaveRitual(selectedItem.id)}
                 userCoords={userCoords}
                 onRequestLocation={handleAllowLocation}
+                onViewSaved={handleViewSaved}
               />
             </div>
             {/* Collapse Button */}
@@ -952,6 +965,7 @@ const App: React.FC = () => {
             isSaved={savedRitualIds.has(selectedItem.id)}
             onToggleSave={() => toggleSaveRitual(selectedItem.id)}
             userCoords={userCoords}
+            onViewSaved={handleViewSaved}
           />
         </div>
       )}

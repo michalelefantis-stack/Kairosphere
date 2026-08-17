@@ -72,6 +72,8 @@ interface SidebarProps {
   userCoords?: [number, number] | null;
   /** Asks for a location when the reader picks a sort that needs one. */
   onRequestLocation?: () => void;
+  /** Opens the trips screen from a saved event's badge. */
+  onViewSaved?: () => void;
 }
 
 
@@ -92,7 +94,7 @@ const Sidebar: React.FC<SidebarProps> = ({
   onViewInsights,
   isSaved,
   onToggleSave
-, userCoords, onRequestLocation }) => {
+, userCoords, onRequestLocation, onViewSaved }) => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const listScrollRef = useRef<HTMLDivElement>(null);
   const [scrollTop, setScrollTop] = useState(0);
@@ -196,6 +198,7 @@ const Sidebar: React.FC<SidebarProps> = ({
         isSaved={isSaved}
         onToggleSave={onToggleSave}
         userCoords={userCoords}
+        onViewSaved={onViewSaved}
       />
     );
   }

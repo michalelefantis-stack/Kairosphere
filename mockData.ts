@@ -194,7 +194,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     endDate: '2026-10-22',
     verified: true,
     region: 'Abu Simbel City, Egypt',
-    description: 'Nefertari was an Egyptian queen and the first of the Great Royal Wives of Ramesses the Great. She is one of the best known Egyptian queens, among such women as Cleopatra, Nefertiti, and Hatshepsut, and one of the most prominent Egyptian royal consorts. She was highly educated and able to both read and write hieroglyphs, a very rare skill at the time. She used these skills in her diplomatic work, corresponding with other prominent royals of the time. Her lavishly decorated tomb, QV66, is one of the largest and most spectacular in the Valley of the Queens. Ramesses also constructed a temple for her at Abu Simbel next to his colossal monument there.',
+    description: 'Twice a year the rising sun enters the Great Temple of Ramesses II and travels 60 metres down the rock-cut corridor to light the seated statues of the inner sanctuary. Ramesses, Ra-Horakhty and Amun are illuminated; Ptah, a god of the underworld, is left in darkness. The temples were cut apart and moved to higher ground in the 1960s before Lake Nasser flooded the original site, and the alignment has been reported a day later ever since.',
     insights: 'Occurring uniquely on October 22 and February 22, the sun perfectly aligns to penetrate the deep 60-meter rock corridor of the Great Temple, bathing three of four statues in golden light, leaving Ptah (god of the underworld) eternally in darkness.',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/f/fe/Aswan_International_Festival_of_Culture_and_Arts_in_its_ninth_session.jpg',
     mediaLinks: {},
@@ -203,8 +203,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
         title: "Temples of Ancient Egypt",
         author: "Byron E. Shafer",
         coverUrl: "https://covers.openlibrary.org/b/id/315799-L.jpg",
-        bookshopLink: "https://bookshop.org/a/12345/9780801433993",
-        amazonLink: "https://amzn.to/example",
+        bookshopLink: "https://bookshop.org/book/9780801433993",
         goodreadsRating: 4.15,
         ratingCount: "128",
         description: "A comprehensive exploration of the architectural and spiritual significance of Egyptian temples, including detailed analysis of the Abu Simbel alignment phenomenology and the cult of Ramesses II."
@@ -213,8 +212,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
         title: "The Oxford History of Ancient Egypt",
         author: "Ian Shaw",
         coverUrl: "https://covers.openlibrary.org/b/id/117005-L.jpg",
-        bookshopLink: "https://bookshop.org/a/12345/9780192804587",
-        amazonLink: "https://amzn.to/example2",
+        bookshopLink: "https://bookshop.org/book/9780192804587",
         goodreadsRating: 4.21,
         ratingCount: "6,412",
         description: "The definitive guide to ancient Egyptian civilization, offering crucial macroscopic context to the New Kingdom period when the Abu Simbel monuments were constructed."
@@ -274,8 +272,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
         title: "African Art in Transit",
         author: "Christopher B. Steiner",
         coverUrl: "https://covers.openlibrary.org/b/id/340425-L.jpg",
-        bookshopLink: "https://bookshop.org/a/12345/9780521434475",
-        amazonLink: "https://amzn.to/example",
+        bookshopLink: "https://bookshop.org/book/9780521434475",
         goodreadsRating: 3.98,
         ratingCount: "145",
         description: "An essential analysis of how African art and performance are commodified and exchanged, highly relevant to understanding the dynamics of modern festivals like Chale Wote in an international context."
@@ -317,8 +314,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
         title: "The Ancestors & the Sacred Mountain",
         author: "Mazisi Kunene",
         coverUrl: "https://covers.openlibrary.org/b/id/501730-L.jpg",
-        bookshopLink: "https://bookshop.org/a/12345/9780435902357",
-        amazonLink: "https://amzn.to/example",
+        bookshopLink: "https://bookshop.org/book/9780435902357",
         goodreadsRating: 4.41,
         ratingCount: "89",
         description: "A profound exploration of African spiritual cosmology and the unbroken ontological connection between the living, the dead, and the unborn, perfectly contextualizing the metaphysics driving the Famadihana."
@@ -327,8 +323,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
         title: "Madagascar: The Eighth Continent",
         author: "Peter Tyson",
         coverUrl: "https://images-na.ssl-images-amazon.com/images/I/81A+X8gS-iL.jpg",
-        bookshopLink: "https://bookshop.org/a/12345/9781895618413",
-        amazonLink: "https://amzn.to/example",
+        bookshopLink: "https://bookshop.org/book/9781895618413",
         goodreadsRating: 3.86,
         ratingCount: "421",
         description: "Tyson dives deep into the unparalleled ecology and deeply rooted syncretic cultures of Madagascar, offering an outsider's brilliant observation of the Malagasy relationship with death."
@@ -354,8 +349,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
         title: "The New Spaniards",
         author: "John Hooper",
         coverUrl: "https://covers.openlibrary.org/b/id/95153-L.jpg",
-        bookshopLink: "https://bookshop.org/a/12345/9780141016092",
-        amazonLink: "https://amzn.to/example",
+        bookshopLink: "https://bookshop.org/book/9780141016092",
         goodreadsRating: 3.92,
         ratingCount: "1,245",
         description: "An incredibly insightful look at modern Spain's transformation from dictatorship to vibrant democracy, which perfectly contextualizes the explosion of hedonistic regional festivals like the Batalla del Vino."
@@ -382,8 +376,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
         title: "The Happy Isles of Oceania: Paddling the Pacific",
         author: "Paul Theroux",
         coverUrl: "https://covers.openlibrary.org/b/id/3972761-L.jpg",
-        bookshopLink: "https://bookshop.org/a/12345/9780618658985",
-        amazonLink: "https://amzn.to/example",
+        bookshopLink: "https://bookshop.org/book/9780618658985",
         goodreadsRating: 3.88,
         ratingCount: "8,921",
         description: "Theroux's classic travelogue features a vivid, critical observation of Melanesian culture, including his firsthand experience witnessing the dizzying spectacle of the Naghol land divers in Vanuatu."
@@ -409,8 +402,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
         title: "The Age of the Vikings",
         author: "Anders Winroth",
         coverUrl: "https://covers.openlibrary.org/b/id/11196262-L.jpg",
-        bookshopLink: "https://bookshop.org/a/12345/9780691169293",
-        amazonLink: "https://amzn.to/example",
+        bookshopLink: "https://bookshop.org/book/9780691169293",
         goodreadsRating: 3.96,
         ratingCount: "1,521",
         description: "A definitive historical account of the Viking expansion, crucial for understanding the deep Norse heritage of the Shetland Islands that the Up Helly Aa festival so fiercely celebrates."
@@ -436,8 +428,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
         title: "The World Until Yesterday",
         author: "Jared Diamond",
         coverUrl: "https://covers.openlibrary.org/b/id/9293827-L.jpg",
-        bookshopLink: "https://bookshop.org/a/12345/9780143124405",
-        amazonLink: "https://amzn.to/example",
+        bookshopLink: "https://bookshop.org/book/9780143124405",
         goodreadsRating: 3.82,
         ratingCount: "19,204",
         description: "Drawing heavily on his fieldwork in New Guinea, Diamond explores how traditional societies manage conflict, justice, and social rituals—themes directly at play in the organized 'sing-sing' diplomacy of Mt Hagen."
@@ -463,8 +454,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
         title: "La Terra in Piazza: An Interpretation of the Palio of Siena",
         author: "Alan Dundes",
         coverUrl: "https://covers.openlibrary.org/b/id/9798907-L.jpg",
-        bookshopLink: "https://bookshop.org/a/12345/9780520247294",
-        amazonLink: "https://amzn.to/example",
+        bookshopLink: "https://bookshop.org/book/9780520247294",
         goodreadsRating: 4.09,
         ratingCount: "82",
         description: "A masterful anthropological dissection of the Palio, stripping back the tourist spectacle to reveal the profound neighborhood rivalries and rituals that govern Sienese identity."
@@ -490,8 +480,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
         title: "The Enigmas of Easter Island",
         author: "John Flenley",
         coverUrl: "https://covers.openlibrary.org/b/id/117892-L.jpg",
-        bookshopLink: "https://bookshop.org/a/12345/9780192803405",
-        amazonLink: "https://amzn.to/example",
+        bookshopLink: "https://bookshop.org/book/9780192803405",
         goodreadsRating: 3.79,
         ratingCount: "135",
         description: "A rigorous exploration of Rapa Nui's environmental and cultural history, providing essential background to the revivalist spirit that drives the modern Tapati festival."
@@ -517,8 +506,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
         title: "The Italian Renaissance",
         author: "Peter Burke",
         coverUrl: "https://covers.openlibrary.org/b/id/581724-L.jpg",
-        bookshopLink: "https://bookshop.org/a/12345/9780691162409",
-        amazonLink: "https://amzn.to/example",
+        bookshopLink: "https://bookshop.org/book/9780691162409",
         goodreadsRating: 3.84,
         ratingCount: "512",
         description: "While focused on the Renaissance, Burke's analysis of Italian social structures and rural revolts offers a perfect lens for understanding the deeply ingrained class warfare simulated in the Battle of the Oranges."
@@ -544,8 +532,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
         title: "Greece: Biography of a Modern Nation",
         author: "Roderick Beaton",
         coverUrl: "https://covers.openlibrary.org/b/id/14607920-L.jpg",
-        bookshopLink: "https://bookshop.org/a/12345/9780241312841",
-        amazonLink: "https://amzn.to/example",
+        bookshopLink: "https://bookshop.org/book/9780241312841",
         goodreadsRating: 4.11,
         ratingCount: "354",
         description: "A profound look at modern Greek identity, helping to explain the defiant, fiercely independent, and occasionally explosive spirit that underpins the chaos of the Chios Rocket War."
@@ -572,8 +559,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
         title: "The Florentines: From Dante to Galileo",
         author: "Paul Strathern",
         coverUrl: "https://covers.openlibrary.org/b/id/11534140-L.jpg",
-        bookshopLink: "https://bookshop.org/a/12345/9781643137323",
-        amazonLink: "https://amzn.to/example",
+        bookshopLink: "https://bookshop.org/book/9781643137323",
         goodreadsRating: 3.88,
         ratingCount: "412",
         description: "To understand why Florentines still beat each other bloody in the Piazza Santa Croce, one must understand the fierce, hyper-competitive, and fiercely local politics that gave birth to the Renaissance."
@@ -599,8 +585,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
         title: "Te Riri Pakeha: The White Man's Anger",
         author: "Tony Simpson",
         coverUrl: "https://covers.openlibrary.org/b/id/8406199-L.jpg",
-        bookshopLink: "https://bookshop.org/a/12345/9780340356555",
-        amazonLink: "https://amzn.to/example",
+        bookshopLink: "https://bookshop.org/book/9780340356555",
         goodreadsRating: 4.12,
         ratingCount: "85",
         description: "While focusing on the land wars, Simpson's work provides crucial context on Māori resilience, making the survival and explosive resurgence of Kapa Haka at Te Matatini all the more powerful."
@@ -626,8 +611,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
         title: "Swiss Watching: Inside the Land of Milk and Money",
         author: "Diccon Bewes",
         coverUrl: "https://images-na.ssl-images-amazon.com/images/I/71u9Q5R9m9L.jpg",
-        bookshopLink: "https://bookshop.org/a/12345/9781857885873",
-        amazonLink: "https://amzn.to/example",
+        bookshopLink: "https://bookshop.org/book/9781857885873",
         goodreadsRating: 3.78,
         ratingCount: "2,410",
         description: "A humorous but penetrating look into the Swiss psyche, revealing why a notoriously orderly society like Basel needs the anarchic, satirical release of the Fasnacht."
@@ -653,8 +637,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
         title: "Totem and Taboo",
         author: "Sigmund Freud",
         coverUrl: "https://images-na.ssl-images-amazon.com/images/I/71u9Q5R9m9L.jpg",
-        bookshopLink: "https://bookshop.org/a/12345/9780393001433",
-        amazonLink: "https://amzn.to/example",
+        bookshopLink: "https://bookshop.org/book/9780393001433",
         goodreadsRating: 3.73,
         ratingCount: "13,241",
         description: "Freud's classic (though controversial) foundational text on the psychological origins of totemism and ritual scarification, directly applicable to understanding the Sepik reverence for the crocodile."
@@ -680,8 +663,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
         title: "The Golden Bough: A Study in Comparative Religion",
         author: "James George Frazer",
         coverUrl: "https://covers.openlibrary.org/b/id/1736616-L.jpg",
-        bookshopLink: "https://bookshop.org/a/12345/9780199538829",
-        amazonLink: "https://amzn.to/example",
+        bookshopLink: "https://bookshop.org/book/9780199538829",
         goodreadsRating: 4.03,
         ratingCount: "8,312",
         description: "Frazer's monumental anthropological work delves deep into European fire festivals and agricultural rites of purification, laying the theoretical groundwork for events like Las Fallas."
@@ -707,8 +689,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
         title: "The Rite: The Making of a Modern Exorcist",
         author: "Matt Baglio",
         coverUrl: "https://covers.openlibrary.org/b/id/11027146-L.jpg",
-        bookshopLink: "https://bookshop.org/a/12345/9780385522718",
-        amazonLink: "https://amzn.to/example",
+        bookshopLink: "https://bookshop.org/book/9780385522718",
         goodreadsRating: 3.82,
         ratingCount: "6,712",
         description: "While focused on exorcism, Baglio provides a gripping, authentic look into the intensely supernatural, hyper-traditional, and sometimes stark reality of Southern Italian and Vatican Catholicism."
@@ -734,8 +715,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
         title: "Typee: A Peep at Polynesian Life",
         author: "Herman Melville",
         coverUrl: "https://images-na.ssl-images-amazon.com/images/I/81B4W1z+n4L.jpg",
-        bookshopLink: "https://bookshop.org/a/12345/9780140434880",
-        amazonLink: "https://amzn.to/example",
+        bookshopLink: "https://bookshop.org/book/9780140434880",
         goodreadsRating: 3.75,
         ratingCount: "8,921",
         description: "Melville's semi-autobiographical account of life among Pacific islanders in the 1840s offers a mesmerising glimpse into the traditional Polynesian cultures that Heiva i Tahiti strives to preserve."
@@ -761,8 +741,7 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
         title: "The Krampus and the Old, Dark Christmas",
         author: "Al Ridenour",
         coverUrl: "https://images-na.ssl-images-amazon.com/images/I/81xU9r9R+8L.jpg",
-        bookshopLink: "https://bookshop.org/a/12345/9781627310345",
-        amazonLink: "https://amzn.to/example",
+        bookshopLink: "https://bookshop.org/book/9781627310345",
         goodreadsRating: 4.15,
         ratingCount: "587",
         description: "A definitive, extensively researched dive into the pagan roots and modern alpine resurgence of the Krampus phenomenon and the dark side of winter solstice folklore."
@@ -4992,21 +4971,6 @@ export const MOCK_CULTURE_DATA: CultureItem[] = [
     description: 'Tirgan (Water Fest) celebrated in Mazandaran, Iran.',
     insights: 'An incredible cultural event occurring around July 4.',
     imageUrl: 'https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=800&q=80',
-    mediaLinks: {}
-  },
-  {
-    id: 'middle-east-2026-37',
-    title: 'Abu Simbel Sun Fest',
-    coordinates: [22.33, 31.62],
-    ritualType: RitualType.FESTIVAL,
-    subCategory: 'Harvest',
-    startDate: '2026-05-01',
-    endDate: '2026-05-05',
-    verified: true,
-    region: 'Aswan, Egypt',
-    description: 'Abu Simbel Sun Fest celebrated in Aswan, Egypt.',
-    insights: 'An incredible cultural event occurring around Feb 22 & Oct 22.',
-    imageUrl: 'https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=800&q=80',
     mediaLinks: {}
   },
   {
