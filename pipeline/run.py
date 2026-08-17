@@ -2,7 +2,7 @@
 
     python -m pipeline.run
     python -m pipeline.run --offline          # tier 1 only, no network
-    python -m pipeline.run --horizon-days 90
+    python -m pipeline.run --horizon-days 30   # wider window than the default 7
     python -m pipeline.run --dry-run
 
 Runs every adapter, reconciles duplicates, scores confidence, and writes:
@@ -33,9 +33,18 @@ OUT_DIR = ROOT / "pipeline" / "out"
 
 log = logging.getLogger("pipeline")
 
-# Default publishing horizon: far enough to plan a trip, near enough to mean
-# something.
-DEFAULT_HORIZON_DAYS = 120
+# Default publishing horizon.
+#
+# Seven days, because this feed answers "what is happening now" and nothing
+# else. The catalogue already handles planning — it holds every event with a
+# real date, sorted by how soon you must act — so a live feed reaching 120
+# days out was duplicating that badly: hundreds of entries, most of them
+# months away, in a view whose whole claim is immediacy.
+#
+# It also matches what the UI already did with them. bucketFor() in
+# utils/eventFormat calls anything beyond seven days "On the horizon", a
+# section readers had no reason to open in a tab called Live.
+DEFAULT_HORIZON_DAYS = 7
 
 
 def _configure_logging(verbose: bool) -> None:

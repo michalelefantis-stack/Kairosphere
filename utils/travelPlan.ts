@@ -1,5 +1,6 @@
 import { CultureItem } from '../types';
 import { calculateDistance } from './geo';
+import { fetchContent } from './contentSource';
 
 /**
  * How you would actually get there, and whether there is still time.
@@ -55,22 +56,12 @@ let cache: TravelData | null = null;
 
 export async function loadTravelData(): Promise<TravelData> {
   if (cache) return cache;
-  try {
-    const response = await fetch('data/event_airports.json');
-    if (!response.ok) {
-      cache = { airports: {}, departures: [] };
-      return cache;
-    }
-    const payload = await response.json();
-    cache = {
-      airports: payload?.airports ?? {},
-      departures: payload?.departures ?? []
-    };
-    return cache;
-  } catch {
-    cache = { airports: {}, departures: [] };
-    return cache;
-  }
+  const payload = await fetchContent<Partial<TravelData>>('event_airports.json', {});
+  cache = {
+    airports: payload.airports ?? {},
+    departures: payload.departures ?? []
+  };
+  return cache;
 }
 
 /** Where this reader would fly from — nearest large scheduled airport. */

@@ -136,6 +136,39 @@ npm run build && npx cap sync android
   so the nearest match is always the place or the organism. Accurate as far
   as they go; verify before selling a trip on one.
 
+## Updating a published app
+
+Two kinds of change, and they cost very different amounts.
+
+**Content — no release needed.** Descriptions, photographs, airports and the
+live feed are JSON fetched at runtime. Set these and you can correct a wrong
+photo by uploading a file:
+
+```bash
+VITE_PHENOMENA_URL=https://user.github.io/repo/data/phenomena.json
+VITE_CONTENT_BASE_URL=https://user.github.io/repo/data
+```
+
+Without them the app reads its bundled copies, which is also the offline
+fallback on first launch — so both are safe to set and expensive to omit.
+Regenerate and re-upload with:
+
+```bash
+python -m pipeline.briefings && python -m pipeline.lead_images && python -m pipeline.airports
+```
+
+**Code — release needed.** Components, layout, and `mockData.ts`, which is
+compiled into the bundle. On the web that is a rebuild and a deploy; on
+Android it is a store submission and review. Adding a *new event* is
+currently a code change for this reason. If that becomes a common operation,
+move the catalogue into a fetched JSON alongside the rest.
+
+**The live feed updates itself** every two hours via
+`.github/workflows/phenomena.yml`, and the app re-reads it every three
+minutes. Both are already wired; the workflow has never run because this
+repository has no git remote yet. It starts working on the first push to
+GitHub with `GEMINI_API_KEY` set as a secret.
+
 ## Affiliate links
 
 - [x] The 21 `https://amzn.to/example` links are gone — they carried no ISBN

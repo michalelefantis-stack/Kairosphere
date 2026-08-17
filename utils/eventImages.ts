@@ -1,4 +1,5 @@
 import { CultureItem } from '../types';
+import { fetchContent } from './contentSource';
 
 /**
  * Verified event photographs, keyed by event id.
@@ -28,19 +29,11 @@ let cache: Record<string, EventImage> | null = null;
 
 export async function loadEventImages(): Promise<Record<string, EventImage>> {
   if (cache) return cache;
-  try {
-    const response = await fetch('data/event_images.json');
-    if (!response.ok) {
-      cache = {};
-      return cache;
-    }
-    const payload = await response.json();
-    cache = (payload?.images ?? {}) as Record<string, EventImage>;
-    return cache;
-  } catch {
-    cache = {};
-    return cache;
-  }
+  const payload = await fetchContent<{ images?: Record<string, EventImage> }>(
+    'event_images.json', {}
+  );
+  cache = payload.images ?? {};
+  return cache;
 }
 
 /**

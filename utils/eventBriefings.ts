@@ -1,4 +1,5 @@
 import { CultureItem } from '../types';
+import { fetchContent } from './contentSource';
 
 /**
  * Real descriptions, held as static data rather than fetched per view.
@@ -32,19 +33,11 @@ let cache: Record<string, EventBriefing> | null = null;
 
 export async function loadEventBriefings(): Promise<Record<string, EventBriefing>> {
   if (cache) return cache;
-  try {
-    const response = await fetch('data/event_briefings.json');
-    if (!response.ok) {
-      cache = {};
-      return cache;
-    }
-    const payload = await response.json();
-    cache = (payload?.briefings ?? {}) as Record<string, EventBriefing>;
-    return cache;
-  } catch {
-    cache = {};
-    return cache;
-  }
+  const payload = await fetchContent<{ briefings?: Record<string, EventBriefing> }>(
+    'event_briefings.json', {}
+  );
+  cache = payload.briefings ?? {};
+  return cache;
 }
 
 /** Synchronous read, for components rendering after the load has settled. */
