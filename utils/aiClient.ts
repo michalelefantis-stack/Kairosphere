@@ -9,6 +9,14 @@
  */
 
 const API_BASE = (import.meta.env.VITE_API_BASE_URL ?? '').replace(/\/$/, '');
+// Matches APP_TOKEN on the server. Not a secret in any meaningful sense — it
+// ships in the bundle — but it stops a stranger who finds the endpoint from
+// casually spending the quota.
+const APP_TOKEN = import.meta.env.VITE_APP_TOKEN ?? '';
+
+function headers(extra: Record<string, string> = {}): Record<string, string> {
+  return APP_TOKEN ? { ...extra, 'x-app-token': APP_TOKEN } : extra;
+}
 
 export class AiUnavailableError extends Error {
   readonly status: number;
@@ -22,7 +30,7 @@ export class AiUnavailableError extends Error {
 async function callOperation<T>(operation: string, params: Record<string, unknown> = {}): Promise<T> {
   const response = await fetch(`${API_BASE}/api/ai/${operation}`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: headers({ 'Content-Type': 'application/json' }),
     body: JSON.stringify(params)
   });
 
@@ -111,7 +119,7 @@ export const aiClient = {
   async liveToken(ritual: { title: string; type: string; etiquette: string }): Promise<LiveSession> {
     const response = await fetch(`${API_BASE}/api/ai/live-token`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: headers({ 'Content-Type': 'application/json' }),
       body: JSON.stringify(ritual)
     });
     if (!response.ok) {

@@ -89,6 +89,29 @@ setInterval(() => {
   }
 }, RATE_LIMIT_WINDOW_MS).unref();
 
+/**
+ * Shared-secret gate.
+ *
+ * The proxy already refuses to be a general-purpose Gemini account — every
+ * call names one of a fixed set of operations. It does not stop someone who
+ * finds the endpoint from spending the quota on those operations, though, and
+ * that is a bill rather than a breach.
+ *
+ * Set APP_TOKEN here and VITE_APP_TOKEN in the frontend build to require a
+ * matching header. Left unset the server runs open, which is fine locally and
+ * is warned about loudly at boot.
+ */
+const APP_TOKEN = process.env.APP_TOKEN || '';
+
+function requireToken(req, res, next) {
+  if (!APP_TOKEN) return next();
+  const presented = req.get('x-app-token');
+  // Length-independent compare is overkill for a shared secret sent in a
+  // header on every request, but it costs nothing.
+  if (presented && presented === APP_TOKEN) return next();
+  return res.status(401).json({ error: 'Not authorised.' });
+}
+
 app.get('/health', (_req, res) => {
   res.json({
     ok: true,
@@ -98,8 +121,8 @@ app.get('/health', (_req, res) => {
   });
 });
 
-app.post('/api/ai/live-token', rateLimit, createLiveToken);
-app.use('/api/ai', rateLimit, geminiRouter);
+app.post('/api/ai/live-token', requireToken, rateLimit, createLiveToken);
+app.use('/api/ai', requireToken, rateLimit, geminiRouter);
 
 app.use((error, _req, res, _next) => {
   console.error('[server]', error?.message ?? error);
@@ -112,4 +135,9 @@ app.listen(PORT, () => {
     console.warn('[server] GEMINI_API_KEY is not set — AI endpoints will return 503.');
   }
   console.log(`[server] allowed origins: ${ALLOWED_ORIGINS.join(', ')}`);
+  if (!APP_TOKEN) {
+    console.warn('[server] APP_TOKEN is not set — anyone who can reach this ' +
+                 'server can spend your Gemini quota. Set it before exposing ' +
+                 'this publicly.');
+  }
 });
