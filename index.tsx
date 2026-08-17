@@ -8,6 +8,7 @@ import ErrorBoundary from './components/ErrorBoundary';
 // Imported here, not linked from index.html, so Vite actually compiles the
 // `@import "tailwindcss"` inside it. While this file lived in public/ it was
 // copied verbatim and every Tailwind class in the app was inert.
+import 'leaflet/dist/leaflet.css';
 import './index.css';
 
 const rootElement = document.getElementById('root');

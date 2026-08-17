@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="512" height="512" role="img" aria-label="Kairosphere">
+  <!-- Static version of components/KairosLogo for use as an app icon: no
+       animation, no CSS variables, and a painted background, because a
+       launcher icon is composited on an unknown surface. -->
+  <rect width="100" height="100" rx="22" fill="#0d0c0b"/>
+  <circle cx="50" cy="50" r="34" fill="none" stroke="#f5a524" stroke-width="1.5" stroke-opacity="0.25"/>
+  <circle cx="50" cy="50" r="28" fill="none" stroke="#f5a524" stroke-width="1" stroke-dasharray="4 8" stroke-opacity="0.6"/>
+  <path d="M50 16V84M16 50H84" stroke="#f5a524" stroke-width="1" stroke-opacity="0.35"/>
+  <circle cx="50" cy="50" r="9" fill="#f5a524"/>
+  <circle cx="50" cy="50" r="15" fill="none" stroke="#f5a524" stroke-width="2"/>
+</svg>
