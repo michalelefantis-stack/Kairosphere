@@ -115,10 +115,28 @@ export function resolveSchedule(
     };
   }
 
-  // Guard the corrupt rows: a negative span becomes a single day.
+  // A negative span almost always means the season crosses the new year:
+  // the aurora runs September to March, the Brocken spectre November to
+  // February. Clamping those to a single day, as this once did, turned a
+  // six-month viewing window into an afternoon. Roll the end into the
+  // following year instead, and only fall back to a single day if that still
+  // makes no sense.
   let durationMs = stopStored.getTime() - stored.getTime();
-  const repaired = Number.isNaN(durationMs) || durationMs < 0;
-  if (repaired) durationMs = 0;
+  let repaired = false;
+  if (!Number.isNaN(durationMs) && durationMs < 0) {
+    const wrapped = new Date(stopStored);
+    wrapped.setUTCFullYear(stopStored.getUTCFullYear() + 1);
+    const wrappedMs = wrapped.getTime() - stored.getTime();
+    if (wrappedMs > 0 && wrappedMs <= 366 * DAY_MS) {
+      durationMs = wrappedMs;
+    } else {
+      durationMs = 0;
+      repaired = true;
+    }
+  } else if (Number.isNaN(durationMs)) {
+    durationMs = 0;
+    repaired = true;
+  }
 
   // A movable feast keeps its stored date; the UI labels it as unreliable
   // rather than inventing a projection that would be wrong by weeks.

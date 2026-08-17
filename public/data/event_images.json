@@ -2078,6 +2078,50 @@
       "score": 5,
       "via": "commons-category",
       "eventId": "middle-east-2026-21"
+    },
+    "middle-east-2026-26": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Chaharshanbe_Suri_by_southern_Iranian_people.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "sayyed shahab-o- din vajedi",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chaharshanbe_Suri_by_southern_Iranian_people.jpg",
+      "verifiedBy": "chaharshanbe + iran",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "middle-east-2026-26"
+    },
+    "middle-east-2026-36": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Tirgan-Iran-Amol.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "credit": "LACIPETO",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tirgan-Iran-Amol.jpg",
+      "verifiedBy": "tirgan",
+      "score": 5,
+      "via": "commons-category",
+      "eventId": "middle-east-2026-36"
+    },
+    "middle-east-2026-40": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Flickr_-_DVIDSHUB_-_Newroz_Celebrations_in_Northern_Iraq.jpg/1280px-Flickr_-_DVIDSHUB_-_Newroz_Celebrations_in_Northern_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "DVIDSHUB",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flickr_-_DVIDSHUB_-_Newroz_Celebrations_in_Northern_Iraq.jpg",
+      "verifiedBy": "kurdish + iraq",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "middle-east-2026-40"
+    },
+    "middle-east-2026-43": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Zayandeh_River%2C_Isfahan_Province%2C_Iran_%2853826519704%29.jpg/1280px-Zayandeh_River%2C_Isfahan_Province%2C_Iran_%2853826519704%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Ninara",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Zayandeh_River,_Isfahan_Province,_Iran_(53826519704).jpg",
+      "verifiedBy": "zayandeh + isfahan",
+      "score": 5,
+      "via": "commons-search",
+      "eventId": "middle-east-2026-43"
     }
   }
 }
