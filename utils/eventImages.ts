@@ -21,8 +21,15 @@ export interface EventImage {
   sourcePage: string;
   /** Which words tied this photo to this event, e.g. "nyepi + bali". */
   verifiedBy: string;
-  via: 'commons-category' | 'commons-search' | 'wikipedia-lead';
+  via: 'commons-category' | 'commons-search' | 'wikipedia-lead' | 'wikipedia-article';
   score?: number;
+  /** Further verified photographs of the same event, built by pipeline.gallery. */
+  gallery?: {
+    url: string;
+    credit: string;
+    license: string;
+    sourcePage: string;
+  }[];
 }
 
 let cache: Record<string, EventImage> | null = null;

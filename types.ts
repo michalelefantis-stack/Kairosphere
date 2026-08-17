@@ -172,6 +172,13 @@ export interface CultureItem {
     licenseUrl: string;
     sourcePage: string;
     verifiedBy: string;
+    /** Further verified frames of the same event, built by pipeline.gallery. */
+    gallery?: {
+      url: string;
+      credit: string;
+      license: string;
+      sourcePage: string;
+    }[];
   };
 }
 

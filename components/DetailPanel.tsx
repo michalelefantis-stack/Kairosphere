@@ -1,7 +1,8 @@
 
 import React, { useState, useEffect, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import { CultureItem } from '../types';
-import { X, MapPin, BookOpen, ShoppingBag, Sparkles, Loader2, Calendar, AlignLeft, Backpack, Plane, ChevronRight, Sun } from 'lucide-react';
+import { X, MapPin, BookOpen, ShoppingBag, Sparkles, Loader2, Calendar, AlignLeft, Backpack, Plane, ChevronRight, Sun, Images, Maximize2, Minimize2 } from 'lucide-react';
 import { aiClient } from "../utils/aiClient";
 import { categoryColor } from '../utils/categoryTheme';
 import { cachedLocation, storeAiImage, storeLocation } from '../utils/aiImageCache';
@@ -11,6 +12,7 @@ import {
   meaningfulDescription
 } from '../utils/eventBriefings';
 import { useSwipeBack } from '../hooks/useSwipeBack';
+import EventGallery from './EventGallery';
 import GettingTherePanel from './GettingTherePanel';
 import ConditionsPanel from './ConditionsPanel';
 import {
@@ -41,6 +43,11 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
   const [wikiContent, setWikiContent] = useState<string | null>(null);
   const [isLoadingWiki, setIsLoadingWiki] = useState(false);
   const [briefing, setBriefing] = useState<EventBriefing | null>(null);
+  // Desktop only: promote the 380px column to a full-screen reading layout.
+  // A sidebar sets a measure of roughly 45 characters, which is half of what
+  // continuous prose wants — the eye makes a return sweep every few words,
+  // and that is what makes a long briefing tiring rather than the length.
+  const [isReader, setIsReader] = useState(false);
 
   // Sourced description, resolved once at build time rather than searched on
   // every open. Falls back to the catalogue line only when that line says
@@ -53,7 +60,23 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
     return () => { live = false; };
   }, [item.id]);
 
+  useEffect(() => {
+    if (!isReader) return;
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setIsReader(false); };
+    window.addEventListener('keydown', onKey);
+    const previous = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      window.removeEventListener('keydown', onKey);
+      document.body.style.overflow = previous;
+    };
+  }, [isReader]);
+
   const curatedNote = meaningfulDescription(item);
+
+  // Extra verified frames arrive attached to the photograph the catalogue
+  // already carries, so there is nothing more to fetch here.
+  const gallery = item.imageCredit?.gallery ?? [];
 
   // Swiping right closes the panel, which on a phone is the gesture people
   // reach for before they look for the button in the far corner.
@@ -266,6 +289,374 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
     return `${startDate} — ${endDate}`;
   };
 
+  /* ---- Sections ---------------------------------------------------------
+     Written once and composed twice. The map column and the reader overlay
+     show the same material; only the arrangement differs, so the sections
+     are values rather than duplicated markup. */
+
+  const categoryChip = (
+    <span
+      className="text-[11px] font-bold px-2 py-0.5 rounded uppercase tracking-widest"
+      style={{
+        color: categoryColor(item.ritualType),
+        backgroundColor: `color-mix(in srgb, ${categoryColor(item.ritualType)} 9%, transparent)`,
+        border: `1px solid color-mix(in srgb, ${categoryColor(item.ritualType)} 20%, transparent)`,
+      }}
+    >
+      {item.ritualType}
+    </span>
+  );
+
+  // Goes to the trip, rather than undoing the save. "Saved" answers "where
+  // did it go?", and the useful reply is to show the reader. Unsaving stays
+  // on the backpack above, which is where they just pressed to save — so the
+  // two controls do not compete for the same tap with opposite outcomes.
+  const savedBadge = isSaved && onViewSaved ? (
+    <button
+      type="button"
+      onClick={onViewSaved}
+      title="See it in your trips"
+      className="text-[11px] font-bold text-on-accent bg-accent
+                 px-2 min-h-[28px] rounded uppercase tracking-widest
+                 inline-flex items-center gap-1 active:opacity-80 transition-opacity"
+    >
+      <Backpack className="w-3 h-3" />
+      Saved
+      <ChevronRight className="w-3 h-3" />
+    </button>
+  ) : null;
+
+  const factsCard = (
+    <div className="flex flex-col gap-2.5 bg-raised/40 rounded-xl p-3.5 border border-white/5">
+      <div className="flex items-center gap-3">
+        <div className="text-accent">
+          <Calendar className="w-3.5 h-3.5" />
+        </div>
+        <span className="text-[12px] text-ink font-medium uppercase tracking-wide">
+          {formatDisplayDate(item.startDate, item.endDate)}
+        </span>
+      </div>
+
+      <div className="h-px bg-white/5 w-full"></div>
+
+      <div className="flex items-center gap-3">
+        <div className="text-accent">
+          <MapPin className="w-3.5 h-3.5" />
+        </div>
+        <div className="flex flex-wrap items-baseline gap-2">
+          <span className="text-[12px] text-ink font-medium uppercase tracking-wide">
+            {preciseLocation || item.region}
+          </span>
+          <span className="text-[11px] text-ink-faint font-mono">
+            {Math.abs(item.coordinates[0]).toFixed(4)}°{item.coordinates[0] >= 0 ? 'N' : 'S'}, {Math.abs(item.coordinates[1]).toFixed(4)}°{item.coordinates[1] >= 0 ? 'E' : 'W'}
+          </span>
+        </div>
+      </div>
+    </div>
+  );
+
+  const briefingSection = (
+    <div className="space-y-3">
+      <div className="flex items-center gap-2">
+        <AlignLeft className="w-4 h-4 text-accent" />
+        <h4 className="text-[12px] text-ink-dim uppercase font-black tracking-[0.1em]">Briefing</h4>
+      </div>
+      {briefing ? (
+        <div className="k-prose border-l border-line-hard pl-4 space-y-2">
+          <p className="text-sm text-ink leading-relaxed font-light">
+            {briefing.summary}
+          </p>
+          {/* CC BY-SA requires attribution, and the reader deserves to know
+              this is an encyclopedia summary rather than something the app
+              worked out. */}
+          <a
+            href={briefing.sourceUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 text-[12px] text-ink-faint hover:text-accent transition-colors"
+          >
+            Wikipedia · {briefing.sourceTitle}
+          </a>
+        </div>
+      ) : curatedNote ? (
+        <p className="k-prose text-sm text-ink leading-relaxed font-light border-l border-line-hard pl-4">
+          {curatedNote}
+        </p>
+      ) : (
+        // Better to admit the gap than to print "A spectacular natural
+        // phenomenon in <place>" back at someone who is reading it directly
+        // below the place.
+        <p className="text-sm text-ink-dim leading-relaxed font-light border-l border-line-hard pl-4">
+          No sourced description yet for this event.
+        </p>
+      )}
+    </div>
+  );
+
+  // More photographs, when the resolver found more than one. A single frame
+  // proves the event exists; several show what it is, which for this
+  // catalogue is most of the reason to go.
+  const gallerySection = gallery.length > 0 ? (
+    <div className="space-y-3">
+      <div className="flex items-center gap-2">
+        <Images className="w-4 h-4 text-accent" />
+        <h4 className="text-[12px] text-ink-dim uppercase font-black tracking-[0.1em]">
+          Photographs
+        </h4>
+      </div>
+      <EventGallery images={gallery} title={item.title} />
+    </div>
+  ) : null;
+
+  // What it will be like when you are there. Climate normals for this event's
+  // own calendar window, not today's weather — the full-analysis screen used
+  // to show current conditions at the site, which for an event eight months
+  // away told the reader nothing they could use.
+  const conditionsSection = (climate || daylight) ? (
+    <div className="space-y-3">
+      <div className="flex items-center gap-2">
+        <Sun className="w-4 h-4 text-accent" />
+        <h4 className="text-[12px] text-ink-dim uppercase font-black tracking-[0.1em]">
+          Conditions
+        </h4>
+      </div>
+      <ConditionsPanel climate={climate} daylight={daylight} />
+    </div>
+  ) : null;
+
+  // Getting there. Placed directly under the briefing, because "how would I
+  // even reach this" is the next thought after "what is it", and long before
+  // any book recommendation.
+  const gettingThereSection = (
+    <div className="space-y-3">
+      <div className="flex items-center gap-2">
+        <Plane className="w-4 h-4 text-accent" />
+        <h4 className="text-[12px] text-ink-dim uppercase font-black tracking-[0.1em]">
+          Getting there
+        </h4>
+      </div>
+      <GettingTherePanel item={item} userCoords={userCoords} />
+    </div>
+  );
+
+  const insightsSection = item.insights ? (
+    <div className="space-y-3 bg-raised/30 p-5 rounded-2xl border border-white/5">
+      <div className="flex items-center gap-2 mb-1">
+        <Sparkles className="w-3.5 h-3.5 text-accent" />
+        <h4 className="text-[12px] text-accent uppercase font-black tracking-[0.1em]">Cultural Intelligence</h4>
+      </div>
+      <p className="k-prose text-sm text-ink-dim leading-relaxed font-light italic">
+        "{item.insights}"
+      </p>
+    </div>
+  ) : null;
+
+  const booksSection = item.recommendedBooks && item.recommendedBooks.length > 0 ? (
+    <div className="space-y-5">
+      <h4 className="text-[12px] text-ink-faint uppercase font-black tracking-[0.12em] flex items-center gap-2">
+        Related Scholarship
+      </h4>
+
+      <div className="space-y-3">
+        {item.recommendedBooks.map((book, idx) => (
+          <a
+            key={idx}
+            // bookshopLink first: it is the field every book in the catalogue
+            // actually has. This read `book.url`, which almost none of them
+            // carry, so the whole reading list rendered as links to nowhere.
+            href={book.bookshopLink || book.url || book.amazonLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block group bg-raised border border-line rounded-xl p-4 transition-all hover:border-accent/30 hover:bg-raised"
+          >
+            <div className="flex justify-between items-start mb-2">
+              <h5 className="text-[12px] font-bold text-ink group-hover:text-ink transition-colors pr-4 leading-tight">
+                {book.title}
+              </h5>
+              <ShoppingBag className="w-3.5 h-3.5 text-ink-faint group-hover:text-accent flex-shrink-0 transition-colors" />
+            </div>
+            <div className="flex items-center justify-between">
+              <span className="text-[12px] text-ink-faint group-hover:text-ink-dim transition-colors uppercase tracking-widest font-medium">
+                BY {book.author}
+              </span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  ) : null;
+
+  const wikipediaBody = (
+    <div className="space-y-6 animate-in fade-in duration-300">
+      <div className="flex items-center gap-2 mb-4">
+        <BookOpen className="w-5 h-5 text-accent" />
+        <h2 className="text-xl font-black text-ink uppercase tracking-widest">Wikipedia</h2>
+      </div>
+
+      {isLoadingWiki ? (
+        <div className="flex flex-col items-center justify-center py-12 gap-4">
+          <Loader2 className="w-8 h-8 animate-spin text-accent" />
+          <span className="text-xs text-ink-faint font-mono uppercase tracking-widest">Loading Article...</span>
+        </div>
+      ) : (
+        <div
+          className="wiki-content"
+          dangerouslySetInnerHTML={{ __html: wikiContent || '' }}
+        />
+      )}
+    </div>
+  );
+
+  const panelStyles = (
+    <style>{`
+      .custom-scrollbar::-webkit-scrollbar { width: 4px; height: 2px; }
+      .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+      .custom-scrollbar::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
+      .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #555; }
+
+      .wiki-content h2 { font-size: 1.25rem; font-weight: 900; text-transform: uppercase; letter-spacing: 0.1em; color: white; margin-top: 2rem; margin-bottom: 1rem; }
+      .wiki-content h3 { font-size: 1.125rem; font-weight: 700; color: #e5e5e5; margin-top: 1.5rem; margin-bottom: 0.75rem; }
+      .wiki-content p { font-size: 0.875rem; line-height: 1.6; color: #d4d4d4; margin-bottom: 1rem; }
+      .wiki-content ul { list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1rem; color: #d4d4d4; font-size: 0.875rem; }
+      .wiki-content li { margin-bottom: 0.25rem; }
+      .wiki-content a { color: var(--k-accent); text-decoration: none; }
+      .wiki-content a:hover { text-decoration: underline; }
+
+      @keyframes slideUpFade {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .stagger-item {
+        opacity: 0;
+        animation: slideUpFade 0.5s ease-out forwards;
+      }
+
+      /* Reader. The one thing a 380px column cannot give prose is a measure,
+         so the overlay sets one — roughly 68 characters, with a line height
+         to match. Nothing else about the sections changes. */
+      .k-reader .k-prose { max-width: 68ch; }
+      .k-reader .k-prose p { font-size: 1.0625rem; line-height: 1.85; letter-spacing: 0.005em; }
+      .k-reader .wiki-content { max-width: 68ch; }
+      .k-reader .wiki-content p { font-size: 1.0625rem; line-height: 1.85; }
+
+      /* In the column the gallery has to be a scrolling strip of thumbnails.
+         With the whole window it can be what it should be: a contact sheet. */
+      .k-reader .k-gallery-strip {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 0.6rem;
+        overflow: visible;
+        max-width: 68ch;
+      }
+      .k-reader .k-gallery-strip > button { width: auto; height: 150px; }
+
+      @keyframes readerIn {
+        from { opacity: 0; transform: scale(0.985); }
+        to { opacity: 1; transform: scale(1); }
+      }
+      .k-reader { animation: readerIn 0.28s cubic-bezier(0.16, 1, 0.3, 1) both; }
+    `}</style>
+  );
+
+  /* ---- Reader ------------------------------------------------------------
+     A portal, not a nested overlay: the sidebar that owns this panel sets
+     overflow-hidden and a backdrop filter, either of which can clip a fixed
+     child. Rendered instead of the column rather than on top of it, so the
+     briefing, the climate lookup and the airport data are not fetched twice —
+     and because this is the same component instance, none of it reloads when
+     the reader opens or closes. */
+
+  if (isReader) {
+    return createPortal(
+      <div className="k-reader fixed inset-0 z-[90] bg-base overflow-y-auto custom-scrollbar text-ink">
+        {/* Controls ride above the hero, where the image is darkest. */}
+        <div className="fixed top-5 right-6 z-20 flex gap-2">
+          {onToggleSave && (
+            <button
+              onClick={onToggleSave}
+              className={`p-2 rounded-full backdrop-blur-md transition-all border shadow-lg ${isSaved
+                ? 'bg-accent border-accent text-on-accent'
+                : 'bg-black/60 border-white/10 text-ink hover:bg-accent hover:border-accent hover:text-on-accent'}`}
+              title={isSaved ? 'Remove from Itinerary' : 'Add to Itinerary'}
+            >
+              <Backpack className="w-5 h-5" />
+            </button>
+          )}
+          <button
+            onClick={() => setIsReader(false)}
+            className="p-2 bg-black/60 hover:bg-accent rounded-full transition-all border border-white/10 shadow-lg text-ink hover:text-on-accent"
+            title="Back to the map (Esc)"
+          >
+            <Minimize2 className="w-5 h-5" />
+          </button>
+        </div>
+
+        {/* Hero. Full-bleed, with the title on the same left edge the article
+            below starts from, so the eye does not have to travel to find it. */}
+        <div className="relative h-[46vh] min-h-[280px] w-full overflow-hidden">
+          {displayImage ? (
+            <img src={displayImage} className="w-full h-full object-cover" alt={item.title} />
+          ) : (
+            <div className="w-full h-full bg-raised" />
+          )}
+          <div className="absolute inset-0 bg-gradient-to-t from-base via-base/50 to-black/30 pointer-events-none" />
+          <div className="absolute inset-x-0 bottom-0">
+            <div className="mx-auto max-w-[1160px] px-8 xl:px-12 pb-10 space-y-4">
+              <div className="flex items-center gap-2">
+                {categoryChip}
+                {savedBadge}
+              </div>
+              <h1 className="text-4xl xl:text-5xl font-black leading-[1.05] tracking-tight uppercase font-sans max-w-[20ch]">
+                {item.title}
+              </h1>
+              <p className="text-[13px] text-ink-dim uppercase tracking-[0.14em] font-medium">
+                {preciseLocation || item.region} · {formatDisplayDate(item.startDate, item.endDate)}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Body. Prose on the left at a readable measure; the things you act
+            on — dates, weather, flights — in a rail that stays with you as you
+            read, instead of waiting at the bottom of a long scroll. */}
+        <div className="mx-auto max-w-[1160px] px-8 xl:px-12 pt-10 pb-28
+                        grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_320px] gap-x-14 gap-y-12 items-start">
+          <div className="min-w-0 space-y-12">
+            <div className="flex gap-1 p-1 bg-raised/40 rounded-xl w-fit border border-white/5">
+              {(['summary', 'wikipedia'] as const).map(tab => (
+                <button
+                  key={tab}
+                  onClick={() => setActiveTab(tab)}
+                  className={`px-4 py-2 rounded-lg text-[11px] font-black uppercase tracking-widest transition-colors ${activeTab === tab ? 'bg-accent text-on-accent' : 'text-ink-faint hover:text-ink'}`}
+                >
+                  {tab === 'summary' ? 'Briefing' : 'Wikipedia'}
+                </button>
+              ))}
+            </div>
+
+            {activeTab === 'summary' ? (
+              <>
+                {briefingSection}
+                {gallerySection}
+                {insightsSection}
+                {booksSection}
+              </>
+            ) : wikipediaBody}
+          </div>
+
+          <aside className="lg:sticky lg:top-8 space-y-8 min-w-0">
+            {factsCard}
+            {conditionsSection}
+            {gettingThereSection}
+          </aside>
+        </div>
+
+        {panelStyles}
+      </div>,
+      document.body
+    );
+  }
+
   return (
     <div
       className="h-full relative text-ink overflow-y-auto custom-scrollbar flex flex-col"
@@ -289,8 +680,22 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
         />
         <div className="absolute inset-0 bg-gradient-to-t from-base via-transparent to-black/40 pointer-events-none"></div>
 
-        {/* Top Controls */}
-        <div className="absolute top-4 right-4 flex gap-2 z-20">
+        {/* Top Controls.
+            Pushed clear of the map's floating navigation on desktop, which
+            sits at z-60 across the top of the window and was covering both
+            of these — the close button on an open event could not be hit at
+            all, only the tab underneath it. */}
+        <div className="absolute top-4 sm:top-[60px] right-4 flex gap-2 z-20">
+          {/* Reading a long briefing in a 380px column is the complaint this
+              answers. Hidden on phones, where the panel is already the whole
+              screen and there is nothing to expand into. */}
+          <button
+            onClick={() => setIsReader(true)}
+            className="hidden sm:block p-1.5 bg-black/60 hover:bg-accent rounded-full transition-all border border-white/10 shadow-lg text-ink hover:text-on-accent"
+            title="Read full screen"
+          >
+            <Maximize2 className="w-5 h-5" />
+          </button>
           {onToggleSave && (
             <button
               onClick={onToggleSave}
@@ -320,36 +725,8 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
             {/* Title Block */}
             <div className="space-y-4 stagger-item" style={{ animationDelay: '0.05s' }}>
               <div className="flex items-center gap-2">
-                <span
-                  className="text-[11px] font-bold px-2 py-0.5 rounded uppercase tracking-widest"
-                  style={{
-                    color: categoryColor(item.ritualType),
-                    backgroundColor: `color-mix(in srgb, ${categoryColor(item.ritualType)} 9%, transparent)`,
-                    border: `1px solid color-mix(in srgb, ${categoryColor(item.ritualType)} 20%, transparent)`,
-                  }}
-                >
-                  {item.ritualType}
-                </span>
-                {/* Goes to the trip, rather than undoing the save.
-                    "Saved" answers "where did it go?", and the useful reply is
-                    to show the reader. Unsaving stays on the backpack above,
-                    which is where they just pressed to save — so the two
-                    controls do not compete for the same tap with opposite
-                    outcomes. */}
-                {isSaved && onViewSaved && (
-                  <button
-                    type="button"
-                    onClick={onViewSaved}
-                    title="See it in your trips"
-                    className="text-[11px] font-bold text-on-accent bg-accent
-                               px-2 min-h-[28px] rounded uppercase tracking-widest
-                               inline-flex items-center gap-1 active:opacity-80 transition-opacity"
-                  >
-                    <Backpack className="w-3 h-3" />
-                    Saved
-                    <ChevronRight className="w-3 h-3" />
-                  </button>
-                )}
+                {categoryChip}
+                {savedBadge}
               </div>
               <h2 className="text-3xl font-black text-ink leading-[1.1] tracking-tight uppercase font-sans">
                 {item.title}
@@ -357,33 +734,8 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
             </div>
 
             {/* Essential Info compact */}
-            <div className="flex flex-col gap-2.5 bg-raised/40 rounded-xl p-3.5 border border-white/5 stagger-item" style={{ animationDelay: '0.1s' }}>
-              {/* Date */}
-              <div className="flex items-center gap-3">
-                <div className="text-accent">
-                  <Calendar className="w-3.5 h-3.5" />
-                </div>
-                <span className="text-[12px] text-ink font-medium uppercase tracking-wide">
-                  {formatDisplayDate(item.startDate, item.endDate)}
-                </span>
-              </div>
-
-              <div className="h-px bg-white/5 w-full"></div>
-
-              {/* Location */}
-              <div className="flex items-center gap-3">
-                <div className="text-accent">
-                  <MapPin className="w-3.5 h-3.5" />
-                </div>
-                <div className="flex flex-wrap items-baseline gap-2">
-                  <span className="text-[12px] text-ink font-medium uppercase tracking-wide">
-                    {preciseLocation || item.region}
-                  </span>
-                  <span className="text-[11px] text-ink-faint font-mono">
-                    {Math.abs(item.coordinates[0]).toFixed(4)}°{item.coordinates[0] >= 0 ? 'N' : 'S'}, {Math.abs(item.coordinates[1]).toFixed(4)}°{item.coordinates[1] >= 0 ? 'E' : 'W'}
-                  </span>
-                </div>
-              </div>
+            <div className="stagger-item" style={{ animationDelay: '0.1s' }}>
+              {factsCard}
             </div>
 
             {/* "Open Full Analysis" used to be here.
@@ -397,147 +749,20 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
 
             {/* Information Sections */}
             <div className="space-y-8 pt-2 stagger-item" style={{ animationDelay: '0.2s' }}>
-
-              {/* Overview */}
-              <div className="space-y-3">
-                <div className="flex items-center gap-2">
-                  <AlignLeft className="w-4 h-4 text-accent" />
-                  <h4 className="text-[12px] text-ink-dim uppercase font-black tracking-[0.1em]">Briefing</h4>
-                </div>
-                {briefing ? (
-                  <div className="border-l border-line-hard pl-4 space-y-2">
-                    <p className="text-sm text-ink leading-relaxed font-light">
-                      {briefing.summary}
-                    </p>
-                    {/* CC BY-SA requires attribution, and the reader deserves
-                        to know this is an encyclopedia summary rather than
-                        something the app worked out. */}
-                    <a
-                      href={briefing.sourceUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 text-[12px] text-ink-faint hover:text-accent transition-colors"
-                    >
-                      Wikipedia · {briefing.sourceTitle}
-                    </a>
-                  </div>
-                ) : curatedNote ? (
-                  <p className="text-sm text-ink leading-relaxed font-light border-l border-line-hard pl-4">
-                    {curatedNote}
-                  </p>
-                ) : (
-                  // Better to admit the gap than to print "A spectacular
-                  // natural phenomenon in <place>" back at someone who is
-                  // reading it directly below the place.
-                  <p className="text-sm text-ink-dim leading-relaxed font-light border-l border-line-hard pl-4">
-                    No sourced description yet for this event.
-                  </p>
-                )}
-              </div>
-
-              {/* What it will be like when you are there.
-                  Climate normals for this event's own calendar window, not
-                  today's weather — the full-analysis screen used to show
-                  current conditions at the site, which for an event eight
-                  months away told the reader nothing they could use. */}
-              {(climate || daylight) && (
-                <div className="space-y-3">
-                  <div className="flex items-center gap-2">
-                    <Sun className="w-4 h-4 text-accent" />
-                    <h4 className="text-[12px] text-ink-dim uppercase font-black tracking-[0.1em]">
-                      Conditions
-                    </h4>
-                  </div>
-                  <ConditionsPanel climate={climate} daylight={daylight} />
-                </div>
-              )}
-
-              {/* Getting there. Placed directly under the briefing, because
-                  "how would I even reach this" is the next thought after
-                  "what is it", and long before any book recommendation. */}
-              <div className="space-y-3">
-                <div className="flex items-center gap-2">
-                  <Plane className="w-4 h-4 text-accent" />
-                  <h4 className="text-[12px] text-ink-dim uppercase font-black tracking-[0.1em]">
-                    Getting there
-                  </h4>
-                </div>
-                <GettingTherePanel item={item} userCoords={userCoords} />
-              </div>
-
-              {/* Insights */}
-              {item.insights && (
-                <div className="space-y-3 bg-raised/30 p-5 rounded-2xl border border-white/5">
-                  <div className="flex items-center gap-2 mb-1">
-                    <Sparkles className="w-3.5 h-3.5 text-accent" />
-                    <h4 className="text-[12px] text-accent uppercase font-black tracking-[0.1em]">Cultural Intelligence</h4>
-                  </div>
-                  <p className="text-sm text-ink-dim leading-relaxed font-light italic">
-                    "{item.insights}"
-                  </p>
-                </div>
-              )}
+              {briefingSection}
+              {gallerySection}
+              {conditionsSection}
+              {gettingThereSection}
+              {insightsSection}
             </div>
 
-            {/* BOOK RECOMMENDATIONS SECTION */}
-            {item.recommendedBooks && item.recommendedBooks.length > 0 && (
-              <div className="space-y-5 pt-8 border-t border-line stagger-item" style={{ animationDelay: '0.25s' }}>
-                <div className="flex items-center justify-between">
-                  <h4 className="text-[12px] text-ink-faint uppercase font-black tracking-[0.12em] flex items-center gap-2">
-                    Related Scholarship
-                  </h4>
-                </div>
-
-                <div className="space-y-3">
-                  {item.recommendedBooks.map((book, idx) => (
-                    <a
-                      key={idx}
-                      // bookshopLink first: it is the field every book in the
-                      // catalogue actually has. This read `book.url`, which
-                      // almost none of them carry, so the whole reading list
-                      // rendered as links to nowhere.
-                      href={book.bookshopLink || book.url || book.amazonLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block group bg-raised border border-line rounded-xl p-4 transition-all hover:border-accent/30 hover:bg-raised"
-                    >
-                      <div className="flex justify-between items-start mb-2">
-                        <h5 className="text-[12px] font-bold text-ink group-hover:text-ink transition-colors pr-4 leading-tight">
-                          {book.title}
-                        </h5>
-                        <ShoppingBag className="w-3.5 h-3.5 text-ink-faint group-hover:text-accent flex-shrink-0 transition-colors" />
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <span className="text-[12px] text-ink-faint group-hover:text-ink-dim transition-colors uppercase tracking-widest font-medium">
-                          BY {book.author}
-                        </span>
-                      </div>
-                    </a>
-                  ))}
-                </div>
+            {booksSection && (
+              <div className="pt-8 border-t border-line stagger-item" style={{ animationDelay: '0.25s' }}>
+                {booksSection}
               </div>
             )}
           </>
-        ) : (
-          <div className="space-y-6 animate-in fade-in duration-300">
-            <div className="flex items-center gap-2 mb-4">
-              <BookOpen className="w-5 h-5 text-accent" />
-              <h2 className="text-xl font-black text-ink uppercase tracking-widest">Wikipedia</h2>
-            </div>
-
-            {isLoadingWiki ? (
-              <div className="flex flex-col items-center justify-center py-12 gap-4">
-                <Loader2 className="w-8 h-8 animate-spin text-accent" />
-                <span className="text-xs text-ink-faint font-mono uppercase tracking-widest">Loading Article...</span>
-              </div>
-            ) : (
-              <div
-                className="wiki-content"
-                dangerouslySetInnerHTML={{ __html: wikiContent || '' }}
-              />
-            )}
-          </div>
-        )}
+        ) : wikipediaBody}
       </div>
 
       {/* Footer Tabs */}
@@ -557,29 +782,7 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
         </button>
       </div>
 
-      <style>{`
-        .custom-scrollbar::-webkit-scrollbar { width: 4px; height: 2px; }
-        .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
-        .custom-scrollbar::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
-        .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #555; }
-        
-        .wiki-content h2 { font-size: 1.25rem; font-weight: 900; text-transform: uppercase; letter-spacing: 0.1em; color: white; margin-top: 2rem; margin-bottom: 1rem; }
-        .wiki-content h3 { font-size: 1.125rem; font-weight: 700; color: #e5e5e5; margin-top: 1.5rem; margin-bottom: 0.75rem; }
-        .wiki-content p { font-size: 0.875rem; line-height: 1.6; color: #d4d4d4; margin-bottom: 1rem; }
-        .wiki-content ul { list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1rem; color: #d4d4d4; font-size: 0.875rem; }
-        .wiki-content li { margin-bottom: 0.25rem; }
-        .wiki-content a { color: var(--k-accent); text-decoration: none; }
-        .wiki-content a:hover { text-decoration: underline; }
-        
-        @keyframes slideUpFade {
-          from { opacity: 0; transform: translateY(10px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-        .stagger-item {
-          opacity: 0;
-          animation: slideUpFade 0.5s ease-out forwards;
-        }
-      `}</style>
+      {panelStyles}
     </div>
   );
 };
