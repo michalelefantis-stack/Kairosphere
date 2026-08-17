@@ -6,6 +6,7 @@ import LiveDetailPanel from './LiveDetailPanel';
 import { categoryColor, categoryGlyph } from '../utils/categoryTheme';
 import { leadTime } from '../utils/tripPlanner';
 import { calculateDistance } from '../utils/geo';
+import { occurrenceKind } from '../utils/eventSchedule';
 
 /** Thumbnail with a fallback that survives list recycling. */
 const Thumbnail: React.FC<{ item: CultureItem }> = ({ item }) => {
@@ -14,9 +15,14 @@ const Thumbnail: React.FC<{ item: CultureItem }> = ({ item }) => {
   // broken image would blank every event that later reuses the node.
   React.useEffect(() => setFailed(false), [item.id]);
 
+  // An empty url is deliberate, not missing data: applyEventImages strips
+  // stock photos shared between events rather than implying one depicts the
+  // other. Fall straight through to the glyph instead of loading an empty src.
+  const showGlyph = failed || !item.imageUrl;
+
   return (
     <div className="w-16 h-16 bg-hover rounded-lg overflow-hidden flex-shrink-0 border border-line relative flex items-center justify-center">
-      {failed ? (
+      {showGlyph ? (
         <svg width="20" height="20" viewBox="0 0 16 16" aria-hidden="true"
              style={{ color: categoryColor(item.ritualType, item.subCategory), opacity: 0.55 }}>
           <path d={categoryGlyph(item.ritualType, item.subCategory)} fill="currentColor" />
@@ -133,10 +139,28 @@ const Sidebar: React.FC<SidebarProps> = ({
   // others. React counts hooks by call order, and the mismatch crashed the
   // panel the moment a marker was clicked.
   const sorted = React.useMemo(() => {
-    const withDate = (e: CultureItem) => {
-      const t = new Date(e.startDate).getTime();
-      // Undated entries sink rather than colonising the top of the list.
-      return Number.isNaN(t) || e.dateIsUnconfirmed || e.dateIsMovable ? Infinity : t;
+    // "Soonest" means soonest to act on, which is not always the start date.
+    // A viewing season that opened in January has a start date eight months
+    // old and would sort above a festival beginning next week; what matters
+    // about an open window is when it shuts. So: anything already under way
+    // is ranked by when it ends, everything else by when it begins.
+    const actionableAt = (e: CultureItem) => {
+      const start = new Date(e.startDate).getTime();
+      const end = new Date(e.endDate || e.startDate).getTime();
+      // Undated entries sink rather than colonising the top of the list. So do
+      // the year-round ones: a nightly ceremony technically starts today, every
+      // day, which sorted it above every real festival in the catalogue.
+      if (
+        Number.isNaN(start) ||
+        e.dateIsUnconfirmed ||
+        e.dateIsMovable ||
+        occurrenceKind(e) === 'always'
+      ) {
+        return Infinity;
+      }
+      const now = Date.now();
+      if (start <= now) return Number.isNaN(end) ? start : end;
+      return start;
     };
     const copy = [...items];
     if (sortMode === 'name') return copy.sort((a, b) => a.title.localeCompare(b.title));
@@ -145,7 +169,7 @@ const Sidebar: React.FC<SidebarProps> = ({
         calculateDistance(userCoords[0], userCoords[1], e.coordinates[0], e.coordinates[1]);
       return copy.sort((a, b) => away(a) - away(b));
     }
-    return copy.sort((a, b) => withDate(a) - withDate(b));
+    return copy.sort((a, b) => actionableAt(a) - actionableAt(b));
   }, [items, sortMode, userCoords]);
 
   // If a detail panel is active, render it directly

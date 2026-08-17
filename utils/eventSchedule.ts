@@ -68,6 +68,50 @@ export function isPlaceholderDate(startDate: string): boolean {
   return PLACEHOLDER_DATES.has(startDate);
 }
 
+/**
+ * Not everything in the catalogue is an event.
+ *
+ * Three different things share the same two date fields, and treating them
+ * alike is what put "Happening now" on The Great Blue Hole — a hole, which is
+ * always there — at the top of the list, directly above real festivals
+ * starting this week.
+ *
+ *   dated    an occurrence with a start and an end. Takanakuy is 25 December.
+ *   season   a window in which the thing may be seen. Naghol runs April to
+ *            June; the aurora season is seven months long. "Happening now" is
+ *            true of these and tells the reader nothing — what they need is
+ *            when the window closes.
+ *   always   not date-bound at all. Ganga Aarti is nightly, Ijen's blue fire
+ *            is nightly, the Blue Hole is geology. These must never occupy
+ *            the urgency slots, because there is no urgency.
+ *
+ * Boundaries are deliberately generous. A fortnight either side of a
+ * fortnight-long festival is still a festival; 45 days is not.
+ */
+export type OccurrenceKind = 'dated' | 'season' | 'always';
+
+/** Beyond this the window is a season, not an occurrence. */
+export const SEASON_MIN_DAYS = 45;
+/** Beyond this it is not date-bound at all. */
+export const ALWAYS_MIN_DAYS = 300;
+
+export function occurrenceKind(
+  item: Pick<CultureItem, 'startDate' | 'endDate'>
+): OccurrenceKind {
+  const start = new Date(item.startDate).getTime();
+  const end = new Date(item.endDate || item.startDate).getTime();
+  if (Number.isNaN(start) || Number.isNaN(end)) return 'dated';
+
+  let days = (end - start) / DAY_MS;
+  // A negative span is a window crossing the new year, the same case
+  // resolveSchedule repairs; measure the real length, not the wrap.
+  if (days < 0) days += 365;
+
+  if (days >= ALWAYS_MIN_DAYS) return 'always';
+  if (days >= SEASON_MIN_DAYS) return 'season';
+  return 'dated';
+}
+
 export interface ResolvedSchedule {
   startDate: string;
   endDate: string;

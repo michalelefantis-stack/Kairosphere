@@ -1,5 +1,6 @@
 import { CultureItem } from '../types';
 import { calculateDistance } from './geo';
+import { occurrenceKind } from './eventSchedule';
 
 /**
  * Turning saved events into a plan.
@@ -150,7 +151,16 @@ export function findConflicts(trips: Trip[]): Conflict[] {
 
 // ── lead time ─────────────────────────────────────────────────────────────
 
-export type Urgency = 'past' | 'imminent' | 'soon' | 'planning' | 'distant';
+export type Urgency =
+  | 'past'
+  | 'imminent'
+  | 'soon'
+  | 'planning'
+  | 'distant'
+  /** A viewing window is open, but it is months wide — not urgent. */
+  | 'season'
+  /** Nightly or permanent: there is no date to be early or late for. */
+  | 'anytime';
 
 export interface LeadTime {
   days: number;
@@ -169,6 +179,33 @@ export function leadTime(item: CultureItem, now: number = Date.now()): LeadTime 
   const start = startOf(item);
   const end = endOf(item);
   const days = Math.ceil((start - now) / DAY_MS);
+  const kind = occurrenceKind(item);
+
+  // Nightly ceremonies and standing geological features have no lead time.
+  // Saying "Happening now" of the Blue Hole is true every second of the year
+  // and displaces a festival that genuinely starts on Tuesday.
+  if (kind === 'always') {
+    return { days: 0, urgency: 'anytime', label: 'Year-round' };
+  }
+
+  // A season is reported by its closing date, which is the part that can be
+  // missed. "Happening now" on a 243-day aurora window is not information.
+  if (kind === 'season') {
+    if (end < now) return { days, urgency: 'past', label: 'Season over' };
+    if (start <= now) {
+      const left = Math.ceil((end - now) / DAY_MS);
+      return {
+        days: 0,
+        urgency: left <= 30 ? 'soon' : 'season',
+        label: left <= 60 ? `Season ends in ${left} days` : 'Season open'
+      };
+    }
+    return {
+      days,
+      urgency: days <= 60 ? 'soon' : 'planning',
+      label: days <= 60 ? `Season opens in ${days} days` : `Season opens in ${Math.round(days / 30)} months`
+    };
+  }
 
   if (end < now) return { days, urgency: 'past', label: 'Already finished' };
   if (start <= now) return { days: 0, urgency: 'imminent', label: 'Happening now' };

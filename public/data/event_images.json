@@ -1,5 +1,5 @@
 {
-  "note": "Photos verified against Wikimedia descriptions. Credit and licence must be displayed with the image.",
+  "note": "Photos verified against Wikimedia descriptions. Credit and licence must be displayed with the image. One photo is used by at most one event: a reused image means the match was made on a word both events share, not on the subject.",
   "images": {
     "australia-barunga": {
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/MRF-D_Marines_volunteer%2C_participate_at_Barunga_Festival_2026_%289741895%29.jpg/1280px-MRF-D_Marines_volunteer%2C_participate_at_Barunga_Festival_2026_%289741895%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1309,17 +1309,6 @@
       "score": 5,
       "via": "commons-search",
       "eventId": "india-poila-baisakh"
-    },
-    "india-kumbh-mela": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/1674_CE_Prayag_Snana_Vidhi%2C_Puranas_manuscript%2C_Sanskrit%2C_Devanagari_sample_i.jpg/1280px-1674_CE_Prayag_Snana_Vidhi%2C_Puranas_manuscript%2C_Sanskrit%2C_Devanagari_sample_i.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "credit": "Ms Sarah Welch",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:1674_CE_Prayag_Snana_Vidhi,_Puranas_manuscript,_Sanskrit,_Devanagari_sample_i.jpg",
-      "verifiedBy": "kumbh",
-      "score": 5,
-      "via": "commons-category",
-      "eventId": "india-kumbh-mela"
     },
     "nepal-tiji": {
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Tiji_Festival_in_Mustang.jpg/1280px-Tiji_Festival_in_Mustang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
