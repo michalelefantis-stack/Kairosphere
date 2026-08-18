@@ -232,12 +232,39 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* ─── Scrollbars ────────────────────────────────────────────────────────────── */
-.custom-scrollbar::-webkit-scrollbar { width: 5px; height: 5px; }
+/* ─── Scrollbars ──────────────────────────────────────────────────────────────
+   An overlay bar: present when you are in the panel, invisible when you are
+   not. The detail panel runs well past its own height — briefing, contact
+   sheet, conditions, flights, reading — so something has to say there is more
+   below. A permanent rail down the edge of a floating card is not that thing;
+   the pointer is already over the panel whenever anyone is reading it, so
+   hover is the moment the bar is worth drawing.
+
+   This lives here and only here. Three components used to inject their own
+   copy from a <style> tag, which is global wherever it mounts: the sidebar's
+   scrollbar took its colour from whichever other screen happened to be
+   mounted, and all three hard-coded dark-theme greys that were wrong in
+   light mode. */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  transition: scrollbar-color 0.2s ease;
+}
+.custom-scrollbar:hover,
+.custom-scrollbar:focus-within {
+  scrollbar-color: var(--scrollbar-thumb) transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar { width: 6px; height: 6px; }
 .custom-scrollbar::-webkit-scrollbar-track { background: var(--scrollbar-track); }
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background: var(--scrollbar-thumb);
+  background: transparent;
   border-radius: 10px;
+  transition: background 0.2s ease;
+}
+.custom-scrollbar:hover::-webkit-scrollbar-thumb,
+.custom-scrollbar:focus-within::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
 }
 .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: var(--scrollbar-hover); }
 

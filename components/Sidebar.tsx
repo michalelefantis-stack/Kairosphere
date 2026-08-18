@@ -388,12 +388,9 @@ const Sidebar: React.FC<SidebarProps> = ({
       </div>
 
       <style>{`
-        .custom-scrollbar::-webkit-scrollbar { width: 4px; height: 2px; }
-        .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
-        .custom-scrollbar::-webkit-scrollbar-thumb { background: var(--k-line); border-radius: 2px; }
-        .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: var(--k-line-hard); }
-        .no-scrollbar::-webkit-scrollbar { display: none; }
-        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        /* .custom-scrollbar and .no-scrollbar live in index.css — see the
+           note there. Redefining them from a component made the sidebar's
+           own scrollbar depend on which other screen happened to be mounted. */
       `}</style>
     </div>
   );

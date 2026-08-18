@@ -1007,9 +1007,6 @@ const App: React.FC = () => {
       />
 
       <style>{`
-        .custom-scrollbar::-webkit-scrollbar { width: 5px; }
-        .custom-scrollbar::-webkit-scrollbar-track { background: #0a0a0a; }
-        .custom-scrollbar::-webkit-scrollbar-thumb { background: #222; border-radius: 10px; }
         
         .leaflet-tooltip.custom-tooltip {
           background-color: #111;

@@ -313,17 +313,10 @@ const CalendarView: React.FC<CalendarViewProps> = ({ events, onSelect, selectedI
       </div>
 
       <style>{`
-        .no-scrollbar::-webkit-scrollbar { display: none; }
-        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
-        
-        .custom-scrollbar::-webkit-scrollbar { width: 5px; }
-        .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
-        .custom-scrollbar::-webkit-scrollbar-thumb { 
-          background: #111; 
-          border-radius: 10px;
-          transition: background 0.3s;
-        }
-        .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #222; }
+        /* .no-scrollbar and .custom-scrollbar are defined in index.css. A
+           <style> tag is global wherever it mounts, so the copies that sat
+           here were restyling every scrollbar in the app, in colours chosen
+           for the dark theme alone. */
         
         /* Smooth snapping for vertical pages */
         .snap-mandatory {

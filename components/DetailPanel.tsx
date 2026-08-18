@@ -587,11 +587,6 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
 
   const panelStyles = (
     <style>{`
-      .custom-scrollbar::-webkit-scrollbar { width: 4px; height: 2px; }
-      .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
-      .custom-scrollbar::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
-      .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #555; }
-
       .wiki-content p { font-size: 0.875rem; line-height: 1.6; color: var(--k-ink-dim); margin-bottom: 1rem; }
       .wiki-content p:last-child { margin-bottom: 0; }
       .wiki-content h3 {
