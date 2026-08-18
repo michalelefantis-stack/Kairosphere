@@ -16,12 +16,19 @@ Nothing ships until these are true.
       has never executed once, so the live map is only as fresh as the last
       manual pipeline run. This is the single highest-value item on the list —
       it turns a static build into a product that maintains itself.
-- [ ] **Rotate the Gemini key.** One was pasted into a chat transcript during
-      development. New key at [aistudio.google.com/apikey](https://aistudio.google.com/apikey);
-      it begins `AIza`, not `AQ.`.
-- [ ] **Set `GEMINI_API_KEY` in two places** — `.env` (local pipeline) and the
-      `GEMINI_API_KEY` GitHub secret (scheduled runs). A third, `server/.env`,
-      only if you deploy the server.
+- [ ] **Gemini key — optional for launch.** Nothing that builds the live map
+      needs one: `python -m pipeline.run` collects 64 events and publishes with
+      no key set. The only thing that wants it is `pipeline.monitor`, which
+      classifies local news headlines and separates public ceremony from
+      private grief; without it feeds are marked "unfiltered" and
+      `LocalReports` renders nothing at all. That is a missing panel, not a
+      broken app.
+  - [ ] If you do want local news: a real key begins `AIza` and comes from
+        [aistudio.google.com/apikey](https://aistudio.google.com/apikey). A
+        value beginning `AQ.` is an OAuth/ephemeral token — `generativelanguage`
+        rejects it. Goes in `.env` and the `GEMINI_API_KEY` GitHub secret.
+  - [ ] Rotate whatever key existed before: one was pasted into a chat
+        transcript during development.
 - [ ] **Decide whether to deploy the server at all.** It now serves one
       operation: `preciseLocation`, which sharpens "Montana, United States" to
       "Crow Agency, Montana". Skipping it is supported — the panel falls back
@@ -140,7 +147,11 @@ Verified in this pass, so nobody re-checks them.
 - [x] `.gitignore` covers `.env`, keys, build output and the prompt-history
       export.
 - [x] Feed workflow written, tested and scheduled every two hours — it only
-      needs a remote to run against.
+      needs a remote to run against. It needs no Gemini key to build the feed.
+- [x] Publish gate no longer blocks every run. It compared published counts,
+      which move with the horizon and the season; it now compares what the
+      adapters sourced, which is what an outage actually moves. 12 tests where
+      there were none.
 - [x] Catalogue moved to fetched JSON, so adding or correcting an event is a
       content change rather than a release.
 - [x] All 327 events resolve to arrival and gateway airports.

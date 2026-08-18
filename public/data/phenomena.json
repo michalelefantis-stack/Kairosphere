@@ -1,28 +1,37 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T13:44:26.588439Z",
-  "horizonDays": 120,
+  "generatedAt": "2026-08-18T14:20:50.303719Z",
+  "horizonDays": 7,
   "counts": {
-    "total": 18,
-    "active": 4,
+    "total": 4,
+    "active": 3,
     "byTier": {
-      "1": 9,
+      "1": 1,
       "2": 1,
-      "3": 3,
-      "4": 5
+      "3": 2
     },
     "byBand": {
-      "high": 9,
-      "medium": 3,
-      "low": 3,
-      "speculative": 3
+      "high": 1,
+      "medium": 1,
+      "low": 2,
+      "speculative": 0
+    },
+    "sourced": {
+      "collected": 64,
+      "reconciled": 64,
+      "byTier": {
+        "1": 56,
+        "2": 1,
+        "3": 3,
+        "4": 4
+      }
     }
   },
   "events": [
     {
       "id": "citizen-91513997e8",
       "name": "Horseshoe Crab Spawning",
-      "description": "Spawning peaks on new and full moon high tides, drawing the red knot migration that feeds on the eggs. Underway — roughly 91% through the typical window, with 56 reports in the last two weeks.",
+      "description": "Spawning peaks on new and full moon high tides, drawing the red knot migration that feeds on the eggs. Underway — roughly 93% through the typical window, with 67 reports in the last two weeks.",
       "category": "Animal Migration",
       "emoji": "🦀",
       "tier": 3,
@@ -38,14 +47,14 @@
       "uncertaintyDays": 21.0,
       "confidence": 0.34,
       "baseConfidence": 0.85,
-      "lastVerifiedAt": "2026-08-16T13:44:08.425476Z",
+      "lastVerifiedAt": "2026-08-18T14:20:31.413577Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=48302",
           "kind": "citizen",
-          "retrievedAt": "2026-08-16T13:44:08.425476Z",
-          "note": "6377 research-grade records in region; peak week 21; 56 in last 14 days."
+          "retrievedAt": "2026-08-18T14:20:31.413577Z",
+          "note": "6395 research-grade records in region; peak week 21; 67 in last 14 days."
         }
       ],
       "sensitivity": "public",
@@ -56,7 +65,7 @@
     {
       "id": "citizen-2fecf84856",
       "name": "Humpback Bubble-Net Feeding",
-      "description": "Cooperative bubble-net feeding, a learned behaviour passed between individuals rather than inherited. Underway — roughly 75% through the typical window, with 18 reports in the last two weeks.",
+      "description": "Cooperative bubble-net feeding, a learned behaviour passed between individuals rather than inherited. Underway — roughly 77% through the typical window, with 17 reports in the last two weeks.",
       "category": "Animal Migration",
       "emoji": "🐋",
       "tier": 3,
@@ -70,16 +79,16 @@
       "windowEnd": "2026-09-17T00:00:00Z",
       "peak": "2026-07-23T00:00:00Z",
       "uncertaintyDays": 21.0,
-      "confidence": 0.311,
-      "baseConfidence": 0.778,
-      "lastVerifiedAt": "2026-08-16T13:44:08.425476Z",
+      "confidence": 0.306,
+      "baseConfidence": 0.766,
+      "lastVerifiedAt": "2026-08-18T14:20:31.413577Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=41566",
           "kind": "citizen",
-          "retrievedAt": "2026-08-16T13:44:08.425476Z",
-          "note": "2067 research-grade records in region; peak week 30; 18 in last 14 days."
+          "retrievedAt": "2026-08-18T14:20:31.413577Z",
+          "note": "2073 research-grade records in region; peak week 30; 17 in last 14 days."
         }
       ],
       "sensitivity": "public",
@@ -106,20 +115,20 @@
       "uncertaintyDays": 3.0,
       "confidence": 0.531,
       "baseConfidence": 0.576,
-      "lastVerifiedAt": "2026-08-16T13:44:05.976192Z",
+      "lastVerifiedAt": "2026-08-18T14:20:28.723918Z",
       "sources": [
         {
           "name": "Open-Meteo temperature series",
           "url": "https://api.open-meteo.com/v1/forecast",
           "kind": "model",
-          "retrievedAt": "2026-08-16T13:44:05.976182Z",
-          "note": "GDD base 10.0C, threshold 520, accumulated 661."
+          "retrievedAt": "2026-08-18T14:20:28.723904Z",
+          "note": "GDD base 10.0C, threshold 520, accumulated 688."
         },
         {
           "name": "Bloom model calibration (first-pass)",
           "url": "pipeline/registry/bloom_models.json",
           "kind": "model",
-          "retrievedAt": "2026-08-16T13:44:05.976191Z",
+          "retrievedAt": "2026-08-18T14:20:28.723916Z",
           "note": "SANParks bloom-season reporting, typically mid-August to mid-September."
         }
       ],
@@ -127,40 +136,6 @@
       "precision": "point",
       "consent": "",
       "recurrence": "annual, temperature-driven"
-    },
-    {
-      "id": "curated-2317eb2741",
-      "name": "Mount Hagen Cultural Show",
-      "description": "Western Highlands sing-sing, staged the month before Goroka and generally less crowded with visitors. Third weekend of August in most years.",
-      "category": "Human Ritual",
-      "emoji": "🪶",
-      "tier": 4,
-      "coordinates": [
-        -5.8575,
-        144.23
-      ],
-      "locationHint": "Mount Hagen, Western Highlands",
-      "country": "Papua New Guinea",
-      "windowStart": "2026-08-15T00:00:00Z",
-      "windowEnd": "2026-08-17T00:00:00Z",
-      "peak": null,
-      "uncertaintyDays": 0.67,
-      "confidence": 0.742,
-      "baseConfidence": 0.85,
-      "lastVerifiedAt": "2026-08-01T00:00:00Z",
-      "sources": [
-        {
-          "name": "Papua New Guinea Tourism Promotion Authority",
-          "url": "https://www.papuanewguinea.travel/",
-          "kind": "curated",
-          "retrievedAt": "2026-08-01T00:00:00Z",
-          "note": "Ticketed public festival."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "Ticketed public festival.",
-      "recurrence": "fixed"
     },
     {
       "id": "cal-islamic-be85b4e65a",
@@ -181,13 +156,13 @@
       "uncertaintyDays": 1.5,
       "confidence": 0.813,
       "baseConfidence": 0.9,
-      "lastVerifiedAt": "2026-08-16T13:44:00.782019Z",
+      "lastVerifiedAt": "2026-08-18T14:20:24.247011Z",
       "sources": [
         {
           "name": "Calendrical conversion",
           "url": "https://www.staff.science.uu.nl/~gent0113/islam/islam_tabcal.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-08-16T13:44:00.782019Z",
+          "retrievedAt": "2026-08-18T14:20:24.247011Z",
           "note": "Tabular Islamic calendar; regional moon sighting shifts observance by up to a day."
         }
       ],
@@ -195,490 +170,6 @@
       "precision": "point",
       "consent": "",
       "recurrence": "annual, Hijri"
-    },
-    {
-      "id": "citizen-7d87b1b9ca",
-      "name": "Sockeye Salmon Run",
-      "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Season opens in about 10 days; 0 reports in the last two weeks.",
-      "category": "Animal Migration",
-      "emoji": "🐟",
-      "tier": 3,
-      "coordinates": [
-        50.9,
-        -119.6
-      ],
-      "locationHint": "Adams River, British Columbia",
-      "country": "Canada",
-      "windowStart": "2026-08-27T00:00:00Z",
-      "windowEnd": "2026-10-15T00:00:00Z",
-      "peak": "2026-10-01T00:00:00Z",
-      "uncertaintyDays": 12.25,
-      "confidence": 0.108,
-      "baseConfidence": 0.202,
-      "lastVerifiedAt": "2026-08-16T13:44:08.425476Z",
-      "sources": [
-        {
-          "name": "iNaturalist observations",
-          "url": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
-          "kind": "citizen",
-          "retrievedAt": "2026-08-16T13:44:08.425476Z",
-          "note": "766 research-grade records in region; peak week 40; 0 in last 14 days."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "regional",
-      "consent": "",
-      "recurrence": "annual, observed"
-    },
-    {
-      "id": "curated-71555bddfe",
-      "name": "Gerewol",
-      "description": "Wodaabe men dance the yaake in ochre and beads for hours in the heat, judged by women of the clan. Held where herding groups converge as the rains end. Nomadic and weather-dependent — the gathering point shifts year to year, so coordinates are country-level on purpose.",
-      "category": "Human Ritual",
-      "emoji": "💃",
-      "tier": 4,
-      "coordinates": [
-        15,
-        10
-      ],
-      "locationHint": "Southern Niger (location follows the herds)",
-      "country": "Niger",
-      "windowStart": "2026-09-01T00:00:00Z",
-      "windowEnd": "2026-09-30T00:00:00Z",
-      "peak": null,
-      "uncertaintyDays": 9.67,
-      "confidence": 0.34,
-      "baseConfidence": 0.85,
-      "lastVerifiedAt": "2026-06-10T00:00:00Z",
-      "sources": [
-        {
-          "name": "UNESCO ICH nomination context",
-          "url": "https://ich.unesco.org/",
-          "kind": "curated",
-          "retrievedAt": "2026-06-10T00:00:00Z",
-          "note": "Attend only with Wodaabe hosts or the specialist operators who arrange with them. No fixed public venue exists."
-        }
-      ],
-      "sensitivity": "restricted",
-      "precision": "country",
-      "consent": "Attend only with Wodaabe hosts or the specialist operators who arrange with them. No fixed public venue exists.",
-      "recurrence": "month_window"
-    },
-    {
-      "id": "curated-7ed216ec67",
-      "name": "Goroka Show",
-      "description": "Over a hundred highland sing-sing groups in full regalia, the largest tribal gathering in Papua New Guinea. Held around PNG's Independence Day weekend in mid-September.",
-      "category": "Human Ritual",
-      "emoji": "🪶",
-      "tier": 4,
-      "coordinates": [
-        -6.0833,
-        145.387
-      ],
-      "locationHint": "Goroka, Eastern Highlands",
-      "country": "Papua New Guinea",
-      "windowStart": "2026-09-13T00:00:00Z",
-      "windowEnd": "2026-09-16T00:00:00Z",
-      "peak": null,
-      "uncertaintyDays": 1.0,
-      "confidence": 0.709,
-      "baseConfidence": 0.85,
-      "lastVerifiedAt": "2026-07-28T00:00:00Z",
-      "sources": [
-        {
-          "name": "Papua New Guinea Tourism Promotion Authority",
-          "url": "https://www.papuanewguinea.travel/",
-          "kind": "curated",
-          "retrievedAt": "2026-07-28T00:00:00Z",
-          "note": "Ticketed public festival with an official organising committee."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "Ticketed public festival with an official organising committee.",
-      "recurrence": "fixed"
-    },
-    {
-      "id": "astro-align-212297d96f",
-      "name": "September Equinox at Chichen Itza",
-      "description": "The autumn repeat of the serpent shadow, with far thinner crowds than the March alignment.",
-      "category": "Cosmic Event",
-      "emoji": "🐍",
-      "tier": 1,
-      "coordinates": [
-        20.6843,
-        -88.5678
-      ],
-      "locationHint": "Chichen Itza",
-      "country": "Mexico",
-      "windowStart": "2026-09-22T00:05:24.925416Z",
-      "windowEnd": "2026-09-24T00:05:24.925416Z",
-      "peak": "2026-09-23T00:05:24.925416Z",
-      "uncertaintyDays": 0.0,
-      "confidence": 1.0,
-      "baseConfidence": 1.0,
-      "lastVerifiedAt": "2026-08-16T13:44:00.781628Z",
-      "sources": [
-        {
-          "name": "Meeus, Astronomical Algorithms (2nd ed.)",
-          "url": "https://www.willbell.com/math/mc1.htm",
-          "kind": "deterministic",
-          "retrievedAt": "2026-08-16T13:44:00.779590Z",
-          "note": "Computed locally; no feed involved."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "annual, solar"
-    },
-    {
-      "id": "astro-meteor-05f3251078",
-      "name": "Draconids Meteor Shower",
-      "description": "Peak rate around 10 meteors/hour under ideal conditions. Dark skies at peak — near-ideal viewing.",
-      "category": "Cosmic Event",
-      "emoji": "☄️",
-      "tier": 1,
-      "coordinates": [
-        41.6634,
-        -77.8261
-      ],
-      "locationHint": "Cherry Springs Dark Sky Park",
-      "country": "United States",
-      "windowStart": "2026-10-06T02:00:00Z",
-      "windowEnd": "2026-10-10T02:00:00Z",
-      "peak": "2026-10-08T02:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.966,
-      "baseConfidence": 1.0,
-      "lastVerifiedAt": "2026-08-16T13:44:00.781807Z",
-      "sources": [
-        {
-          "name": "Meeus, Astronomical Algorithms (2nd ed.)",
-          "url": "https://www.willbell.com/math/mc1.htm",
-          "kind": "deterministic",
-          "retrievedAt": "2026-08-16T13:44:00.779590Z",
-          "note": "Computed locally; no feed involved."
-        },
-        {
-          "name": "IMO Meteor Shower Calendar",
-          "url": "https://www.imo.net/resources/calendar/",
-          "kind": "deterministic",
-          "retrievedAt": "2026-08-16T13:44:00.779598Z",
-          "note": "Peak dates are stable year to year; ZHR is the published nominal rate."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "annual"
-    },
-    {
-      "id": "astro-meteor-a7573b9d84",
-      "name": "Orionids Meteor Shower",
-      "description": "Peak rate around 20 meteors/hour under ideal conditions. Moon 73% lit — a poor year for this shower.",
-      "category": "Cosmic Event",
-      "emoji": "☄️",
-      "tier": 1,
-      "coordinates": [
-        -23.0294,
-        -67.7548
-      ],
-      "locationHint": "Atacama Desert (ALMA plateau)",
-      "country": "Chile",
-      "windowStart": "2026-10-16T02:00:00Z",
-      "windowEnd": "2026-10-26T02:00:00Z",
-      "peak": "2026-10-21T02:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.966,
-      "baseConfidence": 1.0,
-      "lastVerifiedAt": "2026-08-16T13:44:00.781814Z",
-      "sources": [
-        {
-          "name": "Meeus, Astronomical Algorithms (2nd ed.)",
-          "url": "https://www.willbell.com/math/mc1.htm",
-          "kind": "deterministic",
-          "retrievedAt": "2026-08-16T13:44:00.779590Z",
-          "note": "Computed locally; no feed involved."
-        },
-        {
-          "name": "IMO Meteor Shower Calendar",
-          "url": "https://www.imo.net/resources/calendar/",
-          "kind": "deterministic",
-          "retrievedAt": "2026-08-16T13:44:00.779598Z",
-          "note": "Peak dates are stable year to year; ZHR is the published nominal rate."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "annual"
-    },
-    {
-      "id": "astro-meteor-81f148fa95",
-      "name": "Southern Taurids Meteor Shower",
-      "description": "Peak rate around 5 meteors/hour under ideal conditions. Dark skies at peak — near-ideal viewing.",
-      "category": "Cosmic Event",
-      "emoji": "☄️",
-      "tier": 1,
-      "coordinates": [
-        -23.0294,
-        -67.7548
-      ],
-      "locationHint": "Atacama Desert (ALMA plateau)",
-      "country": "Chile",
-      "windowStart": "2026-10-26T02:00:00Z",
-      "windowEnd": "2026-11-15T02:00:00Z",
-      "peak": "2026-11-05T02:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.966,
-      "baseConfidence": 1.0,
-      "lastVerifiedAt": "2026-08-16T13:44:00.781821Z",
-      "sources": [
-        {
-          "name": "Meeus, Astronomical Algorithms (2nd ed.)",
-          "url": "https://www.willbell.com/math/mc1.htm",
-          "kind": "deterministic",
-          "retrievedAt": "2026-08-16T13:44:00.779590Z",
-          "note": "Computed locally; no feed involved."
-        },
-        {
-          "name": "IMO Meteor Shower Calendar",
-          "url": "https://www.imo.net/resources/calendar/",
-          "kind": "deterministic",
-          "retrievedAt": "2026-08-16T13:44:00.779598Z",
-          "note": "Peak dates are stable year to year; ZHR is the published nominal rate."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "annual"
-    },
-    {
-      "id": "curated-0b70a303de",
-      "name": "Dia de Muertos",
-      "description": "Families keep vigil at gravesides through the night with marigolds, candles and the food the dead preferred. Village cemeteries around Oaxaca differ sharply from the city's tourist-heavy comparsas.",
-      "category": "Human Ritual",
-      "emoji": "💀",
-      "tier": 4,
-      "coordinates": [
-        17.0732,
-        -96.7266
-      ],
-      "locationHint": "Oaxaca de Juarez",
-      "country": "Mexico",
-      "windowStart": "2026-11-01T00:00:00Z",
-      "windowEnd": "2026-11-03T00:00:00Z",
-      "peak": null,
-      "uncertaintyDays": 0.67,
-      "confidence": 0.155,
-      "baseConfidence": 0.85,
-      "lastVerifiedAt": "2025-11-03T00:00:00Z",
-      "sources": [
-        {
-          "name": "UNESCO Intangible Cultural Heritage",
-          "url": "https://ich.unesco.org/en/RL/indigenous-festivity-dedicated-to-the-dead-00054",
-          "kind": "curated",
-          "retrievedAt": "2025-11-03T00:00:00Z",
-          "note": "Public observance; cemetery vigils are family occasions where visitors are expected to be unobtrusive."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "Public observance; cemetery vigils are family occasions where visitors are expected to be unobtrusive.",
-      "recurrence": "fixed"
-    },
-    {
-      "id": "cal-diwali-aee655773d",
-      "name": "Diwali (Lakshmi Puja)",
-      "description": "The Kartika new moon. Varanasi's ghats and the Ayodhya riverbank carry hundreds of thousands of oil lamps.",
-      "category": "Human Ritual",
-      "emoji": "🪔",
-      "tier": 1,
-      "coordinates": [
-        25.3176,
-        82.9739
-      ],
-      "locationHint": "Varanasi (observed across South Asia)",
-      "country": "India",
-      "windowStart": "2026-11-07T00:00:00Z",
-      "windowEnd": "2026-11-12T00:00:00Z",
-      "peak": "2026-11-09T00:00:00Z",
-      "uncertaintyDays": 1.0,
-      "confidence": 0.887,
-      "baseConfidence": 0.95,
-      "lastVerifiedAt": "2026-08-16T13:44:00.782259Z",
-      "sources": [
-        {
-          "name": "Meeus, Astronomical Algorithms (2nd ed.)",
-          "url": "https://www.willbell.com/math/mc1.htm",
-          "kind": "deterministic",
-          "retrievedAt": "2026-08-16T13:44:00.779590Z",
-          "note": "Computed locally; no feed involved."
-        },
-        {
-          "name": "Calendrical conversion",
-          "url": "https://www.staff.science.uu.nl/~gent0113/islam/islam_tabcal.htm",
-          "kind": "deterministic",
-          "retrievedAt": "2026-08-16T13:44:00.782258Z",
-          "note": "Amavasya of Kartika."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "annual, lunisolar"
-    },
-    {
-      "id": "astro-meteor-178937b1cd",
-      "name": "Leonids Meteor Shower",
-      "description": "Peak rate around 15 meteors/hour under ideal conditions. Moon 46% lit; fainter trails will be washed out.",
-      "category": "Cosmic Event",
-      "emoji": "☄️",
-      "tier": 1,
-      "coordinates": [
-        -23.0294,
-        -67.7548
-      ],
-      "locationHint": "Atacama Desert (ALMA plateau)",
-      "country": "Chile",
-      "windowStart": "2026-11-14T02:00:00Z",
-      "windowEnd": "2026-11-20T02:00:00Z",
-      "peak": "2026-11-17T02:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.966,
-      "baseConfidence": 1.0,
-      "lastVerifiedAt": "2026-08-16T13:44:00.781827Z",
-      "sources": [
-        {
-          "name": "Meeus, Astronomical Algorithms (2nd ed.)",
-          "url": "https://www.willbell.com/math/mc1.htm",
-          "kind": "deterministic",
-          "retrievedAt": "2026-08-16T13:44:00.779590Z",
-          "note": "Computed locally; no feed involved."
-        },
-        {
-          "name": "IMO Meteor Shower Calendar",
-          "url": "https://www.imo.net/resources/calendar/",
-          "kind": "deterministic",
-          "retrievedAt": "2026-08-16T13:44:00.779598Z",
-          "note": "Peak dates are stable year to year; ZHR is the published nominal rate."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "annual"
-    },
-    {
-      "id": "cal-purnima-2e2da1f7cf",
-      "name": "Kartik Purnima / Dev Deepawali",
-      "description": "A million lamps down the Varanasi ghats on the full moon of Kartika.",
-      "category": "Human Ritual",
-      "emoji": "🪔",
-      "tier": 1,
-      "coordinates": [
-        25.3176,
-        82.9739
-      ],
-      "locationHint": "Varanasi",
-      "country": "India",
-      "windowStart": "2026-11-23T00:00:00Z",
-      "windowEnd": "2026-11-25T00:00:00Z",
-      "peak": "2026-11-24T00:00:00Z",
-      "uncertaintyDays": 1.0,
-      "confidence": 0.887,
-      "baseConfidence": 0.95,
-      "lastVerifiedAt": "2026-08-16T13:44:00.782469Z",
-      "sources": [
-        {
-          "name": "Meeus, Astronomical Algorithms (2nd ed.)",
-          "url": "https://www.willbell.com/math/mc1.htm",
-          "kind": "deterministic",
-          "retrievedAt": "2026-08-16T13:44:00.779590Z",
-          "note": "Computed locally; no feed involved."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "annual, lunisolar"
-    },
-    {
-      "id": "curated-b83f23dd00",
-      "name": "Hornbill Festival",
-      "description": "Seventeen Naga tribes gather at Kisama for a week of morungs, log drums and dance — a state-organised meeting of groups that were once hostile. Protected Area Permit rules for foreign visitors change periodically — re-check before each season.",
-      "category": "Human Ritual",
-      "emoji": "🪘",
-      "tier": 4,
-      "coordinates": [
-        25.6,
-        94.1
-      ],
-      "locationHint": "Kisama Heritage Village, Kohima",
-      "country": "India",
-      "windowStart": "2026-12-01T00:00:00Z",
-      "windowEnd": "2026-12-11T00:00:00Z",
-      "peak": null,
-      "uncertaintyDays": 3.33,
-      "confidence": 0.158,
-      "baseConfidence": 0.85,
-      "lastVerifiedAt": "2025-12-05T00:00:00Z",
-      "sources": [
-        {
-          "name": "Nagaland Tourism",
-          "url": "https://tourism.nagaland.gov.in/",
-          "kind": "curated",
-          "retrievedAt": "2025-12-05T00:00:00Z",
-          "note": "Organised by the Nagaland state tourism department."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "Organised by the Nagaland state tourism department.",
-      "recurrence": "fixed"
-    },
-    {
-      "id": "astro-meteor-f0c7aca1cd",
-      "name": "Geminids Meteor Shower",
-      "description": "Peak rate around 150 meteors/hour under ideal conditions. Dark skies at peak — near-ideal viewing.",
-      "category": "Cosmic Event",
-      "emoji": "☄️",
-      "tier": 1,
-      "coordinates": [
-        -23.0294,
-        -67.7548
-      ],
-      "locationHint": "Atacama Desert (ALMA plateau)",
-      "country": "Chile",
-      "windowStart": "2026-12-11T02:00:00Z",
-      "windowEnd": "2026-12-17T02:00:00Z",
-      "peak": "2026-12-14T02:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.966,
-      "baseConfidence": 1.0,
-      "lastVerifiedAt": "2026-08-16T13:44:00.781835Z",
-      "sources": [
-        {
-          "name": "Meeus, Astronomical Algorithms (2nd ed.)",
-          "url": "https://www.willbell.com/math/mc1.htm",
-          "kind": "deterministic",
-          "retrievedAt": "2026-08-16T13:44:00.779590Z",
-          "note": "Computed locally; no feed involved."
-        },
-        {
-          "name": "IMO Meteor Shower Calendar",
-          "url": "https://www.imo.net/resources/calendar/",
-          "kind": "deterministic",
-          "retrievedAt": "2026-08-16T13:44:00.779598Z",
-          "note": "Peak dates are stable year to year; ZHR is the published nominal rate."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "annual"
     }
   ]
 }

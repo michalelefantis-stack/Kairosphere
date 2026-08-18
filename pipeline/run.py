@@ -116,7 +116,28 @@ def to_geojson(events: list[PhenomenonEvent]) -> dict[str, Any]:
     return {"type": "FeatureCollection", "features": features}
 
 
-def to_payload(events: list[PhenomenonEvent], horizon_days: int) -> dict[str, Any]:
+def sourced_counts(reconciled: list[PhenomenonEvent], collected: int) -> dict[str, Any]:
+    """What the adapters returned, before the horizon filter took a slice.
+
+    The publish gate judges runs on these rather than on the published count,
+    which swings with the season and with whatever the horizon is set to. See
+    pipeline/publish_gate.py.
+    """
+    by_tier: dict[int, int] = {}
+    for ev in reconciled:
+        by_tier[int(ev.tier)] = by_tier.get(int(ev.tier), 0) + 1
+    return {
+        "collected": collected,
+        "reconciled": len(reconciled),
+        "byTier": {str(k): v for k, v in sorted(by_tier.items())},
+    }
+
+
+def to_payload(
+    events: list[PhenomenonEvent],
+    horizon_days: int,
+    sourced: dict[str, Any] | None = None,
+) -> dict[str, Any]:
     now = utcnow()
     by_tier: dict[int, int] = {}
     for ev in events:
@@ -134,6 +155,7 @@ def to_payload(events: list[PhenomenonEvent], horizon_days: int) -> dict[str, An
                 name: sum(1 for e in events if band(e.confidence) == name)
                 for name in ("high", "medium", "low", "speculative")
             },
+            **({"sourced": sourced} if sourced else {}),
         },
         "events": [ev.to_dict() for ev in events],
     }
@@ -156,10 +178,12 @@ def main(argv: list[str] | None = None) -> int:
     started = utcnow()
 
     events = collect(args.offline)
-    log.info("collected %d raw events", len(events))
+    collected = len(events)
+    log.info("collected %d raw events", collected)
 
     events = reconcile(events)
     log.info("%d after reconciliation", len(events))
+    sourced = sourced_counts(events, collected)
 
     now = utcnow()
     events = [e for e in events if e.publishable and e.is_within(now, args.horizon_days)]
@@ -168,7 +192,7 @@ def main(argv: list[str] | None = None) -> int:
     events = apply_confidence(events, now)
     events.sort(key=lambda e: (e.window_start, -e.confidence))
 
-    payload = to_payload(events, args.horizon_days)
+    payload = to_payload(events, args.horizon_days, sourced)
     queue = curated.review_queue()
 
     log.info(
