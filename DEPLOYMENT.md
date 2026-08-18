@@ -55,8 +55,15 @@ Nothing ships until these are true.
 
           VITE_CONTENT_BASE_URL=https://michalelefantis-stack.github.io/Kairosphere/data
           VITE_PHENOMENA_URL=https://michalelefantis-stack.github.io/Kairosphere/data/phenomena.json
-- [ ] **Confirm no `.env` is tracked:** `git ls-files | grep -E '\.env$'`
-      returns nothing.
+
+      Verified against a real production build: the URLs bake into the bundle,
+      phenomena.json is served from Pages, and the four content files not yet
+      published 404 and fall back to the bundled copies without breaking
+      anything — 327 markers still render. They resolve remotely once the
+      widened staging step has run.
+- [x] ~~**Confirm no `.env` is tracked.**~~ Verified before the first push:
+      only `.env.example` and `server/.env.example` have ever been committed,
+      across all 61 commits.
 - [ ] **Lock down Firestore rules.** `firebase-applet-config.json` is checked
       in; its `apiKey` is a public client identifier and that is fine, but the
       database behind it must not be world-writable.
