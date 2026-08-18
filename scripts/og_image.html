@@ -1,0 +1,149 @@
+<!doctype html>
+<!--
+  Source for public/og-image.png. Rendered by scripts/make_og_image.py, which
+  fills the counts from the catalogue so they cannot drift into a claim the
+  data does not support.
+
+  1200x630 is the Open Graph standard. Everything here has to survive being
+  shown at roughly 500x260 in a Slack unfurl or a Twitter card, which is why
+  the type is larger than it looks and the composition is centred.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    width: 1200px;
+    height: 630px;
+    overflow: hidden;
+    /* The app declares no webfont — it uses the default sans stack, so
+       matching it means using the same stack rather than choosing one. */
+    font-family: ui-sans-serif, system-ui, sans-serif;
+    background: #0d0c0b;
+    color: #f2efe9;
+  }
+
+  .field {
+    position: relative;
+    width: 1200px;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+    overflow: hidden;
+  }
+
+  /* A sphere implied rather than drawn: rings running off the canvas, the
+     same geometry as the app icon at map scale. */
+  .rings {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 1180px;
+    height: 1180px;
+    opacity: 0.5;
+  }
+
+  .glow {
+    position: absolute;
+    left: 50%;
+    top: 46%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 900px;
+    background: radial-gradient(circle, rgba(245,165,36,0.13) 0%, rgba(245,165,36,0) 62%);
+    pointer-events: none;
+  }
+
+  .mark { position: relative; width: 112px; height: 112px; }
+
+  .wordmark {
+    position: relative;
+    font-size: 84px;
+    font-weight: 900;
+    letter-spacing: 0.14em;
+    /* Letter-spacing adds a trailing gap; this pulls the block back to centre. */
+    text-indent: 0.14em;
+    line-height: 1;
+  }
+
+  .rule {
+    position: relative;
+    width: 132px;
+    height: 2px;
+    background: #f5a524;
+  }
+
+  .tagline {
+    position: relative;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 1.35;
+    color: #a8a29a;
+    text-align: center;
+    max-width: 880px;
+  }
+
+  .tagline b { color: #f2efe9; font-weight: 600; }
+
+  .stats {
+    position: absolute;
+    bottom: 42px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    font-size: 23px;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #918a80;
+  }
+
+  .stats span { color: #f5a524; }
+  .dot { color: #423c33; }
+</style>
+</head>
+<body>
+  <div class="field">
+    <svg class="rings" viewBox="0 0 100 100" fill="none" aria-hidden="true">
+      <circle cx="50" cy="50" r="46" stroke="#f5a524" stroke-width="0.12" stroke-opacity="0.30"/>
+      <circle cx="50" cy="50" r="38" stroke="#f5a524" stroke-width="0.10" stroke-opacity="0.22"/>
+      <circle cx="50" cy="50" r="30" stroke="#f5a524" stroke-width="0.10" stroke-dasharray="1.2 2.4" stroke-opacity="0.34"/>
+      <path d="M50 4V96M4 50H96" stroke="#f5a524" stroke-width="0.09" stroke-opacity="0.18"/>
+    </svg>
+
+    <div class="glow"></div>
+
+    <svg class="mark" viewBox="0 0 100 100" fill="none" aria-hidden="true">
+      <circle cx="50" cy="50" r="34" stroke="#f5a524" stroke-width="1.5" stroke-opacity="0.25"/>
+      <circle cx="50" cy="50" r="28" stroke="#f5a524" stroke-width="1" stroke-dasharray="4 8" stroke-opacity="0.6"/>
+      <path d="M50 16V84M16 50H84" stroke="#f5a524" stroke-width="1" stroke-opacity="0.35"/>
+      <circle cx="50" cy="50" r="9" fill="#f5a524"/>
+      <circle cx="50" cy="50" r="15" stroke="#f5a524" stroke-width="2"/>
+    </svg>
+
+    <div class="wordmark">KAIROSPHERE</div>
+    <div class="rule"></div>
+
+    <div class="tagline">
+      Rituals, ceremonies and natural phenomena —<br>
+      and <b>when they actually happen</b>.
+    </div>
+
+    <div class="stats">
+      <span data-slot="events">327</span>&nbsp;EVENTS
+      <i class="dot">/</i>
+      <span data-slot="countries">101</span>&nbsp;COUNTRIES
+      <i class="dot">/</i>
+      <span data-slot="photos">268</span>&nbsp;VERIFIED PHOTOGRAPHS
+    </div>
+  </div>
+</body>
+</html>

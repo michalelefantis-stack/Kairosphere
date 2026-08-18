@@ -50,9 +50,13 @@ Nothing ships until these are true.
 - [ ] **Lock down Firestore rules.** `firebase-applet-config.json` is checked
       in; its `apiKey` is a public client identifier and that is fine, but the
       database behind it must not be world-writable.
-- [ ] **Add `public/og-image.png`.** `index.html` points every Open Graph and
-      Twitter card at it and the file does not exist — every share renders
-      blank.
+- [x] ~~**Add `public/og-image.png`.**~~ Built at 1200x630 by
+      `python scripts/make_og_image.py`, which reads the counts from the
+      catalogue and writes them into index.html's meta tags in the same run —
+      so re-running after a content change keeps the card and the description
+      honest. It also corrected two claims that were already false: "340+
+      events" against a catalogue of 327, and "AI-powered analysis", which
+      nothing in the app does any more.
 
 ---
 
