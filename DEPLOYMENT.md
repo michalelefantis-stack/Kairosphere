@@ -147,10 +147,18 @@ between that promise and the data.
 - [ ] **1.8 MB `GlobeComponent` chunk** (518 kB gzipped) — now the only
       oversized one. Already lazy-loaded and phone-excluded, so it costs only
       desktop users who open it.
-- [ ] **Nothing caches for offline.** The catalogue ships in the bundle, but
-      Wikipedia extracts, Open-Meteo lookups and Commons photographs are all
-      live — for a reader in Sumba with no signal, which is when this app is
-      most useful.
+- [x] ~~**The service worker pinned a stale release.**~~ It cached
+      index.html on install and served everything cache-first from a cache
+      whose name never changed, so the purge-on-activate never purged. Every
+      returning visitor got the document of the build they first saw, naming
+      content-hashed assets deleted by the next deploy: white screen, no
+      reload could fix it. Rewritten — navigations network-first, hashed
+      assets cache-first, content stale-while-revalidate, versioned caches,
+      and skipWaiting/claim so already-broken clients heal themselves.
+- [ ] **Offline is only partial.** The shell, the hashed assets and the
+      bundled catalogue now survive losing the network. Wikipedia extracts,
+      Open-Meteo lookups and Commons photographs do not — for a reader in
+      Sumba with no signal, which is when this app is most useful.
 - [ ] **No error monitoring.** `ErrorBoundary` catches and shows; nothing
       reports. A crash in the field is currently invisible to you.
 - [ ] **Video.** It belongs — spectacle is the selling point — but resolved
