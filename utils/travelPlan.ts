@@ -53,15 +53,23 @@ interface TravelData {
 }
 
 let cache: TravelData | null = null;
+let inFlight: Promise<TravelData> | null = null;
 
-export async function loadTravelData(): Promise<TravelData> {
-  if (cache) return cache;
-  const payload = await fetchContent<Partial<TravelData>>('event_airports.json', {});
-  cache = {
-    airports: payload.airports ?? {},
-    departures: payload.departures ?? []
-  };
-  return cache;
+export function loadTravelData(): Promise<TravelData> {
+  if (cache) return Promise.resolve(cache);
+  // Memoise the request, not only its result. The guard below tested the
+// resolved value, so two components mounting in the same tick both saw an
+// empty cache and both fetched the file — every one of these was pulled
+// twice on a cold start, catalogue.json included, and that one is 300KB.
+  inFlight ??= fetchContent<Partial<TravelData>>('event_airports.json', {})
+    .then(payload => {
+      cache = {
+        airports: payload.airports ?? {},
+        departures: payload.departures ?? []
+      };
+      return cache;
+    });
+  return inFlight;
 }
 
 /** Where this reader would fly from — nearest large scheduled airport. */

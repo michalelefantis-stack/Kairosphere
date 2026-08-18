@@ -30,14 +30,21 @@ export interface EventBriefing {
 }
 
 let cache: Record<string, EventBriefing> | null = null;
+let inFlight: Promise<Record<string, EventBriefing>> | null = null;
 
-export async function loadEventBriefings(): Promise<Record<string, EventBriefing>> {
-  if (cache) return cache;
-  const payload = await fetchContent<{ briefings?: Record<string, EventBriefing> }>(
+export function loadEventBriefings(): Promise<Record<string, EventBriefing>> {
+  if (cache) return Promise.resolve(cache);
+  // Memoise the request, not only its result. The guard below tested the
+// resolved value, so two components mounting in the same tick both saw an
+// empty cache and both fetched the file — every one of these was pulled
+// twice on a cold start, catalogue.json included, and that one is 300KB.
+  inFlight ??= fetchContent<{ briefings?: Record<string, EventBriefing> }>(
     'event_briefings.json', {}
-  );
-  cache = payload.briefings ?? {};
-  return cache;
+  ).then(payload => {
+    cache = payload.briefings ?? {};
+    return cache;
+  });
+  return inFlight;
 }
 
 /** Synchronous read, for components rendering after the load has settled. */

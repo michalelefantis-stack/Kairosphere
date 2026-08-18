@@ -29,6 +29,7 @@ interface CataloguePayload {
 }
 
 let cache: CultureItem[] | null = null;
+let inFlight: Promise<LoadedCatalogue> | null = null;
 
 export interface LoadedCatalogue {
   events: CultureItem[];
@@ -36,18 +37,25 @@ export interface LoadedCatalogue {
   generated: string | null;
 }
 
-export async function loadCatalogue(): Promise<LoadedCatalogue> {
-  if (cache) return { events: cache, generated: null };
+export function loadCatalogue(): Promise<LoadedCatalogue> {
+  if (cache) return Promise.resolve({ events: cache, generated: null });
+  // Memoise the request, not only its result. The guard below tested the
+// resolved value, so two components mounting in the same tick both saw an
+// empty cache and both fetched the file — every one of these was pulled
+// twice on a cold start, catalogue.json included, and that one is 300KB.
+  inFlight ??= fetchContent<CataloguePayload>(FILE, {}).then(payload => {
+    const events = Array.isArray(payload.events) ? payload.events : [];
 
-  const payload = await fetchContent<CataloguePayload>(FILE, {});
-  const events = Array.isArray(payload.events) ? payload.events : [];
+    // A truncated or half-written file should not empty the app. Falling back
+    // to nothing is honest but useless; the caller keeps whatever it had. The
+    // request is forgotten too, so a later caller can try again.
+    if (events.length === 0) {
+      inFlight = null;
+      return { events: [], generated: null };
+    }
 
-  // A truncated or half-written file should not empty the app. Falling back
-  // to nothing is honest but useless; the caller keeps whatever it had.
-  if (events.length === 0) {
-    return { events: [], generated: null };
-  }
-
-  cache = events;
-  return { events, generated: payload.generated ?? null };
+    cache = events;
+    return { events, generated: payload.generated ?? null };
+  });
+  return inFlight;
 }
