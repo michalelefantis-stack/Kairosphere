@@ -581,7 +581,7 @@ const App: React.FC = () => {
         {activeTab === 'map' && isSidebarOpen && !isPhone && (
           <div
             ref={activeTab === 'map' ? sheetRef : undefined}
-            className={`ui-layer absolute left-0 sm:left-4 top-auto sm:top-4 bottom-[64px] sm:bottom-4 z-[40] sm:z-30 hidden sm:flex flex-col pointer-events-none w-full sm:w-[380px] ${dragHeight === null ? 'transition-all duration-300 ' + getMobileHeightClass() : ''}`}
+            className={`ui-layer absolute left-0 sm:left-4 top-auto sm:top-[76px] bottom-[64px] sm:bottom-4 z-[40] sm:z-30 hidden sm:flex flex-col pointer-events-none w-full sm:w-[380px] ${dragHeight === null ? 'transition-all duration-300 ' + getMobileHeightClass() : ''}`}
             style={dragHeight !== null && activeTab === 'map' ? { height: `${dragHeight}px` } : undefined}
           >
             <div className={`flex-1 overflow-hidden pointer-events-auto flex flex-col ${selectedItem || selectedLiveEvent ? 'bg-panel/95 sm:backdrop-blur-md border-0 sm:border border-line sm:rounded-2xl shadow-[0_-15px_40px_rgba(0,0,0,0.8)] sm:shadow-2xl rounded-t-[32px]' : 'rounded-t-[32px] sm:rounded-none bg-panel/95 sm:bg-transparent shadow-[0_-15px_40px_rgba(0,0,0,0.8)] sm:shadow-none border-0 sm:border sm:border-transparent border-line'}`}>

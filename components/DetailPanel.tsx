@@ -763,12 +763,11 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
         />
         <div className="absolute inset-0 bg-gradient-to-t from-base via-transparent to-black/40 pointer-events-none"></div>
 
-        {/* Top Controls.
-            Pushed clear of the map's floating navigation on desktop, which
-            sits at z-60 across the top of the window and was covering both
-            of these — the close button on an open event could not be hit at
-            all, only the tab underneath it. */}
-        <div className="absolute top-4 sm:top-[60px] right-4 flex gap-2 z-20">
+        {/* Top Controls, in the corner, which is only a corner because the
+            panel now begins below the map's floating navigation. It used to
+            start underneath it: the close button on an open event could not
+            be clicked at all on desktop, only the tab sitting over it. */}
+        <div className="absolute top-4 right-4 flex gap-2 z-20">
           {/* Reading a long briefing in a 380px column is the complaint this
               answers. Hidden on phones, where the panel is already the whole
               screen and there is nothing to expand into. */}
