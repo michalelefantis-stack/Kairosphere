@@ -221,7 +221,7 @@ const Sidebar: React.FC<SidebarProps> = ({
   return (
     <div className="h-full flex flex-col bg-transparent text-ink font-sans gap-4">
       {/* Search & Filter Header - Top Card */}
-      <div className="p-4 pt-6 space-y-4 bg-panel/95 sm:backdrop-blur-md border-0 sm:border border-line sm:rounded-2xl shadow-2xl flex-shrink-0">
+      <div className="p-4 pt-6 sm:pt-[64px] space-y-4 bg-panel/95 sm:backdrop-blur-md border-0 sm:border border-line sm:rounded-2xl shadow-2xl flex-shrink-0">
         <div className="relative">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-ink-faint" />
           <input
