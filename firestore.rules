@@ -1,0 +1,39 @@
+rules_version = '2';
+
+// Deny everything.
+//
+// The app does not use Firestore. It authenticates with Firebase — Google and
+// Apple sign-in, and a session listener — and reads all of its content from
+// static JSON on a CDN. There is no collection, no document, no listener, no
+// write path anywhere in the client.
+//
+// So the honest rule is the closed one. A database that nothing reads should
+// not be readable, and the default "test mode" rules Firebase offers expire
+// into exactly the wrong state: world-readable and world-writable, attached
+// to a project whose web API key is published in this repository. That key is
+// a public client identifier by design and does not need hiding — these rules
+// are what actually stands between it and the data.
+//
+// If a feature later needs Firestore — saved trips synced across devices is
+// the obvious one — replace this with a rule scoped to the signed-in owner,
+// something like:
+//
+//   match /users/{uid}/{document=**} {
+//     allow read, write: if request.auth != null && request.auth.uid == uid;
+//   }
+//
+// and never a bare `if request.auth != null`, which lets any signed-in
+// stranger read every other user's trips.
+//
+// Note the project uses a named database (firestoreDatabaseId in
+// firebase-applet-config.json), and rules are per-database. Deploying with
+// `firebase deploy --only firestore:rules` uses the target in firebase.json;
+// pasting into the console means selecting the right database first.
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

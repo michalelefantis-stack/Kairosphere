@@ -1,0 +1,24 @@
+# Cloudflare Pages response headers.
+#
+# Kairosphere is read by people on hotel wifi in places where a round trip is
+# expensive, so the rules below are about not re-fetching what cannot have
+# changed.
+
+/assets/*
+  # Filenames carry a content hash, so these can never go stale.
+  Cache-Control: public, max-age=31536000, immutable
+
+/data/*
+  # The bundled data is the offline fallback, not the live copy — the live one
+  # is fetched from the feed URL. Short enough that a correction still lands
+  # the same day for a reader whose app never reaches the CDN.
+  Cache-Control: public, max-age=900
+  Access-Control-Allow-Origin: *
+
+/index.html
+  # index.html names the hashed assets, so caching it pins the release.
+  Cache-Control: no-cache
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin

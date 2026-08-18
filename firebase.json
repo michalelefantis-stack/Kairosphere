@@ -1,0 +1,23 @@
+{
+  "//": [
+    "Firestore rules only. Hosting is Cloudflare Pages — see public/_headers.",
+    "",
+    "Firebase Hosting was the first choice and the wrong one: its free tier",
+    "allows 360 MB of transfer a day, and this app is 206 KB gzipped per first",
+    "load, so roughly 1,700 visits exhausts a day. It is a cliff, not a",
+    "throttle: past it the site stops serving until midnight. Cloudflare Pages",
+    "has no bandwidth limit on its free tier and a stronger edge presence in",
+    "Southeast Asia, Africa and South America, which is where these readers are.",
+    "",
+    "Deploy rules:  firebase deploy --only firestore:rules"
+  ],
+  "firestore": [
+    {
+      "//": "Named database — rules are per-database, and the default one is not",
+      "//2": "the one this project uses. See firestore.rules: it denies everything,",
+      "//3": "because the app never touches Firestore.",
+      "database": "ai-studio-3061ce35-dcb5-4333-abc6-ab2562de8029",
+      "rules": "firestore.rules"
+    }
+  ]
+}

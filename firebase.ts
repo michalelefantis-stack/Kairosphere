@@ -1,15 +1,21 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider, OAuthProvider } from 'firebase/auth';
-import { getFirestore } from 'firebase/firestore';
 import firebaseConfig from './firebase-applet-config.json';
 
-// Initialize Firebase
+/**
+ * Firebase, for authentication and nothing else.
+ *
+ * A Firestore handle used to be exported here. Nothing ever imported it — no
+ * read, no write, no listener anywhere in the app — so it did two harmful
+ * things and no useful one: it pulled the Firestore SDK into the main bundle,
+ * and it left a database reachable from a client that had no business
+ * touching it. See firestore.rules, which denies everything for the same
+ * reason.
+ */
+
 const app = initializeApp(firebaseConfig);
 
-// Initialize Firebase services
 export const auth = getAuth(app);
-export const db = getFirestore(app, firebaseConfig.firestoreDatabaseId);
 
-// Set up Auth Providers
 export const googleProvider = new GoogleAuthProvider();
 export const appleProvider = new OAuthProvider('apple.com');

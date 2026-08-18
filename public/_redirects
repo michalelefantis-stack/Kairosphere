@@ -1,0 +1,3 @@
+# Single page: every route resolves to the same document, with a 200 rather
+# than a redirect so the URL the reader typed is the URL they keep.
+/*  /index.html  200

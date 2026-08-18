@@ -40,11 +40,23 @@ Nothing ships until these are true.
   - [ ] `ALLOWED_ORIGINS` set to the real origins, keeping `https://localhost`
         and `capacitor://localhost` — the mobile app needs both.
   - [ ] `GEMINI_API_KEY` in `server/.env`.
-- [ ] **Pick hosting and add its config.** There is no `vercel.json`,
-      `netlify.toml`, `firebase.json` or `Dockerfile`. Without the server this
-      is one static host for `dist/` and the data; any of Cloudflare Pages,
-      Netlify, Vercel, Firebase Hosting or S3 will do, and putting the data on
-      the same origin removes the CORS question entirely.
+- [ ] **Deploy the app to Cloudflare Pages.** Config is committed:
+      `public/_headers` and `public/_redirects`. Connect the repo at
+      dash.cloudflare.com → Workers & Pages → Create → Pages → Connect to Git.
+      Build command `npm run build`, output directory `dist`. Set
+      `VITE_CONTENT_BASE_URL` and `VITE_PHENOMENA_URL` as build environment
+      variables there. It rebuilds on every push after that.
+
+      Chosen on measurement, not preference. A first load is 206 KB gzipped
+      (+504 KB if a desktop reader opens the globe). Firebase Hosting allows
+      360 MB/day free — about 1,700 visits — and past it the site stops
+      serving until midnight rather than slowing down. Cloudflare has no
+      bandwidth limit on its free tier, no commercial-use restriction (Vercel
+      Hobby forbids commercial use outright), and the strongest edge presence
+      in Southeast Asia, Africa and South America.
+
+      Then add the Pages domain to Firebase console → Authentication →
+      Settings → Authorized domains, or Google sign-in fails silently.
 - [x] ~~**Enable GitHub Pages for the data feed.**~~ Live and serving with
       `Access-Control-Allow-Origin: *` at
       `https://michalelefantis-stack.github.io/Kairosphere/data/`.
@@ -64,9 +76,14 @@ Nothing ships until these are true.
 - [x] ~~**Confirm no `.env` is tracked.**~~ Verified before the first push:
       only `.env.example` and `server/.env.example` have ever been committed,
       across all 61 commits.
-- [ ] **Lock down Firestore rules.** `firebase-applet-config.json` is checked
-      in; its `apiKey` is a public client identifier and that is fine, but the
-      database behind it must not be world-writable.
+- [ ] **Deploy the Firestore rules** — `firebase deploy --only firestore:rules`,
+      or paste `firestore.rules` into the console against the *named* database
+      (rules are per-database and this project does not use the default one).
+
+      They deny everything, because the app turned out never to touch
+      Firestore: `db` was exported and never imported once. Removing it also
+      took the Firestore SDK out of the bundle — 772 KB to 682 KB raw, 222 KB
+      to 191 KB gzipped.
 - [x] ~~**Add `public/og-image.png`.**~~ Built at 1200x630 by
       `python scripts/make_og_image.py`, which reads the counts from the
       catalogue and writes them into index.html's meta tags in the same run —
