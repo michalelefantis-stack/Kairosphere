@@ -101,19 +101,26 @@ jobs:
           git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
 
-      - name: Stage feed for Pages
+      - name: Stage content for Pages
         if: vars.PUBLISH_PAGES == 'true'
+        # The whole data directory, not just the live feed. VITE_CONTENT_BASE_URL
+        # points the app at this origin for the catalogue, photographs,
+        # briefings and airports as well — which is what makes a wrong photo or
+        # a corrected date a file upload instead of a release. Publishing only
+        # the feed would leave the app fetching four 404s and silently falling
+        # back to whatever it was built with.
         run: |
-          mkdir -p _site/data
-          cp public/data/phenomena.json public/data/live_events.geojson _site/data/
+          mkdir -p _site
+          cp -r public/data _site/data
+          echo "staged:" && ls -1sh _site/data
 
       - uses: actions/upload-pages-artifact@v3
         if: vars.PUBLISH_PAGES == 'true'
         with:
           path: _site
 
-  # Serves the feed at https://<user>.github.io/<repo>/data/phenomena.json
-  # with permissive CORS, which is what the mobile build fetches.
+  # Serves the content at https://<user>.github.io/<repo>/data/ with permissive
+  # CORS — the live feed, and everything VITE_CONTENT_BASE_URL resolves.
   # Opt in by setting the repository variable PUBLISH_PAGES to 'true' and
   # enabling Pages (Settings > Pages > Source: GitHub Actions).
   publish:

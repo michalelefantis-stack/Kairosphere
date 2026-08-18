@@ -11,11 +11,11 @@ Audited 18 Aug 2026 against the working tree.
 
 Nothing ships until these are true.
 
-- [ ] **Create the GitHub remote and push.** `git remote -v` is empty. Every
-      content-update path in this app runs through GitHub: the feed workflow
-      has never executed once, so the live map is only as fresh as the last
-      manual pipeline run. This is the single highest-value item on the list —
-      it turns a static build into a product that maintains itself.
+- [x] ~~**Create the GitHub remote and push.**~~
+      [michalelefantis-stack/Kairosphere](https://github.com/michalelefantis-stack/Kairosphere),
+      public, default branch `main`. The workflow ran, the publish gate passed
+      on its own judgement (64 sourced, 4 published), and the bot committed the
+      refreshed feed back. It runs every two hours from here.
 - [ ] **Gemini key — optional for launch.** Nothing that builds the live map
       needs one: `python -m pipeline.run` collects 64 events and publishes with
       no key set. The only thing that wants it is `pipeline.monitor`, which
@@ -45,13 +45,16 @@ Nothing ships until these are true.
       is one static host for `dist/` and the data; any of Cloudflare Pages,
       Netlify, Vercel, Firebase Hosting or S3 will do, and putting the data on
       the same origin removes the CORS question entirely.
-- [ ] **Enable GitHub Pages for the data feed** — repo variable
-      `PUBLISH_PAGES=true`, Settings → Pages → Source: GitHub Actions. This is
-      what `VITE_PHENOMENA_URL` and `VITE_CONTENT_BASE_URL` point at.
+- [x] ~~**Enable GitHub Pages for the data feed.**~~ Live and serving with
+      `Access-Control-Allow-Origin: *` at
+      `https://michalelefantis-stack.github.io/Kairosphere/data/`.
 - [ ] **Set `VITE_CONTENT_BASE_URL` and `VITE_PHENOMENA_URL` in the build.**
       Omit them and the app reads its bundled copies — which means a wrong
       photograph or a corrected date needs a full release instead of a file
-      upload.
+      upload. Both now resolve:
+
+          VITE_CONTENT_BASE_URL=https://michalelefantis-stack.github.io/Kairosphere/data
+          VITE_PHENOMENA_URL=https://michalelefantis-stack.github.io/Kairosphere/data/phenomena.json
 - [ ] **Confirm no `.env` is tracked:** `git ls-files | grep -E '\.env$'`
       returns nothing.
 - [ ] **Lock down Firestore rules.** `firebase-applet-config.json` is checked
