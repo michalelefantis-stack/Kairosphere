@@ -13,6 +13,7 @@ import {
 } from '../utils/eventBriefings';
 import { useSwipeBack } from '../hooks/useSwipeBack';
 import EventGallery from './EventGallery';
+import ScrollArea from './ScrollArea';
 import GettingTherePanel from './GettingTherePanel';
 import ConditionsPanel from './ConditionsPanel';
 import {
@@ -645,8 +646,13 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
      the reader opens or closes. */
 
   if (isReader) {
+    // ScrollArea positions itself `relative`, and Tailwind emits that rule
+    // after `fixed`, so the two cannot share an element — the overlay would
+    // quietly stop being full-screen. The wrapper holds the position, the
+    // ScrollArea fills it.
     return createPortal(
-      <div className="k-reader fixed inset-0 z-[90] bg-base overflow-y-auto custom-scrollbar text-ink">
+      <div className="k-reader fixed inset-0 z-[90] bg-base text-ink">
+        <ScrollArea className="h-full">
         {/* Controls ride above the hero, where the image is darkest. */}
         <div className="fixed top-5 right-6 z-20 flex gap-2">
           {onToggleSave && (
@@ -730,17 +736,21 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
         </div>
 
         {panelStyles}
+      </ScrollArea>
       </div>,
       document.body
     );
   }
 
   return (
-    <div
-      className="h-full relative text-ink overflow-y-auto custom-scrollbar flex flex-col"
+    <ScrollArea
+      className="h-full text-ink"
+      viewportClassName="flex flex-col"
       {...swipeBack}
     >
-      {/* Header Image */}
+      {/* Header Image. Runs to both edges of the panel because the scrollbar
+          no longer reserves a gutter out of the content box — and still
+          scrolls away with everything under it. */}
       <div
         className="h-[260px] w-full relative overflow-hidden flex-shrink-0 group stagger-item"
         style={{ animationDelay: '0s' }}
@@ -866,7 +876,7 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
       </div>
 
       {panelStyles}
-    </div>
+    </ScrollArea>
   );
 };
 
