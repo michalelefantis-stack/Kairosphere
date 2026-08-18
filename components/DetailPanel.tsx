@@ -186,7 +186,10 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
     // Helper: search Wikipedia and return { title, extract } or null
     const wikiSearch = async (query: string): Promise<{ title: string; extract: string } | null> => {
       try {
-        const url = `https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(query)}&gsrlimit=1&prop=extracts&exintro=1&explaintext=1&format=json&origin=*`;
+        // No `exintro`: the briefing above is already the article's opening
+        // paragraph, so an intro-only extract made the two tabs show the same
+        // words. The whole article is what a second tab is for.
+        const url = `https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(query)}&gsrlimit=1&prop=extracts&explaintext=1&exlimit=1&format=json&origin=*`;
         const res = await fetch(url);
         const data = await res.json();
         const pages = data.query?.pages;
@@ -530,13 +533,31 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
 
   // The extract arrives as plain text (`explaintext=1`), and was being set as
   // innerHTML — so the blank lines between paragraphs collapsed and the whole
-  // article rendered as one unbroken 14px run. Splitting it into real <p>
-  // elements restores the paragraphs, lets the stylesheet reach them, and
-  // stops us injecting remote text as markup for no reason.
-  const wikiParagraphs = (wikiContent ?? '')
-    .split(/\n+/)
-    .map(line => line.trim())
-    .filter(Boolean);
+  // article rendered as one unbroken 14px run. Rebuilding it into real
+  // elements restores the structure, lets the stylesheet reach it, and stops
+  // us injecting remote text as markup for no reason.
+  //
+  // TextExtracts marks section titles as `== Title ==`. The apparatus at the
+  // end of an article — references, external links — survives as bare
+  // headings once the extract strips their lists, so those go, along with any
+  // other section left with nothing under it.
+  const WIKI_APPARATUS =
+    /^(see also|references|notes|citations|sources|bibliography|external links|further reading)$/i;
+
+  const wikiBlocks = (() => {
+    const blocks = (wikiContent ?? '')
+      .split(/\n+/)
+      .map(line => line.trim())
+      .filter(Boolean)
+      .map(line => {
+        const heading = line.match(/^=+\s*(.+?)\s*=+$/);
+        return heading
+          ? { kind: 'h' as const, text: heading[1] }
+          : { kind: 'p' as const, text: line };
+      })
+      .filter(block => !(block.kind === 'h' && WIKI_APPARATUS.test(block.text)));
+    return blocks.filter((block, i) => block.kind === 'p' || blocks[i + 1]?.kind === 'p');
+  })();
 
   const wikipediaBody = (
     <div className="space-y-6 animate-in fade-in duration-300">
@@ -550,9 +571,11 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
           <Loader2 className="w-8 h-8 animate-spin text-accent" />
           <span className="text-xs text-ink-faint font-mono uppercase tracking-widest">Loading Article...</span>
         </div>
-      ) : wikiParagraphs.length > 0 ? (
+      ) : wikiBlocks.length > 0 ? (
         <div className="wiki-content">
-          {wikiParagraphs.map((para, i) => <p key={i}>{para}</p>)}
+          {wikiBlocks.map((block, i) => block.kind === 'h'
+            ? <h3 key={i}>{block.text}</h3>
+            : <p key={i}>{block.text}</p>)}
         </div>
       ) : (
         <p className="text-sm text-ink-dim leading-relaxed font-light">
@@ -569,8 +592,13 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
       .custom-scrollbar::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
       .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #555; }
 
-      .wiki-content p { font-size: 0.875rem; line-height: 1.6; color: #d4d4d4; margin-bottom: 1rem; }
+      .wiki-content p { font-size: 0.875rem; line-height: 1.6; color: var(--k-ink-dim); margin-bottom: 1rem; }
       .wiki-content p:last-child { margin-bottom: 0; }
+      .wiki-content h3 {
+        font-size: 0.75rem; font-weight: 800; text-transform: uppercase;
+        letter-spacing: 0.1em; color: var(--k-ink); margin: 2rem 0 0.75rem;
+      }
+      .wiki-content h3:first-child { margin-top: 0; }
 
       @keyframes slideUpFade {
         from { opacity: 0; transform: translateY(10px); }
@@ -588,6 +616,7 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
       .k-reader .k-prose p { font-size: 1.0625rem; line-height: 1.85; letter-spacing: 0.005em; }
       .k-reader .wiki-content { max-width: 68ch; }
       .k-reader .wiki-content p { font-size: 1.0625rem; line-height: 1.85; }
+      .k-reader .wiki-content h3 { font-size: 0.8125rem; margin-top: 2.75rem; }
 
       /* In the column the gallery has to be a scrolling strip of thumbnails.
          With the whole window it can be what it should be: a contact sheet. */
@@ -600,9 +629,13 @@ const DetailPanel: React.FC<DetailPanelProps> = ({ item, onClose, isSaved = fals
       }
       .k-reader .k-gallery-strip > button { width: auto; height: 150px; }
 
+      /* Opacity only. A transform here — even a settled scale(1) held by
+         animation-fill-mode — makes this element the containing block for
+         every fixed-position descendant, which is not a thing a fade should
+         decide. */
       @keyframes readerIn {
-        from { opacity: 0; transform: scale(0.985); }
-        to { opacity: 1; transform: scale(1); }
+        from { opacity: 0; }
+        to { opacity: 1; }
       }
       .k-reader { animation: readerIn 0.28s cubic-bezier(0.16, 1, 0.3, 1) both; }
     `}</style>

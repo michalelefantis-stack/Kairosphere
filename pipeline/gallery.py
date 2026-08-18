@@ -29,7 +29,9 @@ import sys
 from pathlib import Path
 
 from pipeline.briefings import load_catalogue, load_existing
-from pipeline.images import COMMONS, WIKI, _get, _usable, keywords
+from pipeline.images import (
+    COMMONS, WIKI, _get, _is_photograph_name, _usable, keywords,
+)
 
 log = logging.getLogger("gallery")
 
@@ -144,6 +146,12 @@ def main(argv: list[str] | None = None) -> int:
         gallery = []
         for frame in frames:
             if frame["url"] in seen or frame["url"] in claimed:
+                continue
+            # The filename judged on its own, which is how the lead resolver
+            # screens an article image. It catches what a description cannot:
+            # "Sonepur_station.jpeg" for a cattle fair, "Gnaoua-logo.png" for
+            # a music festival, "..._medal_map.jpg" for the Nomad Games.
+            if not _is_photograph_name(frame["sourcePage"].rsplit("/", 1)[-1]):
                 continue
             seen.add(frame["url"])
             claimed.add(frame["url"])

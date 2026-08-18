@@ -123,6 +123,21 @@ NOT_A_PHOTOGRAPH = (
     r"countries where", r"\blist of\b", r"distribution of", r"\blocator\b",
     r"\bflag of\b", r"\bemblem\b", r"\bseal of\b", r"\btimeline\b",
     r"\bchart\b", r"\binfographic\b", r"\bschematic\b", r"\bfloor plan\b",
+    # Artworks and documents *about* the subject. A Tiepolo of an 18th-century
+    # minuet is a painting of a carnival, not a picture of Trinidad Carnival,
+    # and a 1674 Sanskrit manuscript is not a picture of the Kumbh Mela. WGA is
+    # the Web Gallery of Art, whose accession number rides in the filename.
+    #
+    # "painting" alone is not on the list: it is a real thing to photograph at
+    # a street-art festival or a body-paint ritual, and rejecting it would cost
+    # more true frames than it saves. Nor is "illuminated" — it caught the
+    # illuminated boats that *are* Bon Om Touk, and an aurora over a lit igloo.
+    # "manuscript" already covers the illuminated kind.
+    r"\bwga\d+", r"oil on (?:canvas|panel|wood)", r"\bengraving\b",
+    r"\blithograph", r"\bwoodcut\b", r"\betching\b", r"\bwatercolou?r\b",
+    r"\bfresco\b", r"\bmanuscript\b", r"\bfolio\b",
+    r"\bpainting by\b", r"\(painting\)", r"\bcoat of arms\b",
+    r"\bbanknote\b", r"\bpostage stamp\b", r"\bportrait of\b",
 )
 
 # Words that cannot corroborate a place because they belong to half the

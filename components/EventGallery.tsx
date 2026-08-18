@@ -1,4 +1,5 @@
 import React from 'react';
+import { createPortal } from 'react-dom';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 import { EventImage } from '../utils/eventImages';
 
@@ -87,7 +88,12 @@ const EventGallery: React.FC<EventGalleryProps> = ({ images, title }) => {
         ))}
       </div>
 
-      {shown && (
+      {/* Sent to the body rather than left where it sits. `fixed` is only
+          relative to the viewport while no ancestor carries a transform, and
+          the reader's entrance animation left one behind — so a photo opened
+          halfway down a long article anchored to the scrolled content
+          instead of the screen, and appeared above the fold or off it. */}
+      {shown && createPortal(
         <div
           className="fixed inset-0 z-[95] bg-black/95 flex flex-col"
           role="dialog"
@@ -154,7 +160,8 @@ const EventGallery: React.FC<EventGalleryProps> = ({ images, title }) => {
               </p>
             )}
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </>
   );
