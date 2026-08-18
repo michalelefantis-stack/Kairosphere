@@ -1,5 +1,8 @@
 # Shipping Kairosphere
 
+> For the ordered, tickable version of this, see **[DEPLOYMENT.md](DEPLOYMENT.md)**.
+> This file holds the reasoning behind each item.
+
 What has to be true before a release, and what is still open. Written during
 the pre-ship pass so the next person — including future you — does not have to
 rediscover it.
@@ -58,7 +61,7 @@ npm run build && npx cap sync android
   the catalogue is static and small enough to ship entirely offline, but the
   Wikipedia extracts, Open-Meteo lookups and Commons photographs are all
   fetched live. Nothing caches them for a saved event.
-- **253 of 327 events have a verified photograph; 74 do not.** Two sources
+- **268 of 327 events have a verified photograph; 59 do not.** Two sources
   feed it, in order of how much they prove:
 
   `python -m pipeline.lead_images` takes the lead photograph from the
@@ -82,7 +85,7 @@ npm run build && npx cap sync android
   rejects generic country words as corroboration, and a test asserts the
   shipped mapping contains no others. **Review new matches before shipping
   them**; a wrong photograph on a cultural event is worse than none.
-- **133 events carry a placeholder date** (`2026-05-01` from a bulk import).
+- **82 events carry a placeholder date** (`2026-05-01` from a bulk import).
   They are flagged and the UI says "Date not confirmed" rather than inventing
   a day, but they are not usable for planning until someone sources real
   dates.
@@ -117,7 +120,7 @@ npm run build && npx cap sync android
   replacement is written from general knowledge, like the Southeast Asia
   entries. Accurate as far as it goes; not sourced.
 
-- **The catalogue is 326 events, down from 372.** 46 were removed: their
+- **The catalogue is 327 events, down from 372.** 46 were removed: their
   descriptions were a single line and two rounds of Wikipedia searching under
   different rules found nothing to replace them with. Mostly regional
   festivals documented in Arabic, Persian, Kyrgyz or French rather than
@@ -157,11 +160,13 @@ Regenerate and re-upload with:
 python -m pipeline.briefings && python -m pipeline.lead_images && python -m pipeline.airports
 ```
 
-**Code — release needed.** Components, layout, and `mockData.ts`, which is
-compiled into the bundle. On the web that is a rebuild and a deploy; on
-Android it is a store submission and review. Adding a *new event* is
-currently a code change for this reason. If that becomes a common operation,
-move the catalogue into a fetched JSON alongside the rest.
+**Code — release needed.** Components and layout only. On the web that is a
+rebuild and a deploy; on Android a store submission and review.
+
+Adding or correcting an *event* used to belong here, because the catalogue was
+compiled into the bundle as `mockData.ts`. It now lives in
+`public/data/catalogue.json` and is fetched at runtime like everything else,
+so a new event, a fixed date or a better description is a file upload.
 
 **The live feed updates itself** every two hours via
 `.github/workflows/phenomena.yml`, and the app re-reads it every three
