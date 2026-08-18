@@ -19,16 +19,25 @@ Nothing ships until these are true.
 - [ ] **Rotate the Gemini key.** One was pasted into a chat transcript during
       development. New key at [aistudio.google.com/apikey](https://aistudio.google.com/apikey);
       it begins `AIza`, not `AQ.`.
-- [ ] **Set `GEMINI_API_KEY` in three places** — `.env` (local pipeline), the
-      GitHub secret (scheduled runs), `server/.env` (the app's AI features).
-- [ ] **Set `APP_TOKEN` on the server and `VITE_APP_TOKEN` in the build.**
-      Without it, anyone who finds the endpoint spends your Gemini quota. The
-      server warns at boot when it is missing.
-- [ ] **Set `ALLOWED_ORIGINS`** to the real origins, keeping `https://localhost`
-      and `capacitor://localhost` — the mobile app needs both.
+- [ ] **Set `GEMINI_API_KEY` in two places** — `.env` (local pipeline) and the
+      `GEMINI_API_KEY` GitHub secret (scheduled runs). A third, `server/.env`,
+      only if you deploy the server.
+- [ ] **Decide whether to deploy the server at all.** It now serves one
+      operation: `preciseLocation`, which sharpens "Montana, United States" to
+      "Crow Agency, Montana". Skipping it is supported — the panel falls back
+      to the catalogue's own region, which is already correct — and it removes
+      a deployment target, a public endpoint and a quota risk. The three items
+      below only apply if you deploy it.
+  - [ ] `APP_TOKEN` on the server and `VITE_APP_TOKEN` in the build. Without
+        it, anyone who finds the endpoint spends your Gemini quota.
+  - [ ] `ALLOWED_ORIGINS` set to the real origins, keeping `https://localhost`
+        and `capacitor://localhost` — the mobile app needs both.
+  - [ ] `GEMINI_API_KEY` in `server/.env`.
 - [ ] **Pick hosting and add its config.** There is no `vercel.json`,
-      `netlify.toml`, `firebase.json` or `Dockerfile`. Two things need homes:
-      the static `dist/` and the Node server in `server/`.
+      `netlify.toml`, `firebase.json` or `Dockerfile`. Without the server this
+      is one static host for `dist/` and the data; any of Cloudflare Pages,
+      Netlify, Vercel, Firebase Hosting or S3 will do, and putting the data on
+      the same origin removes the CORS question entirely.
 - [ ] **Enable GitHub Pages for the data feed** — repo variable
       `PUBLISH_PAGES=true`, Settings → Pages → Source: GitHub Actions. This is
       what `VITE_PHENOMENA_URL` and `VITE_CONTENT_BASE_URL` point at.
@@ -97,9 +106,9 @@ between that promise and the data.
 
 - [ ] **The globe pulls Earth textures from unpkg at runtime.** Offline or with
       the CDN blocked it fails. Desktop only — it is not mounted on phones.
-- [ ] **1.8 MB `GlobeComponent` chunk** (518 kB gzipped) out of a 4.5 MB
-      `dist`. Already lazy-loaded and phone-excluded, so it costs only desktop
-      users who open it.
+- [ ] **1.8 MB `GlobeComponent` chunk** (518 kB gzipped) — now the only
+      oversized one. Already lazy-loaded and phone-excluded, so it costs only
+      desktop users who open it.
 - [ ] **Nothing caches for offline.** The catalogue ships in the bundle, but
       Wikipedia extracts, Open-Meteo lookups and Commons photographs are all
       live — for a reader in Sumba with no signal, which is when this app is
@@ -133,3 +142,9 @@ Verified in this pass, so nobody re-checks them.
 - [x] All 327 events resolve to arrival and gateway airports.
 - [x] No `TODO`/`FIXME` left in application code.
 - [x] Dead `BottomPanel` removed; scrollbar CSS defined once.
+- [x] The unreachable AI surface removed — a generated event image, a live
+      audio narration, a ritual-photo verifier and a four-stage scouting
+      agent, none of which any user could reach. Took a 272 kB chunk and four
+      server endpoints with it.
+- [x] No `<img src="">` anywhere. Ten calendar cards had one, which makes the
+      browser re-request the page.
