@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 
-import geminiRouter, { createLiveToken } from './routes/gemini.js';
+import geminiRouter from './routes/gemini.js';
 import { hasApiKey } from './services/gemini.js';
 
 /**
@@ -121,7 +121,6 @@ app.get('/health', (_req, res) => {
   });
 });
 
-app.post('/api/ai/live-token', requireToken, rateLimit, createLiveToken);
 app.use('/api/ai', requireToken, rateLimit, geminiRouter);
 
 app.use((error, _req, res, _next) => {

@@ -35,23 +35,3 @@ export function sanitizeError(error, fallback = 'Upstream AI request failed.') {
   console.error('[gemini]', error?.message ?? error);
   return { status, message: error?.public ?? fallback };
 }
-
-/** Parse a JSON response body, tolerating the odd code fence. */
-export function parseJsonResponse(text, fallback = {}) {
-  if (!text) return fallback;
-  const cleaned = text.trim().replace(/^```(?:json)?/i, '').replace(/```$/, '').trim();
-  try {
-    return JSON.parse(cleaned);
-  } catch {
-    console.warn('[gemini] response was not valid JSON');
-    return fallback;
-  }
-}
-
-/** First grounding URL behind a search-grounded answer, if there is one. */
-export function firstGroundingUrl(response, fallback = '') {
-  const chunks = response?.candidates?.[0]?.groundingMetadata?.groundingChunks;
-  if (!Array.isArray(chunks)) return fallback;
-  const hit = chunks.find(chunk => chunk?.web?.uri);
-  return hit?.web?.uri ?? fallback;
-}

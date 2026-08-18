@@ -23,9 +23,6 @@ import { readJson, writeJson } from './utils/safeStorage';
 
 // ── Lazy-loaded components (only fetched when their tab/modal is active) ──
 const CalendarView = React.lazy(() => import('./components/CalendarView'));
-const ReportRitualModal = React.lazy(() => import('./components/ReportRitualModal'));
-const WhisperOverlay = React.lazy(() => import('./components/WhisperOverlay'));
-const SignalIntelligence = React.lazy(() => import('./components/SignalIntelligence'));
 const ItineraryView = React.lazy(() => import('./components/ItineraryView'));
 const GlobeComponent = React.lazy(() => import('./components/GlobeComponent'));
 const CollectionsView = React.lazy(() => import('./components/CollectionsView'));
@@ -780,13 +777,6 @@ const App: React.FC = () => {
                   )}
                 </Suspense>
               </div>
-            </div>
-          )}
-          {activeTab === 'signals' && (
-            <div className="w-full h-full pt-4 sm:pt-[80px] pb-safe-tab">
-              <Suspense fallback={<LazyFallback />}>
-                <SignalIntelligence onEventFound={() => {}} />
-              </Suspense>
             </div>
           )}
           {activeTab === 'collections' && (

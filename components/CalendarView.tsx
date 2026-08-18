@@ -3,7 +3,6 @@ import React, { useState, useRef, useEffect, useMemo } from 'react';
 import { Calendar as CalendarIcon, MapPin, Clock, ArrowRight, Backpack } from 'lucide-react';
 import { CultureItem, RitualType } from '../types';
 import { categoryColor } from '../utils/categoryTheme';
-import { aiImageFor } from '../utils/aiImageCache';
 
 interface CalendarViewProps {
   events: CultureItem[];
@@ -226,11 +225,17 @@ const CalendarView: React.FC<CalendarViewProps> = ({ events, onSelect, selectedI
                     >
                       {/* Image Layer */}
                       <div className="absolute inset-0 z-0">
-                        <img 
-                          src={aiImageFor(event.id, event.imageUrl)} 
-                          className="w-full h-full object-cover opacity-30 transition-all duration-1000 group-hover:scale-110 group-hover:opacity-50" 
-                          alt={event.title}
-                        />
+                        {/* src="" makes the browser re-request the whole page.
+                            59 events have no verified photograph and carry an
+                            empty imageUrl, so the element has to not exist
+                            rather than exist empty. */}
+                        {event.imageUrl && (
+                          <img
+                            src={event.imageUrl}
+                            className="w-full h-full object-cover opacity-30 transition-all duration-1000 group-hover:scale-110 group-hover:opacity-50"
+                            alt={event.title}
+                          />
+                        )}
                         <div className="absolute inset-0 bg-gradient-to-t from-base via-base/50 to-transparent"></div>
                       </div>
 
