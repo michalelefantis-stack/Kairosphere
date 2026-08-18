@@ -34,6 +34,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    env:
+      # Lifted to the job so the monitor step can test whether it exists.
+      # `secrets` is not one of the contexts a step-level `if:` can read.
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
     steps:
       - uses: actions/checkout@v4
@@ -57,10 +61,13 @@ jobs:
         run: python -m pipeline.run ${{ inputs.force && '--force' || '' }}
 
       - name: Refresh local news reports
-        env:
-          # Without this the monitor still runs but marks every feed
-          # "unfiltered", and the app refuses to display an unfiltered feed.
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        # Skipped entirely without a key. The monitor still runs without one,
+        # but marks every feed "unfiltered" — and utils/localReports refuses to
+        # render those, on the grounds that nothing has been checked for
+        # relevance or for being somebody's private funeral. Running it anyway
+        # force-added 43,000 lines of raw headlines past .gitignore, for a
+        # panel that will not display them, on every scheduled run.
+        if: env.GEMINI_API_KEY != ''
         run: python -m pipeline.monitor
 
       - name: Summarise
@@ -91,7 +98,9 @@ jobs:
           git config user.name  'kairosphere-bot'
           git config user.email 'actions@users.noreply.github.com'
           git add public/data/phenomena.json public/data/live_events.geojson
-          git add -f public/data/local/ 2>/dev/null || true
+          # -f because public/data/local is gitignored: it is generated, and
+          # only worth versioning once a classifier has vouched for it.
+          if [ -d public/data/local ]; then git add -f public/data/local/; fi
           if git diff --cached --quiet; then
             echo 'Feed unchanged; nothing to commit.'
             exit 0
