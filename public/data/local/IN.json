@@ -1,10 +1,10 @@
 {
   "country": "IN",
   "name": "India",
-  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "generatedAt": "2026-08-18T16:31:55.664980Z",
   "refreshHours": 6,
   "status": "unfiltered",
-  "count": 101,
+  "count": 103,
   "reports": [
     {
       "id": "news-in-614affbfb44abeb1",
@@ -43,6 +43,82 @@
       ]
     },
     {
+      "id": "news-in-df1e04185ee54fb0",
+      "country": "IN",
+      "title": "कासगंज में रानी अवंतीबाई लोधी जयंती मनाई गई: बैंड-बाजे और झांकियों के साथ निकली शोभायात्रा, फूल बरसाकर स्वा... - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTlAyT0M0RmRGY0Jmb2Fja2ZZS2thSHBIZjVqb1ZLdTAyd0YxMmhsdktYQW8tbUpWZWswLXRaZmRmX2dyWTBNQmNNNlBFT0FuSkc1VGlpWWx3blhLMWNKbS1JTDFpQWZSNWFwZjFWODhiMnVyNE5peVRrRmt4alJxYW5qVTR3X012VFkyeW15N1pZWlU1Z0tGdHRvbE9kd2MtOF9fTWtnUzFkWUYxU0hZZHNpUFM0UzdvWTFOblNPNHExUlFTQkdnbWd4UUdWUGxFM3dYcNIB2gFBVV95cUxQNTNBQUJaZXltN2MxSjFOYVBpT040WG5xUW9ZblRDOF9FaDRlc19YNDg1ZVRhWEV1N2RBYUY1XzBIYnBwb3U1c0JORHl5ZjZkTW1TckdKenlvSkFYRnMyQzE2aWpxUlY2b0tLX1VfLXRPY2ZJcEZBcUNWdWV4MXlEM3FNTl9PYk9sSEh0REhhV2F6VWdGZEZnaW9Td01ZSjNSdUliVGlfaUxfWTM5VzhFQWd0Z0h4OU92WURaRm1IOWp2c0tMQXpNSG02MmktTkFPYzZCTDZhdlRzZw?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-18T16:03:37Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (58 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-6f6768e925d25715",
+      "country": "IN",
+      "title": "मौजम नगला खालसा में संत रविदास रथयात्रा निकली: विधायक, सांसद समेत बड़ी संख्या में ग्रामीण हुए शामिल - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQRTllMEdLa2NqM2F0YTByWGJ6d0ZnbC1MVzNKNGV3eVhreFBhMmpFYnFmakc3VTI0OTFqSVpjajhBN3MxMWJPQUJreGRnNHJNdTk3WnVUV3dxNC1JLUNUVUlYc01Id1lqQzBNX2pqMDduTGgyUXp5SnlvdWZnOXVOdkNDRU9yaW1QanpCTXJzSF83OHZkUUx0VklEYUxNZi1VejNoWWVCdE5TaklfUWEzX3I2amdyNmgycTdXYmdKSVBVRGI5Vm90UEktM0x2Q2xYQkpZTUcxUEdLYmFJcGdPYWNzRdIB6AFBVV95cUxNdWl2MXpveEgxOWNOS05ZTlduS2l2WnJENmJMZFJ4WDBISGptMVVTODl2Mkt6WTNSYVpiX1ozeDFsRk91Y2t6a2Nza3FzT1JSYnR2c3lkMkVTZFJiNkM3RlJmZERKcmV3TS10bTNCaEFqTEM4aG1zaGxmSzYxRUl0WHJ6VXgwaVVweWUzQWRYTlptYm4yV1dvdnlDSTUxUDJySGlna19RVmNQemgxNml5eThiYkRoRlpCTmxreFlUbi1NeTRPejR6dURlSHlSMWdmMnp2MllmWlhPT1Nld0tocU10U2cyYU91?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-18T16:01:49Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (58 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-8b6f64fa228b1e05",
+      "country": "IN",
+      "title": "बबाई में शनि मंदिर का स्थापना दिवस: शोभायात्रा निकली, रात में जागरण; अगले दिन महाआरती-भंडारा होगा - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYnUxMi1MWWFPMG9ueEdZbFlhTGlTWGdXaHVNZWNDUndHaGlsSVlCZWNkZjJkTEpyeGFJQ2paMW41NTFWN09GX0dxLWlBLWJzOTRabFVBVXp1Y18xbXlyVUZYblNmME1aTko1WHk0QWNHcWNGOGlKXzVQdzdJZ1JhbXplVVNSM3AzaE5kSk1kcjVMRlJ3OFh3cllQdVFoY0xZU21KX29RVWk0YkUyRjBNNy1JMUd2bDFiczhoRklfOHBXbldCVmJtdDB1LWhNUdIB0wFBVV95cUxPTlNQWlUxczZDU2xyOHBpM1pRemgyb0EyNTM2RGowNkxRRlB3QmF1ZVA1SUpSdDMzZWhCb2ZmdVBpS3dfdFZFdzRoNWZwTFFacHJoNzg0Y2dqUGlPUnlicS1GbzByUzhBd1hSYkowQW1SelYtTk54bWR6bkhncGZUZ3AyU0JzT21vYjlPTXZ6aVlDM2RmbXZfNUhVYjJ2b3hoakJtY21TZWVLWnVXNzVMeUJJSllHc2tqLTY3U0cwc0hrXzN2UFRlbVNHZUlYYmNpMFR3?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-18T15:13:25Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (58 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-6d51ac68b6b5b477",
+      "country": "IN",
+      "title": "जसराना में रानी अवंतीबाई लोधी की शोभायात्रा निकली: दो दर्जन से अधिक झांकियां आकर्षण का केंद्र, जयकारों से ग... - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPLWZfcVRIckFYNmZOYnpEYUJhZXdDNXlRVmQ5M0N4bDBkWVNfclFJS2l6N3VSMUx6LXlkbmFpTmFRNkJmb2RMV00wOW9ZYWtESURXS2p3bS1oTklKU0R5SU9pYUlzaGxfSGxNWkNDWFJBR2YxcUZ0ZWo1UUo0YXZfTndZdDRiX3B2ZVlzUHJHdnA3enZTQ0RUWjhiSEJQdUNBZGVSYnhtcDg4bVJFZGJuRjdubUJBZFQ5RnBQeldnRkZ4Rloyc25nNXFfVFlCLWNoRnhPemk4VdIB3AFBVV95cUxNS3ZkdS0yem1iQ2JNZHQ1S3I4UVN4aVB6Rk11ZkRRdTFMdFcwWmRXNW9oQ3FfOE4xWHhJX0d1LTYxRFA2b29jZG5mTmlLdEsyMElWd3NWbnZ6WEZ5QlRhcEwxa09CZGJyOG5lejFBNVV3bkVBNG5oQ2JsVm5TaGJ1b0x5WGpWLVAtQTg1ZU1feVd6eXMtVHZiUkptczc5Ul9FTm40OXpvMVdLYWhTbHVic0thdGZpOGZUOXEtRXVFVThQRzNDX1lURGtyUVJiQTJlaFVJbG9taktVZXJT?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-18T15:08:35Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (58 stories seen)"
+      ]
+    },
+    {
       "id": "news-in-23a5fc360c7b2048",
       "country": "IN",
       "title": "कंपिल में सावन के तीसरे सोमवार भव्य शिव शोभायात्रा: आकर्षक झांकी के साथ निकली, बड़ी संख्या में श्रद्धालु हु... - Dainik Bhaskar",
@@ -58,7 +134,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -77,7 +153,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -96,7 +172,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -115,7 +191,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -134,7 +210,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -153,7 +229,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -172,7 +248,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -191,7 +267,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -210,7 +286,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -229,7 +305,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -248,7 +324,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -267,7 +343,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -286,7 +362,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -305,7 +381,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -324,7 +400,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -343,7 +419,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -362,7 +438,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -381,7 +457,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -400,7 +476,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -419,7 +495,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -438,7 +514,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -457,7 +533,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -476,7 +552,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -495,7 +571,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -514,7 +590,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -533,7 +609,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -552,7 +628,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -571,7 +647,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -590,7 +666,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -609,7 +685,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -628,7 +704,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -647,7 +723,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -666,7 +742,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -685,7 +761,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -704,7 +780,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -723,7 +799,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -742,7 +818,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -761,7 +837,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -780,7 +856,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -799,7 +875,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -818,7 +894,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -837,7 +913,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -856,7 +932,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -875,7 +951,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -894,7 +970,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -913,7 +989,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -932,45 +1008,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
-      ]
-    },
-    {
-      "id": "news-in-ebb4e603b6604825",
-      "country": "IN",
-      "title": "मूरतगंज बाजार में खाटू श्यामजी की भव्य शोभायात्रा निकली: 15 अगस्त को होगा विशाल भंडारा, झांकियां आकर्षण का ... - Dainik Bhaskar",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRlhXTklJX3RwR2YtVXVuVXo2YkNQTXBMZ2IzTmdHRTFhSndHMlZ4el9vRHNMS1NndTlITEpRQlhxb2NLM2xDYW5IVzdGSGFuWlhrTGRTUGZZbzI0UjB2Qi1mWWdZazVodHJOVkpKLVBkR3BHdGg4NmZmOXN5UEFENUNkMWIyOWFNeGNqVnNLWFFDOTJHSWM5Zko3MVNvVUZJWGlyTHB2T2FpelBfR3hyN2ZGcktySWpoTHBrY3F0ZHdZakNmVWNJOW5ydklFc0FW0gHWAUFVX3lxTE51b0VCamE0a0F2cGxVaXVXbzZmNFYweVk4UGtHM0dmZTRMYXppdHlIZnluWFYyUHlheWxYQ0FTTTFlNzljWl9TNG1JcXUzaXBZRnlKQmkxT3RTa0V1elVpMXk5VFh1QjJXaWs1bGpsMWIxSGJHSjRVa0xBOEhGM0ZoaWRnQWhwNXFzeWhNZkN1WWFCaUZUYnM1bFRkM0c3RElxOTA2Y3QyYW53Q0lTc3B2WUkzUEJzX3MzZ0JENTltMlpJcjEtYlZicC1YWFVsckV5ek1tT1E?oc=5",
-      "source": "Dainik Bhaskar",
-      "sourceDomain": "bhaskar.com",
-      "publishedAt": "2026-08-15T03:13:16Z",
-      "query": "शोभायात्रा",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.32,
-      "reasons": [
-        "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
-      ]
-    },
-    {
-      "id": "news-in-270eaa7c1f3d94f7",
-      "country": "IN",
-      "title": "सरखनपुर में कांवड़ यात्रा निकाली गई: पूर्व प्रधान के नेतृत्व में हुआ भव्य आयोजन, भक्तिमय रहा माहौल - Dainik Bhaskar",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYk9pZnhUTTgzeTBtcUpjc1g1aDM4M1BjdmZPaXBRZDhtdEpRR1Vxc2JxYzMzWEpxODZOY0JaUHlsU0FNYmFMUmNKRnhRTVZMWG92VGdHUmRieEVDVTNjazhYTFpuQlJ0S0ZmMHBTNFg3cXhkUXhwNDdnYURfczJwdE9JXzVwYWpNWVg2UHBUUzZ2T2RXTXhXdE56X1UxTXdtcU9Pb1RsUTJJWHJGRlM2ZzRQY21mVHRGdG12NHZpZkJfTGVKUUgzNXdXcVYtYkFQLW1yN2pSSkRmSTY1X3hvSnl4dzh4MkXSAewBQVVfeXFMTUN2V0hXblpRWFZfb3k5aGhpeDJzRkVqOFpnQmRZLWdoc1NvaUJJQUJiNURQdnl4STdPT3ZtbXNvZTY0U0JBZEkxMlBtMDZ4SFUydEpqdmk3cHo5WWFDLWtObGhRekRIRHMwcWFpdWRWdExOSzhFSDdjOWx6emt4dGczX3ZpY2I5dHB0NVllSm9aNElrd2R3YV93QU5vQlZ4eTlTOW05YTNkdVpPY0pCcU85WHZnY185bWpKbWpKbWstaDBKWUxzVXV0dHlVaTRDeVZLQnNxTC05dGF0X3kxYkl0YzVrai0zTUJNZlQ?oc=5",
-      "source": "Dainik Bhaskar",
-      "sourceDomain": "bhaskar.com",
-      "publishedAt": "2026-08-14T15:38:11Z",
-      "query": "शोभायात्रा",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.32,
-      "reasons": [
-        "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -989,7 +1027,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -1008,7 +1046,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -1027,7 +1065,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -1046,7 +1084,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -1065,7 +1103,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -1084,7 +1122,7 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
       ]
     },
     {
@@ -1103,15 +1141,72 @@
       "confidence": 0.32,
       "reasons": [
         "generic domain, origin unverified",
-        "bhaskar.com files regularly (56 stories seen)"
+        "bhaskar.com files regularly (58 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-2b4fd5c387525f97",
+      "country": "IN",
+      "title": "Ara News: श्रीकृष्ण जन्माष्टमी शोभायात्रा को भव्य बनाने को नई कमेटी बनी - livehindustan.com",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPclhSbW14bzI5VmtlYVJQSGR5UUkxN3VCcWp2alRmOU9rUjBwRHVSVFJxaS1iZ0VQQ1FuVDloM3p4eU5yWHRmbTdHYnY3SDhIeTg2eVVJNVVLUUJibElxakVSM25SR2I0STN5U1JpZkJzV1pfb2FJTXpQQUJzQ1BZOUI2eDJXd3ZHaWY4M2YyaDR4bG5zWWRxbGoyb2dESURaaVhMcFRyNjJqT3l5Z2UxX2Y3NWs1bkNEaE1kSk1RazUyMTVvRUhNT01iLVpSSnctYmRkUDlwUEVoc0HSAdsBQVVfeXFMT3JYUm1teG8yOVZrZWFSUEhkeVFJMTd1QnFqdmpUZjlPa1IwcER1UlRScWktYmdFUENRblQ5aDN6eHlOclh0Zm03R2J2N0g4SHk4NnlVSTVVS1FCYmxJcWpFUjNuUkdiNEkzeVNSaWZCc1daX29hSU16UEFCc0NQWTlCNngyV3d2R2lmODNmMmg0eGxuc1lkcWxqMm9nRElEWmlYTHBUcjYyak95eWdlMV9mNzVrNW5DRGhNZEpNUWs1MjE1b0VITU9NYi1aUkp3LWJkZFA5cFBFaHNB?oc=5",
+      "source": "livehindustan.com",
+      "sourceDomain": "livehindustan.com",
+      "publishedAt": "2026-08-18T15:56:42Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "livehindustan.com seen before (18 stories)"
+      ]
+    },
+    {
+      "id": "news-in-bc7c5b9fb2c56946",
+      "country": "IN",
+      "title": "Meerut News: भगवान पार्श्वनाथ की भक्ति में नृत्य नाटिका का मंचन, रथयात्रा आज - Amar Ujala",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQNnZHVVM3Z2tmSXUzWXZHdzlyMmo4SXhpeFNRMENzYk50ZUMzY1l1bGw4bG9jOEM4TFNYT3p0VGs3Mk1XQ24yUUdCUlRsR29hQVNyUGRrRHBpSmJUVThjN2hEOFNiSmo5UjZzdGpUNzMwTUdubWxUdXRxUWNkQ2RXUU5XcXVJQ1N1cENFUk54UV9LZU1CM2lZekVIaU1KS0VhWFRpQ0U0QktlZTNFTUl2YTRLWDZSNzlUaV9KQ0RCbG9zTl9yZ3h6UVJMdXpDN2F1YWdwWjRXVFFiNWxTWmtuNWVjSWczd0JUOHJzYmxjMTBySnRET1pOU0c3bjR0eFhoSnhz0gGIAkFVX3lxTE5tVmV0RlJLQ19GRlNfUnJVSW1WTDdzekJrbXA4enNORHFGZmRPTlhpeXBkMU1xelE2QW92b1JYa2poZkNuVm5ZbnE3bFk2MkxvanNhY3hBQnEtSjB0VXVzMkM0VS1oVG1PY2JHUVY5MjBiUGtmUTllYXUwdWJiS1hwRUdLcnM5NjZjSTVYZW5JbUVGY3plRml2SGZ4ZXFhTVpwQnJsRzRuQno0cVhUYTFYODRMOVc4LWQ0YVlaNXRvWUVTSXdpZmdaXzAwMk55aWRzMG83V3VoRkY4MEJzWkhDQnlmUVZLQ0ZiSTlMUHl4cU1DeFJodHFrY045U3h5dURJSkVPRW1yQQ?oc=5",
+      "source": "Amar Ujala",
+      "sourceDomain": "amarujala.com",
+      "publishedAt": "2026-08-18T15:44:11Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "amarujala.com seen before (20 stories)"
+      ]
+    },
+    {
+      "id": "news-in-5a2d6857941dbb60",
+      "country": "IN",
+      "title": "Muzaffarpur News: महावीरी झंडा महोत्सव को लेकर निकली शोभायात्रा - livehindustan.com",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPVmw5RUhOWHpNX2xqTjNEb1BuUXpkay1ZTlFoYk1hamtJeGhIMkNXcmxiRFFFVzRGYklqcFBwZ0R0MEM2TGwwalBxdy0wNW5CY0M2ZldTQ0t3c2NkU29fQ1BrUXh2SUtwcVcwaHdtRjdab3RJbkV3OVc4T0xkYWtiU0lEZGZQdGFsdWp3bjV6S1R2OU5pakxCOVRISDlYQ0lGaDE3Wlpkd0V4LWdDeVNENlVSMmxvZU56NVlUTV9rVFBtYVRlTGlyQzNGTTFZWFdOYTdDVGtKUDdKaEJaTjItWHdEcHlnR2Rs0gHuAUFVX3lxTE14WEt6WmNfbHlkNE1XRm9fM2haR29Tc1JnaHVQVnRLdVBYYXRFcWpfbzdvSnFUTktTcklqWTYxeFNHYXVpM2hQeGJsbW5KSFlaQjNTSVViai03WnFVSEgzN3Bydl9sUlE5cXhpSG14Rmx5WC1aVDJCMkpZQ3FuZTVPa0RUNFVSd2tJVHVqTFNIU1BmUWJYYlNnRElSbkl1b2lGVGVSeFpOTWtXZm5xMTkxenE5UjFHVUlpMEVpVFhNWWl3UGM1b0xOa2xOLW4yMnUyQzgwcU1xVmtkLUxSNEZfTWJudTNHdnFsYTljcWc?oc=5",
+      "source": "livehindustan.com",
+      "sourceDomain": "livehindustan.com",
+      "publishedAt": "2026-08-18T14:50:05Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "livehindustan.com seen before (18 stories)"
       ]
     },
     {
       "id": "news-in-3e04e41e7a6b2788",
       "country": "IN",
-      "title": "Gonda News: शिवध्वज के साथ आज निकलेगी भव्य शोभायात्रा - Hindustan",
+      "title": "Gonda News: शिवध्वज के साथ आज निकलेगी भव्य शोभायात्रा - livehindustan.com",
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxObE15ckVIOUJHOVZRZG1ERnh5WktDRkVxVTFBekNJWGxCTVBfN1dQSkRZNE1wRDE3WmpOd1lzVEszMTVTZjR1UnVEcWZmVGZ0eWNuV1JyYXo0MVhfU0daZlpRRWxpNllxVUtSVWRtbjA3ODd1eTdnVElCb295UFE5WW5CbEJudElGeHVxaXpkT2FsZ0FYSnF5UXRZaElhY1I3dlZ5bnNEbGZ3a1dWWnRjdUNCYmV2YXBHdllBRHdOVnVOcld3MHJ0TW1UMFQ5TFJiRjJEY19INzRzcjh1RlE5MEx0dHV5QjVVQWVrY9IB7AFBVV95cUxObE15ckVIOUJHOVZRZG1ERnh5WktDRkVxVTFBekNJWGxCTVBfN1dQSkRZNE1wRDE3WmpOd1lzVEszMTVTZjR1UnVEcWZmVGZ0eWNuV1JyYXo0MVhfU0daZlpRRWxpNllxVUtSVWRtbjA3ODd1eTdnVElCb295UFE5WW5CbEJudElGeHVxaXpkT2FsZ0FYSnF5UXRZaElhY1I3dlZ5bnNEbGZ3a1dWWnRjdUNCYmV2YXBHdllBRHdOVnVOcld3MHJ0TW1UMFQ5TFJiRjJEY19INzRzcjh1RlE5MEx0dHV5QjVVQWVrYw?oc=5",
-      "source": "Hindustan",
+      "source": "livehindustan.com",
       "sourceDomain": "livehindustan.com",
       "publishedAt": "2026-08-18T11:28:32Z",
       "query": "शोभायात्रा",
@@ -1122,7 +1217,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "livehindustan.com seen before (17 stories)"
+        "livehindustan.com seen before (18 stories)"
       ]
     },
     {
@@ -1141,7 +1236,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "amarujala.com seen before (21 stories)"
+        "amarujala.com seen before (20 stories)"
       ]
     },
     {
@@ -1160,7 +1255,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "amarujala.com seen before (21 stories)"
+        "amarujala.com seen before (20 stories)"
       ]
     },
     {
@@ -1179,15 +1274,15 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "amarujala.com seen before (21 stories)"
+        "amarujala.com seen before (20 stories)"
       ]
     },
     {
       "id": "news-in-9c091cda44d0727e",
       "country": "IN",
-      "title": "Varanasi News: डमरू निनाद के बीच धर्मसंघ से निकली जलाभिषेक शोभायात्रा - Hindustan",
+      "title": "Varanasi News: डमरू निनाद के बीच धर्मसंघ से निकली जलाभिषेक शोभायात्रा - livehindustan.com",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQXzcxelNvUlZvX1NaQmIwRUUtUkFHekhCaThTUUI5NTRvaGtmLWpxV295Sk1BamRkRG11OWh2SkY1aUpDYWdwZk1hSVhEdnJnTHhIbFRwN09abXpYaEoxaTRvQzZGdGZOTzFmWTN3V0tnc2E5b3ZWUzkwNDJqQ2tOVmUtV2FVRG5zSG5jUFYyOWc5YmxaRk9WV2MxbmtpX1VROUYwdnFNM2tMa25IMkNqcjhKTDduM2h4cnpxMUNRZVhUOXNhNVU3bVhUWXJTQUtGdGJoaTFEcjd2dUVmcXN3WDlwT2RzSnFfQ3Zj0gHwAUFVX3lxTFBRWHg5azh1MzJEeWw2RXQtN2ZLTnFpbGkzUUpYell3U0JOcy1oVjJhNGVBQVhPWTFscGwzWkJRM3I2RFJwa0VsTllNZ0FWeEZNYV9yRXFvUEtVaGNFUS0zVDZzNmhZMXZkMDRhcDFpRVpSeEdPT05hZHgwM3JMdzk4ZjFLU3ZQaVNvcGhoWV9XSUdOR2pKckpvYWZuMklXdEZMdDYyUVhJY19SZGc4MFFxZWxqSEVpVHQxQnpqMW9rWkJVT1g1UTVTQlhvdXY0VVlIMGdwR19OVUtlS3h4QlZ6em9nZS0xU3M2MUh3V25OVQ?oc=5",
-      "source": "Hindustan",
+      "source": "livehindustan.com",
       "sourceDomain": "livehindustan.com",
       "publishedAt": "2026-08-17T20:08:55Z",
       "query": "शोभायात्रा",
@@ -1198,7 +1293,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "livehindustan.com seen before (17 stories)"
+        "livehindustan.com seen before (18 stories)"
       ]
     },
     {
@@ -1217,15 +1312,15 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "amarujala.com seen before (21 stories)"
+        "amarujala.com seen before (20 stories)"
       ]
     },
     {
       "id": "news-in-fcb3fc732338da66",
       "country": "IN",
-      "title": "कल से शुरू होगा 36वां तुलसीदास जयंती महोत्सव, निकलेगी भव्य शोभायात्रा - Hindustan",
+      "title": "कल से शुरू होगा 36वां तुलसीदास जयंती महोत्सव, निकलेगी भव्य शोभायात्रा - livehindustan.com",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQX3FCSE9hZEcwVmNCMTdCSUQya1lXUDRpb1lYamZjUENkbVY0eHpGNjg3X2w5clQ0clAyOFE4RDNnSzRRMFVFMHRJRlFjLVJnWkpORzNRUTYzSnB4ME15ZXdxVU9fejhsTVRwRXpEcm9DSHVndl9tc3pVV0dOYWxXRjRiTl9VdVVORTh2bGdYUUhVMlg4Ynk5YmNhbjdUY29ySHVraUR1djhZMnZ2YUY5eDJYbGRWVC1rWjI1aEFHNjZMMHZqbk1tZzAzWW5aX2PSAdQBQVVfeXFMUDBTdGFhWnB2MTc5LUpRc0RoaEN6LUlleWJobEliVlRaZFFaOGs1NFpzbF9XTWl1eldrbGFrbDdDaktfSWpTa25xamZpMGtzZmpNWk9kalVGZDFQSGdXcDFEcFRYT2prZEp0UXJQcWM2R1FlSmxBVW83eFRMV0ZhUHpKT1RaUnBwcUluMUNFVXNKSGRnVFJuUE5TZnBFT0kzazd4MGZRcUZ3QTZhVkVXa2M2ODVWVmRnaDJILWFKYnBDS2o0LTlwS00wZmtNYWtUVW9BbFE?oc=5",
-      "source": "Hindustan",
+      "source": "livehindustan.com",
       "sourceDomain": "livehindustan.com",
       "publishedAt": "2026-08-17T18:42:22Z",
       "query": "शोभायात्रा",
@@ -1236,15 +1331,15 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "livehindustan.com seen before (17 stories)"
+        "livehindustan.com seen before (18 stories)"
       ]
     },
     {
       "id": "news-in-994e25e5ba6d1ee5",
       "country": "IN",
-      "title": "Shamli News: सतगुरु समनदास जी महाराज की शोभायात्रा और सत्संग का आयोजन - Hindustan",
+      "title": "Shamli News: सतगुरु समनदास जी महाराज की शोभायात्रा और सत्संग का आयोजन - livehindustan.com",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPdmRPdzY4YjRBS3lua084bTlWWVZyZnZlTllmQk5fcXMtTnRGQVFlU2pRTzd4RGpXNE9WcWQ2VU8xTDlSSTNnUFN0TnoyaFJmRURWXzFGM0VydVQzM2toanh2WWFjVjZTNHBBX2hVcGlOM3NWQkhQMldDVGtJZU53WVMxNGlxY1lTbHdBNFdFUTVxODFUSkFMNFlWTFJHRnEzeTlTaGZ4SkVLajlxTEkzVlVLZXpqVml2eG4tZXVwRXRvNGxpcDZNb1BIRW9BOTRnd0k0T3k3a1lfcTNWSFhENnFYbnBOQ3Y5enJHUE0tSdIB9AFBVV95cUxNN05yNkxLTnNCYVQ5RzhXeTNOXzVOVG9ZaTlRejQyeHhpSUlkamQxVjFTWWRhSXc1U01rQl80bXdHckwtSGdXSVkwUGtlQUhOWjFhNnFxSDhYQnJhRzlwYlVsYmYzSFZwYUdxTlp0YVZKZHNPSHJ4dTZyUDZOc29PYTdEanBXNl9EeGtZTkc4SUhFNUMwdUt5RWFpVlFmR0x3amhRSm94dTktNHF0SVZvZmR6UnJ1bl9MdENVRjRPSG1JaWk4MTJOYzRFT2E3YXZtQjR4Q25sc3hGOHc1QWRBYm5VOWNBTThZUVFFUWwxb3ZoWjN2?oc=5",
-      "source": "Hindustan",
+      "source": "livehindustan.com",
       "sourceDomain": "livehindustan.com",
       "publishedAt": "2026-08-17T18:33:22Z",
       "query": "शोभायात्रा",
@@ -1255,7 +1350,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "livehindustan.com seen before (17 stories)"
+        "livehindustan.com seen before (18 stories)"
       ]
     },
     {
@@ -1274,15 +1369,15 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "amarujala.com seen before (21 stories)"
+        "amarujala.com seen before (20 stories)"
       ]
     },
     {
       "id": "news-in-b845be917ebad0d0",
       "country": "IN",
-      "title": "Sitamarhi News: रुन्नीसैदपुर में शोभायात्रा संग नौ दिवसीय नवचंडी महायज्ञ शुरू - Hindustan",
+      "title": "Sitamarhi News: रुन्नीसैदपुर में शोभायात्रा संग नौ दिवसीय नवचंडी महायज्ञ शुरू - livehindustan.com",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQenpRYXNka1U5ZkJnX3lZSXZ5T0RqUko3RlU0SzI5cjk4MWRLemVJZVBEWGZpNEtONV9ud2hoYWw3NHhYdDI2QlhsbF9GdzFENU85cnFvZGtCQnktYlNmMHpCVGRfaE1qUWNsU0VCOWJVZ2RQSGxGWVhPMFdjWTktM3dhU3JmV3dtY0VURmh5N0V2X2hlTUdjdHZFSEdKQWxjOVBKUGlDTlFQN2hRbHQzTmlILV9DejZVOGNoVGItcVFiV1E0M1JOcFVXUzFpZ2FtY2g0UzU1M1d3NEtaUGR4UtIB5gFBVV95cUxNcy1lRkFsakZ6NmN6cWFIOUUzVFB4UVFYRy1EeVhrWmJ4Rl9FZGJkVVg0ZEZLazhUNzg4NHlQUTlJOEUxTmhZcnpFUjVTLTJNOHk4VzQ1RURxTDdqVXREMzlBRG1JTEVkSUpFd2U1d2xOWldlaHJhQWZjbE9VZGxmbjdTaS1GWENaWEp5WFNZbmd6YS1VYW1oZFBmQ3JfeU1EeWQxQUxQZ01PM2RyZmVuclZpU3JSWVJHZWZhMXd6NE9iRHkxRGpfTDVyd3piTk4wZm9rSVNSeUMweTNzQkNhcWd4ZjhMQQ?oc=5",
-      "source": "Hindustan",
+      "source": "livehindustan.com",
       "sourceDomain": "livehindustan.com",
       "publishedAt": "2026-08-17T18:14:03Z",
       "query": "शोभायात्रा",
@@ -1293,15 +1388,15 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "livehindustan.com seen before (17 stories)"
+        "livehindustan.com seen before (18 stories)"
       ]
     },
     {
       "id": "news-in-f0a48c30b379d3e7",
       "country": "IN",
-      "title": "Hardoi News: गूंजा हर-हर महादेव, संडीला में निकली भव्य शोभायात्रा - Hindustan",
+      "title": "Hardoi News: गूंजा हर-हर महादेव, संडीला में निकली भव्य शोभायात्रा - livehindustan.com",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMGt3V1cteHhLb291eXhVei1XWnVjNV9pekhwd1dneURudW90c2k3YzNvYkpWNXVCV1RMQjhoZDZDMjZyd3d0eDJRVEtDU2UzZDNxYXR0elZyZGE3QVd0bFkzc0lYalVwM1hwbkxtZ3puS2UyMTkyMGttRE1FN1JJX3Q2djhqMVQxOTZ6UHF0RENIcDNFdGxOTk9BX1BCbzZaUlk3WjJCSTFrS2E5dzhoakNiX2otRzR5cjZHTlkwblVfR09PUkV1RjBVQnFzdENX0gHWAUFVX3lxTE9PLXJ0bmVJMHZvZGU5NzVsNDdsQjUtN2xSVU1kYWYyVGJaVVgxUnhSbUJKZ1NkWXhuWEk4MW1oV2JxM1ZFQkJkcDZRRTdrQ2pjdlVVSEhFR1ZlbFVDalBUN0Y5clFDaEFNcklDa3pmaDVmekFNWmwxVHdRYmhDQTFId3hJWW9vZlUxRTd1OVE5QnAycmlFS2tCQlFKZjM5eGpQb2xvMWdWY2JpNXZEVzBjbklPanNLcWRZLUc3NmV2VTRRMmNOSjEtVjc1cXpqWmVDbTFXNnc?oc=5",
-      "source": "Hindustan",
+      "source": "livehindustan.com",
       "sourceDomain": "livehindustan.com",
       "publishedAt": "2026-08-17T18:04:53Z",
       "query": "शोभायात्रा",
@@ -1312,7 +1407,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "livehindustan.com seen before (17 stories)"
+        "livehindustan.com seen before (18 stories)"
       ]
     },
     {
@@ -1331,15 +1426,15 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "amarujala.com seen before (21 stories)"
+        "amarujala.com seen before (20 stories)"
       ]
     },
     {
       "id": "news-in-a3f5bd0ed6fdf501",
       "country": "IN",
-      "title": "Firozabad News: भीमाशंकर कांवड़ रथ यात्रा में महिलाएं खींचेंगी रथ - Hindustan",
+      "title": "Firozabad News: भीमाशंकर कांवड़ रथ यात्रा में महिलाएं खींचेंगी रथ - livehindustan.com",
       "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNR3J0LUlzTkZ2R2RHLThfS1l0U0RKMmZNcUhhSjVfSHh2Zm5EMTdrWVRvWkxic3hxVEZVVkQ1dm81SVQ5N1V2NGNBME43a3ZRVnV3NnJycmh2LVJYYVZDYW9YYkxYWm5pMUdTOC1rUS1WU1RaenF4ZUhXRGJmd3VtZi1HUXBkQVh4ZUdjRlp5U3AxMmF1TFlUUlphYW1oampoOGRVOEdqNXVPcWRUdTRkUlJpa0RqVUZ1RW4yNWpNQVNnRENoc0VnOFRwdTAtaDJma25Xb0R2VGhlbF9qMWt3ZE43b2hNcE5HYjdpY1ZIb2dyWF9JQXfSAfsBQVVfeXFMTTZ5TWtNTUpSUlhFZjZWQ0R2WXlxSFNxblVESVVtRkg4dU5YVjNQWjZDNFctZ1R1VlVJcFNLVTdLLWtXZFRGU1Ffc3ZsYXo3NVplTy00Snh5dThHa0pmRVVmZFJneUlDUmplRER5VDRSNU9KY1BERTJ5bWpCb3JCcFlDZFJRNUhmbGRkcTFRcndsWEFhd21Ya0pmb3o3TmxuS1c0ZUd0SEs2anpMUjRLQjhyeEo2S0MtSTRDcENrczBuN0JLVGlFLVhWOFpzaDEtVTRiV1VaSEhpckRYOWJ2VmhCU1dJUzZ1eFBKZjhTRk0weElrVkQzLUJ4RTQ?oc=5",
-      "source": "Hindustan",
+      "source": "livehindustan.com",
       "sourceDomain": "livehindustan.com",
       "publishedAt": "2026-08-17T13:12:41Z",
       "query": "रथ यात्रा",
@@ -1350,7 +1445,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "livehindustan.com seen before (17 stories)"
+        "livehindustan.com seen before (18 stories)"
       ]
     },
     {
@@ -1369,7 +1464,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "amarujala.com seen before (21 stories)"
+        "amarujala.com seen before (20 stories)"
       ]
     },
     {
@@ -1388,7 +1483,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "amarujala.com seen before (21 stories)"
+        "amarujala.com seen before (20 stories)"
       ]
     },
     {
@@ -1407,7 +1502,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "amarujala.com seen before (21 stories)"
+        "amarujala.com seen before (20 stories)"
       ]
     },
     {
@@ -1426,7 +1521,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "amarujala.com seen before (21 stories)"
+        "amarujala.com seen before (20 stories)"
       ]
     },
     {
@@ -1445,7 +1540,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "amarujala.com seen before (21 stories)"
+        "amarujala.com seen before (20 stories)"
       ]
     },
     {
@@ -1464,15 +1559,15 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "amarujala.com seen before (21 stories)"
+        "amarujala.com seen before (20 stories)"
       ]
     },
     {
       "id": "news-in-f89efbccdecbd4a4",
       "country": "IN",
-      "title": "Hajipur News: अष्टयाम यज्ञ को निकाली कलश शोभायात्रा - Hindustan",
+      "title": "Hajipur News: अष्टयाम यज्ञ को निकाली कलश शोभायात्रा - livehindustan.com",
       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPaDc3NEQxdTV2Vl9kQktJdHBNNzl6WEpkM0J2c1luNk5iV2thUTlsdWJUbHg4eEpibDZhdm9oeVpWWFRWMjdxNm5GM05QUVAwMjlmRGVVTTdXVE1nT2hrOUc4U3BoQjQ4QnZQem9GOWVOTmNWazB4WkRxUXl4RVNVZkN4X3N2RGNCRHM0RE8zWTFCanNZT0g5NWU3MlBKYVRCRTJrc2VraVJ2WTF0RXFSLXNLcm10OXNUdnNnaF90NEt3NWlpOXk0NmgtUW5WcEtRV0NKMmM4WEZ0Mkx2VVVsOUt1N1ctSEt2MFpMemVZWXTSAfYBQVVfeXFMTXJ0eGhlQzU4Q2IwLXRvX3RwX0poOEZNdlEwSlVZWEpiQTJJQjBhOXFHTXVjQk5qbWp1cEp1VkxNM2FOeGpIQjBHWHMzaVp1aFRNVnpQQXktZ096Z1BZT3luQU14Mk5CNDBXdHlLMFVnRHRZeHl4ZXB0d0Y5bFdHQzJDOWdEejVoVGFXREt6YWpKVGhKUGI0UDN4cHEtQjZNMUttNnNKMjBRaURIY1JoOEV2ZUQ4OHJyeC03bmdKbjRrcTVOU09xaEpGWGdyT0lseHBPVDJpajNvVmJzbGdjdE1HN0hndGxYY0VwbzZvR2NBcjJjRFJR?oc=5",
-      "source": "Hindustan",
+      "source": "livehindustan.com",
       "sourceDomain": "livehindustan.com",
       "publishedAt": "2026-08-16T16:04:33Z",
       "query": "शोभायात्रा",
@@ -1483,15 +1578,15 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "livehindustan.com seen before (17 stories)"
+        "livehindustan.com seen before (18 stories)"
       ]
     },
     {
       "id": "news-in-92b7bb1059e5cea0",
       "country": "IN",
-      "title": "Bulandsehar News: धूमधाम से निकली वीरांगना महारानी अवंतीबाई लोधी की शोभायात्रा - Hindustan",
+      "title": "Bulandsehar News: धूमधाम से निकली वीरांगना महारानी अवंतीबाई लोधी की शोभायात्रा - livehindustan.com",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTFNjcWU5ckpkYmJCQ3dKV1ZYYlhudHJCaHJuOG5CWlVNaE0wVjJjbWpEVWN0cllhOHF4SWIydDVLUEFYY3lqYTlfUnhPd21abXd1TFpWQUhpM3c5a2pGRjlQZ2oyazdORUlWUUpRbHplZEVDaDFvWFdvRnFCVkVNU1hBNUhPcU10OVBpRElodHhFaG5lNFM5VEhDS0hEV2E4MEg5cWszQnlsdURKRzZvYS1pNFVTMGxVcHE1WnNxSFdmTUNqTzV2VU1Qa1U5VnhzdlBUZEtNQ1J5SXVGb1JqRm93?oc=5",
-      "source": "Hindustan",
+      "source": "livehindustan.com",
       "sourceDomain": "livehindustan.com",
       "publishedAt": "2026-08-16T14:37:41Z",
       "query": "शोभायात्रा",
@@ -1502,15 +1597,15 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "livehindustan.com seen before (17 stories)"
+        "livehindustan.com seen before (18 stories)"
       ]
     },
     {
       "id": "news-in-2dcaacc3a8972db8",
       "country": "IN",
-      "title": "Ghaziabad News: रथ यात्रा का स्वागत किया - Hindustan",
+      "title": "Ghaziabad News: रथ यात्रा का स्वागत किया - livehindustan.com",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcU9URnRIcy1ZQlVKODJFWUgwZ3p6N2xXS2l6UjY2UTV2a3VZTmgxcHBBeURnRUY1dzRfcjlFN3hfRkgwdHNaeVRqTVJueWxhMWU5V0RCSGIxeE1adHNrZ2R6OTl6S2hfbldqeFVDbUMxVzdNN1dCTGs5MWJrcHZ1MjdmcDltV044endyemtFbVhkOGlQUkNDOFFHa3BxdXRBV2JiemVGV2J2RWVVaXlQY19fckVmcXlPRV85TjVwcDV4WUZjOUlKZ2pxeGp6X25rX2NRZlQ3blU1UdIB3wFBVV95cUxNZjBKcFVmeW5YYXVnWTU2T05VRnM0c1duUElvU0NSZ2Y4ZTFDdVFnWjdlMjd0S1ZfOU9lTHZRWFpTNlVVOFZTN3ZWWjRJaXMyZUw0SHJTanlBZWI0TW5Dd01JNHRDbUVYdm5MOW1mOFRZSGlDUkJ1UDMydU1SUER2enlfOS1SaDQ4X00xeU9GQzh2U3YyazU4OUs3Q19kNDE2T0ZtbWlVS2k2clhzNTZKVHBuRG5NRmxKbTJobGhFWXJ6bjVjaEVDaVVpaHhzZkxSdG9pcG9GbmROYnlKb1ln?oc=5",
-      "source": "Hindustan",
+      "source": "livehindustan.com",
       "sourceDomain": "livehindustan.com",
       "publishedAt": "2026-08-16T12:50:28Z",
       "query": "रथ यात्रा",
@@ -1521,15 +1616,15 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "livehindustan.com seen before (17 stories)"
+        "livehindustan.com seen before (18 stories)"
       ]
     },
     {
       "id": "news-in-f7f273d312381ef3",
       "country": "IN",
-      "title": "Hapur News: तिरंगा शोभायात्रा को पुलिस ने नहीं दी अनुमति - Hindustan",
+      "title": "Hapur News: तिरंगा शोभायात्रा को पुलिस ने नहीं दी अनुमति - livehindustan.com",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPczJrTU81MjZZT3oxN2VRUUxTVUdEa0NhVmVrc25nWEVNU0dZcVBaSmVuLWhwM2J1TlBnVHM4LTE4Xy1XeXlCNGxvTFhfTHd5SGMxYUZ0ck4zTXJ2OG1abnk4a2kwcWlRcjhQMkZSSnBQNnh1LTVYbUdMWjRkUDc4Zy1XMnFtRTZkVVdILThmWnVfOTZkVjZJX1VfbHc0c2phVHZQOVBRb0laNUtMcTRHd1puVWgyeTFsY056b3d3V0ZtNUYycWtCT3EzOGx5LXBRWEFTTGxHbW5CdzJt0gHiAUFVX3lxTE15QWpocjNZM1dpSTlEdHVqRjE3bkp2clVzNG14b2p0cGNPQ3pEbW4xWjc5cm1fb2E3LWhoUWpCY1o5VUxfSUdMYVJfcU5ad3V2N01oRTRISXhSeEY4NXVXWDcwb3pValZsX3RMeHlhV1kxN01QV29RVl9YbGtYSjdza21HZ0NGeTc5VHV0MTE3aVZsR1pMTkctWUZ0UXhmZkdCQ2pxZTV1YjYtTFdiMzBfVzFiV0trUktzOEJ5aFpNRHc0ODVSUWF0NGJXMHdEd1Q3bkhmZlFrSklpcFVoNUZxRlE?oc=5",
-      "source": "Hindustan",
+      "source": "livehindustan.com",
       "sourceDomain": "livehindustan.com",
       "publishedAt": "2026-08-16T12:23:43Z",
       "query": "शोभायात्रा",
@@ -1540,45 +1635,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "livehindustan.com seen before (17 stories)"
-      ]
-    },
-    {
-      "id": "news-in-ef7baf47ea8eaa58",
-      "country": "IN",
-      "title": "चंडीगढ़ में शीतला माता की अनोखी पूजा: भक्तों ने मुंह में त्रिशूल की आर-पार, निकाली भव्य शोभायात्रा - Amar Ujala",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeWJ0ZTJjeTVSRXAxajl3WlVUT0VsWlhzV09BdE1OSWVjQkY2RzVCRmpTWFBaU2JfMWo3Q3IzRVNKTkNPRXB1a2pLb1dZMVdIeEw4T0I2aTRkSWlyYUduRTI3VEhMLXJNVE0yakZwajlkZ2dlZHJhNjRMLUJtTFJhNko5cWxVUFJ4V3FkOURnR0FDLU03SEctcURzWHdqQ1p6Q1ZtczViakdlZ9IBrwFBVV95cUxNVlZ6bk9tWUNMekZiSEpaVDBpY3FYRnRTN0RJQzRhNTVvdVh4V3BiV3FMUVlCcWRHYmpTRUFUVTdjQVl5VExSRlVnbWsweDk1SzhzMF9KOVpKQ3lTYnhzckRlUDdBVW5ka0NJWVUtS1AzSW9sQ3paTVRtamJQUnU5YXVnUUVrZHJtNnlMUUpRQkZ3RWFfdC0xaHM5OGxWb0twNnJiZXE3dnJ6VWl3UTZN?oc=5",
-      "source": "Amar Ujala",
-      "sourceDomain": "amarujala.com",
-      "publishedAt": "2026-08-16T11:26:19Z",
-      "query": "शोभायात्रा",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.26,
-      "reasons": [
-        "generic domain, origin unverified",
-        "amarujala.com seen before (21 stories)"
-      ]
-    },
-    {
-      "id": "news-in-5772c7b5656f71a2",
-      "country": "IN",
-      "title": "Bhagalpur News: सबौर के विजयनगर कॉलोनी में शिव मंदिर में प्राण प्रतिष्ठा को लेकर कलश शोभायात्रा निकाली गई - Hindustan",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOQ3lvZ3Rub05CdUxiLVE1TjdoRFRkckoxZEdQZWVBVVNTcGVZT1NtVGtaS0JFZDZGdmt3RjdUWUI0QlRRNDdKY2t3b1dJMkdCN1hFa29mNGNGT09RMElxMVlfWlhzS05qZHdLVGNQQWl1V2o3dW1sREZZdXFjRTFqZldUcDMyUWgySFk1aUJNMUI3c1B1UEV5eWROSEFnWE44b25TTEFGNWcyYUZaUzFpOXNvT1VzNUhMWlpMV3NtaDRxNkdqQWthT1AtdUMzZnlaajdEMzZRZUFkSE5lMjNkd2hjZWt4aVNVZ21Z0gHwAUFVX3lxTE1xWTZBMGdjWHdLcHcwLUllclhnNGRmZjB1MXBMTlc1WlpZT1NUVnRZWWZBTzNfb3ZzXzRzR2FYQzNkbE8wVm1ha08xbTEtQUpEM0Y5N3J5VmZCWTVEX2JscjdkWm9oLVN1eEpiY2dtbFBkT2lndXo3cXdBYzR4SWU5Tl91bUtGajB5S2pDQU16V2I3eG1IeVV0RTBlT2dNbFc4azQ4N1FySkVROXVwM1RvZnBxcWpPZXd3ZHItblhxMEdxa28yTzhSMVVBSzN1ZEtrLThHTm1PWjV0ODZEUmdqOVBhUV9oMlVrQTNnNzNHZA?oc=5",
-      "source": "Hindustan",
-      "sourceDomain": "livehindustan.com",
-      "publishedAt": "2026-08-14T21:55:51Z",
-      "query": "शोभायात्रा",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.26,
-      "reasons": [
-        "generic domain, origin unverified",
-        "livehindustan.com seen before (17 stories)"
+        "livehindustan.com seen before (18 stories)"
       ]
     },
     {
@@ -1597,26 +1654,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "amarujala.com seen before (21 stories)"
-      ]
-    },
-    {
-      "id": "news-in-365779dc1c4dd34b",
-      "country": "IN",
-      "title": "Bilaspur News: शोभायात्रा निकालकर दिया संस्कृत प्रचार-प्रसार का संदेश - Amar Ujala",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcE1Nc0xjX2ZkV1hGX1lBUzEtRXZlTi1BVUIyTFRpWU1TNGdMT0lTSzd2T2NwNXRIVWZzcE4tNUlaRXlCbmZwZkU5Wm41M20ySkFTWkhPQmRfd2k4MFpGODkyRHV5aWZEUWF6ZEp3TFhVX0dLSTFFS2hCUlRCWXRmZ2hNai1iYlZHRGVVcG5HRUlQRVMxSzFXZHdFV3EwNXA3d21xTEEwMldDWEJrNUZQQk5OY2RQUzFfZDk1Uk9SMHJyQdIBxwFBVV95cUxQbHBtbHRkc0w3d0F0dUdnV1VaMGVtVDdqamdTMWx4UmxBanBRbnVITDJhdnlFUEdBTVo0azRxTkd0NElzbHdHVW9UbXo2NC12Zlk5YTk1dTZET1R3QUhMSmhramVjYkViSWJPekVYU1V0b2JCOWo1S1hpWV9nb2R6cXRBS3U3R3FsMzBfMkNRQ2gydUd2SUVSaUZpQTMwVUVYaDNJcEU2UjJiSzd5Vk1YNnFFY20yMmMtMzlKZEhkLV9kUG1LdVJB?oc=5",
-      "source": "Amar Ujala",
-      "sourceDomain": "amarujala.com",
-      "publishedAt": "2026-08-14T18:25:02Z",
-      "query": "शोभायात्रा",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.26,
-      "reasons": [
-        "generic domain, origin unverified",
-        "amarujala.com seen before (21 stories)"
+        "amarujala.com seen before (20 stories)"
       ]
     },
     {
@@ -1635,15 +1673,15 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "amarujala.com seen before (21 stories)"
+        "amarujala.com seen before (20 stories)"
       ]
     },
     {
       "id": "news-in-31eefddfaa7a4c80",
       "country": "IN",
-      "title": "भक्ति-उल्लास के साथ विंध्सवासिनी धाम चली शोभायात्रा - Hindustan",
+      "title": "भक्ति-उल्लास के साथ विंध्सवासिनी धाम चली शोभायात्रा - livehindustan.com",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLUprUTNOdGxtZEZnd0VwdnFZOEo4cWZVMDQzOFJYcjdOcUhrOGlpT2ltMHVYTlN3M0hONjBnSWtSYVRTbF9YeGRhbEcxNk56NUZhelE3SnNDdnNlUzRUOXBjMU9tbVFWRTA5aG5lQk5ISVFwNGlnZkdYbVRFNTFEcXIzdnpySU9GVmJqZHh5ZFZqVXpoRm5YTy1KMHFZX0RUa0hwa3hleHp0TDNKb0hZcWFTVFRIS2wzTGNTX9IBwgFBVV95cUxQU3pWUEhfc3BQWXlqOVJmNHMxSXN6ZEluTDNjM0VvQU5PTEVha2o1Y1BHLTg5MWhkbVZzT0Y3VW5TR0EyVnBHb1hCcUs3SkF1UlZjNFIyUV9sV3BfYW5nN013NTFYdEE4WXlhMUFESDVsMmJZaHpZbHBNcUZVVXhUNTl4Q3htbmgxN0N6dlVlb0xhWTZXbjZRcWZUR0RTMFhiRDJhSXJzamJDZHd2aE5nSVRxck9zVjA2MElPNFdXbURkdw?oc=5",
-      "source": "Hindustan",
+      "source": "livehindustan.com",
       "sourceDomain": "livehindustan.com",
       "publishedAt": "2026-08-14T17:13:49Z",
       "query": "शोभायात्रा",
@@ -1654,7 +1692,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "livehindustan.com seen before (17 stories)"
+        "livehindustan.com seen before (18 stories)"
       ]
     },
     {
@@ -1673,15 +1711,15 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "amarujala.com seen before (21 stories)"
+        "amarujala.com seen before (20 stories)"
       ]
     },
     {
       "id": "news-in-31d49d41ace6c586",
       "country": "IN",
-      "title": "Chakradharpur News: सोनुवा में निकली भव्य तिरंगा शोभायात्रा - Hindustan",
+      "title": "Chakradharpur News: सोनुवा में निकली भव्य तिरंगा शोभायात्रा - livehindustan.com",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPN01HNExfSjRLRVJhcnhQLS1uOGM2ZUI4MDV1SGJySVlIb0ZCQmNqWkJLSGs5NUh1Wnd1N1lhSVVudXdQUjhXRE96VTlPQnpUODFQbTRJaVdJYWdsMUhybl9Sam05bUdrZkZrNW9iaF9ZVWYzcTN5dDEya1hHbWlVbEZZaGRiZnNZM25XT2RxenoycDBmcllqTkZlcXViLUxpTHh6UF9UMTdZendsdWV5VmEzdUNONTNlSFdTQ1lvT0pRSHZuMDdRajJGWjVSalBDT1pWcmNn0gHbAUFVX3lxTE1XX3EtUkdWRDI4Z1NTcmhoaVNMSnB5SFBkSlFaanBKQWR1T3IwSXF4OVpkXzN6U0pSUTZHcjN5U3poYnRpYUw1ZEFPUnVNUUJJcWhyU2VBWFowYk5DbXE1WUo0WTVxa0FPQWQxTkVhSHZ1TnEwNnRuYzFKR0lfVm54eGNOMVRJbE1veVBiYWNxMENaTDNKS05nYnFPZGptU29Va1lGNVd1OVYwc09INTlwMlUtX2xrUUJjWDBnRWpidEI3Um5EZF9WMWpkNHhCT2IzNnBRQjk4TGRnOA?oc=5",
-      "source": "Hindustan",
+      "source": "livehindustan.com",
       "sourceDomain": "livehindustan.com",
       "publishedAt": "2026-08-13T20:46:35Z",
       "query": "शोभायात्रा",
@@ -1692,15 +1730,15 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "livehindustan.com seen before (17 stories)"
+        "livehindustan.com seen before (18 stories)"
       ]
     },
     {
       "id": "news-in-685b914af690d45b",
       "country": "IN",
-      "title": "Kanpur News: भोलेनाथ के जयघोष से गूंजा कठेरुआ गांव, शोभायात्रा में झूमे भक्त - Hindustan",
+      "title": "Kanpur News: भोलेनाथ के जयघोष से गूंजा कठेरुआ गांव, शोभायात्रा में झूमे भक्त - livehindustan.com",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTUNlMFpZODJYcVp2V0pFdmt1U3pqc0lhbzd5VUV4UFF1Uk8tZ1lxN0djZDE4NHlULTJSekNLTFNTVTg0bW1IMVNNaVRGR1dmWVdUS0xPbUVGdHZLSHFrSEhJSHlvNjF5R2h3TGlaSktMUjQ4cWJWM25BclRrZDdSWC15MGRQS3U5aXptV2ZVNnllUk9MOC1idjlqRXgzSzkxV0RZV1dQd1pEWFZHckhJV1hKbGkzMlhpOUpCcEpQaWJocGdLeWdISVBJNnlnZjdxRVZnazdiQkJBZll4Mi14NNIB5gFBVV95cUxNc0NFM2ZMeU92OXlRend0UDhiRkVQcDNYM3h1SzZkRm16YVhrT2Yxdl9XVjBRUTlENXI2MW9rV1ZZWmRzSENoYXV6MnZuQTNwcHVkUzZCODdBQlhLOElFbVlVUHZ1TFFlYnFTZFo0NzF3aFBxQllhVHpyMWtqZlc3bGRiNm9XMGxpYTNPRllSUmRIZm04NkM2Z2ttaHdMLVF5ZlVZd2dWci02T1p3UXVTZVEzVEdkUXpJSUg5bm5SSV9YdG5CQ0NFamNCWDVHaTl2VGE0bWJEa3V4ZlN4ZmxjNDc2elZTQQ?oc=5",
-      "source": "Hindustan",
+      "source": "livehindustan.com",
       "sourceDomain": "livehindustan.com",
       "publishedAt": "2026-08-13T14:43:00Z",
       "query": "शोभायात्रा",
@@ -1711,15 +1749,15 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "livehindustan.com seen before (17 stories)"
+        "livehindustan.com seen before (18 stories)"
       ]
     },
     {
       "id": "news-in-b61f084c879ae5a1",
       "country": "IN",
-      "title": "Agra News: आज राष्ट्रवीर दुर्गादास राठौर जयंती पर निकलेगी भव्य शोभायात्रा - Hindustan",
+      "title": "Agra News: आज राष्ट्रवीर दुर्गादास राठौर जयंती पर निकलेगी भव्य शोभायात्रा - livehindustan.com",
       "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQQ3MwckNFYWhSY3hYTjloZTl2UVVVN1Q1ZmpQSm1KX25jUnZpcGhTaFczallEay1zZTNHOFY2X0JBaTZaMVRZNVBIaTJHSkVBLXFtSTIxamNfNjR4c2ZsU3g0cG9uVDlKdmdTeDJ2MzBSUko1VUZFWkdIZXlGMXczMkh1a1AxRVo3VEEtVWNEVjlYRXM2blF5SGJwcTFOaWo5MFkteFVxd2FtNzF5Uy1Oc0pKa3NPS0xRd1IxcWNUTWRXaFFyeGl6Z1pxTTRQSVdLdTY2UDc5aUw2ZGFGZmJGMHVVRXdmWHJ4M0hTX09WZGNXRXhieTgxLThuUW5VdHfSAYQCQVVfeXFMUHNnX3VxUjFmU2FvQTZPd2otZDNjUkU3OXpfYWlIN3YxZ0stZW1xamdPLUtHZUduSlhXTjR0Mkx3Wm9SNlpzMVdVcGlNbi1TMEZtOEhVUDEtNWFZY1RqamMzVW1qcHplRnBrcDlZc2dFblpsc0NaMUVfYXJUdC1Ja2NoTUZ6OUktLXNoc0VmOGd1Zjc0UkhzbXRuXy1IRWpWcWYyckhuVnJkZGJPVEY1VDRoSFVqVFBDbXVjQmpqcndQRWk3dnFKTzAzRGI2Y3ZvQjBBU1ZueGUwSkluYnRNYjlPb2x3VGxJUFh0VjBJNWlFR19zbG1ic0pVdm9mZVRTQ2hZRmg?oc=5",
-      "source": "Hindustan",
+      "source": "livehindustan.com",
       "sourceDomain": "livehindustan.com",
       "publishedAt": "2026-08-12T17:22:37Z",
       "query": "शोभायात्रा",
@@ -1730,15 +1768,15 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "livehindustan.com seen before (17 stories)"
+        "livehindustan.com seen before (18 stories)"
       ]
     },
     {
       "id": "news-in-e793961c04b9c9af",
       "country": "IN",
-      "title": "Unnao News: परियर से निकली 50 किमी लंबी शिव शोभायात्रा - Hindustan",
+      "title": "Unnao News: परियर से निकली 50 किमी लंबी शिव शोभायात्रा - livehindustan.com",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTlVEZ25PMGpLOUVpZEw0bTUtNnZCUWVRR3JJQnFjYTh6emp2ODFQS053Yk02MmJzQ3RtbEU3Tk9Md2VQMlQxdWtWSlh5Wl9xLVdoNzlGQ3ZLN2V6VXVrRE1feFRwc3dZd3kwcXBWNEg4aGlwRE1VdnFkYVBGNmN0YWNZanhDUzQ3STIwbXJRYXo2bW10cEpOSDJjQW01TzNKM1I3YVJpd0dVS1dmS3FKbFktVUppZ0tnRkp1SjNLdnlhdDBzN2N4OV9NdXFHLWpjcWZQN3lB0gHbAUFVX3lxTE9FbnpEZ3ZuRDZoVzA0b2dGTlZoRU1ldUxaajlMVGRKcWd1NVNNdElUMzRXY1QwbGlGSVBlVzZIeV9URGlzaHRtZVEzcUljcElzNjk2VzBTNnR3ZGQ3X3d0T2tubEdVdEFIVTB2eUxtQWdMWGUyNVY3THJqbW1XTk8tb3RSN3JkX0lOeXRtM09xTzlPUjJsMFBhME9HdTNFa2lBTEN4OHRabkdVc2tYYTZJOE9IU0ZmNlRaNVByVkRvNkhIazdIM0J0NHB6NEpkUVZpbGJybVFLUmVHUQ?oc=5",
-      "source": "Hindustan",
+      "source": "livehindustan.com",
       "sourceDomain": "livehindustan.com",
       "publishedAt": "2026-08-11T18:34:37Z",
       "query": "शोभायात्रा",
@@ -1749,7 +1787,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "livehindustan.com seen before (17 stories)"
+        "livehindustan.com seen before (18 stories)"
       ]
     },
     {
@@ -1768,7 +1806,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "amarujala.com seen before (21 stories)"
+        "amarujala.com seen before (20 stories)"
       ]
     },
     {
@@ -1787,7 +1825,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "amarujala.com seen before (21 stories)"
+        "amarujala.com seen before (20 stories)"
       ]
     },
     {
@@ -1806,7 +1844,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "amarujala.com seen before (21 stories)"
+        "amarujala.com seen before (20 stories)"
       ]
     },
     {
@@ -1825,7 +1863,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "amarujala.com seen before (21 stories)"
+        "amarujala.com seen before (20 stories)"
       ]
     },
     {

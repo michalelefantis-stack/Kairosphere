@@ -1,11 +1,30 @@
 {
   "country": "JP",
   "name": "Japan",
-  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "generatedAt": "2026-08-18T16:31:55.664980Z",
   "refreshHours": 6,
   "status": "unfiltered",
-  "count": 121,
+  "count": 120,
   "reports": [
+    {
+      "id": "news-jp-49334a59e51b8d4d",
+      "country": "JP",
+      "title": "市長が亡くなり夏祭り中止　「なぜ祭りまで」と疑問の声　異例の判断、その背景とは - ｄメニューニュース",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE83NlUwTjNSN1hsMzA5VVhJS0NpUzhCMHNwNFI4UW1jRjFuWU9MMWFMVThkQ3V1dHJjazZKdWpoWjVjNlJDY2lOZ3RETmRGa2VXN0FpNS1HNHdZS3FKczczMVJQeXVRNThhYTIyUjd6NHc5UdIBd0FVX3lxTE1TUVVIakxPWHJpRm1ZYkJvakl1UXYxN2diUElpdTVDd1p1VzNDa0g1MGlTdHRCNFloZEJPWUNncjdaM1VyU1pDajFmYkhUMEZrU0hNSWRkci1IaTRpbURqamVHR1BDM2FNTkw2Tm9LOW0taEl2aUlr?oc=5",
+      "source": "ｄメニューニュース",
+      "sourceDomain": "topics.smt.docomo.ne.jp",
+      "publishedAt": "2026-08-18T14:02:00Z",
+      "query": "祭り 開催",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a JP domain (topics.smt.docomo.ne.jp)",
+        "topics.smt.docomo.ne.jp seen before (7 stories)"
+      ]
+    },
     {
       "id": "news-jp-59553cddafd56dd9",
       "country": "JP",
@@ -22,26 +41,7 @@
       "confidence": 0.51,
       "reasons": [
         "published by a JP domain (news.yahoo.co.jp)",
-        "news.yahoo.co.jp seen before (16 stories)"
-      ]
-    },
-    {
-      "id": "news-jp-b1b5b44423e5c66c",
-      "country": "JP",
-      "title": "錦糸町に氏子みこし集結　4年に1度の亀戸天神社大祭 - ｄメニューニュース",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1fTWlsQ2ZHVkV6aEt1OXVnY0xSMFNxVEZtekIwZEUxUXFiX2ZYZkw5TkM2R0poTDZjUTFIRHVSdEw3ck1BeGc2U1J1ZW5XUnhhc0l5NUR3T01zeTNrYVVqMTVHVWNWRE1PX05IcEhyeXlHMXRDRldPeGpxMNIBgAFBVV95cUxObnJCUkdOcEplU1VmSEczRjRmRnlmeUM4R0ZDQ0kwb20yV0pDd3BIOV9VdHZBdFBLLTNjeW42WkVXTzV6V2VOdXhhcVQxUTlmaTU3MlZkVjE5VmJiMEhvZXV5RW1wUHROR2lKYnVkZmZYRWVRdUNOdGFIWU9hNEJpVw?oc=5",
-      "source": "ｄメニューニュース",
-      "sourceDomain": "topics.smt.docomo.ne.jp",
-      "publishedAt": "2026-08-18T09:21:00Z",
-      "query": "例大祭",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.51,
-      "reasons": [
-        "published by a JP domain (topics.smt.docomo.ne.jp)",
-        "topics.smt.docomo.ne.jp seen before (7 stories)"
+        "news.yahoo.co.jp seen before (17 stories)"
       ]
     },
     {
@@ -60,7 +60,26 @@
       "confidence": 0.51,
       "reasons": [
         "published by a JP domain (news.yahoo.co.jp)",
-        "news.yahoo.co.jp seen before (16 stories)"
+        "news.yahoo.co.jp seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-jp-1124e60d96dcfd6c",
+      "country": "JP",
+      "title": "上対馬で「おっどん祭り」開催へ 2年に一度の花火大会も（みんなの経済新聞ネットワーク） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBibVJuUDNZRlBXV0VTQ0NfenRMbEtjRTJTRzlweU9lYURCZXgySnBtczlzcU9FWjkxSno0N2hneWIzTDNId2ttRWlSTVREY0pnZVVrNERRUTRLNmtCWFJVcEVXSzkzZTNNamtKdEtEU1hycS1iMWh1dEl6OGVQY3c?oc=5",
+      "source": "Yahoo!ニュース",
+      "sourceDomain": "news.yahoo.co.jp",
+      "publishedAt": "2026-08-18T05:00:00Z",
+      "query": "祭り 開催",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a JP domain (news.yahoo.co.jp)",
+        "news.yahoo.co.jp seen before (17 stories)"
       ]
     },
     {
@@ -98,7 +117,7 @@
       "confidence": 0.51,
       "reasons": [
         "published by a JP domain (news.yahoo.co.jp)",
-        "news.yahoo.co.jp seen before (16 stories)"
+        "news.yahoo.co.jp seen before (17 stories)"
       ]
     },
     {
@@ -155,7 +174,7 @@
       "confidence": 0.51,
       "reasons": [
         "published by a JP domain (news.yahoo.co.jp)",
-        "news.yahoo.co.jp seen before (16 stories)"
+        "news.yahoo.co.jp seen before (17 stories)"
       ]
     },
     {
@@ -288,7 +307,7 @@
       "confidence": 0.51,
       "reasons": [
         "published by a JP domain (news.yahoo.co.jp)",
-        "news.yahoo.co.jp seen before (16 stories)"
+        "news.yahoo.co.jp seen before (17 stories)"
       ]
     },
     {
@@ -307,7 +326,7 @@
       "confidence": 0.51,
       "reasons": [
         "published by a JP domain (news.yahoo.co.jp)",
-        "news.yahoo.co.jp seen before (16 stories)"
+        "news.yahoo.co.jp seen before (17 stories)"
       ]
     },
     {
@@ -326,7 +345,7 @@
       "confidence": 0.51,
       "reasons": [
         "published by a JP domain (news.yahoo.co.jp)",
-        "news.yahoo.co.jp seen before (16 stories)"
+        "news.yahoo.co.jp seen before (17 stories)"
       ]
     },
     {
@@ -345,7 +364,7 @@
       "confidence": 0.51,
       "reasons": [
         "published by a JP domain (news.yahoo.co.jp)",
-        "news.yahoo.co.jp seen before (16 stories)"
+        "news.yahoo.co.jp seen before (17 stories)"
       ]
     },
     {
@@ -383,7 +402,7 @@
       "confidence": 0.51,
       "reasons": [
         "published by a JP domain (news.yahoo.co.jp)",
-        "news.yahoo.co.jp seen before (16 stories)"
+        "news.yahoo.co.jp seen before (17 stories)"
       ]
     },
     {
@@ -402,7 +421,7 @@
       "confidence": 0.51,
       "reasons": [
         "published by a JP domain (news.yahoo.co.jp)",
-        "news.yahoo.co.jp seen before (16 stories)"
+        "news.yahoo.co.jp seen before (17 stories)"
       ]
     },
     {
@@ -459,7 +478,7 @@
       "confidence": 0.51,
       "reasons": [
         "published by a JP domain (news.yahoo.co.jp)",
-        "news.yahoo.co.jp seen before (16 stories)"
+        "news.yahoo.co.jp seen before (17 stories)"
       ]
     },
     {
@@ -516,7 +535,7 @@
       "confidence": 0.51,
       "reasons": [
         "published by a JP domain (news.yahoo.co.jp)",
-        "news.yahoo.co.jp seen before (16 stories)"
+        "news.yahoo.co.jp seen before (17 stories)"
       ]
     },
     {
@@ -554,7 +573,7 @@
       "confidence": 0.51,
       "reasons": [
         "published by a JP domain (news.yahoo.co.jp)",
-        "news.yahoo.co.jp seen before (16 stories)"
+        "news.yahoo.co.jp seen before (17 stories)"
       ]
     },
     {
@@ -573,7 +592,7 @@
       "confidence": 0.51,
       "reasons": [
         "published by a JP domain (news.yahoo.co.jp)",
-        "news.yahoo.co.jp seen before (16 stories)"
+        "news.yahoo.co.jp seen before (17 stories)"
       ]
     },
     {
@@ -592,7 +611,7 @@
       "confidence": 0.51,
       "reasons": [
         "published by a JP domain (news.yahoo.co.jp)",
-        "news.yahoo.co.jp seen before (16 stories)"
+        "news.yahoo.co.jp seen before (17 stories)"
       ]
     },
     {
@@ -649,7 +668,7 @@
       "confidence": 0.51,
       "reasons": [
         "published by a JP domain (news.yahoo.co.jp)",
-        "news.yahoo.co.jp seen before (16 stories)"
+        "news.yahoo.co.jp seen before (17 stories)"
       ]
     },
     {
@@ -729,6 +748,24 @@
       ]
     },
     {
+      "id": "news-jp-3503a77aaa4ab07f",
+      "country": "JP",
+      "title": "座間神社で８月30日に大道芸などが登場する例大祭、28日〜９月６日には刺繍などを展示 - タウンニュース",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9qNkRFd0otWDFjbWZ1RFlYU0VDNkhBYUZaRWotX01JZWpDR2U5ZXB0RWxteDllT2RIQTFTeFBLSzlSWDAyVVNGdlB6ZGxtVGRQRHFjZXNNWXhacEhsM3lmZmF3Znc?oc=5",
+      "source": "タウンニュース",
+      "sourceDomain": "townnews.co.jp",
+      "publishedAt": "2026-08-18T15:00:00Z",
+      "query": "例大祭",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a JP domain (townnews.co.jp)"
+      ]
+    },
+    {
       "id": "news-jp-af5fa8a16ec7efde",
       "country": "JP",
       "title": "みこし渡御石段を一気、町民ＰＧ大会も盛況 洞爺湖・虻田神社例大祭 - 47NEWS",
@@ -783,24 +820,6 @@
       ]
     },
     {
-      "id": "news-jp-5f44ea0f2a3d2620",
-      "country": "JP",
-      "title": "上対馬で「おっどん祭り」開催へ 2年に一度の花火大会も - au Webポータル",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ZaURhQWRmaU9xRkFZUWtuQjQyaGZDV2dubmd0VHJfOWM5ZzBSN1p4VFg2czdNRExsRUkyWEFlQzhiczNRMjJZUncyOEUxTkhDS1pfc09LTUVGRWNkeThrWC1lMEtNdkkzVmhhMnFLUzJmdXRJakk2cQ?oc=5",
-      "source": "au Webポータル",
-      "sourceDomain": "article.auone.jp",
-      "publishedAt": "2026-08-18T05:36:44Z",
-      "query": "祭り 開催",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.45,
-      "reasons": [
-        "published by a JP domain (article.auone.jp)"
-      ]
-    },
-    {
       "id": "news-jp-5bc3ff8962d5d7d7",
       "country": "JP",
       "title": "【あつぎ鮎祭り2日目に開催】夢を夜空へ！親子で楽しむ鮎まつりDREAMフェスタ - キャンプファイヤー",
@@ -843,7 +862,7 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mZmFOcnJpUGwzQk8xRGlQdHFkNXlYc0JCMGhkdERWZ1lZMDNPTy1FT00ya2VPYlBBdG0zU05Vb09CVjkyZ1k4bnAyXzBWZE5mUEhERlZJUjhXZTJYYlgyVkdjd1JlR0lqTFFxOG1n?oc=5",
       "source": "au Webポータル",
       "sourceDomain": "article.auone.jp",
-      "publishedAt": "2026-08-18T04:36:45Z",
+      "publishedAt": "2026-08-18T04:36:17Z",
       "query": "祭り 開催",
       "kind": "unclassified",
       "isPublic": null,
@@ -870,6 +889,24 @@
       "confidence": 0.45,
       "reasons": [
         "published by a JP domain (digital.kentsu.co.jp)"
+      ]
+    },
+    {
+      "id": "news-jp-4cb3bcc15e96c6fb",
+      "country": "JP",
+      "title": "【鹿島夏祭り開催】キッズパークを楽しもう！ - antlers.co.jp",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBoZ29JVzRzRXQzSzB3QXVUeXdGa0VpWGFsLTdFVi1fMTNNbUNOdzE0Z2xVR0ItQ21pd2lsRWVwZXI2UktSYkk0czg1S1hoVVFNLWN3bnVtUHlRbl8zYk5NUXl1dnQ?oc=5",
+      "source": "antlers.co.jp",
+      "sourceDomain": "antlers.co.jp",
+      "publishedAt": "2026-08-18T02:36:37Z",
+      "query": "祭り 開催",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a JP domain (antlers.co.jp)"
       ]
     },
     {
@@ -929,9 +966,9 @@
     {
       "id": "news-jp-383efa30305f3dac",
       "country": "JP",
-      "title": "灯籠流しにミニライブも！『新潟市歴史博物館 みなとぴあ』で『みなと・しもまち・川祭り・2026』開催！8月23日。 - にいがた速報",
+      "title": "灯籠流しにミニライブも！『新潟市歴史博物館 みなとぴあ』で『みなと・しもまち・川祭り・2026』開催！8月23日。 - gata21.jp",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE14clRpVHhOQWxtbXdJcEtBaklIZy0wbU9LSVFudzB0VVE3YnZZb0thNVJWZXM1QTQydWw5b3lJeEE3d2Y1NjY0VWNRV3JVc3ZkOEE?oc=5",
-      "source": "にいがた速報",
+      "source": "gata21.jp",
       "sourceDomain": "gata21.jp",
       "publishedAt": "2026-08-17T23:00:28Z",
       "query": "祭り 開催",
@@ -947,9 +984,9 @@
     {
       "id": "news-jp-914153831e9f81a7",
       "country": "JP",
-      "title": "イベント＆おでかけ情報 - shinmai.co.jp",
+      "title": "イベント＆おでかけ情報 - 信濃毎日新聞デジタル",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE41elBRVjM5MzFOWGFPLVIzOWF0WFRRVGI1NU9kaUU3MFU3LUhES2c1U3VMemo3YkR1WURGQ2Q0UE1BaER4UjVTRmxlR0FPRnU1bFNnYThnVnotZ1k?oc=5",
-      "source": "shinmai.co.jp",
+      "source": "信濃毎日新聞デジタル",
       "sourceDomain": "shinmai.co.jp",
       "publishedAt": "2026-08-17T20:56:41Z",
       "query": "例大祭",
@@ -999,6 +1036,24 @@
       ]
     },
     {
+      "id": "news-jp-e9da6bbb595be99f",
+      "country": "JP",
+      "title": "【きょうから】“屋台グルメ”がそろう「牛角の夏祭り」開催 焼きもろこし・チョコバナナなど全10品登場 - sanyonews.jp",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9xakhpSndVNzNLQ2pRZm1nUHVzbFVFcFEwLW02aEUxWGhZM1hBQTJ0X0R6NzBlNEMzVjJRU001Y0pfblNmbV9Idk1rQWprbi1DN3c?oc=5",
+      "source": "sanyonews.jp",
+      "sourceDomain": "sanyonews.jp",
+      "publishedAt": "2026-08-17T17:07:04Z",
+      "query": "祭り 開催",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a JP domain (sanyonews.jp)"
+      ]
+    },
+    {
       "id": "news-jp-25991aa593b42738",
       "country": "JP",
       "title": "【町田市】8/22・23「キンダーパーティー2026町田夏祭り」開催！水遊びやふあふあ遊具、縁日、盆踊りも - 号外NET 町田市",
@@ -1037,9 +1092,9 @@
     {
       "id": "news-jp-1c04299952b5f0d8",
       "country": "JP",
-      "title": "『城とドラゴン』で消費ルビー20%OFFの「夏祭りのアバたま」が8月17日(月)より登場！「城ドラ夏祭りミッション」なども開催 - dreamnews.jp",
+      "title": "『城とドラゴン』で消費ルビー20%OFFの「夏祭りのアバたま」が8月17日(月)より登場！「城ドラ夏祭りミッション」なども開催 - ドリームニュース",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tTGVqU2p6VTVZa0ZXWlVSQWJnNDU3V1I5MWt4RHZ5TVJabGJMMUdmMFY3WjhzRzlUSTh5bi1fY3JYaGhlVGdqbDRmdDBKX1hVSDZv?oc=5",
-      "source": "dreamnews.jp",
+      "source": "ドリームニュース",
       "sourceDomain": "dreamnews.jp",
       "publishedAt": "2026-08-17T04:30:00Z",
       "query": "祭り 開催",
@@ -1068,24 +1123,6 @@
       "confidence": 0.45,
       "reasons": [
         "published by a JP domain (kyodo.co.jp)"
-      ]
-    },
-    {
-      "id": "news-jp-8f43b69ff76768e3",
-      "country": "JP",
-      "title": "「祭りブリスベン2026」9月5日開催─日豪友好50周年を祝う日本文化イベント - NICHIGO PRESS",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5xamVEWm9JUGxFa2ZnNkpfYkVRVzB1R1ZVS2FHdDBFdVFnRTEycVRoY3kxNm1IMHNlYTF5V2lEWmJpWWpmNVNYUDRFZkFVU1RJcXhxdXdB?oc=5",
-      "source": "NICHIGO PRESS",
-      "sourceDomain": "nichigopress.jp",
-      "publishedAt": "2026-08-17T02:00:19Z",
-      "query": "祭り 開催",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.45,
-      "reasons": [
-        "published by a JP domain (nichigopress.jp)"
       ]
     },
     {
@@ -1197,24 +1234,6 @@
       ]
     },
     {
-      "id": "news-jp-d23c1c7c22a314d6",
-      "country": "JP",
-      "title": "【町田市】8/22・23鶴間公園で「夏祭り大作戦part2」開催！おやじの夜市や子ども縁日、ミニステージも - 号外NET 町田市",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5vc1oxaGw3R3VqdE1uRzNzeDV1SDlhM3hTajZ6QVhWYWhZLWllbVlhRXhKX2FDOEZhLTZMRWlCbVg5YUhrdy15ZDN1Q3hGNkNDZ2RhYVloM3l1NjRYYjlIalZ5b0s3aVo1X0d2bnk5STZTWXFTanc?oc=5",
-      "source": "号外NET 町田市",
-      "sourceDomain": "machida.goguynet.jp",
-      "publishedAt": "2026-08-15T10:55:56Z",
-      "query": "祭り 開催",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.45,
-      "reasons": [
-        "published by a JP domain (machida.goguynet.jp)"
-      ]
-    },
-    {
       "id": "news-jp-8c3de22289c6895d",
       "country": "JP",
       "title": "石川県能登町で「ござれ祭り」 夜には石川さゆりさんのライブも開催 キリコ9基が出陣 - FNNプライムオンライン",
@@ -1235,9 +1254,9 @@
     {
       "id": "news-jp-e8126f2bc99db99c",
       "country": "JP",
-      "title": "「ディズニーストア 夏祭り」開催へ 特設装飾や新グッズ発売、ツムツムぬいぐるみが特賞の「夏祭りくじ」など展開 - 山陽新聞",
+      "title": "「ディズニーストア 夏祭り」開催へ 特設装飾や新グッズ発売、ツムツムぬいぐるみが特賞の「夏祭りくじ」など展開 - sanyonews.jp",
       "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxNcURIbm1QOXBFNExfWmpJX01kMGQ3U3hyX1ZBWmpKaTBldVpzT3Z0S09vT0J4MzlxdmJBdGNvWGEwODZZYVdqMGRveUs0SWhEczlueGNkWEZGS1hKR1I2dGV5ZFdxcUJTdjNPUnU0Mk9QUkJId2FmNWFYRWVFd3NSbXJLOXFHbkJyQ0t3Y3lrYk5PM1lzT0Q3SWdoZHFqUjI4YTNCWmgxQVBHbTJiV2NQWUctakp5WHdMSFgtMURlbmpONHN1OTRESnNlR29qZTZQSHQ3WTMxbGJSU3hKR3Z6cTVYdjN4ZlkxcU9icXpnb29xaWRZbzZLalFvci0ycjd5ZUNhUk5vSHp6Ykt5ZVpPeWx0QzJBaC1YZFc4NE9oUC1kcDZBSW03RlNsdEh0NHZkMFowUFJXMkhXNl90dHVTMXhJWElXSUlzOEcyOHVEaw?oc=5",
-      "source": "山陽新聞",
+      "source": "sanyonews.jp",
       "sourceDomain": "sanyonews.jp",
       "publishedAt": "2026-08-15T03:00:00Z",
       "query": "祭り 開催",
@@ -1433,27 +1452,9 @@
     {
       "id": "news-jp-df510f9168be6b3a",
       "country": "JP",
-      "title": "彩青が富岡八幡宮例大祭の奉納ステージで新曲「門前仲町の恋ざくら」歌唱 - au Webポータル",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE04MXpBSG9aYlg3R3dCS1ZrdjJHc1hYYzdiZ2x6WVRHM1FTa2Nxd3VueWZscmtXS1lsQjBBdDhibUlFTFJkNTdiVFJiOE1nOGFQMnk5Tmk1RDJsRmRxMkVqOHFfYmp3bWcxc282WHNmeXpIbG5Yam5Gag?oc=5",
-      "source": "au Webポータル",
-      "sourceDomain": "article.auone.jp",
-      "publishedAt": "2026-08-12T08:56:10Z",
-      "query": "例大祭",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.45,
-      "reasons": [
-        "published by a JP domain (article.auone.jp)"
-      ]
-    },
-    {
-      "id": "news-jp-795f075cace4daa8",
-      "country": "JP",
-      "title": "彩青が富岡八幡宮例大祭の奉納ステージで新曲「門前仲町の恋ざくら」歌唱 - tokyo-sports.co.jp",
+      "title": "彩青が富岡八幡宮例大祭の奉納ステージで新曲「門前仲町の恋ざくら」歌唱 - 東スポWeb",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zX1ZsbF9RMFFmMkVfcHhycU85eWZ1b0hENGl1ajVBZlRIeGdXTW9WY0lWUURhcW5NQmQtSlp3eXFBbXIwM09zbmdlOVJ4Rmx2TG95MXZQZ1ZyMWpK?oc=5",
-      "source": "tokyo-sports.co.jp",
+      "source": "東スポWeb",
       "sourceDomain": "tokyo-sports.co.jp",
       "publishedAt": "2026-08-12T08:35:00Z",
       "query": "例大祭",
@@ -1557,11 +1558,11 @@
       ]
     },
     {
-      "id": "news-jp-a98f61504618602a",
+      "id": "news-jp-f41ff5d00d07afa5",
       "country": "JP",
-      "title": "【8/15】三次市吉舎町で「第39回吉舎ふれあい祭り」開催！灯ろうと花火の祭典 - ひろしまリード",
+      "title": "【8/15】三次市吉舎町で「第39回吉舎ふれあい祭り」開催！灯ろうと花火の祭典 - hread.home-tv.co.jp",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwdnpaMjdQbTY2UFpKSUlMeXdOakU4MjF0elVXTlFqbjFPeHVuQjM3VkpUalE5azYtVUo1ZmRJVEs5dU5TZEdnNE9iLTNObm5IdlE?oc=5",
-      "source": "ひろしまリード",
+      "source": "hread.home-tv.co.jp",
       "sourceDomain": "hread.home-tv.co.jp",
       "publishedAt": "2026-08-10T00:57:25Z",
       "query": "祭り 開催",
@@ -1626,7 +1627,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "go2senkyo.com seen before (7 stories)"
+        "go2senkyo.com seen before (6 stories)"
       ]
     },
     {
@@ -1645,7 +1646,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "go2senkyo.com seen before (7 stories)"
+        "go2senkyo.com seen before (6 stories)"
       ]
     },
     {
@@ -1664,26 +1665,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "go2senkyo.com seen before (7 stories)"
-      ]
-    },
-    {
-      "id": "news-jp-81ec61f3a99794ca",
-      "country": "JP",
-      "title": "今日は皇大神宮の例大祭です。 - 選挙ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1JMGNXeTVXaG9aanNqRE9tXzZxMHJyNmNPLUlWQjFRQmY0VXFVMFVGakFtVVF4OElMbDJ5dm9qVkRGTWVHLWxCdU5KYTU5UVl5cGRuWkEtTnZRUVRybUFR?oc=5",
-      "source": "選挙ドットコム",
-      "sourceDomain": "go2senkyo.com",
-      "publishedAt": "2026-08-17T00:36:44Z",
-      "query": "例大祭",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.26,
-      "reasons": [
-        "generic domain, origin unverified",
-        "go2senkyo.com seen before (7 stories)"
+        "go2senkyo.com seen before (6 stories)"
       ]
     },
     {
@@ -1702,7 +1684,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "go2senkyo.com seen before (7 stories)"
+        "go2senkyo.com seen before (6 stories)"
       ]
     },
     {
@@ -1721,7 +1703,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "go2senkyo.com seen before (7 stories)"
+        "go2senkyo.com seen before (6 stories)"
       ]
     },
     {
@@ -1740,7 +1722,25 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "go2senkyo.com seen before (7 stories)"
+        "go2senkyo.com seen before (6 stories)"
+      ]
+    },
+    {
+      "id": "news-jp-de2c3c53d389b378",
+      "country": "JP",
+      "title": "Amazon「真夏のポイント祭り」開催中。Shokzのイヤホンなど高還元率商品も - PHILE WEB",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE91LXNGQ2NCaEtkV0VvN0NNREd2RFFkZWdtdHJlTzFtM0xYTVoxdTZzdWl6eTNoblk4NHFnaG9TcjExZ3R5YTdBek10YzJrVEVEQTdRX0FRQmo1QnZnZGpFWEhTTnp6dw?oc=5",
+      "source": "PHILE WEB",
+      "sourceDomain": "phileweb.com",
+      "publishedAt": "2026-08-18T09:40:55Z",
+      "query": "祭り 開催",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
       ]
     },
     {
@@ -1778,11 +1778,11 @@
       "reasons": []
     },
     {
-      "id": "news-jp-9899a7289fb4bd8b",
+      "id": "news-jp-a9d38c7b73041274",
       "country": "JP",
-      "title": "神戸ストークスプレシーズンゲームと同時開催の夏祭りイベント「RISING COOL」が2026年8月22日（土）・23日（日）に実施！絶品かき氷や夏祭りグルメ、縁日、豪華景品が当たるフリースローブース等が登場♪ #イベント #夏祭り - 東灘ジャーナル",
+      "title": "神戸ストークスプレシーズンゲームと同時開催の夏祭りイベント「RISING COOL」が2026年8月22日（土）・23日（日）に実施！絶品かき氷や夏祭りグルメ、縁日、豪華景品が当たるフリースローブース等が登場♪ #イベント #夏祭り - higashinada-journal.com",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE10V284XzQtU1ZtWjA1TWJKb1p0SzFQbHd2WHc5QVI0SWpObnN2VHZRS1RPQkhlSFFjSFZHT043V0hFOTE3VUxtRnI3LURIcWRnQWNZNXBCNjk?oc=5",
-      "source": "東灘ジャーナル",
+      "source": "higashinada-journal.com",
       "sourceDomain": "higashinada-journal.com",
       "publishedAt": "2026-08-18T05:00:32Z",
       "query": "祭り 開催",
@@ -1816,9 +1816,9 @@
     {
       "id": "news-jp-addf4511edaf5957",
       "country": "JP",
-      "title": "見よ！ イタリア移民の伝統祭り - urayasu.keizai.biz",
+      "title": "見よ！ イタリア移民の伝統祭り - 浦安経済新聞",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5jWmRLcW9SRHFKWjVidDJJX3JQZENrNTVRTkh1Y0o4dVptRXdiVC1jYk9XUVYwVTIzSUc0TkJ0dl90QkJmVmVvTWxZZldvajE2cGNXOQ?oc=5",
-      "source": "urayasu.keizai.biz",
+      "source": "浦安経済新聞",
       "sourceDomain": "urayasu.keizai.biz",
       "publishedAt": "2026-08-17T07:23:32Z",
       "query": "祭り 開催",
@@ -1992,9 +1992,9 @@
     {
       "id": "news-jp-d2e66f56a873a41f",
       "country": "JP",
-      "title": "石川 穴水町「沖波大漁祭り」復興の願いも込め開催 - news.web.nhk",
+      "title": "石川 穴水町「沖波大漁祭り」復興の願いも込め開催 - NHKニュース",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Od05rRy1JOGRYTkpVYUpYTTRkdDRObkllWWFBeW9faTB4cGFSOGZUTDdyNUZza3FmTDJnemJ1aXl4X0hIdjhUQkNlUkZVejl5T1NYSTdaWDU?oc=5",
-      "source": "news.web.nhk",
+      "source": "NHKニュース",
       "sourceDomain": "news.web.nhk",
       "publishedAt": "2026-08-15T09:43:00Z",
       "query": "祭り 開催",
@@ -2013,24 +2013,6 @@
       "source": "Leaf KYOTO",
       "sourceDomain": "leafkyoto.net",
       "publishedAt": "2026-08-15T07:00:00Z",
-      "query": "祭り 開催",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.2,
-      "reasons": [
-        "generic domain, origin unverified"
-      ]
-    },
-    {
-      "id": "news-jp-deaf3c9011de4736",
-      "country": "JP",
-      "title": "【2026】「第75回磯部温泉大花火大会」本日開催！二千発の花火を打ち上げ（群馬県安中市） - 夜景FAN",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBQbG9FMlptOHo0Q1RPRWpqZWVYZzAzLTU3ZWl4UkxiNWVuU1NXN1k2eEswT0gwS2d1OEplcUlZeG1Kdl9EQ0FBal9WMnhTajRZa3pSNlhxT19GRFhDZlJ5UHBYaWhLYWQ3bW0ta3hoSUhRaE1oWXVxRzJfclhCQQ?oc=5",
-      "source": "夜景FAN",
-      "sourceDomain": "yakei-fan.com",
-      "publishedAt": "2026-08-15T04:52:42Z",
       "query": "祭り 開催",
       "kind": "unclassified",
       "isPublic": null,
@@ -2128,11 +2110,11 @@
       ]
     },
     {
-      "id": "news-jp-7bf4a6021760f3fc",
+      "id": "news-jp-f0e1fbc0d161acd2",
       "country": "JP",
-      "title": "吹田市-桃山台駅からすぐ【桃山公園】で「夏祭り」開催 金魚すくいや線香花火大会、グルメも登場 8月22日(土) - シティライフニュース",
+      "title": "吹田市-桃山台駅からすぐ【桃山公園】で「夏祭り」開催 金魚すくいや線香花火大会、グルメも登場 8月22日(土) - citylife-new.com",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9aZjFLS3pJOTFMSG5ZenFtdUs0RE9WYnVJbDZDZXd1bjczMDFQQnB3WjlGZHhvWW1HLU44ZW9OTFV1a3pNbk1VUVVaV1JiRjB1RVE?oc=5",
-      "source": "シティライフニュース",
+      "source": "citylife-new.com",
       "sourceDomain": "citylife-new.com",
       "publishedAt": "2026-08-09T23:32:35Z",
       "query": "祭り 開催",

@@ -1,10 +1,10 @@
 {
   "country": "IT",
   "name": "Italy",
-  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "generatedAt": "2026-08-18T16:31:55.664980Z",
   "refreshHours": 6,
   "status": "unfiltered",
-  "count": 41,
+  "count": 40,
   "reports": [
     {
       "id": "news-it-8101377c76650432",
@@ -135,9 +135,9 @@
     {
       "id": "news-it-48dd554c45fb0c8c",
       "country": "IT",
-      "title": "San Rocco oggi 16 agosto: festa a Siano, processione alle 18 - Sarno Notizie",
+      "title": "San Rocco oggi 16 agosto: festa a Siano, processione alle 18 - sarnonotizie.it",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBvS1lXekV5YzhDaTZKUWlxb0lZb19TLXNLc0tFbXo1Z0RpYzNKb1lCR19MT3VqUE1RTGE0X3UyWFZMQzZnMU1EUjUyWGRocjBUN3RSS3lOUVpZTHdvRVh2THR4RmVZZXdnOHRZ?oc=5",
-      "source": "Sarno Notizie",
+      "source": "sarnonotizie.it",
       "sourceDomain": "sarnonotizie.it",
       "publishedAt": "2026-08-16T07:33:34Z",
       "query": "processione patrono",
@@ -171,9 +171,9 @@
     {
       "id": "news-it-18ea2b7997b84b8e",
       "country": "IT",
-      "title": "Ferragosto in Lombardia: sagre e feste di paese da non perdere il 15 e 16 agosto 2026 - milanopocket.it",
+      "title": "Ferragosto in Lombardia: sagre e feste di paese da non perdere il 15 e 16 agosto 2026 - Milano Pocket",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYXhXYS14N3BnSU1hU0NCY0ZHY3J4UjZaUVV4aG5GbU5VM0dhcnhEcEswNkpaSXRVUHRkMnlWSzJkV1hKZXF4ZUJ1SENhdlFhY19Gdk5oUFNJa3JZR3FjLVZCZjBLWlFfcUNRZWxlc09RLWlicndhd0tWZEduQ19TODRDYmY5aTVudUJ5RnIzaG5SZU5FclRmVGg0QzlsbWx0N1pqS0gyU2lZS2pnajBlaTZueGh0S0JFbmd4ZzVLbjF1aVNfenc?oc=5",
-      "source": "milanopocket.it",
+      "source": "Milano Pocket",
       "sourceDomain": "milanopocket.it",
       "publishedAt": "2026-08-15T13:25:32Z",
       "query": "sagra paese",
@@ -243,9 +243,9 @@
     {
       "id": "news-it-6d9368e3679f36b4",
       "country": "IT",
-      "title": "Soveria Simeri, grande partecipazione per la festa del patrono San Donato. Oggi la processione per le vie del paese - giornaledicalabria.it",
+      "title": "Soveria Simeri, grande partecipazione per la festa del patrono San Donato. Oggi la processione per le vie del paese - Giornale di Calabria",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOLXJHTjgwQWxtSEpZc002X3pzWkdNOWlPM1FhYlJJU2d3X0dOTTQ4QU8xbFBzMk10eGtRckpYeW9FYk9KcnV5SkFIbURyS0Y1VnVJODV4QXNJOEhjbnFFXzNtZm9UTnpsWW5NVUMyWnZvQTktelk5ZjBReWJaMG1XMHdxckp2dnIwc2pUd1JMV0FDX3pnVlh3b2IwdG0zYllwR0xUVGdwdEdka1k?oc=5",
-      "source": "giornaledicalabria.it",
+      "source": "Giornale di Calabria",
       "sourceDomain": "giornaledicalabria.it",
       "publishedAt": "2026-08-15T02:31:02Z",
       "query": "processione patrono",
@@ -549,9 +549,9 @@
     {
       "id": "news-it-f9af1acd6ecf72a9",
       "country": "IT",
-      "title": "Palio di Ribusa, Riace vince la sfida medievale a Stilo - CalabriaMagnifica.it",
+      "title": "Palio di Ribusa, Riace vince la sfida medievale a Stilo - calabriamagnifica.it",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQVFGQTF4RnlOUHBjaHFtblo5ZnkzbDQtaFl5cEtKSmdwWnJIcTdLdzhmODQzWEptRnRCNFdRWUZsTklfZ05ERTc2MEtaQldxRU9iZkI3aGxTY2ROdm4ydHZxTFRSUllUR05RWXJHN0RyM1g2anNBTGR3NjVwb2FsOFA1VVhfTE13UVVHS1laRWlWUzAwSUNjd2hEeDdMeXVsM3hucUVn?oc=5",
-      "source": "CalabriaMagnifica.it",
+      "source": "calabriamagnifica.it",
       "sourceDomain": "calabriamagnifica.it",
       "publishedAt": "2026-08-10T06:45:38Z",
       "query": "rievocazione storica palio",
@@ -675,9 +675,9 @@
     {
       "id": "news-it-b3e6533d00a1a967",
       "country": "IT",
-      "title": "Palio de lo Daino: al via la 37esima edizione. Dal 20 al 23 agosto a Mondaino uno degli eventi di rievocazione storica più importanti della Romagna - geronimo.news",
+      "title": "Palio de lo Daino: al via la 37esima edizione. Dal 20 al 23 agosto a Mondaino uno degli eventi di rievocazione storica più importanti della Romagna - Geronimo News",
       "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOTHE1S1p0MTJNa1NNdUdNMExROEM1RG15YnFpbFlFSmEzdHRQcDJmTzQ4RWtLRmxOdVVMZXprSUhkRzdJMUU3Yzl2cWpGODhEeHVheWl6eXE3NzdITjRZS2g1Z2RrTTA1dmRhNW5XYmN1WUxrTXIxMlFNeWNuU0M4ekptZjVmZ2ZxeHNNM0h1dnhySWJrQy1qM3FHRVJkaUMxX0k2QU5wbHZUNEh3bUw3dHFyTnBGRDBaR1JvSzlLY1NUSnFFUHZsMlZKa2JRaDlqQTlfLWJ0OFB2WEljbTl1b3NJTFdOeExaYm8wTDdwZFNuQ0NhSG5HRXZ6TnV0RWU3LXVFUEJzNGxKUERBUTF2d19kaUwxZw?oc=5",
-      "source": "geronimo.news",
+      "source": "Geronimo News",
       "sourceDomain": "geronimo.news",
       "publishedAt": "2026-08-12T21:29:00Z",
       "query": "rievocazione storica palio",
@@ -712,24 +712,6 @@
       "source": "Il Giunco.net",
       "sourceDomain": "ilgiunco.net",
       "publishedAt": "2026-08-10T08:07:35Z",
-      "query": "processione patrono",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.2,
-      "reasons": [
-        "generic domain, origin unverified"
-      ]
-    },
-    {
-      "id": "news-it-8a290b54b6da78a0",
-      "country": "IT",
-      "title": "Grosseto abbraccia San Lorenzo, migliaia in strada per il patrono – FOTO E VIDEO - MaremmaOggi",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5LNExQX0ZvRjNORE0yOEgyWExNSVFsTDhGcjNVWTR1eUZ3anNWT1ZxQ29DOHFJb29HbTJETjZVNnFTSnAyeG5LcVRPNzdTNUJaY2tTZ1lmNVhSNFRScG1qSVZ0MFlHQS1qYlE1czZwT0hZTjhGU0ZyZA?oc=5",
-      "source": "MaremmaOggi",
-      "sourceDomain": "maremmaoggi.net",
-      "publishedAt": "2026-08-10T08:00:07Z",
       "query": "processione patrono",
       "kind": "unclassified",
       "isPublic": null,

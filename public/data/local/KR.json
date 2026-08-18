@@ -1,17 +1,17 @@
 {
   "country": "KR",
   "name": "South Korea",
-  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "generatedAt": "2026-08-18T16:31:55.664980Z",
   "refreshHours": 24,
   "status": "unfiltered",
-  "count": 110,
+  "count": 109,
   "reports": [
     {
       "id": "news-kr-84b64c5467790795",
       "country": "KR",
-      "title": "2026 이천펫축제, 10월 24일부터 이틀간 개최 - webeconomy.co.kr",
+      "title": "2026 이천펫축제, 10월 24일부터 이틀간 개최 - 웹이코노미",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAtRmM3UUJRVTdqekVXZWUyek9jcVI4dGsxMXZRLU9EcGJzdWxuVk9kV1EySmlndmdtZjJOaFMwUVNFUzJFRmlpakhsZmZVUDlyckRvdHkxSTZ2NWJhQ3J0ZkFLYkZ1d1RRdVlDcDVERDVYdw?oc=5",
-      "source": "webeconomy.co.kr",
+      "source": "웹이코노미",
       "sourceDomain": "webeconomy.co.kr",
       "publishedAt": "2026-08-18T10:03:56Z",
       "query": "축제 개최",
@@ -28,9 +28,9 @@
     {
       "id": "news-kr-403ddd3f38b44027",
       "country": "KR",
-      "title": "‘사운드 플래닛 페스티벌’ 3년간 인천서 개최…체류형 관광 연계 - webeconomy.co.kr",
+      "title": "‘사운드 플래닛 페스티벌’ 3년간 인천서 개최…체류형 관광 연계 - 웹이코노미",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZTEt0UUIycjROTkRKRTRNbFc4NHh0Nmg4ZWtnbndfeGI4M1oyMy1jRXZTQUJwdFVIWFFzX0RNUG10R0pNeHpDVFBIVUZzOVN6R2kzWlN0UUVzb3JRYlZIMWxESlBsMFROT3h2clo1Rk9mdw?oc=5",
-      "source": "webeconomy.co.kr",
+      "source": "웹이코노미",
       "sourceDomain": "webeconomy.co.kr",
       "publishedAt": "2026-08-18T08:39:54Z",
       "query": "축제 개최",
@@ -47,9 +47,9 @@
     {
       "id": "news-kr-b27225b7d5729690",
       "country": "KR",
-      "title": "유성구, 13개 동서 주민 주도 마을축제 개최 - webeconomy.co.kr",
+      "title": "유성구, 13개 동서 주민 주도 마을축제 개최 - 웹이코노미",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAyN2hUOEgtTnBkeGNPU1NRQmI4TmMxZzJOSDVRdTFzN0dQclFtWVFSaUhuODVfREZsOEplQ1lQakg4Yjd4V1BWZFpjQXpqSUlvMVd2TlVWaWdTbE9FTFhndkE2aThVVGktdjA2XzhVSU9vUQ?oc=5",
-      "source": "webeconomy.co.kr",
+      "source": "웹이코노미",
       "sourceDomain": "webeconomy.co.kr",
       "publishedAt": "2026-08-18T03:11:31Z",
       "query": "축제 개최",
@@ -66,9 +66,9 @@
     {
       "id": "news-kr-798170e15b1d9274",
       "country": "KR",
-      "title": "김해시, 일본군위안부 피해자 기림의 날 맞아 평화문화제 개최 - webeconomy.co.kr",
+      "title": "김해시, 일본군위안부 피해자 기림의 날 맞아 평화문화제 개최 - 웹이코노미",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBYNkFSaThnMnRBcW9IOXVPcTBqSmFHX294ZnRQT3ZQNmMwS0w5UmM2R3NVS1V5Z1ZTZkpZeExvSzExODdJakpoTUk1STcxZlQwR3BMYUUyQ3o5dFBQQXItOS0yY2NjXzd1VmxlN3hraTRTQQ?oc=5",
-      "source": "webeconomy.co.kr",
+      "source": "웹이코노미",
       "sourceDomain": "webeconomy.co.kr",
       "publishedAt": "2026-08-17T09:51:56Z",
       "query": "문화제 열려",
@@ -85,9 +85,9 @@
     {
       "id": "news-kr-5e9d4b41c9129ca5",
       "country": "KR",
-      "title": "공주시, 제72회 백제문화제 시민참여단 발대식 열려 - webeconomy.co.kr",
+      "title": "공주시, 제72회 백제문화제 시민참여단 발대식 열려 - 웹이코노미",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE95QlB5V0tIS1VaVUl4TV85UmZLZHdUSmxWZnZxTEJRV1BQVUIyRkhSaVl0UzloZWh5VTR3T1U4cFJaYjBvbnE2TGJhOXg0WlZJNnVWSjNHZG82aG14dHk4UUs4TlV3SGFXd1Z6dnJ1ckdxUQ?oc=5",
-      "source": "webeconomy.co.kr",
+      "source": "웹이코노미",
       "sourceDomain": "webeconomy.co.kr",
       "publishedAt": "2026-08-11T03:14:17Z",
       "query": "문화제 열려",
@@ -122,9 +122,9 @@
     {
       "id": "news-kr-9632285483607f14",
       "country": "KR",
-      "title": "아리랑TV, ‘2026 우리음악인축제’ LOCAL TO GLOBAL CONCERT 20일 개최 - 스포츠경향",
+      "title": "아리랑TV, ‘2026 우리음악인축제’ LOCAL TO GLOBAL CONCERT 20일 개최 - sports.khan.co.kr",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBuak1LeWd6Nlgwa1NOUXkxbEQtaU9YMm55ZmxoMWV5eGJpNEtLUUJQM3BudUpFX29BaDFUU0lGVUpOS1NPWm1rU1dIQTZUV0tMM2padl9xQ1h6bWd0U3fSAWNBVV95cUxNSnp1R0VNMFFvUUNsR0h4emZwRC1IZ3h6SUpIYy1JOWllaDRybFVMTk1jS3NfU2tFaUhlbkVmTjI3WlRjel9JQUhNVEtsNVVMZGpBR1VXSGpsR1B1YThOZHM0V1U?oc=5",
-      "source": "스포츠경향",
+      "source": "sports.khan.co.kr",
       "sourceDomain": "sports.khan.co.kr",
       "publishedAt": "2026-08-18T11:08:00Z",
       "query": "축제 개최",
@@ -156,11 +156,29 @@
       ]
     },
     {
+      "id": "news-kr-fdb5ac07e3f0bc35",
+      "country": "KR",
+      "title": "여수 나라사랑축제서 섬박람회 성공 개최 한뜻 - 전남인터넷신문",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8zZnFmcTZ6Yko5R25SbXRZWmQ5M2R0Nk52b2hSMkpISzZ3UDZBQlNGTlM3bjFpRVNoSU9tQThhYnJsODQyS2xqR1RfNlVGNVR5eUNVTVgtaHc3aHJp?oc=5",
+      "source": "전남인터넷신문",
+      "sourceDomain": "jnnews.co.kr",
+      "publishedAt": "2026-08-18T10:44:07Z",
+      "query": "축제 개최",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a KR domain (jnnews.co.kr)"
+      ]
+    },
+    {
       "id": "news-kr-a1f77899aa015abe",
       "country": "KR",
-      "title": "유성구, 13개 동 주민 주도 마을축제 개최 - kplus.kr",
+      "title": "유성구, 13개 동 주민 주도 마을축제 개최 - 코리아플러스",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAwOTdyYllDYTJydEhBNVFMdWZEQ3Iyd0RsNDIycThiOGlGNWFCbmRxNDRlQmJhWXFrZHM3cE5OQWg1X3cwWVZDM3BmQTJyWEloSWJpd3lpNjNlVUk2Y0RDQ0dNWHBfZw?oc=5",
-      "source": "kplus.kr",
+      "source": "코리아플러스",
       "sourceDomain": "kplus.kr",
       "publishedAt": "2026-08-18T09:53:53Z",
       "query": "축제 개최",
@@ -174,29 +192,11 @@
       ]
     },
     {
-      "id": "news-kr-fdb5ac07e3f0bc35",
-      "country": "KR",
-      "title": "여수 나라사랑축제서 섬박람회 성공 개최 한뜻 - 전남인터넷신문",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8zZnFmcTZ6Yko5R25SbXRZWmQ5M2R0Nk52b2hSMkpISzZ3UDZBQlNGTlM3bjFpRVNoSU9tQThhYnJsODQyS2xqR1RfNlVGNVR5eUNVTVgtaHc3aHJp?oc=5",
-      "source": "전남인터넷신문",
-      "sourceDomain": "jnnews.co.kr",
-      "publishedAt": "2026-08-18T09:22:30Z",
-      "query": "축제 개최",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.45,
-      "reasons": [
-        "published by a KR domain (jnnews.co.kr)"
-      ]
-    },
-    {
       "id": "news-kr-926bca98c1f922ae",
       "country": "KR",
-      "title": "원주시, 오는 22일 치악산 복숭아 축제 개최 - g1tv.co.kr",
+      "title": "원주시, 오는 22일 치악산 복숭아 축제 개최 - G1방송",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91UVFyS3VsLUJLOXNpczhWQ2FIX1ZTWkxEcndsVVpwWGJCbWFQT3dQRnJITl9MY1NBVXFUT3lNb21KcWc3N251eDVlTGYtb1p0aTB3WGh4bG53ZFdzdklwTEVPaXU?oc=5",
-      "source": "g1tv.co.kr",
+      "source": "G1방송",
       "sourceDomain": "g1tv.co.kr",
       "publishedAt": "2026-08-18T08:42:43Z",
       "query": "축제 개최",
@@ -213,7 +213,7 @@
       "id": "news-kr-ade5d3300bb23db5",
       "country": "KR",
       "title": "국내 대표 음악축제 ‘사운드 플래닛 페스티벌’… 3년간 인천서 개최 - 경기신문",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5QZ0h4NjIyQXUxdjV3cU5mMUs5Vlk2bmRRRTVvUE5sLVdnNlJXRzRGSDJLN2RSNkF4MXA4am9qYkVoNHZKWHlPQ0xYVTY4elhUWHlBWWFXNllPMXlNRGcwUw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Yc1h0aTgyR3RqeGs1cmw0MkZ5U1ZGVHFLNHpZV0YweDZoWk9YSHV6d0VIR3RETVhKZzJOUXlZTFdsR2ZGRzZWY09yd2ZtRzA0Mm1uc3ZlYXJvcUxrWUNuM0dJZ1c?oc=5",
       "source": "경기신문",
       "sourceDomain": "kgnews.co.kr",
       "publishedAt": "2026-08-18T08:14:31Z",
@@ -320,9 +320,9 @@
     {
       "id": "news-kr-fc4a2967baa04ac2",
       "country": "KR",
-      "title": "2026 영천동 해바라기 축제 개최 알림 - 제주도민일보",
+      "title": "2026 영천동 해바라기 축제 개최 알림 - jejudomin.co.kr",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZWDM2RW1yTnhORWt5TkdvcTZkem1Zdl9MbTVZVUxNaDRrbm9lLWJYdlVzaHNXdjRqTWxjM05FQjd5MGEzUFlCQ0tvZG5seFpCYnMwT0N1TkE3bjBjLWNrNmRoOVV1RHM4WFF2ZVVWSQ?oc=5",
-      "source": "제주도민일보",
+      "source": "jejudomin.co.kr",
       "sourceDomain": "jejudomin.co.kr",
       "publishedAt": "2026-08-18T06:55:31Z",
       "query": "축제 개최",
@@ -464,9 +464,9 @@
     {
       "id": "news-kr-0d7cb47e5c347b90",
       "country": "KR",
-      "title": "노원구, 발레로 경계를 넘다…‘2026 노원 발레 페스티벌’ 개최 - 뉴스21 통신",
+      "title": "노원구, 발레로 경계를 넘다…‘2026 노원 발레 페스티벌’ 개최 - news21tongsin.co.kr",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmS1QzR255MV9LSzB2ZzNHdldiRUFyUFJ5cHlMVU1lZ29wT1dzZ1RpaXRBVE5sS095bEJZNDh2bzVhQTRYOWx1bzlKY1NsV1dDVWhjbk1R?oc=5",
-      "source": "뉴스21 통신",
+      "source": "news21tongsin.co.kr",
       "sourceDomain": "news21tongsin.co.kr",
       "publishedAt": "2026-08-18T04:54:21Z",
       "query": "축제 개최",
@@ -554,9 +554,9 @@
     {
       "id": "news-kr-c5c25ccd6e1d3083",
       "country": "KR",
-      "title": "오학동 주민자치회, 「제1회 여주 아리아리 물축제」 개최 - 동방일보",
+      "title": "오학동 주민자치회, 「제1회 여주 아리아리 물축제」 개최 - dongbangilbo.co.kr",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1jTXFJd3RGQUlwcG9nMkM3ODRKa2kxSzJRTVVCTVRIX2dEUm1Tam8xdmtoWXRJTzMyekhENkRZcW9WUFcweE9QbXU4akFHRU9HT1NtSTJpNGdMUzZiaUhmU2sweUhjM0w4NmpWek9kVzFrZEU?oc=5",
-      "source": "동방일보",
+      "source": "dongbangilbo.co.kr",
       "sourceDomain": "dongbangilbo.co.kr",
       "publishedAt": "2026-08-18T02:40:17Z",
       "query": "축제 개최",
@@ -608,9 +608,9 @@
     {
       "id": "news-kr-e830efe6da257ddf",
       "country": "KR",
-      "title": "동대문구, 28~29일 장안1수변공원서 맥주축제 개최 - news.bbsi.co.kr",
+      "title": "동대문구, 28~29일 장안1수변공원서 맥주축제 개최 - BBS불교방송",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5CZERwQ0RvQkx6YTdWQ25mTjNnclhfcnozcVQ3dVI3WUJIelZVXzc4Mmhpdjd3cWRSSWZwOElLUk9pMVI0ZmlaNDNSUGV2VHkzVFQ0U0htdVNQN1ZwZTZQNTVodWNSOHMyYWtF?oc=5",
-      "source": "news.bbsi.co.kr",
+      "source": "BBS불교방송",
       "sourceDomain": "news.bbsi.co.kr",
       "publishedAt": "2026-08-18T01:03:13Z",
       "query": "축제 개최",
@@ -621,6 +621,24 @@
       "confidence": 0.45,
       "reasons": [
         "published by a KR domain (news.bbsi.co.kr)"
+      ]
+    },
+    {
+      "id": "news-kr-38c0e4490312daf5",
+      "country": "KR",
+      "title": "화성시여성가족청소년재단 「2026 성평등 문화축제」개최 - 화성저널",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fVXgyMThyUEl4dl8ycDQydWlabmFfaVlmbXdvSzh4TERtWExHWUdVdjZEVUpMeE5IelB2cXE2a3lEaTByUVZqclJXODhUZ1dXdDNNVVpxRzJRU3BaTzQzVHR3SlRGZw?oc=5",
+      "source": "화성저널",
+      "sourceDomain": "hsj.co.kr",
+      "publishedAt": "2026-08-18T01:00:43Z",
+      "query": "축제 개최",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a KR domain (hsj.co.kr)"
       ]
     },
     {
@@ -1097,6 +1115,24 @@
       ]
     },
     {
+      "id": "news-kr-17a7d0d80909da5a",
+      "country": "KR",
+      "title": "춘천 북부나눔재가노인센터, 문화 축제 ‘청춘랜드’ 개최 - 강원도민일보",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAxcHJuUWY4cTZ3ZVlnWHduTDh6VkVmWmdNS1lISFFpVEJRUER5N1Y4eVM1X3ZKLW5VUGplc1Vmc2ZXOFQwVUJoRTdBdzZvSWlTR0o1bjBmWkJVZ1B1V1FlVS1DWWpuRjQ?oc=5",
+      "source": "강원도민일보",
+      "sourceDomain": "kado.net",
+      "publishedAt": "2026-08-18T15:12:19Z",
+      "query": "축제 개최",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
       "id": "news-kr-a51acb0b24652456",
       "country": "KR",
       "title": "안산시, 소소플래닛 다농서 21일∼22일 '맥주페스티벌' 개최 - 한국방송뉴스",
@@ -1131,13 +1167,13 @@
       ]
     },
     {
-      "id": "news-kr-6e8e03ad5ea1af5e",
+      "id": "news-kr-b7bf09d406138a4f",
       "country": "KR",
-      "title": "대덕문화원, '제15회 김호연재 문화축제' 개최 예정 - 뉴스티앤티",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1lbkNkalNpeFFGWVRja3JGVHVkRGQ2aWRwdy1ic1A1Q0tWVjhjT0xCMVNpWkQ1RElmRjNfRF8tejBhSWl5ZFJDN2cyUDg0QUNERWNiX2swOFJ3YzNuM2YwWGVUUnNFa0R3RWc?oc=5",
-      "source": "뉴스티앤티",
-      "sourceDomain": "newstnt.com",
-      "publishedAt": "2026-08-18T08:55:00Z",
+      "title": "남정면, 바다와 노래로 하나 된 ‘화합의 축제’ 성황리 개최 - 대경일보",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9QVWtFZEFaYl8xbEd5OFVRMWdWdEY5R3l3WU1jLUhDSXNWMGNGVUVhbVZrN0pDekZNTWxBT3kxWk55T1FJM1k1Y1M1Tkt3WnJtbXlES2t1RFpWWmpvMUxZLW56ZFFiODd5?oc=5",
+      "source": "대경일보",
+      "sourceDomain": "dkilbo.com",
+      "publishedAt": "2026-08-18T08:57:52Z",
       "query": "축제 개최",
       "kind": "unclassified",
       "isPublic": null,
@@ -1149,13 +1185,13 @@
       ]
     },
     {
-      "id": "news-kr-96c0dde639ccec48",
+      "id": "news-kr-6e8e03ad5ea1af5e",
       "country": "KR",
-      "title": "`2026 이천펫축제`, 10월 24일부터 이틀간 개최 - 경기평화신문",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE8yRk1qQWhxMnFHbGhVUjkzcDRtZ3lmaW4xM3hTTG13SG5kTWY0dGJFYUFIdU5YN01ib1BDRXVHdVp0MWVNVjNfMUFB?oc=5",
-      "source": "경기평화신문",
-      "sourceDomain": "ggpyeonghwa.com",
-      "publishedAt": "2026-08-18T08:14:00Z",
+      "title": "대덕문화원, '제15회 김호연재 문화축제' 개최 예정 - 뉴스티앤티",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1lbkNkalNpeFFGWVRja3JGVHVkRGQ2aWRwdy1ic1A1Q0tWVjhjT0xCMVNpWkQ1RElmRjNfRF8tejBhSWl5ZFJDN2cyUDg0QUNERWNiX2swOFJ3YzNuM2YwWGVUUnNFa0R3RWc?oc=5",
+      "source": "뉴스티앤티",
+      "sourceDomain": "newstnt.com",
+      "publishedAt": "2026-08-18T08:55:00Z",
       "query": "축제 개최",
       "kind": "unclassified",
       "isPublic": null,
@@ -1259,9 +1295,9 @@
     {
       "id": "news-kr-fc054e9bf6fe32fc",
       "country": "KR",
-      "title": "나주시, 시민 손으로 만드는 '영산강 가족정원 페스티벌' 개최 - seoulfn.com",
+      "title": "나주시, 시민 손으로 만드는 '영산강 가족정원 페스티벌' 개최 - 서울파이낸스",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TZ05NNHI0U2Jqalk0eEpuLU9FZjZYM3dGbW85Y2ZhQUpxX0NjTVhpek12X1Q5NFMwcE12cTkyQ2FmVnBJU3RlemlhWDd4eHhSenMyUGlfTTR1QXFfMDdJSUtrcWxXYnpVaEE?oc=5",
-      "source": "seoulfn.com",
+      "source": "서울파이낸스",
       "sourceDomain": "seoulfn.com",
       "publishedAt": "2026-08-18T06:30:00Z",
       "query": "축제 개최",
@@ -1439,9 +1475,9 @@
     {
       "id": "news-kr-a0b61d88be08e905",
       "country": "KR",
-      "title": "안산시, 청년몰 활성화 위한 ‘소소플래닛 맥주페스티벌’ 개최 - 주간한국",
+      "title": "안산시, 청년몰 활성화 위한 ‘소소플래닛 맥주페스티벌’ 개최 - weekly.hankooki.com",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOOFZXTUlqN0NoNjlPWGJxZE52REhuOThoMzE0dkpFOEd0OC1LajB4c2NtdmdYMklwMFNzZW5CeHpJdmNQako4dnZVT0NBYV9ybkE4Z2dVWVFkTUhMTlJvY0hwSmNLclMzV2FiT054eHLSAXRBVV95cUxObmZOSXNiUVJZeTBMUm4zT3lzT0UyS0dSOERmRHF0UnFjbEp0ZTBjbU5NUmpFYVhWa3NXYlhXXzR6d05pMWl6YU9xbjVNSW41enRmdVpvTHFXNnZpZndBVHBnOFNDc09sVkNFXzhvRzJpUkdsTg?oc=5",
-      "source": "주간한국",
+      "source": "weekly.hankooki.com",
       "sourceDomain": "weekly.hankooki.com",
       "publishedAt": "2026-08-18T02:31:06Z",
       "query": "축제 개최",
@@ -1583,9 +1619,9 @@
     {
       "id": "news-kr-91bdff658f7ce0e3",
       "country": "KR",
-      "title": "전주세계소리축제 25회째 불구 '정체성·차별성·주목도' 떨어져, 개최 시기도 한여름서 다시 가을로 ‘오락가락’...왜 이러나? - jbsori.com",
+      "title": "전주세계소리축제 25회째 불구 '정체성·차별성·주목도' 떨어져, 개최 시기도 한여름서 다시 가을로 ‘오락가락’...왜 이러나? - 전북의소리",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84TFdsSmhlenc0OXBXLWctMldrN25DcEdFT1dUYU9NU1BvbDJ0dF9uWHc1NVpkTnFvNFRFY2gxNnRNMlVCeXJUNi1QVTdSemprRnFuakFraHlSOHRRNU5Tc0s2bmlnaVE?oc=5",
-      "source": "jbsori.com",
+      "source": "전북의소리",
       "sourceDomain": "jbsori.com",
       "publishedAt": "2026-08-17T21:24:00Z",
       "query": "축제 개최",
@@ -1637,9 +1673,9 @@
     {
       "id": "news-kr-fff778e2dd19d2f8",
       "country": "KR",
-      "title": "김해시민평화문화제 열려 일본군위안부 피해자 기림의 날 기념 - hksisaeconomy.com",
+      "title": "김해시민평화문화제 열려 일본군위안부 피해자 기림의 날 기념 - 한국시사경제",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1CMnBYdlpYb0l4TVFfaURwUXoxZklzem9EcXRua0c5N1RPTFg4YW9yWVMwNmRxNWNib1Z2cXJkdmVldnJiS0YyM2Y3c3FpbzRPUlMycEh6OFR0OHpYa2FPRHpQQUpBVnRIa0E?oc=5",
-      "source": "hksisaeconomy.com",
+      "source": "한국시사경제",
       "sourceDomain": "hksisaeconomy.com",
       "publishedAt": "2026-08-17T09:12:58Z",
       "query": "문화제 열려",
@@ -1707,42 +1743,6 @@
       ]
     },
     {
-      "id": "news-kr-2925f70f5c3fb4bf",
-      "country": "KR",
-      "title": "청주 원도심, 여름축제로 열기 가득… 호러페스티벌·성안이즈백 잇따라 개최 - v.daum.net",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tRExDcUp2TUhCWnd4RC1SRzVSTHZZRkUzbjU5dVNIZXJ5VEhJNjA5TWVzVFVGMU1NZGpjYWJxa1RYOEIwT01wcllWdVl6bUE?oc=5",
-      "source": "v.daum.net",
-      "sourceDomain": "v.daum.net",
-      "publishedAt": "2026-08-17T00:25:55Z",
-      "query": "축제 개최",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.2,
-      "reasons": [
-        "generic domain, origin unverified"
-      ]
-    },
-    {
-      "id": "news-kr-8ee76ccff04d47a3",
-      "country": "KR",
-      "title": "포항 송도솔밭서 ‘제4회 대한민국 맨발걷기축제’ 개최 - 데일리저널",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45aDV6dUNxVXhkMVdQY1VfMzB5WUk4TlRkM3VwcGVIRGlIUjJaV3lxTDZqQUI0SjMxdVFXcVo0dlpZV0ZmblZzQ2RCZFlZWVBvc19kbDExaGhIUmpNb1l4TE1tWHhWY2tBLVE?oc=5",
-      "source": "데일리저널",
-      "sourceDomain": "dailyjn.com",
-      "publishedAt": "2026-08-16T21:27:38Z",
-      "query": "축제 개최",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.2,
-      "reasons": [
-        "generic domain, origin unverified"
-      ]
-    },
-    {
       "id": "news-kr-ebcdba4242bc25ab",
       "country": "KR",
       "title": "광복 81주년 맞아 제3회 순천왜성(예교성)문화제 열려 - 뉴스깜",
@@ -1751,24 +1751,6 @@
       "sourceDomain": "newsggam.com",
       "publishedAt": "2026-08-16T08:09:57Z",
       "query": "문화제 열려",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.2,
-      "reasons": [
-        "generic domain, origin unverified"
-      ]
-    },
-    {
-      "id": "news-kr-38c0e4490312daf5",
-      "country": "KR",
-      "title": "화성시여성가족청소년재단 「2026 성평등 문화축제」개최 - 경인신문",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MbzFha0RDb1dJWUx5NE9nd3duNGJJY3NTbjEtMlFnWEZ5U3llTnRZb3A1Wk41a01jR2sxMm90bmRxeXp5TkdrSjNGUXJZTFY4bExRbjFIWkl0R3J6WGxKMTUwVm8yekk?oc=5",
-      "source": "경인신문",
-      "sourceDomain": "asn24.com",
-      "publishedAt": "2026-08-16T07:00:00Z",
-      "query": "축제 개최",
       "kind": "unclassified",
       "isPublic": null,
       "place": "",
@@ -1797,11 +1779,29 @@
       ]
     },
     {
+      "id": "news-kr-9e4b1b01ef665c54",
+      "country": "KR",
+      "title": "LA서 에미상 주관 TV 축제 개최…상영회부터 체험형 전시까지 즐긴다 - RadioKorea",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1tUVRWVXlyYWN5NjJKZTRrUzJPTWdBWGJ2TUhTSzVTUU1MQlZBcTctQlhQOHF4ZkFBdVRuUVVCQWRQZDRnT2hrUHlfZ1JOTWExVEpsYzdxbXpmT3V5UEtoUm1VcEg?oc=5",
+      "source": "RadioKorea",
+      "sourceDomain": "radiokorea.com",
+      "publishedAt": "2026-08-14T17:00:00Z",
+      "query": "축제 개최",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
       "id": "news-kr-e251f356822d16b2",
       "country": "KR",
-      "title": "“김련희를 평양으로!”...송환 촉구 시민문화제 열려 - jajusibo.com",
+      "title": "“김련희를 평양으로!”...송환 촉구 시민문화제 열려 - 자주시보",
       "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5hU25YQmFkb09SeG9mUHZ6ZFZBNXpsOGJxUDRqb19JcXRYelpscnRQMkxUbjJFR29Ud2Jnc1NQVkxYcTA?oc=5",
-      "source": "jajusibo.com",
+      "source": "자주시보",
       "sourceDomain": "jajusibo.com",
       "publishedAt": "2026-08-14T11:45:00Z",
       "query": "문화제 열려",
@@ -1853,9 +1853,9 @@
     {
       "id": "news-kr-773cc52141fa1047",
       "country": "KR",
-      "title": "광복 81주년···대구 동성로서 8·15 문화제 열려 - dgmbc.com",
+      "title": "광복 81주년···대구 동성로서 8·15 문화제 열려 - 대구MBC",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9ETDdQN2pqMmtleW1mU0s0TUVNMTh6Zm52NEJNQnR5b00wdGw1VXNBS0x4Tk0xLXVmck0yUGxYWEZBdHR1V0Y1dmJsOXg?oc=5",
-      "source": "dgmbc.com",
+      "source": "대구MBC",
       "sourceDomain": "dgmbc.com",
       "publishedAt": "2026-08-14T01:12:55Z",
       "query": "문화제 열려",
@@ -1869,29 +1869,11 @@
       ]
     },
     {
-      "id": "news-kr-9e4b1b01ef665c54",
-      "country": "KR",
-      "title": "LA서 에미상 주관 TV 축제 개최…상영회부터 체험형 전시까지 즐긴다 - RadioKorea",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE90TVNfOVI5alNDUzc3OHVuNmZRS1hNQXlDUHNKM1JCd1MyMUczaENld0lYOVU2cVBaQkI1a3g4MVhYci13cmRUYzBMSFNHT2xxU25OUnhWQTNtcHF4ZXdV?oc=5",
-      "source": "RadioKorea",
-      "sourceDomain": "radiokorea.com",
-      "publishedAt": "2026-08-14T01:00:00Z",
-      "query": "축제 개최",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.2,
-      "reasons": [
-        "generic domain, origin unverified"
-      ]
-    },
-    {
       "id": "news-kr-bd24f35ab8ece6f1",
       "country": "KR",
-      "title": "“군국주의 부활 재침 야욕 일본을 응징하자!”…광복 81주년 앞두고 촛불문화제 열려 - jajusibo.com",
+      "title": "“군국주의 부활 재침 야욕 일본을 응징하자!”…광복 81주년 앞두고 촛불문화제 열려 - 자주시보",
       "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9NUDlEaXBDdTFQWVZxamR2UW9kdUwxMnlUU2J5dF9FVlFHbi1sLWJpSHJJeFVqaGxuOFdqVnJjZWVlNnc?oc=5",
-      "source": "jajusibo.com",
+      "source": "자주시보",
       "sourceDomain": "jajusibo.com",
       "publishedAt": "2026-08-13T13:05:00Z",
       "query": "문화제 열려",
@@ -1961,9 +1943,9 @@
     {
       "id": "news-kr-028c3b23b948db1c",
       "country": "KR",
-      "title": "지아라이는 곧 국제 징 페스티벌을 개최할 예정입니다. - Vietnam.vn",
+      "title": "지아라이는 곧 국제 징 페스티벌을 개최할 예정입니다. - vietnam.vn",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91NUt5T294STB4VjF2MWxzdDhxMF8tTHYxUXQ4UmxNX0cxY3JBUlg2WUJSR1VPeVZlSktpb0tnUjBNTnJKVUE1WnpxeFVDdUx3NllrMkloT3BDd01pMEN2T2w1RzN3aGhKaEJvVk5MWjhMV1EycVBYTHJweWw5cEk?oc=5",
-      "source": "Vietnam.vn",
+      "source": "vietnam.vn",
       "sourceDomain": "vietnam.vn",
       "publishedAt": "2026-08-18T11:04:04Z",
       "query": "축제 개최",
@@ -1980,9 +1962,9 @@
     {
       "id": "news-kr-b9ed60ed134a17cd",
       "country": "KR",
-      "title": "진도군, 2026 명량대첩축제... 녹진관광지, 울돌목 개최 - 열린뉴스통신",
+      "title": "진도군, 2026 명량대첩축제... 녹진관광지, 울돌목 개최 - onews.tv",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE02bmE1RkZ5M3dvdkl5eldaOThQQXZhRFZnQnZqTFNubHQxS1FRSExFbEgySFM4MEl4UTAwdzdEcjQtNmg0RTR4Szk4UVFCQzZ3aUVWNzdCQWt5dkIwekVUeGZXb0Q?oc=5",
-      "source": "열린뉴스통신",
+      "source": "onews.tv",
       "sourceDomain": "onews.tv",
       "publishedAt": "2026-08-18T06:56:17Z",
       "query": "축제 개최",

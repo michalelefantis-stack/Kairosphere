@@ -1,11 +1,137 @@
 {
   "country": "PL",
   "name": "Poland",
-  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "generatedAt": "2026-08-18T16:31:55.664980Z",
   "refreshHours": 24,
   "status": "unfiltered",
-  "count": 122,
+  "count": 124,
   "reports": [
+    {
+      "id": "news-pl-3064251fe02167e4",
+      "country": "PL",
+      "title": "Gmina Chełmża szykuje Dożynki Gminne w Bielczynach - Poza Toruń",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQTBPbVVISmZkaDhraWdLSk9fN19ZZ1MtRVJNMWU2bzNmNVRLVFJpNm4wU0d1UXJoN256SXdITHgzZnNBM0ttUDlreTF4X2Z4RFZLc0FCckcxclJ3OVl1THNuLVZ6LU5KaVdudVRHTmVScjBoQWNtNnlWV0IzYVh1ZW1IWUxNeVcxd08wXzJpbkV0UE82cmhpSnA3aHNsLTJrbGJmV2NB?oc=5",
+      "source": "Poza Toruń",
+      "sourceDomain": "pozatorun.pl",
+      "publishedAt": "2026-08-18T16:28:05Z",
+      "query": "dożynki",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a PL domain (pozatorun.pl)"
+      ]
+    },
+    {
+      "id": "news-pl-202ed3b16f034e97",
+      "country": "PL",
+      "title": "Dożynki Wojewódzkie 2026. Jak dojechać i wrócić bez problemów? To musisz wiedzieć przed świętem plonów - Kurier Lubelski",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVzRxR3lxc3Q5ckFXVUNVbzFoWDk1MWoySHc2NlVwNVNmQ1JfcFZJZ3R3cFZneXRwZGZyYXNQUkpWT0R1UHNFNWJiUW9nd1hYcFNTUGtDZGFIWkhRMjByR1ZKUUtVdy1BUkpGMFA0UERyTWwxVzhXUGlVYlVYbk5JM3RRVmdyVTdHZzcyV1NlcUpLNV9Na2hzWUZBdUowazRXdjZOZ1BmbUlEaGUzRXNWdWRMZHg0OEJmV3BLcVVmWk9nbGkzSXBxVHpGZExSc0dlb29YQl9OclF5WFdm?oc=5",
+      "source": "Kurier Lubelski",
+      "sourceDomain": "kurierlubelski.pl",
+      "publishedAt": "2026-08-18T15:51:46Z",
+      "query": "dożynki",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a PL domain (kurierlubelski.pl)"
+      ]
+    },
+    {
+      "id": "news-pl-9a944566f648538d",
+      "country": "PL",
+      "title": "Za nami dożynki gminy Horodło [ZDJĘCIA] - Lubiehrubie",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObXplM3ZxTTZzd0x0djBwV01YcDI3ZFlOa3hUdVZrWTBlSGg3RmU2NksxZm40aXJmd0hKSUJpZS1ROXBTUE13VjVqMjRERmNBNy1PdjhtRUx1WGFHR05EbHVGSklqdi1jMTZfMHdGOVRDRTRNY2dGOWpOTkNtZURUaTdldkM?oc=5",
+      "source": "Lubiehrubie",
+      "sourceDomain": "lubiehrubie.pl",
+      "publishedAt": "2026-08-18T15:26:41Z",
+      "query": "dożynki",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a PL domain (lubiehrubie.pl)"
+      ]
+    },
+    {
+      "id": "news-pl-83e1711202bf58fc",
+      "country": "PL",
+      "title": "Dożynki tuż, tuż! Gmina Kijewo Królewskie już wystrojona! - e-chełmno.pl",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbWt4bzAyVDRqUFNRZ3o1cGJUQUtTbVJuR0tJaElMdDdxelk2Wm03V29qTGJTbXdrT1hGRTljU091QmdHQ2laNXUzVlRldDRWMHRKQkxJc2NfUWhsSno4Ukc1UFJMMkFMdS1weEpjaFh0R1hKRFYxWWN2T29ZMzJEUUFVdVpTNXV4RXlXRU1lRVZtZUZDODF1OWdqMHNPRVlJY1JOMEZYMA?oc=5",
+      "source": "e-chełmno.pl",
+      "sourceDomain": "e-chelmno.pl",
+      "publishedAt": "2026-08-18T15:08:19Z",
+      "query": "dożynki",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a PL domain (e-chelmno.pl)"
+      ]
+    },
+    {
+      "id": "news-pl-5b0a0294c61370b6",
+      "country": "PL",
+      "title": "Dożynki Wojewódzkie, Festiwal KGW i Dzień Gminy Dziadkowice – Dołubowo 2026 - Podlasie24",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZWVfdUUzZU5LdWRzMDQtTDlYZDdUVW0zSFl5TFN0WVFKWUtfYjE0X3Y0UTFORkYzUlA2cTJQRkhCNjh0Zk1iQzRhd0pia2hWMklnVXRBSHVvNFVaMkIzcVQtQXZyclhWOWlvSGNVM2x5cVk5V0JycmtqMmJHSDNaQkdvQUFhRUpvV3N1SHB2ME10a2Y0X05jbUFhREVwd1ppaTVWV3hlbVhSemUxbzdHVWJINVRNdzA?oc=5",
+      "source": "Podlasie24",
+      "sourceDomain": "podlasie24.pl",
+      "publishedAt": "2026-08-18T15:00:32Z",
+      "query": "dożynki",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a PL domain (podlasie24.pl)"
+      ]
+    },
+    {
+      "id": "news-pl-1878971458a6f1ee",
+      "country": "PL",
+      "title": "Dożynki 2026 w Brześciu Kujawskim już w niedzielę. Znamy gwiazdy, atrakcje i program święta plonów - nWloclawek.pl",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9DVkNJQVU1dFhDZXBaS1ZEdERaQVFjS1J1TzVBdVZHRVFRNHEtWXdVb1FEdUI1SjlFUVZRaUVlV3BhTTBlLWVIOGZfY3QxcjBPbElVY3gtQmdoak9iMC1OakVsV3B4N0RUZkVPb296SQ?oc=5",
+      "source": "nWloclawek.pl",
+      "sourceDomain": "nwloclawek.pl",
+      "publishedAt": "2026-08-18T14:49:00Z",
+      "query": "dożynki",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a PL domain (nwloclawek.pl)"
+      ]
+    },
+    {
+      "id": "news-pl-59cb578583487fc9",
+      "country": "PL",
+      "title": "Dożynki Gminne w Strzelcach 29 sierpnia - eKutno",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaHIyUHNVNEY1clVxOUJrQzV3b2Vfbm9JSHpYYnFheGt1eUphY2I0bjZzV1JWNkZKQ0pwd3A3b3dsX2xWMGE3b1E2eXJTRU85czZ3bTAza2lCelJYTGZLZHJHd3h6a3d5bnJBTmstVjlKbEpwdFN4andTczJIRkozamN0SUNhNWhJYVhFdW9B?oc=5",
+      "source": "eKutno",
+      "sourceDomain": "ekutno.pl",
+      "publishedAt": "2026-08-18T14:42:20Z",
+      "query": "dożynki",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a PL domain (ekutno.pl)"
+      ]
+    },
     {
       "id": "news-pl-1261a217a6b86ba0",
       "country": "PL",
@@ -22,6 +148,24 @@
       "confidence": 0.45,
       "reasons": [
         "published by a PL domain (radiobielsko.pl)"
+      ]
+    },
+    {
+      "id": "news-pl-9a554cd4461551fd",
+      "country": "PL",
+      "title": "Dożynki Gminy Górno - TVP Kielce",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TZWlUN3hHb2puSEdMV1FqZXEzVVN1RWR3bHh3UkhTYTU2OE15aWxDNzJMY1k3cmFTOXM0MkpoV3ZjbThqWmNjX19tYWRXQTZ2aHpkaVB6OG80SV9qY01v?oc=5",
+      "source": "TVP Kielce",
+      "sourceDomain": "kielce.tvp.pl",
+      "publishedAt": "2026-08-18T14:34:36Z",
+      "query": "dożynki",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a PL domain (kielce.tvp.pl)"
       ]
     },
     {
@@ -61,24 +205,6 @@
       ]
     },
     {
-      "id": "news-pl-9a944566f648538d",
-      "country": "PL",
-      "title": "Za nami dożynki gminy Horodło [ZDJĘCIA] - Lubiehrubie",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObXplM3ZxTTZzd0x0djBwV01YcDI3ZFlOa3hUdVZrWTBlSGg3RmU2NksxZm40aXJmd0hKSUJpZS1ROXBTUE13VjVqMjRERmNBNy1PdjhtRUx1WGFHR05EbHVGSklqdi1jMTZfMHdGOVRDRTRNY2dGOWpOTkNtZURUaTdldkM?oc=5",
-      "source": "Lubiehrubie",
-      "sourceDomain": "lubiehrubie.pl",
-      "publishedAt": "2026-08-18T13:24:15Z",
-      "query": "dożynki",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.45,
-      "reasons": [
-        "published by a PL domain (lubiehrubie.pl)"
-      ]
-    },
-    {
       "id": "news-pl-ca7fb0048db00de3",
       "country": "PL",
       "title": "Dożynki Powiatowe 2026 w Sierakowicach Prawych już w niedzielę - Skierniewice Nasze Miasto",
@@ -97,9 +223,9 @@
       ]
     },
     {
-      "id": "news-pl-cc3598280e1401ae",
+      "id": "news-pl-146a8a36c9d250d0",
       "country": "PL",
-      "title": "Dożynki Wadowice Górne. Powrót do polskich tradycji - hej.mielec.pl",
+      "title": "„Nie mamy się czego wstydzić”. Michał Deptuła o tradycji dożynkowej [WIDEO] - hej.mielec.pl",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPX1NETFM5eG1RaUItQXdDOXpVZUZWbnRBWWlyQVNrNncwS0F5cTMzS1ZUSXRTSTcyZXEta3hTbGppTGVLckJiOExHOXBPVzRXZDlPaXFlTGs4TzY2bnc3bzh6bFR3VDJzdVNCSTVYOVRja1NLZGxxcG1VMENRWTdOajJfNTlhZXhhQ3c2M2Y2VVVSOVcyYVBVOTJDX1dsY01oWldsNW5WOENaWC0wZ2dBOVk1MWVFbDktbzFBU3BJYkhiZ1FpQnN5N3dtV3hRYVFDSWsxdzQwRzhxdTNnNVdJQVBfRTg?oc=5",
       "source": "hej.mielec.pl",
       "sourceDomain": "hej.mielec.pl",
@@ -130,24 +256,6 @@
       "confidence": 0.45,
       "reasons": [
         "published by a PL domain (xn--sdeckie-p4a.pl)"
-      ]
-    },
-    {
-      "id": "news-pl-12422a7a3b832d49",
-      "country": "PL",
-      "title": "Święto plonów w Kielcach. Mieszkańcy osiedla Nowa Prochownia zorganizowali nietypowe dożynki. Był wieniec dożynkowy i dużo dobrej zabawy - Kielce Nasze Miasto",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPZ2RseVU4dmJYR2lkanc5RXNoSWVjQlB0bmpsb3RkTGJEdVViZlhMOXVJMGJSajZLRHdhLXRpWkJ4X2ZWN2x1bjZLYS1FUXhweVNJMHJ5Vm1OMHhjRkJJQXJjN0dlRmpFYlBiVzhzT1Z4M3hRRVJ6REdDVWZTdUNhVnIxVnRtUkFYNE0xZmpCSHVzNnZuQlpGT1FrQ0RWbXk3Zng4VzVhVHpGd1l2N0t2TGNhUEtvOVNwd0l1VVc2VDFQb2xqZ0FjaVB6TWVuR3lkVldaQVRaSTRHUlRISnZqTktNd3JPVUFaYU0xdTZMUGc5NjM4T2hBZ3JPM0xwWHliNmJOWDNnQjgyQkFBQ3c?oc=5",
-      "source": "Kielce Nasze Miasto",
-      "sourceDomain": "kielce.naszemiasto.pl",
-      "publishedAt": "2026-08-18T12:34:56Z",
-      "query": "dożynki",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.45,
-      "reasons": [
-        "published by a PL domain (kielce.naszemiasto.pl)"
       ]
     },
     {
@@ -189,9 +297,9 @@
     {
       "id": "news-pl-cd0118f3210bda74",
       "country": "PL",
-      "title": "Jarmark chmielo-wikliniarski i dożynki gminne 2026 w Nowym Tomyślu. Znamy gwiazdy koncertów - Nowy Tomyśl Nowiny Lokalne",
+      "title": "Jarmark chmielo-wikliniarski i dożynki gminne 2026 w Nowym Tomyślu. Znamy gwiazdy koncertów - nowytomysl.nowinylokalne.pl",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTjhiblFETDhSVG5xNnlHX3NMYk14U01jRDhOZ1hTUi1ua21xcm5pV1JyRjUxdnBuQUFQWGgzMHpDTTMxSVc3RDVnZzVZd2p0WmIwRnN2bHlWODZJczNzeWtZSTQtWVlEUEhvTk1qUEo5OS1mWktQbS1QVlBCdE01ekdjNndoQk9sVUpwUEVjTExtd2lLVmVoLTBMVmx5TWVTamk1eE93V1E2VlQxZks3Yk50NHJHN2RKZWlMYkJ5VEpHbml6LVE?oc=5",
-      "source": "Nowy Tomyśl Nowiny Lokalne",
+      "source": "nowytomysl.nowinylokalne.pl",
       "sourceDomain": "nowytomysl.nowinylokalne.pl",
       "publishedAt": "2026-08-18T12:29:12Z",
       "query": "dożynki",
@@ -205,13 +313,13 @@
       ]
     },
     {
-      "id": "news-pl-f69d6fcb7668958e",
+      "id": "news-pl-094cebcaa3917435",
       "country": "PL",
-      "title": "Gdzie na dożynki koło Wrocławia? Bezpłatne koncerty już w ten weekend!... Zdjęcie 3/31 - wroclaw.pl",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaF96SWJmVWRfRXBGY1ExMWswNGpDdlpwSnl6TnpKUWhSdXpTWFdhTTBtMmpfaHVvNGFGaGtXN3pQcURRUS1iWEdCQTltcXAxOGl0Zy1yYTlUNFNLc2dqYmpld0Y0RU1XelEySlF2ckp6cTBFenlPT09aRWxjTU1qOHQ1eUVCZUdHc0paUWhhaDFHMGxXd2FDdXZGTGlwZw?oc=5",
+      "title": "Gdzie na dożynki koło Wrocławia? Bezpłatne koncerty już w ten weekend!... Zdjęcie 4/31 - wroclaw.pl",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNc09BZ3ZBeHllNWRPMXlkZVBYeUtDTmFtT0l2QmhUMzEyWEdNWDQ3RVhkTV9zamRsZDZzYTZERDF1b2JTTGI5NlFJUWFrQzhSbUNEbnBqUjFIV0pmNHk4TlZmVmxqNFdnQ1Fhb2RCMU1zcGxyN3lLMFJQbkJGN1ZhOVFMa0pvZWctdVh1bkZWSEQ5UUJteVVnbnZkbVpuUQ?oc=5",
       "source": "wroclaw.pl",
       "sourceDomain": "wroclaw.pl",
-      "publishedAt": "2026-08-18T12:27:30Z",
+      "publishedAt": "2026-08-18T12:27:31Z",
       "query": "dożynki",
       "kind": "unclassified",
       "isPublic": null,
@@ -223,10 +331,10 @@
       ]
     },
     {
-      "id": "news-pl-4bf356fa96831d4b",
+      "id": "news-pl-569aad701e629c88",
       "country": "PL",
-      "title": "Gdzie na dożynki koło Wrocławia? Bezpłatne koncerty już w ten weekend!... Zdjęcie 5/31 - wroclaw.pl",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLWlmQXJWTG03RDhFV0pJS0tYUGN0alhvSkRxLXJ4dGg0c0g2WFplZ3NoQ1BJV2VnUkh3bC1OVnJZbU5xci1YVmZmUUJYRDFLTzJSX2Y3b1FmMHdpdkk5WWowNUlGaTNsYmhjZnV5a2liQ2hUa2w3XzY2dHdxSkdReXNkbXc5Zkp2dkZYWlBjZURsZVdiR2dmdnpya3U3dw?oc=5",
+      "title": "Gdzie na dożynki koło Wrocławia? Bezpłatne koncerty już w ten weekend!... Zdjęcie 1/31 - wroclaw.pl",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZkg3SWZkeHpTdEI4dFF2OVZ0LTRjNDNHR0I1Y2Q0YmZGdHZFNE1fcjVHNGMxbUMxX1ljVXhMa3pFWTYtRTBWR0xPTG9Oa1AtZ3c4UHFqbzF4dDM0TXdPdFQzM0NDR2VBZlZVOU85aUJEZnQzc1dPUEV1OGNmNmtLSkVwa2JoQUN6UnowSnl4OHQ3Rmw0VGpCZWVXNW5vQQ?oc=5",
       "source": "wroclaw.pl",
       "sourceDomain": "wroclaw.pl",
       "publishedAt": "2026-08-18T12:27:30Z",
@@ -385,24 +493,6 @@
       ]
     },
     {
-      "id": "news-pl-1d8970f20d0c0327",
-      "country": "PL",
-      "title": "Dożynki w województwie lubelskim. Tu warto się wybrać - Kurier Lubelski",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVlhXaUV4RHdCQmg2bVR1M0tRa3VORVZpNUpGYzlfSllqV0dwU3BFeGxyTGhCSlV5RjdFbFpuaW1tbW0wa0xIR2tOU0MxVWROVk0zM3BKei15RXcyN2FtTjE0TWxiOW5uLWNHUHJSOTZlelVyT3UyQlB0c0VzcVFSWS1iRk1qZ28tb1FFQVJBcGR0VmVYT3lZbFFsUE43bVE?oc=5",
-      "source": "Kurier Lubelski",
-      "sourceDomain": "kurierlubelski.pl",
-      "publishedAt": "2026-08-18T11:50:28Z",
-      "query": "dożynki",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.45,
-      "reasons": [
-        "published by a PL domain (kurierlubelski.pl)"
-      ]
-    },
-    {
       "id": "news-pl-d8483e3d9ac7f9a8",
       "country": "PL",
       "title": "Dożynki Gminno-Parafialne w Perzynach. Będzie korowód, koncerty i zabawa do późnego wieczora - Nowy Tomyśl Nasze Miasto",
@@ -457,24 +547,6 @@
       ]
     },
     {
-      "id": "news-pl-59cb578583487fc9",
-      "country": "PL",
-      "title": "Dożynki Gminne w Strzelcach 29 sierpnia - eKutno",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaHIyUHNVNEY1clVxOUJrQzV3b2Vfbm9JSHpYYnFheGt1eUphY2I0bjZzV1JWNkZKQ0pwd3A3b3dsX2xWMGE3b1E2eXJTRU85czZ3bTAza2lCelJYTGZLZHJHd3h6a3d5bnJBTmstVjlKbEpwdFN4andTczJIRkozamN0SUNhNWhJYVhFdW9B?oc=5",
-      "source": "eKutno",
-      "sourceDomain": "ekutno.pl",
-      "publishedAt": "2026-08-18T11:34:10Z",
-      "query": "dożynki",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.45,
-      "reasons": [
-        "published by a PL domain (ekutno.pl)"
-      ]
-    },
-    {
       "id": "news-pl-32c06cfd467fd194",
       "country": "PL",
       "title": "Dożynki Parafialno-Gminne w Leszczach. Zobaczmy jak wyglądała zabawa [FOTO] - e-kolo.pl",
@@ -508,6 +580,42 @@
       "confidence": 0.45,
       "reasons": [
         "published by a PL domain (nwloclawek.pl)"
+      ]
+    },
+    {
+      "id": "news-pl-9d09f72d698313cc",
+      "country": "PL",
+      "title": "Dożynki Gminno-Parafialne Gminy Sieradz odbędą się w Rzechcie. W programie tradycja, koncerty, atrakcje dla rodzin i zabawa taneczna - Dziennik Łódzki",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPLTF1SUk5ZnIzRjhaOXZZemk0cG5YMUwzZk1sSkdjdTI5T1pXRXEyLVVFZ1Y2MXJEdjc4YmgxNVd1Tlc5Q2dyVDFPMjQtR3lGNDk1TnRpN0p6dHBVelZEdzRqMDYzYlhXaHJTS1lqNy1OQUVsV1B4SDQxeldETEpEdXVWODlYNHZVN1ZTanZ3aHNJb25lWkwwUmx1UXpuNFo5bFp5VHliYkliM0g2c3RNVkdoaVZFUVhWWWJWOWV5NDdSNGdsS0ZIS1JfT2JmYVFVZ2RjV25qYmI1SG9BbGh2Mk5FVV9VTGJWdTR3aTFYWnVWckdYZWdSd0EzM2F2ZE1iTXl3?oc=5",
+      "source": "Dziennik Łódzki",
+      "sourceDomain": "dzienniklodzki.pl",
+      "publishedAt": "2026-08-18T11:19:11Z",
+      "query": "dożynki",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a PL domain (dzienniklodzki.pl)"
+      ]
+    },
+    {
+      "id": "news-pl-8a8124a41b9eeb40",
+      "country": "PL",
+      "title": "Dożynki Parafialno-Gminne w Jaśliskach - terazKrosno.pl",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdUVSQ3l4SEJvSXo1ei1jSFlHQnhMTnhtbVlWUV9YTVZfRlRiSmZ2eFRqeExYczd3bU5Oc0pkeGxUaFJtNUJxdzVWaE51UFlDalcwWUx2VnQwNmVfeUVReExxMWdYTmZjanl2aGJCMUNzb3pISk0xakJjdUlIU0ljRW9qeDVDNGpOZ0toUA?oc=5",
+      "source": "terazKrosno.pl",
+      "sourceDomain": "terazkrosno.pl",
+      "publishedAt": "2026-08-18T10:49:09Z",
+      "query": "dożynki",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a PL domain (terazkrosno.pl)"
       ]
     },
     {
@@ -565,9 +673,9 @@
       ]
     },
     {
-      "id": "news-pl-4a1e2a2fb1630c55",
+      "id": "news-pl-d3a76f27855e2784",
       "country": "PL",
-      "title": "Przed nami Dożynki Gminy Ciechanów [program] - Ciechanowinaczej.pl",
+      "title": "Przed nami Dożynki Gminy Ciechanów. Zagrają aż cztery zespoły [program] - Ciechanowinaczej.pl",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE55UGk2OUtsdnJHUzNPYU4wOEEzUFdnaTBpeHhHV2dwaHFzNnR3VUV3ZHozNGZTOVdBVTh5aDFyVjJHUWhoWDZiZEVualRQT2VHRTk0eE03TWlCa1ByWl9oTUlaNEJ4c1U5NXFTa1Vzam92WHBycmhrNQ?oc=5",
       "source": "Ciechanowinaczej.pl",
       "sourceDomain": "ciechanowinaczej.pl",
@@ -616,24 +724,6 @@
       "confidence": 0.45,
       "reasons": [
         "published by a PL domain (jaslo365.pl)"
-      ]
-    },
-    {
-      "id": "news-pl-8a8124a41b9eeb40",
-      "country": "PL",
-      "title": "Dożynki Parafialno-Gminne w Jaśliskach - terazKrosno.pl",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdUVSQ3l4SEJvSXo1ei1jSFlHQnhMTnhtbVlWUV9YTVZfRlRiSmZ2eFRqeExYczd3bU5Oc0pkeGxUaFJtNUJxdzVWaE51UFlDalcwWUx2VnQwNmVfeUVReExxMWdYTmZjanl2aGJCMUNzb3pISk0xakJjdUlIU0ljRW9qeDVDNGpOZ0toUA?oc=5",
-      "source": "terazKrosno.pl",
-      "sourceDomain": "terazkrosno.pl",
-      "publishedAt": "2026-08-18T10:19:28Z",
-      "query": "dożynki",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.45,
-      "reasons": [
-        "published by a PL domain (terazkrosno.pl)"
       ]
     },
     {
@@ -709,24 +799,6 @@
       ]
     },
     {
-      "id": "news-pl-d96a1ccfac8d8add",
-      "country": "PL",
-      "title": "Dożynki tuż, tuż! Gmina Kijewo Królewskie już wystrojona! - e-chelmno.pl",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbWt4bzAyVDRqUFNRZ3o1cGJUQUtTbVJuR0tJaElMdDdxelk2Wm03V29qTGJTbXdrT1hGRTljU091QmdHQ2laNXUzVlRldDRWMHRKQkxJc2NfUWhsSno4Ukc1UFJMMkFMdS1weEpjaFh0R1hKRFYxWWN2T29ZMzJEUUFVdVpTNXV4RXlXRU1lRVZtZUZDODF1OWdqMHNPRVlJY1JOMEZYMA?oc=5",
-      "source": "e-chelmno.pl",
-      "sourceDomain": "e-chelmno.pl",
-      "publishedAt": "2026-08-18T09:32:04Z",
-      "query": "dożynki",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.45,
-      "reasons": [
-        "published by a PL domain (e-chelmno.pl)"
-      ]
-    },
-    {
       "id": "news-pl-c37b598c7c442373",
       "country": "PL",
       "title": "Dożynki Gminne w Maniowach już 23 sierpnia - Podhale Region",
@@ -751,7 +823,7 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQc1dkdnM3Z1Q2VTFpSExhSEZpMVNCRGQ2bVVmOXI0ZVlmSjBQcjh4LTFtbERIdmhCZzNXR3NDR2JSMWF6Z1ZJTUYyUlVNMi1xRWczTjc3Zm9tYzFEUjM0SjY4bUdYeXRaM1FvZHhBSDgxYkozeTVTTGo5cWc5X2Y0SWRmRVFfTHgwTUxWN241cklXV1lBdGpjcVZDazA?oc=5",
       "source": "DOBA",
       "sourceDomain": "doba.pl",
-      "publishedAt": "2026-08-18T09:18:56Z",
+      "publishedAt": "2026-08-18T09:18:08Z",
       "query": "dożynki",
       "kind": "unclassified",
       "isPublic": null,
@@ -763,13 +835,13 @@
       ]
     },
     {
-      "id": "news-pl-9d09f72d698313cc",
+      "id": "news-pl-f0b83f814731b193",
       "country": "PL",
-      "title": "Dożynki Gminno-Parafialne Gminy Sieradz odbędą się w Rzechcie. W programie tradycja, koncerty, atrakcje dla rodzin i zabawa taneczna - Sieradz Nasze Miasto",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPaXV0azN5MkFsT1lVYTh3VFFySGd4Zk12eVFoWHhoNERNV3V5QUM3MnF6Q2ZVb0c2ZFh5d0hRVF9VQ2F4R0F5ZlFiOEZSWGhpaldRYl9OSWJpM1NYTzU3Vkd1SEtZNGhxTk1iWEl3eEdJcnJub2g5TUhoZHVOTE9QZEtGSWVWMUhOSzVoWkVJRk9QWnhQNXZNYzJRYjFyZ2tCNWUzeVJ4SUdVY0Y5YkozZXpvckFuMDB0NTZFN2JKVVJ6N3RLQW1tR0pkelVRa0RLZjh4cHpJeUkxNldJQk5QT1VwTnBCY2V4TGhrblhNZVh0NlExSmNoX0hYekdhRVdhZ1dFRWNvQ1hMZw?oc=5",
-      "source": "Sieradz Nasze Miasto",
-      "sourceDomain": "sieradz.naszemiasto.pl",
-      "publishedAt": "2026-08-18T09:11:54Z",
+      "title": "Dożynki 2026 w gminie Chełmek - Gazeta Krakowska",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPU1otYUVrOXRhSjJvMUhRRl8xTmhzZWZmM1BCcE1YZ2VLakoxUmJwVEcyRnZtdEdRelhTRVp6aDNGNjYwS0tlcFZrVkhVMnZjSnhiZ2FOMFU2dHpxczBwOE5DZXZLQU1RejFUcC1KcDVDVFJOMUluOE5ZNmVHbzlUSXJ2SFlITWEtaHhqWERsSUVFa0dWZG9WSGo4QWw1UkUxLVg3X1U0c2FFRjNQa21HZ0hQS29aVnFxczRWUFJHbHQxM3g3a2M3WXV1ZFpjd0JKbW5xbno1SnB1MXNXdmZSMldR?oc=5",
+      "source": "Gazeta Krakowska",
+      "sourceDomain": "gazetakrakowska.pl",
+      "publishedAt": "2026-08-18T09:06:48Z",
       "query": "dożynki",
       "kind": "unclassified",
       "isPublic": null,
@@ -777,15 +849,15 @@
       "whenText": "",
       "confidence": 0.45,
       "reasons": [
-        "published by a PL domain (sieradz.naszemiasto.pl)"
+        "published by a PL domain (gazetakrakowska.pl)"
       ]
     },
     {
       "id": "news-pl-a3752fa52f43160e",
       "country": "PL",
-      "title": "W sobotę Dożynki Gminno – Parafialne w Młynisku w gminie Biała - Radio Ziemi Wieluńskiej",
+      "title": "W sobotę Dożynki Gminno – Parafialne w Młynisku w gminie Biała - radiozw.com.pl",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUE1UZDBqOUN0RWs1dEFiVlJtSnFwMHdyazh1MEE1Zy1saklXaWVfUEVBVmRvWTJ5VU5TZFpJQ0VKdlZiZ1JObmdqa3poZFJ0enNTQVVLazB6RkFKd3ZUZHVYTGgtanZleG9ZRGZyTTRpOUlodnVwOXpKU1k5U1RPWXNTVEd0N1U5WXNqSmI5emdnZw?oc=5",
-      "source": "Radio Ziemi Wieluńskiej",
+      "source": "radiozw.com.pl",
       "sourceDomain": "radiozw.com.pl",
       "publishedAt": "2026-08-18T09:03:57Z",
       "query": "dożynki",
@@ -796,6 +868,24 @@
       "confidence": 0.45,
       "reasons": [
         "published by a PL domain (radiozw.com.pl)"
+      ]
+    },
+    {
+      "id": "news-pl-4da79fbbd829d0de",
+      "country": "PL",
+      "title": "Dożynki Gminne w Baniach 2026 – święto plonów już 5 września - chojna24.pl",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TTHFXZnRfMlhzMkp5ekxoZDZneF9qNy1WVkVoMHh0eVg3UDUxaDhUdTVuWlB6Z3lpWUZPMlJPVVJGNldKLXBCaEpZT3I4UUpWOEtZVW1NT0FpczBYSGR6MUVJNFIyb0MtMnRMOU9pNlZQUWpfLVY1eXRYSlRiUQ?oc=5",
+      "source": "chojna24.pl",
+      "sourceDomain": "chojna24.pl",
+      "publishedAt": "2026-08-18T08:54:00Z",
+      "query": "dożynki",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a PL domain (chojna24.pl)"
       ]
     },
     {
@@ -814,24 +904,6 @@
       "confidence": 0.45,
       "reasons": [
         "published by a PL domain (legnica.naszemiasto.pl)"
-      ]
-    },
-    {
-      "id": "news-pl-9acb952680ca1ec2",
-      "country": "PL",
-      "title": "Dożynki Wiejskie w Niżatycach - EkspresJaroslawski.pl",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQWhCWC1PTWJyQ1BYbkM0T3NlbS1GeDFsUVpTYUdSQnRHUWt3UWdIN2czajJTclpzbFVfN0EzZXEyamsxRXVxRkV3cmwybDVpaklSeF9kUkdIbGx1b0hDdzVJN1ZhVS0zemVHRE5GY2ZxdHF2Y0hOelg1YktLMW9CbFVB?oc=5",
-      "source": "EkspresJaroslawski.pl",
-      "sourceDomain": "ekspresjaroslawski.pl",
-      "publishedAt": "2026-08-18T08:50:00Z",
-      "query": "dożynki",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.45,
-      "reasons": [
-        "published by a PL domain (ekspresjaroslawski.pl)"
       ]
     },
     {
@@ -925,13 +997,13 @@
       ]
     },
     {
-      "id": "news-pl-4ccbb96d09681d1a",
+      "id": "news-pl-99f062c8eaf82af8",
       "country": "PL",
-      "title": "Zaproszenie na dożynki w Szczepankowie - myLomza.pl",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMQzNiQzZ4YzRDZUlRZzRjZTVQcnB1MTgyd3V5bGV1dXFaSW0xTEVRLTQ3ZTNNbmVJSk1LQU5Hc1dFMkJzNzNuNE5QYzRkV2NUczhkSUkzWFVwNlM0QV9aVW5SSk85TzN2blE?oc=5",
-      "source": "myLomza.pl",
-      "sourceDomain": "mylomza.pl",
-      "publishedAt": "2026-08-18T07:52:00Z",
+      "title": "Dożynki i festyny w Małopolsce: kiedy i gdzie? Oto kalendarz imprez plenerowych - Gazeta Krakowska",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQQ21MSGQ0WlFFWk0yYjZRMl9BWUZrWWs4YnBiS1BQZmtIclRUTlpMaTFhOEhrckt3dGhMaGNQbXZ3UnF0blJYR09rSUxBekJxX21BNW9MM2VVdmlDekM5X3JtMHNoSVhWOXZRMDAxcndxTGF4S0JhT0N1aFZ2R0xEOG5FVlBWQ1c5MWZxUlBNa0NVTFJ2ODRJLW5Gelk2RVpZb0NqcXMzTlU2OVVsamc0YUx5VWNRcUJNUnZMYXNOSG5ncXoxRUg2ZEM3a3NQZEhISkgzZnI5SFlURGQ0SDFRdDJWNW82VzVPV0d1dUNlczNhSm9HNm42SQ?oc=5",
+      "source": "Gazeta Krakowska",
+      "sourceDomain": "gazetakrakowska.pl",
+      "publishedAt": "2026-08-18T07:53:11Z",
       "query": "dożynki",
       "kind": "unclassified",
       "isPublic": null,
@@ -939,7 +1011,7 @@
       "whenText": "",
       "confidence": 0.45,
       "reasons": [
-        "published by a PL domain (mylomza.pl)"
+        "published by a PL domain (gazetakrakowska.pl)"
       ]
     },
     {
@@ -979,13 +1051,13 @@
       ]
     },
     {
-      "id": "news-pl-c920bf3e54286d93",
+      "id": "news-pl-1d8970f20d0c0327",
       "country": "PL",
-      "title": "Dożynki Powiatowo-Gminne w Węgrze. Święto plonów już 6 września - ePrzasnysz.pl",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9MR2RSdEpHWnY5Q0RxMFl3LVFTM3BNM3QwU0xPOEFVTDFKSzAyU0gtOGJHRUh4ekU3RU5Teks3Z1F6S0pJaTlDT2x6cEVaVkREYVZBUmJ3M3k5YzlwTWlqbU1VejV3YXZ3XzdtLTd4T0c?oc=5",
-      "source": "ePrzasnysz.pl",
-      "sourceDomain": "eprzasnysz.pl",
-      "publishedAt": "2026-08-18T07:33:00Z",
+      "title": "Dożynki w województwie lubelskim. Tu warto się wybrać - Kurier Lubelski",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOS0xEYUR5OWdRUll1WEZrM0NaT2FXOGJBeVVRX0dSUDMtWjJfQkhVcHZ1aFdwNkFxM3JzdGtIbnlLaUZVLS1vV19SemFsa09ERzZWNUpReUVha3FJbl9OT0picnh6bmxDajU0cy1yVzlCSnVBN01SRVhOT21VN2JpZGhfaTNrbWJhOEE1WUxqUVpvNzdvMFJVNTNzTEk?oc=5",
+      "source": "Kurier Lubelski",
+      "sourceDomain": "kurierlubelski.pl",
+      "publishedAt": "2026-08-18T07:26:37Z",
       "query": "dożynki",
       "kind": "unclassified",
       "isPublic": null,
@@ -993,7 +1065,7 @@
       "whenText": "",
       "confidence": 0.45,
       "reasons": [
-        "published by a PL domain (eprzasnysz.pl)"
+        "published by a PL domain (kurierlubelski.pl)"
       ]
     },
     {
@@ -1017,9 +1089,9 @@
     {
       "id": "news-pl-c7bfa23f91f1fc3d",
       "country": "PL",
-      "title": "Powiat zamojski podziękuje za plony. Wielkie dożynki w Szczebrzeszynie - kronikatygodnia.pl",
+      "title": "Powiat zamojski podziękuje za plony. Wielkie dożynki w Szczebrzeszynie - Kronika Tygodnia",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR0NOTDVjak40ajRsZ3BWejcwNXZOUEZfTm1KY0JIR3ZjREJ2Ym80TzBIS0VMYkczSHhRb29ucHFQcW1XbThQU3psVFNMMzhuc1poTUVQelY4Z0tqNHN0RlZsMkFiSy1hN3FaYTJoMWVNaVVKbm9hYVdUd0w4cnllZVFqRFlPYl9WMEQ1d1pPOXo1Y0JCQXNNWHJNVm5jVE1CMkQzOHNvYVVTWVotX3VHNVdFRWk?oc=5",
-      "source": "kronikatygodnia.pl",
+      "source": "Kronika Tygodnia",
       "sourceDomain": "kronikatygodnia.pl",
       "publishedAt": "2026-08-18T07:20:00Z",
       "query": "dożynki",
@@ -1030,24 +1102,6 @@
       "confidence": 0.45,
       "reasons": [
         "published by a PL domain (kronikatygodnia.pl)"
-      ]
-    },
-    {
-      "id": "news-pl-8e9efefa0454115f",
-      "country": "PL",
-      "title": "Dożynki Gminy Chełm nad Zalewem Żółtańce. Program, konkursy i koncert Izabeli Trojanowskiej - Super Tydzień Chełmski",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTUcxd1BPdmI2N2Z4dmZzcURtc05ibUpKUmlaNHpFT0ZpeDlmcTBfa0dWS3pQejh6dHhWN3h1UHFUb2VIV2xra3FVOWhJWTExcVNSYkR0VFU0VmpWLTFhLW1NQlZGVVNTcWxfSXNHNGVCVmxxV1M0U1kzTC1pbEE3dklKTk43VFI4UkNkR0VhRHF5OXlmbTFZUHE3bUdBZmpjMnF3dE5heklUaDlJLWN5UERZNjRkREVYWG1MMXhQZm5EU0hkdUpYVzRvS2RZbUI5clRoTVVDcw?oc=5",
-      "source": "Super Tydzień Chełmski",
-      "sourceDomain": "supertydzien.pl",
-      "publishedAt": "2026-08-18T07:12:00Z",
-      "query": "dożynki",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.45,
-      "reasons": [
-        "published by a PL domain (supertydzien.pl)"
       ]
     },
     {
@@ -1213,24 +1267,6 @@
       ]
     },
     {
-      "id": "news-pl-26310f9bf55167a5",
-      "country": "PL",
-      "title": "Świętowanie nie zna granic. W Osieku dożynki połączone zostały ze „Smakami i rytmami pogranicza”. Stoły uginały się od jedzenia - Gazeta Krakowska",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNeFN6c3puNFExOUV0LVVsWTRoYlZySHFhb3llQ0VteDlNTGJZZVhWVHZOZ0t2VC1wRS1pM21TU1pnbzJKektibTUyWUNIUHZPVHlNd1lwMUNjdXAxdDVyd2xvaVFRcEJ3OHV0cHNkck1pV3hFam5hQThIcVdnc1ljbFZWbzNoVEJYLU5fbzVpUloySVBtY2U2UEpEZDEzWEtLY0tvSlRINFJwR0JkSWpOcG9CTFdrM0FxTGpQZy1XV3kxZmV2eFRBWEtCcEdIek0yTm96NjBwUnIyWFRia0EyUnlfMzk0ZGpQb0xPNkNoeWFyV05OTWo1ZjRnSQ?oc=5",
-      "source": "Gazeta Krakowska",
-      "sourceDomain": "gazetakrakowska.pl",
-      "publishedAt": "2026-08-17T13:25:31Z",
-      "query": "dożynki",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.45,
-      "reasons": [
-        "published by a PL domain (gazetakrakowska.pl)"
-      ]
-    },
-    {
       "id": "news-pl-08cbb64118dc287d",
       "country": "PL",
       "title": "Wojewódzkie Dożynki w Dołubowie - Samorzad.gov.pl",
@@ -1246,24 +1282,6 @@
       "confidence": 0.45,
       "reasons": [
         "published by a PL domain (samorzad.gov.pl)"
-      ]
-    },
-    {
-      "id": "news-pl-5099e890a698bed6",
-      "country": "PL",
-      "title": "Na dożynki autobusem lub pociągiem - swidnik.pl",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5uNFlFWTZHclhuYWZNRzZ4OVN3cWJhRkNtZ2NYc09lOVVaYUs1eWhHaDZXUFpjQ2FGaWx5dE5PUnlIMk9QVVUzbmdKdE05eEhtc3NoQmNSUV80RnlFUTBHeEVWVjdaWnJGa1E?oc=5",
-      "source": "swidnik.pl",
-      "sourceDomain": "swidnik.pl",
-      "publishedAt": "2026-08-17T11:27:38Z",
-      "query": "dożynki",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.45,
-      "reasons": [
-        "published by a PL domain (swidnik.pl)"
       ]
     },
     {
@@ -1287,9 +1305,9 @@
     {
       "id": "news-pl-5b1fae7e9d408368",
       "country": "PL",
-      "title": "Dożynki z Województwem Łódzkim. Poczwórne święto tradycji - Łódzkie.pl",
+      "title": "Dożynki z Województwem Łódzkim. Poczwórne święto tradycji - lodzkie.pl",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONFNMRk1fS21fbUowdmRDVUdrVnhYREI5bUVnc3R3RHQtYm90T0pSZEl2WGxBWGk5cmdmT2NvZDFaOERpSVFFVUxNcFhuMDJiTG0xWHlvWHpaVWlyTGppRDZ1aTlpYjFhRFpsTHJVSE9hYVRVd2djTkY3ZG53WXNwWlh1UVh4ZDR5R0ZWSXNoeUVnR2JPbXhDQVBIQUhDYl9fd0RmTGlwRzk?oc=5",
-      "source": "Łódzkie.pl",
+      "source": "lodzkie.pl",
       "sourceDomain": "lodzkie.pl",
       "publishedAt": "2026-08-17T10:27:06Z",
       "query": "dożynki",
@@ -1318,24 +1336,6 @@
       "confidence": 0.45,
       "reasons": [
         "published by a PL domain (wadowice.pl)"
-      ]
-    },
-    {
-      "id": "news-pl-7be209eb035114a9",
-      "country": "PL",
-      "title": "Dożynki gminno-parafialne w Bobrownikach - Dzień Dobry Włocławek",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPc1FmdW05UHpsNHNZWHZIdHBldDdpd1BMeTlkQUVNSEtiT3pWRmVlZTI4dmxsZGxwYjhiR0ttSGpQQzY1b2xoTHlFY2NMRTZtVGJRek9EUUE0aFFCTUk1d1Fwb3N3SVo5OEdtWEhFdGswRERZdGNRSXJNVGJIYjU3S0xrUlN1LVdITVhPWVBuUjYtaGttOF9TUHhZMlNjcGM5Y0JKUkxB?oc=5",
-      "source": "Dzień Dobry Włocławek",
-      "sourceDomain": "ddwloclawek.pl",
-      "publishedAt": "2026-08-17T08:13:00Z",
-      "query": "dożynki",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.45,
-      "reasons": [
-        "published by a PL domain (ddwloclawek.pl)"
       ]
     },
     {
@@ -1413,9 +1413,9 @@
     {
       "id": "news-pl-580e3b19260bdb57",
       "country": "PL",
-      "title": "Odpust Wniebowzięcia NMP. Tłumy wiernych na kalwaryjskich dróżkach - faktywadowice.pl",
+      "title": "Odpust Wniebowzięcia NMP. Tłumy wiernych na kalwaryjskich dróżkach - Fakty Wadowice",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSUQ5TEFfdkF3UXk1U0xTSjNMRU9rTC11XzllRUNxcU02WWVEei03bTRPTF9iYnpGWjlFY1labktyZ0swV09DLXkxbmpyODY5SlMtOUNhekJCQjNRQXJoeHQtNnFveVJvTGoyLTBzZVZHalU3ZzRUeWVGaEJsN3ducXBxNjltekdLR0Z0N3BBZ29uc2dFQ0tncElocXlJZVR5dUNpVDJyS0tTQQ?oc=5",
-      "source": "faktywadowice.pl",
+      "source": "Fakty Wadowice",
       "sourceDomain": "faktywadowice.pl",
       "publishedAt": "2026-08-16T19:36:38Z",
       "query": "odpust procesja",
@@ -1426,6 +1426,24 @@
       "confidence": 0.45,
       "reasons": [
         "published by a PL domain (faktywadowice.pl)"
+      ]
+    },
+    {
+      "id": "news-pl-43c3fb8a2244b223",
+      "country": "PL",
+      "title": "Dożynki Gmina Tarnogród 2026: Święto w Luchowie Dolnym FOTO - bilgoraj.com.pl",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPT1VnS1BzWHM4OG02QVZIQWhoYnZuQkVsTjd4STdqSHFaazZZaUh3aFRpRk1uNm1mV0VhX1Jac3NLeXlSSWplbHBKUEpSbjF5UFd3NVZTSEhLMk11dkgtcU1fS0NGWkdwNFM2LTNucXRVUVpxNTJDTXJtMmtqLWxhTXdEUnJzMUt1MjVDMFBpOExiOVRrVXY5ZkNRUWd0Q0N0ZWRWeGVMZGFORmdqQktqRVlnVUU3NmhOWm1sVQ?oc=5",
+      "source": "bilgoraj.com.pl",
+      "sourceDomain": "bilgoraj.com.pl",
+      "publishedAt": "2026-08-16T16:53:10Z",
+      "query": "dożynki",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a PL domain (bilgoraj.com.pl)"
       ]
     },
     {
@@ -1467,9 +1485,9 @@
     {
       "id": "news-pl-6fe167ca3917e6cd",
       "country": "PL",
-      "title": "Dożynki w Korzennej. Widowiskowy korowód za nami - dts24.pl",
+      "title": "Dożynki w Korzennej. Widowiskowy korowód za nami - DTS24",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5UbXpMbmQ2UFBoN3VRYkoteHdWNFZhNWVLdFpFTFFybUZycTlmTHd2VDhYN2oyYXdXakVOVEtkTDdnLVdNdVRqa0N3cTF4OVVTX0ZsbDNmTldnYXVEVDBZdE9FWklGblNHZzd0X3lYalh3LXhSZFZvNktTd1JhUQ?oc=5",
-      "source": "dts24.pl",
+      "source": "DTS24",
       "sourceDomain": "dts24.pl",
       "publishedAt": "2026-08-16T09:00:00Z",
       "query": "dożynki",
@@ -1519,6 +1537,24 @@
       ]
     },
     {
+      "id": "news-pl-075e35ca1c174fc5",
+      "country": "PL",
+      "title": "Dożynki 2026 czas zacząć! Pstrążna już się bawi (foto) - Rybnik.com.pl",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMk1YbnNveEY5TjV4dVZPcGJGVHFhVlhqVnhlQklLeUNzX05SalY0RTlyZDBnM29GcGZrN3FEdnlsQThGQjZDeURSOFlWSWtuQ3RrYjBPZEZicFNmeV9SRTF0VHg5d0h4LVoya0NrNm1TcG5zWnRHUnVpTUZxcGw4NTF5MUhuX2p1WWE2Y084Rm0wc3JETUxVVkgzaUxMTGlic29XM0JGdDU2V0Fjcmc?oc=5",
+      "source": "Rybnik.com.pl",
+      "sourceDomain": "rybnik.com.pl",
+      "publishedAt": "2026-08-15T13:49:00Z",
+      "query": "dożynki",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a PL domain (rybnik.com.pl)"
+      ]
+    },
+    {
       "id": "news-pl-0553e59bcc5b2ec7",
       "country": "PL",
       "title": "Odpust w Miasteczku Śląskim - Tygodnik Gwarek - Tarnowskie Góry",
@@ -1557,9 +1593,9 @@
     {
       "id": "news-pl-0420ee5385c911d7",
       "country": "PL",
-      "title": "Tysiące pielgrzymów w modlitewnej zadumie na kalwaryjskich dróżkach. Procesja Zaśnięcia NMP - faktywadowice.pl",
+      "title": "Tysiące pielgrzymów w modlitewnej zadumie na kalwaryjskich dróżkach. Procesja Zaśnięcia NMP - Fakty Wadowice",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQVJIcG5XVE4zdjFKQzRZRlVCQ2dVZzBiYzV0UmVfOEFrUVlfeTRHeGxnNC0zUW5FeXRZUHVwQlFpX0FmNlJrMjMxSUZHWXRqT3RNbEQ0MFZIUFJnQjdNX0plV01wTkxGOE8wLTdrT3QyWFlEeGdONTNwOXIwYjlxWTZqcEJCc0J0aGdpR1FqR29NVDFEcHZZb1NqX3JPQU9ySk1YcDVqZTM5d3o5Sm94bU9hemFTM0VFTkRmMnhGSUYybF9ZaUhnbkFWQQ?oc=5",
-      "source": "faktywadowice.pl",
+      "source": "Fakty Wadowice",
       "sourceDomain": "faktywadowice.pl",
       "publishedAt": "2026-08-15T07:05:53Z",
       "query": "odpust procesja",
@@ -1570,6 +1606,24 @@
       "confidence": 0.45,
       "reasons": [
         "published by a PL domain (faktywadowice.pl)"
+      ]
+    },
+    {
+      "id": "news-pl-61e3dfeaacc19b4b",
+      "country": "PL",
+      "title": "Dożynki powiatowo-gminne w Przysusze - Gov.pl",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1qNlltZS1TMHRrNUt4cDFLTzdmSDVsM1FQVE1hVFBCRjhkYkRVSnMxbnh6Zy0zdlNsTS1Sa1duTVJ1dlQ1czFoMEtLdWpWd0ZWclc4alNsZ2kya1dNUjBUeUluN09YSFZkR05VTXN3NHpSYVF4S3F3UTV2UmxaQQ?oc=5",
+      "source": "Gov.pl",
+      "sourceDomain": "gov.pl",
+      "publishedAt": "2026-08-15T07:00:00Z",
+      "query": "dożynki",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a PL domain (gov.pl)"
       ]
     },
     {
@@ -1825,22 +1879,20 @@
       ]
     },
     {
-      "id": "news-pl-8948b92b0ef6d268",
+      "id": "news-pl-0b4755e1719f8b69",
       "country": "PL",
-      "title": "Powiatowo-Gminne Dożynki z Województwem Łódzkim w Czarnożyłach. Będzie tradycyjnie, smacznie i muzycznie - kulisy.net",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBjV2pDR0daNkxKQ2VkNW9iVGxDQXhxWVJ3MUtvN0hVMWt5dUF6Nl9kQzZhRmduOFFvOHFJYVBoMWpPQWVvTjhraUg3eFRNaF9xTjVQTnd5cTA3OFlrSkx3Umtkc1JmOUxqaGN4cw?oc=5",
-      "source": "kulisy.net",
-      "sourceDomain": "kulisy.net",
-      "publishedAt": "2026-08-18T11:09:00Z",
+      "title": "Pulsometr – Dożynki w Osięcinach – Koncert Skolima - Telewizja Kujawy Włocławek",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYTlLRkZUajc2QUFsNE5FaGhjVEpUUEVuNEQ0NkUtaGNPcEJYS3RycnNEQlNlcGxtdlNrbUJ5TlhXOEctODhWc281dHM4VF9NWm1tck9ZTHd4RkVzSDA5TEIyVHZDRnl6QzlDNVF4dkx2dGc2UzZ0d2F5Rmp3U2psSWZwLUkwNmsxNmc?oc=5",
+      "source": "Telewizja Kujawy Włocławek",
+      "sourceDomain": "kujawy.info",
+      "publishedAt": "2026-08-18T15:04:33Z",
       "query": "dożynki",
       "kind": "unclassified",
       "isPublic": null,
       "place": "",
       "whenText": "",
       "confidence": 0.2,
-      "reasons": [
-        "generic domain, origin unverified"
-      ]
+      "reasons": []
     },
     {
       "id": "news-pl-6211e008a9f8a246",
@@ -1912,7 +1964,7 @@
       "confidence": 0.11,
       "reasons": [
         "published by a non-PL domain (echodnia.eu)",
-        "echodnia.eu seen before (10 stories)"
+        "echodnia.eu seen before (9 stories)"
       ]
     },
     {
@@ -1931,7 +1983,7 @@
       "confidence": 0.11,
       "reasons": [
         "published by a non-PL domain (echodnia.eu)",
-        "echodnia.eu seen before (10 stories)"
+        "echodnia.eu seen before (9 stories)"
       ]
     },
     {
@@ -1950,7 +2002,7 @@
       "confidence": 0.11,
       "reasons": [
         "published by a non-PL domain (echodnia.eu)",
-        "echodnia.eu seen before (10 stories)"
+        "echodnia.eu seen before (9 stories)"
       ]
     },
     {
@@ -1969,7 +2021,7 @@
       "confidence": 0.11,
       "reasons": [
         "published by a non-PL domain (echodnia.eu)",
-        "echodnia.eu seen before (10 stories)"
+        "echodnia.eu seen before (9 stories)"
       ]
     },
     {
@@ -1988,7 +2040,7 @@
       "confidence": 0.11,
       "reasons": [
         "published by a non-PL domain (echodnia.eu)",
-        "echodnia.eu seen before (10 stories)"
+        "echodnia.eu seen before (9 stories)"
       ]
     },
     {
@@ -2007,7 +2059,7 @@
       "confidence": 0.11,
       "reasons": [
         "published by a non-PL domain (echodnia.eu)",
-        "echodnia.eu seen before (10 stories)"
+        "echodnia.eu seen before (9 stories)"
       ]
     },
     {
@@ -2026,26 +2078,7 @@
       "confidence": 0.11,
       "reasons": [
         "published by a non-PL domain (echodnia.eu)",
-        "echodnia.eu seen before (10 stories)"
-      ]
-    },
-    {
-      "id": "news-pl-5c8c1c69f8b757a5",
-      "country": "PL",
-      "title": "Dożynki Parafialno-Gminne w Jastrzębi już 23 sierpnia - Echo Dnia",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUERYU3RrZXhDdUJjQ2cwREdOeXRLTnR0N3JmN25CNnB2MXZ2LUlNNDlxZFA4MURuZjJTNUpRazU5d21VelROamNaV2pHUEQ5dExKYjhGWnBRZUVTcnZlQ0xJbGJpUjUxT1R5RDVYMS1KTmJUNzYxaTFNQjRNRTBpTVBTRTJZdUtrT3F2RVBGUjJuNi1Eekl1OWR1TmYtUDkwQ3k0?oc=5",
-      "source": "Echo Dnia",
-      "sourceDomain": "echodnia.eu",
-      "publishedAt": "2026-08-18T06:33:00Z",
-      "query": "dożynki",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.11,
-      "reasons": [
-        "published by a non-PL domain (echodnia.eu)",
-        "echodnia.eu seen before (10 stories)"
+        "echodnia.eu seen before (9 stories)"
       ]
     },
     {
@@ -2064,7 +2097,7 @@
       "confidence": 0.11,
       "reasons": [
         "published by a non-PL domain (echodnia.eu)",
-        "echodnia.eu seen before (10 stories)"
+        "echodnia.eu seen before (9 stories)"
       ]
     },
     {
@@ -2083,7 +2116,7 @@
       "confidence": 0.11,
       "reasons": [
         "published by a non-PL domain (echodnia.eu)",
-        "echodnia.eu seen before (10 stories)"
+        "echodnia.eu seen before (9 stories)"
       ]
     },
     {
@@ -2143,9 +2176,9 @@
     {
       "id": "news-pl-1050cf2e8730ba69",
       "country": "PL",
-      "title": "Dożynki powiatu płockiego już za kilka dni! Co będzie się działo? - Katolickie Radio Diecezji Płockiej",
+      "title": "Dożynki powiatu płockiego już za kilka dni! Co będzie się działo? - krdp.fm",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdmJtdi12blp3SGdHMTRjRHVJbUxod3lqUGJqNGZDU2p4aXdQUEFfRU1OSHFmTGZoUkE4SDYyblF0QVVaQ3hOUnRFQUJJa21sS2xJSlN6X1FBUzNhcHhYV3h5UHFoVlBnMmdkRTNPcUMwOVk0N2xweU5rejNyb1ZYVzN2VWg4MWPSAYwBQVVfeXFMTV85bjRLaU54MWpKck1yV2kxLVozUEhKNk5kX2dnRWR3aGdyUi13WkVqN0pjT1FzaS02VEJhMFJfUEVkbEJsRXhKTVZXNlA1VmxUMURua0VnLU9LbXh4V2FWNmlvR2ZkNG0yaHlpTmExTnFpQXIxdnV3U09URG1Fd2NwTjBXY3dyY3hIbnE?oc=5",
-      "source": "Katolickie Radio Diecezji Płockiej",
+      "source": "krdp.fm",
       "sourceDomain": "krdp.fm",
       "publishedAt": "2026-08-18T09:39:05Z",
       "query": "dożynki",

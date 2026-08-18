@@ -1,11 +1,30 @@
 {
   "country": "GT",
   "name": "Guatemala",
-  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "generatedAt": "2026-08-18T16:31:55.664980Z",
   "refreshHours": 168,
   "status": "unfiltered",
   "count": 140,
   "reports": [
+    {
+      "id": "news-gt-2fb494808cba1862",
+      "country": "GT",
+      "title": "En Olaeta preparan una gran fiesta patronal para el 30 de agosto | - Córdoba Interior Informa",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT0RSb2t5WW1IdTRDTFNDVUl1YmZ2TzRyLVczT01KZEpRdGotckhCa3Z0a0lfQmhneFRvbmN5MGhJT2x2b09YRmw3T09vWHBMckZLZkRtRHNfRlFxYWc0RE52MnRGRFA1bW9UMUpxdi1Takk4UDRoTHBwckJteVk4V0lhZlozbE4tWkh4WGFrVzRROW1uV0NzcWxGNVZ5SUthWGVNV25nU1RqZGFOUDcyOA?oc=5",
+      "source": "Córdoba Interior Informa",
+      "sourceDomain": "cordobainteriorinforma.com",
+      "publishedAt": "2026-08-18T15:22:57Z",
+      "query": "feria patronal",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "cordobainteriorinforma.com seen before (5 stories)"
+      ]
+    },
     {
       "id": "news-gt-b9c69bd8921d90c2",
       "country": "GT",
@@ -178,25 +197,6 @@
       ]
     },
     {
-      "id": "news-gt-ed534cf179592e90",
-      "country": "GT",
-      "title": "San Roque pone el broche final a las fiestas de El Mojón con su tradicional procesión - Cartagena Actualidad",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPYlhBR3I3cFE2MHgzVXZEcUlwendFeThrcUtxZThzdnF1R01ocnpsemVYUU5lVHlpX3d5V19iS3VXLW9yMVZSdXNvbVc2OUJCNTRmRVpKeTY1ci1OSzF1UVpFTWY2S1pmcnZja3RRM3E5UndRQ1ItUUlTRlBsYTZFNi0ydmlEbGZsaW1iWUFXaWY3UUx2WXV6bkd6WThXbGhabjJoNkJ2bWZfM1liQmJxUFhjYjg1M1kzcGRFUGMzb0dZaHdLQ3ZGSm9kR2FEMEt5SkRQN0hVT2czeGw2ZW5VNzYyTFh1NmZZMlZrTNIB8gFBVV95cUxQdTZ6X3N2Z0lPVFlxdnFQXzZ5VXNDSm14RlJTdHQzWXNHaWdJSWRhVWhCWUd6OThrMG5zWTc4NFBaNmMtUFRjSS1SbFRpQ19WWVpGYjVEZFVyMFg5bEhWWXF1Vi1WcXluVW4xdzhQenBaNV9FcDZXZUQtaFhOM1NMRUZ2dVY1R3RJUm9lWGV0c3Fxc2tFNkdmbG5qcm5MTXBrc2VfVFExZjVqRzhmemowOHV5QVhsTUFVakljdm9GS3p5R0pVbWw1NE1PbWgtYWlfajV1cXVxaUxReldBemlCOWVtVHJQVllKMkJTVGNxNzBqQQ?oc=5",
-      "source": "Cartagena Actualidad",
-      "sourceDomain": "cartagenaactualidad.com",
-      "publishedAt": "2026-08-17T11:13:31Z",
-      "query": "celebración tradicional",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.26,
-      "reasons": [
-        "generic domain, origin unverified",
-        "cartagenaactualidad.com seen before (6 stories)"
-      ]
-    },
-    {
       "id": "news-gt-209b901853e26e21",
       "country": "GT",
       "title": "La Feria Chica de Lorca regresa un año más para celebrar la devoción a su patrona, Santa María Real de las Huertas - Las Gastrocrónicas",
@@ -292,25 +292,6 @@
       ]
     },
     {
-      "id": "news-gt-826be60ab12c9ba8",
-      "country": "GT",
-      "title": "Cabo de Palos abre sus Fiestas Patronales con la tradicional Ofrenda Floral a la Virgen del Mar - Cartagena Actualidad",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPY2V6UW1HdkZ3Y1NDR0ZvVkg5M2FZTm5qUzdlOHV4NldUQkU0azU3anZjVS1VQWVfQWpMRE90UzZCc3NjMF9yeDFuMnRrRERaUklpQkQxcXpiREMyTHZxeDhXZXdaN1VZR0pINGVubXR6MU5UU0I2QnNFY2lJaUdTalZ5RUFpSnFfcXdia0RGSnVlZzB2YmJuUnBPUVdYalpMNEctUmNjVXNTVVRrSGpPdG4yZVV5WF9CVDNZTmh1OEZNaHI0M3lZb2s1NTg2OHhpV05wU29ydldZX3pITENGYXd2eEdNcktVdFVZN0UtUEZYeFNM0gH6AUFVX3lxTFBRc3BmeVFSbTJ6b0NjZFpfMmFPLUh4V3o3cWh4Q0FybWFKTGE5TFVwX3R4M1B6LXFKRmxIaUotRXhTaUhWQzdnWFlYb0tnYzhOVjNqYUltTzdzUXJfRkpLeVY1ek1NMm1fWUI5bzJzMFdZSjdJZlU3dWlNR0Jiazl2U0ZvZ2JHd0tYWjVCOW1Gc1Q4SEk1TlgxNEtQSXBWY1ZRTDk2b2o0cHlic2pCZWQ5aFdLRzJQZHdoTUdFR0dQTDBObmZLQUVhV3hYUlFGUlNWaURsUTllLXZjYVh6NE5mRWp1cVZaTVZXanN0OXdVSDdmazVJaVN2ZlE?oc=5",
-      "source": "Cartagena Actualidad",
-      "sourceDomain": "cartagenaactualidad.com",
-      "publishedAt": "2026-08-15T07:56:30Z",
-      "query": "celebración tradicional",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.26,
-      "reasons": [
-        "generic domain, origin unverified",
-        "cartagenaactualidad.com seen before (6 stories)"
-      ]
-    },
-    {
       "id": "news-gt-cb6b9958908da265",
       "country": "GT",
       "title": "San Roque prepara su gran fiesta patronal - El Tribuno de Jujuy",
@@ -326,7 +307,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "eltribunodejujuy.com seen before (14 stories)"
+        "eltribunodejujuy.com seen before (13 stories)"
       ]
     },
     {
@@ -554,9 +535,9 @@
     {
       "id": "news-gt-8b196ec2f8c3e398",
       "country": "GT",
-      "title": "Pachamama de los Niños: tradición y cultura en el parque San Martín - HolaSalta",
+      "title": "Pachamama de los Niños: tradición y cultura en el parque San Martín - holasalta.com",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUUJLOHRsbmxvV21GekRIalc0Szhvd1FvWDh6aUFRa21oaGtSclhHODRLbUl6RnhaNEZsaUQ2VzNWT2ZDQm1ETGxaclFnNFZtRFJjT1czTHBOdFk2NmU0YnFlTGhRNnZDZE80dVFmbE54Z1BidkhCSUtROXhxaEJiSDZkTlhtT1FHSGJyaE1zZE9BamlDZlhSdS1IeXNuWFk?oc=5",
-      "source": "HolaSalta",
+      "source": "holasalta.com",
       "sourceDomain": "holasalta.com",
       "publishedAt": "2026-08-17T18:25:35Z",
       "query": "celebración tradicional",
@@ -660,6 +641,24 @@
       ]
     },
     {
+      "id": "news-gt-ed534cf179592e90",
+      "country": "GT",
+      "title": "San Roque pone el broche final a las fiestas de El Mojón con su tradicional procesión - Cartagena Actualidad",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPYlhBR3I3cFE2MHgzVXZEcUlwendFeThrcUtxZThzdnF1R01ocnpsemVYUU5lVHlpX3d5V19iS3VXLW9yMVZSdXNvbVc2OUJCNTRmRVpKeTY1ci1OSzF1UVpFTWY2S1pmcnZja3RRM3E5UndRQ1ItUUlTRlBsYTZFNi0ydmlEbGZsaW1iWUFXaWY3UUx2WXV6bkd6WThXbGhabjJoNkJ2bWZfM1liQmJxUFhjYjg1M1kzcGRFUGMzb0dZaHdLQ3ZGSm9kR2FEMEt5SkRQN0hVT2czeGw2ZW5VNzYyTFh1NmZZMlZrTNIB8gFBVV95cUxQdTZ6X3N2Z0lPVFlxdnFQXzZ5VXNDSm14RlJTdHQzWXNHaWdJSWRhVWhCWUd6OThrMG5zWTc4NFBaNmMtUFRjSS1SbFRpQ19WWVpGYjVEZFVyMFg5bEhWWXF1Vi1WcXluVW4xdzhQenBaNV9FcDZXZUQtaFhOM1NMRUZ2dVY1R3RJUm9lWGV0c3Fxc2tFNkdmbG5qcm5MTXBrc2VfVFExZjVqRzhmemowOHV5QVhsTUFVakljdm9GS3p5R0pVbWw1NE1PbWgtYWlfajV1cXVxaUxReldBemlCOWVtVHJQVllKMkJTVGNxNzBqQQ?oc=5",
+      "source": "Cartagena Actualidad",
+      "sourceDomain": "cartagenaactualidad.com",
+      "publishedAt": "2026-08-17T11:13:31Z",
+      "query": "celebración tradicional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
       "id": "news-gt-a94a9f1f63842735",
       "country": "GT",
       "title": "Ágreda celebra la tradicional pedida del toro de San Roque - Plaza Nueva",
@@ -680,12 +679,30 @@
     {
       "id": "news-gt-51afed2da48188c9",
       "country": "GT",
-      "title": "Monte Hermoso confirmó las bandas para la Fiesta de la Primavera: dos pesos pesados del rock nacional - La Brújula 24",
+      "title": "Monte Hermoso confirmó las bandas para la Fiesta de la Primavera: dos pesos pesados del rock nacional - labrujula24.com",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOb3AyNDBYeXpaQzNkYjNJRC1jNl83b0Mtb2VwNWpjS2lLZ1BvUmVMMlBLaElYUEc4TTMwMkVPU2E2ZlhaRFJqT19UQVFTVm5MVEpjSFJBNEZkTklTUHBOWjVqYy11Z1c5V3lVU05ST3JqcFdaODNRTFUza0FNa01HSFR3UXVaNFdqSHVCN1FrNWZuN2lkRnJ4cjlxSlpXN3h4U1J6VEhMMHZoZlYyUDJTRVFhVFY3Wl9yd0NPZHR0SlZscEYxSUVsNk55UnFmM1F0b2k3Zi01TW1LTERJRzY1R1FfSFJmY0EwaFE?oc=5",
-      "source": "La Brújula 24",
+      "source": "labrujula24.com",
       "sourceDomain": "labrujula24.com",
       "publishedAt": "2026-08-17T10:49:21Z",
       "query": "celebración tradicional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-gt-a4e9ddeb28de6aeb",
+      "country": "GT",
+      "title": "Una nueva marcha acompañará la procesión extraordinaria del Encuentro Nacional de Cofradías - Diócesis de Salamanca",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNWdJWDMwQWdGa1N3akxZd0xZRVZTS0t1ekZieWZHbFpGVlVBWlJvWVFCX0g4NXBEOUdMb0xvOTJnNkh2WHduNC05bk1KRUpPU1pCSzNQb2R1TklFS1ZvdXVCckJWNDAwME56bEd6TUE1LXMxMS01UWpzVXl5VGpSbjBpXzhIWGxTWlg1Y0hoQmFrYjVWUHZJaXZNYnJ1c01UZmI4eFB0R3YzdVdjWTFaVEhHeFJISnhGc1EwTTJUWV9DcjBlcGRwQmJXOFdiUy1GMGlJ?oc=5",
+      "source": "Diócesis de Salamanca",
+      "sourceDomain": "diocesisdesalamanca.com",
+      "publishedAt": "2026-08-17T07:00:00Z",
+      "query": "cofradía procesión",
       "kind": "unclassified",
       "isPublic": null,
       "place": "",
@@ -822,6 +839,24 @@
       ]
     },
     {
+      "id": "news-gt-ab7ca14238923377",
+      "country": "GT",
+      "title": "Tejina se llena de sombreros y creatividad con la tradicional Fiesta de la Pamela - La Gaceta de Canarias",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTlBITHhST0UxSnZUQk5mc0dvbVNKUmlSTmtyM0lZUnQ2dDdOd3hrQnh3VkY2ZjUxZFBWYi1vaVpjRmVaTjVNYUVXcmlkSXRLOFFYSFQ3NUFaZXA1eEV6S0tSb3FVM01VVExBN28wYXdnd2NRWTVRYXJsMXJMdHQzSU5hNzFzb3llc2VGLWJORi1aMkRhdmdHSkd3aFYzTFdIUWJfMHROSjA5cFhMYXBIdHpQYw?oc=5",
+      "source": "La Gaceta de Canarias",
+      "sourceDomain": "lagacetadecanarias.com",
+      "publishedAt": "2026-08-15T21:51:50Z",
+      "query": "celebración tradicional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
       "id": "news-gt-336eddc80ef449f0",
       "country": "GT",
       "title": "Palmar de Bravo anuncia la Feria Patronal 2026 del 23 de agosto al 6 de septiembre - Periodismo Hoy",
@@ -858,13 +893,13 @@
       ]
     },
     {
-      "id": "news-gt-3fc6813e1fabc9b9",
+      "id": "news-gt-f03cbc4dd02fcb2a",
       "country": "GT",
-      "title": "El alcalde de Yaiza encabeza la fiesta de la vendimia tradicional - Lancelot Digital",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUmVkUEtvUnpOZWFkUDhHTDZDRkpwTHpybzVPNVQ3Mk5RdFdBTWJDSmlnSjVCdjFpc19aeUtSREpZSHpDNHpOWkYyNzlyb1o1d05KM3pFajZ4OXEybHhJeDZ1YzBUQks4VVNuVEY5Y0NETWt1RGM1OG5TVHdYMUxUNEhSQkN0azVQWGQwTGtJdmVBbTNVX1FIRWtPMmZLbmN2RmFSbk5FdURvRFk?oc=5",
-      "source": "Lancelot Digital",
-      "sourceDomain": "lancelotdigital.com",
-      "publishedAt": "2026-08-15T12:17:00Z",
+      "title": "Madrid celebra la festividad de la Virgen de la Paloma con la tradicional bajada del cuadro - Libertad Digital",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUGNLd1B6YkxuWTZFZnQ1MEN3TlZ6WHhQMWVHMDFybi00NkM0ZVozcm9ncVNaRHk5UkNBQm9KY3BjaDhMakJmWS1BUmNhc195aFpSX2I3a20xWVJQZzZSVkNOenNpSlhsN3h3b3ROMVRHaGlBOWtyVjFHY3N4Z21jb3J0cnMtcDFZNFpvRTc2QkVIdlZsUnB1cmJQRkVRb1JYbVF5c3RmSHlQOUpvWDlXU28tR0phTGhSeWhuWUFyMlplZ2UyNzV1VGgyZkFSazZmSDRaUE9SSk5uWW1Vazd4VTROOEXSAe8BQVVfeXFMTU1JSTVwRDlPc1ZrVDROLURHUG9vbDZHRGp4d0JMRUM2ajQtMi1FaDdSQXhjYjNlTFB2X0ZjY1NzeU9yRzBManBiWUVQV3VzTGZxLXRualNiZVRqNEQxUVFvcmZmZzlPNDVkNm1mR1Axem1rcFNPTHg1Z2laTmFKZk9IRzhENXdzU3VDbHBEdGRLaWtSbnRwdzk0VDhjWFNWUXFrWnNacnVKb2hoSU9mWTk0TllSb3VscVJpQ3VoS0ZiZWVyWFFnOEoxYW83Mktjak00UHFXSkJ6WFRwWUVzRTdNSWZhZzJ5NjRERDFoUzQ?oc=5",
+      "source": "Libertad Digital",
+      "sourceDomain": "libertaddigital.com",
+      "publishedAt": "2026-08-15T07:46:59Z",
       "query": "celebración tradicional",
       "kind": "unclassified",
       "isPublic": null,
@@ -984,9 +1019,9 @@
     {
       "id": "news-gt-e23dc6d10cec2166",
       "country": "GT",
-      "title": "Cuenca prepara la festividad de San Roque con una Junta General que abordará la nueva imagen y los actos de la Hermandad - El Digital de Cuenca",
+      "title": "Cuenca prepara la festividad de San Roque con una Junta General que abordará la nueva imagen y los actos de la Hermandad - eldigitaldecuenca.com",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOamFuNTJLNVdMU1pEblpWUl81R1d1ekhtVVg3YThkTG5BSkRpZEwxUlNUZS12ZWNtMUxpd0llM25sQk9rYnhacXdLUVdNN3FyNFdraWc0bGZoOUpTUTI4UkpfZ3FPbzNPX0Y2YmNNNXA4MnV3MVBuMVhyOS1Yc1ZiRG5UNEo3V2tSMzNkYzFYbGN5UWFBNExuWmJRQjJJQjFNRUtxczdUdjRTU25lLWo5ZWFOS1pMazJrMHU3LXFLd2hWZUtsbDRSamtWY01RbGNNVTdMRkF6MGtOSnpnYnlzeWJFS2taT0RadGFlWGpDRnNYdVBt?oc=5",
-      "source": "El Digital de Cuenca",
+      "source": "eldigitaldecuenca.com",
       "sourceDomain": "eldigitaldecuenca.com",
       "publishedAt": "2026-08-13T05:29:37Z",
       "query": "cofradía procesión",
@@ -1020,9 +1055,9 @@
     {
       "id": "news-gt-2fcbc69a45b04376",
       "country": "GT",
-      "title": "Inicia la Feria Patronal Misantla 2026 - elchiltepin.com",
+      "title": "Inicia la Feria Patronal Misantla 2026 - El Chiltepín",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVnBRb2JfbFJ1VjhkSnJ0Z3JtS3E4elptWlRlWDFab211MFViQ21sUDM5NUtmUTladVVxek5MYUNMd2VWdm9Cdjd4ZmFCSENIZmdQc1hjQUNudThMeEJNa0RtdW9IZUdlZlEzQ0RadWNVVVZGRVpBbG9uQ3dWRzlSdmMtN1c2VWZ3OHlvNEtickJ1Z3ZoZlE?oc=5",
-      "source": "elchiltepin.com",
+      "source": "El Chiltepín",
       "sourceDomain": "elchiltepin.com",
       "publishedAt": "2026-08-10T17:30:14Z",
       "query": "feria patronal",
@@ -1038,9 +1073,9 @@
     {
       "id": "news-gt-6d2f85f99cb95ff5",
       "country": "GT",
-      "title": "Fatal resulto la Feria Patronal en Neza al perder la vida un hombre durante una riña - midiarionayarit.com",
+      "title": "Fatal resulto la Feria Patronal en Neza al perder la vida un hombre durante una riña - Mi Diario Nayarit",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSHUySzNSYWZBbWl4el9mSHdpRThQeks4cHM4SFNFVUxscExKMFlwcVlId1hhb01obW5NQS1NUGt4VEctdVRELXlKQm5INHJfa3NkZUVYeFR0YmFic0ZXUHRBeGloTlBOZEw1S3UtX1JGX0VSR1dHTjdqNnpPcUtRaFg4WWRWaVpqNl9HcldQT2l4Y19KQ0h4ck5renlkTzZmd1p5eVdOMUh6THJ2YnZQTkE2ZkVTMDFTV1B6UkhRV3VrQjFGS2xGU05NQ0M?oc=5",
-      "source": "midiarionayarit.com",
+      "source": "Mi Diario Nayarit",
       "sourceDomain": "midiarionayarit.com",
       "publishedAt": "2026-08-10T07:36:16Z",
       "query": "feria patronal",
@@ -1109,13 +1144,32 @@
       ]
     },
     {
-      "id": "news-gt-6868816a183adf21",
+      "id": "news-gt-b290b9b08b07b55b",
       "country": "GT",
-      "title": "Villa Mailín se prepara para vivir la Fiesta Chica - Nuevo Diario Web",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVlc3RnBDZy1za0FxajRWbEdCaTVkOFFzUWJsNGJramlZQ2xhZUlGOWE3YkJzZE45WHJtNmJKdld5ZjloQWQ5RFJRcVV6WU1LaXd0WlRXQ2piMjVTMmwtVXZ0cERHRnh3aEtrcnd0aFE0bUxHNll0ZkF0LUFCem5BYVlXbkpXWWpaWG9SQkxYeEdYX05ra19DWnBsSVF3Zw?oc=5",
-      "source": "Nuevo Diario Web",
-      "sourceDomain": "nuevodiarioweb.com.ar",
-      "publishedAt": "2026-08-18T03:06:00Z",
+      "title": "Feria Patronal Chicavasco 2026: cartelera, actividades y artistas que se presentarán en Actopan, Hidalgo - El Heraldo de México",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPNXUtMElWSFdKN3hHdmdqVTVDeFBzMkVMWFZwVVhpa1pFUDZubDZhVVJDS01DaDlIcktmX0IxcTl4V3VteXNWc2llVmxGUHZiYmR3MW85a3NNUkQyQ19iaHBxcVdiYzNjZC1ITHlZNUVaQzZOY2hJR0QtbnVZdEN0TTVNelBQSG5UMTZmRFE2OUlIY3ZFTi1LczhyNnR0em1tbmlUX010d3NvN2pyTzZudXFUSmFta0RMVWNEMHhhX0xlUlBZaFc4MWZWeFdERnkxMWp3b3EwWWVnU1NJa1I5Q0pFbmVCZnRNRXlNSzVtdlpHZVU?oc=5",
+      "source": "El Heraldo de México",
+      "sourceDomain": "heraldodemexico.com.mx",
+      "publishedAt": "2026-08-18T15:42:00Z",
+      "query": "feria patronal",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.11,
+      "reasons": [
+        "published by a non-GT domain (heraldodemexico.com.mx)",
+        "heraldodemexico.com.mx seen before (11 stories)"
+      ]
+    },
+    {
+      "id": "news-gt-6f82b6313845c0cb",
+      "country": "GT",
+      "title": "Fuenteguinaldo se llena de tradición con la celebración de su VIII Feria de San Bartolomé - SALAMANCArtv AL DÍA",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOam9Rc3RmTXNEaXlka3NadnpNR1ItZkE3RlR5azNzSERTXzRMV2s5SXJNUW54VEx1czFpRWZRZWg3R1dzMjNUZ0o0bGFubjR3a0E1d0Z6aFRmS3UxZ3FrTV8taGxnUC1Ma1RNZkJHZC00ZHo4cTB3MWZtUVUtbVFWRDBfa3AwWEZpc1VNU0U4VGIzcGE1SGtIdzJkQXV1VFd0Y2JvcDJrM2pCNjJ3MThvc1ZfXzNLcnA3SWFMUDhXYkdHTHAtVF9RQW1jRFF2RGY0Tkd4S2JoRXMteHJOODhBQnpTRlM?oc=5",
+      "source": "SALAMANCArtv AL DÍA",
+      "sourceDomain": "salamancartvaldia.es",
+      "publishedAt": "2026-08-18T15:42:00Z",
       "query": "celebración tradicional",
       "kind": "unclassified",
       "isPublic": null,
@@ -1123,8 +1177,8 @@
       "whenText": "",
       "confidence": 0.11,
       "reasons": [
-        "published by a non-GT domain (nuevodiarioweb.com.ar)",
-        "nuevodiarioweb.com.ar seen before (5 stories)"
+        "published by a non-GT domain (salamancartvaldia.es)",
+        "salamancartvaldia.es seen before (8 stories)"
       ]
     },
     {
@@ -1181,7 +1235,7 @@
       "confidence": 0.11,
       "reasons": [
         "published by a non-GT domain (salamancartvaldia.es)",
-        "salamancartvaldia.es seen before (6 stories)"
+        "salamancartvaldia.es seen before (8 stories)"
       ]
     },
     {
@@ -1261,25 +1315,6 @@
       ]
     },
     {
-      "id": "news-gt-801f27eb9798fa2c",
-      "country": "GT",
-      "title": "Tusca Bajada se prepara para celebrar su Fiesta en honor a Santa Elena - Nuevo Diario Web",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZWdrTmlwTG4tcF8tTGJqeWNFSTU5LWgyM3ZTUzA5djlES05rSVVhQ1ZkQzBmalB2RkZZZkVCSUwxN0NCY0JmUDlBdm10MVpYMUo0RUEtbDk0R0hxY1JzZGd0aGFYbFIyb1dEZllPWXdmMVdldEZwdDRTc2ZHTE5HemY4LU9QbnFOQVA1dTd6MUluWWs1X1hXMldiVlQyZ0R0QTZHb09LMXdJVjc1eXJrWExidnJSbFNG?oc=5",
-      "source": "Nuevo Diario Web",
-      "sourceDomain": "nuevodiarioweb.com.ar",
-      "publishedAt": "2026-08-17T03:50:00Z",
-      "query": "celebración tradicional",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.11,
-      "reasons": [
-        "published by a non-GT domain (nuevodiarioweb.com.ar)",
-        "nuevodiarioweb.com.ar seen before (5 stories)"
-      ]
-    },
-    {
       "id": "news-gt-f70bf77ec2a2c8cc",
       "country": "GT",
       "title": "Miércoles Santo en El Puerto: Visita Municipal a la Hermandad del Olivo - Ayuntamiento de El Puerto de Santa María",
@@ -1314,7 +1349,7 @@
       "confidence": 0.11,
       "reasons": [
         "published by a non-GT domain (salamancartvaldia.es)",
-        "salamancartvaldia.es seen before (6 stories)"
+        "salamancartvaldia.es seen before (8 stories)"
       ]
     },
     {
@@ -1339,9 +1374,9 @@
     {
       "id": "news-gt-961122852a08cb92",
       "country": "GT",
-      "title": "Varias actividades aún se desarrollan por el 489 aniversario y fiesta patronal de Asunción - lanacion.com.py",
+      "title": "Varias actividades aún se desarrollan por el 489 aniversario y fiesta patronal de Asunción - La Nación",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTkkwNUJoM01hcEVoaFBXeUdWWjViX0h5LWpDVTJZWlVCbGsyVnFwUV85Ym5OeHhaNTVyX1U0SmJPSWNNSVVQektKb0JwTjBKR3QxWE5Vd0gzb1lCSXB4eG5nejRRcTZzZFk4el83UTFtN3E5MmN2N0ZlLVN4cXBNMVNLOHlobzMwYXh4ZVVFVFVDSm9Bb05fSXdtaThUZkZTLThjdUdSMXBJaDlkcmZRSTRxb3k1WS1YTVVBdWJSQk55RlFHOU9kNFotbDVmaXNs?oc=5",
-      "source": "lanacion.com.py",
+      "source": "La Nación",
       "sourceDomain": "lanacion.com.py",
       "publishedAt": "2026-08-16T10:36:29Z",
       "query": "feria patronal",
@@ -1472,9 +1507,9 @@
     {
       "id": "news-gt-767da41c2ce1a9b3",
       "country": "GT",
-      "title": "Atoj Pozo se prepara para celebrar sus tradicionales Fiestas Patronales - El Liberal",
+      "title": "Atoj Pozo se prepara para celebrar sus tradicionales Fiestas Patronales - elliberal.com.ar",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOajJfWloxZWZDeWRZSFJOYWQtaUZOaVpGb0FHdXFLMkRWWEM1dGxqT2tmRG5VcXVlb1lDWERYbllIT1hNRWJuWU5xQVFWT2VQWEUyY3pUQ3JPZ2RLaXdiTTZTZVhmNjR3dFZIME9OSDlUMDFoei0wQkFKUVY4eTd3T0R5S0VKT2M1UFRMQkF1UmNNdW9uRnkzb0Q3Y3BQanBjVmoyM1JDMVp5TWNxUHhPUk9DRE92QWVsUW5j0gHEAUFVX3lxTE55QzI4YUlRMXFGNXVLUkJtSmlaWHI5Q1V6U1lzWjFGdUZuZThCWV9BRGlLTVFwWkNxbF9MblJmVzhvUU45WU1xaWs4UDRJaEpNSVBodE1YTDR2UGFBdGVaakplYUxrNlp6UkFFRnB6WmtHVVBMVENWcVRtWFExdllia3BYZmh0ZjJTeGttV1ZENU8xNU00eHdsSzJldGVEY0tyb1pzcldyWjBZc05nenB2X0x0VXlLN19OWFlzVlhXRzl6RF8?oc=5",
-      "source": "El Liberal",
+      "source": "elliberal.com.ar",
       "sourceDomain": "elliberal.com.ar",
       "publishedAt": "2026-08-13T22:07:00Z",
       "query": "celebración tradicional",
@@ -1523,7 +1558,7 @@
       "confidence": 0.11,
       "reasons": [
         "published by a non-GT domain (heraldodemexico.com.mx)",
-        "heraldodemexico.com.mx seen before (6 stories)"
+        "heraldodemexico.com.mx seen before (11 stories)"
       ]
     },
     {
@@ -1548,9 +1583,9 @@
     {
       "id": "news-gt-6f42075d0cb09811",
       "country": "GT",
-      "title": "Jaén: Fiesta patronal del Señor de Huamantanga 2026 iniciará el 4 de septiembre con procesiones y novenas - El Búho.pe",
+      "title": "Jaén: Fiesta patronal del Señor de Huamantanga 2026 iniciará el 4 de septiembre con procesiones y novenas - elbuho.pe",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZzFyNkxMR0hNWl9aTTF1dnRuYXdnWnUtdjM3WnM2SURyRWYzS1B1OWwtNFNaY3FSRkNwblZfU2NMVFd4dzY1eE50RjJKQkdrdXNoNno3UjVOeVhrYTVYc1RJM1llS1hYdXkzOG00OF8wQ0FROWwtQjBLdGxFSUxEbzhwN1dJYW5UdHFPN1d4QkpsVWpuZlBISTNoV1FaRTc1cWkydTd3Z1FHazVucEhTRHNUMWp2eE5UZE53a3F5a2ZYY3JlaExmSlJBbw?oc=5",
-      "source": "El Búho.pe",
+      "source": "elbuho.pe",
       "sourceDomain": "elbuho.pe",
       "publishedAt": "2026-08-09T21:18:03Z",
       "query": "feria patronal",
@@ -1619,6 +1654,24 @@
       ]
     },
     {
+      "id": "news-gt-6868816a183adf21",
+      "country": "GT",
+      "title": "Villa Mailín se prepara para vivir la Fiesta Chica - Nuevo Diario Web",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVlc3RnBDZy1za0FxajRWbEdCaTVkOFFzUWJsNGJramlZQ2xhZUlGOWE3YkJzZE45WHJtNmJKdld5ZjloQWQ5RFJRcVV6WU1LaXd0WlRXQ2piMjVTMmwtVXZ0cERHRnh3aEtrcnd0aFE0bUxHNll0ZkF0LUFCem5BYVlXbkpXWWpaWG9SQkxYeEdYX05ra19DWnBsSVF3Zw?oc=5",
+      "source": "Nuevo Diario Web",
+      "sourceDomain": "nuevodiarioweb.com.ar",
+      "publishedAt": "2026-08-18T03:06:00Z",
+      "query": "celebración tradicional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-GT domain (nuevodiarioweb.com.ar)"
+      ]
+    },
+    {
       "id": "news-gt-6ad2972149f2b256",
       "country": "GT",
       "title": "San Roquito despide las fiestas de Villafáfila con la tradicional Cena de la Chota - Interbenavente.es",
@@ -1675,9 +1728,9 @@
     {
       "id": "news-gt-ee176e1e76cb1bba",
       "country": "GT",
-      "title": "Eirís celebra este martes su tradicional Festa da Fresa con música, gastronomía, deporte y actividades para todos los públicos - Diario de Santiago",
+      "title": "Eirís celebra este martes su tradicional Festa da Fresa con música, gastronomía, deporte y actividades para todos los públicos - diariodesantiago.es",
       "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNa2dEVFcxVHU0cm03cjB5VmloWGk4R0ctcEdzRkQwa1RiRzlzTTdmWVgtVF9idVVmNkpoZ1U2YWl0dmRkNXJZTThEdFlSR3FrX3ljejlvMEVtb2NDSTZUVHZobkJXN3BfUUNnRXcybl8xTlZJMUlZNHE2MDNrdjJJU0ZFLUFYWXFHb0kzX204SHRmTGw5ZExsR0FwY1RtZGJDa1JVM2V2bnNyWGpWZk9NWGVvLW1RaGZ5VjY0N0tmdnpRT2VZak5RXzl0cnlOQ3BPOU9LRThJYXZ3SkNDdnlPVDlTWnZBRnd3bTcxNll3RHZ4Mnd6X25mZ3Z3TXQ?oc=5",
-      "source": "Diario de Santiago",
+      "source": "diariodesantiago.es",
       "sourceDomain": "diariodesantiago.es",
       "publishedAt": "2026-08-17T15:47:04Z",
       "query": "celebración tradicional",
@@ -1729,9 +1782,9 @@
     {
       "id": "news-gt-ede7fce36f967886",
       "country": "GT",
-      "title": "Jesús María celebra la vendimia con vino, tradición y gastronomía - LJA.MX",
+      "title": "Jesús María celebra la vendimia con vino, tradición y gastronomía - lja.mx",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWDNNSWN2bERrT251cENJNmRwWXJNLVhMQXVXZjZlWkhHYjU4SmFFQ0FjSHR3aTBPRTVydk02OTRoVWhScXhtVEVmODVIeDgzVzA0dGY2ZVJUM1FDVFUxcHBoejJhc3BfM1J1WmFVZEVwN0JuSi1UcnJ5d25DRll3VjhRVWw1X1Q2V3RYcEoybURtM09NV09N?oc=5",
-      "source": "LJA.MX",
+      "source": "lja.mx",
       "sourceDomain": "lja.mx",
       "publishedAt": "2026-08-17T14:15:48Z",
       "query": "celebración tradicional",
@@ -1796,6 +1849,24 @@
       "confidence": 0.05,
       "reasons": [
         "published by a non-GT domain (latribuna.com.py)"
+      ]
+    },
+    {
+      "id": "news-gt-801f27eb9798fa2c",
+      "country": "GT",
+      "title": "Tusca Bajada se prepara para celebrar su Fiesta en honor a Santa Elena - Nuevo Diario Web",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZWdrTmlwTG4tcF8tTGJqeWNFSTU5LWgyM3ZTUzA5djlES05rSVVhQ1ZkQzBmalB2RkZZZkVCSUwxN0NCY0JmUDlBdm10MVpYMUo0RUEtbDk0R0hxY1JzZGd0aGFYbFIyb1dEZllPWXdmMVdldEZwdDRTc2ZHTE5HemY4LU9QbnFOQVA1dTd6MUluWWs1X1hXMldiVlQyZ0R0QTZHb09LMXdJVjc1eXJrWExidnJSbFNG?oc=5",
+      "source": "Nuevo Diario Web",
+      "sourceDomain": "nuevodiarioweb.com.ar",
+      "publishedAt": "2026-08-17T03:50:00Z",
+      "query": "celebración tradicional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-GT domain (nuevodiarioweb.com.ar)"
       ]
     },
     {
@@ -1891,9 +1962,9 @@
     {
       "id": "news-gt-2868b3ed3aaee8de",
       "country": "GT",
-      "title": "FINALIZAN LAS FIESTAS PATRONALES - El Faro Motril",
+      "title": "FINALIZAN LAS FIESTAS PATRONALES - elfaromotril.es",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jTHVURTBXMkxVeWJaajNVYVFJUjRXRWZab0tubUwtNERwSzFCcWtta1NCNjZERzdoOVJuYjNGc2xnaUhYYjZhODJaSWRxUGlhcHgyQWJ2Z3RwMTRfdFhwVkNsNGZOcG11cFlJcQ?oc=5",
-      "source": "El Faro Motril",
+      "source": "elfaromotril.es",
       "sourceDomain": "elfaromotril.es",
       "publishedAt": "2026-08-16T20:24:09Z",
       "query": "feria patronal",
@@ -1927,9 +1998,9 @@
     {
       "id": "news-gt-f39f0bd43251dd36",
       "country": "GT",
-      "title": "Tamara Figueroa y Lisandro Henríquez se consagraron en el tradicional Concurso de Hacheros - ANBariloche",
+      "title": "Tamara Figueroa y Lisandro Henríquez se consagraron en el tradicional Concurso de Hacheros - anbariloche.com.ar",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPNG9mYUI2TTQ2SDhUZEJFRzljeUpKQVNNcDVxVDRGZnd2S3V4d1ZpOTFnUTB0MkxoZTBXOFU3YnU2eE5Qd214d2pJQjhldUduaXpBYzZtd0hCalIwU1pRVDgxNGZfVlBWYl9IdHRRVVVUZWZsNDRkcDlQLUpObXoxVEpyeDRCdEJLaVhxazhIMHF2R3NOUFA2QWtQdnVsbl9VWTBVNVdXWThsUlo4SUhmZDVmaVlkTzNSWTB4TFM0RHNaZ09LVWJ5T0UxZGtHcDRYY2xwQm11Rm5qeFBoVkFrMG1B0gHnAUFVX3lxTE51VTAxbDlCczRkdUxlY3laSkdGOU9TTEtUMWhUQms4QWZiM1NNTWthajltb0pkM0UxM094TWZzSWsyME0tUGZ2b2hJMVIxbFltZHFhUzRzVVI2Z1dfQ19ESGwxSEMtV1RFMTNha2Q1QnZlQ0VOdjdZVTZib1l2X1Y5MTJiTk4yVm1mbEtTS2dSSjlYQ3BlaXZlNmwzOEE0LVFtWGJPMG1fTEJtR0RRT1pnazFpY3hUa0lpcXBpSTNwUUlPd1NmRFNfUGYtaUdHN2xzVnVKbDh4U0wxaXJsUUVHZDdsMVdfaw?oc=5",
-      "source": "ANBariloche",
+      "source": "anbariloche.com.ar",
       "sourceDomain": "anbariloche.com.ar",
       "publishedAt": "2026-08-16T18:47:00Z",
       "query": "celebración tradicional",
@@ -1958,24 +2029,6 @@
       "confidence": 0.05,
       "reasons": [
         "published by a non-GT domain (lujanhoy.com.ar)"
-      ]
-    },
-    {
-      "id": "news-gt-7a45a7c5116a57cf",
-      "country": "GT",
-      "title": "Albendín despide la Verbena del Emigrante con la salida procesional de María Santísima, patrona de la pedanía - cancionero.es",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS3hSSW8wS2FnVTBzRHplOHlWd1RwRUdnZElXOEFTWW1POU1lYlJCVy05TlcyS0Y5RGZCbjVrZ1NDLWw5VWRzUVZsODV1aFU2X0FGT0h2ak5IZ095Z25hQnFiM29aVmI0X282WktlUEFjTzRFXzBid2dQUV9wR2IwVG42TDFoVWZMbmw4SkJBUUR3Zm1hcnVCclYxRE5oazhhN2hNQmNIVm45WXRNUEVWdlRxNTF3WVRJbjR6cE5CakJmRW1pUTNFcHFqRQ?oc=5",
-      "source": "cancionero.es",
-      "sourceDomain": "cancionero.es",
-      "publishedAt": "2026-08-16T10:01:39Z",
-      "query": "cofradía procesión",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.05,
-      "reasons": [
-        "published by a non-GT domain (cancionero.es)"
       ]
     },
     {
@@ -2071,9 +2124,9 @@
     {
       "id": "news-gt-2c19e0334e7793d3",
       "country": "GT",
-      "title": "Cientos de vecinos se agolpan en las fiestas de Peñafiel (Valladolid) para bañarse en el tradicional Chúndara - Diario de Valladolid",
+      "title": "Cientos de vecinos se agolpan en las fiestas de Peñafiel (Valladolid) para bañarse en el tradicional Chúndara - diariodevalladolid.es",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQ0N3T1Y3TlZUNjNMUHhNcnBTc3ZBSEtBWWhkYnBRck40Tlp3Ui1CSGcwYmpENExyM0tuUnNxLVEwNVNaLWpOY21BQThTYWYzREZjeUdLa2xpWUxvbGx1ckZ5aEZ6ZFB6ampaam1nWDF4THlvUjNqZV9HWFdZYlV5bk54djFySXlIck9jd1Vfc2hfdmlDV1FfMDFINGZjS0hiZTg2bGdfUzdJQjhrVVhSLTdUdEc5Z1FwSWNucXU2NDIzam1BQVV3MlpBOXlacllqR2VNY3E2c2dlM1V1ZlZaMG5ldTQ0dFU?oc=5",
-      "source": "Diario de Valladolid",
+      "source": "diariodevalladolid.es",
       "sourceDomain": "diariodevalladolid.es",
       "publishedAt": "2026-08-15T18:43:27Z",
       "query": "celebración tradicional",
@@ -2197,9 +2250,9 @@
     {
       "id": "news-gt-4d9f033ba798da63",
       "country": "GT",
-      "title": "MOTRIL CELEBRA SUS FIESTAS PATRONALES - El Faro Motril",
+      "title": "MOTRIL CELEBRA SUS FIESTAS PATRONALES - elfaromotril.es",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80SjJtc2ttam5tMkNyNXVUazhHOURkMXJSWGNfZ25yY3NLYzE3Y0RGZWtFeXRUMzFqZWtrTG5pdUFoVGphc05rdVRmYTJDZ1NQMjhJNUY3ZlM3QkRtT1U1ZzZoTWM5cnEyUko3dmVDRWxOTjdtU2c?oc=5",
-      "source": "El Faro Motril",
+      "source": "elfaromotril.es",
       "sourceDomain": "elfaromotril.es",
       "publishedAt": "2026-08-15T12:09:37Z",
       "query": "feria patronal",
@@ -2213,29 +2266,11 @@
       ]
     },
     {
-      "id": "news-gt-c7346f8be81db853",
-      "country": "GT",
-      "title": "Cultos y procesión de la Asunción de Cantillana 2026: todos los detalles - Diario de Sevilla",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQY0RoVVV1dXRBZmJLQVllYTI1NmlLZWk2R2ZrMWd1ZGl3R291aWlCRm5nT1hRZGNzZjk5c0lTM1RqVWxHU0x1bmI5V1BnRkVDLW1BTFh1QXlaeFg0RUh1Tm5Mend1YWZBQkRPVTVPYVlfYVBuMHZ5OXo4SXk0dktFdkhkTnZTak1MSFEzVmJ1UDlCWFlQVzl4NThUVW9OaXB0QWJKdDNn0gGrAUFVX3lxTFBGT0dIcGZJZWJEN1VUMEhpbVNPUE5QNzNtTzFXcnVKOXZRUk92S0hEVnVYU0o1LVl4OVZUcTBDck9xMGFBTVFFYzN0dWMzNjl5OXU2SG1EdFN0bWJManVyZFM5MmIxZ0tfUU1wYzQ3ODJEVXVZQ3JVeUttTXBGYVZwaVJkbkVrSUtZTnBHczRXU0JUUHpuZlJ3a1FCUlI2MnZyVExObjRDOGkwcw?oc=5",
-      "source": "Diario de Sevilla",
-      "sourceDomain": "diariodesevilla.es",
-      "publishedAt": "2026-08-15T09:42:33Z",
-      "query": "cofradía procesión",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.05,
-      "reasons": [
-        "published by a non-GT domain (diariodesevilla.es)"
-      ]
-    },
-    {
       "id": "news-gt-e3c14b63bf12797e",
       "country": "GT",
-      "title": "La Hermandad de la Victoria presenta el cartel de la solemnidad de la Patrona este jueves - diariosur.es",
+      "title": "La Hermandad de la Victoria presenta el cartel de la solemnidad de la Patrona este jueves - Diario Sur",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQN3hTMHdLMXNZOVB5LWhjUjRMNUZLaG9pNUpEblYyTTdWaUdjWjl6V3hOa09OcXRyNEFVcFJPekRoOXFsNVdHdTBSRm4yY3JraGFZZVFwTV8zN0VwNkpVVjF0VnROY2R2QkI0TEp5cklPOUExQWlHNFFHRGJrczFBQVBKQ2tmRUtPX0pLTVBOWF90VERKRmY0eTNMNTlmWGN1bm5XUzdVLWVPTjIwLWpLSVVZc2VnUGxNYjlxaUZpZi3SAcYBQVVfeXFMUHJHYVktZnhINjBId3lfU0k4SmN4M1pfT2ctNzNKcUdSOGFZbHNHR2ViNGpIdE51bDd1Z190YVYyYlYydGZ1N2dteVlscWNac1ZIZkRjejc3WnBGLWVGVGplTHdOUmtfYXM5bDVpYnQtZzJtSEQtMjBKOGNDLXBacTVaalNZMzFDNkM0dFdqY2xFNXVmSEYzSmJEUFlTVlRuSmNXRUxqZHVMbndRaVNwdEFpVmkyZUZaRUU4MU1feWVSelZ6Tk93?oc=5",
-      "source": "diariosur.es",
+      "source": "Diario Sur",
       "sourceDomain": "diariosur.es",
       "publishedAt": "2026-08-15T07:00:00Z",
       "query": "cofradía procesión",
@@ -2246,6 +2281,24 @@
       "confidence": 0.05,
       "reasons": [
         "published by a non-GT domain (diariosur.es)"
+      ]
+    },
+    {
+      "id": "news-gt-c7346f8be81db853",
+      "country": "GT",
+      "title": "Cultos y procesión de la Asunción de Cantillana 2026: todos los detalles - Diario de Sevilla",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQY0RoVVV1dXRBZmJLQVllYTI1NmlLZWk2R2ZrMWd1ZGl3R291aWlCRm5nT1hRZGNzZjk5c0lTM1RqVWxHU0x1bmI5V1BnRkVDLW1BTFh1QXlaeFg0RUh1Tm5Mend1YWZBQkRPVTVPYVlfYVBuMHZ5OXo4SXk0dktFdkhkTnZTak1MSFEzVmJ1UDlCWFlQVzl4NThUVW9OaXB0QWJKdDNn0gGrAUFVX3lxTFBGT0dIcGZJZWJEN1VUMEhpbVNPUE5QNzNtTzFXcnVKOXZRUk92S0hEVnVYU0o1LVl4OVZUcTBDck9xMGFBTVFFYzN0dWMzNjl5OXU2SG1EdFN0bWJManVyZFM5MmIxZ0tfUU1wYzQ3ODJEVXVZQ3JVeUttTXBGYVZwaVJkbkVrSUtZTnBHczRXU0JUUHpuZlJ3a1FCUlI2MnZyVExObjRDOGkwcw?oc=5",
+      "source": "Diario de Sevilla",
+      "sourceDomain": "diariodesevilla.es",
+      "publishedAt": "2026-08-15T07:00:00Z",
+      "query": "cofradía procesión",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-GT domain (diariodesevilla.es)"
       ]
     },
     {
@@ -2287,9 +2340,9 @@
     {
       "id": "news-gt-c6b0d94117c7aa0f",
       "country": "GT",
-      "title": "Raíces de Humo 2026 fortalece la preservación de la cocina tradicional tabasqueña - Gob MX",
+      "title": "Raíces de Humo 2026 fortalece la preservación de la cocina tradicional tabasqueña - gob.mx",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb053amMzN2l2V2g4MXRTSmgzenFrS21TRGhBYmVHbkViak5XblpUY0VZSDV6UERyMFBkdXV2Q1JmOElHQXdrelNPTDZ3dHZ0X04zb1J2SzBSWGdwb2FHMnp2c3ZFNUQ1Y3VlTGNmcjRCVkNhNWxaM29RUHB3OVRUczk3Nk5iTE1qSDRNZTl6bGp5Rk96R181MEJrc2V5OGVfRWNWMExzSm5rYkhtdnVyckwtU3BoOElHWUk1RTgzNXJsd1U?oc=5",
-      "source": "Gob MX",
+      "source": "gob.mx",
       "sourceDomain": "gob.mx",
       "publishedAt": "2026-08-14T20:19:00Z",
       "query": "celebración tradicional",
@@ -2393,42 +2446,6 @@
       ]
     },
     {
-      "id": "news-gt-e588de64c73a4ec6",
-      "country": "GT",
-      "title": "Horario y recorrido de la procesión de la Virgen de Acá en Córdoba - El Día de Córdoba",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdHpoazFPNkkzZElIbnFuamNQUUI3ZllvdGhHNS12R0hyY1JTTlBtSlhJN19PYVRydGNBYTViZmRPVWlwUEY2UzlleGxZZE8wczg5Vi1SWDlfdkNsRjVCVVk5WHFSY0NMSklCOHdfaUxFdkY3VkZydkp5Z3ZyOFRlNjl0TWxrT2hMRF8zdVJoUy1WdTJLa1ZwSW9MZkZ2bGYxRGtNV0VNVk8zd9IBrwFBVV95cUxOYVNuQTBDckdIWThkclVsbmhEV3phNHd2ejY0d3JFd2hzSkxzM0d4Q2pNYTR3TUVCSTJGQUNWUUFpT3p2dkI0TkxIdWxyTWpnemhTckNfZjk4SFVtTGNGbEFJb1k4TnZTck44UlpzVG53ZDZGSTdPZjE0cTgydm9QdW5fRGQ4YUw4cndXTksyQW1DcXdpMnBkbE8xTFpBb0lqb0lBRWdreEtpdmtKSlRJ?oc=5",
-      "source": "El Día de Córdoba",
-      "sourceDomain": "eldiadecordoba.es",
-      "publishedAt": "2026-08-14T04:59:12Z",
-      "query": "cofradía procesión",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.05,
-      "reasons": [
-        "published by a non-GT domain (eldiadecordoba.es)"
-      ]
-    },
-    {
-      "id": "news-gt-a4ed502ecd22b835",
-      "country": "GT",
-      "title": "Chilcuautla alista feria con papalotes gigantes, globos de Cantoya y tradición agrícola - El Universal Hidalgo",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPamtBWEh6N0RDaFotcC1Bb1ZhSzA2MUpsRWo1d09teTc4Y0RkYVB2UG8xdUljSDVYcW1GNWNNMVFPNjBaekNaSEVHdS1DUzR6NVlGWU8tYm0xTTBnb0ViMHlKUFkwLVVoMVdXekM1WFFLcEZ0NHJVN1AyWkRST3dadURNbHN2VUZpdW90cUZJTnhyNXVlYjNqQ1hFOUp3UlA2ZllxcnFoTWVwQUFzWV9Za0dZRkZKempWdUQwbVhZNGZSdDJjNVhldG5CdlpTb2d1ZTJsN190eFDSAewBQVVfeXFMUHoyUFVZdDRKYTNZbXRUN09nU01WUS1rRnRPZHdsd3FUbHl2TU9qQlEtMW9yY3IwNTNDajhfX2lvd1BoU1V5ejVVMm0tV0V3RzV0OW9yTWQ5SDQ3R094NWV6aUZnd3hsV2FVTXBQcUFpVVd3eHRWTndDQTVRN0NMcjMyVEVtLUFZSDVQcEZFQmVjVWFSbUxxTmI3ZWEwUk4yWTZqWDQtYW1WS2psVkM2SVhNNWpyTVZLaGtKTWNzOFYzeDM0S240UDlvb0w4RF9HUnYtUDA0ZVpCWmVBa1ozSmJtWTRsTTktUEtVXzg?oc=5",
-      "source": "El Universal Hidalgo",
-      "sourceDomain": "eluniversalhidalgo.com.mx",
-      "publishedAt": "2026-08-13T23:13:52Z",
-      "query": "feria patronal",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.05,
-      "reasons": [
-        "published by a non-GT domain (eluniversalhidalgo.com.mx)"
-      ]
-    },
-    {
       "id": "news-gt-99722eecd48044ad",
       "country": "GT",
       "title": "Chilcuautla se llena de tradición y cultura con su Feria Patronal 2026 - News Hidalgo",
@@ -2449,9 +2466,9 @@
     {
       "id": "news-gt-12b656135a94ae0f",
       "country": "GT",
-      "title": "Gelves presenta el cartel anunciador de su Feria y Fiestas Patronales 2026 - gelves.es",
+      "title": "Gelves presenta el cartel anunciador de su Feria y Fiestas Patronales 2026 - Ayuntamiento de Gelves",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQS1Z3MVd0QnI3S1JDN2NmTF96OURZWl9VOFV4Q3hjMllKQThRUnp6QUNQZTJiakdiQTQtdTNPQnYxNlo5dHYwNFcxUk5LaUJ6Wmx3Uk1OMzRhMFFhT2dDOEx3Vl9uX2hnb0tqYnh2alJrUUxNV2toM1dTV1Z3WjlWRG91d3pfMVdfN0trRUZWWlFaZUFZUDAtZTJsX0hJbFUyVWFERmtoVFFud1dCUFRHMXRqMHR3YS1nQTFQZA?oc=5",
-      "source": "gelves.es",
+      "source": "Ayuntamiento de Gelves",
       "sourceDomain": "gelves.es",
       "publishedAt": "2026-08-12T12:01:16Z",
       "query": "feria patronal",
@@ -2483,29 +2500,11 @@
       ]
     },
     {
-      "id": "news-gt-e7cd68a0150648bb",
-      "country": "GT",
-      "title": "Horario, itinerario y estrenos de la procesión de la Virgen del Tránsito en Córdoba - ABC",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQN2VUVERLQmlwWEppYzJxN08wdlhGNE1GbGZMWmpoa0RPNGZ3QlNfN0ZuZ2ZmRnQ2WXlmMGNRSHNLbjhWel90Y213bmJWUE1fVWlzeUlEN2Rvb1lDMHNFSDUzT1dyeU82Q1BFQTFwNXdkNnB6aGtScTVRMkdzLTY3RzZNVnBoc0xtcVNCRjE0VmY2eENLajF3ejhSb2JZNU1DQURfNnJtWTdwdXRYT2dRYXBFQWpsUzNzQXJJUGJucFZHU002M2l1bVIzTzI3QdIB0wFBVV95cUxQVFdEbkFDRlJBWGVZS3NjUHhmQmhLNkZiaU96amVEcEJCZUM5ZmVZTGZUNHFQcXE0T0pPSXhPelpaczktcGpHM21pbkdXbFBKQU1ObHdFcF9UQUdkQTJlalhHM3h6QzkxLXJLMC1TY0toVFVkQ3JOazlsSHc1Zm91MEl2Y3A5U2RsSFNqNW1BTWh6eWZsZ2JPMlpPdzFaX3NYTmtHdnU1Z29jcmoyXzlEWE9OQlk3dkRVa1NTckQzLXl5OUZZUnVpZlJiSGhmTUd0UWpJ?oc=5",
-      "source": "ABC",
-      "sourceDomain": "abc.es",
-      "publishedAt": "2026-08-12T10:47:41Z",
-      "query": "cofradía procesión",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.05,
-      "reasons": [
-        "published by a non-GT domain (abc.es)"
-      ]
-    },
-    {
       "id": "news-gt-63bebba1b5097583",
       "country": "GT",
-      "title": "El barrio de Baúl celebra su tradicional verbena de verano este viernes 14 de agosto - Excmo. Ayuntamiento de Baza",
+      "title": "El barrio de Baúl celebra su tradicional verbena de verano este viernes 14 de agosto - ayuntamientodebaza.es",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5kVGl1R1BxRmFLQmxDVkk0WlpqNC1KQzA3M2FVQ080UktfWTBYVUdIamRucEtHVWoydGcwUU5KNzJHajlJd0h3dzM0akI5VDdaZ1lZcVBIbExlY0U?oc=5",
-      "source": "Excmo. Ayuntamiento de Baza",
+      "source": "ayuntamientodebaza.es",
       "sourceDomain": "ayuntamientodebaza.es",
       "publishedAt": "2026-08-11T10:41:09Z",
       "query": "celebración tradicional",

@@ -1,7 +1,7 @@
 {
   "country": "KE",
   "name": "Kenya",
-  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "generatedAt": "2026-08-18T16:31:55.664980Z",
   "refreshHours": 168,
   "status": "unfiltered",
   "count": 12,
@@ -25,21 +25,21 @@
       ]
     },
     {
-      "id": "news-ke-b704610c3aff9ba9",
+      "id": "news-ke-1f814e336949facd",
       "country": "KE",
-      "title": "Understanding the Kalenjin Koito ceremony - Education News",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1LVzI1azRwYnRYd1d0cWExcHRlYWRvMG0wdm55QjV0Z0NUZjJmWU5OS25saC00amJTZjBENXZtRHZNNmw1a3JabzZiMG1Ydzc4dnVxVEVCQVpmTzh4WWtZUFUycktZb01UX0gzeWtsQzNiRldWTktpUFF3?oc=5",
-      "source": "Education News",
-      "sourceDomain": "educationnews.co.ke",
-      "publishedAt": "2026-08-08T15:33:03Z",
-      "query": "traditional ceremony community",
+      "title": "Traditional Arakanese Thingyan Festival Celebrated in South Korea - Narinjara News",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1sS09oU21PNlMtUWlCRVptZTBQZndyd1JmUEszSjlPWDJ5bGFpenpNaEoycWtlMTFtc0lpN3FZMml3RDVlN1Nqdjd4ek0yNG41U19VblVtX1NkWG5zMWxyQ2JvZUNCZ3pPNFBBRjZIUQ?oc=5",
+      "source": "Narinjara News",
+      "sourceDomain": "narinjara.com",
+      "publishedAt": "2026-08-18T16:18:25Z",
+      "query": "cultural festival traditional",
       "kind": "unclassified",
       "isPublic": null,
       "place": "",
       "whenText": "",
-      "confidence": 0.45,
+      "confidence": 0.2,
       "reasons": [
-        "published by a KE domain (educationnews.co.ke)"
+        "generic domain, origin unverified"
       ]
     },
     {
@@ -133,9 +133,9 @@
     {
       "id": "news-ke-f3f4b43f6ea201e0",
       "country": "KE",
-      "title": "New Cantonese Opera \"Ancient Tune of Guangling\" to Premiere at Chinese Culture Festival 2026, Recreating the Wei-Jin Style through Traditional Artistry - 巴士的報",
+      "title": "New Cantonese Opera \"Ancient Tune of Guangling\" to Premiere at Chinese Culture Festival 2026, Recreating the Wei-Jin Style through Traditional Artistry - bastillepost.com",
       "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPYWl3WGtmamNCSUR5Skw1U3hxckdEYzVERmZVNkg0c0VpMC1ualdhSGFRc0RMUTJoSU9UVEhLdk96dENneGNSRmNURk1aejhDNVQ3cnVMUm12M2JtSVZHY0Rka1Z3XzV5WC1tbmlERlpzdTJKZWdEQlBXd1VCTEJuTVZhTm5YaTRCWlhpWU9wN2hDdHZwMTlhbDQ0QVVENnZ4WUlMdEk5VmM4OVBFVm5rY05hRlhvWVAzcUdOcXg5QjlVNV9VU2drVkpjdGUzNENTNEQwVVhQU3JxNWNnRHBSbHNTdnoxOXFoLTdTbS0zenZycm1sNVhzZWxILWZNTEVFRGhQTUpINzdETEVqTzhlM0YxNmxtb0RaejJWdGV4UElMMHVacmFv?oc=5",
-      "source": "巴士的報",
+      "source": "bastillepost.com",
       "sourceDomain": "bastillepost.com",
       "publishedAt": "2026-08-12T03:00:00Z",
       "query": "cultural festival traditional",

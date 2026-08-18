@@ -1,11 +1,29 @@
 {
   "country": "PE",
   "name": "Peru",
-  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "generatedAt": "2026-08-18T16:31:55.664980Z",
   "refreshHours": 6,
   "status": "unfiltered",
-  "count": 66,
+  "count": 68,
   "reports": [
+    {
+      "id": "news-pe-47db2739e0c91a68",
+      "country": "PE",
+      "title": "Investigan muerte de joven tras fiesta patronal en Cerro Colorado - diarioelpueblo.com.pe",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZlA1dzdRODI0Umw4dUhzY19jUHFGUmI0MGpDNDlRYlhycVk0Q0pKQVVWQ0RQWGZKc0F4YUZFOFU4cXJlUlJya2VYUS1PVnc5aU9ndjZsYmxlVzByU19DV092R0FtNUZjSFdhMlQ4VXdnZ1NWTWs4VFdlRHV3clVJOGpHcFFqQnkxVlZrLTl5c01NSk1lbnctb3g2QTRuWnFKNDlmRmV5QXJ0eG8?oc=5",
+      "source": "diarioelpueblo.com.pe",
+      "sourceDomain": "diarioelpueblo.com.pe",
+      "publishedAt": "2026-08-18T05:23:00Z",
+      "query": "fiesta patronal",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a PE domain (diarioelpueblo.com.pe)"
+      ]
+    },
     {
       "id": "news-pe-d467af2b853a96fc",
       "country": "PE",
@@ -227,6 +245,24 @@
       ]
     },
     {
+      "id": "news-pe-2fb494808cba1862",
+      "country": "PE",
+      "title": "En Olaeta preparan una gran fiesta patronal para el 30 de agosto | - Córdoba Interior Informa",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT0RSb2t5WW1IdTRDTFNDVUl1YmZ2TzRyLVczT01KZEpRdGotckhCa3Z0a0lfQmhneFRvbmN5MGhJT2x2b09YRmw3T09vWHBMckZLZkRtRHNfRlFxYWc0RE52MnRGRFA1bW9UMUpxdi1Takk4UDRoTHBwckJteVk4V0lhZlozbE4tWkh4WGFrVzRROW1uV0NzcWxGNVZ5SUthWGVNV25nU1RqZGFOUDcyOA?oc=5",
+      "source": "Córdoba Interior Informa",
+      "sourceDomain": "cordobainteriorinforma.com",
+      "publishedAt": "2026-08-18T15:22:57Z",
+      "query": "fiesta patronal",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
       "id": "news-pe-8a8123901bf8d917",
       "country": "PE",
       "title": "Ucrania – Fiesta patronal en honor a Don Bosco y toma de posesión del superior de la Visitaduría UKR para un nuevo mandato - ANS - Agenzia iNfo Salesiana",
@@ -319,9 +355,9 @@
     {
       "id": "news-pe-65fe23c476730f12",
       "country": "PE",
-      "title": "Mujer cae de bombo durante fiesta patronal y habría perdido la vida; VIDEO se vuelve viral - lajornadahidalgo.com",
+      "title": "Mujer cae de bombo durante fiesta patronal y habría perdido la vida; VIDEO se vuelve viral - La Jornada Hidalgo",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYi1VcHNubXhpX2NudndwcHc4aTloSzV6bUZRbDA3bGtZRWRPR3RrbE5qeFd3RmtBdU1oUUh6RTJieTFQNmhCY3VLNUpPMHJmVFlTNnZ1TXNtX0Jxb0dBa0tvM0tlMHotUHhCUzFiQ3laek5YanpjMWRKd3pnRUN1MUMyalNHaHVsS3dYUFhzWUxDRkNLMXVOcDFXYzQxZFVkY1JqNGVaMUQ4TjlZVGNQNlk2U1YyV2U4VU9zVkd5Y1V3MnFSbmtaM2RmZmJGTEVQNDRTMndvVQ?oc=5",
-      "source": "lajornadahidalgo.com",
+      "source": "La Jornada Hidalgo",
       "sourceDomain": "lajornadahidalgo.com",
       "publishedAt": "2026-08-17T21:53:59Z",
       "query": "fiesta patronal",
@@ -567,24 +603,6 @@
       ]
     },
     {
-      "id": "news-pe-44da0c3a26694187",
-      "country": "PE",
-      "title": "Compañía a los santaclareños en su fiesta patronal - El Tribuno de Jujuy",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWXRmNHpIMDgxSnRqZGlWNzhTczh6TWlVUDdsOGVIRVV5T25FY0xoQXRpS19HbVh1MXdhTGg4SWI4MG1Tb2xVaHVMcmVQQ2llMlJaMnI4TWU2eG00TEFMR1N6X2ZDdHNxMnJMdVUtM3ZmZzBnSldCRjVQejc5YjhRSGFzTW82OEsyRDZCN0Ixa3ZWOHk2U19aejZRbFBjdWtNbHNiYjY5T0tnQdIBrwFBVV95cUxObTRjUjQtRnltUEMwSzh0RnJiTWRUeWt1Y2k1VngyTlNwYjZmMnBiU09OQjA4c2hGQXdweUtHeUZXSFFpVmY1ZDZ1S0F4cXV1YXY1M3I3am0xdm1qeHNzdzYxTDV5dGRnc1ZVd01FRWVQSHgza1JWRWNnelVMc3p0UUlsQlJMTEdGU3N6V204UUhHSjlBNk1EX1p2anZfZDA4cXFDOG50WHhOYVIxSkZV?oc=5",
-      "source": "El Tribuno de Jujuy",
-      "sourceDomain": "eltribunodejujuy.com",
-      "publishedAt": "2026-08-12T03:26:07Z",
-      "query": "fiesta patronal",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.2,
-      "reasons": [
-        "generic domain, origin unverified"
-      ]
-    },
-    {
       "id": "news-pe-ccf8d51b9907c58d",
       "country": "PE",
       "title": "Santuario Virgen de la Natividad de Tabalosos inicia oficialmente las actividades de la Festividad Patronal 2026 - Prelatura de Moyobamba",
@@ -678,6 +696,42 @@
       ]
     },
     {
+      "id": "news-pe-b290b9b08b07b55b",
+      "country": "PE",
+      "title": "Feria Patronal Chicavasco 2026: cartelera, actividades y artistas que se presentarán en Actopan, Hidalgo - El Heraldo de México",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPNXUtMElWSFdKN3hHdmdqVTVDeFBzMkVMWFZwVVhpa1pFUDZubDZhVVJDS01DaDlIcktmX0IxcTl4V3VteXNWc2llVmxGUHZiYmR3MW85a3NNUkQyQ19iaHBxcVdiYzNjZC1ITHlZNUVaQzZOY2hJR0QtbnVZdEN0TTVNelBQSG5UMTZmRFE2OUlIY3ZFTi1LczhyNnR0em1tbmlUX010d3NvN2pyTzZudXFUSmFta0RMVWNEMHhhX0xlUlBZaFc4MWZWeFdERnkxMWp3b3EwWWVnU1NJa1I5Q0pFbmVCZnRNRXlNSzVtdlpHZVU?oc=5",
+      "source": "El Heraldo de México",
+      "sourceDomain": "heraldodemexico.com.mx",
+      "publishedAt": "2026-08-18T15:42:00Z",
+      "query": "fiesta patronal",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-PE domain (heraldodemexico.com.mx)"
+      ]
+    },
+    {
+      "id": "news-pe-e62c11af22f6bd4c",
+      "country": "PE",
+      "title": "Polémica por video de la senadora Martha Peralta en una fiesta durante la emergencia por el sismo - elpais.com.co",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQd2t0Y05wN0dsTm1aNnNaUnFZVFR3TXJES2U3eWZmZDVncHlQWl92c1ljaUFzeXRiMHNIQ1JJdkdna0NHUTVUUVhwS2tuN1l0TVhVU2tlRHllWmxaQmp4bGs0OGFHZUN5b0J4OVBJMExmWjNMM001Y19YZEprX1pDbzhKMjdpNEdDMVVHSWkzN1dTeU5kdnl0SUdIODVCdFFQSDFPQ1NXQWVidGV4Rm9ZQ28yUE4yZDFFcDBCZDN5QVFScWMtYWkweXVWbHFhb3BSNGd4LXc3am9jZ9IB3wFBVV95cUxNS3poTl9FX2Fhc202QjFjWUg5d2FlNkdpOHFOel9wbDE4Y2Uxal9tVU5yZkVJcXVOb3c1QU5rTElqbVgzOUhzTG1ROWVrb1E4SnpFTkN0T3BudkFHSWxTVnU1NEp3cFQyeFRhTHoxdnhGQk1QdWlYSFBPSnMyU3FvTVJCRTZvTk5qOXlydjVYR3UxV0JIUTJuUl9VUDUtRXp1UFgxd3ZKbkR1ZS0zV192WERYUUFJMHhQYVIzSkR3TFBlT2lGMlZiT1BwTGZkYy1vOFRocGROTzZhLWRYUjgw?oc=5",
+      "source": "elpais.com.co",
+      "sourceDomain": "elpais.com.co",
+      "publishedAt": "2026-08-18T14:03:58Z",
+      "query": "fiesta patronal",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-PE domain (elpais.com.co)"
+      ]
+    },
+    {
       "id": "news-pe-65ef4210f342c1ec",
       "country": "PE",
       "title": "Lavalle vivió la Fiesta Patronal en honor a la Virgen del Tránsito - Diario UNO",
@@ -693,6 +747,24 @@
       "confidence": 0.05,
       "reasons": [
         "published by a non-PE domain (diariouno.com.ar)"
+      ]
+    },
+    {
+      "id": "news-pe-54917e62d5500d21",
+      "country": "PE",
+      "title": "Parroquia Nuestra Señora del Valle prepara fiestas de la Virgen - Diario Primicia",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQnE1d0o5ZmFsNlNpYklzTUVVaFJ6ZDZ6ay1TUS1RWUJXZmxEVzV0dFp6TzZkTXhvaFB4YmdvZ1dBa0I0Q3IwaHNTamhZRTNiXzNwSjc0aFhHbUtnemloOURIdVltRmQyMmE5ekRqNXpUZkZSZXVNS1p2bDBENFNpaHppdzVsZ0dCU3B2VG43dVNYMmNtY0N2V011UTY4TWpyS1RTSUVR?oc=5",
+      "source": "Diario Primicia",
+      "sourceDomain": "primicia.com.ve",
+      "publishedAt": "2026-08-18T11:34:16Z",
+      "query": "fiesta patronal",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-PE domain (primicia.com.ve)"
       ]
     },
     {
@@ -747,24 +819,6 @@
       "confidence": 0.05,
       "reasons": [
         "published by a non-PE domain (ultimasnoticias.com.ve)"
-      ]
-    },
-    {
-      "id": "news-pe-0b9a3574f6d09c15",
-      "country": "PE",
-      "title": "Preparativos de la fiesta de Nuestra Señora de Loreto de Cacalotán está a un 99 por ciento: párroco - www.noroeste.com.mx",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTEF2Z1psVVVDakJzXzg0SlFjWVJ5VHVvWUxPYzd6cUYtZEh1a0trNVdxU0Z3MWsyeXRoSDJja1NYX0d5YWU4eHRic1dVcnRPUHVRbXB5YjF4U0NHTURpZUcyRS1lR3A0V21FbjFlNmNLWFhULUR0OFRWQ2FZaFFSZFNaaWdpVkRMTkwtenhFYmdYWDB2S0ROTmNGekk5d3hsTV9MUEl4MmNDcm9WenZMbnFBdndwRmVJT3JYSU9POWFUVlhsZ01SOXNEckFEbmZBcXQ3c2JXT3lXT0nSAeABQVVfeXFMTXo1SU9wZlpteF9yc29CRE56amp2Qzlrbnp6V3N6cWh5VEpFcWxqVTVINFQ2TERjWG9TT1I5U1FaYUdYZEc3Q3pYVnhwWFpYcGpET3dVRDFObWlQLXBPRGFRYmdvNzY1VmJya0pRY0ZIQmM0WlFRTWVzVnJPcWlCUGVvdzhCVnRFY1ZBVlhNLWNlVHpaMWdJVEZJZmg5VUt5WGhYd2tnTTJkakZwSWVhdElUNzZ5QmdSZTRybEtmbXVUTkk0UFdoOVRoeUU1U2xLNnFGU1BmeFl2U2IxTkVBUXo?oc=5",
-      "source": "www.noroeste.com.mx",
-      "sourceDomain": "noroeste.com.mx",
-      "publishedAt": "2026-08-17T19:37:38Z",
-      "query": "fiesta patronal",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.05,
-      "reasons": [
-        "published by a non-PE domain (noroeste.com.mx)"
       ]
     },
     {
@@ -1179,24 +1233,6 @@
       "confidence": 0.05,
       "reasons": [
         "published by a non-PE domain (eltipografo.cl)"
-      ]
-    },
-    {
-      "id": "news-pe-cf1576bdcab9cce7",
-      "country": "PE",
-      "title": "Santa Clara: prevención de la violencia de género en la Fiesta Patronal - prensa.jujuy.gob.ar",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWlMyck82SHNtQUJaMVREbW9zemZSbjdHUWJsQnRsbmoyX2lTX0todFhsenNFVEFFcVBsTXBzd2p3SXZZeEZkZlBqaEg4Wnd2M2VpZEsxU3JnM05nd1JrSTNINUF6aVYwWS1KVUR3UEFrdmMzMENhd0M2NnEySkhxZ19QUDlBcWQ5bTUxbWtDVXlmcFdpaGs3eGdpVTlVTXZjSEJ1eFRxLUN1Y1dVSHhXU21vclTSAbQBQVVfeXFMT1pTMnJPNkhzbUFCWjFURG1vc3pmUm43R1FibEJ0bG5qMl9pU19LaHRYbHpzRVRBRXFQbE1wc3dqd0l2WXhGZGZQamhIOFp3djNlaWRLMVNyZzNOZ3dSa0kzSDVBemlWMFktSlVEd1BBa3ZjMzBDYXdDNjZxMkpIcWdfUFA5QXFkOW01MW1rQ1V5ZnBXaWhrN3hnaVU5VU12Y0hCdXhUcS1DdWNXVUh4V1Ntb3JU?oc=5",
-      "source": "prensa.jujuy.gob.ar",
-      "sourceDomain": "prensa.jujuy.gob.ar",
-      "publishedAt": "2026-08-12T11:28:00Z",
-      "query": "fiesta patronal",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.05,
-      "reasons": [
-        "published by a non-PE domain (prensa.jujuy.gob.ar)"
       ]
     }
   ]

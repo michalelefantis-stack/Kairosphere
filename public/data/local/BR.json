@@ -1,17 +1,17 @@
 {
   "country": "BR",
   "name": "Brazil",
-  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "generatedAt": "2026-08-18T16:31:55.664980Z",
   "refreshHours": 6,
   "status": "unfiltered",
-  "count": 29,
+  "count": 30,
   "reports": [
     {
       "id": "news-br-dc15127a24015922",
       "country": "BR",
-      "title": "Festa do Padroeiro São Roberto reúne música e tradição em São João da Lagoa - jornalpanoramaminas.com.br",
+      "title": "Festa do Padroeiro São Roberto reúne música e tradição em São João da Lagoa - Jornal Panorama Minas",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWTVnRzdYMnRTNHEzSlZFZC1kRHZEazFOVTJnaVNkeDdfS1pGMkU1NlhMV1JuX2E0OW1RN3RkRkREMnpiTS16UzhmMkRGa1BhaWpCeFlXbUJidWhndWtlRldVcXFkbzM1WHVLX3hBQVZ4VGxCRzM3OGx2eC1VM09pYmFRSmMxT0J5MXdQaU5zZ0h2N3FmczViaFFZYk1rTGVSSERLUWdod1ZYQllZMmpTWQ?oc=5",
-      "source": "jornalpanoramaminas.com.br",
+      "source": "Jornal Panorama Minas",
       "sourceDomain": "jornalpanoramaminas.com.br",
       "publishedAt": "2026-08-18T14:22:37Z",
       "query": "festa do padroeiro",
@@ -25,11 +25,11 @@
       ]
     },
     {
-      "id": "news-br-a85d199d04750e13",
+      "id": "news-br-8e7f6113fff63f6b",
       "country": "BR",
-      "title": "Cidade com nome de árvore entra no mapa do turismo após Festa do Peixe virar patrimônio cultural - primeirapagina.com.br",
+      "title": "Cidade com nome de árvore transforma tradição em patrimônio cultural e coloca Festa do Peixe no mapa do turismo - Primeira Página",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdjhiQnBuYkxORHpBcFhxTzRtU3FvWExtZDdzMEpFRE5PM1dVU2ZXd2NiemQ1b2I4S29Hdk43QjR0dHY0ZTduZVhMalNpckprWDRLX09LM0xrY3QtU3FKaWlGNlZ6Uzc2YkpPWTJPc1dySUhSV2pKWUk2d3UxOUxaN0JkTTZjckR3R2xXQ0RJUjJZY1hCVXcwdXFYS0ZVNko4U3Z5NWlVWTExNmhPb1FPelVhMHhTMzdzMDRjY3FIZVI0dVgyOHNzczVZMDFQVW8?oc=5",
-      "source": "primeirapagina.com.br",
+      "source": "Primeira Página",
       "sourceDomain": "primeirapagina.com.br",
       "publishedAt": "2026-08-18T12:47:36Z",
       "query": "festa tradicional cidade",
@@ -45,9 +45,9 @@
     {
       "id": "news-br-badd5e4e142eb08d",
       "country": "BR",
-      "title": "Festival de praia de Tesouro começa nesta quinta-feira - primeirahora.com.br",
+      "title": "Festival de praia de Tesouro começa nesta quinta-feira - Primeira Hora",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOV0xZNGFQckpnYjIyYU5xV1pLV21MNXJHeFY3cERITlFIY3RjN0hheGdxYnlPUUdFRklLZkFqa2RHbTVLbDVzd3JjVExVTkxsMFZPa3NLUk00dW9CSnBjQlFIczQ4dHZ1QmdnSFhVOU1KaUxhUVB5ZC02QmJ2MTFweFJ3MThqbEdUek9Z?oc=5",
-      "source": "primeirahora.com.br",
+      "source": "Primeira Hora",
       "sourceDomain": "primeirahora.com.br",
       "publishedAt": "2026-08-18T11:53:52Z",
       "query": "festa tradicional cidade",
@@ -153,9 +153,9 @@
     {
       "id": "news-br-0ff8c8d535c4b4ff",
       "country": "BR",
-      "title": "Uma cidade fundada em 1949 virou referência na produção de uvas e hoje recebe visitantes para festas e degustações - Correio Braziliense",
+      "title": "Uma cidade fundada em 1949 virou referência na produção de uvas e hoje recebe visitantes para festas e degustações - correiobraziliense.com.br",
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMFB6N09iNFpTMXRVaTZqcmpPTmxLV3R5bW1OZm1jbjZ1dUx4cXdMaDllUmZwTnlkN3N1TjAyWlNmc2Rfa2tzVmxKYUVEeVpBb3Y0VUNQazdxUExUS19zWE9JTEEwREFYa0R0bmhtNU8zbDFZQlFtc0VNbjB0Tk14Y3E5bG5WQWhKQTZyelJDNHpYR01JWlJFekxEWktWOXczS3JGVV94X2Z0UXZBbEl6M2xvZ2hrUW5uZ0JnZmZGZWNhSUpTR1BDOFJ3Q2liMGZ6VXFkeUdwREM4NHhsaTJVNVQtRjFOcm5TT3lVN25QbXNoNXM?oc=5",
-      "source": "Correio Braziliense",
+      "source": "correiobraziliense.com.br",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-08-16T17:30:00Z",
       "query": "festa tradicional cidade",
@@ -333,9 +333,9 @@
     {
       "id": "news-br-5958d8d31d6f6afd",
       "country": "BR",
-      "title": "Comunidade de Tamanduá realiza Festa do Padroeiro São Roque neste domingo em Marques de Souza - Independente",
+      "title": "Comunidade de Tamanduá realiza Festa do Padroeiro São Roque neste domingo em Marques de Souza - independente.com.br",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPT1JrQ3JVekFxOGExZ3h3dlFFMFVyMGI5VEtaRTZoZy14QkZrY1RpUGM3ZWNCbGYxNnM3aTJVaUZuX1QzWHVNM1ZZMUV4TXFVMzVRNGFDYllZZnpFUXJzR1dZV2Y4SUNZS2luYUhGOVZpdnhmdVd6WEs3akxTVV9aNlgzVS1xV1lWTXFRVnRYazA4ZmRmSV9DcmNUT0xNaDZwODUxVW9SSndlc251SElHZy1LZ2hrRlJXUVo4T25yLV9VNENhbW5fVVJ1bmk?oc=5",
-      "source": "Independente",
+      "source": "independente.com.br",
       "sourceDomain": "independente.com.br",
       "publishedAt": "2026-08-12T15:20:48Z",
       "query": "festa do padroeiro",
@@ -346,24 +346,6 @@
       "confidence": 0.45,
       "reasons": [
         "published by a BR domain (independente.com.br)"
-      ]
-    },
-    {
-      "id": "news-br-8f69bb295471d970",
-      "country": "BR",
-      "title": "“Voz do Romeiro”: Romaria do Muquém ganha canção que retrata a fé dos fiéis - Mais Goiás",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNM0JCVU83bGF4cm15MkF0djhCdTJfaUhfQl8xSXl6T053TjI4VnlXODE1Ui01Y0NsNzBWdWZQZ2N4RG9qTHRFWU5ja3BqWHZMM2pIUlA1Q1poUEswUEsxVzZfQ0c0aG5remkxNHVlNzdZcTRZbEo2MmN6dl8wbEZDZURURXVfTjd5akFXTi1rTWdRTE1tS3lsYWJCd0FjR1JjWHllakxTOUtPQTVzTThxVzNoNEd6bjF0MEE?oc=5",
-      "source": "Mais Goiás",
-      "sourceDomain": "maisgoias.com.br",
-      "publishedAt": "2026-08-11T21:58:17Z",
-      "query": "procissão romaria",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.45,
-      "reasons": [
-        "published by a BR domain (maisgoias.com.br)"
       ]
     },
     {
@@ -424,9 +406,9 @@
     {
       "id": "news-br-ba8bf5c869027dc7",
       "country": "BR",
-      "title": "Coroação e procissão encerram Festa de Nossa Senhora da Abadia em Romaria - G1",
+      "title": "Coroação e procissão encerram Festa de Nossa Senhora da Abadia em Romaria - g1.globo.com",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNTDE1clB1bENfaExYQnhxZkN5akZucFUxUkNCLU1uZklVUkZzUHhOYnhZTF9tNTZxUTJNcWd4bDVTUWZXMUNfNXdwOG83X2lDNHVyc2h1a2ZDTGZoUWRWeGp2dVU3MGFkdzV2a0ZtNVVqQ2RGSkQ1R2VObFF3U2VWNTRnd2FoR1VjWlluZDl6NHFSUnJWZDNTN1E1c2xoRkF2SXNjal9ubUJNVXVPMWpxcGVpbDI3Tk5KUVVXVks4d0dhZUw0a0NyWmlqZDVfYmdqRVQzTUhRS1lDdDIyUUxoZW9OQ1dEZVBPekg2TWZ3Mk9BMjlo0gH0AUFVX3lxTE1MMTVyUHVsQ19oTFhCeHFmQ3lqRm5wVTFSQ0ItTW5mSVVSRnNQeE5ieFlMX201NnFRMk1xZ3hsNVNRZlcxQ181d3A4bzdfaUM0dXJzaHVrZkNMZmhRZFZ4anZ1VTcwYWR3NXZrRm01VWpDZEZKRDVHZU5sUXdTZVY1NGd3YWhHVWNaWW5kOXo0cVJSclZkM1M3UTVzbGhGQXZJc2NqX25tQk1VdU8xanFwZWlsMjdOTkpRVVdWSzh3R2FlTDRrQ3JaaWpkNV9iZ2pFVDNNSFFLWUN0MjJRTGhlb05DV0RlUE96SDZNZncyT0EyOWg?oc=5",
-      "source": "G1",
+      "source": "g1.globo.com",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-08-17T13:37:57Z",
       "query": "procissão romaria",
@@ -478,9 +460,9 @@
     {
       "id": "news-br-8a9b485c563b858d",
       "country": "BR",
-      "title": "Ituiutaba celebra Nossa Senhora da Abadia com missa e procissão - G1",
+      "title": "Ituiutaba celebra Nossa Senhora da Abadia com missa e procissão - g1.globo.com",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOT3dIdGtWaXRpb1Vkd1dMaG1KNVRraWN0b0ktbWh2b0NNXzFRaEtFeXRhMmRJOFk2QkRQY3A5Mm5nLWZSMGNYaWphalVfVUN6S0ZtMmlJbmFKaWNzTWdkQk0yNUlIV3JOdV9rS2NxX3BmUHppeWxyN04wQVljSm1HWFB4YkluQ3ByeVZsNDNELWJSaGhhOXlIaDd0czNCRWNrTVRSOE8wVFQ0c2RYUUdtelZQYl9hVTJ0MERNWUdsaFVuQnFxNDA5S3lMRGFFSFNZLVhPSGhNc1Z4MS03amNmZ1RkQkp5dW_SAecBQVVfeXFMTk93SHRrVml0aW9VZHdXTGhtSjVUa2ljdG9JLW1odm9DTV8xUWhLRXl0YTJkSThZNkJEUGNwOTJuZy1mUjBjWGlqYWpVX1VDektGbTJpSW5hSmljc01nZEJNMjVJSFdyTnVfa0tjcV9wZlB6aXlscjdOMEFZY0ptR1hQeGJJbkNwcnlWbDQzRC1iUmhoYTl5SGg3dHMzQkVja01UUjhPMFRUNHNkWFFHbXpWUGJfYVUydDBETVlHbGhVbkJxcTQwOUt5TERhRUhTWS1YT0hoTXNWeDEtN2pjZmdUZEJKeXVv?oc=5",
-      "source": "G1",
+      "source": "g1.globo.com",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-08-15T20:57:07Z",
       "query": "procissão romaria",
@@ -509,6 +491,42 @@
       "confidence": 0.2,
       "reasons": [
         "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-br-4cfc03dccdabbd99",
+      "country": "BR",
+      "title": "Festas da Cidade de Estremoz 2026 decorrem de 4 a 6 de setembro com José Cid e ÁTOA - ODigital.pt",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE16azByWmNCT2NqVjZBZjZSWTZQNVdmdVF3ZlRjekJOZFNLTWRQZFBKNHRIRVJqdXNNMnY3c21hRFBPRmtnZkt3N2ljaU81eGxDc3ItR2JNalAxSDJIU1VsM0laTnRyQWhZall0eVpwQQ?oc=5",
+      "source": "ODigital.pt",
+      "sourceDomain": "odigital.sapo.pt",
+      "publishedAt": "2026-08-18T16:00:00Z",
+      "query": "festa tradicional cidade",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-BR domain (odigital.sapo.pt)"
+      ]
+    },
+    {
+      "id": "news-br-5db72f050977b3dc",
+      "country": "BR",
+      "title": "Festa das Latas com menos um dia na cidade dos estudantes - Notícias de Coimbra",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTFpqb0ZHV2Y1Vm5UVkNZLXQzVGw1ZzRTZ1lMcHZUU19iQ3l5Z0QyRkRTM3lGSTU4Q1RzSlN6elpucU5CLTlQVTRKcURGaGFBTFh2WklzdU1lckFNU0VJY1lGSWNmaGZkdXBpdFhuZWZiYTZCYjAtdXhLNTNWbWlVOFktT1llU3hKUEFkUEZrNzF4cjRSdUE?oc=5",
+      "source": "Notícias de Coimbra",
+      "sourceDomain": "noticiasdecoimbra.pt",
+      "publishedAt": "2026-08-18T09:45:09Z",
+      "query": "festa tradicional cidade",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-BR domain (noticiasdecoimbra.pt)"
       ]
     },
     {

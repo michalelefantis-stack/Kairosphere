@@ -1,7 +1,7 @@
 {
   "country": "MX",
   "name": "Mexico",
-  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "generatedAt": "2026-08-18T16:31:55.664980Z",
   "refreshHours": 6,
   "status": "unfiltered",
   "count": 59,
@@ -266,6 +266,22 @@
       ]
     },
     {
+      "id": "news-mx-16d126e89ebc953a",
+      "country": "MX",
+      "title": "Agosto de fiesta en los pueblos de Álava: las imágenes - zuk.eus",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9HN21XS1VHUURBUGE1d2NNd0lGNnFORW1pdURKM0RVNlJEOTVWdjd1RmctZFM0elhMNjVnVFdCVGdqOV84V3QzM0JzZ0J3QVhyZzZhQ25jRTk?oc=5",
+      "source": "zuk.eus",
+      "sourceDomain": "zuk.eus",
+      "publishedAt": "2026-08-18T16:01:19Z",
+      "query": "fiesta patronal pueblo",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": []
+    },
+    {
       "id": "news-mx-d6e9d30012cc981f",
       "country": "MX",
       "title": "Ponferrada calienta motores para una nueva edición de su tradicional Feria de las Rebajas - Ponferrada Hoy",
@@ -322,9 +338,9 @@
     {
       "id": "news-mx-8c83780fa239fdf0",
       "country": "MX",
-      "title": "Reciben a Daniel Martínez Terrazas como “Caporal” en la tradicional Feria de Santa María - Diario de Morelos",
+      "title": "Reciben a Daniel Martínez Terrazas como “Caporal” en la tradicional Feria de Santa María - diariodemorelos.com",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQc2tlMFhzZXFyV0ZSTnVvd193MWZjYkRYZlpKU0VBeEtzWGtGdWdzLThKVy12S0NaX0p3VlF1WndQUEVPXzNQekRkeXJnNDFSal9RMnVqUkxVZGVhNzlYQ1QtcWoxc05kUVJsaF9oQW9uYkhqRnI1RTVCVFZMN043bDl5b28xV29faWJoS2RjR2htRGM4SmFaLV9OSm1CWkEzamcxcFh3UVE2dkt1M3hDNUlHZmpTYlhMN2pn0gHAAUFVX3lxTE55dUZKLVJTWVY3RnloV0JJdFVDSkVJdnQ3eDRmSjE3UnhCeFRvT0xTX2dXMTlGN0J4YTA5dm9DendNWGFONzBvbEMwOEgxajkxN09Kc2JDOHp3dWhPWkVIN2thcUlsMkgtNjgzTmF0aGhUVGhfemVkWC1VS1Z0WjJUaHdad3UxTFUwUERIX2JkYm9YNjQ0cmFmVEhWd0JpVEpxVHVUYTZzRTE1RnB5anZLbWRsbkhKdVMtVng0aDhVYw?oc=5",
-      "source": "Diario de Morelos",
+      "source": "diariodemorelos.com",
       "sourceDomain": "diariodemorelos.com",
       "publishedAt": "2026-08-17T15:13:52Z",
       "query": "feria tradicional",
@@ -376,9 +392,9 @@
     {
       "id": "news-mx-7049b09ed5e00632",
       "country": "MX",
-      "title": "Abrieron las preinscripciones digitales para la tradicional Feria del Milagro en el parque San Martín - El Tintero de Salta",
+      "title": "Abrieron las preinscripciones digitales para la tradicional Feria del Milagro en el parque San Martín - eltinterodesalta.com",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYlg5Q0ZubF9PWHJnT0s0MlRuemdFVlpGSTdzQm41dzMwYmtKRTFtalJvX3VJeDdpUHI1VnZtclBOZTJqZHozR0hJampsSGkwLW1YV1ZqTG5udlBveUhNTTE4UG5ETnJLOGNRbG5fbmNCSDduRkxGMUhSZnhlSUVSREFIbmlEWGNIaVlTRkJPWnFuams3YVN0alFDeXFMZHMtc0w2Q0U3VnExQWFfZmpyVlI5a29HQVJxX2FLUWVEQkpRdmM?oc=5",
-      "source": "El Tintero de Salta",
+      "source": "eltinterodesalta.com",
       "sourceDomain": "eltinterodesalta.com",
       "publishedAt": "2026-08-17T11:30:00Z",
       "query": "feria tradicional",
@@ -394,9 +410,9 @@
     {
       "id": "news-mx-11c558afa9c0bb0c",
       "country": "MX",
-      "title": "Auritz-Burguete reúne a más de 70 puestos en su tradicional Feria de Artesanía - Diario de Noticias de Navarra",
+      "title": "Auritz-Burguete reúne a más de 70 puestos en su tradicional Feria de Artesanía - Noticias de Navarra",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMDM2VDVzVmVJR2M3X1VRT3l5OWxUZ0xhXzRwdVF5dXJmRE5uX3dud280bHJBMzhZTFoybE5mZ1BOeXE5RkVuS2V5Nnd6emJydE9EeW5YQi15Yml5QzdYamRuQkQ0Snlaemdqd1ZGVTY5eDhkVVU5dUxKczFRWFVRTV95TjNQRmdSNnRMaDBvMGZ0X3N5aloyY3U3WUpUYTJZ0gGmAUFVX3lxTE5Gd0UzR2FOMVpEdHBwNkxOU2xqVlpyNTlMekI2ekhyODBQQXJTOTdJUFE4WXkyMFVFOTVxRjJpMGxSYUFGRVkwaWpnS0xhSTRzdDR6SmxYb3FuOXphajI3aUdzUEpncG0yTUpPNXNlWkJHelZqTndLd3NHc0syMGpfMUMzVVhudVdROUotOWI1X0JxS2VvNmNKaFdVX2JtNjFTM1AtaGc?oc=5",
-      "source": "Diario de Noticias de Navarra",
+      "source": "Noticias de Navarra",
       "sourceDomain": "noticiasdenavarra.com",
       "publishedAt": "2026-08-16T16:02:23Z",
       "query": "feria tradicional",
@@ -536,24 +552,6 @@
       ]
     },
     {
-      "id": "news-mx-c3986b0032c7f274",
-      "country": "MX",
-      "title": "Procesiones, verbenas y toros de fuego: el pequeño pueblo almeriense que celebra San Roque este fin de semana - La Voz de Almería",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQd3N0ZFJ6bEJERG9Uc3hPNk4xQ292YlM1c2FJTm5taTlfT1ZYU29xa29DWFJTOWxyeHM5TGZTUXZqQkxvTlVtalB6ckt0OF9ZNFFsR0JUZFlQMV9FdThNS3V1enhZNnh4eDZqVmY0SndscVNTTmJaaU50b2k3QmNlZkdXX21NZHYyRERyal9yeHBjWHVnNFFzQ1BOLTJpU1drY21jYTUyYmxmYnJhZHY0VF9WcVIxYU50NnJHanlwM05aeUxoUmNwdkNLVDlLRmUwYURTVlJ4WGQ4ZUZhYTQ5RUVxbw?oc=5",
-      "source": "La Voz de Almería",
-      "sourceDomain": "lavozdealmeria.com",
-      "publishedAt": "2026-08-14T17:16:28Z",
-      "query": "fiesta patronal pueblo",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.2,
-      "reasons": [
-        "generic domain, origin unverified"
-      ]
-    },
-    {
       "id": "news-mx-d91bb299d0033984",
       "country": "MX",
       "title": "Fiestas Madrid 2026: eventos, tardeos, fiestas nocturnas y más - Madrid Happy People",
@@ -592,9 +590,9 @@
     {
       "id": "news-mx-b8e9b97f0c29e209",
       "country": "MX",
-      "title": "¿Cuánto es de casetas y gasolina al pueblito de la Sierra Norte de Puebla que tendrá su feria tradicional? - Escapada H",
+      "title": "¿Cuánto es de casetas y gasolina al pueblito de la Sierra Norte de Puebla que tendrá su feria tradicional? - escapadah.com",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZnY3SE5oeEhaLUVBbS1mRU9GLW1XM1dIWUNQRWFta0R3MU5WX3VTU3pacndtdkZkUzVFUmJOYTZlTkg5Rmx3WmZheTlhdjRmekp1ek1RZXdYTFBwd09qcTJaR0poM2lmS0trMG90REhhVWpCRmlKZUlPWkVyT3BMX1lvb2ZZSFN3SGUtWGtqRWVjUWZubFNNMXNIMi1weFpVRjdOVXRJUlFEZHZ6UGdKb19rQ3R1SmMwZlJYalFpZzRWMlVkSnBUUGI2N1c0RF9OLUJtVG9ORXo0Q1AySnlvTWtYdDlKLVpGa3JsbGdQY9IB7wFBVV95cUxQZnY3SE5oeEhaLUVBbS1mRU9GLW1XM1dIWUNQRWFta0R3MU5WX3VTU3pacndtdkZkUzVFUmJOYTZlTkg5Rmx3WmZheTlhdjRmekp1ek1RZXdYTFBwd09qcTJaR0poM2lmS0trMG90REhhVWpCRmlKZUlPWkVyT3BMX1lvb2ZZSFN3SGUtWGtqRWVjUWZubFNNMXNIMi1weFpVRjdOVXRJUlFEZHZ6UGdKb19rQ3R1SmMwZlJYalFpZzRWMlVkSnBUUGI2N1c0RF9OLUJtVG9ORXo0Q1AySnlvTWtYdDlKLVpGa3JsbGdQYw?oc=5",
-      "source": "Escapada H",
+      "source": "escapadah.com",
       "sourceDomain": "escapadah.com",
       "publishedAt": "2026-08-14T01:12:00Z",
       "query": "feria tradicional",
@@ -646,9 +644,9 @@
     {
       "id": "news-mx-2ea6e9b563f81647",
       "country": "MX",
-      "title": "¿Cómo llegar al pueblito de la Sierra Norte de Puebla que tendrá su feria tradicional? - Escapada H",
+      "title": "¿Cómo llegar al pueblito de la Sierra Norte de Puebla que tendrá su feria tradicional? - escapadah.com",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdGFoZkltNTFVSnFROXZRRklVOWR1ZEl4TThyeWM0WUFkbjEzZGNhNDFwbmswYXRBdWl2cFdQV2xPX1l4bENfSUxaa2pLOTVoRVFKU3F2YmNVcG9TRlRUQ2VWR2JvRXA2V2FEaThZekZRRFlsOFpNVThkeDJ0bzd1a25FZThVdmFWWDhFQkRIdThZNzZtd3phM3VObjhMdVNmY0lrNWE4aFUzeUhMS3FSZWx3WmtSZUNxZXU4ZEJvLXY3OXRFNmhvSWlYbVBYZ3dad1BZaXU1SdIB1wFBVV95cUxQdGFoZkltNTFVSnFROXZRRklVOWR1ZEl4TThyeWM0WUFkbjEzZGNhNDFwbmswYXRBdWl2cFdQV2xPX1l4bENfSUxaa2pLOTVoRVFKU3F2YmNVcG9TRlRUQ2VWR2JvRXA2V2FEaThZekZRRFlsOFpNVThkeDJ0bzd1a25FZThVdmFWWDhFQkRIdThZNzZtd3phM3VObjhMdVNmY0lrNWE4aFUzeUhMS3FSZWx3WmtSZUNxZXU4ZEJvLXY3OXRFNmhvSWlYbVBYZ3dad1BZaXU1SQ?oc=5",
-      "source": "Escapada H",
+      "source": "escapadah.com",
       "sourceDomain": "escapadah.com",
       "publishedAt": "2026-08-12T21:56:00Z",
       "query": "feria tradicional",
@@ -735,13 +733,13 @@
       ]
     },
     {
-      "id": "news-mx-e2b413303e286086",
+      "id": "news-mx-5ff5a84f7f61496c",
       "country": "MX",
-      "title": "Cerca de 1.500 mayores participarán en la cena homenaje tradicional de apertura de la Real Feria Grande de Loja - El Corto de Loja",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQS3F5Mmh2RjhZcjRZSHl3enpTMFlPakMwWjl3amVWWEtLbjNySlFuclhDVFhwNFA0SzQ0Tm1aRTNnUDEwRWp1azM0UkhmTlRJOFlCY0M4aG1qYnl4WlNqdThDWDlsbG5jaWw2eDg1MjQwVGhpakZraG1hNWRMYm93V21YYWM5eDRyLUtONVhPNmM3LXpQTk16cjhrZ0dVLUNMQzdaNUFyUzZpeElHOTczeEVsLURKeTlROU9QRzN2NGoyd0hsX3dRLVhsLUFOZlQ2dHA3TGw2YnhRUDJ4VVpta1ZwbFNkdlc1?oc=5",
-      "source": "El Corto de Loja",
-      "sourceDomain": "elcortodigital.es",
-      "publishedAt": "2026-08-18T11:41:35Z",
+      "title": "Segunda edición de “MARGEN”: llega a Villa General Mitre la feria de libros y arte impreso fuera del circuito tradicional - Diario CEMBA",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZXdCTjNEM2l2Sl9SNjdqR1dWUEdELVhFVEQ0UUdYaTZVTE5oemU4VExRTUpLam9CcFAwaHoxaGpEaWROWXNrbWVKNmZReHJsLXI1TlZ5REFzTVZSbjBWdnZtMmwwc1dRLUduNnl6aFlObHVpdU94N1cxdXl0cFNEdkRRQkZQcDRyZ1NBX2dvbXFGQlhyTGo3TFdzRFd0dmJ3dDdsZDJwNVpzTnZaTkkySm9QYVlKS0xPMW5HOUtlNGZEdWkxaF8xZFl6X08tQlNBckpmTXJ0bw?oc=5",
+      "source": "Diario CEMBA",
+      "sourceDomain": "cemba.com.ar",
+      "publishedAt": "2026-08-18T15:26:39Z",
       "query": "feria tradicional",
       "kind": "unclassified",
       "isPublic": null,
@@ -749,17 +747,35 @@
       "whenText": "",
       "confidence": 0.05,
       "reasons": [
-        "published by a non-MX domain (elcortodigital.es)"
+        "published by a non-MX domain (cemba.com.ar)"
+      ]
+    },
+    {
+      "id": "news-mx-616edf165eeb6c05",
+      "country": "MX",
+      "title": "La tradicional velada de Feria impulsará la consolidación del boxeo almeriense - Diario de Almería",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcWo0ZlRBUGNyZnRFckZuLW5oWXZCS1N6dVRzMDFXQjdlSWhfakZEQ2lLU1VkcENMWlo0T1pIUlM1NDdhbkFaZDhzQlVTZk1PazhIbVo1QlpPT29zeHUxV2FqX1h4eGhGODdvV3MxZnNBVGNHTzAwVHp2LTJQS2ZrZ3BlVEM0QWNJcDczLTlvd3NlN2pBXzNpNHN4OE1sSUZv0gGmAUFVX3lxTE5abHd0cjFibUJBcEtPYlFBMTJkTzhJY0Q5MjVmQkVKT3drRUJkcVdnTFFTVzNNUDRfR2llczVCTHpFdzdqUTFWVTBTQWhaQ2VLQ0lObDRsekZ0eVNDMEdaX0h2enIzUTNZVnBNTi02VjRrcF9wS1FuY1ZSejFaTVl1YTYxOVk2SDNqYVlZWkVBeDh4NVNYZHd0b2hSTnFMTFFFSC03ZHc?oc=5",
+      "source": "Diario de Almería",
+      "sourceDomain": "diariodealmeria.es",
+      "publishedAt": "2026-08-18T14:26:17Z",
+      "query": "feria tradicional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-MX domain (diariodealmeria.es)"
       ]
     },
     {
       "id": "news-mx-528b51277aa3aa53",
       "country": "MX",
       "title": "Sáenz compartió con miles de familias el tradicional Festival de la Doma y Folclore en San Lorenzo - Gobierno de la Provincia de Salta, Argentina",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOMy1VTDJfWEVnb09ZZDc4YjhVMEEwSUpXbGdUTUlacExOX2lUNFczemk4a014UEpLR3AtT0I3N0ZVaDhZSHRZbTNZaEdsY1N1MXk2Vl9oNlFtZEI1Q3FaN3J0bFQwNTBBVHgxeEZkMmdiMUszNTVHeGdXb2Frd0J2YVpYbnNLSk1JeVVIYnVlMmw3c0ZNclFzNFVrbTRTc3g3djFMYmRoZHV5ZVpaU29fSlJCdHpjSlFMa2NxN3B5NGpHZXJyMGF3ajRGLTZXNTRVaUozVExZQjFPeUNzUjJ0ekVnMGQyMHRXOE0tVUJlNE8?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPcS13VzlSTUNDZzFncDY1MllaN0RXNW1UcmVzZGZrVHhGdVBadTJOTHV0d0ZLQ3lOUDdyVTdrOG51V1QyR0JSZWdJUDgxWjlXVWFLbFJLbmR5YXVDU1dVbzl0eWtaWkN2Q0hfQlVuNTVjc2RHVjhTdzVZT1hzWkQ4aTlmMW5zZGs1UjlvZHd6b0JCME5TaFhLR1VvQjlmVHliQ3FwZ0RkX240dTRkd0ZfLVl3cHp5b3RNY0JTcHF0ajNuMXp6QlpWUzhxaXAzcnh0YlE0MWJWbzVPX3BkUzk4?oc=5",
       "source": "Gobierno de la Provincia de Salta, Argentina",
       "sourceDomain": "salta.gob.ar",
-      "publishedAt": "2026-08-17T19:11:05Z",
+      "publishedAt": "2026-08-17T12:40:37Z",
       "query": "feria tradicional",
       "kind": "unclassified",
       "isPublic": null,
@@ -930,24 +946,6 @@
       "confidence": 0.05,
       "reasons": [
         "published by a non-MX domain (diariodejerez.es)"
-      ]
-    },
-    {
-      "id": "news-mx-893160dd94df0b89",
-      "country": "MX",
-      "title": "La espectacular fiesta medieval de un pueblo de Toledo que viaja al siglo XI durante tres días y cumple 30 años - La Razón",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNUkdLajlxdUxKYkVoekRsX3ZZc3I3V3Z2MG92Sk01X253N0lKOHd2ZG1zQWx4QnpTYkhvV0gtZ29scHowNTR4X2pNZWNIYkVtUjFqaG5SZ3RCNHB5SjNVN2c5Wi1UbzlEZWJoUHQ1VVoxbThFWnBNNXBIQVE4dTRMY0paVlJROXdKc21KNGp4Z3Ryd3FTdXZzYUVlZm90ajdiN3l2aXNlcnlHS0c4RFdYdGdJTE9uU3dSLVl5dm5SQS1JZ0I1NHRZekhQYlo0M1JwLUZ4dEp3b2Y3bF9SX3hGdHZxTnJwNnFsWUYyZGp0UjJvX291TjNCc0RqTHbSAZACQVVfeXFMUEE4NmRWeDVjM3U0eUJTZG1FZ0ZCRnRLZFZsNThLdzhMZkw1cndSV002OVpkbThhU2JZU0ZRME56elBiR3RZRV9keEJ5aHJ3Wko3Z0pZYy1tWFZlNTMzN2NMR0pjSGRObE9PdkNZREIxLTUyRlJEVF9IS1NvUjVOdFpyRnVYWFBJcUtXU01ZOFU4XzYwVFg1NXJDeDBLdExOU0VJWFpZTDJTcHZCX1hyRFVlekF5VUh5bWZUYUJQTlI3MV8wT01EaXV0bUsxQ2RlazNHUjVzekl6OV82SmZJQ1Z4ZjA3OUd2S1VuZ3Azdk5laFNNNnNMMXBFVm81c0lLQmsyWHdLLWY3MXJBdWtGWTc?oc=5",
-      "source": "La Razón",
-      "sourceDomain": "larazon.es",
-      "publishedAt": "2026-08-14T21:59:13Z",
-      "query": "fiesta patronal pueblo",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.05,
-      "reasons": [
-        "published by a non-MX domain (larazon.es)"
       ]
     },
     {

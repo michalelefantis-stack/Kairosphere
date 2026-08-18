@@ -1,29 +1,11 @@
 {
   "country": "MA",
   "name": "Morocco",
-  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "generatedAt": "2026-08-18T16:31:55.664980Z",
   "refreshHours": 24,
   "status": "unfiltered",
-  "count": 26,
+  "count": 23,
   "reports": [
-    {
-      "id": "news-ma-a32e2e1d0fd50eea",
-      "country": "MA",
-      "title": "إمزورن..انطلاق مهرجان صيفي يحتفي بالثقافة والتراث - المساء 24",
-      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE84ZkI4c1lkLWU3azVnRC10ZlJscWJSd1N1NTF4aFdkdS16eko2bVJYck5YMmMwY2VxdTJuTXpma0I?oc=5",
-      "source": "المساء 24",
-      "sourceDomain": "elmassae24.ma",
-      "publishedAt": "2026-08-15T12:24:20Z",
-      "query": "مهرجان تراثي",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.45,
-      "reasons": [
-        "published by a MA domain (elmassae24.ma)"
-      ]
-    },
     {
       "id": "news-ma-4618d56571f3cf07",
       "country": "MA",
@@ -115,9 +97,9 @@
     {
       "id": "news-ma-ad0c78511f18b08a",
       "country": "MA",
-      "title": "مهرجان تراثي حاشد في الحديدة يحتفي بموسم التمور ويفاجئ الزوار بفعاليات مثيرة - المشهد اليمني",
+      "title": "مهرجان تراثي حاشد في الحديدة يحتفي بموسم التمور ويفاجئ الزوار بفعاليات مثيرة - almashhad.news",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE12eGJHd3RVNE8yRHJ4MjNfR0VIdmhURzAzRFZvbEJ1bUliSlZ0a2N3aEFOMXYzbEo5TFBzTFlFQ3FmM1ZWN3UzMERvMERLaXM?oc=5",
-      "source": "المشهد اليمني",
+      "source": "almashhad.news",
       "sourceDomain": "almashhad.news",
       "publishedAt": "2026-08-15T22:55:41Z",
       "query": "مهرجان تراثي",
@@ -131,9 +113,9 @@
     {
       "id": "news-ma-94abcafbc009b4df",
       "country": "MA",
-      "title": "أسماء لمنور وكريمة غيث تختتمان الدورة الـ14 لمهرجان «أصوات نسائية» بتطوان - أنوار بريس",
+      "title": "أسماء لمنور وكريمة غيث تختتمان الدورة الـ14 لمهرجان «أصوات نسائية» بتطوان - anwarpress.com",
       "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1UUHlUQzJXY1pPT0gzeU9MOUU1UWhSZHBCTE1oZE9IVTY2TE9OWmprZ2pFMW01aVdVbldva1kxVE9wMlZz?oc=5",
-      "source": "أنوار بريس",
+      "source": "anwarpress.com",
       "sourceDomain": "anwarpress.com",
       "publishedAt": "2026-08-15T07:00:00Z",
       "query": "مهرجان تراثي",
@@ -172,24 +154,6 @@
       "source": "٢٦ سبتمبر نت",
       "sourceDomain": "26sep.net",
       "publishedAt": "2026-08-12T18:26:34Z",
-      "query": "مهرجان تراثي",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.2,
-      "reasons": [
-        "generic domain, origin unverified"
-      ]
-    },
-    {
-      "id": "news-ma-4404f50e15065b2c",
-      "country": "MA",
-      "title": "مهرجان الأطاولة التراثي التاسع يجدد حنين الكبار للماضي - صحيفة مكة",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pbmkxa1h2UHh3UVNwcTRBMDZYNjNYRzFHV3FtYzEwNjg5emdJaXdCWGxndWJKNkhSZDlYRnE4czNoLVk1U1FWRFQtUGhWUXlvYnFUUXFn0gFaQVVfeXFMTllpUXhVWE1GRklJRlFIcERoSkUwVVgwN0wtdzNRZUViUElMdnVFMl9rLTNyVTFHZ016Rm9HUi1YVnZtRVdHVjAzUklOX2xHTHNzMl9LSWp2WXp3?oc=5",
-      "source": "صحيفة مكة",
-      "sourceDomain": "makkahnewspaper.com",
-      "publishedAt": "2026-08-10T00:24:23Z",
       "query": "مهرجان تراثي",
       "kind": "unclassified",
       "isPublic": null,
@@ -403,24 +367,6 @@
       ]
     },
     {
-      "id": "news-ma-493b7644a466a973",
-      "country": "MA",
-      "title": "منزل شاكر تحتضن الدورة الثانية من مهرجان التراث والأصالة بالزوايد - Assabah news",
-      "url": "https://news.google.com/rss/articles/CBMi-ARBVV95cUxPRC1mRnJqYkFoSGh1VldQN0c3ZDhPUmUxLU96Y1pEUXhGY19RQmFRTE42Ymg4Y2ItenZucXU3NF9iSHJlby1zdEEybWxXblBqT2x4YWtUUzg1djlkbmhOR2R0WEtUWHVHZndQalJETVlPVURuM0x2OVl2c0oxSlNvZGRqWW5KaWEzRlh3REdqcU14NVowUzYzQjM5QmZpdmk2NUIzSG1TQ2t1Q1dNMk5PSS1qRWsxMVJfT29YaC0xNHo3Z2hNVnNwQ0lVbENfRVpsMW1EaW8zM2h1bnVMOEsyS1pHM0ktRUh1U2Q4a3dZamMyZkgtRi1vbWRjS1dYUzNqVGRybk5aVE1tUENzMzZmQTFjbEtYWDNGZmdMdHkyT0RmcTlDR2NuM2p5aUxKNVNpeU15aFA0T0ZyUHlTQXFBajRqTDY1S0lvcDJCTWFHbTQtMlNyZVF5VEhMZm1yNFcweERpa0VTMERyOW5MM3JmVnZHWDhzOS1KNXJFbGtqcU1Vb1pPWDJNbFdSMVRpaXdGVUcxLWJCM1FFSDluR2xpM0RKM2czdkNVcVJTNExoMUVoazEzWUVaWmFuRE1aVlBYdFdKX2MyNzhxbkowYmEtWHpHVTFwTC1fSkl2aklrcXExbk1xWGtKbG1HTkp6RkJzTGc4Q0NkaG8tenJIRTdmNzR3T3d2azJ6anlxMHlHWUx3amhqMVlMbUI3dWo4akFiUDlYVms2X2xUTE1pMTV6QjJOOGoxZ3d5eG1PZ1djQ3RGRFZiT2VYblRSdWUyek1jdUlpc1F5enJicktqNnhzaUFZb0FXU3hEU2tkZFlWcU9vUFJGRGhlcg?oc=5",
-      "source": "Assabah news",
-      "sourceDomain": "assabahnews.tn",
-      "publishedAt": "2026-08-13T07:08:39Z",
-      "query": "مهرجان تراثي",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.05,
-      "reasons": [
-        "published by a non-MA domain (assabahnews.tn)"
-      ]
-    },
-    {
       "id": "news-ma-0413f9fd4457f71b",
       "country": "MA",
       "title": "غداً.. مهرجان تراثي شعبي بالدريهمي احتفاء بموسم التمور وذكرى المولد النبوي - وكالة سبأ",
@@ -459,9 +405,9 @@
     {
       "id": "news-ma-f8904f8b5f859cb3",
       "country": "MA",
-      "title": "ثقافي / \"أعمال الأمهات قديمًا\" تعيد تفاصيل الحياة اليومية في مهرجان الأطاولة التراثي - spa.gov.sa",
+      "title": "ثقافي / \"أعمال الأمهات قديمًا\" تعيد تفاصيل الحياة اليومية في مهرجان الأطاولة التراثي - وكالة الأنباء السعودية",
       "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9TTTFLWVFUMGM4Wlo4R1RuZUlPeEJ5RkFUVm5OZ2M4TmNKaHY2TExoQ2ZRTnJzcnBrNXgtYjVsdE5VVmZKRHc?oc=5",
-      "source": "spa.gov.sa",
+      "source": "وكالة الأنباء السعودية",
       "sourceDomain": "spa.gov.sa",
       "publishedAt": "2026-08-09T09:45:41Z",
       "query": "مهرجان تراثي",

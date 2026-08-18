@@ -1,17 +1,17 @@
 {
   "country": "RS",
   "name": "Serbia",
-  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "generatedAt": "2026-08-18T16:31:55.664980Z",
   "refreshHours": 168,
   "status": "unfiltered",
-  "count": 6,
+  "count": 5,
   "reports": [
     {
       "id": "news-rs-e0a231817895ef83",
       "country": "RS",
-      "title": "Преображењски сабор на Жабљаку :: СРПСКА ПРАВОСЛАВНА ЦРКВА :: - :: СРПСКА ПРАВОСЛАВНА ЦРКВА ::",
+      "title": "Преображењски сабор на Жабљаку :: СРПСКА ПРАВОСЛАВНА ЦРКВА :: - spc.rs",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNc29JTWlNWWc1Qm5MN1NPNUFhZV9aMTJyZnZES1NsR3h1eGJiSG5nbTZsTGM4MGdKc2JkRk1oXzU4S3BnelhmVVBqb0hiNlFWeTNoQ3RENy02aUd4RkhoQzNnemlpTU1rR0IwMUNXR1VGdk9RekNKaVc2cmdmRHJOS3ZiM2tCbTgyX1hVVkFWOVJMdw?oc=5",
-      "source": ":: СРПСКА ПРАВОСЛАВНА ЦРКВА ::",
+      "source": "spc.rs",
       "sourceDomain": "spc.rs",
       "publishedAt": "2026-08-18T13:43:06Z",
       "query": "слава сабор",
@@ -27,9 +27,9 @@
     {
       "id": "news-rs-69fb5eab3238a80a",
       "country": "RS",
-      "title": "Сабор код манастира Соколица на Равној Романији :: СРПСКА ПРАВОСЛАВНА ЦРКВА :: - :: СРПСКА ПРАВОСЛАВНА ЦРКВА ::",
+      "title": "Сабор код манастира Соколица на Равној Романији :: СРПСКА ПРАВОСЛАВНА ЦРКВА :: - spc.rs",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQ3Z1ekgya0YtRjZGbFFRVWNJRndnVGxNRHVfNGpTUW4tbUJWMzhnaWpxU3dYbTN2cXlqUTk3MXlwdlhWZFk3RjRkQUlGNk10bk9DMmtnaF9veDQtMzJxVm5QQVJzQWVNUnVpcllCOXhMRHdFUXZxNEFwNDk1T3dhY1ZlS2o5RS1LVG15bzlIY0VEUkx3UnB0cFRQMy12LVYxOGVEcA?oc=5",
-      "source": ":: СРПСКА ПРАВОСЛАВНА ЦРКВА ::",
+      "source": "spc.rs",
       "sourceDomain": "spc.rs",
       "publishedAt": "2026-08-18T13:22:58Z",
       "query": "слава сабор",
@@ -45,9 +45,9 @@
     {
       "id": "news-rs-7d3e7740465c2644",
       "country": "RS",
-      "title": "Свети Пантелејмон – слава васкрслог манастира Удрим :: СРПСКА ПРАВОСЛАВНА ЦРКВА :: - :: СРПСКА ПРАВОСЛАВНА ЦРКВА ::",
+      "title": "Свети Пантелејмон – слава васкрслог манастира Удрим :: СРПСКА ПРАВОСЛАВНА ЦРКВА :: - spc.rs",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWUFxa3NtNXFfTkk1QWJSVWVjQnlrQ0ZBb0taX2RVMFdnM1VsWVppWG5nOHJOTG5fdGZoMFExckV1WTRDeXhqbmxiT1k5YzQyQlFOVVNqMVpfNDM2VExKbG16Q0JtczRHTWNCZ0JkUk00YzZQTnVwaHRfN2E2aEE2SUtYOS0yZkhTWi1HTEJ6UlZGV3dHSTY3VExUbllabjdX?oc=5",
-      "source": ":: СРПСКА ПРАВОСЛАВНА ЦРКВА ::",
+      "source": "spc.rs",
       "sourceDomain": "spc.rs",
       "publishedAt": "2026-08-13T06:55:21Z",
       "query": "слава сабор",
@@ -63,9 +63,9 @@
     {
       "id": "news-rs-35df4c28eabe29dd",
       "country": "RS",
-      "title": "Danas su Gospojinske poklade: Veruje se da devojke treba da urade jednu stvar da bi našle srodnu dušu - Blic Žena",
+      "title": "Danas su Gospojinske poklade: Veruje se da devojke treba da urade jednu stvar da bi našle srodnu dušu - zena.blic.rs",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZXptUWhnWGwyOGRyeGVXNzJJM183R0pWMzdaQ096cGdfaWRURWtFc1g1cFZscE1oeEJIcm14dzBmUTNob2ZkSm9TQmUwbWVhTGJJYnZFcnBoSm91QU83UXUtdWRFNzNFNFg1RXRjd1ZjbzlPaEFhVnF5Ny1WYktGWXRpNV9OS2FKWG5aYmtRc2xWUE1RRzZaU0plZjhSM0tGaVpJdGRXVWNqTVl3bEVVZ1ZpZGVHWFdFUk40RWlOMy1VNGpQc2c?oc=5",
-      "source": "Blic Žena",
+      "source": "zena.blic.rs",
       "sourceDomain": "zena.blic.rs",
       "publishedAt": "2026-08-13T05:47:26Z",
       "query": "народни обичај",
@@ -76,24 +76,6 @@
       "confidence": 0.45,
       "reasons": [
         "published by a RS domain (zena.blic.rs)"
-      ]
-    },
-    {
-      "id": "news-rs-c9345c8d6f7e8031",
-      "country": "RS",
-      "title": "Sutra je Sveti Pantelejmon: Običaji, narodna verovanja i molitva zaštitniku bolesnih - RTV Belle Amie -",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQckRRSjZnM2V1V1M2UlJucElaaUtldkF3UzBOdlZENWJ6U21BWE9TTzFzVVFtQ1hibE9aYUJxLWVGblF1bW1HV1NZbGtHLXp1VnpjU3ctTU1nbGJvNGxSQkVkekhmRUNNYm9kbV9EdHpDbS1TR1pqQU9Vb1VZYWs5NU1CRnU5aWJzLXh2T2dfakJIdXVIMjNubXFPTzAyMFJWdzUtWXl6VDRVTUJIdFg5T2tn?oc=5",
-      "source": "RTV Belle Amie -",
-      "sourceDomain": "belami.rs",
-      "publishedAt": "2026-08-08T16:17:34Z",
-      "query": "народни обичај",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.45,
-      "reasons": [
-        "published by a RS domain (belami.rs)"
       ]
     },
     {

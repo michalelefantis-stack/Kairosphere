@@ -1,10 +1,10 @@
 {
   "country": "BO",
   "name": "Bolivia",
-  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "generatedAt": "2026-08-18T16:31:55.664980Z",
   "refreshHours": 24,
   "status": "unfiltered",
-  "count": 188,
+  "count": 190,
   "reports": [
     {
       "id": "news-bo-defd9443f17c94f6",
@@ -416,7 +416,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "eltribunodejujuy.com seen before (6 stories)"
+        "eltribunodejujuy.com seen before (5 stories)"
       ]
     },
     {
@@ -435,7 +435,7 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "eltribunodejujuy.com seen before (6 stories)"
+        "eltribunodejujuy.com seen before (5 stories)"
       ]
     },
     {
@@ -549,7 +549,25 @@
       "confidence": 0.26,
       "reasons": [
         "generic domain, origin unverified",
-        "eltribunodejujuy.com seen before (6 stories)"
+        "eltribunodejujuy.com seen before (5 stories)"
+      ]
+    },
+    {
+      "id": "news-bo-2fb494808cba1862",
+      "country": "BO",
+      "title": "En Olaeta preparan una gran fiesta patronal para el 30 de agosto | - Córdoba Interior Informa",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT0RSb2t5WW1IdTRDTFNDVUl1YmZ2TzRyLVczT01KZEpRdGotckhCa3Z0a0lfQmhneFRvbmN5MGhJT2x2b09YRmw3T09vWHBMckZLZkRtRHNfRlFxYWc0RE52MnRGRFA1bW9UMUpxdi1Takk4UDRoTHBwckJteVk4V0lhZlozbE4tWkh4WGFrVzRROW1uV0NzcWxGNVZ5SUthWGVNV25nU1RqZGFOUDcyOA?oc=5",
+      "source": "Córdoba Interior Informa",
+      "sourceDomain": "cordobainteriorinforma.com",
+      "publishedAt": "2026-08-18T15:22:57Z",
+      "query": "fiesta patronal",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
       ]
     },
     {
@@ -751,24 +769,6 @@
       ]
     },
     {
-      "id": "news-bo-a3ddfd21ee625de6",
-      "country": "BO",
-      "title": "Sáenz Peña celebró a su patrono San Roque con procesión y Misa - diariochaco.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMEJLRWVXNS1Cay1PX2VzUVZibmhsVllFdzVSLUpPT1hRSHJHYlBwdTJkWEpVdUlXZWJEbDFlOGpzNEJoaGZ6aEhUckxHZnNRcG1xUWJLVk94NkZNZ1gwTjlBTzJWbHdEdXB1VjBQcFp2eXI3NklwYVFuUWhHVnRJT3EtMjFkVmdUSWlBOGJaUDlMY0pwWVU3ZzRiUmZJUQ?oc=5",
-      "source": "diariochaco.com",
-      "sourceDomain": "diariochaco.com",
-      "publishedAt": "2026-08-17T22:28:33Z",
-      "query": "fiesta patronal",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.2,
-      "reasons": [
-        "generic domain, origin unverified"
-      ]
-    },
-    {
       "id": "news-bo-65fe23c476730f12",
       "country": "BO",
       "title": "Mujer cae de bombo durante fiesta patronal y habría perdido la vida; VIDEO se vuelve viral - La Jornada Hidalgo",
@@ -825,9 +825,9 @@
     {
       "id": "news-bo-8b196ec2f8c3e398",
       "country": "BO",
-      "title": "Pachamama de los Niños: tradición y cultura en el parque San Martín - HolaSalta",
+      "title": "Pachamama de los Niños: tradición y cultura en el parque San Martín - holasalta.com",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUUJLOHRsbmxvV21GekRIalc0Szhvd1FvWDh6aUFRa21oaGtSclhHODRLbUl6RnhaNEZsaUQ2VzNWT2ZDQm1ETGxaclFnNFZtRFJjT1czTHBOdFk2NmU0YnFlTGhRNnZDZE80dVFmbE54Z1BidkhCSUtROXhxaEJiSDZkTlhtT1FHSGJyaE1zZE9BamlDZlhSdS1IeXNuWFk?oc=5",
-      "source": "HolaSalta",
+      "source": "holasalta.com",
       "sourceDomain": "holasalta.com",
       "publishedAt": "2026-08-17T18:25:35Z",
       "query": "celebración tradicional",
@@ -879,9 +879,9 @@
     {
       "id": "news-bo-235370c5d59f24e5",
       "country": "BO",
-      "title": "Celebración Patronal en el Instituto Nuestra Señora de Mbororé - La Mision Digital",
+      "title": "Celebración Patronal en el Instituto Nuestra Señora de Mbororé - lamisiondigital.com",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOX2lfZzRlQVpqVF90cjd2aDVUSm5PWFE0REJYUDhyTDItUWZieHlZd3ZaU1lZb0xEWmluT3FXSXoxNm9LMUhva2N2a2hJR3cwdnUxWHBIWU14OWo3dUE4c3cwNEJMaGh6QlpXUkgtYzZtM2tUVXAyUlh6bUpsY1BTdWsxREdWOG56OEY4akNfcWZNdlFTeEE?oc=5",
-      "source": "La Mision Digital",
+      "source": "lamisiondigital.com",
       "sourceDomain": "lamisiondigital.com",
       "publishedAt": "2026-08-17T17:39:02Z",
       "query": "fiesta patronal",
@@ -1059,9 +1059,9 @@
     {
       "id": "news-bo-51afed2da48188c9",
       "country": "BO",
-      "title": "Monte Hermoso confirmó las bandas para la Fiesta de la Primavera: dos pesos pesados del rock nacional - La Brújula 24",
+      "title": "Monte Hermoso confirmó las bandas para la Fiesta de la Primavera: dos pesos pesados del rock nacional - labrujula24.com",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOb3AyNDBYeXpaQzNkYjNJRC1jNl83b0Mtb2VwNWpjS2lLZ1BvUmVMMlBLaElYUEc4TTMwMkVPU2E2ZlhaRFJqT19UQVFTVm5MVEpjSFJBNEZkTklTUHBOWjVqYy11Z1c5V3lVU05ST3JqcFdaODNRTFUza0FNa01HSFR3UXVaNFdqSHVCN1FrNWZuN2lkRnJ4cjlxSlpXN3h4U1J6VEhMMHZoZlYyUDJTRVFhVFY3Wl9yd0NPZHR0SlZscEYxSUVsNk55UnFmM1F0b2k3Zi01TW1LTERJRzY1R1FfSFJmY0EwaFE?oc=5",
-      "source": "La Brújula 24",
+      "source": "labrujula24.com",
       "sourceDomain": "labrujula24.com",
       "publishedAt": "2026-08-17T10:49:21Z",
       "query": "celebración tradicional",
@@ -1083,24 +1083,6 @@
       "sourceDomain": "tvn-2.com",
       "publishedAt": "2026-08-16T23:50:19Z",
       "query": "celebración tradicional",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.2,
-      "reasons": [
-        "generic domain, origin unverified"
-      ]
-    },
-    {
-      "id": "news-bo-6d4524e4ae28d421",
-      "country": "BO",
-      "title": "El obispo llamó a hacer “una alianza por la vida” en la fiesta de la Asunción de María - Diario La Capital de Mar del Plata",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdmxoWnRxNWxNZWV0cGVsMHIxbFVSamk3YmR5b3MzZnB0dmhuaGlOUXJyMkpYS2ZQUlpxRU1fbDc4WFFFOE1uRjRWV0UxUy1GNGVXMjgwMkliUXNwd09GbkE5M3NUSzJlVy14aHVRYy1oRHZCNkh2aGQ5MTFKYlZtbEkzWWpmT2s4clNqa2VwdENoWnJFSldNOF9YQ0RUcnZFMnNuQ1R3ckxkeU5iMnhPUEw1Z3Q?oc=5",
-      "source": "Diario La Capital de Mar del Plata",
-      "sourceDomain": "lacapitalmdp.com",
-      "publishedAt": "2026-08-16T20:43:42Z",
-      "query": "fiesta patronal",
       "kind": "unclassified",
       "isPublic": null,
       "place": "",
@@ -1309,6 +1291,24 @@
       ]
     },
     {
+      "id": "news-bo-ab7ca14238923377",
+      "country": "BO",
+      "title": "Tejina se llena de sombreros y creatividad con la tradicional Fiesta de la Pamela - La Gaceta de Canarias",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTlBITHhST0UxSnZUQk5mc0dvbVNKUmlSTmtyM0lZUnQ2dDdOd3hrQnh3VkY2ZjUxZFBWYi1vaVpjRmVaTjVNYUVXcmlkSXRLOFFYSFQ3NUFaZXA1eEV6S0tSb3FVM01VVExBN28wYXdnd2NRWTVRYXJsMXJMdHQzSU5hNzFzb3llc2VGLWJORi1aMkRhdmdHSkd3aFYzTFdIUWJfMHROSjA5cFhMYXBIdHpQYw?oc=5",
+      "source": "La Gaceta de Canarias",
+      "sourceDomain": "lagacetadecanarias.com",
+      "publishedAt": "2026-08-15T21:51:50Z",
+      "query": "celebración tradicional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
       "id": "news-bo-23cc6ed117128312",
       "country": "BO",
       "title": "Fieles católicos de Nicaragua se congregaron en León para celebrar la Gritería Chiquita - Infobae",
@@ -1345,31 +1345,13 @@
       ]
     },
     {
-      "id": "news-bo-3fc6813e1fabc9b9",
+      "id": "news-bo-f03cbc4dd02fcb2a",
       "country": "BO",
-      "title": "El alcalde de Yaiza encabeza la fiesta de la vendimia tradicional - Lancelot Digital",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUmVkUEtvUnpOZWFkUDhHTDZDRkpwTHpybzVPNVQ3Mk5RdFdBTWJDSmlnSjVCdjFpc19aeUtSREpZSHpDNHpOWkYyNzlyb1o1d05KM3pFajZ4OXEybHhJeDZ1YzBUQks4VVNuVEY5Y0NETWt1RGM1OG5TVHdYMUxUNEhSQkN0azVQWGQwTGtJdmVBbTNVX1FIRWtPMmZLbmN2RmFSbk5FdURvRFk?oc=5",
-      "source": "Lancelot Digital",
-      "sourceDomain": "lancelotdigital.com",
-      "publishedAt": "2026-08-15T12:17:00Z",
-      "query": "celebración tradicional",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.2,
-      "reasons": [
-        "generic domain, origin unverified"
-      ]
-    },
-    {
-      "id": "news-bo-826be60ab12c9ba8",
-      "country": "BO",
-      "title": "Cabo de Palos abre sus Fiestas Patronales con la tradicional Ofrenda Floral a la Virgen del Mar - Cartagena Actualidad",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPY2V6UW1HdkZ3Y1NDR0ZvVkg5M2FZTm5qUzdlOHV4NldUQkU0azU3anZjVS1VQWVfQWpMRE90UzZCc3NjMF9yeDFuMnRrRERaUklpQkQxcXpiREMyTHZxeDhXZXdaN1VZR0pINGVubXR6MU5UU0I2QnNFY2lJaUdTalZ5RUFpSnFfcXdia0RGSnVlZzB2YmJuUnBPUVdYalpMNEctUmNjVXNTVVRrSGpPdG4yZVV5WF9CVDNZTmh1OEZNaHI0M3lZb2s1NTg2OHhpV05wU29ydldZX3pITENGYXd2eEdNcktVdFVZN0UtUEZYeFNM0gH6AUFVX3lxTFBRc3BmeVFSbTJ6b0NjZFpfMmFPLUh4V3o3cWh4Q0FybWFKTGE5TFVwX3R4M1B6LXFKRmxIaUotRXhTaUhWQzdnWFlYb0tnYzhOVjNqYUltTzdzUXJfRkpLeVY1ek1NMm1fWUI5bzJzMFdZSjdJZlU3dWlNR0Jiazl2U0ZvZ2JHd0tYWjVCOW1Gc1Q4SEk1TlgxNEtQSXBWY1ZRTDk2b2o0cHlic2pCZWQ5aFdLRzJQZHdoTUdFR0dQTDBObmZLQUVhV3hYUlFGUlNWaURsUTllLXZjYVh6NE5mRWp1cVZaTVZXanN0OXdVSDdmazVJaVN2ZlE?oc=5",
-      "source": "Cartagena Actualidad",
-      "sourceDomain": "cartagenaactualidad.com",
-      "publishedAt": "2026-08-15T07:56:30Z",
+      "title": "Madrid celebra la festividad de la Virgen de la Paloma con la tradicional bajada del cuadro - Libertad Digital",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUGNLd1B6YkxuWTZFZnQ1MEN3TlZ6WHhQMWVHMDFybi00NkM0ZVozcm9ncVNaRHk5UkNBQm9KY3BjaDhMakJmWS1BUmNhc195aFpSX2I3a20xWVJQZzZSVkNOenNpSlhsN3h3b3ROMVRHaGlBOWtyVjFHY3N4Z21jb3J0cnMtcDFZNFpvRTc2QkVIdlZsUnB1cmJQRkVRb1JYbVF5c3RmSHlQOUpvWDlXU28tR0phTGhSeWhuWUFyMlplZ2UyNzV1VGgyZkFSazZmSDRaUE9SSk5uWW1Vazd4VTROOEXSAe8BQVVfeXFMTU1JSTVwRDlPc1ZrVDROLURHUG9vbDZHRGp4d0JMRUM2ajQtMi1FaDdSQXhjYjNlTFB2X0ZjY1NzeU9yRzBManBiWUVQV3VzTGZxLXRualNiZVRqNEQxUVFvcmZmZzlPNDVkNm1mR1Axem1rcFNPTHg1Z2laTmFKZk9IRzhENXdzU3VDbHBEdGRLaWtSbnRwdzk0VDhjWFNWUXFrWnNacnVKb2hoSU9mWTk0TllSb3VscVJpQ3VoS0ZiZWVyWFFnOEoxYW83Mktjak00UHFXSkJ6WFRwWUVzRTdNSWZhZzJ5NjRERDFoUzQ?oc=5",
+      "source": "Libertad Digital",
+      "sourceDomain": "libertaddigital.com",
+      "publishedAt": "2026-08-15T07:46:59Z",
       "query": "celebración tradicional",
       "kind": "unclassified",
       "isPublic": null,
@@ -1397,22 +1379,6 @@
       "reasons": [
         "generic domain, origin unverified"
       ]
-    },
-    {
-      "id": "news-bo-a072180af72f3158",
-      "country": "BO",
-      "title": "Fiesta patronal termina en tragedia: ataque armado deja tres muertos y un herido en Zanatepec (21:03 h) - ADN – Agencia Digital de Noticias Sureste",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNY251QjI5dGFYNUoxMGtLM0xRanFUMnhsclVKelh6UlFnamZDRnRFb2NwQ3oyc0ZpamhWUTNKUGdNM1QxblpaU0VSTTlXY2F2RXNMYlktbnJjZVYyMmI5VHVPWjZMWnJfc0lEUnZObUx2aVM4eGpvNVNUel9nMnZMTjY0cDhvTFdWYlRKblhqZC1Bak9IMmlKQmt5bGJrcGktWHBnNUpZRG1HdHFTTzlTb0hNVGJ4dllZLTZVTTJ6YUdMQ3VHS3hv?oc=5",
-      "source": "ADN – Agencia Digital de Noticias Sureste",
-      "sourceDomain": "adnsureste.info",
-      "publishedAt": "2026-08-15T03:09:57Z",
-      "query": "fiesta patronal",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.2,
-      "reasons": []
     },
     {
       "id": "news-bo-bbe0cbfdab518961",
@@ -1632,6 +1598,25 @@
       ]
     },
     {
+      "id": "news-bo-6f82b6313845c0cb",
+      "country": "BO",
+      "title": "Fuenteguinaldo se llena de tradición con la celebración de su VIII Feria de San Bartolomé - SALAMANCArtv AL DÍA",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOam9Rc3RmTXNEaXlka3NadnpNR1ItZkE3RlR5azNzSERTXzRMV2s5SXJNUW54VEx1czFpRWZRZWg3R1dzMjNUZ0o0bGFubjR3a0E1d0Z6aFRmS3UxZ3FrTV8taGxnUC1Ma1RNZkJHZC00ZHo4cTB3MWZtUVUtbVFWRDBfa3AwWEZpc1VNU0U4VGIzcGE1SGtIdzJkQXV1VFd0Y2JvcDJrM2pCNjJ3MThvc1ZfXzNLcnA3SWFMUDhXYkdHTHAtVF9RQW1jRFF2RGY0Tkd4S2JoRXMteHJOODhBQnpTRlM?oc=5",
+      "source": "SALAMANCArtv AL DÍA",
+      "sourceDomain": "salamancartvaldia.es",
+      "publishedAt": "2026-08-18T15:42:00Z",
+      "query": "celebración tradicional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.11,
+      "reasons": [
+        "published by a non-BO domain (salamancartvaldia.es)",
+        "salamancartvaldia.es seen before (5 stories)"
+      ]
+    },
+    {
       "id": "news-bo-9e75ee6e8235ec2c",
       "country": "BO",
       "title": "Refuerzan seguridad en Ocosingo por fiesta patronal de San Jacinto de Polonia - El Heraldo de Chiapas - El Sol de México",
@@ -1648,6 +1633,25 @@
       "reasons": [
         "published by a non-BO domain (oem.com.mx)",
         "oem.com.mx seen before (8 stories)"
+      ]
+    },
+    {
+      "id": "news-bo-4a51f887c5274248",
+      "country": "BO",
+      "title": "La tradición taurina vuelve a llenar de ambiente la plaza de toros de Macotera con un llamativo Festival Mixto - SALAMANCArtv AL DÍA",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPWjk0SFZGSkFuOGF3UFVhSkZYTXV3WkVsakp2cVhfS2lHbDloTFk0bUNOdkZrdEpJVkZTSDUwVjVDWVozM0I5NXMtMTF0eVdhNTBBMW1yUU0tMWZ2bDdqYXpPRmtuMW5lZ1pUdTRXQ2VDcG9jdkxUSFlpLXFuelFRd0kwVEdWc09laG1LVHZFNkNyQkZjeTlOUTlXUVAxWWFWbWs5LVk5REpuRXNXZzUxeEZxbElYbF9wSzNrRVNlcnRTaEtDNEJwaVJOR1Y2MEg4U2EzaEJ0UG1KZ0VGX01iMDdRNklhbTFxQXRnZnpaNVVadGdWY1Eydg?oc=5",
+      "source": "SALAMANCArtv AL DÍA",
+      "sourceDomain": "salamancartvaldia.es",
+      "publishedAt": "2026-08-17T20:44:00Z",
+      "query": "celebración tradicional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.11,
+      "reasons": [
+        "published by a non-BO domain (salamancartvaldia.es)",
+        "salamancartvaldia.es seen before (5 stories)"
       ]
     },
     {
@@ -1672,9 +1676,9 @@
     {
       "id": "news-bo-fc4fa3a484567a1a",
       "country": "BO",
-      "title": "Sol de Mayo celebró su Fiesta Patronal en honor a San Roque - El Liberal",
+      "title": "Sol de Mayo celebró su Fiesta Patronal en honor a San Roque - elliberal.com.ar",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTGZBRnFRNTV5SHoxMDd1T0R4a1A3MF9wV3pTQ2pyRnRReWpvak5aUUk3UmhmTkpnTmNYbHM4ZHlGdWROdUtPRy0wSlYzS0ZIQXFUcXhleEhROVM1VzU5d3BlZENHdXVuaDgzZDhuTzBwdElPUXFCN1ZQa092bnRITWIzUTBBTy1HZl94cURKd0RUZUpESU9VSDZVZ2VRc0RuM0IyMlF3MVByaUnSAbQBQVVfeXFMT2RBenJvSEE1b2VUUVFscDNnX0ZBRW5qSWp6d0FlZDhYc1NDZzJ3aEpsYVRGa0lhTEFIbVpSZ29UY0lPT3RBNFZpWmI2ZU82eXFQSFBETVVhZ01jLWFoUXR3VTR3Qk9OVHlkeElUQkVnUHVvWDNSSHE1SHFNMTJrS000SG1YOWdVcjR1N2tvYTlvNkMweEtmOThTRGNPUWM1UE8yS0syOEZmam5qTDRGUWFSMGpa?oc=5",
-      "source": "El Liberal",
+      "source": "elliberal.com.ar",
       "sourceDomain": "elliberal.com.ar",
       "publishedAt": "2026-08-16T23:11:00Z",
       "query": "fiesta patronal",
@@ -1727,13 +1731,32 @@
       ]
     },
     {
+      "id": "news-bo-a5c88d9d4fa2b0ca",
+      "country": "BO",
+      "title": "Tradición y devoción marcan la celebración de la Asunción en El Campo de Peñaranda - SALAMANCArtv AL DÍA",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMFVobDc3Z1F4SWw4OVItU2xROHJiTV9WcUtaZURIZ0h0VzVOb0liU2Z0T2Vkd1RWZGl2RlZFVmF0WFprNGZQMU5yemJQdWxjVm1aeG5wWW15OWNYM19qbGx0NUtwYXRVUmJhMjJjZGJqbnRmSU5zNy1WbFZNTzhYUkREdXJtbFQ3d0FiTlEwNUE3ek43QnQtVXp3cFFZZUd1WF9SZWZ2S1k3TVRYSjA0YTFncVR4T1pReXpuQ2hGZGNKVUlvUHA5SW9nYXJXNU9NczRR?oc=5",
+      "source": "SALAMANCArtv AL DÍA",
+      "sourceDomain": "salamancartvaldia.es",
+      "publishedAt": "2026-08-16T13:20:00Z",
+      "query": "celebración tradicional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.11,
+      "reasons": [
+        "published by a non-BO domain (salamancartvaldia.es)",
+        "salamancartvaldia.es seen before (5 stories)"
+      ]
+    },
+    {
       "id": "news-bo-a686120013d5ef98",
       "country": "BO",
-      "title": "El barrio Alberdi vivirá hoy la Fiesta Patronal de San Roque - El Liberal",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOV0dVdUZEdTVLMFBwV0J5VnFoMGdhU2VWWndiWFhPTVZGVjZPdmZEWHVrZ2FuVWs4LWg0TDlMeVlCY3Q2bEpaMkZFcG5NeWVKVWQ0OTZuOGRPNFlXTVE0X1VURVJCUHBpYl9veXJkYUtMMk9Md1owU3lUa05vSlluYWdQUEljNHBzSFc3SjdqMy1MbXRIR1poTUlyaWtnZTVLVVNzV0w3dHNjTUxD0gG2AUFVX3lxTFBFcERPV2o2X0I1VWVXVTN1bk94dlFqNGxfckZUSVIxWndZQk9RbWJ6T1RuUjY1a3hQT2tUeHUzYThlZkRWUDhvN2JFV1BFSExmeFBRRHA5M29vdEU2b2ljSDgyM3RwX1VKTzRjUzZTNWZxOTlYYjJtME00SDZRLXBFSWRsX1VlbDZQbGRLclpsWmJkX214MTZuZWxyNWtmRGZ6OURqZ191TGp2OUwxX04wTGFiSjVn?oc=5",
-      "source": "El Liberal",
+      "title": "El barrio Alberdi vivirá hoy la Fiesta Patronal de San Roque - elliberal.com.ar",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRXBET1dqNl9CNVVlV1UzdW5PeHZRajRsX3JGVElSMVp3WUJPUW1iek9UblI2NWt4UE9rVHh1M2E4ZWZEVlA4bzdiRVdQRUhMZnhQUURwOTNvb3RFNm9pY0g4MjN0cF9VSk80Y1M2UzVmcTk5WGIybTBNNEg2US1wRUlkbF9VZWw2UGxkS3JabFpiZF9teDE2bmVscjVrZkRmejlEamdfdUxqdjlMMV9OMExhYko1Z9IBtgFBVV95cUxQRXBET1dqNl9CNVVlV1UzdW5PeHZRajRsX3JGVElSMVp3WUJPUW1iek9UblI2NWt4UE9rVHh1M2E4ZWZEVlA4bzdiRVdQRUhMZnhQUURwOTNvb3RFNm9pY0g4MjN0cF9VSk80Y1M2UzVmcTk5WGIybTBNNEg2US1wRUlkbF9VZWw2UGxkS3JabFpiZF9teDE2bmVscjVrZkRmejlEamdfdUxqdjlMMV9OMExhYko1Zw?oc=5",
+      "source": "elliberal.com.ar",
       "sourceDomain": "elliberal.com.ar",
-      "publishedAt": "2026-08-16T09:00:00Z",
+      "publishedAt": "2026-08-16T09:17:35Z",
       "query": "fiesta patronal",
       "kind": "unclassified",
       "isPublic": null,
@@ -1748,9 +1771,9 @@
     {
       "id": "news-bo-1aad5c305cb1ffee",
       "country": "BO",
-      "title": "San Roque convoca a la comunidad del barrio Alberdi en una jornada de fe y esperanza - El Liberal",
+      "title": "San Roque convoca a la comunidad del barrio Alberdi en una jornada de fe y esperanza - elliberal.com.ar",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeFpBdExGNlFiQmo0emxFdkQ1c3IxQldJendMc3d1OFlHT01tRW45N2ptMnZJUnFpdkhBVHpUNWFKMi1PSzc0bXpjeDN1bkJ5cmZBUFY3SWgxWEtEeXhwWFNQanJqRnctV2oyS08tNXFHRHdiY2o0eGpjMFNNc285WVdpUUlzN1YwWUtoTV9HTDBYMVZzdmhRYVJZZkluZERlZW0wd3BFVmM1RVpoZWM1c3VkcWhWQnFGTjd5V2ZxT1ZjODdZUFdPV2htVlPSAdYBQVVfeXFMTzEzUUFER18yN3ZBUU5oUURvMlZJdWhEbTR6d0JHT045bWgyNHF3U2VWWkk0VlQwemtoMGVJOVVYMV9JLWpfR3Z4WTI2MmZIY0llSVhXY2dvN0RlMzFtZ09sRW5kVW5sUnVmbUlBT3hScXJZVmtiRGNEc0NtS0RUdkd5ekZpdWF4VUVZcWpfYkRhTGEyM3dZMk5rS2t1aGVwZ0lzcFNFLTFFTlM3STI5S241cU9Oc2VjSjl2c3dmME9kbVRSc2FPTm5jVnJxVnRtMlJVZXhHQQ?oc=5",
-      "source": "El Liberal",
+      "source": "elliberal.com.ar",
       "sourceDomain": "elliberal.com.ar",
       "publishedAt": "2026-08-15T14:54:00Z",
       "query": "fiesta patronal",
@@ -1805,9 +1828,9 @@
     {
       "id": "news-bo-8d15694a3ad90be2",
       "country": "BO",
-      "title": "Invitan a la fiesta patronal de San Roque - El Liberal",
+      "title": "Invitan a la fiesta patronal de San Roque - elliberal.com.ar",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbl91ZXRtd0ZHSFVNeTVCaldTQUo5dW9iaU9MR2dxVGl6RHAtMTJWT3J1aFdYVDA5eTJZVGFPdzJkZWlmYXB2T1lzQmd3b3lDRlNtSXNXaUhJSVhrT2VaWmNVVVVRTHQ4ODlRZkNkZTJocXFtMnRjc3JTYnU1amdCS1FFT0wwby1MSDUxdFpERVFrNk3SAZwBQVVfeXFMTmRZWEx1LWdVSm1QUFRXczktR3RsLWp1N3pvbVJKT1V2YldIRGRtN29QXzJZa3pYX0RlY2h4TzBuenZLcmVSU29RSVd4QWNXci1Bdm45SDB6WjBNaTF3VXpKaDhyOFlaUFBmX3g0b19TT3dja2RoVEkyWWV4Z1QzZFZHZWFmV0MtbDQyN2JsWkZfcjdHdjlhM29UaGtD?oc=5",
-      "source": "El Liberal",
+      "source": "elliberal.com.ar",
       "sourceDomain": "elliberal.com.ar",
       "publishedAt": "2026-08-15T09:00:00Z",
       "query": "fiesta patronal",
@@ -1824,9 +1847,9 @@
     {
       "id": "news-bo-767da41c2ce1a9b3",
       "country": "BO",
-      "title": "Atoj Pozo se prepara para celebrar sus tradicionales Fiestas Patronales - El Liberal",
+      "title": "Atoj Pozo se prepara para celebrar sus tradicionales Fiestas Patronales - elliberal.com.ar",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOajJfWloxZWZDeWRZSFJOYWQtaUZOaVpGb0FHdXFLMkRWWEM1dGxqT2tmRG5VcXVlb1lDWERYbllIT1hNRWJuWU5xQVFWT2VQWEUyY3pUQ3JPZ2RLaXdiTTZTZVhmNjR3dFZIME9OSDlUMDFoei0wQkFKUVY4eTd3T0R5S0VKT2M1UFRMQkF1UmNNdW9uRnkzb0Q3Y3BQanBjVmoyM1JDMVp5TWNxUHhPUk9DRE92QWVsUW5j0gHEAUFVX3lxTE55QzI4YUlRMXFGNXVLUkJtSmlaWHI5Q1V6U1lzWjFGdUZuZThCWV9BRGlLTVFwWkNxbF9MblJmVzhvUU45WU1xaWs4UDRJaEpNSVBodE1YTDR2UGFBdGVaakplYUxrNlp6UkFFRnB6WmtHVVBMVENWcVRtWFExdllia3BYZmh0ZjJTeGttV1ZENU8xNU00eHdsSzJldGVEY0tyb1pzcldyWjBZc05nenB2X0x0VXlLN19OWFlzVlhXRzl6RF8?oc=5",
-      "source": "El Liberal",
+      "source": "elliberal.com.ar",
       "sourceDomain": "elliberal.com.ar",
       "publishedAt": "2026-08-13T22:07:00Z",
       "query": "celebración tradicional",
@@ -1898,6 +1921,42 @@
       ]
     },
     {
+      "id": "news-bo-b290b9b08b07b55b",
+      "country": "BO",
+      "title": "Feria Patronal Chicavasco 2026: cartelera, actividades y artistas que se presentarán en Actopan, Hidalgo - El Heraldo de México",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPNXUtMElWSFdKN3hHdmdqVTVDeFBzMkVMWFZwVVhpa1pFUDZubDZhVVJDS01DaDlIcktmX0IxcTl4V3VteXNWc2llVmxGUHZiYmR3MW85a3NNUkQyQ19iaHBxcVdiYzNjZC1ITHlZNUVaQzZOY2hJR0QtbnVZdEN0TTVNelBQSG5UMTZmRFE2OUlIY3ZFTi1LczhyNnR0em1tbmlUX010d3NvN2pyTzZudXFUSmFta0RMVWNEMHhhX0xlUlBZaFc4MWZWeFdERnkxMWp3b3EwWWVnU1NJa1I5Q0pFbmVCZnRNRXlNSzVtdlpHZVU?oc=5",
+      "source": "El Heraldo de México",
+      "sourceDomain": "heraldodemexico.com.mx",
+      "publishedAt": "2026-08-18T15:42:00Z",
+      "query": "fiesta patronal",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-BO domain (heraldodemexico.com.mx)"
+      ]
+    },
+    {
+      "id": "news-bo-e62c11af22f6bd4c",
+      "country": "BO",
+      "title": "Polémica por video de la senadora Martha Peralta en una fiesta durante la emergencia por el sismo - elpais.com.co",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQd2t0Y05wN0dsTm1aNnNaUnFZVFR3TXJES2U3eWZmZDVncHlQWl92c1ljaUFzeXRiMHNIQ1JJdkdna0NHUTVUUVhwS2tuN1l0TVhVU2tlRHllWmxaQmp4bGs0OGFHZUN5b0J4OVBJMExmWjNMM001Y19YZEprX1pDbzhKMjdpNEdDMVVHSWkzN1dTeU5kdnl0SUdIODVCdFFQSDFPQ1NXQWVidGV4Rm9ZQ28yUE4yZDFFcDBCZDN5QVFScWMtYWkweXVWbHFhb3BSNGd4LXc3am9jZ9IB3wFBVV95cUxNS3poTl9FX2Fhc202QjFjWUg5d2FlNkdpOHFOel9wbDE4Y2Uxal9tVU5yZkVJcXVOb3c1QU5rTElqbVgzOUhzTG1ROWVrb1E4SnpFTkN0T3BudkFHSWxTVnU1NEp3cFQyeFRhTHoxdnhGQk1QdWlYSFBPSnMyU3FvTVJCRTZvTk5qOXlydjVYR3UxV0JIUTJuUl9VUDUtRXp1UFgxd3ZKbkR1ZS0zV192WERYUUFJMHhQYVIzSkR3TFBlT2lGMlZiT1BwTGZkYy1vOFRocGROTzZhLWRYUjgw?oc=5",
+      "source": "elpais.com.co",
+      "sourceDomain": "elpais.com.co",
+      "publishedAt": "2026-08-18T14:03:58Z",
+      "query": "fiesta patronal",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-BO domain (elpais.com.co)"
+      ]
+    },
+    {
       "id": "news-bo-65ef4210f342c1ec",
       "country": "BO",
       "title": "Lavalle vivió la Fiesta Patronal en honor a la Virgen del Tránsito - Diario UNO",
@@ -1913,6 +1972,24 @@
       "confidence": 0.05,
       "reasons": [
         "published by a non-BO domain (diariouno.com.ar)"
+      ]
+    },
+    {
+      "id": "news-bo-54917e62d5500d21",
+      "country": "BO",
+      "title": "Parroquia Nuestra Señora del Valle prepara fiestas de la Virgen - Diario Primicia",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQnE1d0o5ZmFsNlNpYklzTUVVaFJ6ZDZ6ay1TUS1RWUJXZmxEVzV0dFp6TzZkTXhvaFB4YmdvZ1dBa0I0Q3IwaHNTamhZRTNiXzNwSjc0aFhHbUtnemloOURIdVltRmQyMmE5ekRqNXpUZkZSZXVNS1p2bDBENFNpaHppdzVsZ0dCU3B2VG43dVNYMmNtY0N2V011UTY4TWpyS1RTSUVR?oc=5",
+      "source": "Diario Primicia",
+      "sourceDomain": "primicia.com.ve",
+      "publishedAt": "2026-08-18T11:34:16Z",
+      "query": "fiesta patronal",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-BO domain (primicia.com.ve)"
       ]
     },
     {
@@ -1985,6 +2062,24 @@
       "confidence": 0.05,
       "reasons": [
         "published by a non-BO domain (telecinco.es)"
+      ]
+    },
+    {
+      "id": "news-bo-47db2739e0c91a68",
+      "country": "BO",
+      "title": "Investigan muerte de joven tras fiesta patronal en Cerro Colorado - diarioelpueblo.com.pe",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZlA1dzdRODI0Umw4dUhzY19jUHFGUmI0MGpDNDlRYlhycVk0Q0pKQVVWQ0RQWGZKc0F4YUZFOFU4cXJlUlJya2VYUS1PVnc5aU9ndjZsYmxlVzByU19DV092R0FtNUZjSFdhMlQ4VXdnZ1NWTWs4VFdlRHV3clVJOGpHcFFqQnkxVlZrLTl5c01NSk1lbnctb3g2QTRuWnFKNDlmRmV5QXJ0eG8?oc=5",
+      "source": "diarioelpueblo.com.pe",
+      "sourceDomain": "diarioelpueblo.com.pe",
+      "publishedAt": "2026-08-18T05:23:00Z",
+      "query": "fiesta patronal",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-BO domain (diarioelpueblo.com.pe)"
       ]
     },
     {
@@ -2111,24 +2206,6 @@
       "confidence": 0.05,
       "reasons": [
         "published by a non-BO domain (ultimasnoticias.com.ve)"
-      ]
-    },
-    {
-      "id": "news-bo-4a51f887c5274248",
-      "country": "BO",
-      "title": "La tradición taurina vuelve a llenar de ambiente la plaza de toros de Macotera con un llamativo Festival Mixto - SALAMANCArtv AL DÍA",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPWjk0SFZGSkFuOGF3UFVhSkZYTXV3WkVsakp2cVhfS2lHbDloTFk0bUNOdkZrdEpJVkZTSDUwVjVDWVozM0I5NXMtMTF0eVdhNTBBMW1yUU0tMWZ2bDdqYXpPRmtuMW5lZ1pUdTRXQ2VDcG9jdkxUSFlpLXFuelFRd0kwVEdWc09laG1LVHZFNkNyQkZjeTlOUTlXUVAxWWFWbWs5LVk5REpuRXNXZzUxeEZxbElYbF9wSzNrRVNlcnRTaEtDNEJwaVJOR1Y2MEg4U2EzaEJ0UG1KZ0VGX01iMDdRNklhbTFxQXRnZnpaNVVadGdWY1Eydg?oc=5",
-      "source": "SALAMANCArtv AL DÍA",
-      "sourceDomain": "salamancartvaldia.es",
-      "publishedAt": "2026-08-17T20:44:00Z",
-      "query": "celebración tradicional",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.05,
-      "reasons": [
-        "published by a non-BO domain (salamancartvaldia.es)"
       ]
     },
     {
@@ -2314,9 +2391,9 @@
     {
       "id": "news-bo-384b9d92a90f3e1c",
       "country": "BO",
-      "title": "¿Qué pasó en fiesta patronal de Cerro Colorado? Hallan cuerpo sin vida e inician investigaciones en Arequipa - El Búho.pe",
+      "title": "¿Qué pasó en fiesta patronal de Cerro Colorado? Hallan cuerpo sin vida e inician investigaciones en Arequipa - elbuho.pe",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTWsybkNKdHVuMXpJUEwyQ2JQWnNyU0xMYm9lZHVWclB3dkhCcjE4Y0pFci1XWXE4dldaSTk2T2hlUEEtN3h0WFFpZGdGUl9zd184SVBvaG1Wam5VMUxqX2JNVzdQR3Vjd0REbW1VX1FXQnROOTdRQ0tFclc5cWtoV0tZcFp5T0I0N3VUT0h4MXBlQ3pBOEhSWlEwTFhZZUF1eEhwSDNVb0p2cVYwc3JoYU9ObW1DZG9qMFJDak1pQXJub2g5Q2NuOUw3YzF5Zw?oc=5",
-      "source": "El Búho.pe",
+      "source": "elbuho.pe",
       "sourceDomain": "elbuho.pe",
       "publishedAt": "2026-08-17T16:01:40Z",
       "query": "fiesta patronal",
@@ -2332,9 +2409,9 @@
     {
       "id": "news-bo-ee176e1e76cb1bba",
       "country": "BO",
-      "title": "Eirís celebra este martes su tradicional Festa da Fresa con música, gastronomía, deporte y actividades para todos los públicos - Diario de Santiago",
+      "title": "Eirís celebra este martes su tradicional Festa da Fresa con música, gastronomía, deporte y actividades para todos los públicos - diariodesantiago.es",
       "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNa2dEVFcxVHU0cm03cjB5VmloWGk4R0ctcEdzRkQwa1RiRzlzTTdmWVgtVF9idVVmNkpoZ1U2YWl0dmRkNXJZTThEdFlSR3FrX3ljejlvMEVtb2NDSTZUVHZobkJXN3BfUUNnRXcybl8xTlZJMUlZNHE2MDNrdjJJU0ZFLUFYWXFHb0kzX204SHRmTGw5ZExsR0FwY1RtZGJDa1JVM2V2bnNyWGpWZk9NWGVvLW1RaGZ5VjY0N0tmdnpRT2VZak5RXzl0cnlOQ3BPOU9LRThJYXZ3SkNDdnlPVDlTWnZBRnd3bTcxNll3RHZ4Mnd6X25mZ3Z3TXQ?oc=5",
-      "source": "Diario de Santiago",
+      "source": "diariodesantiago.es",
       "sourceDomain": "diariodesantiago.es",
       "publishedAt": "2026-08-17T15:47:04Z",
       "query": "celebración tradicional",
@@ -2404,9 +2481,9 @@
     {
       "id": "news-bo-ede7fce36f967886",
       "country": "BO",
-      "title": "Jesús María celebra la vendimia con vino, tradición y gastronomía - LJA.MX",
+      "title": "Jesús María celebra la vendimia con vino, tradición y gastronomía - lja.mx",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWDNNSWN2bERrT251cENJNmRwWXJNLVhMQXVXZjZlWkhHYjU4SmFFQ0FjSHR3aTBPRTVydk02OTRoVWhScXhtVEVmODVIeDgzVzA0dGY2ZVJUM1FDVFUxcHBoejJhc3BfM1J1WmFVZEVwN0JuSi1UcnJ5d25DRll3VjhRVWw1X1Q2V3RYcEoybURtM09NV09N?oc=5",
-      "source": "LJA.MX",
+      "source": "lja.mx",
       "sourceDomain": "lja.mx",
       "publishedAt": "2026-08-17T14:15:48Z",
       "query": "celebración tradicional",
@@ -2440,9 +2517,9 @@
     {
       "id": "news-bo-7658d91f7a03bd2e",
       "country": "BO",
-      "title": "Hallan cadáver de un varón cerca a estrado de fiesta patronal en Cerro Colorado - radioyaravi.org.pe",
+      "title": "Hallan cadáver de un varón cerca a estrado de fiesta patronal en Cerro Colorado - Radio Yaraví Arequipa",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNV2hudVotNzRTNmxEbG9lZjJ3Q1Z6UncwTUI1YVdpTXdWXy1WX3VnM0ZReFFCR1BTVUtHTWRUT0hDeXZsUUdUaVJhU2l1aEpfSnZ3WUY2UVRVSTJOWWJ3aDRmb3luZ3Ffd3BWX0swcDFpenpmcjBDcEV2QmdtbnhQcUFmNzVpUkxnVE96SkwtbzlHR0NrY283cnJjb3d3WncwWXpWMzVubkp1N01YTnhYSmpkejExNVhyM0dlTFUxUGVLQQ?oc=5",
-      "source": "radioyaravi.org.pe",
+      "source": "Radio Yaraví Arequipa",
       "sourceDomain": "radioyaravi.org.pe",
       "publishedAt": "2026-08-17T13:42:32Z",
       "query": "fiesta patronal",
@@ -2553,7 +2630,7 @@
       "source": "Nuevo Diario Web",
       "sourceDomain": "nuevodiarioweb.com.ar",
       "publishedAt": "2026-08-17T03:50:00Z",
-      "query": "fiesta patronal",
+      "query": "celebración tradicional",
       "kind": "unclassified",
       "isPublic": null,
       "place": "",
@@ -2710,9 +2787,9 @@
     {
       "id": "news-bo-f39f0bd43251dd36",
       "country": "BO",
-      "title": "Tamara Figueroa y Lisandro Henríquez se consagraron en el tradicional Concurso de Hacheros - ANBariloche",
+      "title": "Tamara Figueroa y Lisandro Henríquez se consagraron en el tradicional Concurso de Hacheros - anbariloche.com.ar",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPNG9mYUI2TTQ2SDhUZEJFRzljeUpKQVNNcDVxVDRGZnd2S3V4d1ZpOTFnUTB0MkxoZTBXOFU3YnU2eE5Qd214d2pJQjhldUduaXpBYzZtd0hCalIwU1pRVDgxNGZfVlBWYl9IdHRRVVVUZWZsNDRkcDlQLUpObXoxVEpyeDRCdEJLaVhxazhIMHF2R3NOUFA2QWtQdnVsbl9VWTBVNVdXWThsUlo4SUhmZDVmaVlkTzNSWTB4TFM0RHNaZ09LVWJ5T0UxZGtHcDRYY2xwQm11Rm5qeFBoVkFrMG1B0gHnAUFVX3lxTE51VTAxbDlCczRkdUxlY3laSkdGOU9TTEtUMWhUQms4QWZiM1NNTWthajltb0pkM0UxM094TWZzSWsyME0tUGZ2b2hJMVIxbFltZHFhUzRzVVI2Z1dfQ19ESGwxSEMtV1RFMTNha2Q1QnZlQ0VOdjdZVTZib1l2X1Y5MTJiTk4yVm1mbEtTS2dSSjlYQ3BlaXZlNmwzOEE0LVFtWGJPMG1fTEJtR0RRT1pnazFpY3hUa0lpcXBpSTNwUUlPd1NmRFNfUGYtaUdHN2xzVnVKbDh4U0wxaXJsUUVHZDdsMVdfaw?oc=5",
-      "source": "ANBariloche",
+      "source": "anbariloche.com.ar",
       "sourceDomain": "anbariloche.com.ar",
       "publishedAt": "2026-08-16T18:47:00Z",
       "query": "celebración tradicional",
@@ -2723,24 +2800,6 @@
       "confidence": 0.05,
       "reasons": [
         "published by a non-BO domain (anbariloche.com.ar)"
-      ]
-    },
-    {
-      "id": "news-bo-a5c88d9d4fa2b0ca",
-      "country": "BO",
-      "title": "Tradición y devoción marcan la celebración de la Asunción en El Campo de Peñaranda - SALAMANCArtv AL DÍA",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMFVobDc3Z1F4SWw4OVItU2xROHJiTV9WcUtaZURIZ0h0VzVOb0liU2Z0T2Vkd1RWZGl2RlZFVmF0WFprNGZQMU5yemJQdWxjVm1aeG5wWW15OWNYM19qbGx0NUtwYXRVUmJhMjJjZGJqbnRmSU5zNy1WbFZNTzhYUkREdXJtbFQ3d0FiTlEwNUE3ek43QnQtVXp3cFFZZUd1WF9SZWZ2S1k3TVRYSjA0YTFncVR4T1pReXpuQ2hGZGNKVUlvUHA5SW9nYXJXNU9NczRR?oc=5",
-      "source": "SALAMANCArtv AL DÍA",
-      "sourceDomain": "salamancartvaldia.es",
-      "publishedAt": "2026-08-16T13:20:00Z",
-      "query": "celebración tradicional",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.05,
-      "reasons": [
-        "published by a non-BO domain (salamancartvaldia.es)"
       ]
     },
     {
@@ -2800,9 +2859,9 @@
     {
       "id": "news-bo-961122852a08cb92",
       "country": "BO",
-      "title": "Varias actividades aún se desarrollan por el 489 aniversario y fiesta patronal de Asunción - lanacion.com.py",
+      "title": "Varias actividades aún se desarrollan por el 489 aniversario y fiesta patronal de Asunción - La Nación",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTkkwNUJoM01hcEVoaFBXeUdWWjViX0h5LWpDVTJZWlVCbGsyVnFwUV85Ym5OeHhaNTVyX1U0SmJPSWNNSVVQektKb0JwTjBKR3QxWE5Vd0gzb1lCSXB4eG5nejRRcTZzZFk4el83UTFtN3E5MmN2N0ZlLVN4cXBNMVNLOHlobzMwYXh4ZVVFVFVDSm9Bb05fSXdtaThUZkZTLThjdUdSMXBJaDlkcmZRSTRxb3k1WS1YTVVBdWJSQk55RlFHOU9kNFotbDVmaXNs?oc=5",
-      "source": "lanacion.com.py",
+      "source": "La Nación",
       "sourceDomain": "lanacion.com.py",
       "publishedAt": "2026-08-16T10:36:29Z",
       "query": "fiesta patronal",
@@ -2852,24 +2911,6 @@
       ]
     },
     {
-      "id": "news-bo-294ddc3f9391a5de",
-      "country": "BO",
-      "title": "Retorna «La Raza de la Esquina» - La Prensa de Coahuila",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTGpHaVh2SlRrNlZhTjBsNWRHRlNFYzdVRjQ1R1pnby1QN1g1Smpzczd4Q0lZZmptV0x0QUdVSFV4VEljQklVRVdzR1JpQXNnc2V0QmtwXzIxMUV2Rjh2QUlQWVlsLXlZak1PaUtNbjlnOVJDVGZ0MWRyZFppVEw4NQ?oc=5",
-      "source": "La Prensa de Coahuila",
-      "sourceDomain": "laprensadecoahuila.com.mx",
-      "publishedAt": "2026-08-16T02:50:00Z",
-      "query": "fiesta patronal",
-      "kind": "unclassified",
-      "isPublic": null,
-      "place": "",
-      "whenText": "",
-      "confidence": 0.05,
-      "reasons": [
-        "published by a non-BO domain (laprensadecoahuila.com.mx)"
-      ]
-    },
-    {
       "id": "news-bo-e2edb72ad5ae358c",
       "country": "BO",
       "title": "La Chacarita celebra su fiesta patronal en honor a San Roque - Catamarca Actual",
@@ -2908,9 +2949,9 @@
     {
       "id": "news-bo-df450e82ab910000",
       "country": "BO",
-      "title": "En la Fiesta patronal, La Cruz revalorizó su valor histórico, cultural y religioso - radiodos.com.ar",
+      "title": "En la Fiesta patronal, La Cruz revalorizó su valor histórico, cultural y religioso - Radio Dos Corrientes",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNVBIUHg3dmR0RWhHZkttVGpCV3lpZzRvdk1HVE9pM3BBUE84VTMwbFlfNmhJN19JcndleFlzZ21fS3JZOXNvUWRaOUlBak1STzEwRk02NmJaTkM4Z3BUdUNveHRoYUhLV1Z4ekFKTGpWMGc2S0FBZVBHYVZDQkFXS2kzeFVOYjZuSUZIVGRla2F1UkNJdjVQVE9BcUlScXA2ZVktZnZvb2FfX0pnaWkxQjQ5TGdkQQ?oc=5",
-      "source": "radiodos.com.ar",
+      "source": "Radio Dos Corrientes",
       "sourceDomain": "radiodos.com.ar",
       "publishedAt": "2026-08-15T22:28:53Z",
       "query": "fiesta patronal",
@@ -2962,9 +3003,9 @@
     {
       "id": "news-bo-2c19e0334e7793d3",
       "country": "BO",
-      "title": "Cientos de vecinos se agolpan en las fiestas de Peñafiel (Valladolid) para bañarse en el tradicional Chúndara - Diario de Valladolid",
+      "title": "Cientos de vecinos se agolpan en las fiestas de Peñafiel (Valladolid) para bañarse en el tradicional Chúndara - diariodevalladolid.es",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQ0N3T1Y3TlZUNjNMUHhNcnBTc3ZBSEtBWWhkYnBRck40Tlp3Ui1CSGcwYmpENExyM0tuUnNxLVEwNVNaLWpOY21BQThTYWYzREZjeUdLa2xpWUxvbGx1ckZ5aEZ6ZFB6ampaam1nWDF4THlvUjNqZV9HWFdZYlV5bk54djFySXlIck9jd1Vfc2hfdmlDV1FfMDFINGZjS0hiZTg2bGdfUzdJQjhrVVhSLTdUdEc5Z1FwSWNucXU2NDIzam1BQVV3MlpBOXlacllqR2VNY3E2c2dlM1V1ZlZaMG5ldTQ0dFU?oc=5",
-      "source": "Diario de Valladolid",
+      "source": "diariodevalladolid.es",
       "sourceDomain": "diariodevalladolid.es",
       "publishedAt": "2026-08-15T18:43:27Z",
       "query": "celebración tradicional",
@@ -3016,9 +3057,9 @@
     {
       "id": "news-bo-aa0a22224b64c1b1",
       "country": "BO",
-      "title": "Celebraciones en Asunción: varias calles permanecerán cerradas durante la jornada - lanacion.com.py",
+      "title": "Celebraciones en Asunción: varias calles permanecerán cerradas durante la jornada - La Nación",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeTRnM2dqanFTU0pnSk4yUURXN3B4dW92emtXVVNBZzRmNmZyenJtSExwTnMzNm5PcmdZLURvNDBZWmdIdFBOWUl4Mkd5ZkVrQWQ2YTlVcEotcERXaTFVNnI4Q2pGYTlHaUVMaXZzUDMtaExmendxSmpQZC1EMndtNDFKYVNIcVljTlVOaTRLLXFkRVV5VDlfZTJiLW9OcDkxZ2xOaWtiV0czNzROX3h5eHBhMXRtckk0T1pERF9jVThWX1U?oc=5",
-      "source": "lanacion.com.py",
+      "source": "La Nación",
       "sourceDomain": "lanacion.com.py",
       "publishedAt": "2026-08-15T16:25:20Z",
       "query": "fiesta patronal",
@@ -3232,9 +3273,9 @@
     {
       "id": "news-bo-c6b0d94117c7aa0f",
       "country": "BO",
-      "title": "Raíces de Humo 2026 fortalece la preservación de la cocina tradicional tabasqueña - Gob MX",
+      "title": "Raíces de Humo 2026 fortalece la preservación de la cocina tradicional tabasqueña - gob.mx",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb053amMzN2l2V2g4MXRTSmgzenFrS21TRGhBYmVHbkViak5XblpUY0VZSDV6UERyMFBkdXV2Q1JmOElHQXdrelNPTDZ3dHZ0X04zb1J2SzBSWGdwb2FHMnp2c3ZFNUQ1Y3VlTGNmcjRCVkNhNWxaM29RUHB3OVRUczk3Nk5iTE1qSDRNZTl6bGp5Rk96R181MEJrc2V5OGVfRWNWMExzSm5rYkhtdnVyckwtU3BoOElHWUk1RTgzNXJsd1U?oc=5",
-      "source": "Gob MX",
+      "source": "gob.mx",
       "sourceDomain": "gob.mx",
       "publishedAt": "2026-08-14T20:19:00Z",
       "query": "celebración tradicional",
@@ -3376,9 +3417,9 @@
     {
       "id": "news-bo-63bebba1b5097583",
       "country": "BO",
-      "title": "El barrio de Baúl celebra su tradicional verbena de verano este viernes 14 de agosto - Excmo. Ayuntamiento de Baza",
+      "title": "El barrio de Baúl celebra su tradicional verbena de verano este viernes 14 de agosto - ayuntamientodebaza.es",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5kVGl1R1BxRmFLQmxDVkk0WlpqNC1KQzA3M2FVQ080UktfWTBYVUdIamRucEtHVWoydGcwUU5KNzJHajlJd0h3dzM0akI5VDdaZ1lZcVBIbExlY0U?oc=5",
-      "source": "Excmo. Ayuntamiento de Baza",
+      "source": "ayuntamientodebaza.es",
       "sourceDomain": "ayuntamientodebaza.es",
       "publishedAt": "2026-08-11T10:41:09Z",
       "query": "celebración tradicional",

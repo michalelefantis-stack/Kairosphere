@@ -1,11 +1,29 @@
 {
   "country": "US",
   "name": "United States",
-  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "generatedAt": "2026-08-18T16:31:55.664980Z",
   "refreshHours": 24,
   "status": "unfiltered",
-  "count": 25,
+  "count": 27,
   "reports": [
+    {
+      "id": "news-us-1f814e336949facd",
+      "country": "US",
+      "title": "Traditional Arakanese Thingyan Festival Celebrated in South Korea - Narinjara News",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1sS09oU21PNlMtUWlCRVptZTBQZndyd1JmUEszSjlPWDJ5bGFpenpNaEoycWtlMTFtc0lpN3FZMml3RDVlN1Nqdjd4ek0yNG41U19VblVtX1NkWG5zMWxyQ2JvZUNCZ3pPNFBBRjZIUQ?oc=5",
+      "source": "Narinjara News",
+      "sourceDomain": "narinjara.com",
+      "publishedAt": "2026-08-18T16:18:25Z",
+      "query": "cultural festival celebration",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
     {
       "id": "news-us-4391b87d77b37e98",
       "country": "US",
@@ -337,7 +355,7 @@
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOGxPVVJzMjhJcDRWcmI0T0RqSWVYRU9pa3lMWlV6TEJkSzltbTJsajVPTTM3ZEx3SGxUZTJYeUF5Qnl2NS15UDhoVG1VenZmdXB4OEJfTXNUNFRENEdidmd0eVhJaXd2MWNSam0xNklQbzFhTG1DVzNjcFJZZ3lpYWFXVmlNZ1NjdFpLVUZiMkphdEpCTkJHalpPZjdHbFZOX0xHT3pkSE1od1kxSVA0bNIBWkFVX3lxTE5palpLR2otcHExVDktN0gxR2VFdHFYOHdTazRzM3lSMGFoSmVoWmR4SFRBcl8yUkxhVnkxNjVZTDFkNVJ0ZDktUkdZM2NZcE9tbUlLVTlHdXd5QQ?oc=5",
       "source": "Oman Observer",
       "sourceDomain": "omanobserver.om",
-      "publishedAt": "2026-08-18T14:15:00Z",
+      "publishedAt": "2026-08-18T14:15:49Z",
       "query": "cultural festival celebration",
       "kind": "unclassified",
       "isPublic": null,
@@ -349,11 +367,29 @@
       ]
     },
     {
+      "id": "news-us-9ecf63cd0b1826bc",
+      "country": "US",
+      "title": "Basant 2027 to be celebrated in Lahore from March 12 to 14 - The Nation (Pakistan )",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTUVfa3hVREZOTmRDaGkyVVNNMmVUVXR5VjhJd0NlV21DZWgyWFZ6NXhmd1ZYRnpNZ2RXczhZeUZMTko5TWpncEVIb0RNcGk3TWozTjRTZ3RMaFg1NEJDY1EyMVNjajd3UGg5VllqSlpWT2xwYmVKVEhwWGo3OE9EdzY5eWFmQQ?oc=5",
+      "source": "The Nation (Pakistan )",
+      "sourceDomain": "nation.com.pk",
+      "publishedAt": "2026-08-18T13:38:21Z",
+      "query": "cultural festival celebration",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-US domain (nation.com.pk)"
+      ]
+    },
+    {
       "id": "news-us-e1508daeb5e53dc2",
       "country": "US",
-      "title": "Kadayawan 2026 sets record with 120,000 crowd - sunstar.com.ph",
+      "title": "Kadayawan 2026 sets record with 120,000 crowd - SunStar Publishing Inc.",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaF9haHFaZmJKTnZSWU1DNXdCajg2dEFOYWVOb1hyeGI4MVpvYm5zdG5sTXhqTFpPblF6WlZXM21oazJHTldNWnE1cWJLR1hHcWhYVFhCUlhlRVdQX2YyMlgweUh4T1JYWGpkYzdlZVlGcjFBWU41YTdieTRKWS1zLURVZ9IBkAFBVV95cUxQSXR6WmtXbEtWLUFiRzh3Q3NONnlNWXdyZEh1bms1Uzl5bWRicnFCMXhfbjhJcm1ESUZndEEzdUs4bnNWY2dqendtWnJfcFN2bEJpMkhvTTQtUWNobXpuQVN1S3NuUHFHcnhZREFSeHN4RkZJcVVJZmo2UzFoclE1aDVCVGNHYzFRenk0Uk8zT1A?oc=5",
-      "source": "sunstar.com.ph",
+      "source": "SunStar Publishing Inc.",
       "sourceDomain": "sunstar.com.ph",
       "publishedAt": "2026-08-18T10:57:20Z",
       "query": "cultural festival celebration",
@@ -405,9 +441,9 @@
     {
       "id": "news-us-bb1f2c23a078efaa",
       "country": "US",
-      "title": "Al-Atawilah Heritage Festival Concludes with Celebration of Al-Baha’s Rich Cultural Legacy - spa.gov.sa",
+      "title": "Al-Atawilah Heritage Festival Concludes with Celebration of Al-Baha’s Rich Cultural Legacy - وكالة الأنباء السعودية",
       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9hMXJuTGs3VnRaX1JYN2o3TDdnSFYzYWpLeG95VzRDZ0c2S1puUEk1MnIxYUxYSnlGNTRFNHRsMGRoYWhLbkxMdjFB?oc=5",
-      "source": "spa.gov.sa",
+      "source": "وكالة الأنباء السعودية",
       "sourceDomain": "spa.gov.sa",
       "publishedAt": "2026-08-10T07:00:00Z",
       "query": "heritage festival traditional",
@@ -423,11 +459,11 @@
     {
       "id": "news-us-e3ac1449172cb08c",
       "country": "US",
-      "title": "Traditional Women’s Work Recreated at Al-Baha Heritage Festival - spa.gov.sa",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE90bWdkTVVfUEVzMTNWYmk0aXJQNDduQTlEeU4yc0lmX2o2WndFN2NCNmNXaF9RZ21MNHAxc21kU0NVVTh6SjltMnpR?oc=5",
-      "source": "spa.gov.sa",
+      "title": "Traditional Women’s Work Recreated at Al-Baha Heritage Festival - وكالة الأنباء السعودية",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBEOEpjM1RRYUZqZU50X0haZXRyU3JhRUJET0IzLW5KV0J0R1owZ1gycktFYzg1RGhVVHNJdEduXzA1bm5f?oc=5",
+      "source": "وكالة الأنباء السعودية",
       "sourceDomain": "spa.gov.sa",
-      "publishedAt": "2026-08-09T13:45:03Z",
+      "publishedAt": "2026-08-09T15:40:38Z",
       "query": "heritage festival traditional",
       "kind": "unclassified",
       "isPublic": null,
@@ -441,9 +477,9 @@
     {
       "id": "news-us-efb3bcccc61354ef",
       "country": "US",
-      "title": "Al-Atawilah Heritage Festival Showcases Traditional Life, Folk Arts - spa.gov.sa",
+      "title": "Al-Atawilah Heritage Festival Showcases Traditional Life, Folk Arts - وكالة الأنباء السعودية",
       "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBuSzFlbXZhUU5tbG1Od0VwYWV5TUROdlVMNmlodnhzWHk1MGZFVFFPdVFVRUJBS0s5Tk5FVEZKRnpGaTRq?oc=5",
-      "source": "spa.gov.sa",
+      "source": "وكالة الأنباء السعودية",
       "sourceDomain": "spa.gov.sa",
       "publishedAt": "2026-08-08T17:41:17Z",
       "query": "heritage festival traditional",

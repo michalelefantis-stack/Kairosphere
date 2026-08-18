@@ -1,7 +1,7 @@
 {
   "country": "AU",
   "name": "Australia",
-  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "generatedAt": "2026-08-18T16:31:55.664980Z",
   "refreshHours": 24,
   "status": "unfiltered",
   "count": 7,
@@ -63,9 +63,9 @@
     {
       "id": "news-au-dd21d3f9e577a06b",
       "country": "AU",
-      "title": "UpFRONT Festival of Indigenous Arts, Music and Culture - cp24.com",
+      "title": "UpFRONT Festival of Indigenous Arts, Music and Culture - CP24",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWnNwRjZVcl9RUkhXV1Q1NENRUzNzMWYzbEdwOTdLMThfMWIwQjRtWTBCWl9JUUJlYmJTWG9uclJuNjYweG11OUZZeEtNS19tMjVSY2pCOHV4YW9yRDA1Q2N1N05mN2xpdzIyNkhrdnltb0RJXzRaUWdBc0stLUpSMER5dlFNYTlEV1hHX3JXeUlQRnlEQTlV?oc=5",
-      "source": "cp24.com",
+      "source": "CP24",
       "sourceDomain": "cp24.com",
       "publishedAt": "2026-08-14T16:38:06Z",
       "query": "First Nations festival",
@@ -81,9 +81,9 @@
     {
       "id": "news-au-cd760b6df2e71026",
       "country": "AU",
-      "title": "Documentary on tribal disenrollment headlines SWAIA’s Get Indigenous Film Festival - santafenewmexican.com",
+      "title": "Documentary on tribal disenrollment headlines SWAIA’s Get Indigenous Film Festival - Santa Fe New Mexican",
       "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPVFdTaDlsR1ptQ2NSQmdvaC1wdC1ZelBaaS1GRnVRSk8xZWJTaDhxZ1hoNFVvOURoWkFva1RuSXp0WGJBa052c0tzNmJBdVQtcWFQVEpSV25qR1VDZTRsaXVoS01SNTVjV0kzU1hVbXJGNEhTLWRGdUF1NHlNY3gzcXhSYTdYZmV2YnNOcnFGNHF5UUtzMEE3VFNKSVFOeGt6S1h4QUdkalR4WE82X2RteFg5TWQyS0pqX2lkNV91elFUeEE2eTFBR1QzYlhWeTBxN0ExQmtCOGZCX3daMUh2RzVLN1FJYXVBazdXbzJCcWc2dXBQUEMzQW9QM2xvdEQtTFlNMmhrbHNVemo3SUVlbFdLQWg0N3gx?oc=5",
-      "source": "santafenewmexican.com",
+      "source": "Santa Fe New Mexican",
       "sourceDomain": "santafenewmexican.com",
       "publishedAt": "2026-08-14T11:00:00Z",
       "query": "First Nations festival",
