@@ -1,0 +1,640 @@
+{
+  "country": "TR",
+  "name": "Turkey",
+  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "refreshHours": 24,
+  "status": "unfiltered",
+  "count": 35,
+  "reports": [
+    {
+      "id": "news-tr-cdb86df6e3d2d6c0",
+      "country": "TR",
+      "title": "Kargı’da geleneksel Keşkek Şenliği düzenlendi - yaylahaber.com.tr",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OOHRUdjZiVTNwbnplc1BKN2NiOFp5Tm5LYkduOUlDLVEyNnplUHRWS0VHNzRqeW5ldXRFVW5oSUkzZklxWTZ6RGQ2aVU2eWEtQWYtTVd2YlkweEVMaGJqSGo3Znc1TlZsTXFSNmlSZzc4cmVUcG5oYmxmUDdhbHPSAYQBQVVfeXFMTmE5Q2RUMHk4QkxoeWw5bVV6NExZT1VSeDg3dWNIOWgzMmR3MHNGbWJ2Zl9rQmQ4ZlNwa190dlpwMzhHMHRjcXliMVdFWmZNZWJlU3UxVVNoTElIYUV5VE5FOXhTamV4dklRUnZhNXhIdjhWX3Z3Z0xUOU5UWFQySFJFNHk2?oc=5",
+      "source": "yaylahaber.com.tr",
+      "sourceDomain": "yaylahaber.com.tr",
+      "publishedAt": "2026-08-18T12:30:00Z",
+      "query": "geleneksel şenlik",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a TR domain (yaylahaber.com.tr)"
+      ]
+    },
+    {
+      "id": "news-tr-0f77513d622e52b4",
+      "country": "TR",
+      "title": "Geleneksel Gebze Aile Şenliği - Gebze Belediyesi",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORUFLWThvMEZZSTlUc2gyZTRzeTJtQXhCNUgzbGdSdWU3OXZKVmx6RERsMzZXX2hIbWFiWDktSlZ2QzQtOG5UTW9OV2JwU3FLNUVYOVhHV1R0SkJYSTJfMUxkdWlseG5LTVV5djVEWUh1TkM2ZzlkeTBSaWx5TmlDZA?oc=5",
+      "source": "Gebze Belediyesi",
+      "sourceDomain": "gebze.bel.tr",
+      "publishedAt": "2026-08-17T23:14:15Z",
+      "query": "geleneksel şenlik",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a TR domain (gebze.bel.tr)"
+      ]
+    },
+    {
+      "id": "news-tr-ed8235ab3b6ad67d",
+      "country": "TR",
+      "title": "Konya'nın meşhur fasulyesi için 11. kez festival düzenlendi - Yeni Meram",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONG1zTXpWOHlRbWdmV2Y5S3NqRW9mbHVvdkhBZVhsdUMxZjEwZWZFRzFFZVNzalFQRlBKTF9tNlFKczVKNkp0MDlXbUhiakpfMjVzMVVFUUtyY2tsR3NzNENJNzFrNlNzNXhkUnowZzB4NnNyV2FMYXh4Sm9VR1VDQ1c4REt4MzMtQzlmTUM5NndvYk9yd0FyVXpCZw?oc=5",
+      "source": "Yeni Meram",
+      "sourceDomain": "yenimeram.com.tr",
+      "publishedAt": "2026-08-17T11:52:27Z",
+      "query": "yöresel festival düzenlendi",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a TR domain (yenimeram.com.tr)"
+      ]
+    },
+    {
+      "id": "news-tr-15399135cf621659",
+      "country": "TR",
+      "title": "Urla'da Geleneksel Bağbozumu Şenlikleri başladı - dha.com.tr",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMnZfOEszTEctWFRmV2hHd2hIS043UWJ0c0xFbjFISmtoRUF0WDFGdTJnZkhMM1l3LTNMVDdmOEJTOWZydldNbk5tYm1YX1hISWc0aDRfMjNfbnExSHd4Y3lEdEo5bEFneGRLc1dOTlplWXl4N0dJNmFVcGZKOWRaRlF4c196bWtrVk5qRmhPM2drQmZtcnVuejMyMUVoTE42R3M0OHB30gGqAUFVX3lxTE0zbHAyTzFWMmt5aEI5NDZDMlJuU0pKdG81a3VlSERaZ0ZManBlTTNRZHBTMW13cWhuc00wWS1ubjluR2VWVDgxNUl2azNPU1BGY2xSMGI3cGVZQnlraVlKSDFieVpObklSSkhyOHhhdjBhWFdmLWdicEJEdXFtN01TRGdkN3QzZDl4ZjZlb01NbWJnMUphUklHNEpPWHNfR2VQUEg5VlZub2RR?oc=5",
+      "source": "dha.com.tr",
+      "sourceDomain": "dha.com.tr",
+      "publishedAt": "2026-08-14T11:23:22Z",
+      "query": "geleneksel şenlik",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a TR domain (dha.com.tr)"
+      ]
+    },
+    {
+      "id": "news-tr-2817ad07f3985eec",
+      "country": "TR",
+      "title": "Kurtdere’de karpuz tadıyla geleneksel şenlik coşkusu - Çerkezköy Haber",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQkg4TDNRT0RYblBnMlUzOWpTbG52V004OTBXWGJ2QUMxNVJOZVJZaU9qV1ByMGxTNHBES0ppM1U1ckRFTUVnZGZGSDlHMnNZQjBGNE9kNmdjOTFfei1VWTJWM0lqamhneFVNcXhYUU5Ed3Bibkg5WDRTSzNkMDhIcW1pSFdfNUZCRC10UHlPekUtOHNWNEozcjlSRk3SAaIBQVVfeXFMTVRVRmpxcW0zZDZrMFVEeXdJRDJpejRkaUVkOFEwRUl6a2s1RHBhbjh6NVB1Qk1TWGFEdUhXRkdsSzBqLW5jMFp0OFpNNjB6VGhrd2M5YWZEV1VIc29yVjcwSTNyTFNidS1Td0FhMk51aGlkbENzRzRqSUhhMTB6WUVrcTU5ZHppMGxWWmNHTDV6WlN2ekN5M2M3T2J5NnJFek9B?oc=5",
+      "source": "Çerkezköy Haber",
+      "sourceDomain": "cerkezkoyhaber.com.tr",
+      "publishedAt": "2026-08-12T14:23:00Z",
+      "query": "geleneksel şenlik",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a TR domain (cerkezkoyhaber.com.tr)"
+      ]
+    },
+    {
+      "id": "news-tr-034475bb6559e925",
+      "country": "TR",
+      "title": "Kurtdere'de üçüncü geleneksel karpuz şenliği oyun, yarışma ve müzikle kutlandı - Aksiyon.com.TR",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOa0xSUVNvbzI5VnAzQ0dRY0xVV3hqal9pYWQ2UTFqUldwSC1sRG5QWEhRRWl1ME1FMGstUVBRMjRqQlRfMTNYTTVBSzBJakVLRnBpQjFObmZNc1lkNFZYazBGMzF2VDN2R3lsYkFab2NsbXBkcWtxeUZ1amNGaERKVTZpVkFKcFQ0OUg1b0VHMW5vckRrcVhOeHVhZGNkQ1Q1anMweGQxQ1ZWQ3I2bzJ0NNIBtgFBVV95cUxQVHlNLWZxcV9vSVNUTWVIdS1aT2F6VjdRUUFhcnJNWU8zLS1uSWw5VERJNEVqdmlPeGlyZm9oM1VuRjc3ajVFYWx3RXBOS2JIdXBhMFdxNmF4TUNCdHVoVzlGa1phV0NIZFczOHhKc29OWDlIRFU2cVZ2R09mZ3U4cG45NHV4eUZBRDN2OGh6RFBUeWduVmItUlpGNDBiZk9aLXpIRXJsUENuZndRRlVGSDRFLTRvUQ?oc=5",
+      "source": "Aksiyon.com.TR",
+      "sourceDomain": "aksiyon.com.tr",
+      "publishedAt": "2026-08-12T14:18:13Z",
+      "query": "geleneksel şenlik",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a TR domain (aksiyon.com.tr)"
+      ]
+    },
+    {
+      "id": "news-tr-6fe21436c44b8aa6",
+      "country": "TR",
+      "title": "Yeşilyurt’ta 23. Geleneksel Boğa Güreşi Festivali düzenlendi - mugladevrim.com.tr",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRGhQUm9jSUxncXROWklkX2NRNTJhQUd2b0l3VkIxajhpS25TSW5TUVZROXIxd0drWHFGS2VLU002U0lhanJXQndxdXktZGJiOWhSdFV2bEpWaGFRNFozcEhoX25tWGl2dDBSTU83aU5PX05zM2RZMU9BRDZHNTBBMjdUU1VZV0UxNzJtWmtkM3VYNzRVWGZ1c2Z2bWZBYldKYVhoSUl4ajRRNTdRMmcwX0J1UmtqQQ?oc=5",
+      "source": "mugladevrim.com.tr",
+      "sourceDomain": "mugladevrim.com.tr",
+      "publishedAt": "2026-08-09T12:58:35Z",
+      "query": "yöresel festival düzenlendi",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a TR domain (mugladevrim.com.tr)"
+      ]
+    },
+    {
+      "id": "news-tr-ba312c292d3a3aa6",
+      "country": "TR",
+      "title": "Altınbaşak’ta 2. Başak Festivali düzenlendi - gumuskoza.com.tr",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTnBZZkh1cThlX0hsSjdKQ1lTZ3pCUE8zLXloNE9Ub2hYU3pQcFdrUU1SQjkySHJoQ0EycG5hcWI2OU5DSktBNng5dGtMWElFWU5jYS1ZQzlLSUtBX1ZJc1VHTmlHaTloelZfcmo5QXBDNmlGWFNWZW13SG1KandxYmxuSVAtdjduaEpab1h30gGTAUFVX3lxTFBPRENsSHoyUkJTdnZKNEdUb3pTaEd5Wl9MRFhqUXZENHI1U2JMZElkbER5R3RyV21YQWJ1NjJRWGNQdC1tOG42NlgwQ0pkRlhYQW1oTjlCdFduZDBCUHRtSm5zVnJXd2NoQTdkQkdRdlczQVRJMzVuRU1xMmRFZUVIRlVUQi1rUW12Nk9PZzJVT3Z5VQ?oc=5",
+      "source": "gumuskoza.com.tr",
+      "sourceDomain": "gumuskoza.com.tr",
+      "publishedAt": "2026-08-09T08:01:00Z",
+      "query": "yöresel festival düzenlendi",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a TR domain (gumuskoza.com.tr)"
+      ]
+    },
+    {
+      "id": "news-tr-da95029b753fbd61",
+      "country": "TR",
+      "title": "Beyşehir’de Çetmi Şeker Fasulyesi Festivali düzenlendi - Eskişehir Durum",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSXBWemJOTHZoSy0wYW8teHdXY0R0NVJPN2QwZ3ppbklvangybmppQ2thUjM4a2luVDFqczE0UVVPUW1CT3FsQU1aS1BsSkpFMWpOUEJJbkp4bkpfQVViaTU4dXYyTUkxLUwxazZlM19KMzRVaGhmLVRIeUVKNGJqbjRRU29OUm9BNG5LYUZTS0dWZ1lDYlZyRA?oc=5",
+      "source": "Eskişehir Durum",
+      "sourceDomain": "eskisehirdurum.com",
+      "publishedAt": "2026-08-17T20:42:01Z",
+      "query": "yöresel festival düzenlendi",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-e4e949679cd97cec",
+      "country": "TR",
+      "title": "Borovitsa’da Geleneksel Köy Şenliği Coşkuyla Kutlandı - Kırcaali Haber",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNLVRuVEtUMTlQQnR5bFFPVHVNS0hRRlhjU2pIWmxoSlZaQnhvcUt6WURsSTNoNDIxRVVDNXVNbmFaSURCYWtxaFFFejJlY0hzbWJ5RWdFT1pNNnJiYzlBUXdxczBCdUZjNjZfMnZHM09pNTg4MU5SamxiTkNrSVItTUNJNGRoQTMwQ2lhc3RWOG8?oc=5",
+      "source": "Kırcaali Haber",
+      "sourceDomain": "kircaalihaber.com",
+      "publishedAt": "2026-08-17T17:35:09Z",
+      "query": "geleneksel şenlik",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-bccd66a3f91a9706",
+      "country": "TR",
+      "title": "Konya’nın meşhur Çetmi fasulyesi için festival düzenlendi - havadis.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNem1kYmRnRFhiM245N1ZrMUJtTTFxY29xM2pvMkdROU84c25sSDVuU1pOSGVxVmdoLWRlMjg0VDBQSFFTX283VWpadldUZS0tMlpKdW11TFl4QXZFeFNLckFnd0oySE9CS1J2M2ZfMkZqQTd5ZUk0NXV5Q3ZiVjBWTnR4RG5DYUZ6MS1EbTlWOURPNVFqWGowYw?oc=5",
+      "source": "havadis.com",
+      "sourceDomain": "havadis.com",
+      "publishedAt": "2026-08-17T12:40:26Z",
+      "query": "yöresel festival düzenlendi",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-21ab8378c99ddff4",
+      "country": "TR",
+      "title": "Niksar Keltepe’de Geleneksel Festival Coşkusu - GÜNCEL - Niksar Danişmend Gazetesi - Niksar Danişmend",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOWRGNEM5R0lLMkZpTVVGS1VHbk5jeTAyVU5aQ0N6Wlg4YVhVWW9fc2xxZVRnOXd3bzNReXVnbzZzYkhIRDZiYVpWZldTRzFHRmw3MmEwdW1VWjdoUHpEOXRuSHd5Q28zaWFnQVN3azI5NWsyb2JYMkFHQUNOcmpkWTFfajh5cFlQYjJwOQ?oc=5",
+      "source": "Niksar Danişmend",
+      "sourceDomain": "niksardanismend.com",
+      "publishedAt": "2026-08-17T11:17:03Z",
+      "query": "geleneksel şenlik",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-1093b782b0985f15",
+      "country": "TR",
+      "title": "Yozgat’ta Çayıralan Bal ve Kültür Festivali düzenlendi - Merhaba Yozgat Gazetesi",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNkNHZDhCYnVFYlE4dmpMamI4a0xROWhEcENaTEVBUWdNS2VaVlNqcWdnaGxicEhaRDlLbGVkX1hfZ1hTNlRidjY0ZS1WdFRSS29xeDdITGhmMjJmTldrVGdoeU1xRDFVZUYtLU9XN1lqVm5iYWVxaGg4SzdLOE9lUGtOU215X09JRHl1NzJzX3pMZE1yT05DS2NB0gGfAUFVX3lxTE1zTjhOZ2dXQ0t0M1RNam93UW54WU44WXQ3QzNzVWRtUnZtN0dFSy1qdHFmeXBVaTcwUm5SMmJGTHlUWFFGVXRCaUtac2k2NjBwTWZJeWtoMHRQZXJPYjBiSjY1ME9xLTBONF9BalM3OEgxNWNXZDFpcFIzM3NONDY4alg2bjJMczhjdWFRSElfRmFOTzJNMk5lSEpyc3pFVQ?oc=5",
+      "source": "Merhaba Yozgat Gazetesi",
+      "sourceDomain": "merhabayozgat.com",
+      "publishedAt": "2026-08-17T07:51:00Z",
+      "query": "yöresel festival düzenlendi",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-7ad830f523aa3a1a",
+      "country": "TR",
+      "title": "Tufanbeyli’de Yamanlı Kuru Fasulye Festivali 5’inci kez düzenlendi - Habere Güven",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQTNJR0w5a1dLYTBicW11OWpsajhIT3RURE5xQnVVNTJvSHZYUlMtcFRPQTNNUnpPd3FneVNjcm45eUg1OElXU3ctQXdPZzRZTTNuekNSQUs1bzktYlBpTjl6SWd2TEUxMTlVS3pLZ09ZX0tQUU1VODlKcV9nNGZDakJIVG55dEpxR05ZMTRlS2l6Yk5wSGNF0gGcAUFVX3lxTFB3bkVGWkpMRTJaUVh2RVU4WUtDM0lidUtBRDNmLXVzdGsxS3VwTUVBLUpLNldZS0t2NXJEZEJMSEJoUDJ6NFE4SWYyWmtHU0N2cVg1Z1ctTHRrWXlkenF1THktY1hpVUYyYkZjQWRtbUxEMHZxXzA5TnhtUFVuc2dlMlprWlZLcTU3RkQ1Q2R2enhETmN2bUozVzZ6dw?oc=5",
+      "source": "Habere Güven",
+      "sourceDomain": "habereguven.com",
+      "publishedAt": "2026-08-17T06:50:00Z",
+      "query": "yöresel festival düzenlendi",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-700fdd78b8a20dda",
+      "country": "TR",
+      "title": "Sinop’ta geleneksel yayla şenliği renkli görüntülere sahne oldu - Sinop Flaş Haber",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcHN0ekVMdkJMY2N1YmhwMWl3WHhvc2paUC1kUE0zWWNBRkQzdlZpMUlsNGdVYUllTm5qQXNpU0JBTHZqVHpCSk44bTBWd3lZRlZXMVhhektQSHBSU0NsSWFXeGxYUUd1YU1lS2k5OVl4dVVYbDVnTE5aRzZJNzlYMU1TYUgtM1hBSFNmdWEyOWpnb1BUZXp1SzE5YmVONFFYbFE?oc=5",
+      "source": "Sinop Flaş Haber",
+      "sourceDomain": "sinopflashaber.com",
+      "publishedAt": "2026-08-17T06:28:30Z",
+      "query": "geleneksel şenlik",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-b896bd0d61c9e945",
+      "country": "TR",
+      "title": "Turnalı Yaylasında Yağmur Altında Şenlik Coşkusu - caykaragundem.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSWYxVnNTR0JjeVg4UFJRN0N3WF9remxJSGZJLXdKQ1BMX0tGM0JoaGFBRTFabWlVbFZiS2gyVk5DLTh5a0FqUHd1dDROb2VCalJuNDFFZC1nb3NWcGN4c1p5clMwanZwT0o1N3lpcmo1M3FpMkthR0dZblN3UmFPWTZvSDRjUkdJQUtHRlZPRERhcUlY0gGUAUFVX3lxTFBJZjFWc1NHQmN5WDhQUlE3Q3dYX2t6bElIZkktd0pDUExfS0YzQmhoYUFFMVptaVVsVmJLaDJWTkMtOHlrQWpQd3V0NE5vZUJqUm40MUVkLWdvc1ZwY3hzWnlyUzBqdnBPSjU3eWlyajUzcWkyS2FHR1luU3dSYU9ZNm9INGNSR0lBS0dGVk9ERGFxSVg?oc=5",
+      "source": "caykaragundem.com",
+      "sourceDomain": "caykaragundem.com",
+      "publishedAt": "2026-08-16T17:35:00Z",
+      "query": "geleneksel şenlik",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-eca4c800a9ab168b",
+      "country": "TR",
+      "title": "Tufanbeyli’de Yamanlı Kuru Fasulye Festivali’nin 5’incisi düzenlendi - Küçük Saat | Adana Haberleri",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVlhrQWdKMUNYMWlqNUlSODExSE4wUDgtcTBONVlCYzluUW9nc1B3cUtGWGFRcWFNSjQtZUt2dUpHR3FyUE41VzNfY1hnQ0ZqRHpTOFd3Q256ZWJFYm5idk5fSGRjbmwzTXdMZEgtMW44cjlQSlZxZVQxYWgxTU1RRnJTQVVtZlRlZjVNVEZrd21CSHg3TXg1aWtXRUZMRm5EOEJORm91dzJqNDhkbnlXb0xvWUzSAbQBQVVfeXFMT1ZYa0FnSjFDWDFpajVJUjgxMUhOMFA4LXEwTjVZQmM5blFvZ3NQd3FLRlhhUXFhTUo0LWVLdnVKR0dxclBONVczX2NYZ0NGakR6UzhXd0NuemViRWJuYnZOX0hkY25sM013TGRILTFuOHI5UEpWcWVUMWFoMU1NUUZyU0FVbWZUZWY1TVRGa3dtQkh4N014NWlrV0VGTEZuRDhCTkZvdXcyajQ4ZG55V29Mb1lM?oc=5",
+      "source": "Küçük Saat | Adana Haberleri",
+      "sourceDomain": "kucuksaat.com",
+      "publishedAt": "2026-08-16T17:30:00Z",
+      "query": "yöresel festival düzenlendi",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-fbc3026d3bc4337e",
+      "country": "TR",
+      "title": "Artvin'in Savaş Köyü’nde “Mokta Festivali” düzenlendi - Anka Haber",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcng0c3RrdjFMQjluQUthWmhVNzQyMGZTNGRLaG1GOHRSalFPZ0FnSTdYclZDSzM1RmdJVTFoNlJxeWxhbmd4U0xYSnJKZTN4c0FjbmxpQnVWQnhWMHVxczFuTTRuQlp2cy10OG5kYm5RWkd2VzlfNHd0dERBMk1fTERWZl9KU3ZWMnBpYjRMTFpwUQ?oc=5",
+      "source": "Anka Haber",
+      "sourceDomain": "ankahaber.net",
+      "publishedAt": "2026-08-16T11:34:53Z",
+      "query": "yöresel festival düzenlendi",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-aaed9232b61af7d6",
+      "country": "TR",
+      "title": "Yamanlı Kuru Fasulye Festivali 5’inci kez düzenlendi - Toros Gazetesi",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOGNpSUdRWk0zU2xvYXBybDZCU0VkOGcweVZBbnBnM1V0OXZfa2Jyb3pHRGdPUmZ2eVJMY2xiQzhRc081YzJXUm1yMUNnTVIwbmdZWEloYXk5cWVWRDRGYmh6MU14UWVxaDNpMlA0YjVBcUpxYTVhOXFBclA2NFREQjhvVTVoVUxlOFE?oc=5",
+      "source": "Toros Gazetesi",
+      "sourceDomain": "adanatorosgazetesi.net",
+      "publishedAt": "2026-08-16T07:24:00Z",
+      "query": "yöresel festival düzenlendi",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-6a7e2c547cb3d1e6",
+      "country": "TR",
+      "title": "Erzincan Tatlısu’da Çilek ve Böğürtlen Festivali düzenlendi - habergundemim.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTUJvZF9aMmllNi0zUC1QMVdYVHBNc2IwV3dRdVY1RnhyaVBZbW9peV85bGhPZUVnXzRlc09ZbWhRamg5cFpBWENrUy1sMWZnSmJ0cENPVm1oQzJZT3BJM1hYSXNTMElJenlWd1BFV1MyT01CYmd2eDVIckFpRkdSc3JoWWZsX3NxUkM5TjZFLUNhYThneDU5eDFHSXhkVE5mOHJ2MV8wYmlkUQ?oc=5",
+      "source": "habergundemim.com",
+      "sourceDomain": "habergundemim.com",
+      "publishedAt": "2026-08-16T05:16:00Z",
+      "query": "yöresel festival düzenlendi",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-3bb7831c0a6e7023",
+      "country": "TR",
+      "title": "Urla’da Geleneksel Bağbozumu Şenlikleri başladı - Egeyön Haber",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcnBHdHRyOTNpeHVSSkFxb0ZoSFZFb2tZVnVfSGtwV2VGTVduRHF6NGItTlB4Q2RwRlFNZndSTUxWWURwN01PLXc2cHFRRjRVT3c0LVNPLVh4U011TTdha1haTnRhMkpWOHhHTXdWQmhtQU5NeGxoX0o3MFVMTkQ1VkxMV3RDVXFOb2tNZUZYV25LTVY4MXc?oc=5",
+      "source": "Egeyön Haber",
+      "sourceDomain": "egeyonhaber.com",
+      "publishedAt": "2026-08-14T13:17:45Z",
+      "query": "geleneksel şenlik",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-5f5e643b7f4b7892",
+      "country": "TR",
+      "title": "Urla’da Geleneksel Bağbozumu Şenlikleri Coşkuyla Başladı - N Haber İzmir",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORmVMaFFIaUNEcjM3TkJaXzRObXJlSTFQdFpvQkFVWm9KekFEd3hKaTdDY0pUREhtcmNsb2tNd3p5RkFzOXFBb1lGWG1STHV4SXR3Y0FqWE5ORER2LWRlNFZVbmNvU1JqMV9DcERXS2lveVVWUDUtamF5NEE2T0lKV3RZb2JFTmlGTE530gGQAUFVX3lxTE4zaE5GTk04ZzB3WDJQcVhJYkVMNDVaMWVKSFVwelVuNk1DaEZ6c2tVT0dELW83VHlfZ2xmZVBlemZyUnVHMkU5X1hfakxxTGd5U2E4eUNDMVpRMmVhQjNTUVJsSzdHR3kzaUpyaHBJeUtpQUFjdURFMEM5TUIxbzkyc09LcEJ0WDV2NGxsNFl6Sw?oc=5",
+      "source": "N Haber İzmir",
+      "sourceDomain": "nhaberizmir.com",
+      "publishedAt": "2026-08-14T11:38:00Z",
+      "query": "geleneksel şenlik",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-ed4ce739a2705dec",
+      "country": "TR",
+      "title": "Tekirdağ Kurtdere Mahallesi Geleneksel Karpuz Şenliği renkli görüntülere sahne oldu - Anka Haber",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdy1LWmJpcXJPVHVCMXdCYUpXSkZMTDZQSm91SDJGWlNwZ0JYa2RwV090Ny01Vk5yNmNGVFJzMkY4Q3hkQ0dDeTUzd0NQa1FndFpYYm5CbU9mVkZpT0NTVFg1UlpQWjdkSEFZVkJHN2tzWDhlTGNRYlhWdjFWdThMSkI0YzVtRnNGZmpXN3ZvVUM5c3hJZXhJVU42WGNDbDUwRmxCWFQxNFg4Z3pYeG9vclJzSFVsVDRLWGpFUQ?oc=5",
+      "source": "Anka Haber",
+      "sourceDomain": "ankahaber.net",
+      "publishedAt": "2026-08-12T14:14:04Z",
+      "query": "geleneksel şenlik",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-c62adb4b137c71d7",
+      "country": "TR",
+      "title": "Urla’da 2600 yıllık gelenek yaşatılıyor: Geleneksel Bağbozumu Şenlikleri başlıyor - Ses Gazete",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ3dJMnVKTXJ1SVZYZ2JWYl9wY1ZWQVcyTzBvbjFUV0tNNnZDTUdtZDQ3VGlwUkJraExCcGVyRjVrcks4SFg1aFRieFBOT2kwY1VzVVZUSEM5Ukg2ZXktdHJKQlRld3pRMk9yNVBpRFV0SVRJcmstN0lNc2Rwb2x6OVNwZkJwTWFMczFQTFhfU2thTVZSOEloX0dmamNRaGc3N0040gGoAUFVX3lxTFAtbHhsbjJ4RHl4dk5MNWc1NWo3LTlUbUstV192eXhwcWZpMzJTSk5yMEFuWGpqSThxM1BZZFFPNFBla0Y5bkRyZ1JsZElCbEVNczJkYnBPd1E3UzJoZERwZGxpVUFuR0NadndNUUxac190dkYyNUZEVUNwcXRWZjBET0N1N09MamlXOFpBRkp4R3VCQ0x5VlVBdzNBU0ZZMnhVVTZwaXVwNA?oc=5",
+      "source": "Ses Gazete",
+      "sourceDomain": "sesgazete.net",
+      "publishedAt": "2026-08-12T10:00:00Z",
+      "query": "geleneksel şenlik",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-6a50f9f5feeef703",
+      "country": "TR",
+      "title": "Sarıveliler’de Yöresel Müzik ve Folklor Festivali Düzenlendi - bolgegundemi.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTkoyX2QzN2prWVNOSHl0S3VHSWMtOTVpcU1zUmJDTGVzTmp5aHdYazlaZnhPMW5BX1NEb2E4MHNBTFY5Yng5d3k4eWRLcnBGdHJ1VllEVWt2VXV5YjNRNlpKZWh0anItcFBVMjNlWFZ3dTBnR0s3N3ZyYTNvOVl0d1ZobEJ3OHhPWHU3ZmZGeGVpNlNTOWU5ZTE0YjZramxtRjZtYS15QXZONTd5?oc=5",
+      "source": "bolgegundemi.com",
+      "sourceDomain": "bolgegundemi.com",
+      "publishedAt": "2026-08-11T13:23:24Z",
+      "query": "yöresel festival düzenlendi",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-881b833876004e45",
+      "country": "TR",
+      "title": "Başevo’da nesiller geleneksel şenlikte buluştu - Kırcaali Haber",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORmNDOUtoY210cng5Qko5WWkzYXBrZW1mXy01Rlh1SldKeWRvWmFrWF94VUdsdTN4U205LVd0RGg5MEp3WkE5OEdHTlFvbm4ySnYxdTl1ZTFXM0syN2lBRHNRMEowUDM2dzh4ek82LUpMM283RXZNa2ZsZ3BsV1dlb2xhOGxTcGM?oc=5",
+      "source": "Kırcaali Haber",
+      "sourceDomain": "kircaalihaber.com",
+      "publishedAt": "2026-08-10T23:37:30Z",
+      "query": "geleneksel şenlik",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-ba23878547ea5785",
+      "country": "TR",
+      "title": "Turnalı Yaylası’nda Büyük Buluşma: 20. Geleneksel Şenlik İçin Geri Sayım Başladı - Çaykara Gazetesi",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWXljWm9YZTNFR3ZvaF8yaldjNXJsWVd1aHJjVDY2M1kwLUNOSFB2THhxTVhBZHJHenNvamNnWkFXS0JNSFFfQXR2c1ZHbEt3ZmNhQVR4WDZuSC1PZkhsTVV0cnV0OEdIRkVPb1R0V3BCSXJPUWV1Yk1lX2tLcU5nRmRoV2VkZUN2SWlJRW4zT01wVV9oYm1ZenJUbW41TXB2ekE4cEVxNjdhVlUwZ01FMDFDYTNjNm56cVc5MjhqbjVNRTZ1VkZHT1A0UFJ4RGPSAdQBQVVfeXFMTkpJMmJpRVR0Z0ZsY0J5LXNaWjlJOGlkNzhBRXJ4MGpWVGVJaFlZbWNYeURmWEhsRnlnYVp4a0YtVG5sclFwUVE2bGdnS3c5WmxDZ19tUE9CWmEyaGdpbDhDS1hnSldHcDZMZGQ3dGoyZHV4V2s2cG9OQU91SDhONm9iSGY1UGFZYU95eFRjV0FGZnNDT2t0WGZxUjdEdXhMamdsaGdfQ2lGLVlkYnVFOF9ld1VLMHRmZG12aXRHbGJxMjJiUlEzVWVYMk9GcEE0dThfMVI?oc=5",
+      "source": "Çaykara Gazetesi",
+      "sourceDomain": "caykaragazetesi.com",
+      "publishedAt": "2026-08-10T12:42:03Z",
+      "query": "geleneksel şenlik",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-6c63bbb26029a4ac",
+      "country": "TR",
+      "title": "Çaykara'da 4.Geleneksel Limni Şenliği Yağmur Altında Yoğun Katılım İle Gerçekleşti - caykaragundem.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObUk4Q1ZpZElYQmRVV3dEb0hPVWV5UXdfd3NHOHh6Vy1OV2VOQUcxNE44eGpBSnFxeVVkY3d2NGt0Z1pTQlFSVXR4alVUajlmdFBuNklXdVE4S1RuZmloVnBDUVk5VDZIU3lHdGRLR3NSVTZMc1duUVBXaVJhVHJhNFl6S1A0dng4MUp6X0JwVC1NSV9KT0Y5UGlBc2QyXzQ3aVdQVHQyV2RESmw4MHVBSHM1RW14MXN3b3fSAb8BQVVfeXFMTzAwYmJ6NkRpWmpabXM5YlRnVjJ0ZmRTRzFqbWo4MTVra2ZZVEZLTjRNRTdVOVN6QW1DQjlHUjBkQlZxY3h1S3drUnJJLTR6X3RlT3RENGRUTXBKX3VvWEtLZURaMENxLWkwb212MUZxMEVydlhLa0hQVXozSGFxaXA3NUhpZGUzdkoyQ0taWkhQVFNjU2VHZkVYWU9qTHBCZDlDZ09IaUJwdXkwSk5EN201OENiTFo1aGNGeGtDbk0?oc=5",
+      "source": "caykaragundem.com",
+      "sourceDomain": "caykaragundem.com",
+      "publishedAt": "2026-08-10T09:01:41Z",
+      "query": "geleneksel şenlik",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-0bd11536688a1a2a",
+      "country": "TR",
+      "title": "Kurtdağında Yağmur Altında Şenlik Coşkusu - caykaragundem.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNR0JKNFRaaHptazlwWlV6NTJvMFBCNW1wWUlmQ1VsdU1ZMC1fNWFwS1MwWnpOSjQ1SXo1NUt0SllRV0xIaXNzdWk2UG5wQ01Da1BmU05YRUl4UXRaZ2ZlVF9TanBFOVc5UWRncS1HVkRPVmxJeFZGSjdTbDMxSGhBRFBMNVRIZ9IBiwFBVV95cUxOTFZOYlpFOTUzSVdFS1pMdThNSXpXZ0FOMURxRW5wcS0wT1Y4NlJrNUpERDJLNEZnYXhDV19tanpRYnBHalNGMmhqUDIwMjZUSmlVSzl6VlJvT0VCbHhNamdGeUVfLVpxazVPa1JJMUVpUUxmWk85VFlDYUZ6c2NDcE10S0ktVjhqMmlV?oc=5",
+      "source": "caykaragundem.com",
+      "sourceDomain": "caykaragundem.com",
+      "publishedAt": "2026-08-10T08:01:12Z",
+      "query": "geleneksel şenlik",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-d201513c159406d2",
+      "country": "TR",
+      "title": "Sinop’ta 26. Geleneksel Bayat Köyü Buzluk Yayla Şenliği Coşkuyla Gerçekleşti - ajanssinop.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUXBMV3VoS2Fja2J6WE5qVWhLWWFTYlRuYnBKdFVsRXNWNmtRWDRrWl8zOU96VGlhVnBoNFJyck1JN1o2ZUFUd0I0S1JPNVh5c01TVExJVE1WU1hrM0NJWWNFYThlUUx4bExyZDVpSFlTOXYzZzRFalNjcWNYWjI3ZmtMbldTSmpPRWlGWW5HdXhHVXNlTUpxLW1pZmJFZGIyTjdKTVF2MTU4WWs?oc=5",
+      "source": "ajanssinop.com",
+      "sourceDomain": "ajanssinop.com",
+      "publishedAt": "2026-08-09T18:23:26Z",
+      "query": "geleneksel şenlik",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-c4ec039bca60c183",
+      "country": "TR",
+      "title": "Malatya'da Geleneksel Sanatların Öne Çıktığı Kültür Yolu Festivali Düzenlendi - Mersin Haber",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUlU0ZjVncWhOd3JUQ0lIMDlmWVRObzNYaThfZld2SVBTcm9GcnI2NkE1MVVmbWM1TnN3QksyaldHLTlteUt6c2s1UE9vLTZSQ2ViS19WWk1MSlF4N1dLMUtxQ3JtaW5wU0g4MzNiR2Q1dElzNVp2cDQzb1h3NU5sR01OcXhfSUlscjhQd0MtV1NCY2tsWEsxV0NjWnVrb2FfZjQzZWpVcFlra1p2VVFSX2g0UWZlQkhPLXRUY0FvMnpnRi1M0gFXQVVfeXFMTnl4bFJkNm1Zc1o4b1BhcEtSOW9FcEZESHJybUJXOGpKVFBRazRSWVZTR0JEQ05jV1FlT1Z2Zjlwam40WEhNcWU3TWllZDN2Y2JRUTN2TVk4?oc=5",
+      "source": "Mersin Haber",
+      "sourceDomain": "mersinhaber.com",
+      "publishedAt": "2026-08-09T12:26:00Z",
+      "query": "yöresel festival düzenlendi",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-68cedf720808fc28",
+      "country": "TR",
+      "title": "Ovit Yaylası'nda 26. Geleneksel Şenlik Coşkusu - Haberler",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOGMwaWdxcmZ6X0ZMdmdneTlfYktFZFNKTGVuUzBVMlM1V1FnbFJZdEtQSDE1MGNuTU82Q1NPOUo0d3QtVHJMcklOQjRvUE43UHUxZl9yaHFueDRPcERBY2Zra2V2ak5Fb1pXc3RNRkxLWlZEUmZTN19GMlNLRXFTTHlUOFZjNHdBd19kaGUtZFdkaFU5ZU5yUDZQME9EYXhl0gGUAUFVX3lxTE5zZmdvaExLMEk4SklONWhSSWh2dEppdGt2S1BFNDVQcUtUdm9GWE5xeGJiQVEycnVKbFpBMGEyMkJwNVJEV3J6WkNXc0MwREU3cXlaX3RxWVRxSUlfX21ibG1kSGtLMHgtZmVCMzB0SDE4VVJRTjZfR1pJdnlXeUVWX1ktVUp6bVZGZk1Ka2wycHEzeEE?oc=5",
+      "source": "Haberler",
+      "sourceDomain": "haberler.com",
+      "publishedAt": "2026-08-09T12:09:51Z",
+      "query": "geleneksel şenlik",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-9378e2dd77cf2e40",
+      "country": "TR",
+      "title": "Altınbaşak'ta 2. Başak Festivali düzenlendi - Haber49",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9uVlFfUTFaOENnRzdBZVc5c2VKbXBOejdRVldTempZMVVyTHdJUUNtQUdCMTZidUl6bjBweGlOZ25oVFgyYUtuOFpuZXRKUzQ0ZXZRMUREMnloTFJmcGYya1E2cG1ZMmJnOG1EdC13?oc=5",
+      "source": "Haber49",
+      "sourceDomain": "haber49.net",
+      "publishedAt": "2026-08-09T07:13:00Z",
+      "query": "yöresel festival düzenlendi",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-f5c692bb4d6374bd",
+      "country": "TR",
+      "title": "Hafik’te Geleneksel Koç Baba Festivali Düzenlendi - sivas360.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOS1aN3p3OU52OWxsRmR0a3E2TnhNX2JCcUZtUHhCZE1pNno0U3h6a1RRWXF2eU5nMlNFSENMRWFRbTVkbGVLQnhILTRmMVMyOERvUVlLMVZibXZQN2ZTakFIeHRpaDZIYllJRHdEcS1fTHhBVFQtS0lPTExHR3pDd1Q0YjEyd1lMZHN4Uw?oc=5",
+      "source": "sivas360.com",
+      "sourceDomain": "sivas360.com",
+      "publishedAt": "2026-08-09T07:00:00Z",
+      "query": "yöresel festival düzenlendi",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tr-4eecdd94ef1377ba",
+      "country": "TR",
+      "title": "Erzincan Üzümlü'de 2. Başak Festivali Yöresel Ürünlerle Kutlandı - Mersin Haber",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWXVtQnU3VmtTT0NtaVloY1JXN3pHdGdMVlhNNWNMYzA0Ui1oRklHNEF2SXNLaXdJeTl5dXFqMXQ4aDYxeHlNNkx5eFEzaEFaZE13bFlKU1BkbF90NE56T0hRS2RKQWx0Mzk1MkpZZl9wZzVPN0k0ME9yTmN5ZHByZ0prZW51ZmRwMXhqaGNDZzZudDZp0gFXQVVfeXFMTWplODNGSm9TbUpZT25sZXl1RnZwcUpGTTBQT2prOFg2bnduVWVwYlJ5eVkxa3V3Zm9kdkVjcHZ2cE5hUUlRZmRlOUttVndTWURuZ3M2OVc4?oc=5",
+      "source": "Mersin Haber",
+      "sourceDomain": "mersinhaber.com",
+      "publishedAt": "2026-08-09T06:26:00Z",
+      "query": "yöresel festival düzenlendi",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    }
+  ]
+}

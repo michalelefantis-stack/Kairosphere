@@ -1,0 +1,424 @@
+{
+  "country": "NG",
+  "name": "Nigeria",
+  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "refreshHours": 24,
+  "status": "unfiltered",
+  "count": 23,
+  "reports": [
+    {
+      "id": "news-ng-9810be95bf9414d5",
+      "country": "NG",
+      "title": "Tradition Clashes With Modernity As TikToker Experiences Traditional Cleansing After Filming Oloolu Masquerade Procession - LEADERSHIP Newspapers",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQWd0WE9XYk5ESm1iNmVFWmt0aWJTMHVvaUtfVUNVaUtYcXZIbFZnTy1nZGx5Z09XZ3hPVmNEaXlyVHpldGFVUlM4eThGTFcyVG9EdjJSWEVmc0JSWlJRWVg2WlJZS2JKcGxhR2d6Ql9iY2xseGRSVEFHVkJDcmY4aVduamphaXVuRmtQeDRwdnhsMEh5NGdmOG9wOUgyOVl3dU9FQW9rWTdFWEZRV0FpLUVwUWZYUTVHc21Ld0tZbUpVbjk3Y2d2Nkhsd2RTLVBHdjdndHhjMDl2aUNZ?oc=5",
+      "source": "LEADERSHIP Newspapers",
+      "sourceDomain": "leadership.ng",
+      "publishedAt": "2026-08-18T05:46:59Z",
+      "query": "traditional festival masquerade",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a NG domain (leadership.ng)"
+      ]
+    },
+    {
+      "id": "news-ng-bb5c2fea9458d1d8",
+      "country": "NG",
+      "title": "Ojoto Abolishes Sleeping With Corpses, Ends Expensive Burials, Celebrates Ifejioku-Egwueke Festival - Independent Newspaper Nigeria",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPU2l6NmhRWUdzOE80NkZSMXhnOFZHUkdLc1lpRW9XQTNndVJCaG5DWDFTdFRRLTUzeTNZbnRyVHRfZ05BdVlPa19WbzFzbDhaS2Z1MzZnVkxNWUNSRkhDaWJrdjExYXJ5RlAzbHBzcHpEZl80M3VOZkFWQkpFbU84cWxWUjFWdFA1SUtPelE0U0hIb0hkZENWeHlJM3gtS04xZGxMdlRnNFBmRHJVQjdWdHZnbkpXVHpIWFltbzJR?oc=5",
+      "source": "Independent Newspaper Nigeria",
+      "sourceDomain": "independent.ng",
+      "publishedAt": "2026-08-16T13:49:11Z",
+      "query": "cultural festival celebration",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a NG domain (independent.ng)"
+      ]
+    },
+    {
+      "id": "news-ng-e875bd82ba28b968",
+      "country": "NG",
+      "title": "Over 10,000 Persons Expected at Grand Coronation of Igwe Mmadubuko in Adazi-Ani - anambrapeople.com.ng",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZnF1WXd0eC1SZjllRFF3S0ZoMks4VmxzVU4zcThDdjBKVTR2a0I0cFdRYjZzQ1BEd21LdmtpelplUGthTzFPNGpZNFJrVzYza0dMc1FxZDBtZHJEQ1J2dnoyZXAzU09SNmlFQ1RySTc5TXVpVDJGbURUUVd2Mmo1ZjRwU2dROFRBbW9yeFVlTExxVFZjcUluTURYVno5UlJpcG90Und5SGl4U0ZNZlgtMkl3c0FfZWt6UXJZ?oc=5",
+      "source": "anambrapeople.com.ng",
+      "sourceDomain": "anambrapeople.com.ng",
+      "publishedAt": "2026-08-13T10:14:43Z",
+      "query": "coronation traditional ruler",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a NG domain (anambrapeople.com.ng)"
+      ]
+    },
+    {
+      "id": "news-ng-5add5eb09812e5aa",
+      "country": "NG",
+      "title": "OBUDU NEW YAM FESTIVAL: CHAIRMAN UNDIANDEYE INVITES ALL TO A GRAND CELEBRATION OF CULTURE AND HERITAGE ON THE 4TH OF SEPTEMBER 2026. - Cross River State News",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNMlhmbXBoazNHLWk2Z2JzaU9CQ3V5OV9LWmJndGg4ZWlmWmtMbkgtc1NtYjdsTnRHVnBGbEp4SHVLMUJEWFl1WFNpVG8tUFRiUlVzUV9McG5aT3lJV09LN1JxOXcwQ3F5cThRVC1mQVB5emhYV2h0N2h1TkZtYTRlVmRraF9ydVJDQ1RFbjM1YjVSV3dXNXVNeV9GSHI2dVpUVERPX1FBQ3JYdEw0WTNweklyNmR3NnFWNXhncXowRGNiSVcydWlwcG5fZ0gxSndFNUJHSFJTTkhLRG9OZkNJN1puM2x4NUZyWnQ1Zk80QVdnekw0V1JOblVBTDFvZw?oc=5",
+      "source": "Cross River State News",
+      "sourceDomain": "news.crossriverstate.gov.ng",
+      "publishedAt": "2026-08-11T14:04:51Z",
+      "query": "cultural festival celebration",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a NG domain (news.crossriverstate.gov.ng)"
+      ]
+    },
+    {
+      "id": "news-ng-61bdba9e381fd2b3",
+      "country": "NG",
+      "title": "Celebration of culture, unity as Amenu, Uburu Iri ji festival holds - The Sun Nigeria",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaXFRb3VtaXlRcFFwTExBLU95cUNIMlotcHdkZmI0cmxkRlV6VUt2MXhGZDVMbTR1bWtPRGF5blVpbS1mWlNzUFhnWTNiY1VhUHJKb2ZrZ0w1Tm1NVGZOMmJKQWxOOXFoZXlVZGZJY0JhUHpRMWU5U3JuZFJ4VXpfcnlJUnY1by1mcDJFV9IBkgFBVV95cUxNRlUwOVN2bzR4MXk3SUlXcERvSDNjMXpaTHRURnpvQnBDVjZzNTBCVlNfMHh1R2FMNmFrcVVKdENUQzlWVVFaYjJqc1poWFlieHZ3ZG55ZUFYVGJHZUFmUXJtWmhFaHNsZU5pZ3N0MUFHNzZadDdNdHlJeUF5QzQzb2lrQUtERS1lWWdfanoyQ2UyUQ?oc=5",
+      "source": "The Sun Nigeria",
+      "sourceDomain": "thesun.ng",
+      "publishedAt": "2026-08-10T23:13:11Z",
+      "query": "cultural festival celebration",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a NG domain (thesun.ng)"
+      ]
+    },
+    {
+      "id": "news-ng-9e82ac72f18210e5",
+      "country": "NG",
+      "title": "APGA guber aspirant celebrates cultural festival with Imo community - The Sun Nigeria",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbWgzVXJuLVJreVY0THNuMTRYTEVfMnpBRURIcVkzRS1jRXhtY3hBa2Z5eVI0MTg2ZkRxTTRSRXdSYVR0ZURDZGNXc2RwUW9wUVFmcGRSQzVYdi1DM0d3SnE5M2RpRl9MVEt3cWZCWFdDZkwtaEY4eldkSVpBWXd5YTE0Ui16MjY4TzdmNWc2RdIBlAFBVV95cUxPMGFuSnhmenN0dUtURnl6blM0d1NURmNKZ2VvcF9ZNU51dktwZFZSWGNndG5PemNTRlhvNl9tc2tCOWlfSlZwSGU4M0szZlh2amFUNWpJVWdURWdBYm5QQ0pDbmFXYW9xMEZ6U1JoZlplSXdaQmNBTF81S2R3RnROMUJzRjdScHgtTHY4RUZYRXUwaHls?oc=5",
+      "source": "The Sun Nigeria",
+      "sourceDomain": "thesun.ng",
+      "publishedAt": "2026-08-10T01:58:32Z",
+      "query": "cultural festival celebration",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a NG domain (thesun.ng)"
+      ]
+    },
+    {
+      "id": "news-ng-4391b87d77b37e98",
+      "country": "NG",
+      "title": "Black on State Festival expands to full weekend celebrating Black joy, culture and community - Madison365",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdjZPQTE0M3YzOU5temFBNU5JZzM1ekMtel9ZVF9wcDNZcERsbzdvU2tENWV0b1laWGE4WVJFX21Sb2hGd1FhZUxiN2x2bG53X2VENWpkeGZFMG9JRk9FSGFXMFZPd1BhZ1RIaG53NkVwTXNzbkdmWDBiM0wwWnFzRzRDdkNvVW5hX0hoYWQxZ1BRdUNWYXF6Y0pfY2o2ZlNpTDRxOE9IbmVJMmI2a0xVRXhXZC1XZw?oc=5",
+      "source": "Madison365",
+      "sourceDomain": "madison365.com",
+      "publishedAt": "2026-08-18T11:00:23Z",
+      "query": "cultural festival celebration",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-ng-3621a7871e26ef32",
+      "country": "NG",
+      "title": "Culture Commons Festival Call for Participants to Celebrate the Region’s Rich Cultural Diversity - Redheaded Blackbelt",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYVRhUkJxTzBBTzNpTE8xRU9zejN0cWtMV0pxZlJINkx3dE1kQVYydUpwVDVIN2JHTzJoaHZ4ZnJEWlIwcEN6WUttTU13Y0tULXNUSllTYXh6SGpMME9aZ3huZkE4NTdWcVZyY2VwVDFzYkJBUDVwRW10Slp1LVdESTNsZE9KcXhENVYwQ1VnMzFmcm5pYm1LY3lCZmRoZzZiNHV0bXhCT1RtZjFnTWlGTlV4VV8zR2dYSjdJbGJyclFZdFJFUmc?oc=5",
+      "source": "Redheaded Blackbelt",
+      "sourceDomain": "kymkemp.com",
+      "publishedAt": "2026-08-18T07:00:36Z",
+      "query": "cultural festival celebration",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-ng-0a60d73a91ef49e8",
+      "country": "NG",
+      "title": "Dominican Parade and Festival fills Franklin Park with cultural pride - bostonglobe.com",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOc0xBUlc2UGFlZTFWWTJSeUZBM3NxbE55bGNlS0tFcFV0ak5IRGNPcmR1ZWlBbTNvYjFERV91QmhxWHIzZjZYanBqR2tINl84elFXemsyZnltU0Iwb3VwdGxsaVpNSmk3ZjhaRHNKMzdZb1VZWGlYaUNCNnRCQ0w5YW5WMERvTVpFMGdzNXV6anI?oc=5",
+      "source": "bostonglobe.com",
+      "sourceDomain": "bostonglobe.com",
+      "publishedAt": "2026-08-16T19:27:00Z",
+      "query": "cultural festival celebration",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-ng-4847f5362a2acd44",
+      "country": "NG",
+      "title": "Why the rhythm of Nigerian culture at Osun-Osogbo 2026 still echoes - Vanguard News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONzdIMjNoTF92d0ZYRlg3a3BWVnpLc2ZuTWF2LXpyQ1pkMkVTeUhqUGctZGJhaWE2Q1BGamZ3QTVaU01oenpPNDh5UnlaNS0zZndYQWJSZm84ZFlvSlkxS1hSZGFfaVNBNDc1ZnNzalR3SjJjTkxmOEJyRl9oUTVuZHZKRGgwVURZSXJjcGsyUEIxZ2NPTTJwcUFjUVNGRnlTV1pwdDhFY9IBrAFBVV95cUxNdXNDVGZSaWQ4djAtVF84ejVWWVpiaUxpbUNMOHpTRXMtSW9yaU1BMzVKOHJfZVNtTGpSRjZ3UHlYTGV6aEV2Sl9UcXNHRXdfOXhJMXRNMXRGWlpWbk9QZkNYSkRzMW9RQ0daZnE4cmJMdW5CXzBUTFpTaUhRLW85RnF1RE1YcnA2UVBZdlBhWUV5d3NfMV9iN1QwTER1c1NEMlVlaUR4b1VmeWxj?oc=5",
+      "source": "Vanguard News",
+      "sourceDomain": "vanguardngr.com",
+      "publishedAt": "2026-08-16T10:24:18Z",
+      "query": "cultural festival celebration",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-ng-402376ad75d9a900",
+      "country": "NG",
+      "title": "Onam 2026: History, Hindu heritage, traditions and cultural significance of Kerala’s harvest festival - organiser.org",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOV09uWnl1WGVGeU90SWhIaDlDUUR0SWpNM1F2SjAwcXZ5aGt2SGVJemprcGxYdXZ0amJTOUFEanBCalYzaUE5SGs2TWJ2X2M4X0ZVQlhzNTlQY2ZyenNoX2hPMkd5dVc3dHB2WXNjcEtKUmtjYXE3UVVpeTY4OFJWS0wzdVNRZHNOb05tdzE3ZXNzbHFTQTdTbVhYNkJ6ekR2Z1FkY0EyRjJuQW9UU1NBSUdMWmJkRnAyVktJZ3pUR1BIWUpMS2o3SGJlYnIxclEyYl9acFBMN1JnRXozcmc?oc=5",
+      "source": "organiser.org",
+      "sourceDomain": "organiser.org",
+      "publishedAt": "2026-08-16T03:32:21Z",
+      "query": "cultural festival celebration",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-ng-7f72a0e3401066c7",
+      "country": "NG",
+      "title": "Festival of India celebrates culture, food and community - Thunder Bay News - TBNewsWatch.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaEZJVkVfYmdrV2ppRm1CamQtbWstcXI4Zk9uc3BqTTRVUi1haFU3V1VYVWw1ZlBabTZ1Q1lnY3RIeGI0ZGlFZ09pYjgtZy1UOU9yNURsOHJYdlVEYno5VTZMUHVKNlBnTDhPME5pOVhLeDJPQUd5Z0M1aHVDcjV2MUt5bnVmWllfV1BfbGFiRjNYamlYMEZoR3Yxa2M2NHI1S0VtVEln?oc=5",
+      "source": "Thunder Bay News - TBNewsWatch.com",
+      "sourceDomain": "tbnewswatch.com",
+      "publishedAt": "2026-08-15T21:04:03Z",
+      "query": "cultural festival celebration",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-ng-42348b16d378cebf",
+      "country": "NG",
+      "title": "Afro-Caribbean Festival a celebration of culture in downtown Red Deer - Red Deer Advocate",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeG90dDg2OEJNbUw5ZFZ6MDd1cVpUTm5vZm9RNndBX3pxR2RPSkllY01mRGozbHFxNWd4eW1fcHdzMTAtdktoekhhZVNFc0dZdDFsNGRibGpXdEFUaEVFMU5WNk9yamMxb2xycXM1X0cxTDhnOE5mTFc0dUp0SGRNeGcwOVVhSXo0NUUxLW1DeXZKbktqc3hIeWVxT1hGc2pHTkllQmhMSXhTTXF6Wmc?oc=5",
+      "source": "Red Deer Advocate",
+      "sourceDomain": "reddeeradvocate.com",
+      "publishedAt": "2026-08-15T20:22:22Z",
+      "query": "cultural festival celebration",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-ng-8892646b4bc5e6e5",
+      "country": "NG",
+      "title": "Orijin: Shaping the Rhythm of Nigerian Culture – One Celebration at a Time - thisdaylive.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQWpTTHFyTFVpYTVGWUlmY0JqLUlkWXZZM0I3andQNVZqaC15NXFqVXViYVZYSExtb29GMS1saGp0Z0dPa21JVVNTek1kNkdaS3NrOWNTb1BScjMwZENHVEhZZW5kNkdra1I2Q2RwRGhHbzduOTVaTkxvZlVoQWdZT21qOEI1cWtTWENCU3pBVHFoekFKVjE2Y0VUbGR3Tmhpc0lPbW5lVHJtbWNhbmRvaQ?oc=5",
+      "source": "thisdaylive.com",
+      "sourceDomain": "thisdaylive.com",
+      "publishedAt": "2026-08-15T07:13:24Z",
+      "query": "cultural festival celebration",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-ng-feb1a5e3fd192779",
+      "country": "NG",
+      "title": "Free Charlotte Soul Fest brings music, art and Black-owned vendors to First Ward Park - QCity Metro",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZmZ5NzVqSFI0VG1neVg3dE5KVVNoZDdIcHNvYzg2SUJ4WGFTMkZsaWNtREVoSnlQSGd1bWxrVVN6bmdRYV9pQng4OWtEVHdZSFFZTTcya3czb3JmcHhCU2RFVlpqeWV5Y0R6SURKb3lDOUpZMkx5RmQtdzF1X2Mya1pCekN6aVljY09YT0NOck9Tck1Najd5R1ZVX0F5dmpoeUJGZDVGbWlXMDYwdy1ac2k0aUtDVDAzM3l5OHFvRmFsczloZGtOMkIta3lPQQ?oc=5",
+      "source": "QCity Metro",
+      "sourceDomain": "qcitymetro.com",
+      "publishedAt": "2026-08-14T19:18:14Z",
+      "query": "cultural festival celebration",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-ng-77b6f4f6e169e65f",
+      "country": "NG",
+      "title": "From Kopi Culture to Culinary Mastery: Qixi Fest 2026 Celebrates Singapore's Food Heritage - Macau Business",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbXZaUFlndzVfTEFvUERuWFdaeEJMUmtlc1dEMVhKeVMwVjZlUEFDZU9wNmNQQ3JtUU42Q283LTFNQVhqOVc4R1RWUGxKV2ZCMVNCcWRTbWtmZjBlN3drZk53S29mZkFoc2FGWTExYkdZeFVxNXNGdmFSY0gxWkNMdXRoaVBxeERXS19rQjRmaU02NVFLTm54enE0QmhBdlZTaUYzTi1wd3oyTTJYS2Q4QzJ5LTJDS1dvaHc?oc=5",
+      "source": "Macau Business",
+      "sourceDomain": "macaubusiness.com",
+      "publishedAt": "2026-08-14T03:49:57Z",
+      "query": "cultural festival celebration",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-ng-3bcce8b72ee4a6bf",
+      "country": "NG",
+      "title": "Samoa’s flagship cultural festival returns under new name in 2026 - TTG Media",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONWhvOE90cG1yRFA3M0dKMkZLX1pHU1dCWUdxMVRFd0VNWWwxdjZpcDc1SzA1UWxmTGY0WXJpcHQ3dmE1eFJUY1pxNVh0Q20zdkk4SDBBb3d6S1hWS3ZxbGFhZmJackt6eEdBY3ltaUNpLXI0MmdSSnRBUmpOOXhnc3NjZTV2U2ZERlNSREQ2VVRpcFJqcHJFR0t4RkVhbnM?oc=5",
+      "source": "TTG Media",
+      "sourceDomain": "ttgmedia.com",
+      "publishedAt": "2026-08-12T10:38:36Z",
+      "query": "cultural festival celebration",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-ng-9e22138c278b974c",
+      "country": "NG",
+      "title": "Seven Nigerian festivals that showcase country’s rich cultural heritage - thenationonlineng.net",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWWp0aG5MM0VtQ2N6MXBZbTZaUEJCbklMdy1nOHoweS1ycWI5WFdNUURyY05uLUdBMzlGb0RHOFBud2Q2VmIzblp6Rkxpa1h1MlBONDMxX2pUQ2NWWnVkRUpwS2YwSlhzb3NOMmNTNjFTOWNTTDlndWczV2JQX2QwclNWMWllRDlUUEt0WGVxWkFCcXpvaFhNWVFQM2hXTUFrODNz0gGoAUFVX3lxTE90a0VNYzAwV2E4dERzV2xsNnRINGJFazRINDA2c19jclItYjdTRE1jdDhPZEJvT2x3QmdNNVY5U2J5RGhtd1pWTGp4SVExTjg2S2lHVndIUTJ0eE1jMng3MGZHOUtpSTZTNkJiWVdXVVNMRnVaQUE5eXFpdVBjNXZJNGJQUTFhRVg5VlZ6RG1mN0s2Tno2MGJod25SWFA2U3BISG9UenVHUA?oc=5",
+      "source": "thenationonlineng.net",
+      "sourceDomain": "thenationonlineng.net",
+      "publishedAt": "2026-08-11T11:45:27Z",
+      "query": "traditional festival masquerade",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-ng-f60dbf2049bd28ea",
+      "country": "NG",
+      "title": "Ulefunta festival: Committee announces plans for Akure heritage library, 6-Day cultural celebration - Vanguard News",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdkhUYWRDcmRmUzhuYUhXYl9xZU5qOWdWUTl2VThYSnpzcVhrYmstQnFzYk1iRGFNeEYzYVB0SkVVeDZSLTREbzBUMFprdkF1SjNDZDVhQU95bENTSDJ5RXlXb0hUTHQ5ZlMtR085QkkyWmw4WUZJenpuYjRBSm12aFdBamhqenpjdl9pTW5CRWM5aGl6ZU5zUDA4bTJuV3B2bE5UVzFRYk1OTTVzNFRlVUhRZkpMMlppQ3g0aGV6Umk4NDBaMjU3Tml1Z0RPSUXSAdQBQVVfeXFMT3d0S3pMY3hEbExzQ2xoVnc0OUtVZVptYjA0dUo1bHotS0ozNEE4b2JnV1RtMHlFZmZ1bEJwVlBwYXV5em1JVnRFckh5ZGgxdHY5bDFpeWE5WHNZZTczSjRJNmdrRjhjdG4yaDQ3MzJVa1hSdFFIWHAyeEF0Y3d6SGEwS3ZnbHhwRUZleFlQYzBaWmdKSXVMa0pVY1Jsd2Mwb0x5emhndG9KZzdjZndxcjhRRGdhaXQtcHBwT20taHRSOW50UXkyQU5yWTFMZjd4ekRkemk?oc=5",
+      "source": "Vanguard News",
+      "sourceDomain": "vanguardngr.com",
+      "publishedAt": "2026-08-11T06:52:04Z",
+      "query": "cultural festival celebration",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-ng-ee7bdc543c9994a7",
+      "country": "NG",
+      "title": "Experience, celebrate Latin culture at Fiesta Parker - Parker Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNREZqQ2xYWGUzRHlXa1M2QU9lSVlpbmlxcTBJVXZ4Wm5uRzdLOTNmMl94N0VabHY1SFF3MWw3REkxcDM2ek9mQjhseFcyWmM4M0lpcGxSRk44MnIyM3pGR0VfZHI3U2VKZWxMZno4Y1ZXTmlBQ2Iyd2h2Qk5fMTdzNVpRd01zRnliNzJoWVo1dWJ0eFR4MVRNVGV1d043Y2h4ZDNybFRXdHphSnpxS0JKZkxnWkNCTmlSQWFHZ25zTQ?oc=5",
+      "source": "Parker Chronicle",
+      "sourceDomain": "parkerchronicle.net",
+      "publishedAt": "2026-08-09T15:00:00Z",
+      "query": "cultural festival celebration",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-ng-c928e686fea65641",
+      "country": "NG",
+      "title": "Palestinians celebrate Jerusalem Festival return - Oman Observer",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOGxPVVJzMjhJcDRWcmI0T0RqSWVYRU9pa3lMWlV6TEJkSzltbTJsajVPTTM3ZEx3SGxUZTJYeUF5Qnl2NS15UDhoVG1VenZmdXB4OEJfTXNUNFRENEdidmd0eVhJaXd2MWNSam0xNklQbzFhTG1DVzNjcFJZZ3lpYWFXVmlNZ1NjdFpLVUZiMkphdEpCTkJHalpPZjdHbFZOX0xHT3pkSE1od1kxSVA0bNIBWkFVX3lxTE5palpLR2otcHExVDktN0gxR2VFdHFYOHdTazRzM3lSMGFoSmVoWmR4SFRBcl8yUkxhVnkxNjVZTDFkNVJ0ZDktUkdZM2NZcE9tbUlLVTlHdXd5QQ?oc=5",
+      "source": "Oman Observer",
+      "sourceDomain": "omanobserver.om",
+      "publishedAt": "2026-08-18T14:15:00Z",
+      "query": "cultural festival celebration",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-NG domain (omanobserver.om)"
+      ]
+    },
+    {
+      "id": "news-ng-e1508daeb5e53dc2",
+      "country": "NG",
+      "title": "Kadayawan 2026 sets record with 120,000 crowd - SunStar Publishing Inc.",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaF9haHFaZmJKTnZSWU1DNXdCajg2dEFOYWVOb1hyeGI4MVpvYm5zdG5sTXhqTFpPblF6WlZXM21oazJHTldNWnE1cWJLR1hHcWhYVFhCUlhlRVdQX2YyMlgweUh4T1JYWGpkYzdlZVlGcjFBWU41YTdieTRKWS1zLURVZ9IBkAFBVV95cUxQSXR6WmtXbEtWLUFiRzh3Q3NONnlNWXdyZEh1bms1Uzl5bWRicnFCMXhfbjhJcm1ESUZndEEzdUs4bnNWY2dqendtWnJfcFN2bEJpMkhvTTQtUWNobXpuQVN1S3NuUHFHcnhZREFSeHN4RkZJcVVJZmo2UzFoclE1aDVCVGNHYzFRenk0Uk8zT1A?oc=5",
+      "source": "SunStar Publishing Inc.",
+      "sourceDomain": "sunstar.com.ph",
+      "publishedAt": "2026-08-18T10:57:20Z",
+      "query": "cultural festival celebration",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-NG domain (sunstar.com.ph)"
+      ]
+    },
+    {
+      "id": "news-ng-e3bfa5250d616175",
+      "country": "NG",
+      "title": "Palestinians celebrate Jerusalem Festival return after war hiatus - The Express Tribune",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSjRlUklld1EtSm10Uk40NlF0SWdhZFBOZUtET1puczRSY3lSVjlLMXBlcXpNTkJfZ0VyR05hX3d0azVWYlJMU2ZmMC1CYXRfM1oxcmM5UFM3Sno1V3V1anVNUHUzdjdYekFVZHFkUnRWSDRMU3ZkVlJXbzgwQVB6T2pvX2tVRzRlWXRPQzFWUklFbDdNRjBGeUV0VEtYZ1RSdl81UtIBrAFBVV95cUxPaWFKVTBMWUpfRWhBQzllcG56a0Z0V0NXMlJVOG5HQktrdm83cV9neUVQb2JrMEx2RkdjYThtUFIxa0ZGaHZLSXczMTUyVnRXMUJOWUZGZWJyckxlaXZJSWM4djRxVGFWM0JEZVJxWFFhdkdISmstVGs2SUJnRDMzWm5ST2VPR0Izc2g0RHpKeEtUMXJOX1loWmpiTW1NNUpYbDFTdVY1UzZudmFw?oc=5",
+      "source": "The Express Tribune",
+      "sourceDomain": "tribune.com.pk",
+      "publishedAt": "2026-08-17T21:32:32Z",
+      "query": "cultural festival celebration",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-NG domain (tribune.com.pk)"
+      ]
+    }
+  ]
+}

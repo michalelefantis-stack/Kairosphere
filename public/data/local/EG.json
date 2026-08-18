@@ -1,0 +1,2026 @@
+{
+  "country": "EG",
+  "name": "Egypt",
+  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "refreshHours": 24,
+  "status": "unfiltered",
+  "count": 110,
+  "reports": [
+    {
+      "id": "news-eg-f7d83a0046141836",
+      "country": "EG",
+      "title": "احتفالية شعبية على أضواء المحمول - بوابة الأهرام",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3Q2tOekxRLW1GelVFOW5vWVItVWJHS0F6a3dfdVpySzZWS3hoT3B5QUU4LUNyX1dOZXViZ3d1VFl5LVh0WWROVlVaUWtyWnRPRmpwYUJB?oc=5",
+      "source": "بوابة الأهرام",
+      "sourceDomain": "gate.ahram.org.eg",
+      "publishedAt": "2026-08-18T14:34:00Z",
+      "query": "احتفالية شعبية",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a EG domain (gate.ahram.org.eg)"
+      ]
+    },
+    {
+      "id": "news-eg-b8928230ab60912d",
+      "country": "EG",
+      "title": "رغم ارتفـاع أسعـارها «حلاوة المولد».. طقس احتفالى عريق - بوابة الأهرام",
+      "url": "https://news.google.com/rss/articles/CBMijARBVV95cUxNWURhUV9WazdiYTM4UGJIVGpHZzdtTVdNcndYTDFXMlYzdTd0R0M2NEpZUlo4SVdUQzhzN3c4ME1ja1RPZjBLWFNPQXFJUjJ0aDgwOV9GOXFYdHlqS1pWWUNzVmxaMW5FcFBYUGY4YUQwdk9lN0U2YnYzaUJOU28yTGxWS3VKNFYxR0g3N3RmRUdGa3kzYVhrb3Q2QW9TbElLZ2xPT3RQc0tTVEFoNE5uRVNqOWR0el9pajlVOWRIanRYYUMxN2F5NDdJbHN2TFNMdnAzQ0xRcW03Vlg5TVJia3NkQWViSEhoQWNYRTlwWVg4dU15VjViQ3hUcElzdWJwQlFKdFI0NjZCbG5YZjcxSmdpbXNfaHNZckZWYkVZT0c2TnRmV1ZvVVZia0VWWnd6MlNKdXdhbkxKVkc4Vkhmb1ZrMkcyTllMUExCdHMzUkJrT1RHclFRbmpMUXJ5R0Qwa1QyMzQ5RmtHQk91TnpSejFrU2cwYzlXZWY3M2daQ3RfSVNxWE82Y0ZLV2NVVEJzdUk2UXBnUXZxcDRxOTRTQ092VlA1NlJ4TDNXcThqUWpwZ0huWXpHb3dvUUtlUkdiTTRheGpYbm91c1pfUERqS1lIbll4aVpLblR3VUJHaXpEdkM3Q0pSRkx6OVVkdm84WThCTkVXRVRvQk91WFc4TDhzQWVhZkVvWDdXWQ?oc=5",
+      "source": "بوابة الأهرام",
+      "sourceDomain": "gate.ahram.org.eg",
+      "publishedAt": "2026-08-16T21:34:50Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a EG domain (gate.ahram.org.eg)"
+      ]
+    },
+    {
+      "id": "news-eg-2c77aa6375003bfc",
+      "country": "EG",
+      "title": "احتفالاً بالمولد النبوي الشريف.. «مجلس الصلاة على النبي» يقدم حفلاً للإنشاد الديني بقبة الغوري - بوابة الأهرام",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Va2R2NGJ6Z0c3UG1FVXc5bXdZajFuSV9UUUp0NHlJMTdWa20ybVJHb3FnZVB0ekltSUFNYlBtWnhsV2UwUzE2ZG9tazJBRjBzVFB4YUhn?oc=5",
+      "source": "بوابة الأهرام",
+      "sourceDomain": "gate.ahram.org.eg",
+      "publishedAt": "2026-08-16T09:15:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a EG domain (gate.ahram.org.eg)"
+      ]
+    },
+    {
+      "id": "news-eg-4c87f7282fb810c0",
+      "country": "EG",
+      "title": "خلال احتفال الأزهر بالمولد النبوي.. أ.د/ عبد الفتاح العواري: لو صَدَقَتِ الأمَّة في اتباعها للنبي ﷺ.. لما اعتراها ما تعانيه من أوجه الخلل والاضطراب - azhar.eg",
+      "url": "https://news.google.com/rss/articles/CBMilgpBVV95cUxPemlDZjFtc09ndVA5VEVyWk8tVDViWVFHZk1aVXVmVzhRcnpxaFJoQUFsLTROUE82RlpHN3gzbUIwTFRLbEFzS3M3N1ZLcV8xWEM1Q0Vjb09KNkdZNnV4NFpIUEVIczBqZXZ4SzVuT2ItVW02TDJLeC1tQnh4UkZjcS1lNVlLVF82NkZKUVEwNElsNUxuUzQ2M09mVkJjc2x1ZWJnRWZKM1JKb3RKWW9qcnFWSDRPeENhZjY2N1RkWjlHcWNGQkY4c0R0SzNxeklVZXZtbktqaXpuMWZsc2hlNmljcVNmNUNrYXV3LWNyMUVuelNkRTd2WlEyWFlkNVlWRXV3VEdWQ0JGdTlBaVN6WkE2NlhrRm1jZmVxVlJHSmEwY0w0dzBWTGdZc293Sl9kUjV2dWQ0OXFzdTAxWXdYSHVyc1FLWGExVTIwVDljaVg1cEZWSzVYWF95NkRsZHpjVXVCTHJYT1lhYmpVSUZkbVZPUVItamM0MHlWb2pkbExyYWloaER0N1ZrRHQ1Q0RfdXJBa1dmdFZEOXc0aGZpLTAycmd6Wk5zd3pLbGpfQUduanJSai1qS3AtTDVOalp3UDkzSHVLek5qaS02eXhsS1RSRFVxMXQtUWdEU09DZVZyWlQ3X0RaNHoyUk9YNVZyRGg2RUVnLU95bWhoTEJUTXVLbjZXSmkzVzRlV2hrOUtTOU53NktYUzV1VjNEMDdObDRUaEY2SjZxQ2RsQjljdldVMWgxcG5UdFBQUzNLRjBJRFpFYjBqY1ZDUzN4LW9EckUwOWo5dFBoWjBFS3dqQ2JHbm5qVFZDNTQ3NnpCTWcyUF9VVnUyak1rYkljdVdEWEtCRU9mRVd6YWZRUmlqVEpLX2g2NXFIUjFTN2d1RmE1eXlDRjZKUkR6MVYyVU15Uk1SQlNjZGF1YzhDblJxSmdVQ2pROFZXZEFVQVlUWTg4cDA3SWp1QlJKbXN4MTA2YmV5a0t0eUxOUEh0TnlOdkg5RUY5RGVpa2M0b2owb19hZlNqWUlDOS14WTNzc3pGcU50QUl1cmJLcFhLcV9RSTd4VEhLVTQtbUpjSWx3bGx4U05OWGxyekFRUVM0S1pjcHBjeFN2d2N2Q0VCQ0JrWnNoV3V3NGY5SjJmcEJ1dHl0RWlpeFVyeHk2dkRHcktqODNNNTN1SlhuZk5UbG54Y01hNEJFRHc0cl80czkxY21PU19NNzJfSE14UnhkT21KbUxfbFIwRkJGM3poOEJPeUhselZOLWFZbjR4c2lTdjVBZXJEOXJFNkw2bi1waFU1SWRDRTRGWTRnSjhZa1ppOEJFcDQ5YjFqRHMxSlFRTzA3LUEwcDI5Y2ptY2pKT1ZkdVdORVRiX3F2U2czdmhaOFdtSE5Ecy1WRW1hTHNoQVgxcXpGdzE1dXAwdEUzbTVPbDdMV3BwSVM4YW1sUnNoekpsZjVVRi13U2J1SnlIRUd1X2UzWHU0bWxONU94QlhWSkFhS0UtcnViWVNwUUg0MTFuRnR0Skd4SzFDUWZDWnhBVmtmb1lVV3d2eWdzTW9aV0NGWkR1ZUItX3dLVm1YdVpjR2gwcHp4Z1BzNm50bTU0Wk5JbjFjZTNoRy1ybi00a2VmTFV3VEZTUUp5emZFcGt5bGgtUXhKNUhVMjNMQ0FxaExQdlVpN3NKSlQ5UE1OdjZGSDlrRllrOHZJeU1sVHVSX0YtdkQtM1VxdlYwVnZ3aVltNXc?oc=5",
+      "source": "azhar.eg",
+      "sourceDomain": "azhar.eg",
+      "publishedAt": "2026-08-15T07:00:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a EG domain (azhar.eg)"
+      ]
+    },
+    {
+      "id": "news-eg-57263a1aad3b8d3c",
+      "country": "EG",
+      "title": "احتفالات المولد النبوى فى الأقصر «شكل تانى» - بوابة الأهرام",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5JaFJwRkVsMndiTl9NWENkUkZjbmtjSDBvUTZfWGJldTQ4ZS1VUFRPSzB4cVllbGN2c1BxbDYySHVFQVlXTnNXRFQ2OVBOdmIxaFVJYkJTa2MtSmhRQ3lF?oc=5",
+      "source": "بوابة الأهرام",
+      "sourceDomain": "gate.ahram.org.eg",
+      "publishedAt": "2026-08-14T14:18:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a EG domain (gate.ahram.org.eg)"
+      ]
+    },
+    {
+      "id": "news-eg-8e8a8cc636acf5c8",
+      "country": "EG",
+      "title": "خلال الاحتفال بذكرى المولد النبوي: أ.د/ مجدي عبد الغفار: أعظم صور الاحتفاء بالنبي ﷺ تتمثل في معرفة سيرته والاقتداء بأخلاقه - azhar.eg",
+      "url": "https://news.google.com/rss/articles/CBMigAlBVV95cUxOTEx0U0N0NXVPMkg1ekRJWUY1Y2JaOE9Rdmg1b0ctNjM5TW9nTFZFbDlmRGdnRVYtaWMzbW5oMFVZam56d0ZjZ2xmUjBSQlpLVU1TWDFQdnlMOFJ4QmdScTBMUE1lWFoteTU4dWVRUk1ZeWZxdjFSMHhKcGRERHlGUHc1LXB4aXMyc1BXUVE4eTItTmQ3Vl9acFFOVWI0U3l1M3RpR3hya3hWUWl6S2xsRXZzSzh2cHFWcHBMb0cwTG56SGhoWjBMYmF2al83NVJHRFQ2eGF4SzFZTVBGU0xUaVZNMVRfRWV3eEhwZFJKeXp1eU55VU5IN2dYOGxacG9jLVM4M3hVMktsMTNQSVltZXBRcVdnczAwTTM3UGdBQ0plMnc1Rlc2d3hpZDlCVjFkUmJ3YkduZ3FTYTVkRFRhMGMtU0dQaHlNNHBCMExmYnhWZTluLXhUMXhBNHduWmxxa3hqSDI1OTFlUEF3OWRKSnRubkw5NG43ZlI4SnB4WVhseVg5VUwwQVRNN0Y1Vl9XNTRkTnFVdUdmNHdyZWlaVWpTRjNTVElxT0xZc1cteWtyYjgteWQ2eWVvQVpBR3lScXlPOXlCZXkxeHRsTjNMY1k3ekhBLVRFYkNoVi1KMUNHSEdoclJQMG5HUzBZdmdKdmZfUk5iNnhJSXBVQjBwangxTFVJLVJ2SHc4UTRXMUZZanM2b2J5bUxWOWRWZG9NdzlwWkRybV9HRHFlcl8zNnlvLWlNdUQ5TEM5WWktRldQMlZ3RXpYTC1vR3NFX1hDVVdQcFJVbmJxWnpsbmo0cldJbzhrckg0ZXdER3ljMDRZQU5WZmRVNWVqWVVlY29TekR1Wnd5a2drMlpnZXlqVjdINk9QUkhUTDIwLXJFb1FxQ0pKdzJqb0ZMYWwyNWhmd25TVFYtWXRxaEdyeDZPV240WS1Tb1ZZSUFXY2JEQk1LUDNGZjlxcEFHTXp2dE9BOG1QRGVHZ29rV2Z6UzZ2ZEJ6TWR4eG9pTlJSWkVSLTV2TTk2R3JqZGtOT1BtNHRESjFNRHQ4STdOZU4wVXRLRWtRTjg3XzFPYzZNYzYySWthLS13SXVGc3ZsOXRvR0dXckgzaDBYUDFzMUUzMlZ6aHZtMm1jb0pTM0dBb0c0WnN1VUVUMTlEb1Y5WG9XOHVqT0FhX3Vjd1E1T3BFaDRjNUl4ZVduYk9uNk1yR0NTSi1hckFxWkctV1F5X210aDFTczFTbnlsYTJOejRRalVQaDhLMGhwb2wxSEQxRWVhMGlTaGVZMjdRMzZoRVIzX2VkN0hfS0h4bTRVMUJHbzNVcU9zYXdHbXZLU056clEtY0IzbFo1YWd5Z1hJUV9MQTVMY0ROV1pkbllzY21kU2JXR1pKN1BzZ1ZQWkFDWVp6Y3RNakV1OGlVa25ucml1TFJwb29JNkF1VXZHdmZFU0IxeUVReHhrclF4Tk10MVNqWEZsWmxvY2oxVUF1aG1NWExOd1JMdUFDZEtUbElSMjVvMElFUDNWZ3pKYngzaUVwbHo?oc=5",
+      "source": "azhar.eg",
+      "sourceDomain": "azhar.eg",
+      "publishedAt": "2026-08-14T07:00:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a EG domain (azhar.eg)"
+      ]
+    },
+    {
+      "id": "news-eg-4fd6bd1671796a0a",
+      "country": "EG",
+      "title": "\"الموسيقى العربية\" و\"الفنون الشعبية\" في حفل \"شاطئ الفن\" بالإسكندرية - الهيئة الوطنية للإعلام",
+      "url": "https://news.google.com/rss/articles/CBMimwRBVV95cUxPbHdrbzR3ZUNydnFudDFYMzdPdXB6eXdhM3ZRRTd3dWU2UXFaZkZtUXZZa1hrZHQ2V3M3dnl3SVFZYXpWNTJhWFYxZGN1Q3kwZFJId3hfTVc4cWY1MjZic1hzalI1ZkFzMTJtYzdFVHpscVdpSVdEM3V1WmI1NUgya0pwR1M1UFVsa2tGNGNTSlM2QnBGNFFiQ1pnREt2TFpPVTNzcUVhdEpyUjVTWTdiQ2lFR0FVMTZ0SVdvX1RlNmQ0Rng4bnVONHMxcnNVR0RmU3FMTmw4RTN1bzY0eXdCTnFJcTZlaW1Pc1hZLXIzUEhWOU1DNXpNckFSQUZocHlPeG1JdnpkVlU4SmhpcXlFVHo1RWJfUUpyMDFxekhUTWxmdk5nc1A4a3dPNzVzdjhCQzNzNDVESWd4WGtUUDY1UFRFc1NfYjRsTVVqWm4xaXMtQm0wZHFWVlRsVGdUUGlQZWRuRGkwa2FnaHUzT0pBbVlhY1dBREJDcWtrQUJPYlh3b3h3S2FYQjVxOVNnb3JrYzU5SWN6UlcwVS1TaWlTUGExR1BLS0pRckpfSlJQbVh3MjBFUkZlSFk0emsyZGhLdHV3T3Vta3diWHc2R2ZZbjlNaE11RlZwbWZtN2pwNDNYUmlVeVhzYXlFdDNDS0lHM3M0SV94NFRJZ0Z3QjNzRGxoQzZUSEVnb1lZdWw2RUU5UUJHaGRuUlVnaw?oc=5",
+      "source": "الهيئة الوطنية للإعلام",
+      "sourceDomain": "maspero.eg",
+      "publishedAt": "2026-08-13T22:11:00Z",
+      "query": "احتفالية شعبية",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a EG domain (maspero.eg)"
+      ]
+    },
+    {
+      "id": "news-eg-622fdfa91484dcdb",
+      "country": "EG",
+      "title": "تحت رعاية الإمام الأكبر.. الأزهر يحتفي بذكرى المولد النبوي وسط حضور حاشد لعلماء الأزهر وطلابه - azhar.eg",
+      "url": "https://news.google.com/rss/articles/CBMi6gVBVV95cUxQZ1lYSnRfVnRRVTJva2pUQkdacjZXMWZkV21leVBEdXNvR2ZOTGtTRWhaQWJEVTVSOWRPeVJYT3pqVERWUlJUVWstZGtVWVN6UzhLTFNJWWJXdnlQUjdUTkdka0w5d1RUSjNfRFBIb3FJaThOQmY3elFtXzBIU3NYa2hKUnVSRllZY1lJOGlST3RnQkRuSlRwSWpjcGlZZU9fbnNyUHNaSnVEODNVTVFOM2QtWUhqc3lFR2dxWENXeFhZbElrd3ZBWkxkM3N2MThkdk9KQ2g3UWtoRXRUQ3o3OWMxaTdYMC1oZEZDb3l6T0pBLWdaVDJTMGJ3QmF2OWI5ZjlLY3l2VXZpbjJ3MTFzdW9oN0x6d3FUMHByQUhtTWdoc0FHN2ZyLUhtVWFrQkl2ZnFnRDFHenE5SFpoanBVWXdHMTJRc21IaktMZjAxREM2MWJrdDhlaXozZ0tIVkV2SXJnNl9QYzVhdUQzRWN2d3Vtb3A0cmdwTGVMWGpBbHlLRXhpVDNkaE83X2VhRnp0N1dwUHZOaUZ5MWc4OFp4QWk1UDA5MzdhVnI5dTh0MG1mSk1wQU5BRUJFSl9mMXlhalR2dkFMVklGVDR0WFFnY093TWt4b21DQmVvVWc3bFJYejFCYWk0NzdjYzFRNElPS1pzVzJNdk5YQzloeGtfZ0tpOHpKQWJvbUJDNk03c08tZE44RlBYQTJkamxRVHdBYUgwOXdsR2gwdGtHeHB0RUlsTGFwamFnMm1CYlRpZG4yWTZtMzNrZTZEYmxLNzFZeng1Sk5iWDdxdHFzWGUySG9pd0EtZm5hQ1FycGZYWkpJQlp0eU41eUtyQ0l4RU5LaWhSQTlPY2ZIZW1OQ1k5SjVVU2ZKTkhEWk4xX3hGcVR6bXBKSWVld3R4eFZnem1Nc3BESVZSTzBZV2dZM3Jkc25JQWdpaU05OW1tay1LMU84cnVQZktlTlJFM0xaUUpQcnlQbldGZjVmUQ?oc=5",
+      "source": "azhar.eg",
+      "sourceDomain": "azhar.eg",
+      "publishedAt": "2026-08-13T07:00:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a EG domain (azhar.eg)"
+      ]
+    },
+    {
+      "id": "news-eg-5afb91460eea5ad8",
+      "country": "EG",
+      "title": "المرماح والدورة وليالي الذكر.. مظاهر احتفالات المولد النبوي في محافظة قنا - اليوم السابع",
+      "url": "https://news.google.com/rss/articles/CBMitgRBVV95cUxORWNuTHpZbmhoX3U0Zjg4NTAyR19jM0wzaEFyanFJYU5LTlg4OEhsODR5aWFhTHE3R0oxVFQ1bTNCa1lXczVMLVJ2aXZXX0JJQmlTYk01czZhOHVtX0tyZHY1SXpYaEJLM0djZEVhYnZUek1Laks5cFhRaDEzM1lkUWUwald3QWhteXFYWUJPYUhfcWJKNmVLVi1uTlRqcHM4QV92WHNnTTNfUlBsZmpIdDJaZ3lYUWs0VGIzcmR5bDV1dTZSQXJaaEQyNXlvcjlKTlJENGdIeG91Zm5TeGVZQWsxVThkTF9yX2NkVWZHN3BKQXllS1k5MHJCMjdHSXQtMkRBVG92bmxZYUlRMDNjaGJSQXQxQUwzeFBLMkV6LUtVNkJKa3lfOF9LaTdnX0ptLV9ISTdpRUVYakY3RlRWMnZlRVNSQzRCOGJVblFhb2FmdjZ5RFFDOTA3dG8temFYc0ZvRF81ODhwclgybVZKQUotbTdVNmFuY0JrNFhmMzN2SUFnRTJPdEpETUQtN2VLTmxfQ3RpY2ZoREZyZXVYSEVwMjlYMEl6U0NVdnVsb3lkWTE0c3JkV2NwMGdKZFhwVUllSXFiQ1VGQlRVVEdqallzRGxjS0Jhc1RNRjJIeFVTWEtBSFdsV0xUZzlzN2IyZlQ0QUdWbTV6X3dfWHU4VTRMX1U1eTg5SFZJcnExOWxPNmVHR2Y4cVFkRm9ESkpLRTZxZlY2ZllnVkdoWkJabWFWcWhPQdIBsARBVV95cUxPem5iWlo0ck1hN3JuVWNyMTZJeU5kWXc3elBrVlVDZFdCYmxfd3FBcEcwZDB6TGRjWjNnUGRkS1Y3M01RalVXNmUzRGJIR214V1JHSmU4QkFmLU1mY2lsUHZyMG43Qy1SWFZXUG1yUURRRWhsOHhiMTF3c0NqdFpXcV9aQ25TZWZDWHhTM0U5X3FSOUZ3bUJvejZ4N2hTb3dmeGNtVVJza1BUN3JqLTZucXZaT1FPWUFETWRjSFBQV0otWHpiWkx0TXBvbkp6TkdVaXVIMmlHeUFvdm4ycUJPMnFrV3BsNTBfa3d4U3ZOYkJkbWtrMVdJWXl2UVNpU09ZalZNbWFWRnhoLW9GaEQ5THllVGdjZXdhVlBjXzdFM0FsNzNxSW9OR1dzSEJRdS13SmZtaUtUZFBpVDNqMWI1dmVISXNGdUVqSzRvZW11X1FSSTgzX1hKMDNMQUdDTHNtSlpnaXNWUEVHaVR4MzF6SHhjbDlwbUV6Z3JweG1ieVhMby1NNTlyUnpUWEpoVUZlREhHSWxzOVYtLTlzS1FZZ3VtTzE4eU5pejlyQUF6bDM1S2pTRFlOdnVYRWVwMkc2TU1lTFpnUThBWU1SWlplSUxaWEc5bTlocFlyRC14U1RoOU5YVG80SXc0dzhJb1BZZ0IweF9tMkJKVWZGUXJmMVZYTVBvUXRKYUIyNE00d3M2Mnd1d2pXSl80UmFWYW1Ob2lQU1V6aGZFY0xMM2lRVA?oc=5",
+      "source": "اليوم السابع",
+      "sourceDomain": "youm7.com",
+      "publishedAt": "2026-08-18T14:20:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "youm7.com seen before (10 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-7d52e60bce657624",
+      "country": "EG",
+      "title": "الأزهر للفتوى: الاحتفال بالمولد الشريف من مظاهر تعظيم النبي وتوقيره ومحبته - Masrawy",
+      "url": "https://news.google.com/rss/articles/CBMikgVBVV95cUxOanludUpFNFBkNV9HTE55QmJFQjY5S2hkaHpncTVsM2pweWJOQU56WGFnUjdvWnJNQ1RtUG9fenNXaE5FV1NGbjhUYWY3VkdqZmFlQlVWaW9ab1E2Uk5uaVFYOThTNTRGSWJyOEF4TDdRYXF1ZFBLOEpVNmJXeHZNdkZHRXlKbGpJVUFBZEVtSU55NUp3dnVNS1BCU2VXdDZrRW83aU1QZU1VVHdmUEl1ZVNoS2ROWWhxWVVLLVBaRVdOV1RoLWZMQ1ZHcExET1g0S2ZXUUd2Q01wRnhYcjcwX1NWQTl5TUluT0J5TUdnSjRGMHdrdE84ZVktZFExUFlsaVE1aVdUM2prQTMzT0hsWl9mRHAtaGtzeGs0a0JQN29WM3NVVFh2bXhDdWREbFJqbC1Fb21kZmNrMGdTTm5seGt5dHBUbzF6RDBEbXdnaVZDV3Z0SWxLRk4ybURJRUtISHpRdGtzNjdTeExaRFV6OVBrRG1iRTBFUUZDbGxvMlA5R0cxYzhKUTRYUEZsU3pOYkdCTWNvTnM4eUJiazhjTFo3QzM1cHctVGxGclFmWXVHMW5jc3U3QU00VGk1dGctcVJjeENtaUlhZUZjVTJMSExUamREUWpib0hEeDA4ZE84eFk2bXFmcTZVN1hSOUtiX1NyTkNMVVQ0TzJ0SEM2czBabzk1SldRa2JkZFZqMk5qVmZoOFBGc3U2dTh2SFBETC1ZVk9sWU9TMlFCeXJQaTJPVE5ZMm1jU3VxcXFJMmlxQUxDVklpcFJibDYyQ3l6TTRONjB3U2pmWUstU0NLSjQ3MmE5aDc3S3gxbVFaMjdRc1MxTncyd29IcE15TzJ3LUp1M2MyNHVOSTB0OVJfUmpn0gGXBUFVX3lxTFBBbkxFWjQzOWFoVEsxLXRJYXJCZVJJYkNvZ3QtbHRkamNVUHFST0ZxYnNuanhDSUlTeFV5RHpzejlycU43NkhsdjNkWXc0MU05aERQdGpjQ1ZJZWM1T0F0Q2NJU0tqNmhjQjlzVjNTWXFwQ0I3X3lVZUxjNmhDYlZnTUY1SVhHd0x2M0d3VW81UUNtRFNZWFI1U054TmtKaGJiWi1uMnhtLVRZRTlVbm5aM2w2TzJMZmdlXzlkLVJ0czVNamdwQUhyNjdLNWZub0xFQ1FxQUR6OUctWi1XLU5zWld3WDhwdEZiWHhZMkVTY095Q1FYRkhWX01EWUROSnV0bm9RM1VTQThkNE1uZHQ3ZnB1SEFTNU9jM1ZWZmM4elFtMHVoUnNMc1VjUVJLd0pjYmU3WVRrT0E5UnZWUEJMcjlvZVpiUnpKaFREWmtrei1QTlMyWUFxakFfTVl2dkI5bndqcjVlUXhZUDROYnN4TmFJRFI3Y19uem4zNERXMkFoaHBTd2dXY0FJNjdaRW16TkR0ZGV2M3BLNGFaZU9iZWtEcEo0N3hxczhTOVIzcUN2V0ZJUWJnbkgyVHdSNWQxcU92djBXdjJWaEU2YjZua0IwX0JIalpsZjI2WXVVY2lxTk5fSEtOOTJPMnJwclVXR0VGeDZFeXZiRTFzbHRVMk9vLTBySmtxLVdQbGc5UzZfb3ZBUFFYTzJsZXo1NF8xTGh3SHZQckh3aTFLcmhidDhZR1V2ZmVaRFlTeUhaTmI1QkZEbTBZM25ZZWk2UnVMdWdLcm1YVXpjbjl3eVduOXc5RTJMNlFuTHpybkxzUHN4RHp3ckItQUNzaFFhTXVjblVzUVlCZkpfcUU3VGgzbkZYc3VWNA?oc=5",
+      "source": "Masrawy",
+      "sourceDomain": "masrawy.com",
+      "publishedAt": "2026-08-18T14:03:20Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "masrawy.com seen before (7 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-cf1516708eaa56ff",
+      "country": "EG",
+      "title": "أستاذ تغذية علاجية يحدد الكمية الآمنة من حلاوة المولد - اليوم السابع",
+      "url": "https://news.google.com/rss/articles/CBMizANBVV95cUxNQmR6WnZsMXctOWRRRXd1aG9QaVl0TUlXNG5SWjhfNndEMEtOUHN3MXJsWHVJNGFFdFdWS1hLc1ZHTGtIRF93cWdrRFh4TXhxVWtzZmtJTlpMUzZZdDNTVW5tbm4ybWpaWmptZWwwSUVVa2I1ZXhMSkhYT1ZEWFNMTDNOMjcxTWRXYkNUcDhVYlRPeG5GOEJjeHBkQTNMR05QNWtlVHpIZ242VG9ERzRacEZsWk5jOFhZOFQ5VkQxZzhEZ3Myejl0dmlhdndzTFpKVnZFelFLN0JCdjV5cFNzMGVKcmFIR0JEYzVucFFXRWU4MDdZc0lGaUhLQ01lQi1hakk4YWhfQWxQVlRuOWQwZjlwcDFVdHM5QjE5WXR0ZmEyVnlvY1ZqcS1XRjl2WV9GM1dkR3YzR1o1M082LV9jbTRDRHk3OGNvY2tlOXNLcmlIbzBrS2Q1ZTR1dnRCbTM0TTFMdkh6OW9aemUzRFhKb3Zqb08xMWpmY04xYUUwNnpIWVZrTjdlNDhSa0dSRkJMQmRfTnVtYmRnaVhyQkxqVTRVa2EyRGwteGJpNGdMTUk0anRfck9IcFVtU3g1LV9Qb01yazNWSkJBS2FU0gHHA0FVX3lxTE5wN3hNSVE4Xy1wSU5DY2pMTUM5ZGRIWE50Y3BZdmw2d3JKWG9NWEJUdDN5eS1Ea19OVnN6YXRyWHlSWm9OeVg0Q2RWc1VyV0UxNlVjcllFekJIOExaV3k4NDR3cmlLVXlSYVRaSzk2Qnc2YzJPcFc4Nnk1TWpUTmJ6UnktdE50SGxrZWxOVGpnUG5mdE9QbnpfTGtzWk9qQmw5dXZyMGNYanhJbUUwS3JnblhoNm8zdUxUSHZJMDFPdTJLd3R1MXByUEl5RERfLU9iSGZLVy1WdFd5LW1vaTZ6cmZvX0ZjM0RyQjFQYWd0YU52T091cHNYM0xZS3ZOWDZ0LUpuV2JyTjBDa1Q3ckdtZW9QT2JSbC16NExqOV8wZm1WVVNjWmZtT1h3NThWdHpjNV84ZUplM0REVVQyS1dMZkpJN0h2NTlJRTR2cUhBYm8ydDFmZGxFLUZQMmVkUkxENHRmY1UzRE1pcTVicE1ybG4zblFqb0F5Umo1V2xOYURSZXRhWG5vRFh5cmhsLVoyeDdVMlhHdW9fM3FfdkVxcEhTZWIxZW0xcE9ISGI4TUs0UWlaOV9oZEdPNjlzdUtSV1c3eXR3?oc=5",
+      "source": "اليوم السابع",
+      "sourceDomain": "youm7.com",
+      "publishedAt": "2026-08-18T12:23:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "youm7.com seen before (10 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-dfef5a011029af80",
+      "country": "EG",
+      "title": "بروفات تحضيرية على المسرح القومي استعدادًا للاحتفال بالمولد النبوي الشريف - دار الهلال",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1pVUhqLXdLY0E2Njg2RzlYQWhwYThOTGN3MlhyQ1dOVVI3Y0sxTjNxZi10a3QxRmd5YWdrcTg3ZVV2QmpPVGpxMEp3dmR0blA4SkE?oc=5",
+      "source": "دار الهلال",
+      "sourceDomain": "darelhilal.com",
+      "publishedAt": "2026-08-18T11:58:26Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "darelhilal.com seen before (8 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-1b75fa412198d146",
+      "country": "EG",
+      "title": "موكب واحتفالية بمسجد الحسين.. تفاصيل احتفال \"الصوفية\" بالمولد النبوي الثلاثاء المقبل - Masrawy",
+      "url": "https://news.google.com/rss/articles/CBMisgVBVV95cUxNaUcwSGQyRGZ4dks4WTBrWnY5Y2JZeWk3RHF0VFR0ZkxsT0xCMkRyMVFzYWZiOWU4bm5tQlBaT3dXajhjaXBzNDRXZ0VlZG1SQ1hHZklKcUVsOUxkS2NYb0lRVFY0Ql9SSUxCczBiQlhKazJySXBDLW5zZW5UN3N2NGFadTFMUHBSek5wY05UQlNWaVdGZTFHNWc1c1lHMEtEMG10eUhSNGtZdVB0NlpXYTgyRXAxcHF2NHFOaEJ5U0NkckJQdzYya2ljS29BUkpQZHNXekNOZFYxLWRjSFZDWE1xb01LTnJ0OGhsTTdpbWkxc0ljR1k5VWNfYXZUNlRDUGZfTkYtVkhPV2J4XzBxZnFlOXI1emh0OE9scVNJdFlpaDBRTXRPRno0OU5qTk1OSVozZG15cnFldzF0SDJZYXhqZ3MySzV3TWZUTFc3cUFxdm1BLVpBMVJqVWdrUVNCcERLVlZxQ05SNlVnUURhNy03NEl5MHpDaHNHVDFzNlVxLTI0a01QbUdVTkUyY01RcDBqZ2dNN2F3OHlQUlZsY0ZTYjlCNnc0Z0hnaDN5bDBOM1BwNUY0UGVHeFFFQ3Jqa1d3d3FwVVpXMnJ2MWM0UHdHZ0FDbjFuSHRfYUdMajFIYWdXNExJQmRXbjJhVFhXUGJqcHo1UnFyVXg5allaSEJRVmZfZjcxeVp0RjNyRmdydlliUDEzR09DVm9qbGE5WXgyMVFxVE0zejFxRWZNZWZKX0RTa05HR3F2YUEzNXdUZllKY1VKM2VKNkoxOVVYcHVVSmdRQ0pjMzJFYUhyTFJOUDlfbGhQR1lRMUw4ZWw0UWRHNmZOdWtFUS1jS3RSRVZZQlA4S2ZpSmxLVEVVTk9Kd3oyd2p5d01NQVJSWUdiUTVBYWhmX0NtNUVTckIyWmfSAbcFQVVfeXFMUHE3b1dVWlg3aVFJZHdlVGx1R2NuME9KSnQyZE9fWmdQSHRmVUJGUndmTjY0bU5kODRSWm51MXFwcjBqN0xneWVrbmlISDU4NjlzaHZNV3JieHdIVjBucU1FYUNaX3JCOXRNazh4WG9CaE9PVkVXU1lqVm8zNUthbUt1bEFEUHpXWWx4ME5La0dqRFRfUFRSX0dhQklpTnUydUVPMm85SmV5ZTlmbzRLWnNhZ3Q5X3RVZ1Zrck5mUHdzS1NjcjZHd3ZXaGxfSmw4aGFuV09hS01tR1BMY2JuQ2ExVi1obkVsblJHT21vaE44UVFISUV3UnBzMFhfem00YkthNUxwaDcxdUVJakZRQzlyR2w5QkdQVzkzQ1h4MG1iMlFIQVZadEc4NDdjQmowektrWnRXWGpPT2tGUmFEeExSREFlalY3WTZWUnRUOWZNN1AxTWxqam1taWVZeDY3N2p0Vjdadi1OOXRNRUd2WDdtZWExNXJ0eVRSM2xicHREeFI0c3BCd0xfRXVKb0E5dXV0bTdWdU9GVW9ZRVdOemwwcEZPMEgtMlV3dXpGRHJWM3pwcnNLWG9idHc4dVdXRVFnZnd6SEQxalpjM1Zmd05pVGVEM0RQbzBtWlhoS1IyMzk5UGFoY1JCTUtEMFo1c3NwVFI5VHZ3X0JYUnN4Ml83ZmJFVWpVTzVCUHdCWjQyS21TMHM0WU8yalQ1eE5WLWwxcEkwX3VodjM2WDhOaFQ0YWJEc0p6OFlwSXg5eVJZdktwSkxWN0JKcDN6Sm9yeXpQTGV1OS1tQXF3dEVSZE1nYW1NV25peGg5LXVJZ1J4WERfb1lxUmpjd0ZwU1Zzb0ZXSGU3VGxlR0ZTcW15UWs3S21rSnRtdkstTU1QOG5RZ2ZGU1otUm9rNTBOUFMzNkxFaWhwQTg?oc=5",
+      "source": "Masrawy",
+      "sourceDomain": "masrawy.com",
+      "publishedAt": "2026-08-18T11:05:14Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "masrawy.com seen before (7 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-0dd6765c5d3045fe",
+      "country": "EG",
+      "title": "الخميس: احتفالية «فرحة تجمعنا» بالمولد النبوي الشريف للأطفال في مكتبة 6 أكتوبر العامة - دار الهلال",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5CSmFwengtaExUWDEyYktoanhPaEhTeG5TUWZmV3FMWkdfWDE2SlU4ZFRvb1pKazdqRTctS1pFU2ZlRGxYenRURGVTXzZibERERmc?oc=5",
+      "source": "دار الهلال",
+      "sourceDomain": "darelhilal.com",
+      "publishedAt": "2026-08-18T07:45:46Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "darelhilal.com seen before (8 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-35bfff35607facbc",
+      "country": "EG",
+      "title": "المولد النبوي في سوهاج.. حكاية محبة تتوارثها الأجيال بين الحلوى والابتهالات وصلة الرحم - دار الهلال",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81bjY1cW1VZ3Q0NFlmeXZ0Z2hvSVI4bm8tQ2hxNTVDbjZPVUFSQkJYOEVINXgxMVpycldaVjlCWmlxdUJJUmtPOWxiUTJiUzVtMmc?oc=5",
+      "source": "دار الهلال",
+      "sourceDomain": "darelhilal.com",
+      "publishedAt": "2026-08-18T07:25:46Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "darelhilal.com seen before (8 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-2c0bfb2099526ce7",
+      "country": "EG",
+      "title": "احتفالات السيدة العذراء مريم فى بنى سويف.. ليالٍ روحانية تجمع الزائرين بين الترانيم وحلوى المولد النبوى.. إقبال على الزلابية والفطائر والحمص.. زفة أم النور تجذب الحاضرين مساء.. وحضور المسلمين للاحتفال بالدير - اليوم السابع",
+      "url": "https://news.google.com/rss/articles/CBMi9gNBVV95cUxOM21ROVl4ZW1uel8wSktqY1F1R254VXRQNS0xenBXaldjUy1RS3R0Ylc4OWdlNl9Hdmh6S1JpQ242dUN0NlpJMHFkbEw4Ymd2a2RuT19XWFNsZDctOUszb0l4Sm52UTBWUWhkdjhabzFoZUJDR1hsREtwMk5SMC0ycE43YzA3bnVXbWpHR09lbVlNSlI3aU5oRFdLVW1BX3ZadFNQWm1LNUFCZ1BNWWJKa1pWalRrN2lkTUZic0JOakxQQzRaSzVfc0VkdVIwanNRQlZ0bTdOMW81TVp0d2tKMDk4cUxRcFdQVDRFSmFqcDR4MkNONFJ1cG5VRFR0Y1VoMjJLT1JYSEJoWkZHd1R0T092eXcxSnYwMXVNMzZoZmtyQ1h0SHNXOHRYNG5SaFpQbm1PeUhUSFNQMzVYZXZLSGFzeGhIc0oyTmtyMEZaWllWeGpzUkY0Nk85Mm5VR2g4UjZCdFRlVU5LY19RVmhGT3FUTEpWVG04ZzdYaGZ0cDNpNW10djdNaWFrOXpDcVNYQnE3TDhNWGNCUzZYVmRqM21Uc0sxSXJ3TXdycjFTSDhENFd6YmprbXpZUFpRcTNYQ0ZvTmJrY0ttM2p2d2JIbnlNamdqVjRzMnFDQ1hMYnVLbmtzcHZTMWRJaHNpODRaVE44bXVn0gHwA0FVX3lxTE9fME9uSzZPYzF1bHRLbjdMNHRnVTE3bk0zekZDd0ZwclFqM2ZzOGdJYzRJODdBQ0hlYVFNb2ZTV2RaTG01RTNkc2tjQ1d2XzNIQ2hSQnRsT0pGM1VSYUZWajN1bjV6N2doZTNpUkItVlgwWC1DVmpER1dWZ3FRenJBMWVmSEV1OEh1UFpieGczYVo2emp2ZnlNNk5zNDRJN0lWcG8yZ2hhM1Y4ZGk1SHFUc3RqWWs5dnVtcDZvbTY0QV95Wko2NTdPMENCeVlnTlVtTW5BQlRZMTZyeWRlNTdWaWVUWVJjUXAtcmZUamlLVGVmNVRSSlhtU0Q4MWpWWHFZemh6endUZVNMOW5RUjVLcTkyZ09xTEhQeHNaSll3dVZrMEJTSHFZeWZLQ29XbzJzdGc3MEtNSE1TMFJCR05BQ1dQWTJWUEdqNndrWkxQd3MtZXlTSkNnUG1ZVXZvVlkzaVdSeEJnaWx3d0ZjYTZDaE1lcy11RXR5TGxwb3l6RGQyUWdMLTZrT2xITTAwaTJNeFlVb1pscTh3UHdfLTdOcDgxcm1hZFltSjJCNGZ6VEJramtKc1VzVVo4QWJ1ZXdlNmhSVHZSODlFUmRQaUhzZnZtUnBULWNsUmpySk5KMFh0UE5yOU9YSTU1bVk4YWc?oc=5",
+      "source": "اليوم السابع",
+      "sourceDomain": "youm7.com",
+      "publishedAt": "2026-08-17T23:00:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "youm7.com seen before (10 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-aa22403ed8ae489d",
+      "country": "EG",
+      "title": "محاضرة عن الاحتفال بالمولد النبوي الشريف ببيت ثقافة طموه بالجيزة - دار الهلال",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5zYmRKa0hKMWZLM1N2UWRkdEpIN0h4T2JQWjRNSGR3TVZpalRrS1Fzd2dyanFPcGN4djc4RlNTVEwzTmk1U1BkcXlDUVRQMlZjbkE?oc=5",
+      "source": "دار الهلال",
+      "sourceDomain": "darelhilal.com",
+      "publishedAt": "2026-08-17T19:35:14Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "darelhilal.com seen before (8 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-da9adbf8e95e9af5",
+      "country": "EG",
+      "title": "احتفالا بالمولد النبوي.. مصطفى حسني في نادي مدينتي الخميس القادم - elbalad.news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5yQ29CSTdfZ2dlSzVwa1FFMm5mVHh6bUEyRmg4eUs5UXQwbEFFcDJGalNLX0F2NU1sdDF4bGpSQlRfbmhERlIw?oc=5",
+      "source": "elbalad.news",
+      "sourceDomain": "elbalad.news",
+      "publishedAt": "2026-08-17T14:05:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "elbalad.news seen before (16 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-0556ecc4b9ef7943",
+      "country": "EG",
+      "title": "ثقافة الجيزة تحتفل بالمولد النبوي ببيت ثقافة المتانيا وسط أجواء دينية وفنية - دار الهلال",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE00RnMtNDg2S2UxdHdDUFhaNGdRN01VSzZjeHZMekxsRExlcnZONUI0cEZCdkJwME11ZzhtNlNMSG0wXzlrOEVIS1UwWE42YWhTdnc?oc=5",
+      "source": "دار الهلال",
+      "sourceDomain": "darelhilal.com",
+      "publishedAt": "2026-08-17T13:48:08Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "darelhilal.com seen before (8 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-ca928ad36de21540",
+      "country": "EG",
+      "title": "أسامة الجندي: هكذا يكون الاحتفال الحقيقي بمولد النبي صلى الله عليه وسلم - Masrawy",
+      "url": "https://news.google.com/rss/articles/CBMi9ARBVV95cUxQMUNCVGs5V2lMaUMwWU14d1BXTmhyRTNjSUFTX3UtVEl4M0pvVHVuTmpiUmxtbVdTZWZreTdpSHdDRDdnNWxkLUxmSXVlM091OElsdDliQUQ5YVpnVkozMjg0TXBNOVRHbk9Pemh2cTFnUVZYWktJYVE5cFpGbUpqMDIzSVBWOEVGWVBKa01iUEtUSk9wLW9mcFZYWU5MSVRzU2lDREVvd2ZDT29aLTZCLUF0Y3BHS0dRWXdndzg5U2d6dTFIS3FxYU5ZejlNaHJBZVBlUEZLWE1yTFNyUTdtOEtFVFpscmFySDYzTDFZajRhQXVQMTRkRXFyaG83ZGZyMzJtTnJlZTYwOTRJcVREbDBXdEZyTkNPVTdIbDFJalJFSXZQeGdyb0RDYzlfX3ZwX010a2ZxUUV6NjhWTjB5dUktTEVsSWVYdlpQaXYtMFE1SHZUbjhmSjVSUWltU0I5dVBpZzdpOUhjSmxnXy1ZUkZYYkhwU29OeEwwMDhGWTRtSUFLdzJPQUVBakFwaS0yMFl1TEF1VEJ3aC13Nkk5cFJidXdvb1RLY2djUVk5UTkzNU80VDFrajhicW5CS3ZEcDJ4R3RJMTNtUUEtYmNQZzhjbW1ENnQ4U3dvZlVUNWZJeDdtR3FPR0VrMm1SQkZZMjIzcnpWWkZqOXZGbk9iS256WmYyZ3diaDdDZmFSN2VkMHpRZWxiU2lrTkdsYXVlTDdTekFqQWdtYlVvZTFNcDNXQlp6eWk2Z3J1cG1oLWR3Z1ZUWC1hbDZXQm9heDkxN1hoTldJa1ozQl9Kd2xyaFBXcDBobVoxem83RFhia19GUk1T0gH6BEFVX3lxTE5rYmMyclZXcWNWVTZrdHJxX2NQZ2ZHZEdSVlNfc2dGMzRWaUM0NHdxTWtZQXIwaFEwNjNqM3FFZThpN1pGelItZ2lOcDFOemhDTkxOR0dDQ2tGVE8tRUJPaG16eXVyODJXcnJKbjMxemxkRC1KV2ltQm5GNGJBYmdKbnZ3TDlNNjBPUS10MlVkRU10UmNieVdaOHl4d1BtbUtWaVlXRTVyWUlVeDRhWGZLSE1neVJzeVFTOENPalJvZnNzaTZEV2Uzd2xyMWhZb01HampGZGxTMWVsLTAzYnM4Ny04Nms4TDlWU1A0dU1ZSGtYMTN6UW5ZRTFOODd4UTRHRTdOOTRrak5ueFRDN0xKYmF3RzlTdHpvTnllRWQ2U055bFdSUjJwTEFhenYyNzVKV3d4MUZyX1JwSkctSkdqS3ZNbl9Sd3RERXZWY1RkSHZYOGR2ZEZkYXdia29sNi13OS1uMEhZQ2Q5R0IyeGhwa19tWlkzRkFGc2ZPby1rYzFBRG51Zlk1a3ZmRmJ1RlMtQ3h5TWJENHY0Ni1QSGhFejhpdDJOeXRYdWl0OV8tNnpxd2R3LUUta0lYaTY4eGVmSk9OdUxWY3dvUFhzamw4dGRmLTRlemNudWI5RUE4NUJ1OGJXdnJNR1VrdENQWWVVV0hLeE85ekRLWUNYbFhCWmk2YTllV1NHOTRfSDZTb2pJa09MbkpUdXRIbHJNdEYxZlRNMXdlS1J1dGpBSTA4cXR6c1RxdDhNaXBmNnN5MGRzS1c5blFRTldqeVkyaFNFWGhLQlVnSlVxWEp0ejI0WWJFYVVETmFjNUNCVFU4MC1kTEcyeW1NX1E?oc=5",
+      "source": "Masrawy",
+      "sourceDomain": "masrawy.com",
+      "publishedAt": "2026-08-16T21:02:52Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "masrawy.com seen before (7 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-06354e56faba16ac",
+      "country": "EG",
+      "title": "رمضان عبد المعز: الاحتفال بمولد النبي تعبير عن المحبة ودراسة لسيرته وأخلاقه - اليوم السابع",
+      "url": "https://news.google.com/rss/articles/CBMi9gNBVV95cUxOQjFVbUoxVEZOQVM1YVF2b0dBWERMMElxQjRVTDhMVHh4YnZlZ0JjRXAzc2MtRzg3aWY0TDFYN1BWVjNIamJfdkZ3VkdWVUNQUUxxVE1tcHVaSG1YbmpuZnNnaEU1VFo4VGpleDRXbWYtdGxBTndCemcwVC1vTldndkdmMWhXMV9EZ2M4OXRLTmJyRkFISmZEeUdKWmJSWDExRDlGYnRLOEhSbW5rTkZMWTNYRDlYZzNGRGFyMXlPWmJoeU8ydkk3NUhxUV9TYnRzTjQ1SlhyY2x6MDJWX180WGFJUlQxWE1HUTRZNTBNS25seFIxRnVtbW4xM05XOElBSjRkbkpmZG9BLWNOeGpIdUw2Ny1rYmlQekYtWENtN1gxbk1hWmI4Mkg4bVJPM0t6RzB1YWRlRVptMVJLdi03V2hZQlVSeXBmZXd1OERKWXVRYnNWZE5qODkzdWRXdGpIYUlVZXAtMDlTbjhuZDJPR1ZRT09WZ0FuLTUtb1otWDQ5Q0RDSUptclFnX3phX0tUUFVUSTBjdTVCWll4Y3NrWkNYTXJyZlk1YjV2RjdaMm9yWEVEWW9nX1hGbjFVWWJnMDRtYlVlTmhBMW53ZVdEMmlfdkY1b1FfNnhUaFBNTmNRRWNsU3pvTG9nbVRIX01hTF8wQVhB0gHwA0FVX3lxTE1HM3FEN0tkVExPQnFqXzd1b2U4dXFBaXRyZWs4ZFhwNUoxTWloVGRtd3E1cXVMWDBKTU56dm9Id0RCUThtQjBxMWpfbnVrVG51OXBqSi0tVHlfVWViUVFsOVZnQ2xlTTQtcUdyUWVaYnppdlpfNXhheWFybU5hTnNHbExWWGtuWURfNEszUmozZFpCZFdrYjNxenFxWW9pS3VWb2FVMVVGYy1aOGJXaVpoY003TG9kdzducThRUTBXZzd5TS1FLXRYbmNsdm1ZN0c5b0VVblJmWDhkdXNpUjk2Q2cwa0ZLR3Z0SThja2xVdnVteVAycE1LVHdVNkxXOHk3b0lrMjkwazRBamlHOVhabnkxcGszUWxQNlg0VnpZZjViVHhkWkpBaFEwaDk3aURveG03ZXp6bWxYdkdkbExwYnY0YjhUd2swOWZISmx3cWhBYlV1VEJrc1I1a2JvazVibkFVQU5PSTQzMVQ2UE9hYV9hWHZ3N2cwaVVVZnFoS3BzT3VlM2QyYzlhVDdQdDZWbmxES1l5dmE4SXdnUnltcDVRdFFJVmNTaU1fTEFVZExRbkI4ZFhrTHlfdTBQSy0xTlAwTVZLaDZGS2RHeFZUeFVGWV9FWjFkbkUyWEJGM21LZ2hCeEdHNFptZWg3RXY?oc=5",
+      "source": "اليوم السابع",
+      "sourceDomain": "youm7.com",
+      "publishedAt": "2026-08-16T13:44:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "youm7.com seen before (10 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-77cd297b8e50cd2d",
+      "country": "EG",
+      "title": "موعد إجازة المولد النبوي الشريف 2026.. تفاصيل العطلة الرسمية - دار الهلال",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB0MWlReGp1c1NkLU9pNnA1enJnMmgtbEw4YnprUGJnV01GTm9JLU54TWkxV2N6YkhmNGl4TUxEX0Z4MGF1amlMTVhfYmhBX1pISlE?oc=5",
+      "source": "دار الهلال",
+      "sourceDomain": "darelhilal.com",
+      "publishedAt": "2026-08-16T12:17:11Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "darelhilal.com seen before (8 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-4839bbaaaff59e79",
+      "country": "EG",
+      "title": "\"عروسة المولد\".. كيف بدأت حكايتها وما سر ارتباطها بالمولد النبوي؟ - Masrawy",
+      "url": "https://news.google.com/rss/articles/CBMipgRBVV95cUxOTnk3RVlGOFhPLTgzV1dRNHFQWGctb2JlZ1ljSm81VEh2bWFJMENXS2ZHeGZGVnlUWlA4VElsU3A2dWZvTUNJOWVnYlVjV2lZZ0thcnR6M0g0Rm5ZYWViNFNwaG1ac2FseUhHMVZQVEJLaExSSC1RNDlNMGlCMXMwVEFIYjVIU3pzbVlzeVo5OWIyenp0dlFKZXJ6blJvaDZnbE56VWxqRjV5Q3BBWXhGalFDSzNjdHk0UGdMS1pUY1QyUG9BRlpwUUR0amhaaDRjNGRURmNIVlRUYmlGOXhtcHlqUEFuWk5ieGFYSkk5aUs1SmdqLV8tdkM5WUctT2lfRTRBZ0ZzbXlkQkJOWm9uWlV3VkhSbkdhSmZUbjBFdkp2eTdFMjZ3eGFFODhpVmRoSmV3UmswTEpwWjhCMzVmd1pKR1dmenNJdWM3RXRYQjJGdU1fM1h6X0ZuaXRfY2xLUFlvT1E3QzdUNm83aHhueHlzNExVN291TERKUm4wUlBKcTV1QmFKN2NJYmtsZE5LOGxQWGp6NWpmYXdEMkp3cUJJTkFuUlF2TU1tQ3dHQ0RGb3R5WjlmV2ItdUhuSWh5LVhXVFpUR2llUU8wZlBQNnhSZGJvdWE2dEdxNGt4ZDhUbkhRMjljbVBTbE8xdXEweVRndmN6QXVKcUxjTk5vTVZXVURPWW9uTkJaZHpuY21jeGRvUDg0RERnNktUX2dxVlN3WXJR0gGrBEFVX3lxTFBxNDdGaC1MZERLNjhieUZNTmRMOFVhOHJhVEtRSm9ZYlFETlZBM2dGQkViZFJoQWRtNHp6QkNEQ0x0ODhaNEJfanlmZE1KbnN4M0lGODV2c2d4QWlUbHhxeVJVb1Z3bGhfNHpBWGpXZVZtVVVzU3MxdlNpRnZ1Z0hoM0dMcmtUS2tCajNZaHpWREp3Q3hScXRjTWM3QWZ5ZG5leXNMY2xzSXI4dlZMSnowMWwydG5HSUxGZ2d6dnRTSTY3bklRcVlNYkFVSG92MXVCRWxTS1REX3JJeXY3dk1MLUJsWm4yMDMteHRVdGs0LUxJQ3NTR2I5NVgxMzJTQ0pDMXExdmVUZVpkTDM3cVA3Tm9PMEZhQ1NWT3ZEYVhScmN5cWlTTklRbnZpMzJ1Vy0tTFpyVlI5anFDei1zdVZfRXM2NXV4TjhBLTJQX1c1WklMS2x2U19ZNmxOeWdvRzdKa0xFQU45WmhqeG9OZHUtSkhUY01WZ1hqV0RMeU5lNlJEcFdnWmp2bUVCSGhqUWY1aGlJNzBrcEpfOTRDbnBwSVdfdFZ0T0NmRy1FbWcxOWd4bzh4c3JDdC03NzE4Ql9mMWxaS0V0M0EwTWNlY2dMdGNoZVRrVlBESkVSc3Z4N204RjREbGQwMTBpeWw3UWVsXzN1LWc1a2ZQSWxzOTY3Wnh5ejNUZ2otV0VNQlczUDltVkM3MW1Cd2hlWUdpbWVuVEJZZFlGVlVkOA?oc=5",
+      "source": "Masrawy",
+      "sourceDomain": "masrawy.com",
+      "publishedAt": "2026-08-16T11:44:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "masrawy.com seen before (7 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-bcde5614dc2d8a42",
+      "country": "EG",
+      "title": "التحطيب والمرماح.. مظاهر احتفالات المولد النبوى بالأقصر - اليوم السابع",
+      "url": "https://news.google.com/rss/articles/CBMi2gNBVV95cUxQbVBBNlpDei16VDk2Q0IwQ1NBMENOM3JUZGFHdDdxVWM3a196UHo5eTJTMUlqYTl2X2c5LWU4cDcwaV9Fc0ZWUzFDMHZWSzdkM3dKdEdyYkxydE1felp2bF91VmQ4Y05PNnp0Ni1wVWd5UDktdFJWbUpKZ044b0lCbFBvRkUyOUF6NmY3SjBoc19fMm1YblR0dmU2SGRYR0FVOExKVld1UmFmQmozcWZJaHdHaWpGSlRWQVdEdEV3NS14VFYwNVJrQThXQzA4cGdDX1hEUThYS0EwOWhOb2lEWXQ4dFlZVXktYXpoRjJqS2pXZnFNMFlXYWFPdGJsWWF1UUFXdlJjSlJxY2lPMTFEbU00a3ZtRTlRTnROUVFFaFNTYjhGdGZGcVBWYUVPUDdfRUpKcUhkWjBQLXdSWUVCYWwwYmMxYVQzcHpYVldtM3ZXRGlyYnAxd3dPejFyZ2xaeU5QU3BMZEl0dUU2dlRCa1RqMXlGaU9ZdmtOcjRSSndJMW8yV2RFVmF3bTBIMEl4SlF0YVh3VTJwc1otY1U3NHAtd3c2clhBci1ELW9ZRkJyT2Vla3N1WUVXUmhVOWZyeEtiU3RPYkp6bFBDcnNJQ2Z6UTd1TEFBSlHSAdQDQVVfeXFMT0czeGktWmJPN0xRTHd6RE9ZN0Q1M2UxQUR6d1dpRUkzSUhUaHdlNVFVdmNZaG4zcmlQUmJXd3FFRHVnZkRwYzJNa0UzNW0tQ3FvQ3FFeExhcmw4UUM3WU9DV1FPeEhkWnBaWVl0SlQ3UmZFdVBlVWZkSW9zUzBYV3M2VWE0bnM5VWdOWVJqVkVSUWFHbnRDbFJJU0NpVXN1XzFTeGJVYlJkWnZxYmJSc0o1T05HeHJLYnJnQjVTZXpjaERXWU5LVDJqMHBrZHhQYWhpMG5ibkIycnVNNjVtamxZMFVVUUxzQWE4dlhLNjFBMGRVTjBSMHpiWWZxUkxjNDZSLVg1RkR0bTZLUm5PWXFrUDlMclJlNkpTQ2JXMTU4dE5ZeEFwTTVBZVlKQkFuY2QtMzdVQ18xLS1QVVJYWGROcGV5bko4X3hpWE9fblkya3VGMjJsaW5iYlBFOTdCRXJCT2V6RFNiRnVZaDVLaVVhcm96V0MyZTVLbGtEMXU4YUdJSnVOZnZMM3ZQMlEtTEhkb2V0QUotajU2aGlSaWdibkxfZ09tRUFLNUdzZmNPeFpTUGVIQ2R6cXV1Z2VCS2pRRFRfUkl2VXZmNkpXZUlYbHRu?oc=5",
+      "source": "اليوم السابع",
+      "sourceDomain": "youm7.com",
+      "publishedAt": "2026-08-16T11:40:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "youm7.com seen before (10 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-aa967d6e9bf4728a",
+      "country": "EG",
+      "title": "دار الإفتاء توضح حكم الاحتفال بالمولد النبوي وطرق إحياء الذكرى - Masrawy",
+      "url": "https://news.google.com/rss/articles/CBMi6wRBVV95cUxPVXlRNUZFOWxyaWZyR2E0MFJXTEY0RWR3UGR5MGdpOGJSeVJpSkZCdjVfU29qVUQ0ZEw0bjV2RHpZUHBkYkdaLXhBTVlzc1R6Sy1Mb0hZY1hpMlM3bzRLT0tqb1NwMkdrdE1WOHR2TXNLcVVfZXpPdkpfR3RoNkFNWVk4VDN4dHNSSjhxb3hBanRVekpFWXVZdHlyQklDVkhGOGdscjgtR1NtcUtOUU1DdTM4WUw4Z3JXa3NEUmhyb0R2NllWZXNKNDhIcERoMkF4VjZyZHVFM3lSZ3ozUElYcHdOWm5PSnNOemhuNkd3YS1KNlpZU3ZqM3pNb1JzWm1DMUVrcklqSFEySmdDcE5uY2lYNGNJLUFkeGtfeVplTExyanJtN0tCc080RXVnUmJ6bFdlNUpSWHRiVzlkaUg3M1hCNXl2YnFURXhGTVl5U2c3M2I0cTdOT1RxRXE5VUktTHpCTkF2bU9YcVgtTTBIb3NzSHlpT25pVWlNV19EZmw2WWtrakRhVGJDRmprcmI1Vk40bXNyUG9UZGlYUWpQdW9UaHpmbVM4MTd1ME9iMjFZdFd4SW1McFVoUUpqUkZRaEc0bk5pVWJLSnBDbjZNSHJqMzhMRlB3dkRkREpLQjBJSks0clFEUkVnU1RhbHA2VHdaUUgxWEk4OFVVNXZMdkZMMl9xRWpkNm9ncm1iX2NZLWFiVGZab2NRb2E0MkU4U19UMFpoVnZPZldxeUd4NTdGVHYwMXlTbFpHVU9NNEhyUmd3WmdzX3VLOTJpd2RuUDJkVWprYW1qUVhzb3JIeG5xNXdfanVnTG5Z?oc=5",
+      "source": "Masrawy",
+      "sourceDomain": "masrawy.com",
+      "publishedAt": "2026-08-16T10:16:04Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "masrawy.com seen before (7 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-6ff275df839798a4",
+      "country": "EG",
+      "title": "احتفالا بالمولد النبوي.. وزير الأوقاف والعلماء يتلون الفاتحة جماعيا بمسجد سيدنا الحسين - elbalad.news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFA0UDdVTVBXakZOSld5bkxvd1NjbkxrbndsSE0wcmZsZDZ6ZngxRlpzbGhrTVVWSnhoTGd4czdDdTAzbEtOU0dj?oc=5",
+      "source": "elbalad.news",
+      "sourceDomain": "elbalad.news",
+      "publishedAt": "2026-08-16T10:04:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "elbalad.news seen before (16 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-902c383c7b85f39a",
+      "country": "EG",
+      "title": "موعد إجازة المولد النبوي الشريف 2026 - elbalad.news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBBdThxWl94R2ZLc1NkV2hFMmRZMFNUQmVoSmRjMFBHTWV5eHZMcWtZeWlrVjlhN1BTQTN3TWx2MTI3Umwwek9J?oc=5",
+      "source": "elbalad.news",
+      "sourceDomain": "elbalad.news",
+      "publishedAt": "2026-08-16T08:00:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "elbalad.news seen before (16 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-9ed787fd3236e74b",
+      "country": "EG",
+      "title": "علي جمعة: الاحتفال بمولد النبي ﷺ ينبغي أن يكون بالرحمة بالناس وفعل الخير - elbalad.news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1BWFJNczdITEdIZnhEeTk5S05qbXlaRXFDT3VIUHFldVNubDhvZ1M1VVhSQUN6NzUxN1RsYnJMbDE0Ny1uVDBr?oc=5",
+      "source": "elbalad.news",
+      "sourceDomain": "elbalad.news",
+      "publishedAt": "2026-08-16T06:32:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "elbalad.news seen before (16 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-c6021f2b30f5663c",
+      "country": "EG",
+      "title": "الإفتاء: لا يجوز شرعًا الطعن في مشروعية الاحتفال بالمولد النبوي - elbalad.news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFAtSnRfUHZOcTFwZVl6YVdOT2UtR1VHNHViOVNTeFVFdG5yUG5XWFB5OE5iZzJOdUwxbzRnSmZrVVBmdGxZNE1R?oc=5",
+      "source": "elbalad.news",
+      "sourceDomain": "elbalad.news",
+      "publishedAt": "2026-08-15T20:58:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "elbalad.news seen before (16 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-7953eb599a91ce64",
+      "country": "EG",
+      "title": "البحوث الإسلامية يشارك في احتفال نقابة الصحفيين بالمولد النبوي الشريف - دار الهلال",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9KOWhHSXNidWVSM0hwWmU0NmVzMEt3Qm1GV1FYVzFBeG5yLVFzRnZUX3p6WG9qOWxDRURMR1dWa1VnQ0VrRG8zcl9BUHQwQzM1VEE?oc=5",
+      "source": "دار الهلال",
+      "sourceDomain": "darelhilal.com",
+      "publishedAt": "2026-08-15T20:15:49Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "darelhilal.com seen before (8 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-747791be76052773",
+      "country": "EG",
+      "title": "بالصور.. محافظ القاهرة يشهد احتفالية \"الصحفيين\" بالمولد النبوي وتوزيع رحلات عمرة مجانية - Masrawy",
+      "url": "https://news.google.com/rss/articles/CBMiwwVBVV95cUxOdnk5MVItdXJULXl2OS04ZHJlcUFpNHRiME5VbzJuRGhrLXpYQTVxSENjT3N3UjdBODdZdUtZWHVZZkp3bXktMzZId2xEdVZVQWpDcEYzWmQ1aC1LYnBQeUZPcjNJQUhkM0JzYjBoeWV5NmNidU12MzBaZFpCRzlhbWxsQUlrYTB3Y3dsWkRkdktlOU1LclRMUXNkNTRreGNiTmhPZjBVZmhVZUpuY0xOZzF3TEFiRGxFUDdQdU5oWVBuLXpMcUo2T0hEZGZIRGZwY3k0ZU9JYzBxa0tiUDFHd01kSl9aLWE3aVV1NkVqTmd5RzFCbFJNZnAwMVpZR2RKV2RLaHdnWXVSdUx3Um5QaERIWEdwVTJKMDRLQVI2Q1hnVkJjMTJuaHZmdzdBRURxNnBnaXdRMFJwNWV4UFNPeldBYjJnQnFwQ1NMZktyZERiZURwSWZKRkU0aktqbDBtNVNReXVlZTFJR2UxeTQ2Q1VNYlhsNEFzejFLNTJ0dWVDUWV2cENMRFJ2c0hzMzZ2VWNHOUtkRGR2LVJ0dzJFRFZCLWNqTE52dXUySW1BZmJNdFVOdG41TWoxVmV6cmlmN1E3QkljWkd3OE9GOGNYM2pZUE1NVW82bzA1NjlJUXpmVE5ZWWVkVmJ3UmpUYVdqTk01emh1dmpzR0JrTm00a0JfbklGY0h0bjZRQVhiSEpQVG9uOTZ1LXZEZUprUGZCVXNGV05zb2lucmM3YjhKcUZsR2xEUl96azAwRzRMdEJMNUQxTU81Y2hjTF93dW13VUlraFpOd21qenNROFg3Z0xvN2VHcUxTdkx3aTFJVTAyYUo1Q2hQSUZmZzZpTWQtRnktZWNmY1piN1owcllVMDljNm1EN0NqS1R4T0NWWkNKVk5nZUdZTGoyNzR2Y1hLLXgtWW9aU1VBWk95S1pjQTRXa9IByAVBVV95cUxPRlZ6ZW9ZVG1nZU1JZUtqTjNmT3YxX2xWM3NYblVNZUlDenJYY1dlTUxZUEhGaWxCeFJnVUlfOVJkRVRaX3lBR0dPUUZGLW5iZHpwamRxdVlLdk5FSS0yWGZsM2VYSVZrdVRCU2d5Z3J3elpNNUR2enc5dmxiYnVkLUtNOW1iQ1NPZVZyWnEwV3p3NWlqc1FfZGktOGdaTFg3ZFVSaVNOUmZsOGtGVmxhNnI5LUdnU29xTkFXS2prLTNvN3lvZnhHUENPN3l6dFRoSUxwOU1wUlZyM1dsS0pWeml1dkNHNlF3ZkNzWG84RGpxcnhXRWk1bklVVlJWSmdfSnpoamF5eFMzT3lrdW9LN0l6MXFTZTVsZFV4ckZMSjhFanBfbTFRVWxVN2M2NzFrVWMzLXBXQ3J2c0ozVFN1c0N1Sm5iT1p4NDRydUw4RzRYal9DX2hvYUxGX3M4dWhkY25IZXFPdmhKbXlENzRCbE5uazlpdjJuX3NEZklaM0I1aFBEaUZSX0g2QTVqNkI4cjhCczZLMndWczFKbThzT0ZQS1o2WTZuWHJ0b1o3T1RSRTRSWlJta1F1aXB5VmFRWXR6M3dUTkFMdFh5SjhvckRkMkt0VUd1QUs1R09ld0c1SEpsVy04TnlzcU1fTkVESDliTGN6dzJmU3djSy1xUzdDMWxXOW1VdmNJWHNPaE1RX0J5SEZFaUZjbURvR0d0YjVHNnIySnhYVHZNVDRYbk9WSGwwQ0szWEFCVmFxRnNLZ1AzalM3MG1zdGNJY0pFTUYtOFBLRTlKcTdKVWFEd3duRk9Rb0lRS1BCcWx2TV9odkZWZ2hCMGVQa1FodFVrTEJza08xNjN4dktBc09KUy1xYzZaT01xRF9Gd25xSGxTOUxLVVVwQVU0aTdPYWZnTzVwbmFwMG50MzY5Mi1xNmhCeEx2SE94?oc=5",
+      "source": "Masrawy",
+      "sourceDomain": "masrawy.com",
+      "publishedAt": "2026-08-15T17:53:27Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "masrawy.com seen before (7 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-a57f790f03d1b2fe",
+      "country": "EG",
+      "title": "الطرق الصوفية بشمال سيناء تستعد للاحتفال بمولد النبي بتدريب الأشبال على المدائح - اليوم السابع",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9sTGhKZzY1Wm81cGtoazI4bzhaSEJFM2tsTFRKMW5CNy1JcXE3V1ZvcVNRMi0zX09BNUZPQjZ0RFNlRDTSAbAEQVVfeXFMT0M0cGZ6WHlYYk00TmJNT3Jla1BGek1mRGVOVGtfMjlTby1EV1haTVhucjVHSWtkVGZBN0F4OTJsUmc0dy0wTUttRUdoN0czZUI0WWdWTHRNb3dVQnQ0YUpjNkduWFpvMW9pOHlYc0c5UC1iMGFicS1aMDZSV2JRbVVxblNmRDJGTnoycnlYbEg3S1BhT2xFaFlMRG0xaDdvQ1J1RWRtS2l3MWZPZXJ2Nlh6ZzRFMmpWbHhDd2hrVkliRWd6ODJlRVc0QW5sVWZVYnpaQlBNYVBwV25ENGg0bHNOTWoyM1ZFVUtMV25Mb3UtZFVQMHE0a2VNZkh4UUxacmlHaF9PeHpLV3FrVmRmTXVtZVlWcGVxa3Q4aUE0SGl3SjQ5VGg3cmtNbWhHNkpkdEtobXVsT1ZWNC1FMWttb2w0YWxlcDVhbkNSTlQwWmpKZVlhdGJ0UmZDazl2bFFDUWtfRFY4X1lzUXVxZTRzYllmSk1kNDJibHhUMmlfbVlBNVdYTy15UE83SFF0U1NWdFRaWVVRdnQ5WkNncE9lbnJoYTNHLTcxSEt0U0Z6bmdsZ1BoRDNhc3N0QW8zVXRlR0FZYlNtalR2YmRQNEJqUFNtbWxFUklxWnVyTVA5SW9rV00yZVg3eF9xektWb1Fjc0hQSWFBQVE4T3dMQUtleFRWX2dXczJQQ2xBZzJpSHRGVHppQU44c0dhaXlDcUdwY0RONHZRdEowOFRCdnl4YTI?oc=5",
+      "source": "اليوم السابع",
+      "sourceDomain": "youm7.com",
+      "publishedAt": "2026-08-15T13:20:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "youm7.com seen before (10 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-6bca4dc276da0669",
+      "country": "EG",
+      "title": "الإفتاء: لا يجوز شرعًا الطعن في مشروعية الاحتفال بالمولد النبوي بما قد يحدث فيه من أمور محرمة - elbalad.news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1Mb3QtbDVfZlllZUVwUFNnMmRQbkZheWlhakU5djFfR2NVNWY1YURYbkNEMksyNzBBUzlhRHd5MVRhc0xSUGtr?oc=5",
+      "source": "elbalad.news",
+      "sourceDomain": "elbalad.news",
+      "publishedAt": "2026-08-15T09:00:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "elbalad.news seen before (16 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-4c5ffc580222c7c2",
+      "country": "EG",
+      "title": "المحبة سلوك.. علي جمعة يوضح كيف يكون الاحتفال الحقيقي بمولد حضرة النبي - elbalad.news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9HbUFxbGlJS2NVQ0RCWllKSVdhalVJOVpoX2dfdHh0RjFTLUdudnUxRjFlYTV4VTFMVGstVkpFMU1ac19rdHZF?oc=5",
+      "source": "elbalad.news",
+      "sourceDomain": "elbalad.news",
+      "publishedAt": "2026-08-15T05:00:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "elbalad.news seen before (16 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-2f05a2814f5a2d5e",
+      "country": "EG",
+      "title": "مفتي الجمهورية: الاحتفال بالمولد النبوي بالقرآن والمديح والإطعام مندوب شرعا - elbalad.news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1sM2J3eGkzcVktTjZZQTYyX2ZyRjZ5bGdFeXNybW9XR2JWc2Qwa25CeERfdUNiS3c3RE14TlctVnF5Q3M3YTFZ?oc=5",
+      "source": "elbalad.news",
+      "sourceDomain": "elbalad.news",
+      "publishedAt": "2026-08-15T04:00:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "elbalad.news seen before (16 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-8c582a92ac1585ac",
+      "country": "EG",
+      "title": "موعد المولد النبوي الشريف 2026 في مصر.. متى تكون الإجازة؟ - Masrawy",
+      "url": "https://news.google.com/rss/articles/CBMizwNBVV95cUxOY0tLd3NKcGhLLU92eDRqazdWMVc2TzRJQUFOc1Y4MzNmVHlCc1NOejVPdW5WdlI2NmpFUnozRzRQU0hVM204c0hfSW81WEFnLTkySDhYT0pMWF84SjlsdTNWUzZJUTQ2Y2FIa3hYUFpKZkJGdHFFc0xOdFRYeFE0Z1VyeF9MTWdNLWYtNlFxZWNkQkhkMk1OZC0xTjFZWTctbWVyQUxoYnIzcmtPc1EzMHR4bWVta2YwMkdjLVNFM003MUZyNFRncW83dDRQWnlOaTRHem5uSlR1MjBVdTBnb0ZodWdwNDRSSmxxZUYwZTVaRzh2RlF1ejQ4cmhfOEFuTXprQTFpelBSS3FKUUp0ZDhSREtXSkpwc3VKYkRMSTN2dk5qM2d0SThLdDAybnZRanlENm1uZWFmQXpHMWRZX0U3T2JFbXBnZHlxbjZtTW03bFJEWnRVUy1ybWUtaGxnUGF0RnBpMkhYN09sV2g1UHBPbk1CNzhDQXRyVjlWSVNEQTIzLU1fRlo2cGFFWThDSTJNUGM1TnNtaWdGdFdDR1BwakxpUU9COHMxTEhFaXNvcFNyWmVzZXpJTXpXbXluX21Wcy1hbkdvdXRDaDk40gHUA0FVX3lxTE9Mb2xkN0ozeEJtbHhnRVdENDhiNldURmNZa3lOZEUzYmxuMWNTczRWXzlvdGVFSUI1elkwdVFTbWdDS0FWSjdoM3RRVmxTMFkyaGRIcXJvWjZQZTZmT1Yxa2lEaDRnYkR2elg4cm9vZHdJREwzaDNZVnBhRWtMSjlidnRvRm9lMHFUbXhBRmxIZGFIb2RmQ3RtbE52QTFhU1VOWElrcTR0NDcyX3FFM0ppakR6OW9Rb0o1UVlBcnE5LWFiNFBRTDNBT3RlOUs0VWRQeEtyLXBvaV94S21MZmFrcGZxaHVxSTJIdVRqUFE1NzZETUJ5VGlCa2RXN2VaZnpUT0UyZm1RZHlsX2d4TXRjUUt6NHpzcktEWEVIV0J1ZzYzbktudEZfc254U3ZVa01oekktVkxYV1J1elpmUl84cjhDcC14MlctNTlZOUtrTzhfbjN5TDZVYUl5aVZ3RFBDYkhCR1hLXzZuOTlMYW5sU1VtXzlkNDJnSVJmZU5RejhOQWZJcmJVZFRsdWsxbklaMWV0VTUySV9CZ3RPRWJwUFRHbloxSFVLTXEySnRtUlNjX3BTdEtEaFBHVGtLVE1CZll5SmpEVW8tM2JXVXdLMVBBeg?oc=5",
+      "source": "Masrawy",
+      "sourceDomain": "masrawy.com",
+      "publishedAt": "2026-08-15T02:00:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "masrawy.com seen before (7 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-006f69e80ccfc234",
+      "country": "EG",
+      "title": "ليالي المولد النبوي بالأقصر.. سباقات خيول ومرماح.. فيديو - اليوم السابع",
+      "url": "https://news.google.com/rss/articles/CBMiywNBVV95cUxNVktJNlhqVWpCZHJ6X3hWdFB2TWkwZDN2QU1lWFRrdUoxQmg1ZjllMVZjNGo0ZnJYMHkyZlB4M25DUW5uS1N3dXVTSE13YlZIME5adkJ6WE1lb3hhcm5Zc2lPcnJtTTQ2SWxQSTJCcHNOSHFTd1ZZWmZ6dVBXbEpyZjMxZ3Bib0tIVTk5VEMwUXFhVEpMZGlvY2RPSHowNXNxLWsxR2k5Y2lmS1EyTjJ6dEJ0cFRkUXVpbGtDRS1wUUJYcVZmV0E0a2ZCNkc3dFpQVjRVZnRLLV9EQjZ0a25UMl9rb0JKTk9kcHEyVDVOMEF5RXpDYVBmUGhQQUduTTlXcHdsdGlRVURFM1J0QmhfYkNaSVN0R3VsczNNVlRHUW5NQ3pzTmdJSDZ3cVFKVEZjMVo5bDF4Q0NnQlVGT1kyVXFLa09UT0xSdWQwRnhxVVVTeW9mWF9XTHdfRXVBZWdMVGQwRUx2al9HM2NXcndaVzZCZndsa1FvUlZGbEpnelZ4T0xUZ3RlaXJBVmc2T2JSOU9lYW5uazlhNlFMeHhaWV9ZeDhIUGgzQnNNMG01N01UZXEzLWdac2lpT2JHbDBQdGVZdERoTDdMS3fSAcYDQVVfeXFMT3djNzNNeGo1NUlkY0NiUXJFcWVTck5pY2ZBR2dtUWRpZ21WY3R4ZjFGX2ZDa0lmSTJlVEY5WjNpSUhJbGk4akJqYjIwLXhVNHViU0FfYzk0bHc4dF9rME5Qdm5qdGRUSkNLZ0IzYUxPam5qd0x0NHcxejM0dGFzXzRUbmZOa0ZReGJ1Nm1KbWN4azFvMVlRVVgwMXhCamhvdTN6VnBTSHJIamJFeVR0S2l2cFhMM0JLUE5RaGZzVlZQT2JrZkVfTUdBZG94Wm9BZFVlLW9BZlRPYmtFSm44bjVTNWRrMmpHdzVqbHQ5czdibjd3MjAzNTJZYURWMVVqOHBpODdzSlJSaGNBZF9CX213ZzE1Vl95cDZZMmRIb1VFQ2c3ZGpzQXN1eUFIeFBFcnc0cEZYakMzRF9xWGZmUUdGT3NVR1FFTGFfdWY1MUdMTG80ZGV2VVIyd3FxWmZyM0d2ZHVuWUE3MWR4TGFZOTZuNnNZajNmYUxmckF4a244N00zWHFIWFgyT3RXdGRCM3ZiS3R3VThPcERWRXFrWVlBSmllWlFUYWViSkFueDJSQngySUNmQ05MV19HLUt5NThBZmdMZw?oc=5",
+      "source": "اليوم السابع",
+      "sourceDomain": "youm7.com",
+      "publishedAt": "2026-08-14T23:00:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "youm7.com seen before (10 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-e432059c6d4942b2",
+      "country": "EG",
+      "title": "مفتي الديار الهندية: الاحتفال بمولد النبي ضرورة لتعريف الأجيال بسيرته وشمائله - elbalad.news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5lOFo0Vzk0XzVBY1d0M0lBOGxvLWlEU0RyOU05YlVhVjdfRGVyUGhxcUFUSGRyaFpEVXF5M0R0aUNlam1SaUVj?oc=5",
+      "source": "elbalad.news",
+      "sourceDomain": "elbalad.news",
+      "publishedAt": "2026-08-14T18:53:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "elbalad.news seen before (16 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-b3272dbfdf832ff1",
+      "country": "EG",
+      "title": "طفل يوزع الحلوى احتفالا بقدوم المولد النبوى فى مسجد العتيق جنوب الأقصر.. صور - اليوم السابع",
+      "url": "https://news.google.com/rss/articles/CBMi7gNBVV95cUxPeEFweUo5LTRReW9weE03aDdqUXdvV2h6U1loaUVzazVwY1p1SFB2UUJQOEtzR1Y5c2txT1hyX2kxV0x4N1RfNlZHdzd2Rm5rSDdBMnpSQmlsMjFJeGlzSG9vUU1hbEtSdXluLTMzYWktZWRTNmxaWS1LM0Rzc0loWEdCcHBMZk5mZjROSXVJblVpR253YnNwMDVndnRhZEtpVXBfMC1qdjhoaS12enlHdjIwNm10ak1uUGJZc2VEQkI2bzI2WU5nbm5jMTVfc0hveWUyTnEzU2wxR2l4OUQ3ZFdKTFN1Z0NHd2xCQ1FrMzFzM3lyLUVOR04yWXBJajJwdWc4aVdxWXVUTXdjRjBxNVhWR1kxeVktTlRLeWtmWVA2Wk1KdjZvc2xsQTlOYm9mV1B0bkNmdTNpb3RHeTItSDFCc05SUGRUdXk2SjJSMHBnYUg1c05aTmpzWFozYmNBcU1GZ3kzNHotVkFXMi1ZNE9fUk50UTJKQjFkR3BhVnFPRzBmREUzZDBJYURLN1Z6TnRwbWw2YjFlRUp6UlpsWjVNdmp4QjkxT1F0SF85NkxnUzRrWmxCWVZ4a0ZxMlQ4dElqb2tqTnJGOExTN05DMjFUYzhRY0hGb1J5WEJFakkzVXlDY1EweUc1TmtOZ9IB6ANBVV95cUxQNkNSQjNmb05Zcno1RkdhZXNqNk5KUFphRUNNWV9ZVjAtOUdZVHZMaDRlQmlZdndKSmFNa3BHcHRucnA1SWtaeWVpcWQwS3BpbXctbmtTMlZCN053TkUyem4wWU5Sa1dXY3Q2SkIteVpDWmxDNFFZNDRpdFowQWxjSGNlRHdqbEhIUF96TUNtVzRNaGFLOHBEVldwZW11X1FzanNsd2ticEI5NDg2Rm44al9CZHNVd2tNZkRHNnNwM3k0MEJJaVBFZVcxcXdPT2JFY0h4X1pTSUdtb3VlVnZHY3J4Sll0TXpDcW9kZzhheW5mREZIT0F4T1draHNZTVJMTERMcEI5UUY2dTB1c3dCWnhQSWpvM3M0LUE5MDUxNVM1aWNxTDhsdkcxb3R3Y1dGd05YNm9jSjdOREZkamhLeGZoVE44Tng0d2RvajdhcVBmWTBwYlFSWnlIMVlKelJzdmtmOXg2NGFVMUo2aF91dlE4Um1pUFBFOElzamdOWWVIQkpTZ25qSHVYZ0xEX0czLTIwQjVvTFF1bWVGeTM3ZGpHNVB1NGhsaGFnNFRXcU5jYmFieVVDQmVhQjQ0OWFkd2lGWmRRTERlWmp0UENtUFFxaVRQUHdVX3RKWl9NUV9DMV92UFNzbw?oc=5",
+      "source": "اليوم السابع",
+      "sourceDomain": "youm7.com",
+      "publishedAt": "2026-08-14T11:38:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "youm7.com seen before (10 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-cc36d22f2f7cb500",
+      "country": "EG",
+      "title": "الاحتفال بالمولد النبوي الشريف.. اعرف حكمه وكيفيته - elbalad.news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE0zeVVRN2FzRlBJYllNZ1M3R1ZwRE9YZDFDTDRqZExwbkk0b0tJSFVYWXJVNmdycE9zdkFWYnhnMmhUUEt1bnlr?oc=5",
+      "source": "elbalad.news",
+      "sourceDomain": "elbalad.news",
+      "publishedAt": "2026-08-14T00:00:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "elbalad.news seen before (16 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-523c6c019336dde8",
+      "country": "EG",
+      "title": "ولد الهدى فالكائنات ضياء.. قرية منشأة العمارى بالأقصر تستعد لاحتفالات المولد النبوى.. سباقات خيل ومزمار وتحطيب وذكر صوفى حتى الليلة الختامية.. والاحتفاء بذكرى مولد النبي بجميع مساجد المحافظة.. صور - اليوم السابع",
+      "url": "https://news.google.com/rss/articles/CBMitgRBVV95cUxPUER6SnNYQWxUX2l6WFB4RDM1SDFOelJWeGxjemozM0xPbVVJeldSY1BjZEh4VzUxdkVpLUhtdlU1dVZTU1h4OXNwRWlvTTNuNFAzME1yRlJFa2lVcHMtQjc2aThzUGxTeC16ZnVhclJ3X3ZjYTBsQzdQNy1YeEpDbVp6dzRfWXJlT2pranpNNUFST1owcml6N3ViRzhrNnU2YTR6TUdHUzQzb1ROUTg5QmhxSUlIWVBiek1MdGJfYnlRY09naE5kQXZOdWpNcUlVSUZqVHAxQjlqd1BZcUtrN0VIUGFpQ1V1cjZVMkxiQUxaYy1TWjBnWWMwRTBGN182Wk1UMUtlNHFRcjNoY2p1UHBrNWdROGRwNVBiOTltdDJrZ3dGckhHc0prOW9SNGhKaEZMc3BoMWliQWpZaVhDSEJVcl9SVmpTLTRWbG5kRjFKRTZadVQ5VTZZR0Zqem9fQ0kzeHhzcXZiS055Y3VWaWEzSE5OX1l3YW5RVFJmMVFRMjE1OW1Xcy1waGZWdk5WUVBpcFdXSUxyRXNBT0lmc0dzQ0lnVFhNUlNtWnhPelN3cXBQQTNsd1pLMVVwNUs2M19YNGpPU0NNOHFlY2NlNzNvWUI1cFMzQVBGRXpGQUxJdnFOTWlFUGZGZDNBbXdwRmYxaU50QmkxMWVnd203YmRyYkJGd2Zxa05TM0d1TUpDd3ZrWkEzQnVEdFdKQnlLektlODdrTkZzcG5qU1k0WjFsTnpVUdIBsARBVV95cUxORVhEZF91ZGJheFZFVzBjUGZqbTZIWmNPUHpNSkRtWFlZTVQ5YkFmVkxVcVJWYWRYSFE1NHhLSWRfeUdLQ01lUFl5Smt4YXprUlVINjNvdHpibTRWWnZnVkFscXhYOVFBVzV4MXNOakxUMlN5Sk9nR2FxMl9neW95WTRQOTQ3UmphbG1SaThBS3lsS1lreDZNbnp2Rll5YWJFZ3EyMTE2bGdhcUUzUWNFOHgzckp5YXM4SHp5azRteXNha3NraFk1TXh3Ylk2N0JGeS1hOFlhMDR6ZlcxSkVkNndVSVRWSEd1WV8xN19pUGs5VzRZT3NuSEt6Wk9fdmU5Y2RWTThEeGRfTWtza1dyX2pOckdFdnUwV0M1Y3ZtbDZWeFdwS3RFTGJvellNNWt5azJibVdwRGxITmxyb0NtVjRpSUdZbWN4Z3lmNW42ekNTUEhUMkQ0MWM2R1NoekV2ZUdGczBKcXpMSVZEWVQ0dnRRbDVNbnl5YUNyNTltRlgtdlJLOGU5Y2FMUnZhSEhMLUpQUlBIdmFoRHVEeUhVeWFfRW5yOEdGNUJaNkdZc1h2UEhRQVlFUWNIYklMMHAzM1hqVXltTHFnOFpDTWVQVjJkWVNXTFoxcy04cXl2VmRYTHJ4YVZ1WkJVbGMwc0wyeENMWEpxT3BLNlBsXzZHNW43Rlg3MmtuMVdRTmVEMmVOWkJHTVEzZG94VEwzWnFQekdMZElxNVJRUnQ1cVRwTA?oc=5",
+      "source": "اليوم السابع",
+      "sourceDomain": "youm7.com",
+      "publishedAt": "2026-08-13T20:00:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "youm7.com seen before (10 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-97ba17bbfe8ff4fe",
+      "country": "EG",
+      "title": "هل الاحتفال بـ المولد النبوي بدعة؟.. اعرف حكم الاحتفال بذكرى مولد النبي - elbalad.news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBLTjNMMU1MU3ptWTNWRWJlaWR2TGdvUldPM185N3prT2pQWjdCNDBMMVFrOVk5cmRoWkVsZU01ZW9TSkZqN3JR?oc=5",
+      "source": "elbalad.news",
+      "sourceDomain": "elbalad.news",
+      "publishedAt": "2026-08-13T02:00:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "elbalad.news seen before (16 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-83cd9639538eb3b7",
+      "country": "EG",
+      "title": "المولد النبوي .. الإفتاء توضح حكم تخصيص ليلة الاحتفال بعبادات محددة - elbalad.news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE02ZmtwaGsxNzUzVWpIQzh4ZWRtcThNR1lVZnpTUzNUbTJ1S2lYNzZXdGFISlNibFpHb3VoWWdPZVY2dGI5YVow?oc=5",
+      "source": "elbalad.news",
+      "sourceDomain": "elbalad.news",
+      "publishedAt": "2026-08-12T04:00:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "elbalad.news seen before (16 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-3c388174f4a1f9f1",
+      "country": "EG",
+      "title": "المولد النبوي الشريف.. احتفالية تجمع القيم الدينية وملامح التراث المصري بقصر ثقافة المطرية - دار الهلال",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5wNWtuSmdDRnI5WGFvYXlfdzdLMzNtb3JiZ005VTRheGJURjNzQWU2cTJzc2FCSnhnN2tSUFF2WTRhVm9PR2hiSFdkTjh6VmYxMnc?oc=5",
+      "source": "دار الهلال",
+      "sourceDomain": "darelhilal.com",
+      "publishedAt": "2026-08-11T16:49:14Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "darelhilal.com seen before (8 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-8dfe18f3a869f2c3",
+      "country": "EG",
+      "title": "المولد النبوي .. الإفتاء توضح هل يجوز الاحتفال به بالمديح والدفوف - elbalad.news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBEbWpYZWw0OEVPNl9BNnY2ZGNjamlGTHpnZnhBWDRmVElmQ2xuU1pFdjQ2ellHcHpzdnRudGlFX0xJNnd6Um84?oc=5",
+      "source": "elbalad.news",
+      "sourceDomain": "elbalad.news",
+      "publishedAt": "2026-08-11T04:00:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "elbalad.news seen before (16 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-34da47b96494a61a",
+      "country": "EG",
+      "title": "هل صيام يوم مولد النبي بدعة؟.. الإفتاء تكشف كيفية الاحتفال به - elbalad.news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE15ZjMwSUx4aDVLUEpaZTh1ZlZPR3JOdkQ4cngyWkNSZk5EbWMxalEyRExiV3V3QzNtVE5PQWdQSkowb2RfYlo0?oc=5",
+      "source": "elbalad.news",
+      "sourceDomain": "elbalad.news",
+      "publishedAt": "2026-08-10T07:00:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "elbalad.news seen before (16 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-5505e404a642ca94",
+      "country": "EG",
+      "title": "أسعار حلاوة المولد 2026 تبدأ من 125 جنيهًا قبل الاحتفال - elbalad.news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBhUHhhS2NvVlBKTEZLQTI1VFN5VGQyYW9rLTlFcHo3bnFuSU5yZzJIWVhVc0pKRFpjdHltOEpQdkFSZzFEb0tv?oc=5",
+      "source": "elbalad.news",
+      "sourceDomain": "elbalad.news",
+      "publishedAt": "2026-08-10T07:00:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "elbalad.news seen before (16 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-6b20297a35ea539e",
+      "country": "EG",
+      "title": "هل الاحتفال بالمولد النبوي بدعة؟.. علي جمعة يحسم الجدل - elbalad.news",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9ROFJzenpyZGlkTko4ZmxVNjhrSUlEam8teG43Q25VNnN2Q2RaYUhNcGw2VG1kbVBPTjUwUDhCbE9ZSWgzMU9N?oc=5",
+      "source": "elbalad.news",
+      "sourceDomain": "elbalad.news",
+      "publishedAt": "2026-08-09T07:00:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "elbalad.news seen before (16 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-765c7ca8dc47b062",
+      "country": "EG",
+      "title": "في ذكرى المولد النبوي.. الصوفية تعلن عن مبادرة أخلاقية لإعلاء القيم المحمدية - المصري اليوم",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9PMFhaRzduVUpDazZldDVuUllRdW5UenAzNURCdVhZMXdvZDUtRDJ3T25KcXg5SDBibFN0TjdPTGd5V3phQUEycEtOcHB6bGlySnpyY2s0MkdLZXFNR1RF?oc=5",
+      "source": "المصري اليوم",
+      "sourceDomain": "almasryalyoum.com",
+      "publishedAt": "2026-08-18T14:10:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-e8920ca4e9bbe8f3",
+      "country": "EG",
+      "title": "احتفالا بالمولد النبوي الشريف.. التفاصيل الكاملة لاحتفالية «مدد يا رسول الله» بالمسرح القومي (صور) - مبتدا",
+      "url": "https://news.google.com/rss/articles/CBMi2wVBVV95cUxOU0dtMDZHM01HSE0xdVVnM2VDaHpvdDJndGl0YzV6S2hENjFqLVpqT0hzWU1IUHNENFRBN2NyTnVRN09JUkUxbmd0aldqVmJaUGRyazFYRF9sODJEbTBZWE9mM2JRblVlWkJqal9HVHIzbkRLRV9wU05GZ1Q3SXd5MTJOZzAxa0dZTzNZeFlpZFBXaS0tNU9pYTdveGNJaGx5NFA5YzRlc1BYSUxsQXQ1X1FNWFYyVjZKSEplYWFZMkRrNXpWS081cG1OY2tLQXM4M0drN3F6SktpNlNhTENLN1ppODZjZlYtLWZIdXVCWVJkMWNxbjlTcm9taVg0aXd4Z1NjZTJhb3lyaE5ZLVZPcEdXSUtrUk1wWUppd2ZVODNWaGw3QzlZYmFMU2VRa2pxY3pwZUZhcnprekZLUnNuYmFjaDQzaUtIMktHLUNaa2NLaXlDY2ZNTGdHWl9BdEl0Qkc5TUh1aG5YZXRPaEpjUUdxUFVNVGIzTkpMLUNPSGlOQXJWOFBna25aSEJvSHhFUzAzUkkxV3dtMlFrajZld0liUEJEYVJFVjZqeFVSZkpqeXN5eGlmQlNlYl9YSnZhWjN1WWFxVEI2dFRLV0o3Mkd6LXpVZnFpdGpjdjA5X185dnVaQko5czRCVmF4Q3NSd2MtLVVzQUUwbnJlNUUxY3FMZkVGc1lZQ0xVSWUtNm9ZQUtUUGpsM3hBWlpZU3QtQ3ZnMlhGbzVMOFg2d0VvN0dnX1huZG03U1piOUVObmh5VTk3ZEViX0kxQ1NxblpEZ1FVV3FMMmtxdUs5VWx1ZmQxNTdodlN4WVp5MXpaZTlwcTVHa2FxQkRaZkxPM1kzVXQwZmdiSUtyc3NzOG1MRzBHZksyNlA1bDcxUmRFOUo4M2hUSVlVN1dtZDRCQkNSNGVHOFJSaHdUeW1XZmdhZDdzM2lSSzZCOFpDbElHUFVBdkt2TE9YVGtIUQ?oc=5",
+      "source": "مبتدا",
+      "sourceDomain": "mobtada.com",
+      "publishedAt": "2026-08-18T12:35:43Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-40d5b2eb7d31ee3c",
+      "country": "EG",
+      "title": "أوقاف البحر الأحمر تحتفل بالمولد النبوي الشريف من مسجد الدهار بالغردقة - شبكة تواصل الإخبارية",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE41c3BFbzRXa2VVUDRVZHR5Q3d6UXozTDZhdVN6M0ozc3NNZzdSTXRCZDc5eTktbmdzeklQckkwZFJSYXhIeU1nZ1JjXzlQelNwVWc0?oc=5",
+      "source": "شبكة تواصل الإخبارية",
+      "sourceDomain": "twaslnews1.twaslnews.com",
+      "publishedAt": "2026-08-18T09:07:19Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-f89f4eb8fe420fad",
+      "country": "EG",
+      "title": "جمعية المشاريع في أديلايد تحتفل بالمولد النبوي الشريف بحضور واسع من مختلف الجاليات - سفير الشمال",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9GMDY3YUxDMV96RGdpNHliUG1DaVdmVWVtUDkzczR4aDItUzE0RHd6QkdHaWpVbmpOUmQ3V0tUSHluOFc0bXc1cWpjeWkxRVhHR0JKVjBCRQ?oc=5",
+      "source": "سفير الشمال",
+      "sourceDomain": "safiralchamal.com",
+      "publishedAt": "2026-08-18T07:46:26Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-6f4553a8923f3932",
+      "country": "EG",
+      "title": "جدل في حلب حول المولد النبوي.. بين الاحتفال و\"البدعة\" (فيديو) - آخر خبر",
+      "url": "https://news.google.com/rss/articles/CBMi3gNBVV95cUxNRDZDNkxCdlhQUWRKU3ZIWU5CYXNCS0plQkpSU3gwMWphUnhLdU4zZWUxS0lkVy1NUDZaUGxjY0tsSHBIeXhVQ19wdU1OX2sxd0xabnhqaEw1UnZrc0JrMDAza0k4YXA5T0ZybTh5bzdMemhROFlVbWlLWmgwbGdSTlVQNjBSRFBjalc3bjFla1RhdVlWYzVYY2V6VWNEM1NHZFI4V2k1b25VQmJNQWpndkFTdndaMDZmZHBtM1RSejZ1aWRaZ210RWI1aUh0Rkw0MXpEN1VMbV9IbUVxMmdURmQ0Q05Jd3ZBbVJsd05pSm8xM3pOVG5lTTJSUnZyN2RXNkdXUE56eHMtclduVnh5RWRMbTQ0WmE4SEdTYl9pR0VGTTh2Sl8zS0Zha2U1NnF3UGpCM19VV0RtUS1ZVjhRbWMxVU1PaVRtTThJZlh1alQ3RlBtS08zek9kUl9nYWxpY25NUmVCRUNTVHZnNnZEWEZtUGdOOW9NajBZWmVLODBZM28zNW9CZ0lkcmxHQnFkUHlBajlNcU5JYjRzaFVQX29Rb3dsRnJITE5mejU2VUFKdF9Sd2lNR0x0SE9jeUJFd3otVVlCcGNENkI3ajBNdTJxOVpDMzNlU3VMMmRn?oc=5",
+      "source": "آخر خبر",
+      "sourceDomain": "a5r5br.net",
+      "publishedAt": "2026-08-18T04:00:28Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-7dab861af31903f7",
+      "country": "EG",
+      "title": "المولد النبوي.. ما هو الواجب فعله في ذكراه؟ - بوابة دار المعارف",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1KbWVsUE1hNGFvSjBpckxyVmRBOTNBYXVKVVJXT0pTaTYyTlFyck05d1JRMnV6XzNDaExXenpDc2htR3dGNHNDMUV4MVZoNmJEN1E?oc=5",
+      "source": "بوابة دار المعارف",
+      "sourceDomain": "daralmaref.com",
+      "publishedAt": "2026-08-18T01:16:29Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-a6dffe88058098ee",
+      "country": "EG",
+      "title": "( بوابة الاقتصاد ) تنفرد بنشر دعوة الاشراف المهدية للاحتفال بالمولد النبوي الشريف ويحيى الحفل المنشد الفنان حسام صقر وفرقته للانشاد الديني - بوابة الاقتصاد",
+      "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNV3NWWmxNZ29EV3VkUmUzWjdrY0NVVEJheVAtY09rT0w1NDM4dmdVUjFYVWRwcU10WTNmLTFHamV2eFBsQ2lSZGY0cThZS2xQYnRHVlJSR0Zxam9zRUJ4YWxkeWNPRWFRWnNGcHgtMzlRUVE4NkF2NHZPSW9sMlpyenNETTlEcEpHaWRIZDdmVVUtOU5jSTNrSEFCcnBrR2xIRm1zQ3NQWEVKSjZMT1lmbnNhR1VQRDdmWU9kakJZTklSM21FOUYwdC1lblFlUnZhaDNHelJvdFV3dlVvbk1BRWlYNjVHYU5TZG9WVHdCdXctRVpJdTMtQnVBQmVKN1BWTGRqemt0SXlmVHd6eGZUU1dPRHBkU1E4T0JZMFlaRGZTc0RuOGRwRjdYOHAzdnljSDdVSUp3WS1uQWZiSzcyUQ?oc=5",
+      "source": "بوابة الاقتصاد",
+      "sourceDomain": "economygates.com",
+      "publishedAt": "2026-08-17T17:15:31Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-29d9f6c2d39a8aa0",
+      "country": "EG",
+      "title": "قبل أسبوع من الاحتفال بالمولد النّبوي، بلدية تونس تتدخل لصيانة جامع الزيتونة (صور) - Kapitalis",
+      "url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxNNTlIbExuNVZYLXYyMW9EUHQ1bWNuYVJ0azBhRGdlZmNJR21aUWRLSkxqWE1MYkZuNmNQeUEtaEFNT1BQVXhsVkxmVGhGZjgxWjRpRGc4U3NBUm1EVDRHMlRYVVdwMkt1UjV3cXExMHd1bGx4bE9uQmZiaEdYUzF6OENoS3lJdS1qc3FZdDRfWnFaVldyUXhoSllBTGltZlNWX1BDbXR1eXJubXE1d0hKVFdHSUE4NFZfeTBSdEdtVl9SMGdWR2g5QVJnQ2RaZGNFaFVmc241SDk2NHdjaE5rZTRIaThFeDltdDNKaXZucGdHeTJweHlCeEMwOEtRTURkaHNzMDlXUjNNdGpXXzFQdEpMNmdWbm9HNEQ3dkV6TjlEeGlEbU9iQ1lGSTNuS1dZOUdrSnR6ZDVnWVhta1Z6RWtGZTJOYkZkbFp0NkNqeHhacE1HZXB3bzlJYVFTN2hCM1E?oc=5",
+      "source": "Kapitalis",
+      "sourceDomain": "kapitalis.com",
+      "publishedAt": "2026-08-17T16:42:31Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-279bd58c2386bea4",
+      "country": "EG",
+      "title": "في المولد النبوي.. تعرف على مظاهر الاحتفال واختلافها من دولة إلى أخرى - albawabhnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9tXzRpSm1UcUEtQ1RQeV81cW51OVJta1NKNVhHSkZNMzAyaGt2bjA3WE50N1dKMmZic3hFT1VfQmlGYnRMeVFqQzJySlc?oc=5",
+      "source": "albawabhnews.com",
+      "sourceDomain": "albawabhnews.com",
+      "publishedAt": "2026-08-17T16:16:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-c745192125518b52",
+      "country": "EG",
+      "title": "زغوان: برمجة 235 نشاطا دينيا احتفالا بذكرى المولد النبوي الشريف - آخر خبر",
+      "url": "https://news.google.com/rss/articles/CBMi9wNBVV95cUxNZHpFelNxMnZJTG1JT011T1pmeW5sNWZremVWeGRXYzJvUVZqVUdIZW5kOUpHM25GSURTdHlXOFRENVJ2bkZRQ2huQk9EN2xaZHZYWE5JektmMmFabzA5TXBlbGE4aFY4UTlsUjc4TnJsSFJFSDRMZlhwQm0wOG0tZmN3eGFHVkI0aGptUmw5cGp2bGpUQTcwck9ORTVsSHZldC1lM2VyNnBJd0pXa2MtczZpLU1rQXcxaXFxdzBvbXVnaDVfY0paM3N0d2JYR21oTDBmeEcySHVubVdGRUJVVkEyUVRSRV9tMnpPNVJWeXYzT2ZIVy1wYVZfdnBMN2xuUFpOZ3BuMk9UUi00NjJxR0lIQjJfbWllZW85Z3lQZXFEcWVkb0FpRkQxQVhoN3Y3ZTNDcFJ6enZqa2JHTDA1RlRxMDYzRHNKTlBTYnlZMWRfeVlHY2RENVY4Zzk1QWpfdFlRVDlhMVc3MjZFT2RGTVZUN0lObkQ3S2tmZDRjc3doWmZJSkxtc1hUbWsyNzFBZVNFM0NOTlpsOHBiSTlpTWdmOGNXUkFwUDZHYnh4c01jSUxETHBLOEhTekNBV2I1bHB4U1FwMTBXWFBiS1ZxbWI3Z2lwc3I3T3hGYUF4ZWNmRFpDTFNxbEtLS1RsMmNVVmZLbEt2Yw?oc=5",
+      "source": "آخر خبر",
+      "sourceDomain": "a5r5br.net",
+      "publishedAt": "2026-08-17T13:20:34Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-70d52b9f7b5ab94d",
+      "country": "EG",
+      "title": "جماعة البراشوة تستعد لانطلاق النسخة الرابعة من مهرجان التبوريدة احتفاءً بالتراث الوطني - تيفلت بريس",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1zdnIzQWJXcW43MFc2QVpWOGx6dkJaT25IVDZneXh2VzNCa2x2Qms3dk5VMm1Ra016X3dzOF95OUJKVFBEYllMMVgySUhHTy1F?oc=5",
+      "source": "تيفلت بريس",
+      "sourceDomain": "tifeltpress.com",
+      "publishedAt": "2026-08-17T12:59:25Z",
+      "query": "مهرجان تراثي",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-bd5455a0910393ee",
+      "country": "EG",
+      "title": "العراق يعلن موعد عطلة المولد النبوي.. ما أبرز الاحتفالات؟ - العين الإخبارية",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBMRVp5Mno2YWRMNV9iOFhRU2dMeW5YbDR0NFB0UEhaSHBsRUwyclo3RHlWaWsydnRNc1cwYUtadlUxbUZ3ZmthTklHQ0ZVV0lQV0pXUFB6VkRmdlNOTE9XNGJ3bTJnQzJsal9hcDAxendIM2l2ekpz?oc=5",
+      "source": "العين الإخبارية",
+      "sourceDomain": "al-ain.com",
+      "publishedAt": "2026-08-17T12:26:21Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-dc5691d0cdf78ab3",
+      "country": "EG",
+      "title": "توافد الآلاف للاحتفال بمولد العذراء في جبل درنكة - بوابة الشروق",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUGdkMjVhaGNHRnJpREd0ZmQ5ZE1JbXE3NUpfckw4Z2EyZXBOTTRWWDRxay1Rcmlrd3NCNjF1akFqZWVyQ3loaDZwak5fOVRiNFF1RTFWSXlzeS0wN1R4ekpEU1VacU9qRzhBRDVSWEY3ZDh4OW1KRHhvWjZtbm5BMHFxek5PN3h6ejA2RElxOEJGV2FhVXpxWjhVTnE4WEpSXzVza1I4bw?oc=5",
+      "source": "بوابة الشروق",
+      "sourceDomain": "shorouknews.com",
+      "publishedAt": "2026-08-17T08:25:51Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-30c6360591290239",
+      "country": "EG",
+      "title": "في أجواء روحانية.. أبناء البرهانية بأسوان يحتفلون بالمولد النبوي بالذكر والابتهالات - الوطن",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4wR3pXeDAxQWxZemlzM3NydG1wcVp2MlE3M0pyVmZ5aGlyM2lqeGFJWmJlbWtTakN0UFBINGhBWmZYbEZpeVByWVZkc3ZwQ19yNGRYb01ubHJrYlhV?oc=5",
+      "source": "الوطن",
+      "sourceDomain": "elwatannews.com",
+      "publishedAt": "2026-08-16T16:16:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-cefdd4586f627fb8",
+      "country": "EG",
+      "title": "رسميًا.. موعد إجازة المولد النبوي 2026 للموظفين وهل يتم ترحيلها إلى الخميس؟ - المصري اليوم",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmNmtNR0hHa2NjZWZWU0VkZmlTRkxoSlNxWnd0a1I1c0ExV3V2dThiVndrUmpwbXFkODRzMkpYNDVIZFBzdHYzNG01eDhwclhwNWRfakZkLW9EY1c2ZW9Z?oc=5",
+      "source": "المصري اليوم",
+      "sourceDomain": "almasryalyoum.com",
+      "publishedAt": "2026-08-16T10:22:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-ad0c78511f18b08a",
+      "country": "EG",
+      "title": "مهرجان تراثي حاشد في الحديدة يحتفي بموسم التمور ويفاجئ الزوار بفعاليات مثيرة - المشهد اليمني",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE12eGJHd3RVNE8yRHJ4MjNfR0VIdmhURzAzRFZvbEJ1bUliSlZ0a2N3aEFOMXYzbEo5TFBzTFlFQ3FmM1ZWN3UzMERvMERLaXM?oc=5",
+      "source": "المشهد اليمني",
+      "sourceDomain": "almashhad.news",
+      "publishedAt": "2026-08-15T22:55:41Z",
+      "query": "مهرجان تراثي",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": []
+    },
+    {
+      "id": "news-eg-e573789cf853e4de",
+      "country": "EG",
+      "title": "محافظ القاهرة يشهد احتفالية لجنة الحج والعمرة بنقابة الصحفيين بمناسبة المولد النبوى - albawabhnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8yLXgtTEp3MjJiMmR6dFMxb0VPSVNFV0VUMTFneHZHWnFmUWk1al9SZFNFS0lRdUpvb2hwT0VWWXVlX0c1UGtEdFljUG4?oc=5",
+      "source": "albawabhnews.com",
+      "sourceDomain": "albawabhnews.com",
+      "publishedAt": "2026-08-15T19:00:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-9a20022f544f2ed0",
+      "country": "EG",
+      "title": "طبيب أسنان بطهطا يطلق مبادرة للكشف المجاني احتفالًا بالمولد النبوي - بوابة روز اليوسف",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8yN3BEMklpdjJNN1ZMXzB5bFBFd25wRENfcXRyZVVMb1NjaDlpTXUyTTd5UF85dnR2bFBzRk5BVDFCcHY2Y3RadFd3UXJXdw?oc=5",
+      "source": "بوابة روز اليوسف",
+      "sourceDomain": "rosaelyoussef.com",
+      "publishedAt": "2026-08-15T16:40:25Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-346e7afe6aabbc8d",
+      "country": "EG",
+      "title": "«الطرق الصوفية» بأسوان تجتمع للاستعداد للاحتفال بالمولد النبوي - الوطن",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBtSklfT2JPMGtQRXBfY1JhdGJ6YnJKN2ZNYVhNUDJBUWQwOEo5MnptMS1wZU9yR3ptRHczM3FQWlJORm5XMFF4RExWT012ZVBWSEF2U29tbV8tQl9C?oc=5",
+      "source": "الوطن",
+      "sourceDomain": "elwatannews.com",
+      "publishedAt": "2026-08-15T10:57:35Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-de94cbedb5005971",
+      "country": "EG",
+      "title": "المولد النبوي 2026 في المغرب.. الموعد وأبرز مظاهر الاحتفال - العين الإخبارية",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9GOXc2ZEhnZ0NEcUEyVURZWnlQR1Rqek1yaWhaU0dhY2NmcjA2MHB3SW5IZmdjZVJhbEp3QmRNTlJsbzJPWjFzNk1FdE9PTDduUHZnMjdEalhWY0tNal9Yb2J3YktyLVU?oc=5",
+      "source": "العين الإخبارية",
+      "sourceDomain": "al-ain.com",
+      "publishedAt": "2026-08-15T09:32:53Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-a57ecd306013603b",
+      "country": "EG",
+      "title": "الخيول والتحطيب يعيدان أجواء التراث الصعيدي لليالي المولد النبوي في الأقصر - بوابة الشروق",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOFFwZDk5UHdBbmJZM2FSbjdpLTdtcW9GWlpSSTVHb3JQX2pXalRFMFBmMmkzdUZFV1lBWU9DT05UbndhcjJtMGVfV3pWNk1iNU5jbzZ5WkpQNkFhR0drQW5jLVRES0hRM2Zwa0pHM1g0b1BGSzZUTHpDOENITEE4TkxuTlJHQkNIa3MwSDNVanBvNW9QOGpVMTNIZ01FdEdiNkVhUkkyMA?oc=5",
+      "source": "بوابة الشروق",
+      "sourceDomain": "shorouknews.com",
+      "publishedAt": "2026-08-15T08:53:54Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-94abcafbc009b4df",
+      "country": "EG",
+      "title": "أسماء لمنور وكريمة غيث تختتمان الدورة الـ14 لمهرجان «أصوات نسائية» بتطوان - أنوار بريس",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1UUHlUQzJXY1pPT0gzeU9MOUU1UWhSZHBCTE1oZE9IVTY2TE9OWmprZ2pFMW01aVdVbldva1kxVE9wMlZz?oc=5",
+      "source": "أنوار بريس",
+      "sourceDomain": "anwarpress.com",
+      "publishedAt": "2026-08-15T07:00:00Z",
+      "query": "مهرجان تراثي",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-aec516b3e7896106",
+      "country": "EG",
+      "title": "حكمه وكيفيته .. الاحتفال بالمولد النبوي الشريف - بوابة دار المعارف",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBBeTlvR2VwLTBPRHFfZXVnQjBqSGp1NFoxaHFqQkpPYmR3UUtCSlM4X3ZXS1F4cGswRWYwVFE5WjA4QWhWaUExa1NMSDZ6ZnphblE?oc=5",
+      "source": "بوابة دار المعارف",
+      "sourceDomain": "daralmaref.com",
+      "publishedAt": "2026-08-15T01:35:41Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-ae83515ac8f7b837",
+      "country": "EG",
+      "title": "دار الإفتاء ترد على 8 شبهات حول الاحتفال بالمولد النبوى.. هل المحبة تكون بالرقص والغناء والموسيقى؟.. من أراد أن يحيى الذكرى الإثنين من كل أسبوع فلا حرج عليه ومن اقتصر على صيام يوم مولده فقط فلا حرج عليه - برلمانى",
+      "url": "https://news.google.com/rss/articles/CBMixgNBVV95cUxOMkJIRVZwd2poa0xrUEw5V1AzUjY5dHFFVjBJRWtQVjJtTVNDLWhzM3pMV0ZkRXRQMjlzUWlyMkVvc2tIakl4Q2lpYzRld1hQN1h1UFM0QnJ3R0UzYmduSDA4OUtFVWJzRVl5eHFjRWRhT2NrTUJHc1BEWTUwaHkxSEgxYUYzbzA0Sl9aQUhleENWbDJMNnphYldVVjhKVjZETkhNd19mUXhndGMzNEt1TGZsTEQ3ZXk4Y1h3bnBvN0NvNWo1NXd6ckpMdnluUGhYbzVCdHdqamdWS2VyVFUtZDlTZ25NNEJ3OUNVZXUtYlJzdzltMDdaQ19vc05TY25jQ1FpMVlCblYxSnAzWDRYd3VSbzI2aExBTlp5cnFtV0RSdjF0dFJVT1hsQ2J3VGE2MGt3SHF3eEJIR1U5M2k1eUhieHNZYUpZckc0TnZVa2FGVWtmVTVORVR0RXRWNEZSbG81QnBqdXdKWXE1azQ0RUpWc3FPSDFqdlhBTHFvUGt1MVE0NGVZVjdWa3ZER2JiM2VpT3hVd1NUT19qV2c2bUFCcVdLRWNJS01LSGNCbG9xSUd1SERhUXl4Z2ZoX0EzTjI5N0JR?oc=5",
+      "source": "برلمانى",
+      "sourceDomain": "parlmany.com",
+      "publishedAt": "2026-08-14T10:00:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-dd275f1f7c6835b9",
+      "country": "EG",
+      "title": "مفتي الجمهورية: الاحتفال بالمولد النبوي «فرح بفضل الله» ومندوب شرعا - بوابة الشروق",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOWJwOG9yVkFVVGkxSmtJRjFMeWFFdnVHVmhDXzZLUFhPV2pRWjdLY1dLS0dLQlkzdDduY2FpRHdZcHlOajgyamhUeGhLR01WZzdtLVhUSzVBMzdBLXpzZVJlR3loSkJCeUNJVU5aOU42NW4yeUl0RDhHWk13amY5dFNleGV4T0hXSDNLVFNKUXBCbkN0dURCRFhOV0tkaXY2akRqR3ZxSQ?oc=5",
+      "source": "بوابة الشروق",
+      "sourceDomain": "shorouknews.com",
+      "publishedAt": "2026-08-14T09:44:16Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-67de355326524703",
+      "country": "EG",
+      "title": "رونالدو وجورجينا.. حفل زفاف شعبي في مصر - العين الإخبارية",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kUDVfQndfUlA4SnlEcFQ4Z1RQUXhVQjNnU3JPSzFFVEZVTHpiZzJLTGF6RkN2WWwxWjgwWUJxMHMyc0g1TkdNRzNDMFVFME9JbXg0cmZKWlRCaFh3SDVvbjlOMmJFSUF1WTBwbUIzRF9kY212LUw4MUplZkc1ZTg?oc=5",
+      "source": "العين الإخبارية",
+      "sourceDomain": "al-ain.com",
+      "publishedAt": "2026-08-13T06:54:47Z",
+      "query": "احتفالية شعبية",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-251b2e1c0bb9f3e0",
+      "country": "EG",
+      "title": "الدريهمي تستعد غداً لانطلاق مهرجان تراثي احتفاءً بموسم التمور وذكرى المولد النبوي - ٢٦ سبتمبر نت",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9fSkJVdlZhQVIwLU9FcXRHMEpxR0h4Q0cwREVYTjNZVDFKNG9va1JEMW1GNnhPM3BGVklVQXp0RXd0U0JkT3o4TURYNmVqQ3l5WjZ3MXhKQQ?oc=5",
+      "source": "٢٦ سبتمبر نت",
+      "sourceDomain": "26sep.net",
+      "publishedAt": "2026-08-12T18:26:34Z",
+      "query": "مهرجان تراثي",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-1dadde472e8846cd",
+      "country": "EG",
+      "title": "المولد النبوي 2026.. الموعد الفلكي وحكم الاحتفال وموعد الإجازة للموظفين - بوابة أخبار اليوم الإلكترونية",
+      "url": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxNQllhUGdQem4wS2c2X05KczBBN2xVaTM5NGhxVV9tbDNvRTdENW5LS1Z4M3prZ2E1c1BLcldyZXM1Tmc3M0RyUlNGSUFzdDQxM0lvcktDc0daeXRtN2lFQkMxZ3BkY1BrWVhtd3d1MWpVRFYyd0l2THg2MmwwREQ1Z21OWmtzMVFzRFZTVnFuZmJrZG16Q09QdElsdFh0UXZDRTFiWDhRbzNBNXk1WUx6Q0ZoWEk4eFZINGhwYzgwTkFvRzZTSWR3Q2V3enVWOXR4TGFQRGVpc1JDYmk0ZE00RGhCczZzN1lucG9mUWVCS1FvM3FSOTVPUDNjQmdqSTB1TzRDYVNOdDR2NzRGYk9qUV8tY1ZjQlJtV054SmVyQm9SbFhuaE4zU2lWZmdBRWlfTHBjbTlEZmNjaXRGSm02RmlvTlVPZHNRd2xyQ2Z6RGJTbkpSNTZsWGJNTmtQRGpySGpXNg?oc=5",
+      "source": "بوابة أخبار اليوم الإلكترونية",
+      "sourceDomain": "m.akhbarelyom.com",
+      "publishedAt": "2026-08-12T08:21:54Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-a9caa2924d8dd3b4",
+      "country": "EG",
+      "title": "الإفتاء توضح كيفية الاحتفال بالمولد النبوي الشريف.. الذكر والصيام وإطعام الطعام - بوابة دار المعارف",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5vX2M0am80Nlk0a0RBbHhfcVdaV3AtQ0M1RlF6SnV1NUlnTWRnR2U3cnY0dVQ2TnRmVmdZVnNYTk9OcVRGajI0RlhZSXBaRlliRnc?oc=5",
+      "source": "بوابة دار المعارف",
+      "sourceDomain": "daralmaref.com",
+      "publishedAt": "2026-08-11T19:44:07Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-62e9fdeb9d1d6e35",
+      "country": "EG",
+      "title": "احتفالات شعبية أمام القصر العدلي بدمشق عقب الحكم بإعدام \"عاطف نجيب\" - المرصد السوري لحقوق الإنسان",
+      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQenAzc0RSNmEyTWcyb005TzNqTlZpWlk1bElocl96SUl3eWZqSGJvWUFDdjJaOEtFN2hheVBOTF9mMTZaZ1RaTWlWdDZhX0xqYTFselJ5WmxWZDNzMVBKSUR3TmNmdEdVYzZzVFU1Q2oyTG5hTXNDQTNHemJseXNTY0MtcGc1TGJXUWoxRG5rbEprVVN4VExXUXc2cnVtT3F0YUc4bnVQSXprSkpoUm85MWtUNl9iNUcwQnRhdGtmOVJ4YmFOTU9uVDZUQ0kyeXlCVXBYYlBVSWlWQzFvQ01udzdhT3hldDNIeGdDbG52dERnZEpVRGdaWVlhS2dwT1ZQeHVhTkc2NllDQWJfdUpQY2dpMmJoS09qN0k3X05qSHNPVWFYakdFd0RveGk0UXlEd0RQcWtKSlQzMTQ4bWFuSnZTcXo?oc=5",
+      "source": "المرصد السوري لحقوق الإنسان",
+      "sourceDomain": "syriahr.com",
+      "publishedAt": "2026-08-11T09:16:03Z",
+      "query": "احتفالية شعبية",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-e89c133a21243926",
+      "country": "EG",
+      "title": "احتفالا بالمولد النبوي الشريف.. قبة الغوري تستضيف المنشد أحمد العمري - بوابة الشروق",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdUxYTmJDSzNNNGJVNUpIQ05ndGpNVnpOS2dNdF9qTHd1Mm93QnQ4YWg0YWZodVhOOEJZVmM0OUU1dWhMRmQ3WktLTUdOU3pCamozWXJjNFdMaGpOd2tQZ1JXU2hyZTl1cnh2VGxjalVjMFpNd1BPZjFNYTZsWHpEREJXSTl6b24xWGZwb3ZOZzQtU2ptZnU4SUVJUlRzVVhSY2RkM3ZQSQ?oc=5",
+      "source": "بوابة الشروق",
+      "sourceDomain": "shorouknews.com",
+      "publishedAt": "2026-08-11T09:13:31Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-d9e0a896f70265e2",
+      "country": "EG",
+      "title": "كيفية الاحتفال بذكرى المولد النبوي الشريف - بوابة دار المعارف",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RSjZvVE1XUk1NbXUzV0NuTkNuQWVYQW91WVlTSThYT2hNZE5TZVFWaXpNMmpIQkgxdDBwaHJSUnhTM1V2dV9uN3RDVU12dVdkOWc?oc=5",
+      "source": "بوابة دار المعارف",
+      "sourceDomain": "daralmaref.com",
+      "publishedAt": "2026-08-11T01:35:27Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-4404f50e15065b2c",
+      "country": "EG",
+      "title": "مهرجان الأطاولة التراثي التاسع يجدد حنين الكبار للماضي - صحيفة مكة",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pbmkxa1h2UHh3UVNwcTRBMDZYNjNYRzFHV3FtYzEwNjg5emdJaXdCWGxndWJKNkhSZDlYRnE4czNoLVk1U1FWRFQtUGhWUXlvYnFUUXFn0gFaQVVfeXFMTllpUXhVWE1GRklJRlFIcERoSkUwVVgwN0wtdzNRZUViUElMdnVFMl9rLTNyVTFHZ016Rm9HUi1YVnZtRVdHVjAzUklOX2xHTHNzMl9LSWp2WXp3?oc=5",
+      "source": "صحيفة مكة",
+      "sourceDomain": "makkahnewspaper.com",
+      "publishedAt": "2026-08-10T00:24:23Z",
+      "query": "مهرجان تراثي",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-e91a768df4ad6577",
+      "country": "EG",
+      "title": "المولد النبوي على الأبواب.. «الإفتاء» تحسم حكم الاحتفال وكيفيته - الوطن",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4Q21HejZzel93RFZvUkpFYlFmdVVxZE1QRGRSNVJjRVZ6ckM1MktuQkx6d1B4U01QVHhYdDUyMzBweU0zbWhsYkg4bmJkREo1RWduemhYY1BWZEp0?oc=5",
+      "source": "الوطن",
+      "sourceDomain": "elwatannews.com",
+      "publishedAt": "2026-08-09T07:00:00Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-4b0b7eb409e51451",
+      "country": "EG",
+      "title": "مهرجان خيال الظل الأول في القاهرة.. إحياء فن تراثي عمره قرون - التلفزيون العربي",
+      "url": "https://news.google.com/rss/articles/CBMi0ANBVV95cUxOUXJGZ0p4MFY2VGU0bmFISDF2TFJYQ0RTX3Rqa21veDZnZGJPSXh1dHpNOU5yOXVMS1lzQlhBTmtZcnlPMFAwMDFBSWdjbVJfWHJPUUExR2RDSlgzaDZmaUhXbkdUZjAwWHNzYnVSeng5SGVvX2V5S1dEWWNVbWxlZ3RQQ184anNYTDlGNHljZmN4cWVWNW4yTTBIRHVXdlVXOWZwOEw1WWdEalBid0RDbUp4WUZjaXFfUzRjbkE4UTFqYU41eUYzQ2FPYUNwSHZOX3RtWGUyNDdJd0J5Tm5pTmticzNMdWUwMnhXVWozTE1MQm1UajEtVGpIYkdhbFQ3V2diOUlUZ2NFcWJvLTBKWDREaUctWmpTb0tfdy1tWEFXMVJibHlWMmFER0VoRzA3c1ZRd0lYamVNQ2FpMUkxeU1CM2M4RS1uVm54UU4wQnYzb3JqUnVfa0xReUlCSGRjUG9KUFNmRlpWU1hUTEVXdTVyR25JX0o5TjNCdm1GZzEyM19OSWhhU0JXSk5kT1Q2R0lCMzVnaERoV2ZkUnVtMkpEVmdkU2NrZk44NGNBMlBfM2RuUEJ3ZkdWUGFrRmQwTUU1Wlk5MXFfTUNCaDdWbA?oc=5",
+      "source": "التلفزيون العربي",
+      "sourceDomain": "alaraby.com",
+      "publishedAt": "2026-08-09T07:00:00Z",
+      "query": "مهرجان تراثي",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-eg-f9deeedad0d57a30",
+      "country": "EG",
+      "title": "مهرجان ثانغ لونغ الثاني - هانوي 2026: ربط التراث، ونشر القيم الإبداعية - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTkxuSzdHZ0ZpQWl2T1V1b2tIYjAzelBNYXN6cEtWTVdGNUxFeU9rYWFsWDdxdmRpZEMzWHRvYy1GTnlZejRpRnYxaG5WM2J1RU93dnBleWpGZTA4TndMSl9ZajBDV0dNY1NObmFUOWNLUkpRQ1NEaDRSSmw2TzRfcGsxUDdNdm5ZZWtxd1paOU1yWTh4YzRfWktESFVzOXJZV0ZXdExCOWYtX0dwSGVjZW5B?oc=5",
+      "source": "Vietnam.vn",
+      "sourceDomain": "vietnam.vn",
+      "publishedAt": "2026-08-17T21:30:51Z",
+      "query": "مهرجان تراثي",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.17,
+      "reasons": [
+        "published by a non-EG domain (vietnam.vn)",
+        "vietnam.vn files regularly (40 stories seen)"
+      ]
+    },
+    {
+      "id": "news-eg-a375e3b1cad02ec3",
+      "country": "EG",
+      "title": "تعمل شركة Hue على تطوير تراثها ومهرجانها الموسيقي الدولي ليصبح علامة تجارية. - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSjgyNDF4Q255azhyaUU5aEtWVURVOUFLa2w4V0RMOEhNcVBKZFh5bTczQkFKS1dORWNuMWo2LWs3OG40Y0d5RG10eDBRNGVGZlpXVGFUWjVpZjRkeUpSSUd0cEtIZ2JtSGx0RTF4X000QWllZ1ZNR2RWZVRMdTFqS0F1eEZkWWRxRGk0OEhvbXU1NVk?oc=5",
+      "source": "Vietnam.vn",
+      "sourceDomain": "vietnam.vn",
+      "publishedAt": "2026-08-16T02:42:40Z",
+      "query": "مهرجان تراثي",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.17,
+      "reasons": [
+        "published by a non-EG domain (vietnam.vn)",
+        "vietnam.vn files regularly (40 stories seen)"
+      ]
+    },
+    {
+      "id": "news-eg-4d5cf86f44f2f054",
+      "country": "EG",
+      "title": "مراجعة واستكمال الاستعدادات لمهرجان التراث الثقافي ومهرجان المنطاد. - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPR2lDa29Pb1o0ZHhyVXdVLVJIMnU1Tl93WXd2RFUyeGJib0ZkTEpzQktfTVpNRGlGRm05V1l2bGdBb25SR1dtWktYcEpHbjRaNGFjNkpRTzVjeFVHUVlWbk9Fb0dVZkNxMTZGa01mdnp2R0luS2VJRm9ONjM3TFp0QlpZbkE0NGNIUUFoSzJlRWZMb2tLNzFqUm9VZVQ5cE5O?oc=5",
+      "source": "Vietnam.vn",
+      "sourceDomain": "vietnam.vn",
+      "publishedAt": "2026-08-14T23:55:24Z",
+      "query": "مهرجان تراثي",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.17,
+      "reasons": [
+        "published by a non-EG domain (vietnam.vn)",
+        "vietnam.vn files regularly (40 stories seen)"
+      ]
+    },
+    {
+      "id": "news-eg-01606eaecf834d2e",
+      "country": "EG",
+      "title": "تستضيف مدينة كا ماو أول مهرجان للتراث الثقافي ومهرجان للمناطيد الهوائية الساخنة على الإطلاق. - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONVBmM1JLQXZMZndMcjFLZTJ3TExiTV9WOEg4NkhCN09LVEJXZ1VhRzFSQUk0dzRNWWRIMS1ROUdaZ3NnVTEyb0hrX1phd1NVWVBublRqRHJ2dUVrclozaW9ZMjdoVDZXcmxIOHJBejlfZnUtRHRiLWlhSnY2RU82VzdySVA0b05XS2o3NHVhdm4wRFJybU45WnlBVlU?oc=5",
+      "source": "Vietnam.vn",
+      "sourceDomain": "vietnam.vn",
+      "publishedAt": "2026-08-10T17:54:17Z",
+      "query": "مهرجان تراثي",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.17,
+      "reasons": [
+        "published by a non-EG domain (vietnam.vn)",
+        "vietnam.vn files regularly (40 stories seen)"
+      ]
+    },
+    {
+      "id": "news-eg-a09c82c1c278af37",
+      "country": "EG",
+      "title": "احتفالية لقطاع الأشغال والوحدة التنفيذية في أمانة العاصمة بذكرى المولد النبوي - وكالة سبأ",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBPWFIyTDlUVEoxNTI3Mk1KOS1nZVNUUDZKZ29GdWw5NW1fallPOXBNTmNoQVlWV3paaFBBTi01MHpJUDVwaUhid1k2OG1Na1E?oc=5",
+      "source": "وكالة سبأ",
+      "sourceDomain": "saba.ye",
+      "publishedAt": "2026-08-18T13:18:31Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.11,
+      "reasons": [
+        "published by a non-EG domain (saba.ye)",
+        "saba.ye seen before (10 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-f4edb24acd68c681",
+      "country": "EG",
+      "title": "فعالية احتفالية للمكاتب التنفيذية بمديرية الثورة في أمانة العاصمة بذكرى المولد النبوي - وكالة سبأ",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5KZ2NXV0ZqZUFYcWdPRVBXNko2Nl9NV1RNMUJLdkJ4MVgtYXlua25GVTJCTmhOVkltczU2eGpZOWlMMFY0ak9SRS1SclkzWlE?oc=5",
+      "source": "وكالة سبأ",
+      "sourceDomain": "saba.ye",
+      "publishedAt": "2026-08-17T18:59:39Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.11,
+      "reasons": [
+        "published by a non-EG domain (saba.ye)",
+        "saba.ye seen before (10 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-08fa4ef7a6073ad6",
+      "country": "EG",
+      "title": "احتفالات بالمولد النبوي الشريف بمديرية شعوب في أمانة العاصمة - وكالة سبأ",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2UjgtelUtQlhFRUJpSGZMb1BJeEpZcG9qbFk3NGNQT1JJc25CN2Uybm5vQjZOeEVSdHFxcEF4OVpMeVVJbHZmTTlpdlJZTVZzckE?oc=5",
+      "source": "وكالة سبأ",
+      "sourceDomain": "saba.ye",
+      "publishedAt": "2026-08-16T21:09:18Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.11,
+      "reasons": [
+        "published by a non-EG domain (saba.ye)",
+        "saba.ye seen before (10 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-eb1743805b0257f1",
+      "country": "EG",
+      "title": "فعاليات تراثية وثقافية وترفيهية في مهرجان يبرود السنوي الثاني - سانا",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFA2TVg2ZGxnek01cEVDTkdJTGdRQUVfVEMxeFl4N2tTTjE4czFxMEpzT2JwbHBJUTBhRzBSS1YzQ3kwN0Zl?oc=5",
+      "source": "سانا",
+      "sourceDomain": "sana.sy",
+      "publishedAt": "2026-08-14T21:04:09Z",
+      "query": "مهرجان تراثي",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.11,
+      "reasons": [
+        "published by a non-EG domain (sana.sy)",
+        "sana.sy seen before (5 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-07a06dfdd03996c8",
+      "country": "EG",
+      "title": "تواصل الاحتفالات بذكرى المولد النبوي في مديريات أمانة العاصمة - وكالة سبأ",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBnXzkzOThyYmQwMHVONFhUeUJONUNfNkxEaFhzMS1mcEViZzlOU2hHTUVvWXJmM1AyUmNDMFI1RWdvakxQUDlxMEJpQVJpS1U?oc=5",
+      "source": "وكالة سبأ",
+      "sourceDomain": "saba.ye",
+      "publishedAt": "2026-08-14T16:42:10Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.11,
+      "reasons": [
+        "published by a non-EG domain (saba.ye)",
+        "saba.ye seen before (10 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-a477ad82203d0a7e",
+      "country": "EG",
+      "title": "مهرجان كرنفالي تراثي شعبي لموسم التمور في النخيلة بالحديدة - وكالة سبأ",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBQU0Q2elVKeTZRamlJa1Y1YmYyVVNxdkY3NUg5SWtJOEx5ZlI5cEpVMXhjQmVzS0hKQ3RRU0NOMlk0UHhXbktYdDJ1YkNVS2JyVEE?oc=5",
+      "source": "وكالة سبأ",
+      "sourceDomain": "saba.ye",
+      "publishedAt": "2026-08-14T15:27:53Z",
+      "query": "مهرجان تراثي",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.11,
+      "reasons": [
+        "published by a non-EG domain (saba.ye)",
+        "saba.ye seen before (10 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-bf97b3501ddef4bc",
+      "country": "EG",
+      "title": "فعاليات تراثية وثقافية وترفيهية في مهرجان يبرود السنوي الثاني بريف دمشق - سانا",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1vOXhzV0pFNHJLNkdRUGJzRjdZZkFkZE5jcWp1UE5rSEJXOUVZTUQ0Y29TYXRsQVh3ajZBVXhZMG1Pc19vaXc?oc=5",
+      "source": "سانا",
+      "sourceDomain": "sana.sy",
+      "publishedAt": "2026-08-13T19:21:45Z",
+      "query": "مهرجان تراثي",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.11,
+      "reasons": [
+        "published by a non-EG domain (sana.sy)",
+        "sana.sy seen before (5 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-0413f9fd4457f71b",
+      "country": "EG",
+      "title": "غداً.. مهرجان تراثي شعبي بالدريهمي احتفاء بموسم التمور وذكرى المولد النبوي - وكالة سبأ",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9UdDRMelFIdUtTMno3bHdQamlMbXNnMExoaWdFZjFqWWNlczZuNzMwdXJ2dGJ3MlNPSThHdHgtckNmeXlWQzV4OGNYMVQwc1E?oc=5",
+      "source": "وكالة سبأ",
+      "sourceDomain": "saba.ye",
+      "publishedAt": "2026-08-12T15:18:36Z",
+      "query": "مهرجان تراثي",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.11,
+      "reasons": [
+        "published by a non-EG domain (saba.ye)",
+        "saba.ye seen before (10 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-04d8801ceeadd7cc",
+      "country": "EG",
+      "title": "احتفالية شعبية في إدلب بصدور حكم الإعدام بحق المجرم عاطف نجيب - سانا",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1TRFVMNTdKYTlaejhJalFhYy1YRHRUUHBVOVZMeEQwQTlJSUE4ZFFENGlJUERLZldzbVdJQ1BDOGVKYkVJ?oc=5",
+      "source": "سانا",
+      "sourceDomain": "sana.sy",
+      "publishedAt": "2026-08-11T20:49:38Z",
+      "query": "احتفالية شعبية",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.11,
+      "reasons": [
+        "published by a non-EG domain (sana.sy)",
+        "sana.sy seen before (5 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-f8904f8b5f859cb3",
+      "country": "EG",
+      "title": "ثقافي / \"أعمال الأمهات قديمًا\" تعيد تفاصيل الحياة اليومية في مهرجان الأطاولة التراثي - spa.gov.sa",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9TTTFLWVFUMGM4Wlo4R1RuZUlPeEJ5RkFUVm5OZ2M4TmNKaHY2TExoQ2ZRTnJzcnBrNXgtYjVsdE5VVmZKRHc?oc=5",
+      "source": "spa.gov.sa",
+      "sourceDomain": "spa.gov.sa",
+      "publishedAt": "2026-08-09T09:45:41Z",
+      "query": "مهرجان تراثي",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.11,
+      "reasons": [
+        "published by a non-EG domain (spa.gov.sa)",
+        "spa.gov.sa seen before (5 stories)"
+      ]
+    },
+    {
+      "id": "news-eg-edfc0867d7f30137",
+      "country": "EG",
+      "title": "أوقاف إب يكرم 648 يتيماً ويتيمة بذكرى المولد النبوي الشريف - الثورة نت",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE01ZmxPdTNhazZ3Q05SSTRTR3haUGJSeUlGblYzVnhSNmRObW5sQVViN2xYc2ZiUXNTcHp0eXRWOTJfSmx1VW9xbVZxcVRqdw?oc=5",
+      "source": "الثورة نت",
+      "sourceDomain": "althawrah.ye",
+      "publishedAt": "2026-08-17T17:14:10Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-EG domain (althawrah.ye)"
+      ]
+    },
+    {
+      "id": "news-eg-45da7f83c2d07fd2",
+      "country": "EG",
+      "title": "مهرجان شعبي احتفالاً بالمولد النبوي في مالمو - Alkompis الكومبس",
+      "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPSlVEWmZCRGJNWHhsbFRLQkxxZ1ZiZDZHQnlVOFZFTGJQQ3VMT1UtYkJhMVVFQ2xVWm1GRDN5elhLLUR0WTM1OE1hYS1tbV96UFpxajhXcGExWmFtTWNSWWJ4c1RyYlZvMHpQUm04azRqYkxnLVNaWExPUDhRa1JTSzYwRDdfdklzMGZaSl9VSjhyLUpfdXh5Y1ZDSkt3MXgtSVV6dkpNbVQ0T3BBeXpUdDZheGhydUp0d2VEMzgzNnFQRWNraWpzQmpobHZ1aVV2aThFaWphdE5FTm9NYUxSYzJMbmJ0aG1UQU8zV3A0TmR4eE85RnF2b0YxVDdDOVlPY2Rsa3ZYQUNDY3IyY3dBckZsV0MwVlBGaWdPOWZoeE5kcDhJYlZQd2gyNVgxYVYwLU5va0NwbW8?oc=5",
+      "source": "Alkompis الكومبس",
+      "sourceDomain": "alkompis.se",
+      "publishedAt": "2026-08-17T14:19:57Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-EG domain (alkompis.se)"
+      ]
+    },
+    {
+      "id": "news-eg-b0fd88428d543b7b",
+      "country": "EG",
+      "title": "مهرجان للتراث الشعبي الأردني في مادبا - وكالة الانباء الاردنية",
+      "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxPd0IzTWRDLXpfU2dKY2JublhkMTluZklNYU54T0p1VnNRSEJjYnNMOWFGU21aQU1jVnpiQ1lsOFNzWmhtalVzWU1FRjJnZmdwZ2JjNDktZzNIWkF3d2VTNUU0SEF1aWJlMUJ6RUx0bTl6YXdrY2hFejNYdFBEc19tQ2lSUjFVcVBreFNaNUpSX0pKeGFuMGItMGg3c0JWQThXMWh4YVdfWlN4ZnhmRU50YWxBTl94OF9oeXBvLXdIakU2clk2cjlQX0V5cGJVMTFMTG9ORTA5cG1QVTBwSXQ5cVpTT1N4WFFBMjEtX0VidE5Tb05aUElOY1FDeTRXWGVfSVVWWVI4emFHU3VVUmlkSFhhMVVwaG9Ra19KUHlmbU1nMU9BbHBMT3BySm00TDhKZU9qZmN2N2gyN2lpUnpwMjVPWkZLY0FOaVlHR3RyUDUtTV9sbW5FRUNPcV9RZGdD?oc=5",
+      "source": "وكالة الانباء الاردنية",
+      "sourceDomain": "petra.gov.jo",
+      "publishedAt": "2026-08-16T18:54:19Z",
+      "query": "مهرجان تراثي",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-EG domain (petra.gov.jo)"
+      ]
+    },
+    {
+      "id": "news-eg-55332d748777b30c",
+      "country": "EG",
+      "title": "المولد النبوي في القيروان.. حكاية مدينة تتوارث الاحتفال جيلا بعد جيل - Assabah news",
+      "url": "https://news.google.com/rss/articles/CBMi9gRBVV95cUxOTWM5eFpLbHA2VlNYUUlqLVlrVGNWTXI0Tkl1VEpEbVBucU1xUEJPZlYzR0VseVZWaWNIWWV2Sk5waG5QS0J5ZmhuRW9SWEtPaW5LMXBOSzY1cTI3ZlJGZjhQMXc0ZmJaTDNnNHZVRlpFazNqOUg3T2ZaakNxLTd3bC04TGJwUGFfY3hHWDQzWGNCS2RDeGItcGluNVpYWEFYbUg2bkEyTGE3NFpLcGpxX0x5RmJuTEUxSlBOa0MwQlQwQURmckxpSTVsYUVzNjloU3gyNDc4X2RXR1cwY3g1b2JjWjlST2VodG5oYXBUSGdTQ1UzM3duM3Q5M0l0eEJhbVY1c05JaC1YNUd1OU5jbG1qckdZSG1xQUhHSXBZeGl2Q3BDempQTXBWOTlMRVpyZ2JNcUZlTi1zOVg5WjF4S1dEamkwWFA2NFZ3U0dFWFRUUm56eE1BTlB2YXJXeWhhV0NJM05lM3djUEpCa1BvYjEyekdXalJmNnBQdTVKSjRTX2tnVDVIOS1RQ29OUjhNaW5UM25RcXFXS1NoR0FqOHdubXp0a0psaUFVcWtTRlJKdzhobG1UZXNwUV8xT1M4dzlXSnkyOXhscFZqbjVjMUVaRzBUS3JlNnQwS21sRVFCRWZHRktvd1BCU1UydHIwVzF5dzN3anpHZEIzSjcybC1lcmhqQWxlM2Rzams4SWlnVWV4bWJyNjdnUC1KeEw3TnZNT0xiVFF4UVk1NTBjX1pSdVhGUTlCMGpieXlleVctbkdkdnpqajhGWkZaZmNSWmFmQ2thaWU0bFM1cXNiajduVTRIUnY2TGY0X2Q0bmR6VUtvRVE?oc=5",
+      "source": "Assabah news",
+      "sourceDomain": "assabahnews.tn",
+      "publishedAt": "2026-08-16T18:25:10Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-EG domain (assabahnews.tn)"
+      ]
+    },
+    {
+      "id": "news-eg-72662ef022c837a0",
+      "country": "EG",
+      "title": "القيروان.. انطلاق الاحتفال بالمولد النبوي الشريف بمليونية الصلاة على النبي - Assabah news",
+      "url": "https://news.google.com/rss/articles/CBMirAVBVV95cUxQLWw0T3I1alNVUmVfYXJuZlViN3haNzhIOE1uZFpnRTFxUXVCSzRhcjVrOWdhTW1hMHFpanhqNzJ1MFZ1OG8xZS1pN3lVUWRXNTAxNXZ6R1hoZmpXVV9xLUNEUkh4SGJoMERTZkVsVVhrNGtiZFNFcFM3SWtWUlVTdDN5ZFFyR3lBMXhTMDRjSmlaLXdaSG43Q2NORFNCWTZ2cGhnSGdYejRqMVg3ZU4zYUVJOS02ZklwZUdwUUpuVFNTbGdYTENWS0dZeEtfUFA0VF9rRm1uTnprLTFvcWlJQko4ZkRJeDAwcEJUanRJdU1OdlAweWdueWZ2cXdmenlyUUlDdWwxMjVVUDZ2YXFTYVYzZnlrT25TdnRRVWlfek40NUF3X18xdDFoWENLcC1YYi1HNjhsbEV6MERDQmgwYWJhRkNuaDlKSUNsUm0zT0NyMldUTHk1cUtsOHZZM2daQ3BIRi1icm16eGZrVWZhdTRCM1RlQzRxaGZlTXM2bkVwUHZsX3NPcE9zTHJYVVZ6SDgycmZidDRieDdwa2dlemFPQVZLVWtOSzlFbGUxNlVTMVdySmdHek5RRFFZMk9CbURwTkFZT2Z1bjRvT2RFYUdaM0s1dTJPY0pINDhpcG42ZzRrR0dHQ1ZMalNsSDlGSG1yMHVUQlVjSTJ1OXdpdFJxSDhpSkhCLUk5NlpTYlpUaHFSRDliUzZkOWFEYW5fUGoxWTNmaktPTExEaDh3U3FTckxkSEFYR0ZrZHVzVnp0WGdGTWJUdmppWXVuZDlUaWxGVmVZR1AwYkRVeDI5STlnRHJjbFFDSjYtWDJhTmFXbEQ4c3VtR2ltWjhwM29fd1BmYnhISU5aNjAxa0dVdFFkLWhvMk1zRENkLU5wNzItRGNMMFFBcFNlZWY?oc=5",
+      "source": "Assabah news",
+      "sourceDomain": "assabahnews.tn",
+      "publishedAt": "2026-08-15T23:15:44Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-EG domain (assabahnews.tn)"
+      ]
+    },
+    {
+      "id": "news-eg-a32e2e1d0fd50eea",
+      "country": "EG",
+      "title": "إمزورن..انطلاق مهرجان صيفي يحتفي بالثقافة والتراث - المساء 24",
+      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE84ZkI4c1lkLWU3azVnRC10ZlJscWJSd1N1NTF4aFdkdS16eko2bVJYck5YMmMwY2VxdTJuTXpma0I?oc=5",
+      "source": "المساء 24",
+      "sourceDomain": "elmassae24.ma",
+      "publishedAt": "2026-08-15T12:24:20Z",
+      "query": "مهرجان تراثي",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-EG domain (elmassae24.ma)"
+      ]
+    },
+    {
+      "id": "news-eg-ff7b0fad785ec082",
+      "country": "EG",
+      "title": "احتفالات بذكرى المولد النبوي بمديرية شعوب في أمانة العاصمة - الثورة نت",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9TOTIxd3VEc0pkVl9nSC1qeGhYR2Q5V2xYeGFTd3JzTFQtT2JrcHJWMDBrb0VQMzFQSUhEeThKU3RqS1YzRjhrU0NrQnhzZw?oc=5",
+      "source": "الثورة نت",
+      "sourceDomain": "althawrah.ye",
+      "publishedAt": "2026-08-15T09:21:39Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-EG domain (althawrah.ye)"
+      ]
+    },
+    {
+      "id": "news-eg-7118683f29097cc7",
+      "country": "EG",
+      "title": "تواصل الاحتفالات بذكرى المولد النبوي في العاصمة - الثورة نت",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE95UTdENHJPMXp6OHlyU0tpdm5adUJBQU14ZnpHeUxwLWwtb1JLZjlKSE9MRTV6THZCUkNWQ0lFOEZrRWdDUmo5M2J1S3dxdw?oc=5",
+      "source": "الثورة نت",
+      "sourceDomain": "althawrah.ye",
+      "publishedAt": "2026-08-14T19:50:40Z",
+      "query": "مولد احتفال",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-EG domain (althawrah.ye)"
+      ]
+    },
+    {
+      "id": "news-eg-4618d56571f3cf07",
+      "country": "EG",
+      "title": "إقليم أزيلال.. مهرجان \"التبوريدة\" يفتح نافذة تراث جماعة \"واولى\" - الألباب المغربية",
+      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNcU11V2hwVnFsV1VGczAwY0p0a1lvOVRlblRQQ2ZCZGNROTkwUHFwSmQtV3JyeHZ2ZEJsX01SXzBpMW9obFF0NnlzNTJTRUF2bWZzdV9Ia1IzbGNXTHdjT1p3N1FUNzBVMHhORzhEY0dLaDA2WWEwbk04R3o1ZmhjdmJvZGxzbTlDMVl4UURlLXk1OE9JUUg5N0NjN2pNRWJFaFY4NFB1eGxIaTVLcmhZLUlZOEhXdC1jUEJLUGdKQUUwMDMzSGxHREdkY0NpcnJFX1RQakgweUpoV0dHRjBXYU9ROEJPLWVkMlh6N05MNlFjSGp6bnpXSk14b29FV3ZQUzlPb2c5Z1oxSlAwSnVQTVNfMEc2MUp3eG84dGxuWUZmODdHUTV0UjUzNWFHOHgwUlcw?oc=5",
+      "source": "الألباب المغربية",
+      "sourceDomain": "albab.ma",
+      "publishedAt": "2026-08-14T15:11:37Z",
+      "query": "مهرجان تراثي",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-EG domain (albab.ma)"
+      ]
+    },
+    {
+      "id": "news-eg-316642afc04bdd66",
+      "country": "EG",
+      "title": "فاعليات رسمية وشعبية تواصل الاحتفال بعيد الاستقلال - وكالة الانباء الاردنية",
+      "url": "https://news.google.com/rss/articles/CBMi1ANBVV95cUxNWFZoc1I1RUl3dFR0aWIwdUQwZ0MwMDh5QzVfNGRiaHFSeUtBZlI3RGd4ajVRaW1ZVHA2UXlBTEtVaDlGUWpHeWdFcWRJcXFDQldFWHBiRmtianBualhnNDBuT2JTMEg1dGxJQ2Y4TDdXZWxTU2NPLVRPcXBKUExBaDFGYk4ta295amFxVjgyRFQzdFVDbnZkaUtjM3c5ejQ2aHE1bEFJQ1djeDBQbWdsbDVmaUJoSEZ4QTNXOE9zaERvWmROajFQWWtfNnJFUE82OGkxaW1EZnRrdGJnVjAzeU1KRUd2dGlJcHVKaUhYMWVWVlBGRjBGdWtBemxGUmoyWGx5Ymd4X1VxaUVVNDZ5NWtNVWpXWXJvLUpuTmNjXzJLaEtGeWpudF83REM2VW52dUFmSUNQZ3U1MGFWcFdydWREOVMtS3R0UEJIWV9NT256ZEVxWHFmeER2UDlUcnBnSWxtbHpIV294bm4xXzczNkkxZmxuTWJzUU90M25EUWVkSjFxdlR5bmJSaXVydE42TXBCbWJ0SmltLU9GWUlaLXQ0OHBhbFIyUmRkcVhlTDluTXhISUZKX3E1eWdTcGhIeE1KX0Jwd05QM2hKZFVqc1hfcWo?oc=5",
+      "source": "وكالة الانباء الاردنية",
+      "sourceDomain": "petra.gov.jo",
+      "publishedAt": "2026-08-14T13:00:05Z",
+      "query": "احتفالية شعبية",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-EG domain (petra.gov.jo)"
+      ]
+    },
+    {
+      "id": "news-eg-493b7644a466a973",
+      "country": "EG",
+      "title": "منزل شاكر تحتضن الدورة الثانية من مهرجان التراث والأصالة بالزوايد - Assabah news",
+      "url": "https://news.google.com/rss/articles/CBMi-ARBVV95cUxPRC1mRnJqYkFoSGh1VldQN0c3ZDhPUmUxLU96Y1pEUXhGY19RQmFRTE42Ymg4Y2ItenZucXU3NF9iSHJlby1zdEEybWxXblBqT2x4YWtUUzg1djlkbmhOR2R0WEtUWHVHZndQalJETVlPVURuM0x2OVl2c0oxSlNvZGRqWW5KaWEzRlh3REdqcU14NVowUzYzQjM5QmZpdmk2NUIzSG1TQ2t1Q1dNMk5PSS1qRWsxMVJfT29YaC0xNHo3Z2hNVnNwQ0lVbENfRVpsMW1EaW8zM2h1bnVMOEsyS1pHM0ktRUh1U2Q4a3dZamMyZkgtRi1vbWRjS1dYUzNqVGRybk5aVE1tUENzMzZmQTFjbEtYWDNGZmdMdHkyT0RmcTlDR2NuM2p5aUxKNVNpeU15aFA0T0ZyUHlTQXFBajRqTDY1S0lvcDJCTWFHbTQtMlNyZVF5VEhMZm1yNFcweERpa0VTMERyOW5MM3JmVnZHWDhzOS1KNXJFbGtqcU1Vb1pPWDJNbFdSMVRpaXdGVUcxLWJCM1FFSDluR2xpM0RKM2czdkNVcVJTNExoMUVoazEzWUVaWmFuRE1aVlBYdFdKX2MyNzhxbkowYmEtWHpHVTFwTC1fSkl2aklrcXExbk1xWGtKbG1HTkp6RkJzTGc4Q0NkaG8tenJIRTdmNzR3T3d2azJ6anlxMHlHWUx3amhqMVlMbUI3dWo4akFiUDlYVms2X2xUTE1pMTV6QjJOOGoxZ3d5eG1PZ1djQ3RGRFZiT2VYblRSdWUyek1jdUlpc1F5enJicktqNnhzaUFZb0FXU3hEU2tkZFlWcU9vUFJGRGhlcg?oc=5",
+      "source": "Assabah news",
+      "sourceDomain": "assabahnews.tn",
+      "publishedAt": "2026-08-13T07:08:39Z",
+      "query": "مهرجان تراثي",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-EG domain (assabahnews.tn)"
+      ]
+    },
+    {
+      "id": "news-eg-b95d8bc2a3c9f5b9",
+      "country": "EG",
+      "title": "فرقة «كركلا» تعيد التراث إلى الحياة في مهرجان فقرا كفردبيان - صحيفة الخليج",
+      "url": "https://news.google.com/rss/articles/CBMi3ARBVV95cUxNTS1PT3FaT1ZUWFFuaFJNWlozaWU4ajZxMHp3MFVOVUhqRzlyWGN0SFVaLWZkbTNabWVMb2hSRjAyWnYyRTg2QVM4UmhZNEZ6VGtFeWRUNElXNUNtaHJveTQ1RXlnUkptSEJHYUE2YWxTRXJlVVZTQjBUQkI0WmNRWkpBMXY4anpaMTk5UWpHaVRJUHpzNUVVclh0X1NLVTBDZ2RMRWRiZHptOXk5SmR4VFNCRnhBWFRDaDBtcGZxUVptLTY5YXU3bzA4NUlCbU0wWXMyMmpmdDBVNjBhMC1xWlcyQUhHUjhodDZ3bkk3QzRGS0w1SzQ0RUNjZnBMSkF6LU1QY0xyV0Z3MTQtbjlxUWYweW1YV2E4X3l4VHduWGRUWTVEVVgwM1huTnFnVk9UUGVJQkt3R2xKNHVmMFFpV2xDajJ2MmFfUXV6cl9lR1VlcWJRdG9MdmVwY0VuUkNaaHBlVVZYbTFqa2hkVjRfZUlpaDE1SG5OcW9aOUFlSVBUV0FpUGdIeW8xN1lxOXZKR2JrelhVVms0Qi1JeU1FZlB0d3BEdWw1dWhSRlg5bVI3UEFiMG1EMmVoZDJMYkdQUU1ZRGlWTU50VjY1Mlk0OXR5ZVZtSkJGVVFEdUtuNENfcHhuUHZpaTJycnNfeW1QMGxOQnM5b013Vm5zRUx1QkY3VXJtcEpzQ2JCeUVBU0RJanFGV3JrNEdGVG9mamt3ZS1Db29hZ0g2b1pOc3ZFMENZZGpQTjNPU3VEM2pHS0wxbnB0MWRCY3hPUjZibV9XVjFGcHNyNV81UzRR?oc=5",
+      "source": "صحيفة الخليج",
+      "sourceDomain": "alkhaleej.ae",
+      "publishedAt": "2026-08-10T16:36:36Z",
+      "query": "مهرجان تراثي",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-EG domain (alkhaleej.ae)"
+      ]
+    },
+    {
+      "id": "news-eg-0b9fac4697241f46",
+      "country": "EG",
+      "title": "​الجديدة.. حركية شعبية وأجواء احتفالية تطبع موسم \"مولاي عبد الله أمغار\" (فيديو) - 2m.ma",
+      "url": "https://news.google.com/rss/articles/CBMi6gNBVV95cUxPaXpLakJ0WmlvVmxrdmx5VHRiWEQwNEg0M19JSkZYSHZCQl9RdU8yVHFpTjl3RzZ6aGJpWjlzaHk3ZmczNEFxZHBvTDdwV3RnZUg0aTdQTlFqdU1zVjNjRGNTSWF5Umh3bkZqb0VLbTNObEt5Y3Eta05ZeVlNRWNnVU5LWGdwYmwwdTRFZWQxSk4tRnVUaWJPRWxLa0hZVkNvV1V4YUlzc0NzTzhVd1FLOUU0NDlDTTVIVVhxX0o1YlpHdW5KLWZGZXhIWUZFcWZwVWRQUjFhZTk5RFVfWU1mZ1ZkV1VhQ2pvZndmaEI0Y09qWFV3MDhqaDlTandnMk1wOGRCcUY3WkJ6NUx1SFpfVVFkMGg1bE9WYUpaVkRtbE1JUmtwYUJ4M0I1al9GMlg4UFpkSk0tZW9mZzdHek01a0NpMERfcVFnZ0YxSlVkVWk5em1CeVdILS1tcFRtQThucWg2MWxBS1ZmNFRTNklpQTAzLTB0U0hXLTNHTC0wRjBZSXdpeGh4NkU0UGI2LVlTV0RwWGlFSWwxMTY2Wlo5eFIwMG9vY2xRTXZab2tsLWlXNGpKNWQ3d3ZpaDBtNDZLRkhfNnJZd1hzY0ZfQnVNQ1FxRC1vVVRBMTBucEwyXzExNk1KMkRLZUxB?oc=5",
+      "source": "2m.ma",
+      "sourceDomain": "2m.ma",
+      "publishedAt": "2026-08-10T10:15:00Z",
+      "query": "احتفالية شعبية",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-EG domain (2m.ma)"
+      ]
+    }
+  ]
+}

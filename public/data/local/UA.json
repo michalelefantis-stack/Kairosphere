@@ -1,0 +1,82 @@
+{
+  "country": "UA",
+  "name": "Ukraine",
+  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "refreshHours": 168,
+  "status": "unfiltered",
+  "count": 4,
+  "reports": [
+    {
+      "id": "news-ua-157b6382cc5ddf8c",
+      "country": "UA",
+      "title": "Панаїр уперше відбудеться у Львові: у Митрополичих садах проведуть грецьке свято - Діло",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNUxveEJ5MmVRaGp0OHdxM1R1Nnczd0U2aTFLTmtTOHczYTB0aTFReG9mZVFVMmxFV0RyeFFqREZEd1BzdG4tQlJpeVlTZHZ0Ri15bmJISDhJcUV1OUZlU2FnOVJZS0hPV1drR1RUZ3N0Qm1HUEF3SUtsNzloaVZOaE1rZWE4Z2hGQU9Bb2ExRHFjb0FtckY1ZVFocnU5bGlJZDU3TnBRempndUx0SElfZnlxMA?oc=5",
+      "source": "Діло",
+      "sourceDomain": "dilo.net.ua",
+      "publishedAt": "2026-08-10T10:25:21Z",
+      "query": "традиційне свято",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a UA domain (dilo.net.ua)"
+      ]
+    },
+    {
+      "id": "news-ua-2decef50051a65f7",
+      "country": "UA",
+      "title": "У Полтаві відкрили традиційне Свято меду: два дні смаків, українських традицій та підтримки місцевих виробників - Департамент культури та молоді Полтавської міської ради",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUHhOaUhWdW9Oc3d2WV9lamx5Rjd0WkI5NjJqb3JUTEc2aGE1dmcyTl93MzNvVXZUV2t6VXhnXy1jQXU0cjl2ZmVhRXh3S3RiTXZtbTA0VUVLVlg0YVBBZ0F1R1ZSbmlaSEFXTmJLY2RxdkJoQjdxRWUtZ1FLYjJLYWtMSzNPNTE3WVpBUHBxN3UyWVRCMDdsbzg5Y0VfckNWbDhvUlQ1UFVvTXJjaWprLXcxdUd5V0xpOERjMFg4TlNXbTZNMHBHM0toMHFybTE4emFteWdoOHRxdHdINkJZ?oc=5",
+      "source": "Департамент культури та молоді Полтавської міської ради",
+      "sourceDomain": "kultura-poltava.gov.ua",
+      "publishedAt": "2026-08-10T08:03:41Z",
+      "query": "традиційне свято",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a UA domain (kultura-poltava.gov.ua)"
+      ]
+    },
+    {
+      "id": "news-ua-b018ed674bc220b1",
+      "country": "UA",
+      "title": "19 августа: церковный праздник сегодня, что нужно съесть, чтобы год был удачным - УНИАН",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOLVdXamZxbEdpdEVsaWhOck5HcG5rSUU5Mkc3MG9MU1hUUjFHSmVfMnhXNHp4ZHBFTEU5cThzQkIxX1JVOTktUVdPLXlzWGJnNUtFOXlSaGVpUnlOVTBYUFVnUnp3R2s1d09sWDhoU1RYeWxla2hQTDNiMjU3R1lXRHRpdEFhVWxMMXdpOUhnUFloY0lDRnYtVmVmaXZ6VFhOclo2VEF4ekdEZU81YTRYVnRwYlJUS09yVVd2NVdTM3VpZERCT3B2cW9n0gHPAUFVX3lxTE5RVHR0MEJvejhLUWNZZWVaTURuejQwcUtMTW0tNDA5Wnc0al9QRUszalduUXl4N1ZNc1I1MXhvZnVhVFc1djduLTd4aWFVNWU1ZWEySkh5NE5lS0NGaUxSNE03a0dQSEgyNUxHUm9wUmNYTFJybTMtT0JnXzVRdkJjUHVoN0lTbnVya2tDOFdfdGZBOHNtR3VlMXFlV2RrNFMzbk9DeGRHZ1V0bW9rYWY5NkNJOTh4Q1Z1NkFvdGpteFJnNkIxY2NFczJIWEF6bw?oc=5",
+      "source": "УНИАН",
+      "sourceDomain": "unian.net",
+      "publishedAt": "2026-08-18T12:50:48Z",
+      "query": "обряд фестиваль",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-ua-4f30852b7717516a",
+      "country": "UA",
+      "title": "Свято меду у Гадячі: програма, ярмарок та концерт - UKR.NET",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBvZ1hjRlcwUTRNTTktVlhRQTlxdi1UaFM4N3RUb0c0UFhRa2Vkd0R6cy1KeGxjRml1YThGWDFJUmVIVWZHRmVXQjIweS1UNUhlWndCRk44a0diLWVEVjhlTjA2a3VjQQ?oc=5",
+      "source": "UKR.NET",
+      "sourceDomain": "ukr.net",
+      "publishedAt": "2026-08-12T07:38:13Z",
+      "query": "традиційне свято",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    }
+  ]
+}

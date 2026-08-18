@@ -1,0 +1,118 @@
+{
+  "country": "TW",
+  "name": "Taiwan",
+  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "refreshHours": 24,
+  "status": "unfiltered",
+  "count": 6,
+  "reports": [
+    {
+      "id": "news-tw-81e057e8569b9e5e",
+      "country": "TW",
+      "title": "2026竹塹中元城隍祭-夯枷解厄-登場-2-500名大小信眾虔心祈福消災納福 - ctv.com.tw",
+      "url": "https://news.google.com/rss/articles/CBMijgNBVV95cUxPaDhSSF9jVWd5MlNzNU80V1pUNVpFNUlWTTZ5blZjdU1WRU4wX2dOa21nOG5EV0U2LXlwZndRQ01sdmhERGEwZ0JGbEZCSUg1dnRVYWliMm5YQ1IyMkFTVWFwUmZ2T1lpa1llck5ZZjhUUE9XWmFKY0g3RHBrRHk3SEVFVHV4TXNxVW5jem9HdlV6Q0FtNzdiRXdjeTRuV3IySWtKdXREYVFxcW1lT0ZtdGN4dnNyYTBwWVNHaEFGeDdZS0RlTUNhODloSFZRbTlqMGNfQnIzY1U1UEpuSjNfam1ZNjdmMzNKSHFsdVFrZ01iM2pIWXNKWnF6N3FhTXl6TTFpZ1l6MllSYUxMRDhPR2VJSTZWQTFyMkJBY2xOVmZkYjQ2NGVDWFlvS0tTWFA0VEowSkpWUmRWZEVSdFlzQnVfQWtncU1jajl0WFdOWE5IemFrN29BODNHdEF1NVRSQjRNSmRXOUQ1b2R6YV9yTmotc2QyVlFIblp4Y3NTWkdUeGo5ZVBhUnp4VmlJQQ?oc=5",
+      "source": "ctv.com.tw",
+      "sourceDomain": "ctv.com.tw",
+      "publishedAt": "2026-08-13T13:25:00Z",
+      "query": "民俗 活動",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a TW domain (ctv.com.tw)"
+      ]
+    },
+    {
+      "id": "news-tw-85a0aeb566b1976e",
+      "country": "TW",
+      "title": "竹塹中元城隍祭「福門大開」揭序幕！高虹安市長：城隍出巡祈願全境太平 - ctv.com.tw",
+      "url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxQVDNaX3J5NjUwd3BXWTVsUnd4dldmTDlyU2V5YVJRaUtHem9ySkh0ZU5GM193Uk5CZ1FjWDEtS1ZJRUxJX0FPcmVfTmpFTUxoa3hRR3F4NndxNk81WjZ4bVBLYko4b2J1cGRqSVMtWURnM3JnVXUwZ2YyaTBfZndwM3VxNHdpNENBOFl0R0RIMXZQUUtidGhjQ3ltRVQtd0lKZjRMb3JMY1lXM0h2aHZ1bFdCSHV0T2dEeUpHbzRPSDJIRDdzVGFPNnQyS3J4Z1BGX0U2c3NpWmhWVVZxd180NEpSTW1JUndreWMwU1dzRU9rc0laMUNvY2FQYVJYb01fbnBaY3pZcmdQbU96c3ZNaEFONWYzVzRXZG05ZTJjWFBlWHdMZnZDMTYzSW9ySlBBWVRlalFodjZYUlU2cktrZE05cnVmMnZSSlJfQ2NZYXRWUThCZENhMGc1cGpsWjhhX29KNjFaallHMnFXTXpnT19IRTFEU3B6Zm1fYldFNGZELXhIX0Y4ZXBfN2xIZjlNQmFlU0VRb29naG9ucmd2Q0NlRWUyb3c?oc=5",
+      "source": "ctv.com.tw",
+      "sourceDomain": "ctv.com.tw",
+      "publishedAt": "2026-08-13T01:45:00Z",
+      "query": "民俗 活動",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a TW domain (ctv.com.tw)"
+      ]
+    },
+    {
+      "id": "news-tw-e4cda1b91c254116",
+      "country": "TW",
+      "title": "民俗月金銀紙減量燒宣導活動 響應金銀紙減燒、減量、減碳、減少空氣污染 - 澎湖e傳媒",
+      "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQUm9GQ3NsWmhMaXJYUDZVSFRvc09Na1F2dVh2NHhENFB5R2drNmRfRzM3dDFBNnJGN1VhRFNlY2JaU3FudmFRNWlVcWNyM3A3TDlNbFZmX3c2X3lsdnlEdlAzSHEwTUNTMHpKU3h6d2w4d0tmQVJfcXBmOTN6Z1hTcnZwb0I3SGlaU1I0X2xwbkhJMDc1Zy04ZC00QW5pam1HWTBVZWFOdzdEWXNQbm9xVGdMMmh2N2h3NEpEMlRQLVBTNzM0X1J0S0ZVbzFwV3hncl9vc0o2RU5YLW9MQTNHdHlxcG5VUGZ3MGJJR0JMRUlEc1pEX2tfcHNtWmlhVWJTalhzSk95MTN4RmxWSTZvOHhYMUxNVjU1VXdWSG1NWnFrejVhOGJVek5wWGlpaFBtUkNGQmN4WFpMUzEwbVdNRnZzQQ?oc=5",
+      "source": "澎湖e傳媒",
+      "sourceDomain": "phnes.net",
+      "publishedAt": "2026-08-16T16:01:21Z",
+      "query": "民俗 活動",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tw-872e2502a5e71c56",
+      "country": "TW",
+      "title": "金門博狀元餅進駐松菸！博伴手禮、線上抽160張機票 - 蕃新聞",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5vcndLR1dEc3I2NE15S0VjbnRzbmNmeWo1WGUyQVhGQlB5cm5WREhTdHNyMTJ0N1FZel9yaVQwaE9GWHg5aklTVUZPOHBSSHRqRVE?oc=5",
+      "source": "蕃新聞",
+      "sourceDomain": "n.yam.com",
+      "publishedAt": "2026-08-14T23:06:00Z",
+      "query": "民俗 活動",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tw-ee3e342389a19af5",
+      "country": "TW",
+      "title": "新人注意！農曆七月能結婚嗎？　民俗專家提醒僅1活動沒受限 | 生活 | CTWANT - CTWANT",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1DaFpCdjBURVN2b3VNZW81cWNlbE4teVBmeGU1cHZXanVaeGJKZUlkSHY3eUN1QVdYbl8ybm5jUGIxQXR0cXYzMWVoM0dYR3PSAVRBVV95cUxNR1FHYjlGZlNKTllLbzUzVjNMRVJoWENOTGVNWWNxZXY4QW9NcnI3UkN1Q3NKdWRhRVR0VGZPY2haaXBXX3NYdGI0UWtaaWFMTnZkNjg?oc=5",
+      "source": "CTWANT",
+      "sourceDomain": "ctwant.com",
+      "publishedAt": "2026-08-09T11:15:25Z",
+      "query": "民俗 活動",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-tw-65c2d730b702174b",
+      "country": "TW",
+      "title": "新竹中元城隍祭\"夯枷解厄\"遶境 高虹安站高台觸禁忌 | 民視新聞網 - LINE TODAY",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tMTJ6bzluWkRBZm55VElYT19HZ0NPcWVLRDF0ZjFyTmRiUlFfYVVsWHNaOGU4VWY5aERzUHFRVW0xZnRVX0x1UWdaSmplRG1HcmRvVFNn?oc=5",
+      "source": "LINE TODAY",
+      "sourceDomain": "today.line.me",
+      "publishedAt": "2026-08-14T04:27:04Z",
+      "query": "遶境 廟會",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-TW domain (today.line.me)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "country": "KH",
+  "name": "Cambodia",
+  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "refreshHours": 168,
+  "status": "unfiltered",
+  "count": 1,
+  "reports": [
+    {
+      "id": "news-kh-ad6ba644d9037d25",
+      "country": "KH",
+      "title": "Toul Tompoung Market Lures Visitors with New Year Events - cambodianess.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZGpoQXlnUnlITG01X3U2OHdmVTZ3WnRRcmJfSEVfTkFFZExQU2g0Mm1BSk5GVDBNRVgzcXN6bG1DVWVFVGVxNjZBVml6dkpySXNYVmJqQ3l4bE40eGdDUXpmanJ1SDlTTEh6NlM0RlY5RmxEUk9PeHNOdGFKNkVWdUJhWHNzNmpWMXYySkRTdHd3eUZDXzFuYg?oc=5",
+      "source": "cambodianess.com",
+      "sourceDomain": "cambodianess.com",
+      "publishedAt": "2026-08-10T07:00:00Z",
+      "query": "Khmer tradition event",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    }
+  ]
+}

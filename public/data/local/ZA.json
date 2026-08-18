@@ -1,0 +1,170 @@
+{
+  "country": "ZA",
+  "name": "South Africa",
+  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "refreshHours": 168,
+  "status": "unfiltered",
+  "count": 9,
+  "reports": [
+    {
+      "id": "news-za-e9929395654d9252",
+      "country": "ZA",
+      "title": "The Dahi Handi Festival - INSIGHTS IAS",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1NcC1SbHpuVHdWMUZ3RTZjMllaXzRFRU92UWR4T0xXZWNjdzZocV9BWl9zZS1TbG0tcTJOX3YyQ2oyNUV3eGRib0R3b1gxYjRfZHRGVHZBd2FQY0gtWEFrTkFWdGVJeXJ6MmwzUjNoN0k2SDJyeVE?oc=5",
+      "source": "INSIGHTS IAS",
+      "sourceDomain": "insightsonindia.com",
+      "publishedAt": "2026-08-17T07:54:57Z",
+      "query": "cultural festival traditional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-za-b71ccafb779664bf",
+      "country": "ZA",
+      "title": "Lanterns, Music and Molten Iron Light Up Rongchang’s Qixi Festival - iChongqing",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSUdGOE5mNmoyWFBZYzd0QU4wajQzTzFqWXQzSzRhV0dxSThPUVFYai0wcmkwNzNwS3NlcW0yZHkzNTZWdUw1T09EdUhaYm84aDE1TF9MbDlwX194dlIwSTVGUktvYU05aE5PREdTNnhad3hvczJ6YkQxdFYtTUx5MWRRTFI2RG1XaS05dWlTdFdlNWZYc09sdDFEVUw0V25zeE83Y2NFY9IBrAFBVV95cUxOXy1leEZTUlNYZnViWVloeGJsMGJmWFkwZkRYODRBMHJzang2c2twSUNDSzNDZE1sTndIZ3FpaTMyeEtNVDJzZ0ZxNXoxX0trbXpCczNHOVFSbXFHT2JnanVmdHhkOHc2SlhQTnZoaDh6NXN3S0dQNGxEZWdnUFpLNlBWY3Z3MVk3ZEduUnJjOGVQQ1N5Tmd3d3pfWDVaTVlWM1YwZ2ktTVNJVUN2?oc=5",
+      "source": "iChongqing",
+      "sourceDomain": "ichongqing.info",
+      "publishedAt": "2026-08-17T04:11:20Z",
+      "query": "cultural festival traditional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": []
+    },
+    {
+      "id": "news-za-fbe871822e3a3ab1",
+      "country": "ZA",
+      "title": "Stockton Obon Festival Invites Community to Celebrate Japanese Culture, Food and Tradition - caravannews.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVlhrM2Z2bFB2RVp0c0htVlVvajlXSEpZZDE2cXpQZUd3WDQ0NGNEZUpzYWVNR2Q5ai1yVlRwVHJYbWd4QlJQeUp1cTB4U1c4cWZjeGdHTzV5TmtELXR5OGZWTGpicXg1ODhtaXRSZW0zajJzQ0pPaHRsdzIzVl91a2Z5eGhzTzdmdWVuNDZiNXJaNFdia0RlWjFid2hoRGNFNlUyN2dtTWNwNzRRd2R3eVMzeU8xSmRXc0l4ZUFxaw?oc=5",
+      "source": "caravannews.com",
+      "sourceDomain": "caravannews.com",
+      "publishedAt": "2026-08-16T19:25:04Z",
+      "query": "cultural festival traditional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-za-402376ad75d9a900",
+      "country": "ZA",
+      "title": "Onam 2026: History, Hindu heritage, traditions and cultural significance of Kerala’s harvest festival - organiser.org",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOV09uWnl1WGVGeU90SWhIaDlDUUR0SWpNM1F2SjAwcXZ5aGt2SGVJemprcGxYdXZ0amJTOUFEanBCalYzaUE5SGs2TWJ2X2M4X0ZVQlhzNTlQY2ZyenNoX2hPMkd5dVc3dHB2WXNjcEtKUmtjYXE3UVVpeTY4OFJWS0wzdVNRZHNOb05tdzE3ZXNzbHFTQTdTbVhYNkJ6ekR2Z1FkY0EyRjJuQW9UU1NBSUdMWmJkRnAyVktJZ3pUR1BIWUpMS2o3SGJlYnIxclEyYl9acFBMN1JnRXozcmc?oc=5",
+      "source": "organiser.org",
+      "sourceDomain": "organiser.org",
+      "publishedAt": "2026-08-16T03:32:21Z",
+      "query": "cultural festival traditional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-za-2901be84e7376c64",
+      "country": "ZA",
+      "title": "Malaysian Princess Ilyana Alia gets married to British racer Christopher Froggatt in a traditional ceremony - Indulge Express",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQejROWE9yYWl5cWFDaGFMNnhCNGc4TUFMZFhoeHcyZlZDMFpiWWVjNzlLU3kwM05zRzJtYm9PX0JTaGZfYlNraFlqME1yQnk1dFB1SEZ2NHA2a1M2UG9COUZwWFhXdEtPM2FpUGo2WTM2YU01WUFaOFpjd0Q2SDhobFJPTU9xLTVqaWMyb0RQaVI3RzlodHQyMFZRR1g2MnNzX1JOdHBwVjZ6VEpld0JkREthdkZqdDd4M21mc3JGd0NmNGt4VklmTzUxZFFZdi1QR2g3Q1JNSEpYTU1kMy0xUVdLalVIQndUQ2V1elc3X3JwdlhSdW5VWW8zWnY3LWFyRFlr0gGQAkFVX3lxTE1YazRNZjlub01va242a3ZOSHA0RllhOHBxQWU0SFlKeXA5alFXTXVxZDA1cm5Ucnk4blBUNWZtMGNJcXpVbDJ4UGJYMGljT09qMVotVC1nbDhIeWdKODVBVlJ0dUFsZ2FfNlBWOXpCdzlZeXJYTFFIOTk1Ykk1VTIyWlk3eGZPMm02NmRoeXhoZ1RSVmdINkJ2MXRuOTZHSGEwYzdsa3ZMZUVHd0Njam9aYXVDTVNIUldJeEJlRTRGckVkSGJVbWlqWDJLMjR3SndyWlQtcWVvVG1EdTEwWmFkOW80WUlPOEF6Q0RrMlNubW5vd0VOako1UDZTbkVFRFRYRTExSmNLSFN1UW5FelNw?oc=5",
+      "source": "Indulge Express",
+      "sourceDomain": "indulgexpress.com",
+      "publishedAt": "2026-08-14T03:34:31Z",
+      "query": "traditional ceremony king",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-za-aa1b93d16ff90d47",
+      "country": "ZA",
+      "title": "A cultural festival to inaugurate France's first traditional Hindu temple arrives in September. - Sortir à Paris",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQMDlpMnF3M3VQZldGQUo2ZEtnb0loUGk0UjR6dVNfYlh4bzFiQ0JVSnhGeGtEcElCMS1TNXJpZkRMemoyMHQzZ244ZV9mRDAwaXp1dlR6eHlUZk1ybjVvSlljWEdIQTlhY0U3YTk1YkswVlJobk95LWQxTXZKdlJNaldCVDhjWDNVSFY4bjZaQjFMdVNIWG5fbFEwVXd1NjZrQmpIT2tNM2RZZDhhSjZtaE5xelFZTmdXd2xESlQwYmJMMjByS005TzhkU0JmaGotRHA0M3ViVjRfckJKZkt4TjU1RXRzTFkyUzRkOXFMLW5feXUxTWVtdEUwaktfUnU1ZnQ0MzRGczZuSGk0WTdoQ013?oc=5",
+      "source": "Sortir à Paris",
+      "sourceDomain": "sortiraparis.com",
+      "publishedAt": "2026-08-12T11:31:16Z",
+      "query": "cultural festival traditional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-za-b379727f576c6f46",
+      "country": "ZA",
+      "title": "Puʻukoholā Heiau National Historic Site celebrating 54th anniversary with free Hawaiian Cultural Festival - Big Island Now",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZy0xbFNZSXZHWmo5OElhaS1uQTRkWENIcXlzSHJCczNnSFJzbi1KTVlnRkt2Y0dSMXhXUGY4S0hmR3NXUDdhQkhsQkZrbXFNRDJ4Yk1vMDFoWVVRdHM3WEJLWWwxMVpEejZoU1h1RjQxRHIweGpMRTlDTWJ6V3B0dzVnRDdYWTA5dzRTNzk2VDk0SGY1dEktRDhycXhRa2xYX2c5RVp0bnh5b2x5OU5GaGMtbDF6czVXUjlQVUNXUWNlNXhfcllPN2JESFdpNTdselhXNV9EMkE4bnROOVFwS3JB?oc=5",
+      "source": "Big Island Now",
+      "sourceDomain": "bigislandnow.com",
+      "publishedAt": "2026-08-09T11:00:00Z",
+      "query": "cultural festival traditional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-za-125cc35df51032b2",
+      "country": "ZA",
+      "title": "Ha Noi world cultural festival aims to become an international rendezvous - Nhan Dan Online",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVVZMcTNoV2dMcS1NMnpBWGJmNjBBRzIxeEhwYjJfbjN3dXROcTJpTDJSbXhzOGNBSWdPQXlnTlpObEN1eHJfUklLRUlEUjRiMU9XemY0clVKRVdnUlZxRG05SHg4MkJ1c1dsNndEcnRWNTB3N25ERUF0R2FoVG82aENqak9qVmlQN29rbW5ac0JwZlNsVHNOMm1DcHFoeFRmN0dBdW54cDFESkpzVVNQSA?oc=5",
+      "source": "Nhan Dan Online",
+      "sourceDomain": "en.nhandan.vn",
+      "publishedAt": "2026-08-11T02:01:56Z",
+      "query": "cultural festival traditional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-ZA domain (en.nhandan.vn)"
+      ]
+    },
+    {
+      "id": "news-za-9e82ac72f18210e5",
+      "country": "ZA",
+      "title": "APGA guber aspirant celebrates cultural festival with Imo community - thesun.ng",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbWgzVXJuLVJreVY0THNuMTRYTEVfMnpBRURIcVkzRS1jRXhtY3hBa2Z5eVI0MTg2ZkRxTTRSRXdSYVR0ZURDZGNXc2RwUW9wUVFmcGRSQzVYdi1DM0d3SnE5M2RpRl9MVEt3cWZCWFdDZkwtaEY4eldkSVpBWXd5YTE0Ui16MjY4TzdmNWc2RdIBlAFBVV95cUxPMGFuSnhmenN0dUtURnl6blM0d1NURmNKZ2VvcF9ZNU51dktwZFZSWGNndG5PemNTRlhvNl9tc2tCOWlfSlZwSGU4M0szZlh2amFUNWpJVWdURWdBYm5QQ0pDbmFXYW9xMEZ6U1JoZlplSXdaQmNBTF81S2R3RnROMUJzRjdScHgtTHY4RUZYRXUwaHls?oc=5",
+      "source": "thesun.ng",
+      "sourceDomain": "thesun.ng",
+      "publishedAt": "2026-08-10T01:58:32Z",
+      "query": "cultural festival traditional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-ZA domain (thesun.ng)"
+      ]
+    }
+  ]
+}

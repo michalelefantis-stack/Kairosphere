@@ -1,0 +1,136 @@
+{
+  "country": "AU",
+  "name": "Australia",
+  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "refreshHours": 24,
+  "status": "unfiltered",
+  "count": 7,
+  "reports": [
+    {
+      "id": "news-au-67d03e4b8f8b2205",
+      "country": "AU",
+      "title": "Minjerribah prepares for annual celebration of Quandamooka culture - National Indigenous Times",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWWZLeVUzaVNfMUdSdW9iWTRKSVFvdVVQeXlqaVlhbkVxb2ZnYmpESXN4TldIUEVLNTNqZ2RvdGVZRE9RTUdKX0hIcGVNYndNZGsydVVsX2Y0Ry13QTdzd0tnVlpSaDctUGFVSFJmZ3ZLQ2lxN3hvUF9pQ3VxYkVHa1VCV3F3RzVCc1pMRGtTbWY3TV91djJ2UnNYaW84bjRFU0o2Wg?oc=5",
+      "source": "National Indigenous Times",
+      "sourceDomain": "nit.com.au",
+      "publishedAt": "2026-08-13T08:45:00Z",
+      "query": "First Nations festival",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a AU domain (nit.com.au)"
+      ]
+    },
+    {
+      "id": "news-au-71bdc6b08b8303df",
+      "country": "AU",
+      "title": "The Holba’ Pishaci’ Film Festival highlights Indigenous Voices in Film - MVSKOKE Media",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQblYzNG1fbzQ1ZE41N01EcjJaaVNhYVlEUGxhNERuZWt3alVxVThxdHZFME1RLUZaeTIyWjJaQXBzZVBzMEo1YTJNU3JBN09oVDZuaVVsZ3NIWUVUd1hOaVpyYUVhTjNsOEN2aHJvQ3UyM05QVWRjaXprQXl2NWt4MW9wQmNVQXZrR29QTVJ2bzlXTFlEZ2lYUV9HZ2FPRUE?oc=5",
+      "source": "MVSKOKE Media",
+      "sourceDomain": "mvskokemedia.com",
+      "publishedAt": "2026-08-17T19:08:31Z",
+      "query": "First Nations festival",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-au-4718265c492ef6bb",
+      "country": "AU",
+      "title": "Seven First Nations Australians tell us their worries and hopes for future generations – video - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQamFjbFJlQnduZ0EtNWZod25ka20tLW9lLVdhTnRqb0xid2tRRTQyb2NoWTl4VEExVnh3NTlLLUJFUGtXbjZud29HancxWkFNZ0c4XzNLV2o3MHBUYXdMVWxybjdaTl9RNGlESHprTDJmcUlGTXhJRWxBZDMyZGs0dGdKMDVLNmhaV1ZwbVBjOGNIYmRDUFF6TmN4WUVVdngwY2x3X2hBMm50VnhhV1hXOGNPdV82UDVHM0VPQ3RaT3FHZ1FFQzA4N3VhR21CZnkwMmNvbnF4Y3FTSWdmY1QzUWQ1ZUZ3ek91?oc=5",
+      "source": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "publishedAt": "2026-08-17T11:59:00Z",
+      "query": "First Nations festival",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-au-dd21d3f9e577a06b",
+      "country": "AU",
+      "title": "UpFRONT Festival of Indigenous Arts, Music and Culture - cp24.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWnNwRjZVcl9RUkhXV1Q1NENRUzNzMWYzbEdwOTdLMThfMWIwQjRtWTBCWl9JUUJlYmJTWG9uclJuNjYweG11OUZZeEtNS19tMjVSY2pCOHV4YW9yRDA1Q2N1N05mN2xpdzIyNkhrdnltb0RJXzRaUWdBc0stLUpSMER5dlFNYTlEV1hHX3JXeUlQRnlEQTlV?oc=5",
+      "source": "cp24.com",
+      "sourceDomain": "cp24.com",
+      "publishedAt": "2026-08-14T16:38:06Z",
+      "query": "First Nations festival",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-au-cd760b6df2e71026",
+      "country": "AU",
+      "title": "Documentary on tribal disenrollment headlines SWAIA’s Get Indigenous Film Festival - santafenewmexican.com",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPVFdTaDlsR1ptQ2NSQmdvaC1wdC1ZelBaaS1GRnVRSk8xZWJTaDhxZ1hoNFVvOURoWkFva1RuSXp0WGJBa052c0tzNmJBdVQtcWFQVEpSV25qR1VDZTRsaXVoS01SNTVjV0kzU1hVbXJGNEhTLWRGdUF1NHlNY3gzcXhSYTdYZmV2YnNOcnFGNHF5UUtzMEE3VFNKSVFOeGt6S1h4QUdkalR4WE82X2RteFg5TWQyS0pqX2lkNV91elFUeEE2eTFBR1QzYlhWeTBxN0ExQmtCOGZCX3daMUh2RzVLN1FJYXVBazdXbzJCcWc2dXBQUEMzQW9QM2xvdEQtTFlNMmhrbHNVemo3SUVlbFdLQWg0N3gx?oc=5",
+      "source": "santafenewmexican.com",
+      "sourceDomain": "santafenewmexican.com",
+      "publishedAt": "2026-08-14T11:00:00Z",
+      "query": "First Nations festival",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-au-7a941d57f1b094b5",
+      "country": "AU",
+      "title": "3 Questions with Filmmaker/Pathways Indigenous Arts Festival Lead Film Programmer Cole Forrest - Santa Fe Reporter",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0teVNtSkFBV2swTzJOTzRTTlhrRW1EbGZQaFZ3VjBOODZLeTh5TkxZWjBIQmNpd3FfNmxYQVJSUWlxUVdMSXQ3c2hvcWFDc0tlLWJJT3h4Qzk4Tng5elhqSkVGcnRieGVzc2dIVDYyLTBJQzBXT3Bjb2VReU4zQQ?oc=5",
+      "source": "Santa Fe Reporter",
+      "sourceDomain": "sfreporter.com",
+      "publishedAt": "2026-08-12T06:07:46Z",
+      "query": "First Nations festival",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-au-eda7c8c40a9f3ca3",
+      "country": "AU",
+      "title": "Indigenous Day more than cultural celebration - Daily Express Malaysia",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcC1OMERVMklja0FGYXlPdnVqZF90VHBZcnpQcURDNVRyaF9BYnpaSEtjWGdHSUxFSDRlempsOHRSTE5HN0NxcTNJWnZkQzZ6ZVpManFULXhtX05LcFFUNGtETkFERHFfbjZtQzdyYzZIcEFramR0dlNpS2pFQWRIOXJHUnowdDdUTzI2RDNOX0V1anR5?oc=5",
+      "source": "Daily Express Malaysia",
+      "sourceDomain": "dailyexpress.com.my",
+      "publishedAt": "2026-08-12T07:11:12Z",
+      "query": "Indigenous cultural festival",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-AU domain (dailyexpress.com.my)"
+      ]
+    }
+  ]
+}

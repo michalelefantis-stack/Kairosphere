@@ -1,0 +1,1922 @@
+{
+  "country": "IN",
+  "name": "India",
+  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "refreshHours": 6,
+  "status": "unfiltered",
+  "count": 101,
+  "reports": [
+    {
+      "id": "news-in-614affbfb44abeb1",
+      "country": "IN",
+      "title": "अयोध्या में शनिवार से शुरू होगा सावन झूला मेला, मणिपर्वत पर होगा भव्य झूला विहार - Next Khabar",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOLWQ1U0VQUVRvWXlxNkpLdm91QmxTSlZWQ054Ymc3cXVROTYwdXlVSjVVdWg1c09iRVNYc0Q3SHQ5STRlVTg3YUR6R1VIeHNkbnBVZlRiRGNxVExHR3ZIbVN2eFZqQi1EVkd6Q2dnMEJkWnJkSVhqOVNsSTFLYW8zQngxdVU4SUdmSXJKUzM3RXB6cTBJV2FJZWNLSEk2N2gyM0ZTNWFac0g0ekJyeHBDZjBCNklBVlZhbUE?oc=5",
+      "source": "Next Khabar",
+      "sourceDomain": "nextkhabar.in",
+      "publishedAt": "2026-08-14T17:55:30Z",
+      "query": "मेला उत्सव",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a IN domain (nextkhabar.in)"
+      ]
+    },
+    {
+      "id": "news-in-123922ef0ba37cb9",
+      "country": "IN",
+      "title": "राजस्थान सरकार से 16 अगस्त को जयपुर में प्रस्तावित ‘असमय’ रथ यात्रा रोकने का आग्रह - ThePrint Hindi",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQkFzQXRzdDFWczZqNDhRSUF6aUFBSE4wVTBSWVVuNFN4WnJ2R2NhSmstUm9TdUtyRDBtNnBFRlZEMWR6Y2pCbkVhOVhyVkwyVmE2MUVDcVdhUklYYUs4YW9ueEZZaFYtb1daS2RqZmxNZXFMVGM0bjQwOUNtQmEyUm1KcHVJT3l3S2FFNEJLMTh2UUFlb1duNks3UzZFNXdsNEZJb1oyRFItQVJHT2dBUk9xc1dTNkdOUWNaODZEeVc3dmJ2R2fSAcsBQVVfeXFMTThkTURscThUMXJianRoLUtwT3g5QjhObzFHUWtlVjJVUjJCMzlLY3NVM1B0Y0o1OWM0dXVSQUgxb1dmaXdjU3dhVlkxZ2M2M01qbFZ5WDhnbFZpQk9ialNSLWRaRXNSWVBlLUpGcTVMVlNERnFqa2o1UVJNa3p6QS1WRzRUMVU3Q1FmWmYyNlJYem5kWFBPT3d2ZzUyXzBHaWI4QkVoeUU1REZWQnNKTFdSaC1TcHhxRzdlMFJTS05xSzBZY3VsUTRIRG8?oc=5",
+      "source": "ThePrint Hindi",
+      "sourceDomain": "hindi.theprint.in",
+      "publishedAt": "2026-08-12T16:18:55Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a IN domain (hindi.theprint.in)"
+      ]
+    },
+    {
+      "id": "news-in-23a5fc360c7b2048",
+      "country": "IN",
+      "title": "कंपिल में सावन के तीसरे सोमवार भव्य शिव शोभायात्रा: आकर्षक झांकी के साथ निकली, बड़ी संख्या में श्रद्धालु हु... - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVnRvWWdIZHJHcjlzUGhZSldpcmJqU3E0SGRscURJR1NiQTQwQUJ6M29yN2JyS0NzclliV2xLbkhIR2dkVl9IZnE4WXZCeTR4OTR4ejhieFJ4SXpGOFBIRGhXQm1nZUZtQy14OUNMUWl1UU1QTW5MZUdlMldWenVnSmlJMmNraEt3Y2xlUzY0YWpWNkhSYUJfelFwaDdZd1R1SWp4cXhxd3lSNUVvc1FnMG5RWW5uQWR2Tmg4bVoweDR3WEp6UmdpU0Q4T3gzRkdLQjFFOExMOUI1bDVaYmVHakJvQdIB6AFBVV95cUxONTI0TnB5THBEc0VxSmJoWEhzQVMzX1NxclZ5eFRMWjdKYjdYbG9tTS1XbmRMZ3Q5cC1pV2tPX2o3TmxpaUNuSV81QzRpS0dYa2tvdEtLSGpib0hlUklmblM0eEJNVjRYb0h1MGJqTHVMZmRBdE9RclA0YW1rNHY5Q3dPNXh6UUJoZFlPc1VsWS1GWk5xTHR4X3JNNGFWc2dDcGNzRl94OFRMQVd0ZDRUNlBaQUFQQ09hZ0JyXzcyRlkybzVZWEVqd0dLdXkwcFhhLTRqZzl0OWpOY0ExeC15YmNmUkN0cWVC?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-18T14:22:22Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-28acb3958ac08c5b",
+      "country": "IN",
+      "title": "मनु राजपूत ने रानी अवंती बाई शोभायात्रा के लिए आभार: औरैया में सर्व समाज के सहयोग को सराहा - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOYjdvVlExMmVUejVoZ0pMWTlnNWRHeDR3T1dvRVg5STZDQ0kzakp3N2lrNzZuU2VYWUYycU9QNmNBN2ZDOTk3OHFvdXdPcTBpZi10YkhaeVkyM1RnYWZObkFhRWFjTTdXd0hJeDdFX09nQmpRQXAtZy1yb2l5ZG5PVkFxR09RU0ltZGtDUVlwTjVIYkFDZmtDRldsVHYxZTNNQW1lcjRhTWYteFNFeFUxX1VPV3lUaUhiUUVPUXNsTl9meTJMeUVtdHIteXBERFhZ0gHWAUFVX3lxTE9STTBNNHhObTROczFFLUhyaTFtWnRwVF9wa01KejZNY1E4bTVHYVZHeXhsTjJjY2hVak9vTG9CR1ExZzRBZ2JDNi12aVhRR3JvZE9LWkFGMXByQ3JzZ2k3dVBpY2RZdzBmcEdwMDdQT1pNcmVHaW1QbnNOa2d1MU5pWDhlRG9ab01GQ0RxMmhiaC1haTdUdlR4Mkx2VTE1cGs3LV9GQzRmbDgyajdyOHExUTJyMzZ1RFJGMmJzMXRncUdCNkRNbGlBQnYxZlh0OUtlNjdmQWc?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-18T11:20:17Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-0ab3b17990c7c713",
+      "country": "IN",
+      "title": "बिधूना में रानी अवंतीबाई लोधी की जयंती पर शोभायात्रा: विधायक रेखा वर्मा की मौजूदगी में निकाली गई - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNVZIZHN1aGpXWkxSSjNVX2hrbEU4SzJVRy1Kb1NhdmFEYURrbmstWG9vNldkQy1EcWdnSnNsNlkzTmpGRnVhZURJM3hkNFFuNUFlUE9uZnc0WF92c1poVE9LY1pRZ2l2clVQZGtkYnh2NnFSTndVZjlSZG4wZElmS285N2VZRnUtNXU1WENBZmdlMHhQa0xYMzI4U2Jxa2NLbTVLZDYtTFhyX08xbG9sT0l6M0FUSXFTZFZvNG1xYnFKblFmVlhhYVJpOFhHbzN1bDVqLUVHMNIB3AFBVV95cUxQRXRuRzBBV3FrWWkwQ1J6dWFXSHZDVlJtZXlLUV9WOHB2SWo2MDFWWjhjZ0RUWDl4cGRsZjJ2UVZkWm9QVGd1SllPNGk4YTBvSFNteXR6Uk5Ec0h6MjBaYmZiNTNFX1dYaVNvcnZ2Q2piazVDek9oQjV4ZDZpQ3ZiblAzRmNMdVAtVWZQN052VzhyNlRHaVc0UWtoaGFoY1ZpWmxqbGNqUGd1dXhEaU1BdG1Vd1VzbWJMVTZDMUN0RGJHR2JuUWRKMDFJVUtJVm1seE5MNS04R005Mll5?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-18T09:47:49Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-f7311c14f09ba2ba",
+      "country": "IN",
+      "title": "जैथरा में श्रीकृष्ण जन्मोत्सव की तैयारियों पर बैठक: यादव मेला कमेटी ने की चर्चा, 4 सितंबर को निकलेगी शोभाया... - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWVpkQ1o5aE1ISnY5bGZQV1pHNWlha1Z1VnROMWYzQTRaZ1RSdERNN1E1VkFrM0VrZGxXUUFSZ281Z00xRFJFQnRmQ1E2WmNWbUU2N3M2b1BGVHpIWWwzSmpLR2JJdUVibkJUNGd2SjdoZzRzRktpM3k3RTdtYUxLMXM2VjhrTXNwdmFIOHZSTnIyZnVSQ3ZoY0xDY2pnOEJMcExXM2d5ZkRCWnU1RlRVMXFyRTA3NXhhazFZbFpMRVJiMVZJcDJBbVdZSWRVTVdYUzdPczNXWWfSAd4BQVVfeXFMTkVIZ0pHRlplV3VWZXRZcHZ1QmlXMzA4NjBWT2lpZHB1M3RhdzVKcjVoZzN5dG9Tam9ZdEdCcTRxcUlWOXpkRVdKck9CQzcyRFpoaHlYM0plby1wZ0YzQlZvUTQ5VDl5LVY4RGl6eG9DUWd3Ui1mZU5GbHJnWEV6czJhRGp2TmpTWjFJdklIazVoM25PeVlQcW5BSGtmQkstOVJnZHFYZzVxQ28zUHE3UmRmaVZJREVRcmlmLUVhLUNLa3FoTkVBWWNLOTl0YllyMEFVWHFXNVhrYV92T2tn?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-18T09:42:50Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-df11e9d85603a01f",
+      "country": "IN",
+      "title": "मेड़ता में शुरू हुआ 522वां मीरा महोत्सव: शोभायात्रा के साथ ध्वज लेकर पहुंचे लोग, रजत रेवाड़ियों की स्थापना हुई - Merta News - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZy12bXlaZHltUXZMN3VCTVFUVHd6djlnSGRBSURTVi1BaHMwTDhoQ0dKWmpKdlJmcTZkTEJobzlodHp2TmpucGtwMVhjSWhoanlNWEZDTUdHZEUzREM3ekI2dE9wa01JbnctaThqSUtIUjNuMWgxS0FjajNQNjNxTnQ0ODBQS2NNTnBVTTJqbmtleDU1Z0c2TlE5ZVFETFgzUll0a3VvOFBDSWo5U0NmeGR5OTVLRm1yYXE0enpoeVhiTUlyVGV5bHBFdnNNMy1uRmpqX3VycXZVX0lq?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-18T09:14:53Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-a3d3c21a74182d07",
+      "country": "IN",
+      "title": "मेड़ता में शुरू हुआ 522वां मीरा महोत्सव: शोभायात्रा के साथ ध्वज लेकर पहुंचे लोग, रजत रेवाड़ियों की स्थापना हुई - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOR0c1ZW1kcGt0VGNoNnUyVGZoOTA1NTJKUU5TRnJqc1plNi1BSTkzOG5nWF9ZVHFtYWZLemgzeGdZbzlGRnJWZGJXd2ZsRVFLcmhUdkFDdHZDX2tacGVNMFZNb0tGRWtTVk9oeDk4b2ZuT19vVWdHdW1MbHd5d0lfMU4wbFBLV1ZsWnNTZFhjWlEzTC1hM0FQSk9ZanFmeERXdEd5OUprODJDYXVqcktrQU9EbGNkVmlGa3V6cUVwNklZczVscU9OTjFLN2rSAdIBQVVfeXFMTmc1UFhJTnU3V3FLVC1BQWNla0h4ZTFoWW1KSTRRVUdqckNINnM4c2NmMTNXMmo2a1B3dkl4TjEwOFc5Y0hYZWRBaExSb2RtVEhlaEkxcUEzcnJKbEpEMWhNVlZIUlFSSDROZlVneWtEdnZVbE1pTExWXzhNb1lMbDRXdjlwTkQxbnlYLWVUNFQwSjBBM1hxX0dsNnZUemhfS3FXZ2lOU3ZXWlZJSDJNOS1lTTh0Z05pbWJTcjlpTDl3dFk0ZWp1NmRCSGNRN3RXVnR3?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-18T09:14:53Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-1aa666696d6e08a7",
+      "country": "IN",
+      "title": "नालपुर के श्याम मंदिर में श्रीमद् भागवत कथा: गांव में शोभायात्रा निकाली, कथावाचक ने महापुराण की महिमा का वर... - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNeC1PdTBPR29sQ1ctTEhyd3ZYMkRydEdOWTl2QzBROS1OVmE2M3VIclRKN2hjaC16RmQ5MWkzT2gwblVqMUg4UTg3Wm1ZNkFWcWF3S295S3JkVm94NGU3a2t5RlZ4ZmhFVWxUY1VoTkVTS2NXWnFPemxlWDRGY3dYamYzaUxZUURvSnNMcm1uWGhuQzRFbXBUYzUzT2dUS2swQ2lQSTBuNVo3RzY2ZDhtOFRkc21WRE40NUZHTUQxdVBVYWpzNnJHVXQtbGNUbklaV01iZkp30gHbAUFVX3lxTFBfOGJCUWdoazN1T3h2eUhlWXY0c2ZMVm5RT0FJQnBkWEo0UUJJb2w1MnBvVGlYVm80WHFFZXQyeDBNVnhUSUc1Nkpib0c5ejNLQXQ3WnNqWmxmN29mbmJxOGlseV85NTdRWkg1cGUzWDNKTmNkYjdoTDB1eTNfUi1uWjFIckdKeXZqUXhRWFdCQzVNTkl2ZDhtcDFnaFUyb3k4eXhIZjBMOEoyRFVJOHBTWWZPNDhQSkJVckNSNHZaUDV1T0h1SG1jaXhqYUFKWGhjQW13UkdFUEpWYw?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-18T09:05:15Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-e964f87e1ba0c32c",
+      "country": "IN",
+      "title": "मडराक मंडल में संत रविदास रथ यात्रा का स्वागत: बूथ अध्यक्षों के नेतृत्व में हुआ भव्य आयोजन - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdWU5YUhRakRsdVg5VE4xaFNkM1FVTFdTNmxiRGh4R1g4T1J6LVZQNF9OZjdIZVRFUnJ0TXVUbEhMUV85TWRVb2RvMHNMMF9tN3dRcGJiZDNlbDdPRzVVaV9HWnZ5TXJxU04wRlZVM0pZYmJHYW55Q0V4WW85SkItc0tNNkNNT3VmTkkteXJPM0lKYkQ1d21kRzgxV2JEa1hyWnl1WHJnMXZGRVpxVV8yMHdQQnVHSXVhVk4xeXd0c0J2b05XMDZfS0xoaFppcEsyX3Y00gHYAUFVX3lxTE13Y3R6LUxGMENqTUN2VzJaNGFDZnlWQk5LUEZaak1vZzNQOVhvTDM5RW9GZk9sVlRLM1N0MXRxenIwR0piUzFfVHpMbWl0ZW9fa204N3p5ZDhsN2djS2JldFRNTnlNTFRPOFl3OHZRalY5UHBzeFhSdldlY3lFRW9Zc3hTd1o3cTNSTlB5V0dtdnhEXzlqMzlocWEwdjh6TkZCMFJkNGZMdmZJLVI3LXI0RXU3OWVVSkVZYThnRWV2dlBhMnZiU3d2NUtQRHMyNnVUOXdGZlBXeg?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-18T08:24:32Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-6f222d1c03342351",
+      "country": "IN",
+      "title": "संत रविदास रथ यात्रा का भव्य स्वागत: अलीगढ़ में विधायक अनिल पाराशर का भी अभिनंदन हुआ - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVF9acFkxZ25ybGJGei1OeVU4UzkyVGcxMTlOTzE2c0FVMHExdi1ET3Q0ZU9pa1o3LWJMcEg5LVVMRW5NNUNVNTJnMXpuYXJtUXVBeTB4MDdsTVNiNldDZFpnc1BRd1VfSlVRcG1CT0dDME5Xd0p4WHhyUGxMSTAySUlBSkNtNTItMko2dmhDS2Q4dWwxX3lEblZWSXZxcld1bUQzM3N4d3BFWTk0TDM4VzVwMUU0RkxKZ1R4eHh3RTBQS1FyTWh6MFNKODh0NWlOZ0gwakl30gHbAUFVX3lxTE1tYnNxMElJN0g5NDVBbHVpYVlmT2xNMlB3NXhvYzYwRFRiZmJTRkpBZHJVR2tFdDVmOF80bUVZSGxCLWhwRUdacFNlRUdaWjJpSzNQekY3R1k0SGdhZWo0ZERxWkRZZTlyQ3pBYnVzQVBldlVFUURHOWVkQU9BQ1YycWZkZFhjd3Q5UnBtYWNBYnJlS25oY1NJaDdjWDIwNGdPcGFYZWdxOUFmVFpRM2YyTlMwOWhnQzFPalpBSlBpaE9tUjE5UU16WEJTNGJESUlhdkI0WUVCOHJUNA?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-18T08:18:41Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-416ecf49bd47ab18",
+      "country": "IN",
+      "title": "बेल्थरारोड में 'संविधान पढ़ो, संविधान पढ़ाओ' रथ यात्रा: भारतीय संयुक्त मोर्चा ने किया जन जागरण अभियान शुरू - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQU0pHTEVTZUFGdG5XLWhrOEU3RzMxRG5HbmVGbmFRaGJUbnY3VDROWm1iLWpiUHBoblM4VGdtRFZpUDhaSDhTS1loT3NKdnNmUVJ4azMteTNjNVl2TXZUVnhlZkJqelJyTWxpU2gxdjFFNTZoM0ZqM0lBLXl2UENoZm1QWWF1ZnIxU0tJSU9ocWsxbFM3ZkFrVGxDMGsycG11RUFFd3B0M2xOX2QtRzBDYnhSSE4yN0FpcURLSExuX1dIZmNfcHNjNFBrNUZRZEZ2a3ZmVkdzRndjQdIB3wFBVV95cUxNN09OUDlVTEZteTZzcFhMcnhPcllwcUNXNXhIemFSRmtMbEdvTVhjM0pHMGhuZllzSG9HNnl3YTRzLVpabFdNZFNaLXBhZ0dRNFdmMkREUE1Nd2RBQTY2RlFnN1dlalMzUmdZUjNvcU1sM1lQUllXazlsZktsZ3hlcndGTzhrdGh6NmVkNWxCRllWc0c3VGxGMjhJQWZ0NmZUTFdBMTBWUEI3a0ZIcDg5N1Y2ZU9wdzRoX3BKbjZ5X0JCMG5aZWN4c28ta2VJS3FZTmFXa1FsMjFZRDVMTlFz?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-18T07:17:16Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-38b1f070957f761e",
+      "country": "IN",
+      "title": "बिलासपुर में तुलसी जयंती पर निकली शोभायात्रा: श्रद्धालुओं ने दर्शन कर आरती की, तीन दिन चलेंगे धार्मिक कार्य... - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMWNRVHZOTzEwOEtzbEJ5cnBYTXBaQnNaMEdXc0Zya21laDIwdnBRQk93LXhRMGRybEJUVnRibXN5RmQ0cWo5LTE2WllBOE1LeTVIX3pyZHVvLXRESHZ1c0pscjIxQUNKVTIteFZaZE5KcUpMN3UzcTdtdkRfOV9kRDNHOVlMN3ZZOXh4N3U3X0YwSGV1clRPVWRPTlNhcE9QdGRuaHZZVUJsRWFkQzdPWWxOcEFXN1p0N0ZsVW5YMjFmNE1veVZKQlBsRXNXbkQyX0pacGd3Z3g2UdIB3wFBVV95cUxOOW1Vc0FFaDFqZkZ5RmNFZm5oWlp2Sy1yUWNRM3g5aXBjSGsxYUE5YmV3OTM5QnJSaTlDbm1BT2RkS1FrTWRtTGZRQlN4MHpvSWxwb3BXeTdlU3lIS3RickJvTGxQRjZBd2c1cTFLbmNNTGE5ZG9NS2ZYdU5ILWV1V2dFUWlsT2dVTzM3TXNYYkNic1BieEtycVRSaUxpZ0JQUHhfSUtadHltb2xCQjhqYUhNZVM3R25ybzBSQklMVUNkb0tCYm9JWHptTGtub3l5ZGx2VW5xV1REOEF3ZGhz?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-18T07:11:22Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-3aa3fe814e695dd6",
+      "country": "IN",
+      "title": "शमसाबाद में अग्रवाल महासभा ने मनाई हरियाली तीज: अगले माह महाराजा अग्रसेन शोभायात्रा निकालने की घोषणा - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQei1BdWhubnFpOENDYzRpUXFOQjF6RTIwSEJLSFhjeGlyTldWWEx5SWlnUVM0X3NZaW5DSXZkWUZ1WUp0VDZ3TTRsUTBHOEUyaFF1VG1OeFJPaFpmSU9BLXRBeDFqb2xvaWdvZWlNbTMwb0g5dHlUd0FZTk02UG5abGg0dV9mVkFIQzFwZXo1bXd4bUlIQWQwejZKVzVkSDRiRUlNQTJ2VTYtdFB1T0RYWTg4WVc5NmhOaDM2eDZVR3djMnVRcVoxNmE3T1ZRQ2YzNWZuVVhfazVTOFnSAeABQVVfeXFMUFd6TnVhdmV0SUQ2c1hwN2Q1bnNDMEM3bFNvTkVnSkxwQXNCVUxXckJlVGQwVmh6dV9vQ1hOaGVEOVNlRmVRb01MNFY4Ui1sVEJYZFlsanhOVkE0dUNYOEZHc01FNEVDVE5sUmlLT3J4RE1wX0JuNjhHcldPNzB6NnBnZVBFSGt2VjVoOElobUtCcUhYUDZ4SUFKb1lOZjhZMjZ0czdRMmNCUUVSaUlWQ1FDcjZuY1FkNm9oRm9zQ0dGekY2OTdlT0VIVWVWT0FYNkN4WDg0bUJmNktYU1dVYko?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-18T07:09:49Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-ea2cd12026b37fd3",
+      "country": "IN",
+      "title": "इटावा में 17 अगस्त से शिव महापुराण कथा: 25 अगस्त को महाकाल पालकी, श्याम शोभायात्रा; 23 को कावड़ यात्रा भी - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOay1hdVZmaXZvSTZkbXJmX01xYlo3SGV6dmRyaHQ4SVh6eVJtTEV5XzB5bnNvUDd6OHRXenJzNjQ4cmhWTkRvQXJDYnUwMXdRbEhET2NSRWdzS0xBclNRakRvY0FIRTlDemdJNG1MR0I2N3BJaTFBVjBGVHlqN3dTa3NfUGJlQWtaSVE1YkdTUUlPX29IRktXX0FtbFhtWktTeWZBdmYtTDZEM3ZWb1QtM0NfMmFjWUtWQ1VfenowaVE4WjQ2dVF4VjNya9IB0AFBVV95cUxQTHVlYmE0c014dE41X2RTR2NNY1piSGo1dDlpM1VfMzZDTmhFVElvZGhQLUV0YVdrd0RiSnZYTnVNYjNBd25MYTBTRGJpRFVRUzZFLTNXeGtpaHgyWi04SzN2R21wLTVNTGlfRHUwR05XMHNMNWJiZEROdVhYLWZ5N3I0WHVxYXlfdV80SnUtamlvbXhBZmlTYjk2aV8yMnZqTWRZcmJMcjNhdVJCcm1EaTBURjE3R3VHMW5mUFdlYUFjV3pIekdrbi0yRXU0N2ZS?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-17T17:30:54Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-6d39e27210ad0cda",
+      "country": "IN",
+      "title": "हजारों महिलाओं ने निकाली कलश शोभायात्रा, आज रात होगा बिहुला विवाह का आयोजन - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxONmRRNWN5OTNrN0l2bG1UUXJRWEEta1cxdS1Gc2RDUzR3aFRQcVJidjRjd3B3S0trZ3FsaUpvSlN4QnByUTlqMUloWFBWN1Fpb1hEbUU5YzlKUWpHZExNRVR3OEdqQWJCdzZZYWJIbjJzMm1BekhSaGZOWjlhZlNZX0NWQmNyZmI3NWczSWgwRFJWY0NOdUo3S0lva25hOU9ieDlsaEJpNUlsOXlzcDNXd0tyak9vM1hjcmsyb0dLNDl2QkhnOWxKZ3FUajVZVGt3TlZiNVNwbmw4X2p1RldfWkJB?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-17T17:15:14Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-0ecdd227e9dc4e2f",
+      "country": "IN",
+      "title": "संडीला में गूंजा हर-हर महादेव: शोभायात्रा के साथ हुआ जलाभिषेक - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaHplSUZ1WnJfUkloZHRxc25tZnlGZ1VFcHNvb18weFRVRDRUdE1sRWNBQjl0VUZlQl9vWndMMnRwUE96UDFacUZhcUlwODNWV184V1JQeU5wTUJSd3NVM2JldzVrTHpkVWV5ZlJaSXIyRHBNZVJtb2tqQzN5V19XTHhqanlBRXdDZndyZHRocXdhYnNCd1VrdmRUN2dkQTRyWGZBekhtam5uNEFwbHBONGQwN2FMQVdLMVUtZ2dadW5paVBLLWVWeDJzaHBoTnI0LVZEY2NaUdIB3AFBVV95cUxPd0NpVGJObEduRzBTVVp1aGxlRkJHV2NBLUt6djgyQ01fcDZGR19QVS1MY1JPWVFRcVNyX19uZVFuSkkxd05XS0NLRGpBUE84LUhQS0Z2QVZPWThMT3JfZzNuNDBsMmE1d01jOEJfbG9NVXJFSGJoMUF6QnFqNjQxWjh2YXVfMU5wTk5UeGtSTjV5YWFFVEZaZW9RMlZXdEtKQW1fRmlMczhBYmV5VU44WTVNeEw3cTZ6eVFyY2dxcHQzU2cyNll1ZnIxdC1pRDJCcVJYLV8xTWhWLUEy?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-17T14:03:05Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-e5dd697d278a1e56",
+      "country": "IN",
+      "title": "महोबा में निकली नागदेवता और भोलेनाथ की भव्य शोभायात्रा: भक्तिमय हुआ शहर, घोड़े और शिव-पार्वती की झांकियां र... - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSjBHRVlBQlZiY1h4bVk1RFZTVVlhckFZeFFGdVpBamxNcGZub1dYVkp0ODM2T3J0SWVxTXpqZEJTT0ZYZ0tIZGN4OVVXbDdiU0M4NVVldWRaZnoyZTZiNFRuX2JQRGY0QnU0NXNrcGtaQklQOHVwdzIwVnRmTDMwRHNtMV9BYzJGWWhwRHBRSnYxT3NPZnNMSjYtYUNYcFpmNGFlUXlyMVZQY3N6a0NLcFJVWXBtQmpnWFU3QVFnS3pKWHRZOUhpa9IBzgFBVV95cUxPU2lVQWljMVVtQWp2OW9wa2tGZ203b0lDU1RLYzdKcS1HaWpjS2w4ak5YM01pWk1YSjJWdlY2dHZwc01uSHV5VWJPM0R3YnhjLU9sVlpkSEtSdm1YM1JZb25Edm04Snd1WGdFQkJjeWI4SkJpbUdTb0dzYmtMZHB0SHI1dFFpY1QtT2ItUU9oSXYya29pY3pENUc0ZkE0TDRxU3NXa0U3OC1ub3hESUtwcG5XSk1ZVHhwQnJoYWhDcXZxV2ppTHh3aEhHZ0pmQQ?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-17T13:29:21Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-481f376ddbed1832",
+      "country": "IN",
+      "title": "हरिद्वार से गंगाजल लेकर बहेड़ी पहुंचे शिवभक्त: शहर में निकली भव्य शोभायात्रा, जोरदार स्वागत हुआ - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObXM4M3pKVzJpUTdNc24zUzNnOXdRbGRLQUNxcWRJZmFRcFMxcU9fQkRPbl83UTUyRzJJUjZOanZYV19SMzBSTjBpcEYxay1fYTFzeHd0QWNIMDFWUWZSS083djZGYkF0dWN2bzN0eFJzcG5IZjdKNkptS1VFZXlKMk5UblFzeHE3c2hreGpUMzFmWFJZTzVVUXVGZHZYYU53Y1NtNnUtVk40T0RtaTRkNWVFYVd4OVNfdkVWdGFuUGwxcG5RXzhDdmQ4S1piRmREdFU1LXluUlUzRi120gHiAUFVX3lxTE1oSkExT0JpS2FybEJ6MWVkR2lHcW5iYjg3MkVhQTZrV0FsM1VncHRFNTlHalI5SjROcDdaT2k2NDllVk05eXEyZWJKc3hjNnd3RkZqRWV6bWJiQ29FS2Y0ME9UTDk3UmVHYTRCMEJkT3R6TS1ZOVNqanVNSFRreDhGMWlMMTk5SkxRRnkzbjBQS2liYUFXMjFaaUFRTTJtWkNLOG5uMDJHT3FzU2VkZG1EenEwTE5paDhVeXM4bHQ2a1A2MHZWZ2tyTk9jaGh0a3UzdFFYUjIxcE5TbE9rQ3IzMFE?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-17T13:00:31Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-2d103c9096499779",
+      "country": "IN",
+      "title": "शिवाड़ में भक्तिमय हुआ घुश्मेश्वर धाम: तीसरे सोमवार पर निकली शोभायात्रा, भक्तों ने की देवगिरी पर्वत की परिक... - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOVWY4YVRTaWpJSDFlNkdyTjRYa2RWRnFySHBQTjVFalptVlYwQm1lSUZ1TWZnbHJhNVFLU3lDT29VZXpEc29DOEdXU2lWT3d0UElBWnljREhiakNzazNzWkJQaXZBeFFnQUtKZVBMTll5NHh5S3pSSVNvWVpKV2FLRU9Mdk1IazBRT2VtbFVLOEotckVoWUI5VUJkMVdKR3BicFF4OWJaNUxqams1THVRaXlHaXRmZ1BFUGtPUEdXNkFGS1V3Q25Nb0JyNk1oaTdXa2pQQWNra2VLdFNCODBHTU1ndkpkZm_SAewBQVVfeXFMUGN6N1Y0SXRsV0NlY3FDWThsMU9vNGZDWG96WFVCZW0wb3FWc2ludER6S0JIVDhma3lVTjRfU3hDbnlUMHJfR190amhkRzIwMzJuZm90Y20tbXdSTVFGX2lTbHF5WHBzWmtQN1A4UFFHVTRCZmtrVnI2YlJxdzF1d1lqSUxJX1RpdFlKTno1a3c2VERTa2JITGpBRGpUbUItSzdzWUZwUVdRN0ZfQ1VRT2pLN2ticEg1eEdzOUd3V2UySkRyQzYzVXRVXzFubVRrbmROMnRUSnNMbmQwV0x2YkUydHZEN3kyMVhpWEw?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-17T12:30:49Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-57a1e49bb277a80f",
+      "country": "IN",
+      "title": "अटरिया से बालेश्वर महादेव मंदिर तक शिव शोभायात्रा में हजारों: सावन माह में गूंजे 'हर-हर महादेव' के जयकारे - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOdlJ6RWhONUk0Z21BMmMwVHJ5TmFHTFo1MmxJRHV1NlNYM2pYYTBES25iZDFXUk1mTXY5MGNXQWg0QzBkbXIxRi1pV0xqVXI1ZkpEd0RJSUZwOGJBaTdkUTdMcXVjbWhVOVdWQWsyeWRhZW9iOFNNQm5lTGRVc1MzU2RxZXNRbXdSTk1zMVJ0RnlmRFp4bjJrYzFaVFA1ZlJDZTV1dGsyOGo0MXFxbU85RXNYcHpfRjhmYTF3V01tN1hQc3hlTEJYSHhSRmJKSVRCSHBLUGVsTjMzR0NSUW1Z0gHkAUFVX3lxTE1QVnMwelNRbjJtZTMyRGt0OGlCSWxnWHFHRGk3djdxVVJQZWJPMHFZV0JRTlZHcWxLMUFRNnpNbEp4N3pNMVhOZWZzWmdoV0l0NUp3VHZ2emlHV2ZWRzE4TDNicy13enVvLTZWR0RGWDI4a0pSNlNJaFBVdEs2dW41ZzhoZVJiaXV5UGhBeDktdnZEeDNTTlliN2FhSVNjWU4ySXYxN0ZwY01qVUwyd0RaandSYjJnQ3IxYWh2MVFtNXpXN3dzaWNTdWF0d0VsV2tmeFQwbUJacGFLN05UeXZfYWZIdQ?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-17T12:01:13Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-0bad525786897123",
+      "country": "IN",
+      "title": "बहेड़ी में भागवत कथा का शुभारंभ: शोभायात्रा में दिखा प्रकृति संरक्षण का संदेश - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOS2xwWVNGYjdzczFpSzVjNWZPYmtsZ0VfdUdqWjRCMWxKOUxDLUdEVXZaU2ZmSkJxOUFsTWNaQTlIbWtLX2M0YzBDRTVmSmNvOTdvMHk0MnV6dlVXZS04UC1ISDg5U0FOYTNzNGxZSmlrZHVXQ204MDRWOWV4VHBZYXA4U3pNdTJ5NmNOTDhaS3dVRVJ2WU5GT0ZFbFdqUGxYTUFoSWd5M3k1SWplU2dFVDhUYTh2ZVZlYm8yWVNOaGk2ejE0S2VuWnhkYVpfYWVVVzcwMzIxQm9uUUpiRE530gHkAUFVX3lxTE5ZelBrYXpvU3lNZHVuWUtTZHdUYzNULXVBVF9Md1F4ZVVrZ1hKRnVkUzdNNjV4akV5MzU1aEwySkgycDc1bTRxVmlIMFpYOEtTRUJ5dC1WbGVXV1FNMzZVN2FDbFdOUkhXQjFsTGdmUTMxcWtVMlNxNmk5bUNOVi1MSkhTVHlRYVFRTDJ0czlVTnlFNUhFSGtsNV9jZFZqRExSLVZfbjZWc0Uwc2pSTThDVmhHY19vcEdmY3QxZENiYl9zc1o5UkF0RUpaLWFLUUNxN216cU5NRWVYVWJyaERRbUtYaA?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-17T11:09:45Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-2e916acce58f29a0",
+      "country": "IN",
+      "title": "गोंडा में झूलेलाल की रथ यात्रा निकली: सिंधी समाज ने उत्साह और भक्तिभाव से निकाली यात्रा - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOQXdOVUdyZ2RHLWN5Mmt0SmUyWmRBcnhJM2ROUW1ZVjRHTzNXT2tfQmlqMEhJTmZBZ3hDZ3ViSlNzbmJ1Zng0MXB6MG5RbU9pb0VJM2VXdjdBbGNCdVBhWFVreXNJUGZKY0k0TGMwSkdwQUhwX3JNZUdKVVIycnN4Z19jZ1VBc3ZYYWhhSUZQMTJsdFlILVI2cllhN1plX2pVbDhxbk5OdElVdW5hZ3F2WEp1NUZ4ak1fczdjMDBuX1NRRDVUazN6WGF3Z2ZaMnY3dE5XUGtkZHFaSGE4aW1B0gHkAUFVX3lxTE8tdmxDSFZDTFF4ME4tak9kT0pNVERqTFlNV1BLb0xuLTFFbFlONmZJajQ4Q0ZhZ2wxWVhfLThxY1liZ0dNVTBXelNsLTdZRUE0SjFmaDBaREtrb0RRTzJxZnJKWEYybkRjbnJLUXhvOWVlVTZXckFQN1pDOG5wR0kwQmlNWGNZRnRxYTVCTWxvVEJEcW5BT09PUERHRGhKZ1Y4WWd1dU1RZnh2Yk4xX3puMFp3ZF9DNmNib0tfeGNzNElNeHh0TGZVZEo3TXdLMWdvMEZwQ05FUDVHbmlha0VrQ2otdQ?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-17T09:34:30Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-953ea1a4d3a0cca7",
+      "country": "IN",
+      "title": "अवंती बाई लोधी जयंती पर फतेहपुर में निकली शोभायात्रा: 'जय मूलनिवासी, जय भीम' के नारों से गूंजा क्षेत्र, कई ... - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPeTVTVmtFaEpoZHpIeW96dkkzWm43WldrOXFDUE13bHduMTczOUVwQ0podjVjZ0Q3cXRieS1zaEJzNWtDZzNBLWdSOFVONDhfZHA4bk94WFdEdG4yTTY3a3o5cXZ5OFR1dUpHYURtTkFsQlA1NkR3Yy1ZV0MtcE8yRHVJSjZxT2E4RFp6NHJncm5aYzhKb0h5NE54dHFLZC1vVVRqR0VHOHVaMTZWQUpvTE9DdDZoeGF1OE5PdUxiVWh4U1ZUQXFXLXlLT0pRN0ViSmR4c1N2a9IB3AFBVV95cUxOV3pDbnBwbmtBcmZoc0JxdWRuaG03elJmclhYcDZMejdqVWhYcGRUT0xhZEx6a2VLZ0tfeFB0Mm9vQlBRLVQ3SlVNZlhvdWg2V09DY3BGSW5MQ0x3VVdaZERjSlo1NUMzWmNhQ2RGbUlaeUVkQU93Ti1TN2tZZnRsZzZ0aXN3SUpDQ1VFSG1WLXNaaEZ2MElzRTNMbGVnd2tMUENWdWViSFFKTlczTm1CVGFqTXRvQ1VreldfaWtIYlFmaDJudVJmTjFwNEd0YUdVaDVvNndrS3dNT2NN?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-17T06:17:37Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-2e5a81479b295f1c",
+      "country": "IN",
+      "title": "संत रविदास रथ यात्रा सरीला पहुंची: नगर पंचायत अध्यक्ष पवन अनुरागी ने किया स्वागत, हमीरपुर से गुजर रही यात्रा - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTTRSekNzaHV1Uk1LZ0F5SFVHWEhKdnRENGpiLUp4WmRKck5kaTdtQmRtazN3VU9zVDQ4Y052bWVWNjNVRDd1MmlMUFVaV2I4XzRvcDNEMV9mbUwyZ1FjVHBaeTJPT21VVGMwT2xjamNmVDZxT3ZOWmlIeWRERWtIWk1FZ0pscExUQm5YLTluek1aMGZIdzVVVEJJU0VQbUI0WlR4UUU3UWZtTks2M1dGaE9CS21wMkZ2SUctX25FUkhxb0F1U2JMY1ZtakttM2FEdmI0NEpPTWLSAd4BQVVfeXFMT3lfMEh6Q0hncWs0SU5HS0ZBQ1laZEFzVGRVRDM5bVo4M0dja3NVOWJYaEE4WlJmX2NuVEtRZzBncVdsUlZmZDNoMWlNUVFlM1oyU1RtZTZUakJSamJ3Z24yTGczUk9RUzgwRm5GNXdhV2FKSGkwOHloLUpGc3U3U1QySDJKN2pndDVrMVR6X2o2c0pUbUJGbHdlWHk4a253VXZGXy11WkpTZ295U01UYlNlbzlqTlpsZFZSU1NZR2FscnRRa1NBWTZSTThNeWoycFlFSk9JWkR0MHp1UkFB?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-17T04:10:52Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-54d9e778c29652a0",
+      "country": "IN",
+      "title": "आलीपुर खेड़ा में वीरांगना अवंतीबाई लोधी की शोभायात्रा: 1857 की क्रांति की वीरांगना की 195वीं जयंती पर आयोजन - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVXYwZi1HbmJnRDgySTZPVlhzRVB0b0I1Tm83ZVVlR1doN1lkNlFyUkY2RXhpYWFVdTRJdG44bzFXdG4xbVdGM0o1RkdHZVVTSVIyTHlfeVphMmZZSVNaMm9oaXJmenFqQmlfQWJlUXRHejc1bjk5NTVXR3hBRnhUQ01meDBnN0RDMjdpLWo0blZ2NE0waWtKQmxoT0tLYnZtSmRITXdVMTdRbnR1MUJCdnp2QUlkXzdOYjB3bm9BNnBxdGhoQ1hZeUc4UnNoTlYtbDlBZk95bEVQWXPSAeABQVVfeXFMT1B2d0s0VzdLR2Q4bzZZOU4xTDlCcXI2LUVvcU0yLTJKZFRvMHpGaDJWdGlMQnJ0YlFuU1BxT29DOXVMZlpqSTlCZ1dneVlyUzRWalhzRVlWRVBPcHJXYllwTUFZRWJHQTl6bDhmbXdHOVJDYlU0VUtlcnlxandEVnZQbGxiVXNKNGN2LWRoa05iYXR6emFScXhMRjV2c2o4YTQzYUFlX2hpZXNnVkx6ZTlKbmpLZnNfa0tMOTdqb0QzSnNCVVVVWXhjam5Zc0l2eTdlVkdGbENYR2RHU2d1Yng?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-17T02:53:39Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-8c50a33d838728e6",
+      "country": "IN",
+      "title": "नागपंचमी पर आज निकलेगी शोभायात्रा - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOc1RsdWpJX1owc3V5OHFwb2pjRWxfTXhQSUg5UWZ3WkRvSGd5LXRxa3dWTVQ3dmJaNXowVVFGNmttNjY4VWpoVDlSOThvQVRBa1JNbzZMLVZ4eEN0VTZSVXZRcW5DWmRyeHhNSFRETVVfalllNzVoTmdydnkwOG1HZktPZjNGcDUyUGFocjFGU3hleUpIZkp1YzBFcWFVMVJtU3JCdDBRbERvVWhFeDdKUXhEYW1Wd9IBuwFBVV95cUxNMVVWM3RQUWtjTkNEcjFueUxHTVN2TW5HalVxQWhqV0E5S19QRmhIR1RJVl9URlF5cW5XU2p4TXRpVzUyVjNxRWdlRWtGQk1LZXVIQUNxTmhzMGJwQUhvVjNzTktlVEZsbGVQOS12anZBYUZTeXJ1RUx6VTE5aTRIZVZaZ210TW1iNmFPY2t0NE9OX2pwYlJQY0ROcy14dWsxYV9GNk9WSl9WNWlBNUQxYVJUbG1NUlVid1Vv?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-17T00:00:00Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-9cb88f291942a6a3",
+      "country": "IN",
+      "title": "संभल में निकली श्रीकल्कि गारुड़ी रथयात्रा: 8 राज्यों से आए श्रद्धालु, विवादित स्थल से होकर गुजरी - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSjlmalFLZFNuRzR3ckRVek9zbjg0WlMtc0tKcHVGSjJieEJNenVlLUxXNlRIbDVFN29aaFMtWWdrRkZtVVRtOFptQ0pzVUE1VzdZU0dVV0lQSm5zbDBOMVM2eGNIX0tyY3BhczZaVVFza25EWXhfRWxSdFdobzJZNHJqTEc2TmVlZ3B0bFR3N2FsUHFFdV9FQVZLTVBCdnlpQ1AzOXFKTUcyTUJGejlRQlJkczJXN1RxZl90eHpTYzBpeW1jaEQzb1JUQTREOWvSAdQBQVVfeXFMTTB5VWh3bkJOczkxQldFeGpJTTVQTW5iSnd2VlhQUXB2bHJveV9VajY4LWVLRnlxNnhEbE45SjRlX1BDNEpMT3ViWmtQZ3N1VW83SVBuMGhnZ3lLZVZnVzJ1WUxsLWlCd1h6WDRwaGpYazI0aVNhU1ROcG5URHpGRDNESkdDcjZIaHFKRHYyZmtFV0FLTFJJTUYtTnpYSHRURmFlZWRWVnR6b08xeHNlLTlHZjFxVmhWU0k3Qk1LSy1VQWZUTU5NMng0Mldvclhqb3B0dS0?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-16T17:59:49Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-46102a94f873042a",
+      "country": "IN",
+      "title": "कमालपुर में वीरांगना अवंतीबाई लोधी की शोभायात्रा निकली: 1857 के स्वतंत्रता संग्राम में उनके योगदान को याद क... - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPandFX2dNVC05amc4NlRGVVk2cVpINUw5dWRLNGgxSXFWaFdaZEpoZk54X1NWX0hfSnBRd2NpOGJGdktxN2ZVWmlFRlk5NDU3T2djc0RNcWFSYnk1eGp1dDJaOHBKbjFPTDQ2bk53Yi1LSHVXSUZZTXMzREpueWZXZlZhTTRiSG91WWZFdFFqcnpzcV84U0lCVUN4NXVlTUE5RS1qb1Nkd1kxeFZhUlFsZTZUMkFxeHV2ektrYkNwdUZZWGZaMUszenpYekkwb0x2ZkxoMVVNUDBCd9IB3wFBVV95cUxONDZveFl6dENoSXhFZFhrT0o2dTV3ek9iRDRaR1FwOGVSeXN0OHFSeU16N2EyRWVPaFFoUHV1MU5sR01BNWJ5dnIzWm1ma3JjVTFsczNQa18zWGU4VnBBTkFxcGZJSEZCR2VXS0hWSUsyLXcwLU1qc1F3VEVmaFh3LUpoZXlNSmRGRUVZeUExcmFmQVYyV1Z2SURoTk5xM1lIRFFxbEtqeDBYbTMtYnliUjVZckg5LTlMaHhrRkpvYkZ4LUVrUXM2MTZ2dmFpaXlmYWpzWko0UmFQV3FLSVhZ?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-16T14:58:47Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-31ae261c509e91df",
+      "country": "IN",
+      "title": "बरौली में संविधान जागरूकता रथ यात्रा निकली: भारतीय संयुक्त मोर्चा ने संवैधानिक अधिकारों के प्रति किया जागरूक - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPYmFQcVR2VGlOQ1ZlbGo3NEZScjF4ck9SUVYxRldXWEtYOXhwYU1QaW45cWVBWkF4aTJOb1hSMjdzR090N25ldy1fT2dwN2tUU3BjX3pUYUp4cUY5Um5HcHMzN1JneG0tUDQ4Ym1RVXQzTkQ4Ymw3QzVmQjVTN19NUkVZN1hmWXEtclIySnZ5SXpLYVcxT2VYY1lRWGVpb0V3MXRwTTZKdzZJVjdMV1NsdXMzNVZ6b1huUnU2OEVCWFlpd3dUa1NpNzE5YnZVZy1YWjRubnZrS3JfRXFnYmVV0gHkAUFVX3lxTE5TVk4wWjQ5Qm9kZ2JISElmdTAtMTZGMXJXZFdiN0xzaEtCbUVEVnMtRVFFbmMxWVE3T0dpR1ZHOFY4Q1lGR2JaUlhSQmV2VHlWaG5WbUZnSDdtNVBpNF9abzRoS0VadmJrQkVnQk40anRIdWp1OHRHRHFkVFhzdjM1X2lwUDR6bGRBOFJWd0JEQ3BjWDJuLXBpRHR4U004LW5GcDk4cHZvTVFtWEprUHJRUnFDTFV1V29VVk1qbk9rQ0R0SlUwQzQzSDIxQkhSekJYVkhRMnJRMU1EUjFTTWdySkxSag?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-16T14:35:18Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-548eea0e55bc6d35",
+      "country": "IN",
+      "title": "संत रविदास समरसता रथ यात्रा उतरौला पहुंची: विधायक रामप्रताप वर्मा के नेतृत्व में हुआ भव्य स्वागत - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVWRNaGN0WVZFMEQwVjFBMmlYYlNyZ3FYSlltUFFIa0QwNzFSNkNWZTd4MFVXM2drRWtLRnFSbWFYU0xVNlI2ZDRXOEkyUlYwNklEU1FYbURoekJldEtKRF9oZ1pCTHE2TG1xMk5kbk80MmhPamx1SjJDb1ZjSjd6QjNvN2JEaUllTTJXd1prODF0d0pOZG1xdUFKOXlaQmZ4R083dWRjOVJYT2VJbFdNa2Jxd19OQkpvOG9BZkYwRkpobi1YSE5XQnB2dG1sSWlk0gHWAUFVX3lxTE1PZ2tWdkpNdGFDOHIycmt2Q3VVa1BkOTRRLVc1WDBZeGNqMFhFNjltSnEtSmNtYzRsTUw2eVFlazRhYWVIdmF2TWZpZ0diMFZCZVIzZTRhRE1wWGxxc3lHNHdaZ1ZuREdOdU5jbklydEx6MG5rZjJ2M0VSRDdfQjV4aUlHalFDUVprdVAzU05rZkl6UDdMZ2FIOEVZZmtWNmhLT2JiSHJQV2RfSHphekxXZlA2ek9JUnhMTWN3U0h4VEtuQVJGS0hlMVNVdWdxQ2pBQUNCSlE?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-16T14:07:20Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-3a2e8bfcbada056f",
+      "country": "IN",
+      "title": "संत रविदास समरसता संदेश रथ यात्रा गांवों में पहुंची: खुनियांव मंडल के गांवों में हुआ स्वागत - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPNjlVUm4tVUdiemw3Z2VUOWsxVGNVTnZUYm4xdXdTMi1saWExU0YwSGlUbTBVQWY5dlVFbUVYOWdFRmJYQTRrM1pDb0J4TXRFSndJZWJPUEJ1LUhka1FBRlZ1VlRtZXVwVS1kME5rSV9rLThPeTl4dVpwbWtBTmVETTZnQURQamtsOTQ4XzJKRWxsWVpQbXlhZE96b3JtQ094Tksyb3VWMnJ1OWpGR3BJQ0RZUVNUeGMzdHg2V1FUZEhqRHBUUUJYNUZyZVloYzB2UjhUNVVfUFlyLUxkdUg2MdIB5gFBVV95cUxNMkw3VkVISmpHWUl6QUdObTNFM1dBcWhPTmtFd1QxeDNYVzRpN2o4U1dubzFMV09BY1ZDTVA3YkVuYk13eEZmWmdibVFaSFhCM1czalU1QWpsMDJpYzVxTGtMR05MOG9GVnNYdVpQOTVmZURPNi16N0pFa3FDazdSM0ZzV1Mxbm9kTWoyelJSUXp6RFUxbUZPdHAzeG42MmpwRkVqYnBVQVdqUFFUVHJEZUtsc1N5Q2wyc2otcThQZzVndUZ3TlFodmx4V09lc2hneXFuMkRYRXNkaENpRFRqS0YzcVVRQQ?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-16T13:44:24Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-e20227243e43fc7d",
+      "country": "IN",
+      "title": "गुमथल गांव में जाहरवीर बाबा की शोभायात्रा: पुलिस सुरक्षा में निकली, ग्रामीणों में दिखा उत्साह - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTG94Skc5ektPNVNSNGliSENvNUpFeEt5MGp2U2g4Y0RiMW1QZXVzZ1Bmdm4tMDlhRzJLbjVoLXBSZkVfdG5CR2pzc1FqdGVzb3RJLUY2LTZ1SGxxMkdtT1pDSDlGNi1xMVhNTXVPbS1nOFdVaVhMU3hZUXRZNmZQOEJ4b25RMG1qTFRjeG1HWlJjLWVMMEJaOHdzdHNoalFHWkFLN2hGOXdRTDNZRkhmcEg4cHVZNm1DLWFqQkY4bEpCdXBHeWN3OUdnYkJvZ1U3bkYw0gHYAUFVX3lxTE1xdzFLWTZ4ZFVjUUdsV1JjZ0F3dXYza1Jzc0xBektGT2xid09mWmgwT3dRZXR0QW0tazJCLUZfWU9ybVVEbklPeVl6YlZTNmxmelc2QnJsMTZkT3A1UUd6WDYwYlA2OUNVYXNjOWJ4S1pIdHRZd29DOVN5Zlp4SmRXXzl5YkRRbVNQV3owRENuRngtLVh4NjZBd2YzUlZkNlAtdlZLUXFEM1M5TmxRamFfeGo5UkhxTFllZi00ak5hRHpUeFJ2SmRNMjItZVNxdWVuMHZJOXpQQQ?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-16T12:35:09Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-56655f1e0f8821e1",
+      "country": "IN",
+      "title": "वीरांगना अवंतीबाई लोधी की जयंती शोभायात्रा निकली: फतेहपुर सीकरी में ग्रामीणों और समाज के लोगों ने उत्साह से... - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOemtKdlMyYklMRGtSMFR5WHFDNnJ4YUZPdEhWQWtVSi10STFudWtMOGs4ZlZBM0djeVFVYmY2a0JwZWJ2cG5XdXVDWlhtTDRfX1lYUVZhQi1OU3VnU0d5aVVYMjdCT2Zrb3ZIejdBTnl0czVqTWdWdTI2U0NZRGpHaVVqdS11MHc0Mzc1dXlZN194MlhucXJrTlNocGFFYkNVRkpfQmdnU3NlWEotNlZkblY5UFA1T3dMelBmRzlNcUJTZzJWMnBvcGFIYjRKV3JnVDIzZ0ZnYmhvNkI3RFhMUGJsONIB6AFBVV95cUxQRXlwMklkMVphSVlFMUZTUWxuRWxMc0dCYk1BaGpWeWtISUVVRkVyb3N3cTM4Vkk0NHlFNUxDT2FSYm1jZWRmSGExSzdFZWM1QXdRdHVrZUdHUGJJWWxBZjV2NTdmWHl0Rkw4MlY2WTRPaURqZTZPSGZkMy1GMDhkMDhUdnBicloxYUxJQU95Qk5VQnJ4OGg5SEZ4aEZ3cC1YVzJ1YnpHM2VESGJBZVZtRlF6V3ZDUU4tWDNDWTdYRkh3MkItNzdHanNUTFhiMlhwY2tYNTRURGppQ2w2MmNLQUYxRE0yaFY2?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-16T11:51:34Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-e9f1c7340c36b1bc",
+      "country": "IN",
+      "title": "चितबड़ागांव के कारो में समरसता रथयात्रा निकाली: गुरु रविदास के 650वें जयंती वर्ष पर संदेश जन-जन तक पहुंचाने... - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPM2ZMYlJCd0FCbmJHd3NkU1Z5UDhtOTBDbGtoUnE5SDZ3REl5eTFnS083ZUIzcmpjTHdvcERHLXZXdkZNQVZMazhvTGs1U3pCX1pVSWh6dTdsOHJMMmJGREhPczBUOExuUUhnWkxDNGktOEtCdHNLRFM5RE82S25qVWR4eUY1OHB3WUoxWUV0OG1qZzI5N1dWX1NpX3VjY05McGxCTmVMemdrRmpSVHgxZS01TG9xR3lQRGpsWFJjRmM3dFUxY05pZkhvUTUxT1lzNEh2emhueWc5T255Nnl6azVPOTnSAeoBQVVfeXFMTUtxR0NoU1NqNFoycno1NjdrNkRQSkVTRG9MYnN4VVpjS3M2dVZOLWxib3dyYlJqVmpOR2FjQ1RCM1dyNkdTbGRKRHpvZDBsNk5nMHdKSWtqYjdNZFFkZmVMOU95amlDQURZWnUwdlZ5Xzh3NUY5clRJNDZScnYzbUllMU5RdUdiMjRBcy1rYVpnVGplUlBhLWlndncwWWRQRXJtQzFqdk55VXQxQk9KOGhIdjBNQTRVNi1FR2d3eXdvNmJQSVVPcVhVZXJmbGlzekNfajktS2k3MHdBZmJGSjBTRmpvX1FqcGxn?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-16T10:17:58Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-6758fddb31344d43",
+      "country": "IN",
+      "title": "जालौन के ऐट में संत रविदास शोभायात्रा: कलश यात्रा और संकल्प अभियान के साथ नगर भ्रमण किया - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQUVdJNnpBVHR5Z0FoemJ1eE9JU3Npa3NnSHAtSHhhWXh5bG10Wjk3N2YxbmxFN1BRclNlTXZnMDZRZ1A5dEhramRzNy1PV1ZOWmc0Qld6am1oU1J2bldmLWYyYTVmTlY2S2VDN01HZzZkdzNkQ0pFRG5XaDFuZFpRajlvTl9GUUo4TEhVQXp2VTgza3V5X2FiM2dpT0lCMzZ1bzJyWUQxWUoxenU4OW9IMWpmcVQ2NWxKUTlzN0hVR1Rya21rZWJNM213czFScFFzV3A2c1FuT1FJR1nSAeABQVVfeXFMUEtNSFFxanNJb2VqOGdNb0N2bmI2QWE2OFVmTDNOdHJYRkdrQWpnbDlwT3JweVA3X0ZqSG82Nng3M3B0QUNmbGxLMHZFUG1GYU9DUFRnNm1YNTdIcEdIdnYteWREcTdwVGMwaHFpYVcwZWV0SjYweXhHYXdYX2tVMENGd2ZXc2lyUEoza3U2b1YtdFc3a01PMWlIMEVobnF1X3dRZ3JTM0tKYi1jc1lyODhIVUVwdTBGamlNY0FURXBBM0RldmR5R1gtZWxiSmJMNFNJOWFHa2RnQ0JXb0o1Qmo?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-16T10:01:32Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-b34393e4a098f969",
+      "country": "IN",
+      "title": "देवरान में रानी अवंती बाई जयंती पर शोभायात्रा: वीरांगना की झांकी बनी आकर्षण का केंद्र, कई युवाओं ने भाग लिया - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOG0xUzEzTFE2M1E5RGplWm53ajF6b2tTMnlMdXZ5LTVhNnBVTF9WVWdZZXhIcmk5enlFazlHODJBa2NndWRzaG5PVHZTbXVuejlsSXhfZzRuMTYyZEtFeEdxTHdONXZzRTN1UG4yQ1RrWTNqSXpfc3owSVVZdkpMaTFJUDBpcnpGWmdheGl1emhsTXRuSHRrc0dSSlpxOW1NSFl1QnU0cEhzOVhuTFFmTWZKeFF6SEtaYzVGRS10M05xdTJPMmh4THBPalREYk9GaVlz0gHYAUFVX3lxTE1ZLTlYR1JDNXp6cVlJMTFwQ0RrUm1wSzZpUC1uQWRfSFp6ck5mZFc3UWE0Z2ZmRlNvVkl0bGF3LWlKQi0xTzJGbndjZEtZV3l4TWRIRXN3WXpJZHJFWld5LUU1U1Z6cGNZcEVRR09xY09IN3MyVFA0R0hobzFwUXhXdTlLekFfWHlDSjI3M3plS1JJalRzQ1Nlb0p4cXlsc0JZZjFqSHlZNG5FWDZFSkJ2QlV0VkZwQm1YRnl4VnVEd1JSOFZkTlFNVk5Gb3FpVmNPVzFtbW5UNw?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-16T09:15:44Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-6b31712a767eaa6c",
+      "country": "IN",
+      "title": "वीरांगना अवंती बाई लोधी की 195वीं जयंती: बुलंदशहर के डिबाई में निकाली गई शोभायात्रा - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQTml4MGlXU3c2VmlsVUE0c1pnUjFLb2ZXYVlZdXh0WWlaRDJ3TWlJci05NzYtU2NTUVRNNWNIVDRHODd2dHdpcXpubE1YVHMxTkUyMVJXdkdHcUhBSmh4d0gyeUJFVGZ2RW9sRWxPMUt3OHM4OS1yd1JoSHRVTkx2YVVtY0V4cGRCOUpmaGlMc25mNFpKY25JdGp6ZTRUSXZMWFQxVkJ1emI0TjV3aWQzV0dJX29Bc1M3aWlvdHdwenJaVkZ1QmhKYTRfc2h5NjRvM1ZJTGhtRXFYZVBCNFlMRGZLcnJQRDU5VWhKVXduNNIB9AFBVV95cUxQM2xIcjc4bFdNQUxUZ2xucXU3Q3lXb3N4RVpxcnNKWnN4UFZmWC1pbWxsT2JheUxkVFgwajNDVUZXcGF6V2ZPdFdSWDlIODZLSGNQWWJ1R3IzTjUwc280UXppb2I2U3F4ZHF0aHRWQ1pkdHNZSFdRYVQ0cGtoWEZYUVF6OExhMlF3ZEJDY2tBVlZFV2JSTDNWc215eVRFQS1vS1VHLU1NZk5CZGZoaFlKdEV4LWlrZVlKSHlXeEJuMDJqdGk0aUJQdk93NUxaZEJacVVHd050WXJBclNLN19QMWx4MGlzOTdqSVprQkxOdXJ3NUlH?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-16T08:50:15Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-dffc80bff0b08186",
+      "country": "IN",
+      "title": "वीरांगना अवंतीबाई लोधी की 195वीं जयंती मनाई गई: मैनपुरी में भव्य शोभायात्रा निकाली, हजारों लोग हुए शामिल - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYXA4bXY3dF9GenZlNlBZVXhXQWtpTEZzOHZsX21fZFM5d21Gbi1faDB0WnBjYXI5WXVQbmhnaHotWFI5bmY5c2M2bG5WNmlrZERGLTRWelk4bTRLQWZmRjFCNG9Bd2oyeTdaeXZod3VJODZwUlJka0xOMjZhYzIwX2poS3JxNlhlYjdwS05lanoxNFpHVzlRRTBUSE44ZVdNODlxNzhwdVUtU3Z1Mnk5Qllob3I2VkpGWFl0cEcxN3ZrU3ROUlc1VWk4VThRbzDSAdQBQVVfeXFMTm16ZEdSWFloZHZrN09ZblBWUDVRNlliczRpZ0RVZWpZQW9fa3EzLTRRclZLdTMxQ0w4cGtUb2VqVGlKbjN1MFd1M1BqNlhzNmNCMHFwMG5ObmhYTl85WVhFUVdjS2hIV1ZnWi0yWVBhRDNUaVhUWUZ5WXJXQUFVZUpTM1dkOFRDcHNkZ2dDaHhKeklYVmQ4bk1LdkF5cERiNUpqblhEc2pqdjNCSkRhdjNaWGd5cE5tZVBfbFR3NWp2UXhXbTZlRF9uSUo2cVBIdjNCeUE?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-16T07:55:52Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-3ed4985806b55742",
+      "country": "IN",
+      "title": "सूजा गांव से हरिगिरी धाम के लिए पैदल रथ यात्रा: जलाभिषेक के लिए पवित्र जल लेकर रवाना हुए श्रद्धालु - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNM2NvR3h3YzBfQUNWNUtYVHBodzZLbG5OM3ZVd3gxeldJYm9RekFpTWJuWTFnbkdEQTJaUHdXMlhfSWR3V09QWWd4c3FxV21vOHJXOEU5ZUpmT0VZSlV5UDRnWGFWajIxWWZ0eEIxbnFMRVI3T0EzRlNvSUQ3SmVoZVA4TUtkRW1yM002NGc3N0hGTzBHR3IzZFZ4eWRYUjUtZ25sNGE1VEdyZlVfRXBYUFJIV3ViUkdmMEpwZDI4amVfQUUwU3fSAcsBQVVfeXFMTzh0UGhaUUJBYnBIMkpXbnBxdXV6Z3JvR056MUtmajJtTFpoZU82TzcydGdNajhFbDVWSVpOWndhNmdZNHdnMnZyNUF2S3J0RjBDVWdjOXlTV09jcTJjZmIySWVmdXpIOFFlREZSVlpBYmVtVno2YWJpanZhN3p4RGQ5TElULUJFVFFsMmJUU19wUXhDWGZiaHN6U2xPOXNnbGxwRzgxbjh6M09qbHZHbWFRNmpQNzVCcEJ2dThFdC1vOF9yeENEQ2hKb0k?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-16T07:45:23Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-94d6d4a0129130e9",
+      "country": "IN",
+      "title": "बलिया में उप्र के पूर्व मंत्री ने किया स्वागत: संत रविदास की 650वीं जयंती पर निकली समरसता रथ यात्रा - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVEdOMVlNSlJOYzRISm9aV0dmZzZNMnNfdXlyaWJHQWFUbXlsbjdwUzhkUEFpNF9WOWVNdkJ4dG9HU083T05CN05RUXY1cnlWRV8yLTlVeVd2a1RJM0tTNzYtR2VBVU5XdGlWNmhpVEU4eWVLTkNySU5GcFNwcXJUQkh2dmRKWi04NTNTNDk5RHNVNGlRLUt5Z2FYdVBlMnZrak9Qd3lYbzZpaDlzSnA4SWpXTUdVNFFzdmFIMTBPNHBIeHVQQ3hzb1hORXJFdE5X0gHWAUFVX3lxTE8yWXJMaERBcGN6QXJCRXVleEpVRXpCa2MyZFZLb2JYdTAxNENZY01KbDQ2U3l2ZjFYZ1RRRU5QeldnWm5FekVEN01DSzdTczJzU1VWN0N4R05Kb3VPX3BLYUdlbUxGblM4a040eGpWb2RCVl9RZ1d1UWt5VmpiUDUweUxnN3lpTkxuenFvbEFEZzVRSTdubHY0WEh4QjlHaVFnVDVGMkxwYy1UY21BNkpHbzNiekt1Z28zRUJuZVVSSWFIU2Y2ZXVteE84ZGlKdEY2WmxZZHc?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-16T07:41:54Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-a324d6654ed302cf",
+      "country": "IN",
+      "title": "बबेरू में कृष्णजन्मोत्सव शोभायात्रा की तैयारी बैठक: शोभायात्रा को भव्य बनाने पर हुई चर्चा, कई पदाधिकारी रहे... - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOV0lvRUFhYUl1Z1ZwY1MyQXp0c2VBd2F3T1dUY2x1UzZvSGJJeDBocm0xUzUwUGFyUmkwTHkwLWVuMldHcUpYamtIanRzX2tROUpRTV8xUTVxNFhjTDA3NWxNNnlCa2JKUGt6ektNc0wxcVJuMzRUdS1aR0lGQkFhYjIyaV8ySlRvZzI4bC1wRUVqRVZRdjgzcWpHUTYxNklrOU9EVjJxVEtvR1dxSWZBTWtXV2R5OUVkTUZXa1hQbFlrZUpjNDdEZ0o5ZFNaRDFMTXYzWS11WU8tVWlaY0tV0gHkAUFVX3lxTE8wYzRVVmtkQ2lCb1lzQVFPVHFqQXVBVHlVVGZyUW5kaWxXQ29YVTBjMU9nV1h2Z0syeWVzd2RvV1lyTGFsZXRfbXB4UkxOTllnWlltSXZVdDM1S3RPOGdSdERDMy1GYzRWYTEzQnNrQ2xvQklLT051MzdYZmd3dTNjVVYxdU5QM2tVRTRQcHRxZWU4R3JxbkJmVzlTU240NWpnOEN0Y1k1UV9QelVTckRNckdSLTY3SmNjT2pESUs0TVE2a3RQMzBjTURNTFlNNlhILUU1Zm5QcXpzV1dJMHhGYTJpWA?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-16T07:38:22Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-aa7c40e77f05680c",
+      "country": "IN",
+      "title": "संत रविदास रज कलश वंदन रथ यात्रा जसनगर पहुंची: ग्रामीणों ने पूजन किया, बोले- विचारों को जन-जन तक पहुंचाना है - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONW1FQkkxekdIRWZpZFFVWWdUSjFRZWVKTUpsdWtLZkdqdmthLTVSN2VZbG9UZERWTGJRNVp0U3lYR1ctNlBQaEhYNHFaSk1qR1hHMW5BM3U2N3NudEFiTUpGVE12NmZuSm1Rd0ZieDJHS0F4U0NwT3lJRDhHRGd6UERKQ3FWcXlaRGYwUjdVOGY4YnVRNGRSMHZaRHQ3RnJTd2xSVGdlOHItMm1mbkpPYmtlblpUQkZUSTF6ak5TUXpocVotZUpheDJFMGduaXNFWmFNNWRCSErSAd4BQVVfeXFMTUlGWmNEeWJoa3lVYzlheDRYczJPVl9RbzlxMUl3dGtQbkt1cEYtZ0gtelVlZVlqeWtMdVpQVmkwLVc5MnM1SGF2c3JYbkluXzlZQWVmUHdLZzJUNmdoRXF3eEE4OXFWQlkzSURLbUlNRE9xR1BIOXBGNkVrWjVQNzhTaUVORC1CTHhoN3R1M2tXNXo1UEhEZW9mMy1vMmNDdFQxSHQ4U3kxTXBEeDFmSk1JR2J2aEpYSnAtREUxUE1lV1lHNFFiR2s0NHBpM2FTY3JETDQ4MDVLaWNSRzVn?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-16T07:31:54Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-862565b8c9b55da7",
+      "country": "IN",
+      "title": "जसनगर महोत्सव और अखंड हरि कीर्तन का 88वां संस्करण शुरू: श्रद्धालुओं ने शोभायात्रा में हिस्सा लिया, 23 अगस्त... - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPR0RRZ0RlV01mRTIwTk01QmpBdGJJYVZhbG9faDhILU1ud0F6ZzJHWGhST0ZMZWdsNzE5TXJBOGVSLVNGM1ItZG16QVVsYmhMLUVrR0tkeFluUDZJMHpCaGVKelFJZkt3SHUzZEFzZWlEUFkwUFp4NzdnYzZNZGhqMTl0d0hYNkktN2NIZnMybEZiOUlMRUFlVHhFOTFzOEIyOEo2WWc4UUNTYTM3a0REdm5Ba3hLLWR6UlpUUHNncUxHRjR3RXB0ZUdSZHpyVTlZakHSAdcBQVVfeXFMTjZqaFd3TGxlbzJxTFZKX0F0VGxkVFhKZG11S3REMnFCLWtYS0hzUEN4OGF0ZC05dFhWQW5uZmU2QkpsMlpJUDFLTjNPVXdnckdRdnJNb25TVDlrcG1LdVN4YUJucnc0Ql9YNnRCZHRzcGtfWVBVWXlfQnZ5bmllRVFSdUFYVTBUSTFCX1dtd0RMREFCNGxHWUlPZHVzeFU2RmJoLThaeTNPQm9BZm55VWo0REk5NFQ3OGhJUkNwZzV6NThjeWtldlNaWVBQQkJFMDNkQ2VqbG8?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-16T06:47:56Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-47b01c565a10e65e",
+      "country": "IN",
+      "title": "जयंती पर ललितपुर में रानी अवंती बाई को श्रद्धांजलि: प्रतिमा पर माल्यार्पण, भव्य शोभायात्रा भी निकाली जा रही... - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNb0g3aTJfd0d0ZDVVNnJnLTgzRGJlazlnYUg1U2ROTmFPV1hkMHFTUnBPbjVNNWFmdnNNNW5HdzdtdjlhWFFobFJCdUl0bld6WU5yYTNZZTZaeWU1VV9pcTdtN25IZW5IS25nXzhqajBLcHdxd1VDX2pYZzNpdjBfaF9YbzhSMEpHSi1GRnd2bVpnOHJSenMzZm5nZzNkb2RKMEJCU2V0eXRQVmE1SjlIX2M1UXRCS0UzQmZ4cUZXLUZRZTVuOFBYc3pMM1I2MGxIWVFQetIB2gFBVV95cUxQTTJkZTlwUWJfRU1WRzlIdk1raGliUTl6M2NybUZ6M0VOS25mdUtfOThGMlV4WEhhekM2N28tN292V3dkekVPVW42WTN6aUhHSHZmQjV3N2loMmg0Y3FuTjI0OERlZGlPWkpXQzRERHZfNmc1SE5JaTJoQmR0cnM4SlNDNzFtU3dSelFvQW5IQ001TVUtTXBOM2V2cExKdTNnOFhMS2xtMkU4MWhXSGlBejZCbGxGYm5hQjNtb2M2N1lxbV9DR184bU5FWURzcnRTZ0haREJJTklZUQ?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-16T05:34:26Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-69f3226d9d073c15",
+      "country": "IN",
+      "title": "जयंती पर ललितपुर में रानी अवंती बाई को श्रद्धांजलि: प्रतिमा पर माल्यार्पण, भव्य शोभायात्रा भी निकाली जा रही है - Lalitpur News - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOV0VGUzJsYUt5M0l3Qm1OVWp6N0NITXlDT3ZIMm5xSnFvOWxzY1FXRkhjcGhvWnNNVFBiOURnTFRoUnFJQl9UY3dMMzVYa1FQZnIzYktfTzU1bmlJb2tFeEhlVE56dlNzalRnNXU3Qi1yRTVYcHozSXRCaWZmRWx1VVBfLXhCTkRrT3p5dnljNFZPei0tbW5lTE9GcHlQQVF3TjFUVFpFMFNOdFA1bDNoeEdzWVlsSC05ZzBlM2w0Q0FmZTlQVHBudlZGdkxobVpBNDlKd1I0NkZZR1J5TWRUZXFIMVM?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-16T05:34:26Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-0a1b87cfec475ca9",
+      "country": "IN",
+      "title": "संत रविदास जयंती मनाई, रथ यात्रा का स्वागत - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUUhKQXJZeUFaMFVnNXZ5QmtTc0VXX25Ba0xlclEwaXRQWXVjdzBpLUUxVE5Fa25KdC1NTUQ5NFdTWFg5eUlLdWhhMV8tWk1XdVlFakpyVFB3WmJaZEFORVlYM1Zja2syMTJXZWtOdlU0X1gyVzdNeng2c3M5WHphUnRUekVQRG5laVdQR3JPRUVQLVBrRnU4MDB4VmlDbDhacnNEWWpDYXViRzVfZFNhQTRla01DTlVoVEwwTDRVNC1ybUZDY2Qwd0dOcmpnZ9IB0wFBVV95cUxPN1E1V0R4eWoyS3RBM2pwR3VCVi05SDlvaDFVRUtqaVVzYk4yU0dZMGtscXFkVkNvY2VpaHlQbktxeDFDZWQ5WjFHZGNYWEFkdzdMYnU3QmtONnVqWlZtZ3hldDgtelBDY2IwNHJodV9adUF0dlRmX2cyTlBzbEx0OFRTTDJ1RFY1VVRiOWE0YlU1UmZkeElYcWtWMU1jMWk2LXZSTVBFenJkc19WWHAxX1NjTmw2N2ZET3g5SWI4M0s5M2lqNHh1QzZzeGRhU0hEWE5j?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-15T22:26:57Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-fa72498cbf8148cb",
+      "country": "IN",
+      "title": "थांवला मंडल में रज कलश रथ यात्रा निकली: बीजेपी के मंडल महामंत्री बोले- 80 सालों में पहली बार संत-महात्माओं ... - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUjlwck9oSHBidnBiZk85STAzeWljRlFibXlMTUN2TzFPSHJnajhiMDdkS3pUMVVHbFhRNHlkM21CTG5mQkc1LW1QN19WN093enhWaTFPbFJrZUFZR2lTQ3B5OEFTUXRqaEVKRi1HNXRUNk1ORzFWY1p0NTFPZHRUU1d0Z0NMWkFsR295TGlMWHN1XzRaNlFTME9UZlQtcG1nYS00dnk4cTFLRko5U2ZpbXJpM19EazYxeTItcXNMdURtdVlNNzExb0FnaTJXMGZRb05BTnJCcV9hQdIB3wFBVV95cUxNTmNaRTVxQXc4WVJjYm5Xdm5CaUNucVZ1eFY0azZHeGtPTDVLQ1ZxZVJpN0lGNGphWHJMU3VfczdGMU13cUpxTjJNYmxYYm9aZ2xVNkRyWHo4eTZVZWd6eW5ORURnM2JzakIwblpOUG1BelUwTGxPcF9FZFJLQTZKV2JOaDhoaEkyTmQxYXhudlhkeGgzd1lmcVRBTWtSLTVwV0ZVT2p3QS0tTXNoak9vYmRObERacXY4XzZtRDlNM1owZGpzdVhwUnV4Zi0wYnlhd2ozZGRDTWJ5bExMM3Fr?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-15T13:17:57Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-72b4c2581fccd6df",
+      "country": "IN",
+      "title": "कुशीनगर के हाटा में निकली शोभायात्रा: गाजे-बाजे के साथ गांव में संपन्न, उमड़ी ग्रामीणों की भीड़ - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQajFZMVZKcjRnazFJVzNJRE5OeEN3M0dBem1IVEtTMmJkWTgtWWlNMnJycHVlTVBrRTJxbzRmQ1A0bVFvcjZqU19ReGl6ZzBZV0hHV0dWa1VEMkFFWmJJOEdRTFdSNnNKdk1vOXA5MjBtdVlQQl9XdWQ0R3hzc09GVlAxV3NEN3lTaklTTU0zb1oyeWN0MmlsVmdOSnAxcHRvQ1ZNYUxIWEVIM3U2Z1FyRENlV0VvTGNnS2N5bmhtOWdKRDVZZjBiTk8xYk9iY2MwdDlTMTR2c0xnLUZ5bThWZVBDT0ZMU2lyU0RoSGQycFHSAfYBQVVfeXFMTktQZUstbzkxR2FybmJvRWlxT2NmNzJIbXZZclpDQ2E0dlNwX09TQnZ1LU51RFRHU3JIeDU1U0czOGVsQWhtdndlVTFjX3M4ZnJ6NWtUUzR3UWFKWk9EOHRsenBTQ3c3cnkwX2RzVVpheXFFWUlzbkF5ak80ZEZXeUxXUlUxTEY0eFVpcE9JR0RodjRDSDlFX01WZlpGMGFIdU5adG1kTDVESGVHUDVDVjlwV0tFaUMyQm1PN3QwRnUwbWUzS0xtT1B0TFBFTzl0aDhHbmJXd0VFaG9Ob1FNbm1fUzF2VzdYTWExcUNHRUpUc1BfYWxR?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-15T11:44:38Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-ebb4e603b6604825",
+      "country": "IN",
+      "title": "मूरतगंज बाजार में खाटू श्यामजी की भव्य शोभायात्रा निकली: 15 अगस्त को होगा विशाल भंडारा, झांकियां आकर्षण का ... - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRlhXTklJX3RwR2YtVXVuVXo2YkNQTXBMZ2IzTmdHRTFhSndHMlZ4el9vRHNMS1NndTlITEpRQlhxb2NLM2xDYW5IVzdGSGFuWlhrTGRTUGZZbzI0UjB2Qi1mWWdZazVodHJOVkpKLVBkR3BHdGg4NmZmOXN5UEFENUNkMWIyOWFNeGNqVnNLWFFDOTJHSWM5Zko3MVNvVUZJWGlyTHB2T2FpelBfR3hyN2ZGcktySWpoTHBrY3F0ZHdZakNmVWNJOW5ydklFc0FW0gHWAUFVX3lxTE51b0VCamE0a0F2cGxVaXVXbzZmNFYweVk4UGtHM0dmZTRMYXppdHlIZnluWFYyUHlheWxYQ0FTTTFlNzljWl9TNG1JcXUzaXBZRnlKQmkxT3RTa0V1elVpMXk5VFh1QjJXaWs1bGpsMWIxSGJHSjRVa0xBOEhGM0ZoaWRnQWhwNXFzeWhNZkN1WWFCaUZUYnM1bFRkM0c3RElxOTA2Y3QyYW53Q0lTc3B2WUkzUEJzX3MzZ0JENTltMlpJcjEtYlZicC1YWFVsckV5ek1tT1E?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-15T03:13:16Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-270eaa7c1f3d94f7",
+      "country": "IN",
+      "title": "सरखनपुर में कांवड़ यात्रा निकाली गई: पूर्व प्रधान के नेतृत्व में हुआ भव्य आयोजन, भक्तिमय रहा माहौल - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYk9pZnhUTTgzeTBtcUpjc1g1aDM4M1BjdmZPaXBRZDhtdEpRR1Vxc2JxYzMzWEpxODZOY0JaUHlsU0FNYmFMUmNKRnhRTVZMWG92VGdHUmRieEVDVTNjazhYTFpuQlJ0S0ZmMHBTNFg3cXhkUXhwNDdnYURfczJwdE9JXzVwYWpNWVg2UHBUUzZ2T2RXTXhXdE56X1UxTXdtcU9Pb1RsUTJJWHJGRlM2ZzRQY21mVHRGdG12NHZpZkJfTGVKUUgzNXdXcVYtYkFQLW1yN2pSSkRmSTY1X3hvSnl4dzh4MkXSAewBQVVfeXFMTUN2V0hXblpRWFZfb3k5aGhpeDJzRkVqOFpnQmRZLWdoc1NvaUJJQUJiNURQdnl4STdPT3ZtbXNvZTY0U0JBZEkxMlBtMDZ4SFUydEpqdmk3cHo5WWFDLWtObGhRekRIRHMwcWFpdWRWdExOSzhFSDdjOWx6emt4dGczX3ZpY2I5dHB0NVllSm9aNElrd2R3YV93QU5vQlZ4eTlTOW05YTNkdVpPY0pCcU85WHZnY185bWpKbWpKbWstaDBKWUxzVXV0dHlVaTRDeVZLQnNxTC05dGF0X3kxYkl0YzVrai0zTUJNZlQ?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-14T15:38:11Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-14940bb1e564eaef",
+      "country": "IN",
+      "title": "कठेरुआ स्थित कष्टभंजन धाम से शिव परिवार शोभायात्रा: 51 महिलाओं ने कलश यात्रा निकाली; 11 मंदिरों में पूजन, भ... - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNYmNTQnNUWVpyM2wwcmZjVTUxSlJ3SXRGMy1sSzIzM1dVbXRjV2JPdUY5U3R4TE0xMG9jbWZzZlpvWmthbTdLWG5FSU5GanUxRkoySHBrM1RsYUVuTHJSZlRjUjdRUEJmNElVa044OVo2U0lfVzY0VXV2OU5QLWUzcnhlVmJWTXAyamhPMjh1T1ZldlRYZXNzS09GZFluQU13Z3dlLVp3MFlKQ25pRTh3YVUwMGJTTFNvTS1hNkNVaW9YTGk3VE5uSG5ZdVV6OWJpLS1hdERiR1VMcnI4N0dtd3Zn0gHnAUFVX3lxTE54Q2xvdTFkaGRZNDZSeVlIbTNEOFJmaE1ETzk0cjEwcXJlZ1JmSk5vN2pXYUdXdHFyeDZWV3d4ZXVubEpFZ2hFaFFOQUp2S1pOUkljSWdoeDN5OF9laDBudmI1aks0SExENjhabC1MNkRnaHBXVkpvTXFULVhWVF9nQTVVbmNYY3RuSy1zWllMWkhWdFc4WVhSUEtfT1FyUHRUVnZoVEJCQ1M0QlJVS3lZTHlZZ1JEUFlnMmxSQ2RCUjN5R1RVQlRlTndNbXlfUW15SWZ6SDd4WTk4cHY5QXYydG9zUmJITQ?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-14T08:16:59Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-63460d222a378955",
+      "country": "IN",
+      "title": "शोभायात्रा के साथ भागवत कथा आज से - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU1lYTW4zY1BaNnJibF9pYjJUMUdMXzhKVVk2ZkJEdDc3RHJ0QkNtRUdNbzZoclRJQXZFME5wUEs1dkJFZGdhZnprNEVLTTdVekhoWk85cGRBR0N4VHh2VlY5bk41aXdxRkwxb1JVR3N5YjFBdUtzMjF4bUpCaDdnOU5OSGtFdzBZVnJ4RUt3dENPVTRKS0ZYa3p1TVJFa2RxbFFpOTYyTHloaDktU3Vn0gG0AUFVX3lxTE4yQmJ3VXF6MW1QV1ViaTlybkY5YlZSMDZEaWF1QWFMZzhucW9DakFGNnJvUmhPTjkzNG5lWEEwbVRObTJPN09TNnZYNFlHMkJkVFBWTDZxbWR3SlRYLUNWSzN2elkzc2VHdWhweXR1cmpGeWVWZVh5ajJobHNHZlNtT01oak9RbF92emhVTm1meVlGSmd1VXA4SlQ3WHA1bm9QeklFQVZIRkhhcnhMRTdFT25raA?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-14T00:00:00Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-80754b527b449ecc",
+      "country": "IN",
+      "title": "बम भोले के जयकारों से गूंजा नगर: उसावा में तीन डीजे टोलियों के साथ निकली शोभायात्रा, हजारों लोग हुए शामिल - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdlJudjE5Q3dfNk0tSVlUTms1WURlTDl4cnhnMVZIdTY2OWJfX0ZJZ0RNLXJLSnJsc3Ruc2ZuZEl4VlRqSW5FYWg4Q1NqSF9wWmV5Q2lWT0pjRzJnc2tfemY1dURHQnZseERKQXd5VWRETFc1TXFTbHQ5NzFQakVNeGlnSW1WVTM2am5wWDA1MkI3dlh5U19uZ3JoNmstYjd3bUdVV0pYX3hTbVM2SlRYSmN5ZUpsbXkyRC1DZV9wbUZYcXB1S2Flc1ZfeGtwcmxOb0FGWlJHbExFY1nSAeABQVVfeXFMTU1mY1pZNkJxdVB1SmF3UmFaWGx5bk8xR1lQMzc2M3pZYW4zeG1QUTRRTWtTeTJyc082QUo5VjdUV0MtOVVVSVgwSjJfbk1LekdLNHg3a0JraVpwZ2R2RHFMTHpiUEdWdGpIRkZZbXFTcGRmWGh3V05YZHlsWFgxYWs1RVF0U3VSNkE3Q0pIS1Btb2V4MnNRUzBnVng5Q2wzelZKTzl1MzM3Yk1DR1hzbk9yZDBNVVRUUnFqWDN0bGd1a1pvNVM4MGtqNnJoekh5TkNtMGszcGNPeW5RdFRqd3U?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-13T16:49:26Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-b5461226ae36b033",
+      "country": "IN",
+      "title": "राजगढ़ में संत रविदास महाराज के रथ का स्वागत: जयंती पर भाजप ने निकाली यात्रा, कलश का पूजन भी किया - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRDNGdlNQa1dPR2JNcG9sRkl1d2NGS1E0Zk04b0xFUUYtTWlTYkR2cEhrdjZiNExrTzVackJVXzZtOGVfVUhhMEUycGJzNEtJS0o3ZV9jTEI0Q29DdWYzd21Jem0zeGlmRFRhNjZzMkVkRFdicXBwSGRFOEVGVEItN05wbW51ZVlISTRUVVpIdmpfS1FOUlVMd0FlcThpOWt1MnFwcTd5N1R6SWdvcHd6dldRZnhyX3N1WDJJWlpyS2s2bmZkLTItZWpzeDRSdWJ60gHWAUFVX3lxTE1uWmx1WUNKMDZLcTFtQjVHSXg2RlJxSmFKYmxuRnVxSkF2N2J3M2daNTQxV1E0Z1lDUXhzQ3RLNjRUbE95SFg5emNXRThqYkgtVVJPX3JiVmVKZjZseHlfbTFMd2JiR3Z0YXZNcW1UMFVMZEtIcUlVUE5idG1iWTA1dlVEcWtTZzlsT0Y3clRQSTVuSnpROTM5OUlzNFVxdkRmbDRPckJ2Nl91NkMySlpETzBiWVdUMXA1OE9CS2o3WkRPcTRWOVV0UlVQMUZxUEVZTDF1VEE?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-13T14:04:37Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-969b650d5c016b8c",
+      "country": "IN",
+      "title": "वीरांगना अवंतीबाई लोधी की शोभायात्रा: आलीपुर खेड़ा में 16 अगस्त को निकलेगी, जनसंपर्क अभियान जारी - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSk41S0plRlRJUEhfTXVoQmI5T0RLVDdTcXdKTjRMVGVaVHI4ZWpIRG5ENDl0cHZlSmw1dl9NY0FKSk9DR2VnMkNoUTVVNmo2Y3pvdnVzbHVNQ29HeEVTdV9xbE9qUmxXZUhvZEJBUjRQdmRYbFdud1EtUkpKaVFoUXdnaGJhQTNBMEV6eUdYV0g1UHBaaGgwWndrOE5JZFRCOHlnSFBBZ0kwbzV3LS1jcFBGSzdlY05HWk5zUjdxQ0UtbWUxYUlTaXcwa1M1bG1UbEs3OEVRZE5ZTTTSAeABQVVfeXFMUEZMalRCQmduZmlCd2oxVVJ4ZFdmMnZ1U3g5YkpaYzByS084amFOZ18yQm9jV3JsUE1FbjN0WWlSYUQtc05XdFRiSmlGRjhHR0FVRnZzWmlsbFZZZW91M3hQUlhQMWJCMmZGNlFSdElIMTdzSjlUQVF1U0VNVzhXalN3dG41U1Fabm1TeHgzQnIwMVJWb29PUEZzSlpjUVBHZmt4aV8xMUNQeEdaaGVoekxzVHgzckVFMWZUM28zZTBDREF1clhHRUM1Mnk0TjNqaUEzTnFwa1llMHpLVlB4cTI?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-13T11:53:34Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-c3a61e2d476e8c3b",
+      "country": "IN",
+      "title": "हरीश द्विवेदी संकल्प रथ यात्रा में हुए शामिल: बोले- गुरु रविदास के आदर्शों से विकसित भारत का आह्वान - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZlZBSHVWLXlrNDg3Q2UtTm9BN1c0ZFpTYWRyWUhLblVSN2t5UjlWMnhibEVEb3ZtSS12bk90TkdjLVV3cHY1d0JIcjhyU2NhRnlYZ0tJZGtNd3lZSmZ3dTBwT3FGemhnRjhEUU9zbkQ0eHhSU085cE0wZzhQdjVRTlRkY1lBUHBGc0FjejVHV2lCNlRKNDYyc0VEZTNHUVBRa1RTQ1MyTVBlY0Rvay1UQVFLMk9weVMxTC13MFdqTjQ4dEk2NVNMODl30gHPAUFVX3lxTE56TjVZcXl3OWFyTndzbGZhM3RySVRrYjgtV1FuUG1FNVlhRk90amgyUW0tNzYxTHNnR2pwRUllSm9hT0JpNDEtc3NNc3NSWlVsU0N3NHBwSE8xalB2QzlzUjc0QS1zV1I5QVJZWEgtaFBGN3A5Y1hZdjBLY3VISTNya3BjdmxpOVdYdVBNTXFYZFFTMTNXOFo5R0FsaUNOQmx3RzBET0hXSk00VzJ5YlNuTHdsNUtiZi1wTVBQMGdTTm84Q3Fsal9BRlVYckRCWQ?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-12T11:02:51Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-7b66c099dd281c2d",
+      "country": "IN",
+      "title": "टोंक में शिव महापुराण कथा कल से: 1600 महिलाएं कलश यात्रा में शामिल; श्रीमहादेवाली मंदिर तक निकली शोभायात्रा - Dainik Bhaskar",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSU9maExkdHFieFFuWVBGXzNTLTJIakpTUVdYY2VjZW4xN3hyTThfREtUOUFYVFFzSFlSZjVwaW5NQzZETnZ4b01uRy03Nk94TnI1czVqN1BwU203NzRkcHhaLTN5aGZnX0pqQVFpa2xSeHVxOUJLN2ZsT01kOUUwd1ZCb1M5Z2N1VzBKZlM4c1Vidkw5TW8xTVVlUlFpdFBJOUpkenBySExLRU9Gakt1ejk5dUJMMWMySmlqTjItMHpYSkhhdlHSAcsBQVVfeXFMTlEtZzhhdHZrOWpVRUlyaUdFV3JkeWdKdnVQN3dpdjZhRVJuYWpaZjVFc0MwQ29xZm5ESko1ZFd0d2ZnSENHdWkwZVZfdHVZZUwwZXF2NzVabVA2Q0tSM2ZPWmpiUURTTHc1a3NhQTNpN2Q5Vm82RXRvNTlvYlFYRVpwNWEzVXBjbWlTRGVDYW9EMHNmVzJTRG5vR2paY0JkRExxMHZsRm1TR2hzVjI4bHNUb2FXTjRHLWYxUWt4dXlwUzIxTEp6MzV0azQ?oc=5",
+      "source": "Dainik Bhaskar",
+      "sourceDomain": "bhaskar.com",
+      "publishedAt": "2026-08-10T07:00:00Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.32,
+      "reasons": [
+        "generic domain, origin unverified",
+        "bhaskar.com files regularly (56 stories seen)"
+      ]
+    },
+    {
+      "id": "news-in-3e04e41e7a6b2788",
+      "country": "IN",
+      "title": "Gonda News: शिवध्वज के साथ आज निकलेगी भव्य शोभायात्रा - Hindustan",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxObE15ckVIOUJHOVZRZG1ERnh5WktDRkVxVTFBekNJWGxCTVBfN1dQSkRZNE1wRDE3WmpOd1lzVEszMTVTZjR1UnVEcWZmVGZ0eWNuV1JyYXo0MVhfU0daZlpRRWxpNllxVUtSVWRtbjA3ODd1eTdnVElCb295UFE5WW5CbEJudElGeHVxaXpkT2FsZ0FYSnF5UXRZaElhY1I3dlZ5bnNEbGZ3a1dWWnRjdUNCYmV2YXBHdllBRHdOVnVOcld3MHJ0TW1UMFQ5TFJiRjJEY19INzRzcjh1RlE5MEx0dHV5QjVVQWVrY9IB7AFBVV95cUxObE15ckVIOUJHOVZRZG1ERnh5WktDRkVxVTFBekNJWGxCTVBfN1dQSkRZNE1wRDE3WmpOd1lzVEszMTVTZjR1UnVEcWZmVGZ0eWNuV1JyYXo0MVhfU0daZlpRRWxpNllxVUtSVWRtbjA3ODd1eTdnVElCb295UFE5WW5CbEJudElGeHVxaXpkT2FsZ0FYSnF5UXRZaElhY1I3dlZ5bnNEbGZ3a1dWWnRjdUNCYmV2YXBHdllBRHdOVnVOcld3MHJ0TW1UMFQ5TFJiRjJEY19INzRzcjh1RlE5MEx0dHV5QjVVQWVrYw?oc=5",
+      "source": "Hindustan",
+      "sourceDomain": "livehindustan.com",
+      "publishedAt": "2026-08-18T11:28:32Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "livehindustan.com seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-in-b1443ea887f174e7",
+      "country": "IN",
+      "title": "MP News: सीएम मोहन यादव आज करेंगे गुरु रविदास समरसता संकल्प अभियान और कलश यात्रा का शुभारंभ - Amar Ujala",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOVDNzbHBwTGgwNXpZT3lEWHptT0dTWktzSWJ0dW15cG81UDFDX281Vlp0ZEJVZU14SlpVazJUMW5CQzVVdkE3WVM5OUh0RkdJajNGZnUyRS0yX2xKdFJXbm1hMEFITy0ydVMxVUtkekszRmVDQVhYa0haa2FHanJoY3IzTks3YW9uRVd5RnhvLWVOWEp3NzRVWnB6dVNBQ1hyc2drMkswNnhhWVNBNU5jVkY5eGROa0JRLTFUdnVGZU9WOU5qaXJiZDhaaEYxVjdlVzJJd1QzZ3lYWjh6Vm4xV24xTjlqRzgyLWZNcHNR0gHzAUFVX3lxTE5QNUc1YzVpZkZOTFFERGhCd2w2VXVVN2VhNjVpMW9wRmdnOXpMNmZmaDJ2c1BOV1RfWGl6SXlNel8tQ2xZbHk2SWIzQUFzTExweXlLRzU1c3d6bC1VeTgySkZxcFhWRHljcG9BSTAyTUtLNUFwREQ1Vk5zcWNvZG5PdnpVZUxuM1NsamtrV3NXV21EYnRwMFZFUExfVm1TQ1d2RnpFekw4Z3BFVGhTanVLT0NvY3hNTHoyWk5GSlE1VllLbGlxaGxIU1pXM3dNaVBtZHRPZG9mUzQ0V2NRRkUyUWU2UGdrMU16SFRHWldfY2ZNWQ?oc=5",
+      "source": "Amar Ujala",
+      "sourceDomain": "amarujala.com",
+      "publishedAt": "2026-08-18T02:36:51Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "amarujala.com seen before (21 stories)"
+      ]
+    },
+    {
+      "id": "news-in-61a5cedadd7ac959",
+      "country": "IN",
+      "title": "Panipat News: श्री मां गंगे सावन जोत समिति 20 को निकलेगी शोभायात्रा - Amar Ujala",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQY3l5eXhlQlVVZEpyam04NDktYXNKUFFKZEMwdzM2MzNMZkw1akJlcUNJeXdZb3o0QzA2ZFJ6bTEyeUkxVUpjcEZQU09salB5Zi1KNVpqNjFTQ2xxY2pGVVNkU3pBTFd4c25FY0ZacjdCMXMxSFlOT3k3SWZ3b2JHandzUG9yY0ZjQVgzaEpqc3ZYZVRSVTRSbTd6OHk0dGJrT3Q1bXJhQkstdHJCaHB5Y1FmSHFhY0prZ2VFaGgtdklyZEtVODc0Tkt4Ui1oVU1XTnRfT3ZMUFJ1dlJnWEozejRCekdpc2JwcV9yNmpvRdIB9AFBVV95cUxNbHVhWWpZVmh5YzdzTmtDc1BFcFJJUDRJV1hsT1ZVVnY1U00wXzc5WWxzM3RaTDJqZkl1dmJyanJORWhLS2V5YzNzNVpLVzVmQXlfbWRZNDR5Y001U2VvVFlRYV9FeUpxeG9SV21jWi0yQVp5NEhDcklqbnJjbG4xZTk5bXpjbUVteDBwZmhZNl9TRkx6T1cwSUtDTVF6bE1fdFVpQk1zTFd0Sm1wdTBBM0drbnZUOXZHbi13Z0NEVGM3OTZDc2RrQ2RkZDVuV2NDb2k0RlpqbnNWTHktWG8zdUVEZWtvMDB5MWFsc1RNYi01aWpU?oc=5",
+      "source": "Amar Ujala",
+      "sourceDomain": "amarujala.com",
+      "publishedAt": "2026-08-17T20:59:37Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "amarujala.com seen before (21 stories)"
+      ]
+    },
+    {
+      "id": "news-in-cf13a523be2db188",
+      "country": "IN",
+      "title": "Kushinagar News: साईं बाबा की शोभायात्रा से भक्तिमय हुआ शहर - Amar Ujala",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNUF9oWE91UkppQ2hkbWR2alVlLXVSVlUzeVFuelJqSlBHdFRwaTFETGtTQW53YXgtRmVlN2UwcUlfZGJTMEtld0hIanhtbFFwTmp4Mnh0WFhDOU5LTnZiYVdVdW9reHhSeXpMNFF4WFV2NlRCQ0llNFBDNnIwVFVfUEVFa0N0a3ZXRnpTRU1rQlVvUHdJOGFLUldNV2dyclE5VzFESjdnYzNkZkUwaHp2NkZCeXNJdVN4eWRDa3NWWDY4Y3RXYl9kTEU5SDd5aF9RTGtoX3Nxa0xLR0UwU2xoMTBLS1lRd9IB6wFBVV95cUxPcG9GVHlBYkhqZEVqMW1NU2w1OFZNOGNNTkdXUGNSREg3MDg1Y3BhVW41eWlKRFNfWUZQUW5Ba1d1VnFCYXJlOWUzTk1ZY2o4RzNXMHZOb0lTeHlfVENYZzBwT0hxRVJiOWRxYU15a3o4ZzJNbklzLTMyUXctdEx1WjFyejZPQTFQSzkzLVZhNlY1Z3otOGc4dmw5Ym80Y3g2RG5hQ3AzM0ltM2sxSjd0VTR1WXB4RGtyeWJKYTFjMGh4a19WbXZ2Q1ZTcjduTVk5anB5SVh6M2plSk1HaTZHcWVGVGNFanZpcExV?oc=5",
+      "source": "Amar Ujala",
+      "sourceDomain": "amarujala.com",
+      "publishedAt": "2026-08-17T20:51:19Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "amarujala.com seen before (21 stories)"
+      ]
+    },
+    {
+      "id": "news-in-9c091cda44d0727e",
+      "country": "IN",
+      "title": "Varanasi News: डमरू निनाद के बीच धर्मसंघ से निकली जलाभिषेक शोभायात्रा - Hindustan",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQXzcxelNvUlZvX1NaQmIwRUUtUkFHekhCaThTUUI5NTRvaGtmLWpxV295Sk1BamRkRG11OWh2SkY1aUpDYWdwZk1hSVhEdnJnTHhIbFRwN09abXpYaEoxaTRvQzZGdGZOTzFmWTN3V0tnc2E5b3ZWUzkwNDJqQ2tOVmUtV2FVRG5zSG5jUFYyOWc5YmxaRk9WV2MxbmtpX1VROUYwdnFNM2tMa25IMkNqcjhKTDduM2h4cnpxMUNRZVhUOXNhNVU3bVhUWXJTQUtGdGJoaTFEcjd2dUVmcXN3WDlwT2RzSnFfQ3Zj0gHwAUFVX3lxTFBRWHg5azh1MzJEeWw2RXQtN2ZLTnFpbGkzUUpYell3U0JOcy1oVjJhNGVBQVhPWTFscGwzWkJRM3I2RFJwa0VsTllNZ0FWeEZNYV9yRXFvUEtVaGNFUS0zVDZzNmhZMXZkMDRhcDFpRVpSeEdPT05hZHgwM3JMdzk4ZjFLU3ZQaVNvcGhoWV9XSUdOR2pKckpvYWZuMklXdEZMdDYyUVhJY19SZGc4MFFxZWxqSEVpVHQxQnpqMW9rWkJVT1g1UTVTQlhvdXY0VVlIMGdwR19OVUtlS3h4QlZ6em9nZS0xU3M2MUh3V25OVQ?oc=5",
+      "source": "Hindustan",
+      "sourceDomain": "livehindustan.com",
+      "publishedAt": "2026-08-17T20:08:55Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "livehindustan.com seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-in-eca6871394830412",
+      "country": "IN",
+      "title": "Yamuna Nagar News: मुल्तान जोत शोभायात्रा का किया स्वागत - Amar Ujala",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRHFLZGx0aUZ3NmlhMm1SUV9JQlhoZ3liRUNjLUZXOFcwdW56eXdZc0VqcGlBSUcxTGtPM3I0QVBQTG9nSGFVRklZRHR3U09HU2hpN2xpbHNRUzU3X2NSaWsxUng3OHpHMEVGNTJTN3FYRU9tX0lUMHcyVVM1RHhvRTE4Tkpwb2xXbEhGTXJfVzdEUDZoT0RKV1dOQU5ubEdfTjdvdFp0M01XeUlxZ2dmdGFzR0IwT0t0cWNtRlVUdDN2VkxYazdKSXlfMUF0Y3JV0gHWAUFVX3lxTE5GbFhsdEEtSWtVRjZfaGgwZTVFRkk5Zi1ZNDl1RnA1U0tUSVFyeHpocEpnYk9TbnBTd0NwQnc5MmxrQldTTndOS0tSWXpjdG85NFBzcEVmMFFSeUxQYTNrb0tveUdHWXcyb2hIN3RueGhZMWZzZ2RoU21reVltb01ITWxjamFmenNQMjNiR1k3VjZQU2NpOUJIVjROY0FEOTZyYmNXRTQ3TlBveXYzSnRyZzY0Q1lyOTEyS3REYXY2NFJYRVhJZEdYUUVnQVFqSkdwWUNMTnc?oc=5",
+      "source": "Amar Ujala",
+      "sourceDomain": "amarujala.com",
+      "publishedAt": "2026-08-17T19:28:56Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "amarujala.com seen before (21 stories)"
+      ]
+    },
+    {
+      "id": "news-in-fcb3fc732338da66",
+      "country": "IN",
+      "title": "कल से शुरू होगा 36वां तुलसीदास जयंती महोत्सव, निकलेगी भव्य शोभायात्रा - Hindustan",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQX3FCSE9hZEcwVmNCMTdCSUQya1lXUDRpb1lYamZjUENkbVY0eHpGNjg3X2w5clQ0clAyOFE4RDNnSzRRMFVFMHRJRlFjLVJnWkpORzNRUTYzSnB4ME15ZXdxVU9fejhsTVRwRXpEcm9DSHVndl9tc3pVV0dOYWxXRjRiTl9VdVVORTh2bGdYUUhVMlg4Ynk5YmNhbjdUY29ySHVraUR1djhZMnZ2YUY5eDJYbGRWVC1rWjI1aEFHNjZMMHZqbk1tZzAzWW5aX2PSAdQBQVVfeXFMUDBTdGFhWnB2MTc5LUpRc0RoaEN6LUlleWJobEliVlRaZFFaOGs1NFpzbF9XTWl1eldrbGFrbDdDaktfSWpTa25xamZpMGtzZmpNWk9kalVGZDFQSGdXcDFEcFRYT2prZEp0UXJQcWM2R1FlSmxBVW83eFRMV0ZhUHpKT1RaUnBwcUluMUNFVXNKSGRnVFJuUE5TZnBFT0kzazd4MGZRcUZ3QTZhVkVXa2M2ODVWVmRnaDJILWFKYnBDS2o0LTlwS00wZmtNYWtUVW9BbFE?oc=5",
+      "source": "Hindustan",
+      "sourceDomain": "livehindustan.com",
+      "publishedAt": "2026-08-17T18:42:22Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "livehindustan.com seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-in-994e25e5ba6d1ee5",
+      "country": "IN",
+      "title": "Shamli News: सतगुरु समनदास जी महाराज की शोभायात्रा और सत्संग का आयोजन - Hindustan",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPdmRPdzY4YjRBS3lua084bTlWWVZyZnZlTllmQk5fcXMtTnRGQVFlU2pRTzd4RGpXNE9WcWQ2VU8xTDlSSTNnUFN0TnoyaFJmRURWXzFGM0VydVQzM2toanh2WWFjVjZTNHBBX2hVcGlOM3NWQkhQMldDVGtJZU53WVMxNGlxY1lTbHdBNFdFUTVxODFUSkFMNFlWTFJHRnEzeTlTaGZ4SkVLajlxTEkzVlVLZXpqVml2eG4tZXVwRXRvNGxpcDZNb1BIRW9BOTRnd0k0T3k3a1lfcTNWSFhENnFYbnBOQ3Y5enJHUE0tSdIB9AFBVV95cUxNN05yNkxLTnNCYVQ5RzhXeTNOXzVOVG9ZaTlRejQyeHhpSUlkamQxVjFTWWRhSXc1U01rQl80bXdHckwtSGdXSVkwUGtlQUhOWjFhNnFxSDhYQnJhRzlwYlVsYmYzSFZwYUdxTlp0YVZKZHNPSHJ4dTZyUDZOc29PYTdEanBXNl9EeGtZTkc4SUhFNUMwdUt5RWFpVlFmR0x3amhRSm94dTktNHF0SVZvZmR6UnJ1bl9MdENVRjRPSG1JaWk4MTJOYzRFT2E3YXZtQjR4Q25sc3hGOHc1QWRBYm5VOWNBTThZUVFFUWwxb3ZoWjN2?oc=5",
+      "source": "Hindustan",
+      "sourceDomain": "livehindustan.com",
+      "publishedAt": "2026-08-17T18:33:22Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "livehindustan.com seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-in-732aaea303e84345",
+      "country": "IN",
+      "title": "Ayodhya News: नागपंचमी पर निकाली रथ यात्रा - Amar Ujala",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZUl3anBtN0dxeDRnTlVsVkthS1p2ckJNWnhLS3FXRldIcjgtdmhMbXZNVWZxRDVheGJ2Z2RLV3g0Y1RtaEF1d2tPM21uX2V3eS1YVUpDYkx6YV9vd3dpbFRFNU55T292MmlnMmNyWDVXUE1rOEQ1cERYdm82YXJFeFMzRzByMzQxVUZMbDZrbFNPeUlpcnQ2VWxJV2RBSUNDTFpOME1MdWpuUUxRMGRFNjBzRnJSdDIySFRIYmFHTUdza0szbzY2U0drWHlZb1BBejNNeNIB2gFBVV95cUxNbjh2a1owYWNvUWdRWkVGcGZrem00MFJUQ0V6LTlEeU9YUElWMnRoOHI2X3BXMzVYVm9MNkRPdTdVNENKSlZoSVVOVDRRS2FEeDJFSXpZVnp3MnlJTjhUTmp4TU96TTYybzgwS2hEOU1KTk84X3ZQOGQxMlRob0FhemNzaWw0MVpfSUF6aW4zQnZmSUhRemlaR1dZVXlIbENRTWlDRFFIZWpXOHRXdkk0cVpaSXJjbmcybEZ5MndXVFRlb3h5QnFiNlpnaGxwaWRKX3lGekQ5WDR5Zw?oc=5",
+      "source": "Amar Ujala",
+      "sourceDomain": "amarujala.com",
+      "publishedAt": "2026-08-17T18:15:05Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "amarujala.com seen before (21 stories)"
+      ]
+    },
+    {
+      "id": "news-in-b845be917ebad0d0",
+      "country": "IN",
+      "title": "Sitamarhi News: रुन्नीसैदपुर में शोभायात्रा संग नौ दिवसीय नवचंडी महायज्ञ शुरू - Hindustan",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQenpRYXNka1U5ZkJnX3lZSXZ5T0RqUko3RlU0SzI5cjk4MWRLemVJZVBEWGZpNEtONV9ud2hoYWw3NHhYdDI2QlhsbF9GdzFENU85cnFvZGtCQnktYlNmMHpCVGRfaE1qUWNsU0VCOWJVZ2RQSGxGWVhPMFdjWTktM3dhU3JmV3dtY0VURmh5N0V2X2hlTUdjdHZFSEdKQWxjOVBKUGlDTlFQN2hRbHQzTmlILV9DejZVOGNoVGItcVFiV1E0M1JOcFVXUzFpZ2FtY2g0UzU1M1d3NEtaUGR4UtIB5gFBVV95cUxNcy1lRkFsakZ6NmN6cWFIOUUzVFB4UVFYRy1EeVhrWmJ4Rl9FZGJkVVg0ZEZLazhUNzg4NHlQUTlJOEUxTmhZcnpFUjVTLTJNOHk4VzQ1RURxTDdqVXREMzlBRG1JTEVkSUpFd2U1d2xOWldlaHJhQWZjbE9VZGxmbjdTaS1GWENaWEp5WFNZbmd6YS1VYW1oZFBmQ3JfeU1EeWQxQUxQZ01PM2RyZmVuclZpU3JSWVJHZWZhMXd6NE9iRHkxRGpfTDVyd3piTk4wZm9rSVNSeUMweTNzQkNhcWd4ZjhMQQ?oc=5",
+      "source": "Hindustan",
+      "sourceDomain": "livehindustan.com",
+      "publishedAt": "2026-08-17T18:14:03Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "livehindustan.com seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-in-f0a48c30b379d3e7",
+      "country": "IN",
+      "title": "Hardoi News: गूंजा हर-हर महादेव, संडीला में निकली भव्य शोभायात्रा - Hindustan",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMGt3V1cteHhLb291eXhVei1XWnVjNV9pekhwd1dneURudW90c2k3YzNvYkpWNXVCV1RMQjhoZDZDMjZyd3d0eDJRVEtDU2UzZDNxYXR0elZyZGE3QVd0bFkzc0lYalVwM1hwbkxtZ3puS2UyMTkyMGttRE1FN1JJX3Q2djhqMVQxOTZ6UHF0RENIcDNFdGxOTk9BX1BCbzZaUlk3WjJCSTFrS2E5dzhoakNiX2otRzR5cjZHTlkwblVfR09PUkV1RjBVQnFzdENX0gHWAUFVX3lxTE9PLXJ0bmVJMHZvZGU5NzVsNDdsQjUtN2xSVU1kYWYyVGJaVVgxUnhSbUJKZ1NkWXhuWEk4MW1oV2JxM1ZFQkJkcDZRRTdrQ2pjdlVVSEhFR1ZlbFVDalBUN0Y5clFDaEFNcklDa3pmaDVmekFNWmwxVHdRYmhDQTFId3hJWW9vZlUxRTd1OVE5QnAycmlFS2tCQlFKZjM5eGpQb2xvMWdWY2JpNXZEVzBjbklPanNLcWRZLUc3NmV2VTRRMmNOSjEtVjc1cXpqWmVDbTFXNnc?oc=5",
+      "source": "Hindustan",
+      "sourceDomain": "livehindustan.com",
+      "publishedAt": "2026-08-17T18:04:53Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "livehindustan.com seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-in-f1fcce311d8ceee4",
+      "country": "IN",
+      "title": "Balrampur News: रविदास समरसता रथ यात्रा का पुष्पवर्षा से स्वागत - Amar Ujala",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPUE5iQjBJS2RHLUFUaVB5WW5USVI3d0pmZmxNNm1kWWJ4RDd2eEN0Y1RKNjhfTWVuTmRmSTB0ZFVoc2VVTjZNM3VOZ0E5TFVWTUotV0dPd1RicWNyZXlpcExhNHFFTkRyNjkyeF9OVGF0a1NxRnFwVW5rSVg3VEdheWFUdEo4QlFRN05kRnRDcThIeFVpMnppVG1GcnJLcUk0LUxJNVd0TnhFam9CZWo5NDc3bG9VNEpfNW1TUGtlZ3l1Q251Sk5idElYZW8xaGNhN3AxcDl0alUzaUJSSE15YkNMYTFfYW1nQWVuazJTQ0NTNlnSAfgBQVVfeXFMTTZ0SXd2TlpEMHVjdFA1eFkzQ0EzWVRUNWpuRWZMR2MxMU1vLXBLaW5zMm9GTmpyUXNBR2VsQzRkLWVHakpXU0NPYTlOYVNHaWwxTXpPXzFqeUJxUHNUVHlaci04Y3NEZWRmd0RrNkFJRk1WM00wWVBFbHhoV2pVSExYQlB4dXNsWUZBUlVselJpMGctc2FQbXc1NXhiTjBfT2huOGZnaGpFQWdxdmtWcHFKYnliRFJ4V05qckVoNEpvU1FzUmlRd0cyVjFiVUxGR0FELVhqdVBnT0RxS0hNQ0gwbDZqOHU0dGhLVHBOcjVyTUNHSFU4cTc?oc=5",
+      "source": "Amar Ujala",
+      "sourceDomain": "amarujala.com",
+      "publishedAt": "2026-08-17T18:01:10Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "amarujala.com seen before (21 stories)"
+      ]
+    },
+    {
+      "id": "news-in-a3f5bd0ed6fdf501",
+      "country": "IN",
+      "title": "Firozabad News: भीमाशंकर कांवड़ रथ यात्रा में महिलाएं खींचेंगी रथ - Hindustan",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNR3J0LUlzTkZ2R2RHLThfS1l0U0RKMmZNcUhhSjVfSHh2Zm5EMTdrWVRvWkxic3hxVEZVVkQ1dm81SVQ5N1V2NGNBME43a3ZRVnV3NnJycmh2LVJYYVZDYW9YYkxYWm5pMUdTOC1rUS1WU1RaenF4ZUhXRGJmd3VtZi1HUXBkQVh4ZUdjRlp5U3AxMmF1TFlUUlphYW1oampoOGRVOEdqNXVPcWRUdTRkUlJpa0RqVUZ1RW4yNWpNQVNnRENoc0VnOFRwdTAtaDJma25Xb0R2VGhlbF9qMWt3ZE43b2hNcE5HYjdpY1ZIb2dyWF9JQXfSAfsBQVVfeXFMTTZ5TWtNTUpSUlhFZjZWQ0R2WXlxSFNxblVESVVtRkg4dU5YVjNQWjZDNFctZ1R1VlVJcFNLVTdLLWtXZFRGU1Ffc3ZsYXo3NVplTy00Snh5dThHa0pmRVVmZFJneUlDUmplRER5VDRSNU9KY1BERTJ5bWpCb3JCcFlDZFJRNUhmbGRkcTFRcndsWEFhd21Ya0pmb3o3TmxuS1c0ZUd0SEs2anpMUjRLQjhyeEo2S0MtSTRDcENrczBuN0JLVGlFLVhWOFpzaDEtVTRiV1VaSEhpckRYOWJ2VmhCU1dJUzZ1eFBKZjhTRk0weElrVkQzLUJ4RTQ?oc=5",
+      "source": "Hindustan",
+      "sourceDomain": "livehindustan.com",
+      "publishedAt": "2026-08-17T13:12:41Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "livehindustan.com seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-in-b666becdf622b2e8",
+      "country": "IN",
+      "title": "Dehradun News: नाग पंचमी पर निकाली शोभायात्रा - Amar Ujala",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOHdyVUZPeWhIbzM2Rmd6OHNzZUlQelhnMk9DMm9YbVNXYnRYWFJ1eVRPbXpTZkJDZnlXX1NJTmg4YmV3OFBacGx1dzgyeDRxNW0yWFplVFRDWjlyd0hvQUJOOW5LWEZFaS1XeDNQOE9WT2pFYWs5bE5PRXdkZGNycnd3WVQwMi0zd0dybkFwUXhva0d3YmN3QzgtY0F1dU51N0liVDYyQk1rS0IxVVFkUkY5ZnBkVEnSAbwBQVVfeXFMT2lmLS0wQkJteWNtTFRVdDZlM1U5OUhNV01ZXzN2Q1pMU1E1YnVPc2FhWWw4X1lJMlZESzZEbUl1X2s3Sk1ab3R6WmtyLWQ0dlM5eVdncWF5X2V5MmQ4ZVJwSGViaUduWlJ0OUJ1OXVtWjd3aTV1RHNDazRxeENxcU9lNjdLVjNnYlBGREUyOXgxVUpBWVdJTGlvQlJDa2NmeVZiR2drUHplMkR5MlEyMS1oQjNrZGRKRzdnc0I?oc=5",
+      "source": "Amar Ujala",
+      "sourceDomain": "amarujala.com",
+      "publishedAt": "2026-08-17T12:06:30Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "amarujala.com seen before (21 stories)"
+      ]
+    },
+    {
+      "id": "news-in-6dad1015449b3ce9",
+      "country": "IN",
+      "title": "VIDEO: वीरांगना अवंतीबाई लोधी की जयंती पर धूमधाम से निकाली भव्य शोभायात्रा, उमड़ा जनसैलाब; पुष्पवर्षा कर किया स्वागत - Amar Ujala",
+      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNRmU4ZUFzSnRvWmVsY2hhRTRQM0lBdlJYdE9ZWG9qcEc3TE0xejFQZzJMUThkS0MwMW5EUkxKb3pKTVNYWWUwQ0Y3amJZV3dNUHRXaXBjVnVFQk5XTHBUbVhUeGpPRjNIMDFOb3FsbUFOdVI5eVF4aDNhTkl2ei1nczZvZlYwNkgxSkNHcTRDYlU0SkZKbF9Ea2NkVERmNVgtbXhMcGxIYm5zQzAwbnJ2d0tnUnpHME1TSmh4eFVWanJ1azlyN3BuQUJfOGJaTjlwbjJlSUxZYjNNZ3dhbVpuUV9QWElldUY0d3pVUWx5UjVCbi1VdHpaSWNVMVR2WXFUc3BBSkZvRkR3SGJHSGo3SDR5OUFmYUgzSjVmMGRPMVpDYzgwMTIwVkZFV1hKZmRCOXBTejJyQ3NMNGUtWVA00gHEAkFVX3lxTE1tYUl3YkprZXpFUmNTM2tKTzVqb1VoRkVUdWpTV0JZWS1UXzNXcnl3amJ1SGJsVEd4VEsxMzJrYVlqZmJYeUNtVWUtaXdzOEgzdjN4bGp4cHo0SjZiY3ZmRE9iVWdSdk1pZTZQMVY3VEVDYlA1dG5Bc3pZTXlrNHZEdW9zVHlGZGlkbVdGRUhzbXZhMFhmLV9NTGdEVks2MEN5UklfLV9mSUpCcTkwdFRrZWtDRmlwWVY0Q3JCeXloNXhPR3lRR3pUQ0tOamxsVUR1bkMtbTA2YWw2ZUViZUFfeUZMR1BRcVF0YkJvSUdtM1dzYjlnb2xRdFJySmNYd2VkcmNxYWFuT1ltSG1nSGhpZG45YXFGQTc1ZmloVkRUSF9rUDZqWm5MZVlFU3lhQjJfVzMtYTZxZXFqUkc0S0ZtOGNkUw?oc=5",
+      "source": "Amar Ujala",
+      "sourceDomain": "amarujala.com",
+      "publishedAt": "2026-08-17T10:57:19Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "amarujala.com seen before (21 stories)"
+      ]
+    },
+    {
+      "id": "news-in-4676aba3a117bed2",
+      "country": "IN",
+      "title": "Muzaffarnagar News: खतौली में निकाली गई भगवान महाराज दक्ष प्रजापति की शोभायात्रा - Amar Ujala",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNSE55Z1RaU0xYUWVIbmx1enlGcFdaLXZfNUZNcUtkcFlyajNsNFNxNVdJSFM3RTFkVUgyYjlHelktRmw0TFNrWlp1VWtUSW9peUdSdFJqckVGTjdNYldaTXZMbUs3NzNvNFZDNlBRYWhmaWFJdkpVOENlUk5ITlM0X3lyNjlYM3ZhN1lRTEQ3UzQ2cks4TlVQRWJLZUl3VDl1NGtTSnhRUGIyRHhVXzhOTkFEOC1PYlJ6MEFMZWNSMDVmbVNJV0VjaU9kc09sZ0dpMktJWHpVV3dyOEhqYUhtYjMtWS1rcFhRYmZoQWl0YkxJc2lCOC1pUzNhdlAzc21iWVpF0gGIAkFVX3lxTFBrSUhnb09pcHlRQ1N4T0N0Y0IyNmJQNmZjSnR4VGFpZ2xjczRSVTU2WU96cDNuVlBoTTc4akdtemkzMndTV2RUazMyZzFfQ3JmWkR6OUJpWEt1ZkpyUnprQjI1ai1NS3cycEVNTVJDQ1p1WEo4XzN6TGZPVE1PLVptckdTd25FWWtmcXdtNWhKLTdNVzhOdHpnMFhaamdmT2Y0TUJGQ3JIaFZnZHdNM0NyUXdjQjBXV1BfVXR0emxtOXJXQjVGSnhKQnFTdS1uUlZlVm1QNkdpeVpYWFV5YkFDUGV0NkEwcEJ0TE5NX3NkOGJ6UndibGUxZG5fRTcxWTFiMlFkRmRsSA?oc=5",
+      "source": "Amar Ujala",
+      "sourceDomain": "amarujala.com",
+      "publishedAt": "2026-08-16T19:14:53Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "amarujala.com seen before (21 stories)"
+      ]
+    },
+    {
+      "id": "news-in-adab7d3fc9e51d3c",
+      "country": "IN",
+      "title": "Siddharthnagar News: समरसता और एकता का संदेश लेकर रवाना हुई रथयात्रा - Amar Ujala",
+      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNZ1hTLTFiSFViNWQ2dGJmd1dyXy1kYnZiSUZHUTJQTU1vQm1Db0tacTViZXZRRXZYeUZ5NC1OQmlZbDdlVldpNjFJUlc2b0ZSRDRxNXFVY0RKS0N6WmVhZXN4UjBQUnVWZmt1aTRuSXk4cnlWUW9LYTl1RHo4LTM1cjVpRERYbDJfVUFabU9uOWt5ZExqQ01ObWZMLXFmN09wcGI2cy0tdGRneVBfU2FmVEdfNmhOdFhIS1dWTi1Gbm9ZYkdJU1drYXJRU0ltVEVIMzh3cDhjaEFGRmx3eHNGcjZtSkx1TGxOdVVpR1hxMzVYUnVuQjRiOGpYelNiSzlQOGlQc0JqMUZDMFFOM1pYZXFnaVEwMURWd1lhRGtn0gGjAkFVX3lxTE1WRWFOVTF4aDZDLUVhMzJYR2t0U2NzNVlxZ25pX2twX0FtVm44WXQ0ZmRBTzBZOGY5MlpYTUVCMzF0VEZJR29vSlNBVE1IZGN6MU9NeWg2RXZnZVZ6N0ZQWDhZeWw5QmRIVkQ3TElkRVFKcVFGUThnRkY0eXhWamFmX0YzWV9vWnBYOUdBR2Qwd1oxZnk2U1ZJWUEteVRQamJnUnBpVVJqQXliTGhJUElzQ1NOWm5sTkwzd0J1V1JWS09ybkVJNWhDaGlINzVGNEVKRkR0UkdmYlZSajFta0lfOE04ZGZLS3dseXdXQS1nVXdkTFAySmpPVU16MnU0OWdaSDN4eU5QcVd6TTg4T0l0TlEwZmVFUFZ1dVlHOGdtc3Q0SQ?oc=5",
+      "source": "Amar Ujala",
+      "sourceDomain": "amarujala.com",
+      "publishedAt": "2026-08-16T17:57:54Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "amarujala.com seen before (21 stories)"
+      ]
+    },
+    {
+      "id": "news-in-7818d42d760a1c3a",
+      "country": "IN",
+      "title": "Siddharthnagar News: अवंतीबाई की जयंती पर निकाली भव्य शोभायात्रा - Amar Ujala",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNR0JDSl9ONWluWGptZG95blVoNExIZV9lVTR4aXMybS0tUnlmaHlUQlZzcnZfanJZeWdOQjRwbHhjNnZqOGhiUTVYZEU1QWl2aTFpSk03N19PYkd4azlHbU1fRV9pM05GLThJR2FiSTg3TEU3eExub2tFV3hIRW9wUWVsb1FpMjRRNE1CcFhNN1FaMS1UbzRpbGpzbmxPbnJ0OUpoZi1aYzFWWWlPbTctR3FLaUdBSEtLUmFMWGpnaGFjUDVENTM2bzk4MHNqS3VOR0tMbW9tVWVsaHBhU1JIRmlGR2JpcXNVWnEySVdvS3lGNmlwNzd3SHNpY1J1dElHbVZUN3ZRaklpdk9CU194dEpBa2tnZWfSAZwCQVVfeXFMTmpIM2JscFBXa0h2R2s0a3hHbWZpbnhRU1hVSl9sNFdCV2RfQkVOajJaU2VoVU52ZGxaRzFTY2xyRzJNeWctakdOTzhXUy1MZlNTYW11bDM4RmRhbFl2UGlTOE9RaXRWLXQySzBCbWZXYnpxbHo0YlpvQkNzMU1YV19KVXlSOV9WbTZsWWRIQ2xKODVOdGh6cmZMd0Q3QnBxRnVoVmVlZnBfUjRDZHFLN3ZlSWUwM0I3aTFWX08wS2hIVGtjX0ZLSmZiaTJoU2JwTTlyU0lMR3VrWndzMzJEXzlnWW5IOEhGY25HUDI3eExxWV8xZ2UtOWJNNUlhcmhKbnRUMWN4VTNNckZRRWFLeXNMY3pzT1JfY0dodWs?oc=5",
+      "source": "Amar Ujala",
+      "sourceDomain": "amarujala.com",
+      "publishedAt": "2026-08-16T17:50:16Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "amarujala.com seen before (21 stories)"
+      ]
+    },
+    {
+      "id": "news-in-21e108b9257a6950",
+      "country": "IN",
+      "title": "VIDEO: जाहरवीर गोगाजी की शोभायात्रा में उमड़ी श्रद्धालुओं की भीड़ - Amar Ujala",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTS1RVmRFR200aXh6R1lsMUxoOVBDdzE1YVRmSXU1UUFNR00zelpsSzZUSEx1OHRyN2tyRkRidm1HdjRFY25vMFdQLS1PZkE5MmxGdzFsWFRZNzk3S1F6QlgtLVJ4RGcycjQ3WFdtaDNBYjAySE5XajVmbTdFZW5mQ1BtSHJHbTZiV1pMSXNXdmdTLUd1OWx5SVRYUWlrdndnR0VvWEJOVmNnVGt6NFJSenl5R1Uxd2xoVFVkNTcxQmZtTy0tWXFlMFRkS2gwSlJ4aS1Z0gHYAUFVX3lxTE5ralF0S1gtV2pnWTRoQ2FDOFVfNHJUSm53RElRSWpLcU56NTh6NUQyZnhkOU9DcEw5ejRsSmkwdktxR0xscTdlS0w0cllOeTU1SHpnR0lDT09LU09TbHpFTkt3QkhrSFpIVXNpUV9UQ180Q0RZMW5KQjFDemN1ME1IbmxsbjJpSklyMlItS1JzbWRpWlBUNDJSd05kSmVVY21OY0w4NERuUXkySHNHdFNFTzJfQk40akFlTjRPa19OT1dXeXpPRzcycktJNWRxaFYwV1pTclp2MA?oc=5",
+      "source": "Amar Ujala",
+      "sourceDomain": "amarujala.com",
+      "publishedAt": "2026-08-16T16:21:57Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "amarujala.com seen before (21 stories)"
+      ]
+    },
+    {
+      "id": "news-in-f89efbccdecbd4a4",
+      "country": "IN",
+      "title": "Hajipur News: अष्टयाम यज्ञ को निकाली कलश शोभायात्रा - Hindustan",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPaDc3NEQxdTV2Vl9kQktJdHBNNzl6WEpkM0J2c1luNk5iV2thUTlsdWJUbHg4eEpibDZhdm9oeVpWWFRWMjdxNm5GM05QUVAwMjlmRGVVTTdXVE1nT2hrOUc4U3BoQjQ4QnZQem9GOWVOTmNWazB4WkRxUXl4RVNVZkN4X3N2RGNCRHM0RE8zWTFCanNZT0g5NWU3MlBKYVRCRTJrc2VraVJ2WTF0RXFSLXNLcm10OXNUdnNnaF90NEt3NWlpOXk0NmgtUW5WcEtRV0NKMmM4WEZ0Mkx2VVVsOUt1N1ctSEt2MFpMemVZWXTSAfYBQVVfeXFMTXJ0eGhlQzU4Q2IwLXRvX3RwX0poOEZNdlEwSlVZWEpiQTJJQjBhOXFHTXVjQk5qbWp1cEp1VkxNM2FOeGpIQjBHWHMzaVp1aFRNVnpQQXktZ096Z1BZT3luQU14Mk5CNDBXdHlLMFVnRHRZeHl4ZXB0d0Y5bFdHQzJDOWdEejVoVGFXREt6YWpKVGhKUGI0UDN4cHEtQjZNMUttNnNKMjBRaURIY1JoOEV2ZUQ4OHJyeC03bmdKbjRrcTVOU09xaEpGWGdyT0lseHBPVDJpajNvVmJzbGdjdE1HN0hndGxYY0VwbzZvR2NBcjJjRFJR?oc=5",
+      "source": "Hindustan",
+      "sourceDomain": "livehindustan.com",
+      "publishedAt": "2026-08-16T16:04:33Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "livehindustan.com seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-in-92b7bb1059e5cea0",
+      "country": "IN",
+      "title": "Bulandsehar News: धूमधाम से निकली वीरांगना महारानी अवंतीबाई लोधी की शोभायात्रा - Hindustan",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTFNjcWU5ckpkYmJCQ3dKV1ZYYlhudHJCaHJuOG5CWlVNaE0wVjJjbWpEVWN0cllhOHF4SWIydDVLUEFYY3lqYTlfUnhPd21abXd1TFpWQUhpM3c5a2pGRjlQZ2oyazdORUlWUUpRbHplZEVDaDFvWFdvRnFCVkVNU1hBNUhPcU10OVBpRElodHhFaG5lNFM5VEhDS0hEV2E4MEg5cWszQnlsdURKRzZvYS1pNFVTMGxVcHE1WnNxSFdmTUNqTzV2VU1Qa1U5VnhzdlBUZEtNQ1J5SXVGb1JqRm93?oc=5",
+      "source": "Hindustan",
+      "sourceDomain": "livehindustan.com",
+      "publishedAt": "2026-08-16T14:37:41Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "livehindustan.com seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-in-2dcaacc3a8972db8",
+      "country": "IN",
+      "title": "Ghaziabad News: रथ यात्रा का स्वागत किया - Hindustan",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcU9URnRIcy1ZQlVKODJFWUgwZ3p6N2xXS2l6UjY2UTV2a3VZTmgxcHBBeURnRUY1dzRfcjlFN3hfRkgwdHNaeVRqTVJueWxhMWU5V0RCSGIxeE1adHNrZ2R6OTl6S2hfbldqeFVDbUMxVzdNN1dCTGs5MWJrcHZ1MjdmcDltV044endyemtFbVhkOGlQUkNDOFFHa3BxdXRBV2JiemVGV2J2RWVVaXlQY19fckVmcXlPRV85TjVwcDV4WUZjOUlKZ2pxeGp6X25rX2NRZlQ3blU1UdIB3wFBVV95cUxNZjBKcFVmeW5YYXVnWTU2T05VRnM0c1duUElvU0NSZ2Y4ZTFDdVFnWjdlMjd0S1ZfOU9lTHZRWFpTNlVVOFZTN3ZWWjRJaXMyZUw0SHJTanlBZWI0TW5Dd01JNHRDbUVYdm5MOW1mOFRZSGlDUkJ1UDMydU1SUER2enlfOS1SaDQ4X00xeU9GQzh2U3YyazU4OUs3Q19kNDE2T0ZtbWlVS2k2clhzNTZKVHBuRG5NRmxKbTJobGhFWXJ6bjVjaEVDaVVpaHhzZkxSdG9pcG9GbmROYnlKb1ln?oc=5",
+      "source": "Hindustan",
+      "sourceDomain": "livehindustan.com",
+      "publishedAt": "2026-08-16T12:50:28Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "livehindustan.com seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-in-f7f273d312381ef3",
+      "country": "IN",
+      "title": "Hapur News: तिरंगा शोभायात्रा को पुलिस ने नहीं दी अनुमति - Hindustan",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPczJrTU81MjZZT3oxN2VRUUxTVUdEa0NhVmVrc25nWEVNU0dZcVBaSmVuLWhwM2J1TlBnVHM4LTE4Xy1XeXlCNGxvTFhfTHd5SGMxYUZ0ck4zTXJ2OG1abnk4a2kwcWlRcjhQMkZSSnBQNnh1LTVYbUdMWjRkUDc4Zy1XMnFtRTZkVVdILThmWnVfOTZkVjZJX1VfbHc0c2phVHZQOVBRb0laNUtMcTRHd1puVWgyeTFsY056b3d3V0ZtNUYycWtCT3EzOGx5LXBRWEFTTGxHbW5CdzJt0gHiAUFVX3lxTE15QWpocjNZM1dpSTlEdHVqRjE3bkp2clVzNG14b2p0cGNPQ3pEbW4xWjc5cm1fb2E3LWhoUWpCY1o5VUxfSUdMYVJfcU5ad3V2N01oRTRISXhSeEY4NXVXWDcwb3pValZsX3RMeHlhV1kxN01QV29RVl9YbGtYSjdza21HZ0NGeTc5VHV0MTE3aVZsR1pMTkctWUZ0UXhmZkdCQ2pxZTV1YjYtTFdiMzBfVzFiV0trUktzOEJ5aFpNRHc0ODVSUWF0NGJXMHdEd1Q3bkhmZlFrSklpcFVoNUZxRlE?oc=5",
+      "source": "Hindustan",
+      "sourceDomain": "livehindustan.com",
+      "publishedAt": "2026-08-16T12:23:43Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "livehindustan.com seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-in-ef7baf47ea8eaa58",
+      "country": "IN",
+      "title": "चंडीगढ़ में शीतला माता की अनोखी पूजा: भक्तों ने मुंह में त्रिशूल की आर-पार, निकाली भव्य शोभायात्रा - Amar Ujala",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeWJ0ZTJjeTVSRXAxajl3WlVUT0VsWlhzV09BdE1OSWVjQkY2RzVCRmpTWFBaU2JfMWo3Q3IzRVNKTkNPRXB1a2pLb1dZMVdIeEw4T0I2aTRkSWlyYUduRTI3VEhMLXJNVE0yakZwajlkZ2dlZHJhNjRMLUJtTFJhNko5cWxVUFJ4V3FkOURnR0FDLU03SEctcURzWHdqQ1p6Q1ZtczViakdlZ9IBrwFBVV95cUxNVlZ6bk9tWUNMekZiSEpaVDBpY3FYRnRTN0RJQzRhNTVvdVh4V3BiV3FMUVlCcWRHYmpTRUFUVTdjQVl5VExSRlVnbWsweDk1SzhzMF9KOVpKQ3lTYnhzckRlUDdBVW5ka0NJWVUtS1AzSW9sQ3paTVRtamJQUnU5YXVnUUVrZHJtNnlMUUpRQkZ3RWFfdC0xaHM5OGxWb0twNnJiZXE3dnJ6VWl3UTZN?oc=5",
+      "source": "Amar Ujala",
+      "sourceDomain": "amarujala.com",
+      "publishedAt": "2026-08-16T11:26:19Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "amarujala.com seen before (21 stories)"
+      ]
+    },
+    {
+      "id": "news-in-5772c7b5656f71a2",
+      "country": "IN",
+      "title": "Bhagalpur News: सबौर के विजयनगर कॉलोनी में शिव मंदिर में प्राण प्रतिष्ठा को लेकर कलश शोभायात्रा निकाली गई - Hindustan",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOQ3lvZ3Rub05CdUxiLVE1TjdoRFRkckoxZEdQZWVBVVNTcGVZT1NtVGtaS0JFZDZGdmt3RjdUWUI0QlRRNDdKY2t3b1dJMkdCN1hFa29mNGNGT09RMElxMVlfWlhzS05qZHdLVGNQQWl1V2o3dW1sREZZdXFjRTFqZldUcDMyUWgySFk1aUJNMUI3c1B1UEV5eWROSEFnWE44b25TTEFGNWcyYUZaUzFpOXNvT1VzNUhMWlpMV3NtaDRxNkdqQWthT1AtdUMzZnlaajdEMzZRZUFkSE5lMjNkd2hjZWt4aVNVZ21Z0gHwAUFVX3lxTE1xWTZBMGdjWHdLcHcwLUllclhnNGRmZjB1MXBMTlc1WlpZT1NUVnRZWWZBTzNfb3ZzXzRzR2FYQzNkbE8wVm1ha08xbTEtQUpEM0Y5N3J5VmZCWTVEX2JscjdkWm9oLVN1eEpiY2dtbFBkT2lndXo3cXdBYzR4SWU5Tl91bUtGajB5S2pDQU16V2I3eG1IeVV0RTBlT2dNbFc4azQ4N1FySkVROXVwM1RvZnBxcWpPZXd3ZHItblhxMEdxa28yTzhSMVVBSzN1ZEtrLThHTm1PWjV0ODZEUmdqOVBhUV9oMlVrQTNnNzNHZA?oc=5",
+      "source": "Hindustan",
+      "sourceDomain": "livehindustan.com",
+      "publishedAt": "2026-08-14T21:55:51Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "livehindustan.com seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-in-c409742cab8505b8",
+      "country": "IN",
+      "title": "Varanasi News: शोभायात्रा में भक्ति और उल्लास से सराबोर हुई काशी - Amar Ujala",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdmlIUXBfMkNCSWoyZ19wQk1nZDNNX25qY0RZSF9sVk4yallHSzU1SjlvTG5uMmh4ZldRbFBBWGdiMThadWVsdGd4RjhPaFBPakFuSjduZXU5VDdRMGpNd2xmZzN3TWtZS09FYm1yX0NrbTNvRUVjSlM0UFhRbDU5cmlwTWxmbC1EeGtrQ19jYUVmTTVKeXdULXhiQkxiWXBqZ29sb2FBUDlUbTNXNTJwX3lCVVd3dHp2TExkdGVIWEsxWk5rcnQxQmktMFFaWHNkSzJUbmY4OWZEQUEwbHNVLUxLc2djMDVHWUtaX09fZ9IB9AFBVV95cUxNNUV5TXZra1U1QU9vVHlYeVByQ210S0ZMQVRvRVBETTBVLWlrZW1NcGhMRmNKOTU2b2JDM2U5UWVyU0xOem9PSXhoR0VyX051MGpBcVVpQmk0N3JaaktsOFl1ekwzb3ZhNm1QSEVOZEhPWlpZWDd6aXNKTlhvZ1RsbXgtMlRUWFNsV1JBYlphNWpzWlN3WGZIbXRMOWlfYzdGUmE5azNsS1VaYWtKWktVZ01kQkFhM0kxN292dkJILW1kNkU3SERFa0dXT3ZVZ3NiWUFHUzVkSmR4M1I3eHBKRlhpdmF3Z0w0MU1NQ3NYVVlqN1Bo?oc=5",
+      "source": "Amar Ujala",
+      "sourceDomain": "amarujala.com",
+      "publishedAt": "2026-08-14T20:04:40Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "amarujala.com seen before (21 stories)"
+      ]
+    },
+    {
+      "id": "news-in-365779dc1c4dd34b",
+      "country": "IN",
+      "title": "Bilaspur News: शोभायात्रा निकालकर दिया संस्कृत प्रचार-प्रसार का संदेश - Amar Ujala",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcE1Nc0xjX2ZkV1hGX1lBUzEtRXZlTi1BVUIyTFRpWU1TNGdMT0lTSzd2T2NwNXRIVWZzcE4tNUlaRXlCbmZwZkU5Wm41M20ySkFTWkhPQmRfd2k4MFpGODkyRHV5aWZEUWF6ZEp3TFhVX0dLSTFFS2hCUlRCWXRmZ2hNai1iYlZHRGVVcG5HRUlQRVMxSzFXZHdFV3EwNXA3d21xTEEwMldDWEJrNUZQQk5OY2RQUzFfZDk1Uk9SMHJyQdIBxwFBVV95cUxQbHBtbHRkc0w3d0F0dUdnV1VaMGVtVDdqamdTMWx4UmxBanBRbnVITDJhdnlFUEdBTVo0azRxTkd0NElzbHdHVW9UbXo2NC12Zlk5YTk1dTZET1R3QUhMSmhramVjYkViSWJPekVYU1V0b2JCOWo1S1hpWV9nb2R6cXRBS3U3R3FsMzBfMkNRQ2gydUd2SUVSaUZpQTMwVUVYaDNJcEU2UjJiSzd5Vk1YNnFFY20yMmMtMzlKZEhkLV9kUG1LdVJB?oc=5",
+      "source": "Amar Ujala",
+      "sourceDomain": "amarujala.com",
+      "publishedAt": "2026-08-14T18:25:02Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "amarujala.com seen before (21 stories)"
+      ]
+    },
+    {
+      "id": "news-in-1cbd4045f26bfd64",
+      "country": "IN",
+      "title": "Siddharthnagar News: संत रविदास कलश वंदन रथ यात्रा का स्वागत - Amar Ujala",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPTGxLT29sS1NITi1zenpVeGMzcG1fUHVtZTNrQTZZLVhDRGd5N3BqRmZNQllFV0kwWDBYdWJHdjFkZVVLdWp0ZG00SHdwSGFzZTUxMFFMZDJnUEgxWkdnT1diUWFaLXIwUEV6NHN1bjZMM3F6cGU0MHVWQWhoaU9yUUFHaUpJSmVEYl8zQzZFUFhybm9oTzZ6S2NVYVRDR0FHTXpZalNvbndxVmlaMWNKS3hWTFQtcnM1MzhYUEx2b2pjWVIxLUpTTktFTDhiRnE1MXBUY00wZUF1RDR3LWhWd1NKLVRfS3RFcmZ5Z0Vxc040bHpPY2lhNHRhTThTbTVIclZncm9zVE7SAY4CQVVfeXFMT2FyRFFtellPdGdYSzM3UG41dVBadnU1ak1EMm5XNlBmMHhZR3A4eUdNYlBEQ0R2NGtyY2s0Uy15UFJuXzhLdnhBODAxdmJGQ1BvNHpTb09oU3lKYm9RUjNyaGxHOTdDWGxfR2t5MzBvdWN0bGNEQmo0aktmSXpKZkUwMmtNLUZEN1pIUl8zZnM4RTVYY09CbWprTnVtU1g2SDVKZ25zbGxrQlFEaFVYZTNuajl1Y1lJcm1EZ3ExTEoweHo1d1ZyNUxlU1FjRldiWGNZSFBCNEJuNW9jeEhoSTBGdUphNG9oS2JTWU1vWlVvamx4WTBPZ0RKRWNhS3RQay1LdmtYSHFvY19lTEhB?oc=5",
+      "source": "Amar Ujala",
+      "sourceDomain": "amarujala.com",
+      "publishedAt": "2026-08-14T18:04:15Z",
+      "query": "रथ यात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "amarujala.com seen before (21 stories)"
+      ]
+    },
+    {
+      "id": "news-in-31eefddfaa7a4c80",
+      "country": "IN",
+      "title": "भक्ति-उल्लास के साथ विंध्सवासिनी धाम चली शोभायात्रा - Hindustan",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLUprUTNOdGxtZEZnd0VwdnFZOEo4cWZVMDQzOFJYcjdOcUhrOGlpT2ltMHVYTlN3M0hONjBnSWtSYVRTbF9YeGRhbEcxNk56NUZhelE3SnNDdnNlUzRUOXBjMU9tbVFWRTA5aG5lQk5ISVFwNGlnZkdYbVRFNTFEcXIzdnpySU9GVmJqZHh5ZFZqVXpoRm5YTy1KMHFZX0RUa0hwa3hleHp0TDNKb0hZcWFTVFRIS2wzTGNTX9IBwgFBVV95cUxQU3pWUEhfc3BQWXlqOVJmNHMxSXN6ZEluTDNjM0VvQU5PTEVha2o1Y1BHLTg5MWhkbVZzT0Y3VW5TR0EyVnBHb1hCcUs3SkF1UlZjNFIyUV9sV3BfYW5nN013NTFYdEE4WXlhMUFESDVsMmJZaHpZbHBNcUZVVXhUNTl4Q3htbmgxN0N6dlVlb0xhWTZXbjZRcWZUR0RTMFhiRDJhSXJzamJDZHd2aE5nSVRxck9zVjA2MElPNFdXbURkdw?oc=5",
+      "source": "Hindustan",
+      "sourceDomain": "livehindustan.com",
+      "publishedAt": "2026-08-14T17:13:49Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "livehindustan.com seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-in-374748acb39afd32",
+      "country": "IN",
+      "title": "Agra News: राष्ट्रवीर की शौर्यगाथा से गूंजा ताजगंज, 51 झांकियों ने मोहा मन - Amar Ujala",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQSFpKeHdGMEw0Z0dtbGNJd2VXSkk1U3RKdmtrU1k0aUxDS1F1cUxnT09rYTJzTlNZbDhndTg3YW80XzZCYTJvdms3dW1jMGIyWV90NGJfRm5hekcyd2xSbm1oY29MM0Q5Zy02YjBkcmRDZ2lWOFEzWWxYV0tEMl9aNmQ3U2Z2MEEwOVZaVUNkcUtxNG5oWUk5RHIxMWVucmxlTjZaYVp5MFk3ZGNrdVBrTTlLRHotRkIyNUdFUkFhRkl1QnAyQlF5UURBMXpLWHZBbXRBTjZXZ2xjQUJfeERZdTVQRHFpR1VQcTBCYWdZcXRyMEpDbGZDU1lvM1NWMXMyclc1Ukk0MUTSAY4CQVVfeXFMTkZZU2xmd21wNk93TU9xRjhvMWRjdXpQU0RaSF9vWVg1eGRxY2hIdVZZdlhFVFFBSkFjOHlwU3p6Yi1uTTh6S2RqSk1PMmZKRW9MdEs2T2FGMi1kci1OallqWTlQSDN3RDZ0RTExSkJRbVE0eW9lR0hQQ2x1bFpzaTR4Vkdja0VCRllkN08tUW9SQmhOOXpNb2dqOEN5M1Nnd3JwRkMyeDlvbHZBY3hQaEVpWHpibXRVQTlLNHoxSVdZdVlsb0Vvakx6Uy1yYzJZaGxISlM2VlJGeE9hQ1NLcEp2UUV0cVJ1TGNuVEQ3TjljMU1sUDBnZVFvcVB0SkJqeHUyUkdQcG1ENnJQN1ln?oc=5",
+      "source": "Amar Ujala",
+      "sourceDomain": "amarujala.com",
+      "publishedAt": "2026-08-13T21:06:33Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "amarujala.com seen before (21 stories)"
+      ]
+    },
+    {
+      "id": "news-in-31d49d41ace6c586",
+      "country": "IN",
+      "title": "Chakradharpur News: सोनुवा में निकली भव्य तिरंगा शोभायात्रा - Hindustan",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPN01HNExfSjRLRVJhcnhQLS1uOGM2ZUI4MDV1SGJySVlIb0ZCQmNqWkJLSGs5NUh1Wnd1N1lhSVVudXdQUjhXRE96VTlPQnpUODFQbTRJaVdJYWdsMUhybl9Sam05bUdrZkZrNW9iaF9ZVWYzcTN5dDEya1hHbWlVbEZZaGRiZnNZM25XT2RxenoycDBmcllqTkZlcXViLUxpTHh6UF9UMTdZendsdWV5VmEzdUNONTNlSFdTQ1lvT0pRSHZuMDdRajJGWjVSalBDT1pWcmNn0gHbAUFVX3lxTE1XX3EtUkdWRDI4Z1NTcmhoaVNMSnB5SFBkSlFaanBKQWR1T3IwSXF4OVpkXzN6U0pSUTZHcjN5U3poYnRpYUw1ZEFPUnVNUUJJcWhyU2VBWFowYk5DbXE1WUo0WTVxa0FPQWQxTkVhSHZ1TnEwNnRuYzFKR0lfVm54eGNOMVRJbE1veVBiYWNxMENaTDNKS05nYnFPZGptU29Va1lGNVd1OVYwc09INTlwMlUtX2xrUUJjWDBnRWpidEI3Um5EZF9WMWpkNHhCT2IzNnBRQjk4TGRnOA?oc=5",
+      "source": "Hindustan",
+      "sourceDomain": "livehindustan.com",
+      "publishedAt": "2026-08-13T20:46:35Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "livehindustan.com seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-in-685b914af690d45b",
+      "country": "IN",
+      "title": "Kanpur News: भोलेनाथ के जयघोष से गूंजा कठेरुआ गांव, शोभायात्रा में झूमे भक्त - Hindustan",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTUNlMFpZODJYcVp2V0pFdmt1U3pqc0lhbzd5VUV4UFF1Uk8tZ1lxN0djZDE4NHlULTJSekNLTFNTVTg0bW1IMVNNaVRGR1dmWVdUS0xPbUVGdHZLSHFrSEhJSHlvNjF5R2h3TGlaSktMUjQ4cWJWM25BclRrZDdSWC15MGRQS3U5aXptV2ZVNnllUk9MOC1idjlqRXgzSzkxV0RZV1dQd1pEWFZHckhJV1hKbGkzMlhpOUpCcEpQaWJocGdLeWdISVBJNnlnZjdxRVZnazdiQkJBZll4Mi14NNIB5gFBVV95cUxNc0NFM2ZMeU92OXlRend0UDhiRkVQcDNYM3h1SzZkRm16YVhrT2Yxdl9XVjBRUTlENXI2MW9rV1ZZWmRzSENoYXV6MnZuQTNwcHVkUzZCODdBQlhLOElFbVlVUHZ1TFFlYnFTZFo0NzF3aFBxQllhVHpyMWtqZlc3bGRiNm9XMGxpYTNPRllSUmRIZm04NkM2Z2ttaHdMLVF5ZlVZd2dWci02T1p3UXVTZVEzVEdkUXpJSUg5bm5SSV9YdG5CQ0NFamNCWDVHaTl2VGE0bWJEa3V4ZlN4ZmxjNDc2elZTQQ?oc=5",
+      "source": "Hindustan",
+      "sourceDomain": "livehindustan.com",
+      "publishedAt": "2026-08-13T14:43:00Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "livehindustan.com seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-in-b61f084c879ae5a1",
+      "country": "IN",
+      "title": "Agra News: आज राष्ट्रवीर दुर्गादास राठौर जयंती पर निकलेगी भव्य शोभायात्रा - Hindustan",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQQ3MwckNFYWhSY3hYTjloZTl2UVVVN1Q1ZmpQSm1KX25jUnZpcGhTaFczallEay1zZTNHOFY2X0JBaTZaMVRZNVBIaTJHSkVBLXFtSTIxamNfNjR4c2ZsU3g0cG9uVDlKdmdTeDJ2MzBSUko1VUZFWkdIZXlGMXczMkh1a1AxRVo3VEEtVWNEVjlYRXM2blF5SGJwcTFOaWo5MFkteFVxd2FtNzF5Uy1Oc0pKa3NPS0xRd1IxcWNUTWRXaFFyeGl6Z1pxTTRQSVdLdTY2UDc5aUw2ZGFGZmJGMHVVRXdmWHJ4M0hTX09WZGNXRXhieTgxLThuUW5VdHfSAYQCQVVfeXFMUHNnX3VxUjFmU2FvQTZPd2otZDNjUkU3OXpfYWlIN3YxZ0stZW1xamdPLUtHZUduSlhXTjR0Mkx3Wm9SNlpzMVdVcGlNbi1TMEZtOEhVUDEtNWFZY1RqamMzVW1qcHplRnBrcDlZc2dFblpsc0NaMUVfYXJUdC1Ja2NoTUZ6OUktLXNoc0VmOGd1Zjc0UkhzbXRuXy1IRWpWcWYyckhuVnJkZGJPVEY1VDRoSFVqVFBDbXVjQmpqcndQRWk3dnFKTzAzRGI2Y3ZvQjBBU1ZueGUwSkluYnRNYjlPb2x3VGxJUFh0VjBJNWlFR19zbG1ic0pVdm9mZVRTQ2hZRmg?oc=5",
+      "source": "Hindustan",
+      "sourceDomain": "livehindustan.com",
+      "publishedAt": "2026-08-12T17:22:37Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "livehindustan.com seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-in-e793961c04b9c9af",
+      "country": "IN",
+      "title": "Unnao News: परियर से निकली 50 किमी लंबी शिव शोभायात्रा - Hindustan",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTlVEZ25PMGpLOUVpZEw0bTUtNnZCUWVRR3JJQnFjYTh6emp2ODFQS053Yk02MmJzQ3RtbEU3Tk9Md2VQMlQxdWtWSlh5Wl9xLVdoNzlGQ3ZLN2V6VXVrRE1feFRwc3dZd3kwcXBWNEg4aGlwRE1VdnFkYVBGNmN0YWNZanhDUzQ3STIwbXJRYXo2bW10cEpOSDJjQW01TzNKM1I3YVJpd0dVS1dmS3FKbFktVUppZ0tnRkp1SjNLdnlhdDBzN2N4OV9NdXFHLWpjcWZQN3lB0gHbAUFVX3lxTE9FbnpEZ3ZuRDZoVzA0b2dGTlZoRU1ldUxaajlMVGRKcWd1NVNNdElUMzRXY1QwbGlGSVBlVzZIeV9URGlzaHRtZVEzcUljcElzNjk2VzBTNnR3ZGQ3X3d0T2tubEdVdEFIVTB2eUxtQWdMWGUyNVY3THJqbW1XTk8tb3RSN3JkX0lOeXRtM09xTzlPUjJsMFBhME9HdTNFa2lBTEN4OHRabkdVc2tYYTZJOE9IU0ZmNlRaNVByVkRvNkhIazdIM0J0NHB6NEpkUVZpbGJybVFLUmVHUQ?oc=5",
+      "source": "Hindustan",
+      "sourceDomain": "livehindustan.com",
+      "publishedAt": "2026-08-11T18:34:37Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "livehindustan.com seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-in-7d49575f855974db",
+      "country": "IN",
+      "title": "Varanasi News: बरेका में निकली शोभायात्रा, दिखी आदिवासी संस्कृति की झलक - Amar Ujala",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMXdabmVhRERtY0d3TzlpX3RlaWd2VnZ2ZlhhbGVGMy1KQzFXYnhtNkNBOVktb3l6ZEl2ZEU2MWRSNDJVY0pPdnMyX21jclRoR25fcE5sM0ViMTlmNmNBM0VIbGNLWmt4bUhaSHdMdUt4VF9tOWQ1MGkxbG1ZQm1ld0QzZmFXaW10UmZCNDJET201bGpGZk93Vm80U2YycUU0cUtqTWwwX3MxbFluMFp4V2tlblZfaDdDWVZZTDJmRGVZcTV0NFlzczQzNWRMd2x1bHBmU2VWQXBhZHBmcVNpSTI5VnE4YXowTzR3aVZma9IB9AFBVV95cUxPSHBsTkJRUzd4NEFvUV9vTElQV09sWE82azBuSnFYcVZfYVhWeFI1bFNIZnp6a19kY0RZNlVLbXcxM3ItSlBJN2RlMFFVenc0TzBvQXJETDdERHpsTEVsaUYwV1pqbUdwb1ZCMGVHVGhIMHl0bVZ1RlY0d2QwSnVMSUlPejNxb09yeUVlWEJQdjNTTW9jRnZGR0ZYQXA0QWo2MGI3bW4zS1pjSFlXZmFjeWpfZGREVFFlQVc4ZVRzOFJNWm96a2NYdXhWWV9nZTNtOUY4WGRtVVJZOTF4SGJLTURYQXpCR25wandodHdraUY5RTlM?oc=5",
+      "source": "Amar Ujala",
+      "sourceDomain": "amarujala.com",
+      "publishedAt": "2026-08-09T20:17:54Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "amarujala.com seen before (21 stories)"
+      ]
+    },
+    {
+      "id": "news-in-781a060a2d99548f",
+      "country": "IN",
+      "title": "Basti News: शोभायात्रा निकाल की महारानी दुर्गावती बिरसा मुंडा की प्रतिमा लगाने की मांग - Amar Ujala",
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQR3l1QjdvTnAySmNQakxTUUdVYndpY1kyUFFYem9IbjZabEdUWVZTczVrZ2RaQkdfMWtmeE94dkdHMTVfMDQtZHhZMVBmakk2YVJrYnN3WExFNWtSUk9MUERwckN5b2VWWFdKd2dIT0dRcmxFUHE4X0xQSXVqNVE3TmtyQ2x4Y04yeUtqMXZoNWNNdkQ3dkowellaZm9TeDZkdnlaODBYdTYwcmhKRkpqRlE4SWRVMGxpc1BRR3lNQXRzTWNEZWEyMWkyYjc5OG5JMVN4RThiQTFUSlh2OHpoa0kxaGR5MVNUNFVBVXl0a21kQTh2ZERVYzdsY1JxS0FDQlBxaXdtMFJJMURpVkxaRGd2bnZ3TzdBbUszdtIBogJBVV95cUxQMHN2YnlGdmVuWHp2RzE0VEJzU1FaNDBwcjdHOEFNZW1QUS14UFdSdTcyODZMSlVWRmhwN2I1SUFGeFd2NTdpbVR3MjI0cU93TElPdENGMG1MajVMSXpBR1pQQVpMX2psTmk3S0UwcXlkNnp3WWF2Ykd5YmpxR3IzNVhfdkp4YWdyLWlWaWc2NFlZTV95dE1zeVdkM2w4QTlnWHFuUHpnNjhJZVNTcGJKcFMxaEFySmhwUDlTeks3dlBEY09ZYm9hYm5ORm15ZVZvOUt3UEtPTXloYlJITGpmc01CNTZqeWp2aHV5cUt3ZXEtSVhuc19fZjlYNTJ6TnhnYXg4azZjMm9xWTdCdDVYUnBSRENuaDRJQkRHRGVHN04wZw?oc=5",
+      "source": "Amar Ujala",
+      "sourceDomain": "amarujala.com",
+      "publishedAt": "2026-08-09T19:51:51Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "amarujala.com seen before (21 stories)"
+      ]
+    },
+    {
+      "id": "news-in-d149bbf0457cdbdc",
+      "country": "IN",
+      "title": "Shahjahanpur News: झांकियों सहित निकाली शोभायात्रा - Amar Ujala",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNeFM4UU9NUmhiLWU0UjdNQUZDRUhjaGNDWnE0NEwxWDdmZERQWFVBSU5QZ2x3cU1lVUFITW9HV043TnkxVFhReExmZHhLZDVSdXhuT1JKNFR3OHQ0QkV3clBsdHZiTEVfaG8wTk04b3RHY3JKLUc4RWdWdHRfUGVQZHNmcFZrcXJNdjgzRnA4WVFMU2pwSVd5a1g3eXUydXFjV2g5SExqR2VEMnNfTWx3XzYteF9RYWJGbnplWXRpSWZWRWY3RzNBUEpBUVdvZU93cUlQdHRrUlRBdEM4REJKU3dB0gHnAUFVX3lxTE5nSkhxY2x2VHhmNUs2OVh1YzVKQWR2UkdWTWtmSElvemFwT2lCVW5pMkVaT3pXWU9ncGkwQlVuYVFjNm1sbkJ6UzFvd0FLMU91T3ZwbG8wTGxFcUFkbW13bG5YUjRUWk9xOFN3Qjg4eDV3Wm1BcDdhUjRvY0o4WVNyUlRhN2ZkWnk4b0N4MXpQekJJZVQwaHRQMGphcHZyb3plY3d2X3RndVNVNzZIYjJVWFdUcWRIcm1Md3lQbjNYZ0VZZWtESWVPbDkyMjlYcGZNay05Xy1wRy1KR2I5U1YwQXF6SnZKVQ?oc=5",
+      "source": "Amar Ujala",
+      "sourceDomain": "amarujala.com",
+      "publishedAt": "2026-08-08T19:15:44Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "amarujala.com seen before (21 stories)"
+      ]
+    },
+    {
+      "id": "news-in-dfacd77d08ad4e94",
+      "country": "IN",
+      "title": "Yamuna Nagar News: शोभायात्रा से दिया सामाजिक एकता का संदेश - Amar Ujala",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNLXROU3U5OEw0ZHVEWERrR3NKMHRFajlYSXExeDV5Q2NTUWVadkUtck1VRUVpSWhTZDBzdHkxS21DY25VVFJKQUc2UjQ1VmdGeUhCbmdNWE9aYkgzWTllTVo3ZzJhZWRNdHdZQjRia0Z3REFQS1RxZElVY2hxdk9DMGh6bGRMVVg5Vy1sYnVtcWJNQVJ1RDJXdGxxRzFWdzFjYlNrcC10eERsMUQ2R3l4RTFUVUo0QXR1Tl9hN3psN1VMY0QtNHRlQzBOLWU3T2ppOXJMTzBESXd4TUxOSDYtc1htelZ5Y1ZTa0HSAe8BQVVfeXFMTjJheWxIeWpvd25qZm1JeFhxUEtrSjdDTXJrT1NSLU9ZSW9nQkVxWk1zZXJlbG9nWmpEY3BJWVRLbU9JQ1QwOU51ZDM1MVdMTTF6Rk54clh5WUw0Q1hFc3JJVkxBUmZrNEpqcVJ2bEFIY0dDdktUQWJmd2JTLU1rcEdRWVVDdGdhU2FkUXVEN3laVWpQVWRuMTI3ZklvWDU0Y1VEeUZfcVhQMVBkWkJLNlhyRnNIelJfeDdZVmxpcGllc1k1ZlE2cGxGcTdsWTBjcVFXZHB2V3FCNFg2NlBVV0Z3N09vajVSVHpNbUNwRXc?oc=5",
+      "source": "Amar Ujala",
+      "sourceDomain": "amarujala.com",
+      "publishedAt": "2026-08-08T19:07:56Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.26,
+      "reasons": [
+        "generic domain, origin unverified",
+        "amarujala.com seen before (21 stories)"
+      ]
+    },
+    {
+      "id": "news-in-cd99356173537729",
+      "country": "IN",
+      "title": "मैनाटांड़ में महावीरी झंडा: भक्तिमय शोभायात्रा और मेले का... - Prabhat Khabar",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWVl0Yk85OXVWRWhkUklPdEs0TlBvTmd3dzRGWEk4OGg4WlduTEY2NUFOeG1CUE1sYndFaW9YUi11bDVFMTdnVG9ZWXdBWUJINlNud21vVzJUMTYycnpJdVFDVWFuNmZpLW1WSXdua1duc2ZsaHliZWNRX3RaVTdmQUhJa1plYVFuSDZjMnJ5bGFPQS01WjRYUFVEYWl3SG_SAaQBQVVfeXFMTTBDdHlQSXFKRU5fN1BacjhDMDQ5dWVXUGlocHVaN1hpSnpFQzBTSGtYR2ZMNEE2elE4U0x6VEJUY3AwR1p0Q3NxVXd2TFNsRDJlUzNMd0ZQSmhJcFlqMENsd3QwdF9EbmdIcGhQX1VJa3hZRTFoVDFucHRaX25Ba0tOVDBNVkpuTjlsTlk5RVBxbGJ4MkR4R0FiWkpFak1ZQnF5dXM?oc=5",
+      "source": "Prabhat Khabar",
+      "sourceDomain": "prabhatkhabar.com",
+      "publishedAt": "2026-08-17T16:45:00Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-in-8ba9876f9ca031a5",
+      "country": "IN",
+      "title": "भव्य कलश शोभायात्रा: अर्धनारीश्वर मंदिर की प्राण प्रतिष्ठा - Prabhat Khabar",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMTNLMzBDOThsdUlfSGx4WmlLY0VJNmFJcmtrLTBiQl8xaG11eTdxa3ozNmNIUWtaMmhIZ1Z6TWg5cElSbVFVVFJLWEdLZkV5bG1RV1lXem9BelVOLVZoaVRwbjFDRUZLX0REaFZRbld3MWkxSi1jbmNPa2pySmx3ZEVsZDFuRWt6aFBpYkhoT3I0ZnZ2VGfSAZsBQVVfeXFMT2paWktuZlNlVE1DQldlbmhVcEFrc3JJWnlNQUxzX1VqYVVldE84aURiVXM1cVRVc2VuWWxDaGRON1MyUVpYbUlUdnI0Rm5HSWY0ak56TjdxZnM5NEtEYXdXYm5EdjR0UU8tbFBzMk92LXNFMVpVNS12YkczZjZlbnY3eS1lMkZFNE04ZzJFRDdyMG80N1NUeVdqY2c?oc=5",
+      "source": "Prabhat Khabar",
+      "sourceDomain": "prabhatkhabar.com",
+      "publishedAt": "2026-08-16T11:51:09Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-in-774f55c8ca471df7",
+      "country": "IN",
+      "title": "धर्म नगरी धमतरी में आस्था लूनिया का जैन समाज ने किया स्वागत, निकाली भव्य शोभायात्रा - ETV Bharat",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQR3pUMHpLM09fMnRVTm5YLU5sdU1DYW90ZU5CRXIxenRFVlgtWU9Ba2xRYXgtTFlwTFBISmhhRTAyazZfTmxyMGNNeEl2M2s1QWtlQTVDN3U1dl93Z2VPTHllSmJHWkg1cHRzWmpHSkI2OUljcEo1LVNXeURVVnJzRW5Idk9qaXJkZ0hmcHhBNGE3am1BOTFnanFqMHFPSFBhX2lxanBwTzUzVlBROHVQQndsNzJuQ1FxYUF3VlhRNU1hWUg2dWM4WnlJQTRiUW9keXI3S0JGd05RR09qOGgtbNIB5gFBVV95cUxQSHJ6QmhEdzNVcmIwUVQ1dFpKWmNSYXBEOFJvQk9lZ2g5SDZ0THUyaGVfaGdJcFpjOGQ0SlUtUXM1MnA4bTg2VzZ5am0tTkN3Vmp6ejBkVlpHX192WjFESnlraGh0YzlIUzVUWV9QWGZSeUktcTZRODJCYzZBa21xLU0wTGdGdU9fUHdUV2FSN3ZqUmF6QVF3S3NHRTBlUGlYZ1lOX3NDeDRla2t5eEVpaVdGWDVWN3VVZjlaaVJSOWx1cUxMY1ktWW1zZmQxV1JTWFJmTWlBaU00RTJTU2RtWTNibXJHQQ?oc=5",
+      "source": "ETV Bharat",
+      "sourceDomain": "etvbharat.com",
+      "publishedAt": "2026-08-16T11:39:27Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-in-219c3a22c86fa849",
+      "country": "IN",
+      "title": "उन्नाव में शिव शोभायात्रा; 50 किलोमीटर लंबी यात्रा में दिखे संतों, नागा और अघोरी साधुओं के अलौकिक रूप, हर-हर महादेव के जयघोष से गूंजीं गलियां - ETV Bharat",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOd0p0R0NSUkJYczFfa2haUU9PckFVQlFQWVU5YXpLVkJYY0RLd1Z4ZllBNHVuWlR1RXBtWE82ZlhZUVBuZTVnWmhKWkU3VmxXWFJaY0NoampydTNzVlpnbjduNHNjNFVJcXN5SGhmdWJRT21STWwzcGhTbVRQa2o1YzZWQkg0UlpEZER0MFpqSld2VTZrYUJVOGliZnFWYnNJdjRkVmhzZ0djOThZQ09TQlpqVGFSTUVZTmxHNWp5RUZkellDa01XbDZ6NFA0bGRVbjNlS3FxdWREQXQxbWRXS2tyRkJLMkJnSGYyU2JUaXhiamoyLTNLbTlhODnSAYICQVVfeXFMUFdWQ1VrS19DTDkyS2lGZ1NfVmFNXy1IRzJXd0xFLWF5cEZ4a0VwX0JYYzZUSld4VHNjM3ZFVS1FVUVHV0ZTWUNrWVA1aG0xdWN6ZUlxS3EtUFNZUFJvNU85SWxnWi1Bc29xTHdUYXZac1Atb1hDbWh6b21KZk85c2luTUxIQVZWdGdNdUFqT0ZqenZMcmtGWDJBVElUWU5XM1FCSzdNQVNKOWxZbG9uMHY0R2V5TnZlVkw0MHE4aXUtZTRTOUY3aUNuazhJcXlVdzVpVjAtTHlGUXR6WUhKUmdEelZJWjJNU05tSHRSekozdmRCX21qRzZrckg4QTZTdTR3?oc=5",
+      "source": "ETV Bharat",
+      "sourceDomain": "etvbharat.com",
+      "publishedAt": "2026-08-12T07:54:08Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-in-8f43af406dbad0ae",
+      "country": "IN",
+      "title": "आदिवासी दिवस पर निकाली गयी शोभायात्रा, की गयी सभा - Prabhat Khabar",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaWhsMV9RNnlWWnBmMHItVWRqWngzNS1DZFN5ajN2WDQ0SnhIQlBycEZ4WjhvZDVzOWJWU0pBR1lEc1pBYk1peXlUT09SclUzQXQxN3lLZ3lTb3NZT1ZYcmpYS2RyVnRBbVZxeXhKd1hNQWVyckF3N0dTbDhhRXg2ZjlkTG96dXVKdDIw0gGQAUFVX3lxTE5NUXlRTkJRWklqWGdyV2l4UGpyUGVveHk4end4cUZVR0dTWnRiN3ZSLWNTWjhjc3UxWi12cWJQLXRWN3BSRFBGWjlWZFdfRjd3WWpiZXNNQzN4VkduazE3b0x6S0hnRmZlb0RZQWZ2dEFzZkIxNEo3QWl6YVNRZlRWU1pvT0JlLTJVSTNNRlFfVQ?oc=5",
+      "source": "Prabhat Khabar",
+      "sourceDomain": "prabhatkhabar.com",
+      "publishedAt": "2026-08-09T14:21:53Z",
+      "query": "शोभायात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "country": "LK",
+  "name": "Sri Lanka",
+  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "refreshHours": 168,
+  "status": "unfiltered",
+  "count": 13,
+  "reports": [
+    {
+      "id": "news-lk-69f21a47da462708",
+      "country": "LK",
+      "title": "Why more couples are saying yes to an unexpected wedding trend - Cleveland.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONlVlSXpkc2xqMlBlSGpyMmJEZ0FTSnAwX2lxdEkzaWUtV2ZwQ01qUHRCM29QbnRsWUUwcGkzQk5qQkdlaXVfY1JFOGVsSk9VWTBiLTUtU3VkSC0yWlhsb2pvSmNCQWpzUVZmNWtROC1uaW9SakhIb1dNcHFEMnduaUdjRk94d0F1ZldnN0tSMk9aV3htbjY2LVlreC1LaF9QOUlSZ0NiXzdlQdIBvgFBVV95cUxNV2p0OGc4cGR0eVI1Tlk1WTgxekY5Z29WV0FWVUs1VWY0ZElCb2VITEtMVjRhdVp2U0s0SnFEMW56RFhNamdDZDJma0FhTUtoaFpVUzBLMzJsQXBLVzBJNngwSlZxOVdLUXBKbnZBZ0RhZ1VMX0wxWE10TkFQc09GUzVBWUUyMlZ3YVhfX19qdzBfdWd1RHF4VnJiY3Fqd0ZYR05JQkdDMDRZTC12ank3MTRtZE9lTmxSNHlGVm1n?oc=5",
+      "source": "Cleveland.com",
+      "sourceDomain": "cleveland.com",
+      "publishedAt": "2026-08-18T14:29:00Z",
+      "query": "traditional ceremony",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-lk-eb267c26b7fb469d",
+      "country": "LK",
+      "title": "Traditional snacks during the flag lowering ceremony at the Merdeka Palace - ANTARA Foto",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVXdrRGowVmhfS1FtVU96LThTdkI4V2I3bnBzbWYxWnMzRUVXUDZzTUlCM1loQWY5SWtxZkd4c2hfc0tUMWpFVVByOUNXQ0ZxTmNfSTBPZEZ2anpwbktFVnBoazE2aFlHWEJFVnFoSms0QTNfS3FoaGo3eU1QekNJMVVOQnJ6NldHaDFFZjhHV215ZXBIdDJlaTZKV1ZQU0NseXlxazJPR05oRXEyZkY0Q29VdXDSAboBQVVfeXFMT2pTWW0xOWtSdEo3QkVCajZiSExmaGRsanNPdVpkVGNZWmlCNjJzMVJWWmJQOWxEZTFFOXg0Q3dFbjJpVmF3b3FHd0VJX2tsTU1sWU1NdFdjRFVGYjdpdG1GNjVoZnhvMXhYUVpfdXp0eENXN2J4RTRzNlVLeXVhVV83cnlaS1VNeS1jTXFVMjFvRkJFclJ5M1JjMTVQVGxwYktGRjlJbXpneUR3SXVUWDdDV3JlWjJmVWJ3?oc=5",
+      "source": "ANTARA Foto",
+      "sourceDomain": "antarafoto.com",
+      "publishedAt": "2026-08-17T12:59:00Z",
+      "query": "traditional ceremony",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-lk-a70dda2f37d70a73",
+      "country": "LK",
+      "title": "1st Kumbal Perahera of Kandy Esala Perahera, tomorrow - Sri Lanka Mirror",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZllUY3NxTE4tVEZDcGI0dTBNN2p6ZDF6N0xjd1lBdHNxajNYclVSOHQwMjVqVHEzUW1YcHpzczZnX040Wk1XN3VwTzc5MWJuYXFXMklaVTNIUjFac2FHM3U1Q0V5MFQ1TWNjZlh1Njdqa3ZZcDBWZENTbWI2eWVJLVdMQjA1RVNOSF8zMGJB0gGOAUFVX3lxTE9mWVRjc3FMTi1URkNwYjR1ME03anpkMXo3TGN3WUF0c3FqM1hyVVI4dDAyNWpUcTNRbVhwenNzNmdfTjRaTVc3dXBPNzkxYm5hcVcySVpVM0hSMVpzYUczdTVDRXkwVDVNY2NmWHU2N2prdllwMFZkQ1NtYjZ5ZUktV0xCMDVFU05IXzMwYkE?oc=5",
+      "source": "Sri Lanka Mirror",
+      "sourceDomain": "srilankamirror.com",
+      "publishedAt": "2026-08-17T05:44:33Z",
+      "query": "perahera temple festival",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-lk-75fcfc169c02c824",
+      "country": "LK",
+      "title": "2nd Brigade Change of Command Ceremony [Image 2 of 20] - DVIDS",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qWER1Vmd4NWF4MjhXOTZCQTNxRmlqb2ZNYlJiSmZsa1MzemtCT1JsQWl3NkkzZjNuU25uX1doTHVHejNQdEhuM2VuV2FvYTZpOXJERkpkeUZsOVpBZUNLVFhZVlhRTzc2dHVFUnFhMFJreUJyNDQ5alh6ekN2cW8?oc=5",
+      "source": "DVIDS",
+      "sourceDomain": "dvidshub.net",
+      "publishedAt": "2026-08-16T00:10:00Z",
+      "query": "traditional ceremony",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-lk-cb250e971498ddc2",
+      "country": "LK",
+      "title": "Trisha Krishnan keeps it classic in a mustard saree as she attends CM Vijay’s first Independence Day ceremony - timesofindia.indiatimes.com",
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNbTduMkt3VVgwRHpxRklDZE05aDFMcjI0bFI4MXVGOFQ3NFpIUE1feXoyYkFqbGNNbGpsVWxPZjNfNmZ0X3RGaHk5REhRY09lUlU5LTFKbjB5bVJSb0ljVDhRMmgzaW5HLVVaWE0yNzY2ajVVbUh6RE96U1J4VHZELURLSEc1NTJCdkpTNy1nVXlMb2RPS05zcGcyTkE4UkFEaW1VNHp0YVRWZXdiQ1lFeGVQOHB2dFBBY3hCNDRya1Z5OGNETDhYTi01U056bEdEdDlZZEpSYnBKNF8zS3BEbld4a1lHOFA1emJzNFFNVm5ZbVFHREU2WjFPY1MyV0UtR0pmdzZBQXcyQzlSNjRkdlY2b2RTZ0pacGplakxWM2Noc0XSAasCQVVfeXFMT1lvWXgwQWExOTI4a1VvaWdoVkdxbGY3T3RELVZrT3U2eUxEa3pKXzRCMW9sR1g5ZGRHRVF2Qnh0ZUk4ek1UM0dDV3lLeTF4WmttVnZoX0pNUXEtXzNwYkVCZjdHcHNJRms1T1BweHBndWpxd2tOWm1WN2ZuLTJpV3lBVC01N3Y4UEc1UGpNVnNSaVZpTTB3MExaNzE5RE1ld1I3ck9UeGVEZnJmNkRqLWR0TmhDa2hWVmkzZ3pocGRWQ1lCeWxUVEVSa1I4Qi1iMVRRNnVMN3lRcHJMZkdTbnFaVmMyY0Noekl0TC1NX2NQSlJkNklkbmhEVU9rdWtPNDlaaGxHeXFLM0FJS1hLUmhPejdHcHktRFJNSnFVeDZUTXUxc2szQXpEWVE?oc=5",
+      "source": "timesofindia.indiatimes.com",
+      "sourceDomain": "timesofindia.indiatimes.com",
+      "publishedAt": "2026-08-15T09:59:00Z",
+      "query": "traditional ceremony",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-lk-2901be84e7376c64",
+      "country": "LK",
+      "title": "Malaysian Princess Ilyana Alia gets married to British racer Christopher Froggatt in a traditional ceremony - Indulge Express",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQejROWE9yYWl5cWFDaGFMNnhCNGc4TUFMZFhoeHcyZlZDMFpiWWVjNzlLU3kwM05zRzJtYm9PX0JTaGZfYlNraFlqME1yQnk1dFB1SEZ2NHA2a1M2UG9COUZwWFhXdEtPM2FpUGo2WTM2YU01WUFaOFpjd0Q2SDhobFJPTU9xLTVqaWMyb0RQaVI3RzlodHQyMFZRR1g2MnNzX1JOdHBwVjZ6VEpld0JkREthdkZqdDd4M21mc3JGd0NmNGt4VklmTzUxZFFZdi1QR2g3Q1JNSEpYTU1kMy0xUVdLalVIQndUQ2V1elc3X3JwdlhSdW5VWW8zWnY3LWFyRFlr0gGQAkFVX3lxTE1YazRNZjlub01va242a3ZOSHA0RllhOHBxQWU0SFlKeXA5alFXTXVxZDA1cm5Ucnk4blBUNWZtMGNJcXpVbDJ4UGJYMGljT09qMVotVC1nbDhIeWdKODVBVlJ0dUFsZ2FfNlBWOXpCdzlZeXJYTFFIOTk1Ykk1VTIyWlk3eGZPMm02NmRoeXhoZ1RSVmdINkJ2MXRuOTZHSGEwYzdsa3ZMZUVHd0Njam9aYXVDTVNIUldJeEJlRTRGckVkSGJVbWlqWDJLMjR3SndyWlQtcWVvVG1EdTEwWmFkOW80WUlPOEF6Q0RrMlNubW5vd0VOako1UDZTbkVFRFRYRTExSmNLSFN1UW5FelNw?oc=5",
+      "source": "Indulge Express",
+      "sourceDomain": "indulgexpress.com",
+      "publishedAt": "2026-08-14T03:34:31Z",
+      "query": "traditional ceremony",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-lk-e29b8dd6e6493741",
+      "country": "LK",
+      "title": "The significance of 'Koito' and Ruto daughter's traditional wedding ceremony - Daily Nation",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQd3BwTGVyM2t0MEoxNFlwbVJPSTdzcXEzcFZNajNTTGZ6bU11N3VEQkJfVV95TE5rbzkwTDBsVGNBUkUzb0E2SnUtZmNfZDVtRlNib1pyRG1rWWZ1cVlXempSWVlMcHptak5zajlMbm1tWjJJUFE5Y1p4aWJnTGM3SWFyRU44U2R2VVJKNmVCb0RmSnpHcVVxTU9Lbk5KVy1TRzd5OA?oc=5",
+      "source": "Daily Nation",
+      "sourceDomain": "nation.africa",
+      "publishedAt": "2026-08-09T07:00:00Z",
+      "query": "traditional ceremony",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": []
+    },
+    {
+      "id": "news-lk-5601754cecbdd733",
+      "country": "LK",
+      "title": "Traditional leader in custody after teen killed at umgidi ceremony - Daily Dispatch",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNb1MxNHN6TU9MVk5PZERBek9tbDRubGp1Q3puYlB2d3RlNUd0X1QzeHdRYVl5N1RENXYzQmM5R0J2MXdkX1dKV0d1YVBSY25UT1FRWVVpNENNU29UMGZFWl9kbmNWR1oyeDk0WVBKZ0hBUWt4bUtnVnlab1dBUnZpZHZQX2pCWEZZYUd1eGphbnFfalZoZEhZMy0xSVVHbkRJbnZfc1RMWnNjbTUtYUZ1cXpGSWxyZw?oc=5",
+      "source": "Daily Dispatch",
+      "sourceDomain": "dailydispatch.co.za",
+      "publishedAt": "2026-08-18T06:51:29Z",
+      "query": "traditional ceremony",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-LK domain (dailydispatch.co.za)"
+      ]
+    },
+    {
+      "id": "news-lk-b5460a9a4e93b769",
+      "country": "LK",
+      "title": "Defence, industry attend traditional coin placing ceremony for Sail Training Ship Young Endeavour II - defenceconnect.com.au",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOTTNKc19VdkNaemZrZVBqWmgyeWk1Q1lmVlhpb3J0aVd3cFVvMXZlSlhKbEFfTkVTWk5mWW9iWnV3bHVYTWdLSU1BWTBhalVsblZ6SFpQWGpUQmo3TXhvbDdlUjdwemFXRHJ1amxxcHdVdmFLNkVUWDc0ZlJGTnUySUpna0c2cHVSbDdYeE1Vclh2aVpvdEVkUC1iTmRvVFBvVjRCUkhOX1BzWmVnSml2TFFKRTJldkJVLUNxejlTanR6aXhZSE92ZzZCeDB0X0Q5Vkw5Yk5iOHIzR2Rxd2c?oc=5",
+      "source": "defenceconnect.com.au",
+      "sourceDomain": "defenceconnect.com.au",
+      "publishedAt": "2026-08-18T06:29:32Z",
+      "query": "traditional ceremony",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-LK domain (defenceconnect.com.au)"
+      ]
+    },
+    {
+      "id": "news-lk-41601f2f0b58dbb3",
+      "country": "LK",
+      "title": "PM Vishwakarma Artisans Invited as Special Guests at Red Fort Ceremony - SMEStreet",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQa00zRmg2ZkJib1NoWW1FOFZjMmJ5RGtlWXNIektrcE1QWUIwSWJZWE9BY3RKMlVCakdHZDNLcE5KRUFva01Qemo2YjVoLTItQjktY2RrUFlkSjRnOG8yM25GTDcyR3UwRHlHc1BuNXlaWWtvN1pvUHlSaTRKODZfZDVUanJUVm1sUFEwN0thcjJ2NTloNjNZRHlPUFNpVE1hVFlSdGh4Ui1VbkRP0gGsAUFVX3lxTFBrTTNGaDZmQmJvU2hZbUU4VmMyYnlEa2VZc0h6S2twTVBZQjBJYllYT0FjdEoyVUJqR0dkM0twTkpFQW9rTVB6ajZiNWgtMi1COS1jZGtQWWRKNGc4bzIzbkZMNzJHdTBEeUdzUG41eVpZa283Wm9QeVJpNEo4Nl9kNVRqclRWbWxQUTA3S2FyMnY1OWg2M1lEeU9QU2lUTWFUWVJ0aHhSLVVuRE8?oc=5",
+      "source": "SMEStreet",
+      "sourceDomain": "smestreet.in",
+      "publishedAt": "2026-08-17T09:47:37Z",
+      "query": "traditional ceremony",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-LK domain (smestreet.in)"
+      ]
+    },
+    {
+      "id": "news-lk-e524701194b74edc",
+      "country": "LK",
+      "title": "People-to-people diplomacy deepens Viet Nam-India ties - en.nhandan.vn",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUk9oSDNyd0Yyem84X0lrZU52VTRxdk5YVlp2eUg2NlBfdENqcGRneGN5T0UzV3VmalhqQ1Q4ZnlSZVFoQTJQOV8yWl9rZkpOMXQwQ093VkhlVGNMSGtBS1R0TjNVR0Fsc1pEYkhnZjVyNkxzME8wUU5vNWpzclFHcEZkb3JKMUZYYjB6dW9NdG0zbDA3ZnhF?oc=5",
+      "source": "en.nhandan.vn",
+      "sourceDomain": "en.nhandan.vn",
+      "publishedAt": "2026-08-17T09:25:53Z",
+      "query": "traditional ceremony",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-LK domain (en.nhandan.vn)"
+      ]
+    },
+    {
+      "id": "news-lk-7ca9b5bb4258fc7c",
+      "country": "LK",
+      "title": "Traditional mourning ceremony marks Safar’s final days - آستان نیوز",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZmdvb1hGMVlhT0Z4ZW9IQ0hHNTBJYzZMMzdIN181cWt0eVpHTURrRmd2ZXRoWDk5bld5cmdiSFVlMFNyOGJLWGt0Y1RaUFlXVjkzR2k0NDViY2V5TF9EUlF2bEZ5WWVKU3hfVGgyWVQ0S0t3elhtSloyeGtBY3hkZ0EwdEs3NVJiN0FhVWxSUXNBdw?oc=5",
+      "source": "آستان نیوز",
+      "sourceDomain": "news.razavi.ir",
+      "publishedAt": "2026-08-16T04:38:55Z",
+      "query": "traditional ceremony",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-LK domain (news.razavi.ir)"
+      ]
+    },
+    {
+      "id": "news-lk-a21935d592e60c8a",
+      "country": "LK",
+      "title": "Traditional Maori ceremony welcomes Vietnam’s top leader - Báo VietNamNet",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdk1UcWIxTGh5NWo0aUNPV1NrQnNUOF9ET1VETkRYcmhDTXdyVTVBcDF0WHN6UjBaMFZxdzRyRFZZQjFBWXA5VE96RmRWanZOUFhsb3JRNDFQdDhGZmlBUi1XcUdZVGQ2SFMyUHRLaXRwVklKRS1POTd4ZGtvWWxrbnVmRGFWQXhocVN3WjNWd0JaRTR1T2UwNEln?oc=5",
+      "source": "Báo VietNamNet",
+      "sourceDomain": "vietnamnet.vn",
+      "publishedAt": "2026-08-13T07:30:00Z",
+      "query": "traditional ceremony",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-LK domain (vietnamnet.vn)"
+      ]
+    }
+  ]
+}

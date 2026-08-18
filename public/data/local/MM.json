@@ -1,0 +1,64 @@
+{
+  "country": "MM",
+  "name": "Myanmar",
+  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "refreshHours": 168,
+  "status": "unfiltered",
+  "count": 3,
+  "reports": [
+    {
+      "id": "news-mm-87d459da5bb94b58",
+      "country": "MM",
+      "title": "Photos: Capital Thingyan brings splashing water, Myanmar culture to Albany - Times Union",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaFNJNFFkV3hEaUVXdS1WYy05eURaNmg3dmVHSnA1TWZnNG9iN3QzVEZZSDVBSGl4M1RuaVNBX1cwNFR1dWp0ejRuWmVkakZzcXVqUWU0RjRMejFYQXpiVVVzQkFhcndwU3VQT3JkTGVzRmRpVVZoX3h5b1YtNDl3NnVHSTBSTThtOEJZZUZpZURKNXRKWXlpdlFsVVdvaVA0?oc=5",
+      "source": "Times Union",
+      "sourceDomain": "timesunion.com",
+      "publishedAt": "2026-08-16T10:33:53Z",
+      "query": "Myanmar culture event",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-mm-4b5eebeeadbadd27",
+      "country": "MM",
+      "title": "Festival Tourism: Akha traditional Swing Festival - Myanmar International TV",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOY1pZSlBPZUdYNEtuSGNzemphaEtoOWNHM01ZLWo5Uy1TZk5vQjNLUE5uOXZvbWc4QVZ3M0hrY2Q5YnMzZmtVYWpGalpNdGoyWFdTUDJLVVpabDJ5aS02bEdQUDhtLXF0czdIYjM2ODlJaHJweWtqNzktM2ttRUtlcHlKOXJyYTg?oc=5",
+      "source": "Myanmar International TV",
+      "sourceDomain": "myanmaritv.com",
+      "publishedAt": "2026-08-10T03:44:08Z",
+      "query": "traditional festival Myanmar",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-mm-9496e1ad4e4b62c9",
+      "country": "MM",
+      "title": "Asia-Pacific Community: Chinese space documentary inspires Myanmar students - Xinhua",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPckhheERGbE1FS19qeFF3d1VQTUpPaTlvcEFyaXMtenV1VW1jMzYtY2xfSUpoZ3JfcHZkTDNDdTZaY0ozWjNMcE45LW9MOFBrMGs5NDNXT1AyeE5xc2VyT1ZLdkNUQ1dmbkdnTUhob1Bpdi1nYnM5S3NQamNSNGUxaWxyOTBNWkFxOGRnag?oc=5",
+      "source": "Xinhua",
+      "sourceDomain": "english.news.cn",
+      "publishedAt": "2026-08-10T08:52:00Z",
+      "query": "Myanmar culture event",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-MM domain (english.news.cn)"
+      ]
+    }
+  ]
+}

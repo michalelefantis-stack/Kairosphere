@@ -1,0 +1,118 @@
+{
+  "country": "NP",
+  "name": "Nepal",
+  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "refreshHours": 24,
+  "status": "unfiltered",
+  "count": 6,
+  "reports": [
+    {
+      "id": "news-np-0f460a1ab106ad35",
+      "country": "NP",
+      "title": "Chaturthi Vrat - 16 August 2026: Timings, Rituals, and Significance - Prokerala",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeHBPQnBnSDRYTGF2WmdZZVdFX09QTnBodUc4U092ME1RMlRQdnhNZ3VFcm10dkQ4QUZFcWRFT2JHZmpySjAyZDZYTHh5Q0QxbFVaVmNOU3hCeUVEQW9hOWhmeU9JV21CZ1hNcWV5UEhNaTQwUlltQ0padjM3RWtQekFwZ9IBiwFBVV95cUxPN0tBWFZBWEhQVWFJLUFFelh3ejBhNGlBQ0N1YWxOdlIyZGpOQ3FVbWYxNi1NVXJuMi00a3RwVG9LRW12Qk1yN3B2R2gySjJ0Y2NsUjVUaVJEczJMaUtLNGY5bVpDU0FReWxGUE5RNTVfcS1qVFA3UTkxaU1vNXNjV09pTmtHYU4tOURF?oc=5",
+      "source": "Prokerala",
+      "sourceDomain": "prokerala.com",
+      "publishedAt": "2026-08-14T03:39:00Z",
+      "query": "पर्व",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-np-5e15b372a67d78e4",
+      "country": "NP",
+      "title": "\"Gen Z Left Me Speechless\": Ravi Kishan Explains Reason Behind His Maun Vrat - NDTV",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSTE0YTdPZlF4bkxhYzlJNmYzMnAtdzZ5bUxISFNneDhUcnVDQ0FsbThaVnJwbTBQNE5Gbk1NTDE5X1dodVZrcGJQakhoQy1nNHRzQzJyR0otMzFwb3ZVNU5JZG9kR1d2ZFU2OElHaC1meGJwcTVwalJ6elRvbFBBYWdtQlZQTHNfZEtWYlBvNkFhOXhkRGFjNDdsZkpiTUoxWng2S2lGSHZ5c1AwRmtueXhJLTVHYjhHQ2ZEdmhLWVE5RUpPN19WTWl3NFrSAdQBQVVfeXFMTkJlT3Fhd1hKejNKRVBfWDBQUl93ZGd5Q1Z1WjAxZVliYU1DZjZxTkg1d0NDRV9jem1VWlVnNjRkaUFFVVlHb25BUDBIV1NMS2c4SnYxUy1TcUQ0TmFIVGFEX29jdl8yTG1ULXBlX1FYNjh0Rm1XelpzMll4MVV3S0J3VC1nZG4yNkstM3Y5MzMxd1RXR3RBbWRpeVVGTXY2SHJYVlZrbmhMT0JJZWZtMVItSDFUMC1SbXV1QlhuVHBaeUV4SU5NUDlLRDNGdmI0QkJKTzk?oc=5",
+      "source": "NDTV",
+      "sourceDomain": "ndtv.com",
+      "publishedAt": "2026-08-12T11:25:51Z",
+      "query": "पर्व",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-np-92ba652a4d7c8982",
+      "country": "NP",
+      "title": "Sawan Shivaratri Vrat Do’s and Don’ts: What devotees should eat, avoid and follow during the sacred fast - economictimes.com",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOdTlReFlBal9iZFpFZldhcHM3cjA2NHU5Yk96TUVXdEZzMFUta3lzckxHU3otM3RndkxTOXpLWTVxTjhXNEJiTGZVem1QTjRDV21HYS1YZ09zTWdJdlg4N1M5OFJ2eWhHeDF6dHdnVGw3TmR2Tl9VZXlzY0JESDBMYkpPUUhOR1prWEduSm9MclVvOTBzV2dUaklHaFQtOHNOakRONFA4QUFlNmx5MXRjQXU4NDAzWUw2UkdPVFNOWjBNbGNKM3lHcU5qLWtBVm9aalYzR1lOT096bFZrLTNwdC1PaG9pNzk2SnFUa0trUHY4ZDFOdVBPWmtETmE3MkRt0gGGAkFVX3lxTE1iMHJreDdzLTdyTmJYNkV3MU1zalB2TUMxRjEtUUIyU1ZVUUxVVEp5eXN6Tzh5bXctc1RlV1k5SmE1OTJaY3EyNXZDYm5fdWlTbWxfTFBGcXdzdzhlcFZDcDBibzcxMzlycFg1OU94bjRxRVVzLXBsbUd2Mm56YjJJMEJlS1o1RmRpREZvbkJxdHhEUWtjNndsTE1hR0VJRkRwM0NlN0c5Z3BfWjdWVkJmUnF0eHJuVWI4TW9YYzUtSW5TNlJHUXZXb3p5Ulh2d3N4LU1TSkt3OXlxUFprN2R1ajZLbW1RQVBpSzVNX3d0S09BRFRWbTMzelRmdjhFTkxHVGN2a2c?oc=5",
+      "source": "economictimes.com",
+      "sourceDomain": "m.economictimes.com",
+      "publishedAt": "2026-08-10T07:00:00Z",
+      "query": "पर्व",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-np-cf0103241443110b",
+      "country": "NP",
+      "title": "Sawan Shivratri Vrat 2026: Do’s and don’ts you must know before observing this sacred fast | Hindustan Times - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNWTl6Snp2RllPS0ZiOHhKa0NtUE1OOXoyMU5mTmNlT3lob1lpTUZ6eEctT29Td01LQ1FfdmFGTC1MOEtTTjhKSzRMZ2k3dUdiWWk5NVotOWdXQ3l6UnZlNDVacGVELTkzWUpvQUx6TFpYUFl2Y21kX2xzU3lrZHNWVWJxTlEyMjZLajFnN05KYzh3eC0wNjUzSk5OdDRfamdpWFZIRDVSQkgtdXlqcUQ0QVdtajZmcnYzdE1ZRWRvWEplQThMNWpOaEttOWZHNjF4RTR0T0lVaFJxT2hYU1h5bXFZNTUxWldLT29xQXFMQkhvS03SAfgBQVVfeXFMTWtMYWxNWXVUb1NIaDQteWxyWHNlbVlJN2l3MlJPSjMxSWVDRTlXWEZ4ODZjeTBnSHdBTUNOTWNwbkhnc3Y2bV9BUl81cE1namkyQnVrc0VRbmVyTTJBVUdfVGxoOHhtT2NUMW90SlBmWjFJRUR4dGhFSWdqSVo5UG40Z0VsY1hHeElNWWc0MzlSbUUzSTRFX1dNUHhUMGl4cnpfZVVVNzdnT0tQUW5HQ3ZIaGJjb0dudFhTTDNBYmYzNEJxVEdkZWZaQVRnTzFocTljQmF3SE56TUEtZzNKWEpTeWNLOWd0ZGhhUFktWTNTaVNuX25laU0?oc=5",
+      "source": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "publishedAt": "2026-08-10T07:00:00Z",
+      "query": "पर्व",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-np-0fede575871babaa",
+      "country": "NP",
+      "title": "Som Pradosh Vrat 2026: Date, puja timings, significance, rituals and benefits of observing Sawan somvar an - economictimes.com",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNcWFpRXFvS1hXckN3LVM3YmMwYl9pcWxNWnYwNGRjNVI0anNfRGR2R1J0QU9yVHU3U1ZwU2g0dEpCeXhHMXBlUHF3U2hmZXJwbm9yNlpXMDc0WEtXTnJ6WW1mMnB4cDBuQWl6Mm8tUmFZRlBTSzlnRndFaUgwS0lHNzZUenJvY3VBR2syRmJUUFZwMTVrS0RKYnRSVTFnTXBiOG1ROWx2d19oZS16X3l4bldhTjhiejFIclFHQjFYa3oxRVZxWlFnUmdhLUhEeWg1T1BVQzFHV0xyMjFlMmFOMEhBVnF5X1JTSTBkbUY2NmlQc3Jjb0hIQW1fTnpiUUV4QmlhSUxJVDZVLWN4VG1NYnN1LTlhRUMxTVE3WjF4dHczd9IBpwJBVV95cUxPaTdsVnBZZ0lySXdzZ0VzT3NzbFVoZ2pLQlZUN2ExS0UxdkVYcGhocHAxT0EyMXZSSjZsNjltcUVnaGZKZ3FWSHpnWW9HRDB0REMwaXF6LVhIM1RVT1RFZkN1VFQzWjVqbTZaNWo0bU81U1lNUDdOcTZuaWl2RGN5Uzhqc2JOdTk3SjBvQTJiZUJnQ3h5bjQ0a2N4aWpjeWJPcEtObGU2OVNvV3hLVEJqbS1zSDhxV1BKazJJbEhjN1hUNFRaeWs5ajdQZTk2dDFOMEdheTBnUG5VeE5rVnJMSFBTRG9XUE03QUxVazdVLW5JYko0emUyT2t5SllaLXNQVy1Hbm9wYURYbEZhUm5haV9BeUV1NTlyeEpaaXQ1ckhxZGpzdmk0?oc=5",
+      "source": "economictimes.com",
+      "sourceDomain": "m.economictimes.com",
+      "publishedAt": "2026-08-09T07:00:00Z",
+      "query": "पर्व",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-np-7759344bac205d44",
+      "country": "NP",
+      "title": "Nepal: Devotees participate in Mahalaxmi Jatra in Banepa, praying for wealth and prosperity - News On AIR",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUldfYWZEa1NGOW9IMDdtQkFYU2c3ZW9uUV9YXzBZbEh0eTBuTEVFNTJ1QW9CWTM0QjFGRUVnTmdYYm1HcVR4bEVDU0FQaGQtNFFFaU8zLS1LdzVyS1V6czRqdWpjWEFIZ0RpNERfQmswUXkyQWpzM1ZVbHRFMGpLdzdxcUNRVlRZV2Q2Q0NMWXdMSExRZ2RsTzZWT3NOcTU0dEpqT0RpdTcwWmlTNG1wMUFMNy0yUQ?oc=5",
+      "source": "News On AIR",
+      "sourceDomain": "newsonair.gov.in",
+      "publishedAt": "2026-08-15T19:59:12Z",
+      "query": "जात्रा",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-NP domain (newsonair.gov.in)"
+      ]
+    }
+  ]
+}

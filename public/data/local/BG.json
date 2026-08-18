@@ -1,0 +1,454 @@
+{
+  "country": "BG",
+  "name": "Bulgaria",
+  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "refreshHours": 168,
+  "status": "unfiltered",
+  "count": 25,
+  "reports": [
+    {
+      "id": "news-bg-efa65327666cca14",
+      "country": "BG",
+      "title": "„Свири ми се, пее ми се, оро ми се игра“: Духът на фолклора оживява в Баня » Инфомрежа - Infomreja.bg",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSVA3alBBUGVHZFg0ZTlwQzNwOG1faG9TVWFVd2RJYkY1NE9ISGMxTktCbUtvTEVzTWxETEtQdlFJd2RnVmotUy1KdnJTZFBibkxjUmZyaFZ0ZHlMOFlKbjN5bFFoX1dvSV9LY2RJSDFYaTVsbk5uSjlOVXRYRldUcXZCMEFtd1lRLVpVNlBheFM1aUhRWXM0bDlwc2lmN2M?oc=5",
+      "source": "Infomreja.bg",
+      "sourceDomain": "infomreja.bg",
+      "publishedAt": "2026-08-17T09:40:15Z",
+      "query": "фолклорен фестивал",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a BG domain (infomreja.bg)"
+      ]
+    },
+    {
+      "id": "news-bg-732507946182d187",
+      "country": "BG",
+      "title": "В омуртагското село Горно Новково подготвят 28-ия регионален фолклорен събор „И си носим песента“ - Дебати БГ",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb1o0S280bEhPTnY0clN1MGFubHU3RTZITkhoM1hFVnk3emdDRGJKUThvYlN6QlFUWnhHRFVXeDUwOEdHdzItRXp5eHlTRTladHNSeDRwVUxCNG5PZWIzRzlQV2ZYYURIRktJbWIzdFlzRGdpbGFXcmNHMDR2aFRxbU01RWdLd3h6OWZSaHkxMi1QQWMyN1R5a05pU0piNXlySE1xdzZqVTZodDJfU2lLYXFqbE5Xa00?oc=5",
+      "source": "Дебати БГ",
+      "sourceDomain": "debati.bg",
+      "publishedAt": "2026-08-17T06:35:10Z",
+      "query": "фолклорен фестивал",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a BG domain (debati.bg)"
+      ]
+    },
+    {
+      "id": "news-bg-191d83e7f630b8df",
+      "country": "BG",
+      "title": "Двоен празник в Смоляновци: 50 години читалищен дом и Северняшки фолклорен събор събраха местната общност - Darik.bg",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQW5rcm5OQ1Fhdl9HRjhxMHl0TlpMNVFRSFZRWElPNElMWnhfYlh2LXFDUVhWdXp0aExrYlFDRC1IR3VDal9ieTRYREMwNFJkTVR6bkMxWWo4ZHJJb0d2VlNnU1E2UGMxS2pGblhDcmx2R0laR09Mb2I4eHhWNUQ4czlNUnhkRmtvdVdVc29QTlhoY2JyWngyTFl3MlkxR3pzNklMTHV5TmVvbnhTZkZINWV3NTg1RFI1Uk1naHk3MUp1QWVMRzh1cF9HMDN5T0ZUc093?oc=5",
+      "source": "Darik.bg",
+      "sourceDomain": "darik.bg",
+      "publishedAt": "2026-08-16T06:42:35Z",
+      "query": "фолклорен фестивал",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a BG domain (darik.bg)"
+      ]
+    },
+    {
+      "id": "news-bg-2cef05422923ae0c",
+      "country": "BG",
+      "title": "Фолклорна магия и таланти в шестото издание на фестивала „Роден край“ в Горно Пещене - Darik.bg",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYmJVS3NLNXM2VG9IOHdZTnFKZG9yeGlXUkxXa1FsTWVIcC1pejMxc05yNXBSVVhGVmY0ZVI1LWxYSHJJa3pfWjZkU08zMlVWVG1rX0NSdE90dnBzbUVVWF9QRlFjRGhveFhOZF9RRE5zTDQ3Qm1pT3RnUDVyMDlTV2s4NFJGTGJFc3dNd2s0bWlGZXoyWUN3RnJMWGhSYno0YkR6cFptZFd3cDdDQ3ZDNmxyOA?oc=5",
+      "source": "Darik.bg",
+      "sourceDomain": "darik.bg",
+      "publishedAt": "2026-08-16T06:15:12Z",
+      "query": "фолклорен фестивал",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a BG domain (darik.bg)"
+      ]
+    },
+    {
+      "id": "news-bg-41242bcdd30db401",
+      "country": "BG",
+      "title": "Кулинари представиха повече от 200 ястия на фестивал в никополското село Асеново - nrd.bg",
+      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE1oR2trbDhoMUJoMHdsVXhvSF9YRU5mMjV0U3A4dDlmVDJ6UUJjSjlSREUtbE9pMzZWQTV0aTZB?oc=5",
+      "source": "nrd.bg",
+      "sourceDomain": "nrd.bg",
+      "publishedAt": "2026-08-15T13:09:02Z",
+      "query": "фолклорен фестивал",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a BG domain (nrd.bg)"
+      ]
+    },
+    {
+      "id": "news-bg-0faa22ca17d3a321",
+      "country": "BG",
+      "title": "В село Асеново ще се състои Международният кулинарен фолклорен фестивал „Банатски вкусотии – традициите на моето село“ - Делник БГ",
+      "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxQTVFHRmdiMTc5Z3ptdS13RFZoeWJSLTRoWVh1cFdtVFM3eGVjTk9ILWYxLTZKVnBacUxaU1E4X2xnczFySEJYamc0RzFRQ3NmYmRibkdQNzZ0V2I3aGRabFo5am9Qa1k4N1Z4QTgyQXFjc1J3NFc2SXZGNUl0UkM3ci12djhVX2NWZ3lxWktSTWV2eU1nTklQVUl3QW12QUw2MFlmUGFNaE5OUjVxWXR2ZW9jWnNldkp1T1B2M2syWDNkbFpVNGptNUE2bHExd3BzTV96a1FSalU5eUJyblpuTE5VdEtlc2p3aXhOVWdiOUFWMkFZNjBrUWllVDdjeDltUFdqNy1EY2t6STJaREJTdXhLMC1TYlp2NFByMnlWOVI2TGlueUVNVXhTbWFSaVNleVZ0QlZ0Z21LdFNMRndRT0kxdEY1MnlrT3VhRk84cHVUZ0J0?oc=5",
+      "source": "Делник БГ",
+      "sourceDomain": "delnik.bg",
+      "publishedAt": "2026-08-15T05:00:00Z",
+      "query": "фолклорен фестивал",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a BG domain (delnik.bg)"
+      ]
+    },
+    {
+      "id": "news-bg-e0f8e797af67e032",
+      "country": "BG",
+      "title": "Самоков празнува с девет дни събития и големи концерти: Орлин Горанов, Мария Илиева, Деси Слава и Михаела Маринова сред звездите (Самоков, Новини) - balkanec.bg",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVlZpQWxJM3EzSkhUUGdKb2VOLUVVSnhPWnMtV0p1dGtNamkyQm5GVXNmbW5BZmdaMkhCZW9GWFpnbTdqMHFwaGc3a3FwaXNIUU00ZENkTGNkNVFnZ0hpMmRrR2VlNEJyNDZxSW1YSzJQbUNYbWN2aEdjR2JvNDBqV1FPV1VubjQwd1FkWHdkZ2xtU090aHRvMDRQUV9feUl5RkZidm0zX1lDaGhaQXlNWjFaWE5Od0dXYmxlaVA5azlqRjJwVHYtZTl5WXBDbzA1NERkTXliMVM2WktZR2FkYWItYUtEaG9heDR4Y1JmXzU?oc=5",
+      "source": "balkanec.bg",
+      "sourceDomain": "balkanec.bg",
+      "publishedAt": "2026-08-14T22:14:42Z",
+      "query": "фолклорен фестивал",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a BG domain (balkanec.bg)"
+      ]
+    },
+    {
+      "id": "news-bg-82c211490af38283",
+      "country": "BG",
+      "title": "Националният фолклорен фестивал „Любимото ми хорце“ ще се състои за дванайсети път в Плевен - БТА",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZnlBMUVIQVBWbTV5SzJfZlI3Zk1sUGJzbTdUQmNoWGhoaVRTYU5BcXZIb1lXWHo0ZXlaa3E0bnFLRnAzZFhMcG5yZkNDZENrV0VFWjBWaEx3czNkQ3hUMUtEa2R0clhESVRZbENwSWZhaXh0S3FJMmlFVi1sWGJZM2dHdzFrMXp0eHdjUXRCQjlSMGRvUkhWeDNzMzJvQUFvYzduWVdwRGdPNU4xYTFmaVhOZnlRc2x1RldfOElzNEZ3UlUzUlluNS1xZEw?oc=5",
+      "source": "БТА",
+      "sourceDomain": "bta.bg",
+      "publishedAt": "2026-08-14T13:35:00Z",
+      "query": "фолклорен фестивал",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a BG domain (bta.bg)"
+      ]
+    },
+    {
+      "id": "news-bg-b5959667f9195bd7",
+      "country": "BG",
+      "title": "Ансамбъл „Орфей“ от Кърджали представя днес България на международен фолклорен фестивал в Унгария - БТА",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBpWXZuRmNHOGZ1QnYwTzZKUC1reVF2OHFfdnhQbmRqNWZoVGUzSlN6eFAxMTBZZ25NczdYNFZTZTBzLU5CSzJ1MDVYVEZGTnR3OGZSanpzWlU?oc=5",
+      "source": "БТА",
+      "sourceDomain": "bta.bg",
+      "publishedAt": "2026-08-14T05:00:00Z",
+      "query": "фолклорен фестивал",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a BG domain (bta.bg)"
+      ]
+    },
+    {
+      "id": "news-bg-740de29fe9326613",
+      "country": "BG",
+      "title": "20 години Национален тракийски фолклорен събор „Богородична стъпка“ – българският фолклор отново събира поколения в Старозагорски бани - Novinata.bg",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPbDQzS3haVEJaVER0YU0xVV9ITnRGU0FEWGJSWTc4QW9ldTE5WnJQWlIwMXl6WHkyZkF6S1dGc3FSbm40a3lsdWpPYzVfNDBtMmV4YlZwaFJ1WTNFeHVNZWJ0X2paaktrS3Yxd1prZG1hOEZRVWQxMTRhTEJRTGhMYlFJeEtNQ2R2SlN1NTVsdUVGR2dVX3FZdGhPN0Zocm9qWkg0Z2h1MnJKVmtCN3pSUUZlTFdiR2dPM0xyQ1owQ291OFJqZTJZZWowM2tNby0yU19TczVyQzFsZ0I2WUtNTm5oLUhtdlRmb0tsNmdHWGJNZw?oc=5",
+      "source": "Novinata.bg",
+      "sourceDomain": "novinata.bg",
+      "publishedAt": "2026-08-13T14:32:30Z",
+      "query": "фолклорен фестивал",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a BG domain (novinata.bg)"
+      ]
+    },
+    {
+      "id": "news-bg-a9ad3526d1473334",
+      "country": "BG",
+      "title": "Валядолид събира на фестивал любители на българския и световния фолклор - БНР Новини",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUkJWd3QzU2JOTVNQNVg3OVVjZVNVZFpzYzdCVm9wbDMxdWQxMUFwX2VfTHpEM1kwWll5d1ZlUkU2SDdySEFkNWluejlaYWFyNnlBaFpxdkpoblhkVWx3MDJDMjN5MVMtc3p4UHFiWG9rT3NvczZ5enluUFJRVnBaRWlURG9nNTRQdVdvdXo0azlpbjBkX1liRVZXbjROVnkwcUgyM0VkU3pGY2Y0OWxfOGpVQ2JyYzYzb2c0cw?oc=5",
+      "source": "БНР Новини",
+      "sourceDomain": "bnrnews.bg",
+      "publishedAt": "2026-08-13T14:12:07Z",
+      "query": "фолклорен фестивал",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a BG domain (bnrnews.bg)"
+      ]
+    },
+    {
+      "id": "news-bg-c8b6f30aaaa87de1",
+      "country": "BG",
+      "title": "Двадесетият международен фолклорен фестивал „Раднево 2026“ ще се проведе от 5 до 7 септември - Дебати БГ",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcXZZX3dKSUFlRGxZNi13NUg3UVU5bG4yX0ZKZ2JxdmVOQkwzVTJvLUtyWTU5VDV0S2dsN3ZHYWJCdkZMUFdZUHRsMm1OQ3hULWRUMnZRQWo0QXJNUVlURjJJWkdLZ2I0cExRcFlNZkttb185M2g0enNaVGxrcU1pUnBhOTZQN0xYbDlBLTYzMU41V1BEMFhaTkd1b1pQVHBObjJIMXoyd3lFYS10YV9ieWJocw?oc=5",
+      "source": "Дебати БГ",
+      "sourceDomain": "debati.bg",
+      "publishedAt": "2026-08-13T09:35:14Z",
+      "query": "фолклорен фестивал",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a BG domain (debati.bg)"
+      ]
+    },
+    {
+      "id": "news-bg-2899f5e53574bc55",
+      "country": "BG",
+      "title": "Фолклорна формация „Цветница“ от Сливен ще участва в петото издание на Международния фолклорен фестивал „БалканФолк“ в Палма де Майорка - БТА",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWEZ6VXFfN2U5MFFvbldwU0JSZnBjUkRodVdnQ25HOFBMTlFZSzFTY3N4X0lpaDh3bVByc015TkdYNGU5bUVnYUZZVUNXZGdrR0c1S1dKWlB4U2ZldHphZXVGd2g2cko2ZE1KRFNLWFRXaVA3MmF0ZnhvRDVrblotSjMzczZOUDJwTG4wbjJIUFFaWE4weG1VTGJDSWlGZmZab0NmdGlnVTNOX015OVV3c0JOMEN6emV6?oc=5",
+      "source": "БТА",
+      "sourceDomain": "bta.bg",
+      "publishedAt": "2026-08-12T09:06:47Z",
+      "query": "фолклорен фестивал",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a BG domain (bta.bg)"
+      ]
+    },
+    {
+      "id": "news-bg-c01d9a27ca1b0032",
+      "country": "BG",
+      "title": "Фолклорен фестивал подготвят в Боровци - БНР Новини",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQb01vRERfWE5sZ2VtNVlMSDE1X2RpaWxTTURaMTJvWXREOWtQU1lacVo0d2xmalhaMnNNZ1VZTlJQU0dtZ2VHSTVMaE92U1MtazM3ZUNzMTY2SkVTVnNXazJ1Z3liUmtDaHpzeXF1NHE4bFFGNzRfTEIwN040VWNHbF8tcw?oc=5",
+      "source": "БНР Новини",
+      "sourceDomain": "bnrnews.bg",
+      "publishedAt": "2026-08-11T07:00:45Z",
+      "query": "фолклорен фестивал",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a BG domain (bnrnews.bg)"
+      ]
+    },
+    {
+      "id": "news-bg-372d6c1b9b0c949f",
+      "country": "BG",
+      "title": "Над 2000 участника пристигат в разложкото село Баня за фестивала \"Свири ми се, пее ми се, оро ми се игра\" - ФОКУС",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOQlRWRzdvUnNjWTUxZFgydXdjUzhPYk5TOWl1dHdRM1dmTzFWMVJkVk1UNU1KdVlKZWVkeHI5bEJTMGlyWFc5UzVhbUtRcTlWV1VLX3NTM2dmcVdkcnhXUXNjb19ZZ1JUTkcxYi1DTUI3S2JXdkJJRFdPelY5TGpSNi1KNy1rdmM5QllFTzlhelI1dllyUHZzWGcwU290Q0xEVV9PeGRfRU9xZUNLdFJHZ3FCandab1EyQWNscFRJanhkbEJOWEdETXJqbzBRc3JvbEtNXzhDaWh1ZGtwcVlHS3BrQzFtRm1vS2c?oc=5",
+      "source": "ФОКУС",
+      "sourceDomain": "focus-news.net",
+      "publishedAt": "2026-08-17T14:10:00Z",
+      "query": "фолклорен фестивал",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-bg-760a6946f6252530",
+      "country": "BG",
+      "title": "С музика, настроение и споделени емоции премина традиционният празник в Диамандово - Нов Живот",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcXBpZnBzSWs5a0NuZnllZDFNZ29LRk5WaVBnbkpTOG9pX1Q0T2tWYktFVXNOU2xBeEZ3TFg3MTctQTBoZkZ3Uld4ZURCV2FXaWw1S0dLZVZ2WjdYUjZ1SzNZNnRnbk4zTWYzb3pnRHY3LTVqTFZCTWdlRi1CTDFFbk9BZnE2SldWWGtOaTJ6SExzRndEeDZuOUVWbUl5bVE?oc=5",
+      "source": "Нов Живот",
+      "sourceDomain": "novjivot.info",
+      "publishedAt": "2026-08-17T08:30:00Z",
+      "query": "традиционен празник",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": []
+    },
+    {
+      "id": "news-bg-d2b8f6e7081eb86e",
+      "country": "BG",
+      "title": "Детски танцов състав „Нашенчета“ в Сливен набира нови танцьори - Утро Русе",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ITE1BSHdXSFZWbjVpam9oTzhGcEJXV1ZYc1hhSl9VNGZGekZMcnJrS1drUy1LcWZEd0l6YzlTUVBfcE5xVms4cXpwZGZWUdIBSEFVX3lxTE1udWR5VG9tWFZiR0RKeW5NeW9TTzQzRHkxbnZ4UW5MUlRtVWRvR1cxdTlFR3Q2WUduakZWQllDUVlGelJQRFNDMw?oc=5",
+      "source": "Утро Русе",
+      "sourceDomain": "utroruse.com",
+      "publishedAt": "2026-08-16T08:29:06Z",
+      "query": "фолклорен фестивал",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-bg-dc8a78a96b0d927f",
+      "country": "BG",
+      "title": "Село Горно Пещене се превърна в център на българските традиции - novini247.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYkhYQmx1SHV6Zzdld192VWc4aHJBSWl3bm5nNzQ4SDdiMEtSMDZCZGtrOG5XY3l0NGZFcDBJUjh2ZFc3UExzNVVhb1VxR2hzRXdldUxfS28wUWVSRVZBb0tGaXhJeVd6RGZ2clFVNW13V1NDRmlXNEthbzNQYjA3cGVtRVNQTTFuN1NkcFhKamRLYjI4SGd4RHQtNjY1aVZDb3lTODNDTGY2TzBJblE?oc=5",
+      "source": "novini247.com",
+      "sourceDomain": "novini247.com",
+      "publishedAt": "2026-08-16T07:27:07Z",
+      "query": "обичай село",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-bg-f556940f03c7f94e",
+      "country": "BG",
+      "title": "Попина празнува и спортува: 26-и празник на селото и на река Дунав събра гости край реката - Кворум Силистра",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95WkJ0a01vWU5pX3dfUUJQUXlzQ01RUjAwcTVkVlV3WmNlTGk5R280Rk5zcXR4ZHgxcDEtZjVXN1pwcnhhcU8zT0FvVVhTamJyYkR6ckVn?oc=5",
+      "source": "Кворум Силистра",
+      "sourceDomain": "kvorum-silistra.info",
+      "publishedAt": "2026-08-15T15:38:36Z",
+      "query": "традиционен празник",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": []
+    },
+    {
+      "id": "news-bg-80e32413266c44da",
+      "country": "BG",
+      "title": "Вторият Алиански събор събира общности и традиции в село Преславци - Кворум Силистра",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4ajhTa3BoSWYwZE4yQmtEUzdvclIwMVF2VG1lS0JPOXZMX2NaWHRfWS1PZTFpcUtzdW1MMldiYjVjZlRpcUxPdnF3SVFVVjFtbjctelNn?oc=5",
+      "source": "Кворум Силистра",
+      "sourceDomain": "kvorum-silistra.info",
+      "publishedAt": "2026-08-15T12:46:11Z",
+      "query": "обичай село",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": []
+    },
+    {
+      "id": "news-bg-014f3882e1915d0d",
+      "country": "BG",
+      "title": "IX фолклорен фестивал „С песни и танци край река Росица“ подготвят в Лесичери, местата за участници почти се изчерпаха - RegNews.NET",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPTmtjUFB1aTNYRU1KNUtLQkY5T1c2VURlRmRyYl8taWI0RzlJSDJvNXQtenlvT0MyZzZ1LW52cmtDNmdhUFNSa1M4cGdlazJ6TU9xVlVNbmhiXy1jRzFCSlpJeVBvRVJFVHBxUm9vWHpGMkVhb01qSHJ2TFVwQTdEX2d3d09DSmxCWHhtZU4tWDhsdWhKX1M5dkVhUk1faTBYMzRfRndPVWM4TmtOb1gzZzZ0THNWdnZxRlFZMFdhaHFJMS1xd3Bld3dKOS1LT1B5TmN5TGhFQXd2bG5iUXBkLXViblluN0RDX1czQUYzWVhFdHREdFN4RGhrOA?oc=5",
+      "source": "RegNews.NET",
+      "sourceDomain": "regnews.net",
+      "publishedAt": "2026-08-14T09:21:15Z",
+      "query": "фолклорен фестивал",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-bg-ef580d9e1760113b",
+      "country": "BG",
+      "title": "Фолклорен фестивал „Главанци“ събира самодейци от страната във Владимирово - Новини от Добрич и региона",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQXhzRXlGREJMSzdoLWxUWXJtUjFsUTBKNTZfRy1rTTZvLTJ1Y29PZ1kxRktMUE9LcmliWk9MUkhROVNKdHFNOExSR282TDlJT0FtRzlxNHV2NUdvRS1aREhqTXdtNU9VZVA0aEwyYmtnYlNqX3NwRGVrOHF4bk5SSXl0aEYtd2Y3ZlE0Z19EemJfVVJlbF9kTFBTa3NZd0ZmTFJHN1kxbGdHMUp4eXdYc0lqejVfUQ?oc=5",
+      "source": "Новини от Добрич и региона",
+      "sourceDomain": "dobrichonline.com",
+      "publishedAt": "2026-08-12T14:03:51Z",
+      "query": "фолклорен фестивал",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-bg-14ccfb5d829c7c54",
+      "country": "BG",
+      "title": "Ансамбъл „Развитие“ представи България на два фестивала в Испания - Севлиево онлайн",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxON0J0cHFRTldjTkRqLWIzWERKM0VVRnFBSk5sd2lCYzFKd25Zd18tSVVEMG9fcmxHV3Y1cGZ0c1l2M2hoaGQyUDFjN0dFYkh5dlJEclN5aTN3RGhkNXZSRWpMZk00UVZIMjRmWnFIdEFTSWYxX3RsM3hFc0JmeEl1NU1tWDAzUUZ6cXktVWQ3UFdsQkc2dHpiMmJsd0poX1R0Q24tZzNtanR6UzBXM1BEMnJMNkh6eE9qd0pqLUNMYjVMdw?oc=5",
+      "source": "Севлиево онлайн",
+      "sourceDomain": "sevlievo-online.com",
+      "publishedAt": "2026-08-09T21:00:00Z",
+      "query": "фолклорен фестивал",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-bg-121f84fc4ba02da7",
+      "country": "BG",
+      "title": "Златен медал за певиците от Стефан Караджово на международен фолклорен фестивал - radio999bg.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPalVsVGF4MDRzVVUwalFnc1dfenN2ZFB5RVdPcVRjY2I3ZTBFWUpFdjBjdEdrc3RUODVGeURlcHA2WS1LR0Jvem9HeGhqTENlVVgxaEEzanFxZEt4dFRzcENyMjlFLV9veHowTzBWUWpuMm5FRF80Q0p0YUNJRGF2S2M0TTNOVGNBX3JvckRtYmpjSGs1a18wREhiaWxwUlJka3RwUFhaek5rZw?oc=5",
+      "source": "radio999bg.com",
+      "sourceDomain": "radio999bg.com",
+      "publishedAt": "2026-08-09T13:23:02Z",
+      "query": "фолклорен фестивал",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-bg-179aa32920545fd9",
+      "country": "BG",
+      "title": "Националният тракийски фолклорен събор „Богородична стъпка“ отново събира поколения в Старозагорски бани - Divident.eu",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZzRxaTJHdHMwcmFoSnhxTURSbE5EVnV1ZmRfNnROQjlHZGotUEwwY25lN095TFJzZmJxTmpxbUVXZF90Y09OSEhYeF9WUmFuNkF5a1YtYXJWZWgteVJ3bDJaN2JFWU5EYlJidzdZdkFDc09TYjVEYjJuYU9VRVlHNmZWVktHalhkZFJSLVJFWEtycy1qMzZJb3kxVllWNWMzUnFPckk3c0FSLVJBYWtoQnJ0RXBkdjRDdTVuWXpJbXhwWXYtMERMeHpHc2M?oc=5",
+      "source": "Divident.eu",
+      "sourceDomain": "divident.eu",
+      "publishedAt": "2026-08-13T18:32:00Z",
+      "query": "фолклорен фестивал",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-BG domain (divident.eu)"
+      ]
+    }
+  ]
+}

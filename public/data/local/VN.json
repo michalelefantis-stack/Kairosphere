@@ -1,0 +1,540 @@
+{
+  "country": "VN",
+  "name": "Vietnam",
+  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "refreshHours": 6,
+  "status": "unfiltered",
+  "count": 29,
+  "reports": [
+    {
+      "id": "news-vn-2d4f2c60cf5f180e",
+      "country": "VN",
+      "title": "Khơi mở tiềm năng du lịch vùng núi phía Tây Đà Nẵng - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5VVmdzNWFBRXQzMC1tWTI4aDJkLUk2LWdvU0t4NXVOeG5EOEFJX0xaS3pWLVVEdVFiMmN3U3NyNUZWd3JXRTJQYzZFal82NlN4RmdBYUlqTHFYa0xKS2dwVVJyWUxkelY4UFZaVGM2SWUtMU1PZjF1UVJiVTg5bjQ?oc=5",
+      "source": "Vietnam.vn",
+      "sourceDomain": "vietnam.vn",
+      "publishedAt": "2026-08-18T09:40:47Z",
+      "query": "lễ hội truyền thống",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a VN domain (vietnam.vn)",
+        "vietnam.vn seen before (20 stories)"
+      ]
+    },
+    {
+      "id": "news-vn-f79c698e5a2ea22b",
+      "country": "VN",
+      "title": "Lâm Đồng phát huy giá trị tri thức bản địa trong phát triển bền vững - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORGw3VTgzMmppc21nWFJVeGVNaksyWTRZR3dNZzhsWC1yUHFxakdmeEQtSnpVS2YzVFhVV1pYV3JUaEM0WkJQTmJ0TlhQYUdqV2tYeW5waWVGTmNUTkJCc2xFcFU2U01wWHZJS3d4aGpGa1owN0JtSkxIbE1SQ1ZpcEJFbFBOOENZcEdhRkxfX2Q3dF9MSkE?oc=5",
+      "source": "Vietnam.vn",
+      "sourceDomain": "vietnam.vn",
+      "publishedAt": "2026-08-18T02:43:51Z",
+      "query": "lễ hội truyền thống",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a VN domain (vietnam.vn)",
+        "vietnam.vn seen before (20 stories)"
+      ]
+    },
+    {
+      "id": "news-vn-c4a6d8d86a7b04e2",
+      "country": "VN",
+      "title": "Khai mạc lễ hội Quỳnh Sơn (xã Bắc Sơn) năm 2026 - Baolangson.vn",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVC1LU1A0Mlp2cU9FYlVDV2pHVUxCM21XcWFMRkt1TGtUbGszRmR3dEdHbVNtc3RiUjItVk1RNmJkbjFWTGlJekZORHhtUzl3eDU4ZWhuTmpha2tlMXJjTm9LOVh3SjBRNWFJRzRGMjlZeXdJWVJGNUoyR2xnRUdnN0pISUFqU2c?oc=5",
+      "source": "Baolangson.vn",
+      "sourceDomain": "baolangson.vn",
+      "publishedAt": "2026-08-16T01:29:56Z",
+      "query": "lễ hội đình làng",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a VN domain (baolangson.vn)",
+        "baolangson.vn seen before (5 stories)"
+      ]
+    },
+    {
+      "id": "news-vn-cc9bf741b5aa3af7",
+      "country": "VN",
+      "title": "Những hình ảnh đặc sắc tại Lễ rước kiệu Quan Lớn Tuần Tranh trong ngày hội Tả Phủ – Kỳ Lừa - Baolangson.vn",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdUdqUUoyZ0I4YVN5NjNQQlBKV0FYeGZjNk0xMWZCSkowMUtPZVJxM0NZS0tjdERKc1NXeGEtcThKMU1QMHRvdC1nQWRGMUFnSXlBOGJmcmV5UXhNWlBxMHBuMnR6SlFMaDhtSWZpQmpBd2VWMW9lUVdoUm9LMDFuTU1JU1luMEJycnR6TXdKSWNsU1dSNUJGbjlaZzZYbTRwdi1wYU0tMnl6VEI3aG1vZXk3ZkxKbm1qS2FlOUJUM3g?oc=5",
+      "source": "Baolangson.vn",
+      "sourceDomain": "baolangson.vn",
+      "publishedAt": "2026-08-15T09:46:10Z",
+      "query": "rước kiệu",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a VN domain (baolangson.vn)",
+        "baolangson.vn seen before (5 stories)"
+      ]
+    },
+    {
+      "id": "news-vn-a35a015d3ab1ad65",
+      "country": "VN",
+      "title": "Khai mạc Lễ hội Đình làng Nại Nam năm 2026 - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE96X3VWWURLbkdYRFhtS09UOU03QkZURFVWbmRsNjlsaDVfSlk5ZEN4LWc1VktlclhEZDdRRnJYVzNORnRGZXRsQ1o2ZEtlVHpFRU5iQy1xb2MzWC1CbEViSEhWR2tFRkVZdlRXUXUyeW1MYW8?oc=5",
+      "source": "Vietnam.vn",
+      "sourceDomain": "vietnam.vn",
+      "publishedAt": "2026-08-15T05:08:50Z",
+      "query": "lễ hội đình làng",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a VN domain (vietnam.vn)",
+        "vietnam.vn seen before (20 stories)"
+      ]
+    },
+    {
+      "id": "news-vn-225bc7067b163565",
+      "country": "VN",
+      "title": "Khai mạc lễ hội truyền thống Đình Tài Trỏ năm 2026 - Baolangson.vn",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSWJmR01seGxOQ2hVQ280Q2xOZUJQN2NwenRBRTFjUEItektfTHJ3ZVJ6MVVOa3NRb3Bycy1ENDR0M1hyOURYVmNCejVQZVB6X0hfcW5vQjcwbUFBbHFtS2VHWi1YLXFJcDFGQnlFcmNtZndXSk11cFNNcjJoUTRENVJHbXYtVTZIWDlWT3JR?oc=5",
+      "source": "Baolangson.vn",
+      "sourceDomain": "baolangson.vn",
+      "publishedAt": "2026-08-14T20:54:25Z",
+      "query": "lễ hội truyền thống",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a VN domain (baolangson.vn)",
+        "baolangson.vn seen before (5 stories)"
+      ]
+    },
+    {
+      "id": "news-vn-7c2e65298ef6466f",
+      "country": "VN",
+      "title": "Sôi động đêm văn nghệ mừng Đảng, mừng Xuân và Lễ hội truyền thống phường Kỳ Lừa năm 2026 - Baolangson.vn",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc2JvRm9DTG1UUUQyZWlXUHdaNmw3OTZDUU5TUGpHVU9WZW5EbTU1dTFNV3h5RGVvMEJodTFzLXlxVGZnbXF4YUxtTjdDdE5hRWFTMWdfZC1OZEwwbXlBeVhJS01jaFpTMU4zeGxoN3lkUUc1TTlNTzg0OFNORDdyVE5OZUswa216aW5Pa1BpVkYtOC1ZcnduT1dia1Jfc2ZGY3hlMU1UT3B3QVlrMVEyVkhCMmFsT2k0SE5uR0JR?oc=5",
+      "source": "Baolangson.vn",
+      "sourceDomain": "baolangson.vn",
+      "publishedAt": "2026-08-14T12:18:22Z",
+      "query": "lễ hội truyền thống",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a VN domain (baolangson.vn)",
+        "baolangson.vn seen before (5 stories)"
+      ]
+    },
+    {
+      "id": "news-vn-ecdd320ce8643126",
+      "country": "VN",
+      "title": "Sôi nổi Lễ hội truyền thống và Ngày hội văn hóa, thể thao xã Vạn Linh năm 2026 - Baolangson.vn",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQVdWRVpHbmZKRmlUblV4OWVMcEJYTC1IQlZYQW90cERYUXpWRktNc1AzYnFvQ050TkhFME45dVRFQng2QlFoR3d3Z0tFclQ4ZWM0M3loMHNmdW15MEdxeUc4ZllkVXRvYmpleHNLWDdISGpEWHN4MFNFdlEzSTRaVmRYbVBsVGkwNzdFSFVqdnc2NHZWTFRMemZNNF9JU2taNkoyQUhJMkhVc2JqRkFoLU5B?oc=5",
+      "source": "Baolangson.vn",
+      "sourceDomain": "baolangson.vn",
+      "publishedAt": "2026-08-14T05:29:33Z",
+      "query": "lễ hội truyền thống",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a VN domain (baolangson.vn)",
+        "baolangson.vn seen before (5 stories)"
+      ]
+    },
+    {
+      "id": "news-vn-9146dfbe2fddcacf",
+      "country": "VN",
+      "title": "Sắc màu du lịch văn hóa – lễ hội quê Thanh - Báo Thanh Hóa",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbzJMZTRDeW84WXRVT2RNSWhhRUVrNVlZZk01UFR3bUNRWTJFeFFfRXJETldrMGhWUlRrOE9VX3JQUDd4ZTE1X0JXTjBDSDRvZGpxOUNpc3ZxRVN3MTQtbEFja3VuaEdzdV9obEE1cEoxWjhGekFJRFE1X1V2MUloZw?oc=5",
+      "source": "Báo Thanh Hóa",
+      "sourceDomain": "baothanhhoa.vn",
+      "publishedAt": "2026-08-18T11:40:00Z",
+      "query": "lễ hội truyền thống",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a VN domain (baothanhhoa.vn)"
+      ]
+    },
+    {
+      "id": "news-vn-10db9b20511bda86",
+      "country": "VN",
+      "title": "Lễ hội truyền thống gắn kết cộng đồng các dân tộc Lâm Đồng - Báo Lâm Đồng",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUFhNTWJxaXNPRVhUSzFuSEtIRFlfUnVPOV84WWhGRnN3TkYwbTBEMmtlUHRMVUxURnRHWWIxNGhzLTliNzhvTElUYVhZRHRfYUNjZFRPanpQX292RW1rOG9odzJxckpfQ0NreTRQTENOcHVCcGxOdHdGVUVtMjhmQk1SYnZaX1NOOXlfTUZNM1o4V1hISlln?oc=5",
+      "source": "Báo Lâm Đồng",
+      "sourceDomain": "baolamdong.vn",
+      "publishedAt": "2026-08-18T04:14:00Z",
+      "query": "lễ hội truyền thống",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a VN domain (baolamdong.vn)"
+      ]
+    },
+    {
+      "id": "news-vn-9abc22b946591d67",
+      "country": "VN",
+      "title": "Bảo tồn, gìn giữ Di sản văn hóa phi vật thể Lễ hội chọi trâu Đồ Sơn - Bài cuối: “Nhặt sạn” để bảo tồn di sản - Tạp chí Doanh nghiệp & Kinh tế xanh",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPLUZEeWYxYV9EdnlDd1R0YWIzR01JVzRvaTVKTHlITkg3MGswYjJLZHhReXd4TVNxd1c5cmtnbzlrdHJxMkRDd1R2YWxRSmRURTRiVGdpZ294WmFwM1N0R3VDNllsWHltZHg4Um5xcThWWkZIdXg1OVNSUEg0MlFQRnBnazM0YTc0QkFWdG9Tc0lXR3hCV0ZqbVN3cUFscm16aFp6bGFWNDYwbzlPQ1VVQmFrMHpJY0NqMVlqdk10eWltSU1WVmpxeTZuaUtCcDVNN0pqM1NXY2JmQ1dtWjNzWg?oc=5",
+      "source": "Tạp chí Doanh nghiệp & Kinh tế xanh",
+      "sourceDomain": "doanhnghiepkinhtexanh.vn",
+      "publishedAt": "2026-08-18T00:24:28Z",
+      "query": "lễ hội truyền thống",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a VN domain (doanhnghiepkinhtexanh.vn)"
+      ]
+    },
+    {
+      "id": "news-vn-1b0c8df800e6adb4",
+      "country": "VN",
+      "title": "Giữ dấu làng giữa lòng đô thị mới - Báo Công An Đà Nẵng",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1SOGIxaklSTzB0V1Rtd0tKTFh4VVlJS21LNnlUTnB0aTRaekNTMmVqMXdJNEZvbkNLU3U2UXBCeUFydlBHTHB5V0xKbm5pVF9KdmFNQVRiSVJVNlRqV0FSQWd6dnh1R2N4NEowNVN1RENfRV9maGs0TQ?oc=5",
+      "source": "Báo Công An Đà Nẵng",
+      "sourceDomain": "cadn.com.vn",
+      "publishedAt": "2026-08-17T02:30:00Z",
+      "query": "lễ hội đình làng",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a VN domain (cadn.com.vn)"
+      ]
+    },
+    {
+      "id": "news-vn-f07c9182342a2d50",
+      "country": "VN",
+      "title": "Bảo tồn, gìn giữ Di sản văn hóa phi vật thể Lễ hội chọi trâu Đồ Sơn - Bài 1: Chuyện lạ ở đình Bàng La - Tạp chí Doanh nghiệp & Kinh tế xanh",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMVF2Z2dVY01mZzctaGlxWlZ3NXMtd0J5dEJsYnZKekY3NHBMX1lJNkl5YmJScmhmbjVXWlQzR0hwcDNXaC1tdzczeE84Y09ibXdoR3AxdUNDZGdPNjNoZFpNeEtlX0EtY2ZFTENBU19zX3NHN2ZSQW9CNWZIVUZKUmR1ajEtMy1HT2hzWUtzck5BZ254N29oZDIwRXlqMG9jSjV0OU5WRHRqakZsMWs0UW1kd09XbG5JX0l5Ulk2UHhyZkpsS2ZLRXpBZjktUVJPSzY3aG0xN1hFUQ?oc=5",
+      "source": "Tạp chí Doanh nghiệp & Kinh tế xanh",
+      "sourceDomain": "doanhnghiepkinhtexanh.vn",
+      "publishedAt": "2026-08-16T03:03:04Z",
+      "query": "lễ hội đình làng",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a VN domain (doanhnghiepkinhtexanh.vn)"
+      ]
+    },
+    {
+      "id": "news-vn-9908b0297a7e1516",
+      "country": "VN",
+      "title": "Ngày 10, 11, 12-4: Lễ hội Đình làng Hải Châu năm 2024 - Cổng thông tin thành phố Đà Nẵng",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeGhJOGlkbjNqZnZCMWlBaUV6cjNHai1wTlRkdHJpZ1J3RVcxVUc0ZTlwNW9reUh1Z1ZTUHdEeU9Sa2NBRXVBcnhfMXplOERlUzh4ZE1ZYkduakNCak1nS1NHODRobnNRWUdITlZkdmFSd0hFMkc3U1lndzlmOXJ5SkpndlVsaG9CTnpwUA?oc=5",
+      "source": "Cổng thông tin thành phố Đà Nẵng",
+      "sourceDomain": "danang.gov.vn",
+      "publishedAt": "2026-08-16T02:49:59Z",
+      "query": "lễ hội đình làng",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a VN domain (danang.gov.vn)"
+      ]
+    },
+    {
+      "id": "news-vn-b494ab0706220d49",
+      "country": "VN",
+      "title": "Lễ hội Đình làng Nại Nam năm 2026, gắn Lễ hội với Di sản Mỳ Quảng - thuonghieucongluan.com.vn",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQS2NjcTFfMkZMeEthMVU5dG9YaEZGZmhLQllyblVLZGxsb2lXQ2NkNzA0cHRTVC1BMHNabk1HLVBieW5MVnVMX0dWUEotY3lJN1Z0OVFKUERLTWtWLXpLcUhjOVVhbDF1Z2Exb1dMcm1LeHNmLUxBR19haUZFNGh0VkRpZ2dRemV5VTNfTWFwSFhPUDAwMU5TWTdOS2hNdmRRNkFjY0VzNXJQbXZBMVZjZw?oc=5",
+      "source": "thuonghieucongluan.com.vn",
+      "sourceDomain": "thuonghieucongluan.com.vn",
+      "publishedAt": "2026-08-15T12:13:00Z",
+      "query": "lễ hội đình làng",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a VN domain (thuonghieucongluan.com.vn)"
+      ]
+    },
+    {
+      "id": "news-vn-cf41a0cbd0fb35ff",
+      "country": "VN",
+      "title": "Khai hội Đình làng Nại Nam năm 2026 - congly.vn",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1DaDk4a2ZocDlKRjdoWU5ITm9OYXdPNlZZS1VxaVBGeUlDVGdFUUU4UEJPU01mRlFkOVB4VGk0eDZuZ1Q1NWVGZXBSVmxnZk9sb3AzRTZJbzNJZVpRLU5hVTRwNUNWMjN0VkVkakd6ejk5WVE?oc=5",
+      "source": "congly.vn",
+      "sourceDomain": "congly.vn",
+      "publishedAt": "2026-08-15T08:22:01Z",
+      "query": "lễ hội đình làng",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a VN domain (congly.vn)"
+      ]
+    },
+    {
+      "id": "news-vn-34d2d58390558cf9",
+      "country": "VN",
+      "title": "Đà Nẵng: Phát triển di tích Đình làng Nại Nam kết hợp di sản Mỳ Quảng thành sản phẩm văn hóa du lịch - Báo Đại Đoàn Kết",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZ0ROLUhHU2hna3FyZ1VCVzZoTFVpY1h3MXJIVC02aGJTR1FkNGRySkNjNmdBa01LVjdmX25wdmkxU2xIMEYybjZ1VFB1Sk02eHliVXJ6Z3hOSVFoTncwT3JYVDRja2JjbTVqSDRBR25DU21rem1QOXpIaXVYUGhTb0xhZkd6ZGg5aUR0VjNQeGpnWkFEZkU2MTJSNnJOTlFDcDNCakVobWpodkdSTzhELXpzV29SQXNOeUxmOU9ieWpscjJm?oc=5",
+      "source": "Báo Đại Đoàn Kết",
+      "sourceDomain": "daidoanket.vn",
+      "publishedAt": "2026-08-15T06:42:46Z",
+      "query": "lễ hội đình làng",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a VN domain (daidoanket.vn)"
+      ]
+    },
+    {
+      "id": "news-vn-f6ea3dbb8ac3268a",
+      "country": "VN",
+      "title": "Phường Hòa Cường tổ chức Lễ hội Đình làng Nại Nam năm 2026 - Cổng thông tin thành phố Đà Nẵng",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQemNNU0t0NUNES2V4Y1l4cjBKVmtTRGJhN25iWjJUQ2s0b2FXUXN2cTNTSERucENXcFNEQi1KVC04bThNUXl6SUVuU0JvWFpUM1BITXFFR19HVVJQZjRHOEFySXpiMFR2SFRNU3lEOG5SaHJXc09IU3d5R1V4cHFvQ21qQjJ3c1d3NHVDakFSRVhPMkFh?oc=5",
+      "source": "Cổng thông tin thành phố Đà Nẵng",
+      "sourceDomain": "danang.gov.vn",
+      "publishedAt": "2026-08-15T03:01:00Z",
+      "query": "lễ hội đình làng",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a VN domain (danang.gov.vn)"
+      ]
+    },
+    {
+      "id": "news-vn-21524a5c3c9d2cf8",
+      "country": "VN",
+      "title": "Đình làng Nại Nam 121 năm tuổi vào hội - Báo Công An Đà Nẵng",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aalhpZ0ZubkNQaEZDc1FVSFpscC1BdzFIcUpvZ0tOMDhPYXlqTURWSmxvb3puaHNoNnctS2lWQmxmbjA5dkZQOExoTW9wcWJWQnNncjRZR0QtLVktcUF0eHV3QTd1MGpmVDkzR0dKc1FBRVJWWFJyWlZ2Z1U5NHc?oc=5",
+      "source": "Báo Công An Đà Nẵng",
+      "sourceDomain": "cadn.com.vn",
+      "publishedAt": "2026-08-15T02:52:00Z",
+      "query": "lễ hội đình làng",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a VN domain (cadn.com.vn)"
+      ]
+    },
+    {
+      "id": "news-vn-020fa8fc0ad1d214",
+      "country": "VN",
+      "title": "Khai hội Đình làng Nại Nam 2026 - Báo Công An Đà Nẵng",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aWWMzRjQ1di13Z2t3ZnFGZHcwd2tNR1dXNnY2RmN1RzhYSjd4YUpWNUpRRHlJZUhZLTBjZG1IQldqbVdwejlTLVFCQVRHUWxhSjdzSFEza3NWckVka3JwaXBRUWg2cWdvWTR2T0RhTHdZZ1VPX2c?oc=5",
+      "source": "Báo Công An Đà Nẵng",
+      "sourceDomain": "cadn.com.vn",
+      "publishedAt": "2026-08-15T02:30:00Z",
+      "query": "lễ hội đình làng",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a VN domain (cadn.com.vn)"
+      ]
+    },
+    {
+      "id": "news-vn-3c602ad5ca257fb2",
+      "country": "VN",
+      "title": "Rực rỡ đêm văn nghệ, trình diễn áo dài tại Lễ hội Đình làng Nại Nam - Báo Đà Nẵng",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUDZPZG5GRUt0U09heE9IM1NkNElvNlFCRFY0SXhIck5sOURTUU41UlpCUndYWkphS2g5OHVDVjNkaVN2Q1pBS19BVGRlTFp3NWJUUW1kUXJJV0kxczVhVllDNVlNNmt0R2otdmU5REdvRE9JM2JtZnFVdW14Z09NSXNTLWw4NG0yeHlfR1VYMjVlTXZLSktjam5uRFJ2aEpHUEE?oc=5",
+      "source": "Báo Đà Nẵng",
+      "sourceDomain": "baodanang.vn",
+      "publishedAt": "2026-08-14T23:09:01Z",
+      "query": "lễ hội đình làng",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a VN domain (baodanang.vn)"
+      ]
+    },
+    {
+      "id": "news-vn-70d2a5d314736542",
+      "country": "VN",
+      "title": "Giữ hồn lễ hội truyền thống - Báo Lâm Đồng",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA3aklfRk1seEpDN2pYVFEwWEM3cUJ4VG44N0taZHA3MnRicU9HeUhGS2dBTDVnTW43VHNmRVdDT2w4dmVRbTRLTGtaUlRNVGFsVnZidW9JWF9kM3BIUGJOMHdhRjV0MG51N3IxRFB3?oc=5",
+      "source": "Báo Lâm Đồng",
+      "sourceDomain": "baolamdong.vn",
+      "publishedAt": "2026-08-12T22:00:00Z",
+      "query": "lễ hội truyền thống",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a VN domain (baolamdong.vn)"
+      ]
+    },
+    {
+      "id": "news-vn-265b4484aec708bb",
+      "country": "VN",
+      "title": "Huế tổ chức Lễ hội Điện Huệ Nam, dự kiến có 30.000 người tham gia - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZ0l3dmQtTkRvM1V4RWZ2blU1YVNScEJYQWRJTUN0X2c5NGVTTUVfbDhmclg2NWcxaFM3Mm5iVnJUNXc4OWUzcXN4N3pKWDhGTmhFZUlSREZBdjA1XzFXNVJBYXR4QTBmWWlQb0R3cWtoX0k3c2FxZjUwRWpTVS01MEszNzBxWGdPVWl1Y1ctSm1ldmFTbTF5RmFMTERBS1I1aE13eTI5ZVhvbFdXY3RCRw?oc=5",
+      "source": "Laodong.vn",
+      "sourceDomain": "laodong.vn",
+      "publishedAt": "2026-08-10T07:00:00Z",
+      "query": "lễ hội đình làng",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a VN domain (laodong.vn)"
+      ]
+    },
+    {
+      "id": "news-vn-ac9171eb3ef95d87",
+      "country": "VN",
+      "title": "Khai mạc Lễ hội Đình làng Hải Châu năm 2022 - Cổng thông tin thành phố Đà Nẵng",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSkZVUEh3TXFvX3JpaEp0VHN4NUdQaTFMTjhnVFd3a2ZON292QUYtcVBPYldrLUNwbC1RRFpBS3FvVWVFYmNfN0U4V3FwenplVTF0Qmg3dFN3VTJOUDRJMV9ZSmJlQkVENXNzWmdQbU1pNUt6ZXhEQzRncVBHUHJhOU5DSXJYTnpvaWVHTw?oc=5",
+      "source": "Cổng thông tin thành phố Đà Nẵng",
+      "sourceDomain": "danang.gov.vn",
+      "publishedAt": "2026-08-09T09:01:19Z",
+      "query": "lễ hội đình làng",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a VN domain (danang.gov.vn)"
+      ]
+    },
+    {
+      "id": "news-vn-ef1b7bb93deccc99",
+      "country": "VN",
+      "title": "Gần 150.000 người tham dự cuộc Rước kiệu và Thánh lễ Đại triều kính trọng thể Đức Mẹ Hồn Xác Lên Trời - HỘI ĐỒNG GIÁM MỤC VIỆT NAM",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZ0pGSkxKaHQyU1Z4Vlp5ZWRQTTdxcXVqOE5OTWctbUhVR0Q4dTNFVFZ2R1hjdlVRNGhVSkptanpNQm9MRlZsa2Y2WjlYZkUwNVFLZ29OdHY1VWpDWWV2N0pDSWRIV0NmTzU5LUQ3NlRWV1NUTmZmVHBSVUJrckZkZTVOUURwWUlEc2o5VzJ1RUlUTk93YmdueFI3N0JrOFpoS0lmT3ItbFRJendwQ2lSSjhUNXNUV2o1dFFlSVlsNl8?oc=5",
+      "source": "HỘI ĐỒNG GIÁM MỤC VIỆT NAM",
+      "sourceDomain": "hdgmvietnam.com",
+      "publishedAt": "2026-08-17T14:21:28Z",
+      "query": "rước kiệu",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-vn-e1ac3fe1fb5a434b",
+      "country": "VN",
+      "title": "Giáo khu Mông Triệu mừng lễ bổn mạng Đức Mẹ hồn xác lên trời - GIÁO PHẬN PHÚ CƯỜNG",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVE94bXJUbzI2UThfX25NUHBrNTNWNV9rSlc5d2pwUUo2LTBVRkJPOFdtYkpZUXlMUnJVLXRmVTdnMDROUE9iZEtuMVZ5bVJQWExZTUcxcmZWTDlEV1FDYzlJV1hHbjFoUFZOTXhRVjNMYm4yZVdFc3ZDYklwVndpQjVRSUxMNG41OHhlQUpqOF82Qk1hSVU0b1pkNklkZ1BLNF9Iak51MmpXRWdlX1ZnUUhR?oc=5",
+      "source": "GIÁO PHẬN PHÚ CƯỜNG",
+      "sourceDomain": "giaophanphucuong.org",
+      "publishedAt": "2026-08-17T03:46:30Z",
+      "query": "rước kiệu",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-vn-a70407c7e696461e",
+      "country": "VN",
+      "title": "TÂM TÌNH CỦA ĐỨC CHA PHÊRÔ KIỀU CÔNG TÙNG SAU GIỜ RƯỚC KIỆU THÁNH THỂ - HỘI ĐỒNG GIÁM MỤC VIỆT NAM",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjktUFI2RHAzdS1mY0hDZmVXc1M1YTRsUThlUnR1R3J0RXktYTJUMlVVYlUzWmplNzg2eS1yakFoSjE4eVZNOGtJNU10UDVycEE5LXd2RzRNVkVqVnBZdVRFeWtUMzVsUDZqYnJvNjFUQUo1SllWWHlUMHhkVFloX3VfOE9YZmtJaFhjMkIyRVN6Q2hkOW9CVVVpaUxiTkJYaHBUNQ?oc=5",
+      "source": "HỘI ĐỒNG GIÁM MỤC VIỆT NAM",
+      "sourceDomain": "hdgmvietnam.com",
+      "publishedAt": "2026-08-15T02:59:19Z",
+      "query": "rước kiệu",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-vn-8a2e25b75b2ff1c1",
+      "country": "VN",
+      "title": "TRỰC TIẾP ĐẠI HỘI HÀNH HƯƠNG ĐỨC MẸ LA VANG LẦN THỨ 32 DIỄN RA TỪ NGÀY 13-15/8/2026 - HỘI ĐỒNG GIÁM MỤC VIỆT NAM",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQnNnc005LUNWOTVqYV9RbnlnN1hpd1R4OVg4cHFDUFhUMVVPdlN3QVJkMUxMeENsbzV0SDZXd1I5bV9qYlliRTg1clgtUVk3RVhhTTR1eXRWVUFMUHVhQ3hEZkZya0ljS2ExMHE0WG5vYTdJNnBHa0pVZmx2RXQyVWc2cmpEd3RnTndzVG1yVDN1TDdPTFdaNkR1c2NaSWFoNUxNcDZmNzVQUVRINEZkenhHMA?oc=5",
+      "source": "HỘI ĐỒNG GIÁM MỤC VIỆT NAM",
+      "sourceDomain": "hdgmvietnam.com",
+      "publishedAt": "2026-08-14T13:28:17Z",
+      "query": "rước kiệu",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-vn-5561d679086c0272",
+      "country": "VN",
+      "title": "Lễ hội Đình làng Nại Nam năm 2026 diễn ra từ 14–15/8/2026 - Danang Fantasticity",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5DS0hfWDFHNE5TSFlTUE1fN2x6ZGJfandHVEV3aTBpYlpSeHJ6SG1VdVNXRHdyLU0yQ1V2b1lpUEcxR3FMckdXOWdBdHl4RjMtaHRiTXdkQzBnN0lEZndMaDJFZUNjSHZmZE9VUm5HVXBvQmljamNpMjA0TQ?oc=5",
+      "source": "Danang Fantasticity",
+      "sourceDomain": "danangfantasticity.com",
+      "publishedAt": "2026-08-09T07:00:00Z",
+      "query": "lễ hội đình làng",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    }
+  ]
+}

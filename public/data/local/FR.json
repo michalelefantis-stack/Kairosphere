@@ -1,0 +1,2429 @@
+{
+  "country": "FR",
+  "name": "France",
+  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "refreshHours": 24,
+  "status": "unfiltered",
+  "count": 131,
+  "reports": [
+    {
+      "id": "news-fr-e4264f55601948d2",
+      "country": "FR",
+      "title": "« Une réussite du début à la fin » : retour sur les cinq jours de fête qui ont fait vibrer la commune de Caraman - Actu.fr",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOV19yUGc2T3FoVGR0ZEg5NWxzSHgyX2Q4OEJRNlg3QXFubjFXdWdGWVB2VWxmZEN0RlppOWRrTVJzTWdUZFh6N2ZtUXAteWNsQi11WUpHU1VsYnZNV18yQW51LTJRRWxseDU2QzBqNUVMa2lNS3I3VnpCZlpvNW9yZW5sV3F3SnRjRFh1cEZyWm5rY1M2VnBaa2RnczBkX256djJmTlljRDhfTnBiWnl1cGhqT3I4TkxfM09kVUlCTjBMcXg5azZraXp4RGs4LTltVlpKbEJLbnU3ZUF0eWo2LUkta3A4cXN5dXcyNm1SS2EtZw?oc=5",
+      "source": "Actu.fr",
+      "sourceDomain": "actu.fr",
+      "publishedAt": "2026-08-18T14:42:17Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (actu.fr)",
+        "actu.fr seen before (7 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-2bcb60b0fec4eb9f",
+      "country": "FR",
+      "title": "Fête votive à Lattes : stations de tramway fermées en soirée du 19 au 22 août, rames renforcées vers Pérols - Midi Libre",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUjRaUWowbnlCUlB1dWxSaTNzWDFMbUc0dDJ3QUNzUlVoSVM0NHI1czN4YkpZNkhjMmtRc1k1Z3dVTTZsY1h3YUtzakU5U1ZKVzNqczUtZzB1RndhMUZkaUJRLXBGYUM1THI5dXI5NlJLUFlsTkNmMjdyaTZlSG9OR1c4UFYwYWtMOXhyYWxDemJES1dqSWtLdXd4cXd1cDY4V1FQZFpPN1duemQ4bGFyNW5ycU9lTk1ROEVRdTNzRjBDOTlYN2xBQ21SbGRyUE1CNE1NQWtjUkM4NWRRcUFoanM1ZWNKMl9N?oc=5",
+      "source": "Midi Libre",
+      "sourceDomain": "midilibre.fr",
+      "publishedAt": "2026-08-18T13:58:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (midilibre.fr)",
+        "midilibre.fr seen before (11 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-8ab8dc45783a5b36",
+      "country": "FR",
+      "title": "Commémoration et feux d'artifice pour la Fête de la Libération en Provence : le programme au jour le jour - frequence-sud.fr",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPd2g3VmFtMmM0NTBPOV9wcnUxY19SZjlYOGttc0cySHRLTldCcEh4eUszazlRQjFsa2kxSGpsSWowUG41UkFqVmpwTTlDQk5zb1g5OC1mNTVDdC1OQ0NBcDFZZVZna2xhZWx4Y21ZSmlGMUxncWxVdEh0LURfM0tEYm5pbkR3Qy1kdW1NVXVPLVEwb214dmhYOFIzeXhOSWtMcFd4a1JzWGdrOEZkQ3J0R1RHMndTQ0ZlcU03RDRKaFlfWHZSYlljc0Q5OGRoZmJYVHZ0Mkw4Y0tkU1czMlp6djRHRUdZaUtWSHlJY9IB8wFBVV95cUxPT1ZwT2tMaXlLeUExSWN0ZklvWGVJaExYUzNUYWg2R3VmX3hzdXRFcUplWWNVSE9PS3Fhdk5DenhNMUdYeHlWUHJ3VlU5TjBpWVdJenYzTmZSa2UxYXJPbWp2VVJtWm43NVowMkFtUnhOLTJmSjdPY3V4Y25ybndMVEFreUtFWlc2MUR2dHIzSUVUbXhfa2hPV0RPcUhWX2x5U2dERV8wQVVCU2hKSGotb2pjZUdrQ0h1cmQ2NkVzaF9veUJkQ2p2LUlETkNTMnNMc0xpSTd5RkJsN195eXNLam1fYVFqdVpqOGF4LURnSmdBVUU?oc=5",
+      "source": "frequence-sud.fr",
+      "sourceDomain": "frequence-sud.fr",
+      "publishedAt": "2026-08-18T09:02:23Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (frequence-sud.fr)",
+        "frequence-sud.fr seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-59b085bde052f836",
+      "country": "FR",
+      "title": "Cow-boys, chevaux, tipis et lasso : cette fête de village va plonger la Manche dans l'univers du western - Actu.fr",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNT3gyV0JKcEQzUFN6NUU4OHlqX3k2eDRPNEVEeF9rVWRsRGVIY2JsZkI0bk5fakhfUWRKV05NaGtTdFRqMFpXeVRpUTBEQjVpNHpONk1vLWtTSUhhcGpPQW1VbzEwX0x1SVVxZnFWWm9XdVliNmY5bmFaOG0wLW5uR3FYTDROUU9YSE1mZndFSjBMczhCSHFYZVpYeVJZaC1TZ3p4eGM3SnpfbGlkaHhCdXlCUTZVMkIzajBhSzZWSE1jUEt0TFQxcC1MbUcxUHQzc29sMFpIQlZDY1R2aExKeHQ3N1lzVFNXUEFBR0MyQjByTjJ5?oc=5",
+      "source": "Actu.fr",
+      "sourceDomain": "actu.fr",
+      "publishedAt": "2026-08-18T08:08:02Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (actu.fr)",
+        "actu.fr seen before (7 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-c613a3e40ebc5e4c",
+      "country": "FR",
+      "title": "Ahetze : la fête de l’été placée sous le signe du sport, de la musique et de la danse - Sud Ouest",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNdkphTl9MX0RsZ01DejRzcUY1UEJIOHdKOFVkYTkxc0UtT1A2eFRBbDY5THBlR0N6ZjJTdDJnYnpfNG5MbF9GSXRFaDRuY1NfTElzRExwdTNMYTl3dWlsZVJLUUtCQ3htemtxT0xUTmtGTEQyZ2JrcF9Yc0VfTkgxZGVucl9nRWZVMkJuMGtObUJyTkdaZjZZSG13MDZNd1JDc1lWZE5IM1lON0JibjhnWlFVTHc1X3NxNkw3SmlGb3ozQ0NNeEJGdFB1akFjdFRkLVZOc082RUlLTmppRDRjOA?oc=5",
+      "source": "Sud Ouest",
+      "sourceDomain": "sudouest.fr",
+      "publishedAt": "2026-08-18T05:45:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (sudouest.fr)",
+        "sudouest.fr seen before (6 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-3d4ea1213e5fbf7d",
+      "country": "FR",
+      "title": "Saint-Vincent-Lespinasse. Traditionnelle fête familiale et conviviale - ladepeche.fr",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOc0wtdEtySzNfSHVYWkVtSDlfMC1vUlJ5Qm5STllOVTNKM3ZRWlNlaVQ0aTlqVC1iSXo5VmV0WUQ2ekFESXlLelNHeTh5aXdtUmc3Q081Q3RBRldXNkRQUjNJdFduenJQcFhxc1c5MWpxSE5qRTZzQ3Vxc1dMYVpqdVFWeXhzOVJyNFpKZ3hKNFJiT2dwSlY0?oc=5",
+      "source": "ladepeche.fr",
+      "sourceDomain": "ladepeche.fr",
+      "publishedAt": "2026-08-18T03:12:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (ladepeche.fr)",
+        "ladepeche.fr seen before (8 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-23b444b7be7ae087",
+      "country": "FR",
+      "title": "Le quartier du Barry à Vic-Fezensac est en fête ce samedi 22 août - ladepeche.fr",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObTJOb1dyLWZhWkZPcXIwY3lvZjVvTFlRSVVCNEtvakNJeGJiZ3NXcXBLZFhhVVY1eTFVLW5id3lTNU04c1RzUklIQTZVOEJQUERDMDJQRUVJUVhFYU5sOXQ1TWRWSEVIbnVpem1MZWpNcHlZSExqQXBONUZSNmpYcHRYb3JHd0RYdFBNTFZ1THRBeUlWZ05YWkl4WjVfRTBab1pGeC1veFBIMnR0WFJhQUlZd0c?oc=5",
+      "source": "ladepeche.fr",
+      "sourceDomain": "ladepeche.fr",
+      "publishedAt": "2026-08-18T03:12:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (ladepeche.fr)",
+        "ladepeche.fr seen before (8 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-56f39abe5415b88d",
+      "country": "FR",
+      "title": "Fête locale : trois jours de convivialité et de festivités - ladepeche.fr",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRGVXZ0pwT29fR0llNjY4cHphckVHWkcwenMzQkE2NGxVVUF2bkpoWXZCcUV4emVWSnBXMkt0MktMSkk4T2J3RlNBM0stRExKWUllcFdieHZKeGcxckR5U3dUZUlOQlpHcml6T2Fzeng1THBReVYtVm9ra1FHR1hUX1AwakJYTEhUUTktMGh5TUduS0Q0ajg2ckhiME44Tktzb2ZMTW5WaW4?oc=5",
+      "source": "ladepeche.fr",
+      "sourceDomain": "ladepeche.fr",
+      "publishedAt": "2026-08-18T03:11:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (ladepeche.fr)",
+        "ladepeche.fr seen before (8 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-c79047f1dbea3ea7",
+      "country": "FR",
+      "title": "Fête du Melon de Lectoure : un produit savoureux malgré la canicule - ladepeche.fr",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPblFud0pXQXEwWjNaMHhoanZoQVFBWnNvZlR5b1o5V2hlRFVoQmN2RUt0c3JaZ2pmelpreHFtQzBTcjRfYnRqTWc0eW5JSFhEeWp3a2lMZ0FUNXhYenFkRFl6d1hJVHI2cU5XLU9TaVhUR0c0SE5tZHlQb2dpSjEyQ2kyd3k4QkNjRjE2R05YVFdVUllSRzQ4UVZkOGN0aG5PMjFHMGMzY3hKb21meWk3YzJyby0?oc=5",
+      "source": "ladepeche.fr",
+      "sourceDomain": "ladepeche.fr",
+      "publishedAt": "2026-08-18T03:11:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (ladepeche.fr)",
+        "ladepeche.fr seen before (8 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-9cf8fb1233d0fe47",
+      "country": "FR",
+      "title": "Campuzan. Le week-end prochain, ce sera la fête - ladepeche.fr",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONHIzM2JTWms0T2Q1SG9FOUpBLXRFNmxwUmduaVpNY3lWMVU2TFV3VzlpYS02XzhfV3FDdk1zTFZWdUFGRTVtWU56MTVwVXg2WmtiSF9LQzdMaHIxYUJCUHZFVFVWOW40djNUcEVIU0licGNIam5CV1poZW9LOGd1R3I1VXk1LXVLS2ZEbG93?oc=5",
+      "source": "ladepeche.fr",
+      "sourceDomain": "ladepeche.fr",
+      "publishedAt": "2026-08-18T03:11:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (ladepeche.fr)",
+        "ladepeche.fr seen before (8 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-32b4bf6c310c6e72",
+      "country": "FR",
+      "title": "Andrest. Trois jours de fête, dès vendredi - ladepeche.fr",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQR2FOd0RoQXFGTi1YNExtOU0xbVQ2S2cyZWhjekdrclJwVlFDbDBhSW5Pb1hGQzNxa05ZNmxOdXVRUnhsblZONkk4X01wT2h2M1lzcE5CVXhJZGVhbWNGVEJreVZXQVBRV01PZDVlT3QydTl1MS1RYW96Zzk5amJMUGUxUVAycjBn?oc=5",
+      "source": "ladepeche.fr",
+      "sourceDomain": "ladepeche.fr",
+      "publishedAt": "2026-08-18T03:11:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (ladepeche.fr)",
+        "ladepeche.fr seen before (8 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-10d95d2d47ec35fb",
+      "country": "FR",
+      "title": "La fête votive s’élancera ce mercredi 19 août - Midi Libre",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSUppM2pBN3d0SEdQRVowQjFzTUNXa0h0a2xzZVpHOEdEVFJVWjNNak0zYTBKSXo1cmlDbTktNHhFX0ltMzJBbHE0VEJFXzBaSjBSVklTRXI4a1NGdDhHLXRQWHFBQ2hhMjEzdGhiaEFHaVZnMWx2YVkwbEJCd3R6bk9jUmk5clZ6WXZrODFZS0FTQnVqYkR4WQ?oc=5",
+      "source": "Midi Libre",
+      "sourceDomain": "midilibre.fr",
+      "publishedAt": "2026-08-18T03:06:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (midilibre.fr)",
+        "midilibre.fr seen before (11 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-ade8bc9ea261ea87",
+      "country": "FR",
+      "title": "Sartilly-Baie-Bocage. Le feu d’artifice annulé pourra-t-il être tiré plus tard ? - Ouest-France",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQSTZwcHV3TzJpVGdjQ0xRYmpKbzljVXltdzFvUF9lekNFMXFTWVRYWjYxSnZOcXBtSnh2aWlVcHBUT2E3bFhMTGtPX2x0X3RtTlpPbmh4MnQ4bVpwYUlGN3lEdnBxemJiUHN0NjFqVmlTUVpEanR3SWtIR0R4V0pJYkxxN2c1aDBBSGxKMktCWENDWlRmbHpPWG1JYk5pNGlLRkkzZ1VmMjdGX1dFVkc3dWdQR0VYVjRyLVhJZ3NSU29fOEliamxQU0xScTlmRWYtNXd6V3hXalJxMm9NQzFzWWpBMEtlc2ZyTXc0MUxpQlQ1aEp5aWhlVVdwT1lhb0tYUXJacV9HekdLQQ?oc=5",
+      "source": "Ouest-France",
+      "sourceDomain": "ouest-france.fr",
+      "publishedAt": "2026-08-18T03:02:21Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (ouest-france.fr)",
+        "ouest-france.fr seen before (14 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-33079e41630c525a",
+      "country": "FR",
+      "title": "Auriac-sur-Dropt. Hommage, nouvel arbre : le programme des trois jours de festivités de la Fête du grand chêne - Sud Ouest",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPQ1VkSXdlek11U1U4UGUwanh3U0t1cmc2bld2bGZtY1RBQWRLTDN2c29lNGt3anBCNXhIQVlEaTV5bjd4RTk5cm5FT1pTbU4wZEw2ZHZmcGh2a1R6WkZMVXRFcHc1LUVSNUlma1UzRURkb0R5QTgtaWFNXzhhOVR4TmZaYXI5empZNGhsZkdXcHM2aUw2bTFneFp0LVFtZlZMMERHUFVGYV9BU0tnWk8yN0Fqc1JXYUtuN1lIQjUxV2VwN3hqdWxraTBOeXVLSlUzTHlBV1B1RGE2MzFRUnRUSHVtZW54QlBFd29mMFVfenE4UjhkQUNGTGdFVzZLQktYbng2a1VR?oc=5",
+      "source": "Sud Ouest",
+      "sourceDomain": "sudouest.fr",
+      "publishedAt": "2026-08-17T18:14:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (sudouest.fr)",
+        "sudouest.fr seen before (6 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-547e1a47d6440f5c",
+      "country": "FR",
+      "title": "Fête de la Saint-Louis - frequence-sud.fr",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBUZWgyZG9kWmxUcVdiU2R1aFlnR3B4YmRBSnk4NDlheVhhaV9tX203dWpRYzVfM1pDaVowSDFpRWxEdk4zMHpVaFdSSlJMU3VCNE5fVGZjY1JUY1VRMWFIQzJKS3VwN2xjS0VtcUlldklqSU41dG5CYjdB?oc=5",
+      "source": "frequence-sud.fr",
+      "sourceDomain": "frequence-sud.fr",
+      "publishedAt": "2026-08-17T17:58:17Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (frequence-sud.fr)",
+        "frequence-sud.fr seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-4832e07b9ab33577",
+      "country": "FR",
+      "title": "« Une fête qui plaît beaucoup » : la Saint-Louis, fête médiévale, est imminente - Ouest-France",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOLWNOT1FvUC1aQV9PRzRmZkFwaGduZGZsRlpRQklPXzBhLTlYMFNsLVdMYjNHUXBqZkpTT2lnSjV1cjVETEF6MHFnZVBGQXRjdXZ3eElSQWNqbE9iUUQ1T1JZclJqd2UwSVkwc29sSU1iZlZiSTB6VWxJYV90dnZxU1FZdE5rRFBIME1QM2c3ZndaSmdBTGNVX0JmaDV2TFMyVWlSWTQxVFNRekFQWXkyTzZFRjM5bkd2aE9RSVMxUVFRUWRkTTRFTFJxa2lTVVprSHQwTnZLOUIwS2w4Y0JiRThXM0lNOEN0LThnN0R0V2EyUDZla2ZxcGNIeHNaenNDZGJVaklWbUY?oc=5",
+      "source": "Ouest-France",
+      "sourceDomain": "ouest-france.fr",
+      "publishedAt": "2026-08-17T17:30:03Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (ouest-france.fr)",
+        "ouest-france.fr seen before (14 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-531c6aa45d87380b",
+      "country": "FR",
+      "title": "Sauveterre-de-Béarn : la fête de la Blonde d’Aquitaine, entre hommage et défense du terroir - Sud Ouest",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPbW9zUWprdUdSa0pTdE1XczdWUENuckFJcXVJQlBNUEhZRlVKZG1LdGpVbG0wc2hRVzAtaDBZTkh3aEIzMHQyaGFXZi1vNm01VE5pWWs0bjliaEJxZm5zbkZjNm5tNkN5aDFHWXNBS2VKWURkbHpYV3NHZFp2MmQzWFgyZlJxSWZCMm1nbXdqRXlIbkRudHg4R3djdklyZmtBNloyMG4tX1ZpQUZmUms0MmNnd2RFQ2M4bGwydlNyTGxQSjExSmI4R2pmSFNVYkhEZDdMM2Z1c2ZfOEtjUHlsR0J3Zl9zMjMwSnVmblZxMG9JQl8yMEkxQmJ3?oc=5",
+      "source": "Sud Ouest",
+      "sourceDomain": "sudouest.fr",
+      "publishedAt": "2026-08-17T17:30:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (sudouest.fr)",
+        "sudouest.fr seen before (6 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-c4baf075182fb24e",
+      "country": "FR",
+      "title": "Métiers anciens et défilé de tracteurs… Retour en image sur la Fête des battages de Plouha - Ouest-France",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNdWhHTENKY0FYaXVreFVvanVrWGlaVF9LN1hlUmxuNDBxdnp3QmNMUU9ocnZfZXZBMTZlWG5sN3dGUUczbHlpZTlaN0xhVHFhTE0tUnhDYWxMNjNDOGcxODBPNjRwLXpkQm9RSnBJbFl3QUsxcTQ2Rks1b1RzU2VBY2hXZGF3Xzg2NEVfN0psYUQ3bTdETXN0UElpVTViT3haVnBndHd2R2NNSGlaQnRhLUJZY2ZhQTB4TmN5d0otRlFsbmd0Ry1kZ2xUdUN0S282aUgxNEVkM09ZUDFiaFdzM3Vqel9NRlctdmw5ZGtHY2lfbEFfN0JaYWN5dWVVM3pTMHVaWk1HQQ?oc=5",
+      "source": "Ouest-France",
+      "sourceDomain": "ouest-france.fr",
+      "publishedAt": "2026-08-17T16:04:04Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (ouest-france.fr)",
+        "ouest-france.fr seen before (14 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-5653a4a357c1d402",
+      "country": "FR",
+      "title": "Un petit village du Lot-et-Garonne en effervescence pour sa fête annuelle avec, peut-être, un feu d’artifice - Actu.fr",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPS2czMEhBbjNGMEgxdkpjOGVtYWZlck5PdjVJbzczcUI1bXR6cmJlcnRtMTB1Z3dtUTRub20tSUpwVzRIRG9sV3pCNGd1Y2g4ZWZhdnpwM1ppYVlEOE1vSUNiR1Vtdlo0TGlMUzktRGc0ZGhaWWNnMVlVOUVlal81VFFyeVVIQUFESzdnSFoxcGpiOFhFQ1dNb1l3TzYyRlNPV1FfNFhuTTk4RFRXbmpnTnU3WGlyRE1OTWJfVUIxRks2WTVJLTktZXh1OEpYdk52VmtHYWw2VndmQ0llUjZWcEx6UXpYVXlTcVhVcXJ2TVhSV2lQVFdpNmYzZlR1WlZUTHBOcWd0VFNGakVaZWM1Qm1MMnZmUQ?oc=5",
+      "source": "Actu.fr",
+      "sourceDomain": "actu.fr",
+      "publishedAt": "2026-08-17T15:54:01Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (actu.fr)",
+        "actu.fr seen before (7 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-196b8285a2ef7553",
+      "country": "FR",
+      "title": "Carlux : La Fête des crêpes promet deux jours de gourmandise et d’animations - Sud Ouest",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNc2MtaTQtOEZYRkdPM1J4MzkxQkFUVWJaVEt0eUVXSUo1anNtY1FCSU00TWdGOHM5Z0IzTE5CbTFydE4tWVNVVDQ5U3ZwVE5xWkl2UmxnSnUwN0hxYndTYnpLcEZkVjBYTzRJUTQyRVZJSUU5ZjRmV19qYXQ5TEJmYTVWNEwyMFBuT2J6UTVFT1QteW9GbHZiYUxscm1IRDFMa24tc2xvVlJVaE5RQnFSQ2dtVDRfMlFWektJc1VHYVZuNHhxS1E?oc=5",
+      "source": "Sud Ouest",
+      "sourceDomain": "sudouest.fr",
+      "publishedAt": "2026-08-17T15:15:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (sudouest.fr)",
+        "sudouest.fr seen before (6 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-ff2f015b6bb0876e",
+      "country": "FR",
+      "title": "Bilan très satisfaisant pour la 16e édition de Doix lès Fontaines en fête - Ouest-France",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOaEdVa19fazJ6UmpfTm9ReXg5ZVdwVG5aaTVlMWJaXy1HM2ZiSl9YSXRrUnMtc0Q4dUJ4V3NYSlNGSEdQV29UN2huNFh3RlNqWXE2aFZvdC02dnY4eE5NN2lRR1dhWDdkeXdrQUwzMVFFdkhuWG04a0t0WGFRWjV3T2N3ak5RQ0NMdG5qOFRyd3BKVVZjaWhJU28yemwzQUFyU1dfNkhhN0pSR2dkcTVBM1pPSjk2Y0haM3BJTUQ3YVVMbUhfeVRXTEgyUUg1b2MzWjRJNFJibm1nUGs3aGRMdGgtRi1pMkZfcmhKNTducXFuVmdsbl93WWtUNk5OSWZWa2FmbnBiOHN1NWxE?oc=5",
+      "source": "Ouest-France",
+      "sourceDomain": "ouest-france.fr",
+      "publishedAt": "2026-08-17T09:00:15Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (ouest-france.fr)",
+        "ouest-france.fr seen before (14 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-1216f8905b617217",
+      "country": "FR",
+      "title": "Les chars de la Biennale sont ressortis pour la fête annuelle de Doix lès Fontaines - Ouest-France",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQRnF3MDZ6Q2t2RzFZamFnOFp6V1pOQ3hRcG5JSFdNUTljbXk5VHB2VF9KdWU4S2NPRTFrMUN6cTZtQTdldGNTdUMzOURudG9KLVNWU1BDVDMzWXlmcjZRNU9NVlhDX01aNm5wbDJ6SVBKV2lwY0hEamNub2F2cFlaZjhmell3MEYwa3RCZkRWd18zYVg0MVgyMWxTblFkRl9sN2J5SVlBd0xmTzNsUDBURWhOZXdNcHg0MlRGckZ5WElMdzJNMmEtSWlBZGp1Sk14WDhmSF9zYVpDei1ZQlpvdUhYMXpqN0tWNmlYRjJPQ00yR2N6Z0tCTGRBbmlsU290SFNwYTI5Y3I0TW5jdi1hdndLYVZZb1FYdVE?oc=5",
+      "source": "Ouest-France",
+      "sourceDomain": "ouest-france.fr",
+      "publishedAt": "2026-08-17T07:30:02Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (ouest-france.fr)",
+        "ouest-france.fr seen before (14 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-50af4c1b5d4a193f",
+      "country": "FR",
+      "title": "Messe, repas traditionnel et aussi concours de dessins : le Gorvello à Sulniac en fête pour le pardon de Saint-Roch - Ouest-France",
+      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOSlNiRzZBbUxPeEFMcGlKWE1NMlZsUnVyU2lUZFpYZVhZUkwxWWRyWU5Qb0gxZ0Q3ZmZ0Nm9kUzFfUjJ4MWZ5bG9KYXJMNGlidk1zRTZkSURiSUtaV1BQcHZXNjZMSmFmRXpLNmhzOE5tVnlyLWJQbV9CTHFmTXlWZGc5WWE0cEphLWk2aWV0eFJMcnlxelF5NmFjYTZfcmRTM184a0lRYzVub0lTRnVHV1ZnTlBENURSNHk1aEZQQ2VyZlZBeUpVcDVkdlhoODVBTGtZSTFLSkpnZXRjRVhiRXUwNGwtbTFVOUgxLWltS2V2LTlOa1J3bjQ1OFBmc3pTV3pGQ3Vfa2xiUU1sLVhjdW8zZkxfWFBNcXUzRHlUTjlrei11VWdz?oc=5",
+      "source": "Ouest-France",
+      "sourceDomain": "ouest-france.fr",
+      "publishedAt": "2026-08-17T06:36:02Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (ouest-france.fr)",
+        "ouest-france.fr seen before (14 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-23ef78caccf8e12c",
+      "country": "FR",
+      "title": "Fanfare, fabrication du beurre, spectacle son et lumière… La 55e Fête des battages de Saint-Nicolas-du-Tertre se prépare - Ouest-France",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNd2JDV2l4ckdidlBLbGV2d3g1RHJfYWJIenhINWFMSmxMSHlPSTBzQWlEYzlNS3N5X0twYlZCSW5sTTRSRzJTdWU0bGpaNGVzZzZuV1BRY0FNa3prUjZvZWFCd0tmUnBIblNiamlKaEw0TGs3enQwdGJqeFEtWlJRMW92b3ZpLXl6eUY3MmMzc2tFaUJoQkc3bTVQUmx3X2dmTzRaQ2NBQWtNeUlkMEEzX1plTUlqcnMwNzJSVmluODhoZFJPMVRHX2IwZWl4MVBXNlRxOHlEM3NmdnNiQzdkYWdsZ2dsaDdVUUgwR1hEMHlyZGF4MGtfQTVmTkd4Rjgxdm1NRXZRVnNia0k1czBvZHJzWHhBenFDMm44LVRsZDlJdw?oc=5",
+      "source": "Ouest-France",
+      "sourceDomain": "ouest-france.fr",
+      "publishedAt": "2026-08-17T05:50:03Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (ouest-france.fr)",
+        "ouest-france.fr seen before (14 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-69f1383586c7782a",
+      "country": "FR",
+      "title": "La Fête de la Mer au Croisic, un hommage rendu à « ceux qui sauvent des vies au péril de la leur » - Ouest-France",
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOQ1hzVDI4bko4eDU0WU95TnhFU1JicFV3N0FieTl3YlBnSmFWY2pWN0xWenh5Mkoyc2MtTzhNejVPVFQydHhhbEcwbkllcGJKOHM5R3dVamprMkdMRVZrMTBrUi04d0RoNkRxNE1XM1ZVc3NHVmlrOS1JUVZYekhyR0loWW43eHhEYW0ydThlMFBlX19kN1N6UTBVSlF5SllkVFk1R2Z5ZVN0T0h2cHRJRkx3MUJ6UEhfNjFkLTVkUmRrU2RoUTNYMVFfckJrdTRhWFhfZEplVkRRdW5sSlMzdTJUMzJTVFZSeXpUay0xMVVVdFFfUlV4TnlkSTdnM1QwWUtadmJoTXpOQ2pNUHgtWGRWdWF4Z3c2NkI2bw?oc=5",
+      "source": "Ouest-France",
+      "sourceDomain": "ouest-france.fr",
+      "publishedAt": "2026-08-17T04:00:06Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (ouest-france.fr)",
+        "ouest-france.fr seen before (14 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-09ad453fe448641a",
+      "country": "FR",
+      "title": "La traditionnelle fête du village s’achève dans la joie - Midi Libre",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRjRGYUs2SmRUS3AyNjRzNnVfanVfNGhYc1czR1VvNDhpYzItR2IxZURfa0NqeWtmaDBReldERTl0ZExzZTNJMFJDVVhhcHV1SEFHR05IdF8zRzBMQ3JXNHo0VWw5Nl9jLW9ldXpuZjVWeUV2czhJUFhBY3FCNjR2WVRmZzFWanI4Rlc1XzJtSWVxLTRJZ1lxSTdyaWVkazVNVm1yWXV3?oc=5",
+      "source": "Midi Libre",
+      "sourceDomain": "midilibre.fr",
+      "publishedAt": "2026-08-17T03:05:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (midilibre.fr)",
+        "midilibre.fr seen before (11 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-aba9324c0b1a7153",
+      "country": "FR",
+      "title": "Trois jours de joie et de partage avec la traditionnelle fête locale - Midi Libre",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSThaLWhGZ2RzMk5EMTNhVHNOVmVobHNBNlRpNWtINWhpRmpiRDBER3RSZXByblBOYUpJeGM5d1VqYTVKaTQzc3F0VVBvcGxrSVdPemstaW0zOXJCck9DU0lGeFFvWExGekJyNm42a1JvRUFXTUxsUERfYXp1RHN0RzZWMkxVeHdzRTZvSGxrSFdmSlN5cmJuWHNwOW5oSEZJSW1aQlZoanZmSTYxTWplczF1eU84clM2?oc=5",
+      "source": "Midi Libre",
+      "sourceDomain": "midilibre.fr",
+      "publishedAt": "2026-08-17T03:05:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (midilibre.fr)",
+        "midilibre.fr seen before (11 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-9d158516deaf98f8",
+      "country": "FR",
+      "title": "Ballon-Saint-Mars. La fête de fin d’été aura lieu dimanche 30 août - Ouest-France",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQZ0d0OUhGWjlWNkNSX3hzOER5V2dzcXBLakMxemVsRlF3aDMwcV9OcUliZFFRbUEya0I5SjdzOTRsS0RaaW9yemxZaDZ0R1RGb3ZRUURXTThVVHZLNjlVaGJGUGttVmdaQ0pCaU1iWGRCVE5icXZ4bXY3X0NZTWotSU9yYm03SFFjR2hmYndKWV9kU2ZOZmhaY2ZNZk1IQzl4Q051MmNLdFVvQm05MkdLMllkaWpnN0h3Y2o0d21IZ0dfdUdISkJYU056MmVKTUR5b2xwcEtVMGptR1BCeXlKajVtNUJxbmlFc0ZYeDR3aTBWNFlFbVdVSl9IenpQa28?oc=5",
+      "source": "Ouest-France",
+      "sourceDomain": "ouest-france.fr",
+      "publishedAt": "2026-08-17T03:04:16Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (ouest-france.fr)",
+        "ouest-france.fr seen before (14 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-2590b2d21626a2a3",
+      "country": "FR",
+      "title": "Fête des Moissons de Selonnet - frequence-sud.fr",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV3NPMURaRDVrZVh1MHJ0UEM5b3p4VDU4bnBaVWhNOHdpRVNOUUdPUmxrS3lId1NvYUdnUUktQ1pOWG9PY0xKZGV6ZjA5aV9VQmFvczBaLXBTTEMwZ3F4R2RzMmhsX1dsbFRRdzRDaEhmOHk5aHJWZW9CVmhyaVUyS1B1Zi1Kcnc?oc=5",
+      "source": "frequence-sud.fr",
+      "sourceDomain": "frequence-sud.fr",
+      "publishedAt": "2026-08-16T16:09:09Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (frequence-sud.fr)",
+        "frequence-sud.fr seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-97e9de795f942f10",
+      "country": "FR",
+      "title": "Une grande nouveauté est prévue pour cette traditionnelle fête de village en Gironde - Actu.fr",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQaTh4dWdjWVNhZEJNOElCc0NKaG9Ub3dGMGZ4OTdEWmpVNEs2aGo0bkt4clhGYndfcmNfVE9JOUVQQVljWHZNdXpUbXJ1RWoyS2RrUkJOTTlnbUkyRkRCRHBqN0tUcjl3eDE5VWVpeWNjNUdreGhhNDg0SEd3QWVKc20wdWQ3RWEzV3hDbk1jdVpMMG04R2xSVG9JSXU5eWFNRG9yNV94NG5xZlQ1cjJSMDZXZDZjSXdvR3hTNE5XX0FqT3JnTmh1ZFE0Rzc5dFNXckhxdEp2blZoZXRFbkxBN0xR?oc=5",
+      "source": "Actu.fr",
+      "sourceDomain": "actu.fr",
+      "publishedAt": "2026-08-16T15:50:02Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (actu.fr)",
+        "actu.fr seen before (7 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-2ff88c0e60f40b6e",
+      "country": "FR",
+      "title": "EN IMAGES. « On était là il y a deux ans, on voulait revenir ! » : succès pour la 33e Fête des vieux métiers à Baud - Ouest-France",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQNDRrQjQ1OTBYV18wenNwakdhM0gxdUluMWhaNGc4TVRIRzkzRDU3M21Nd0FhN2JSQXppckNWOWNJV3owTDhydmlhVzhzcVp3RE93V0VPeHI1SE1JUDVic1h5Wk8yVEdGMjlZRDA3MHBIdjJ0eWRzVHBMc2l2Nkl2VHpoSUhSTmduOVJ1dkIzNlNHWXVDNVd3eGtKNkhReExuNk5kNGlqdTlidWp4dUVqdXZMcGFxMlVzeHdTeWFBNkcxallLUGdlM1A5ZXBXWDJnNnIzLWgwSTRSMWpOLWlBLXNJdlVoaE53Tm5WRnlYTUtuT256c3o1dGNXNk80cGJDSGpuT1ZpV05OeVVaejVRcldR?oc=5",
+      "source": "Ouest-France",
+      "sourceDomain": "ouest-france.fr",
+      "publishedAt": "2026-08-16T14:03:07Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (ouest-france.fr)",
+        "ouest-france.fr seen before (14 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-fb11b3ec9c9ccf0e",
+      "country": "FR",
+      "title": "Fête des Fontaines à Collobrières - frequence-sud.fr",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNm1zTy1RT3FIZXdQN25nNHFKVkZQakI5NEpvWGRpajc2MTE2MFlPS2ZzeGZlQ2VUdldUMWtqYmxHS3NLeTd4T0NBZy1fSEx6U1B3NThMM2RFcHAydFFtc053MUV5QVc5bS12ZkVPVGh6TnVfc0JNbjE3S2JMeU96TTRMa3hxNmd1Z0pGUFJQN3d6Zw?oc=5",
+      "source": "frequence-sud.fr",
+      "sourceDomain": "frequence-sud.fr",
+      "publishedAt": "2026-08-16T09:09:22Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (frequence-sud.fr)",
+        "frequence-sud.fr seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-47c69996d4badf85",
+      "country": "FR",
+      "title": "Voici les horaires et villes des 8 feux d'artifices organisés dans la Région Sud ce dimanche 16 août - frequence-sud.fr",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQdWVMbU9YOEgtcnJnSU43S3FiV3J0aFl6ZkxkQkhJVWZUdG9KbFdmWWlNa1h2SDl0eUwxVlBqZlBzd1lkY2VidVItWWdxN0JZSlc3bnFyWTVkV1Q0eGpLYlFfbmtfcHdCbnlCbld6UmdKbEhsQlRLbXg0UllCSlNCNlJ6TEJLNllDNDJXUUpiWks1OVdIYjJOM1hxQy1iYjlXOVNTM3otaWRHZExsWjd6dTNNRXpYTVI2ZEIzY2xnTTJuMDBHeHNvNWpzYWkxV2VSS096YzI2Uk8xT05SMHdtMWdTMVM3dnhsX2fSAe4BQVVfeXFMTWM2UUFGQmJzaHhnNWc1SE5IUi1KY2s4WUduN2NGdDNqdzBZOGlqa3hUTmh0MWhvOEpNMjJsSWJEQnR0MldiMUo1ZF82WjFaT3ZOWXBnRndaZ1ZYYndwNjNDZk9rQXliakdqSFhGNkJ0NmlLVVlyS09oaEJUM1R2S1BpdWlNcEs1ZFVDdzNZU1ZXckFnR2JvZXV0alJjS1hsdWhTYUNGUkRHVmVXQUoydkVpX2ZhelNPLUxyLTFfYmx4ZXd1R2p1T3RHQzFmVzI5T2hvWnlDYV9YS19YajBLbkRNWkVDWElaMnk4Tk90UQ?oc=5",
+      "source": "frequence-sud.fr",
+      "sourceDomain": "frequence-sud.fr",
+      "publishedAt": "2026-08-16T09:00:57Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (frequence-sud.fr)",
+        "frequence-sud.fr seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-02f1d3e98f652d7d",
+      "country": "FR",
+      "title": "Feu d'artifice de la fête de la Libération du Muy - 16/08/2026 - Le Muy - frequence-sud.fr",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWG93UjlYYk00TVBVQW9JbmYzay0taWh1c3N4aWtTeS12eVVKOEFYZEVLRzdnMHpoQXhVVEtMRGstT1NEZWVrbW1BUlFOM3N5Rm9MdG1vSjgxV2pQTUhoNGljT3hKcXVtZndoSWFSTF9lcE9BV0dXVGVtSl9MZlBYaWpEeFdNcWZoWWcwWVFoV0c0TmRKZ0VfUG5Namt0aGc?oc=5",
+      "source": "frequence-sud.fr",
+      "sourceDomain": "frequence-sud.fr",
+      "publishedAt": "2026-08-16T07:00:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (frequence-sud.fr)",
+        "frequence-sud.fr seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-a82474f4710a0a28",
+      "country": "FR",
+      "title": "Lancers de drapeaux, musique traditionnelle, messe des animaux : découvrez les temps forts de la Fête de la Saint-Roch ce dimanche 16 août - Midi Libre",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQNDk4T25uNzhsNnVjak5yOUdMNVJFSGFpdUxiSjl2WjhJY2U2aW9DVzhjeWhGMHFsWTZHelNDbE1rNS1sdktxOGR1SDZvZXFiQW5jNDgzb1prWWZCN3g1T1hJWHI3TFNRaVNGd2Jsd3lsZzZEQXM1VHpfRHhxak9sbGpVUld3dXYwRGdncVlsWTVuMzV1U1lTV1BmdTlaRVZ6YUp4a0Vvd05ybWRaVUVFZGN4MGdlZFBZMjh5a0twb0txMzBtQk5qYTFkTVZsRmtwaUtmSTRaMlE2ZU5pSU9YRTBYSVM3a3hZUWhjZ0JEYWF1ZzBfekRDTnNDd3ZfOHlHMFpmVENpNDFlWDFuLU1iRQ?oc=5",
+      "source": "Midi Libre",
+      "sourceDomain": "midilibre.fr",
+      "publishedAt": "2026-08-16T05:01:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (midilibre.fr)",
+        "midilibre.fr seen before (11 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-aaf919e7bb11d240",
+      "country": "FR",
+      "title": "Quatre jours de fête traditionnelle entre taureaux, musique et pétanque - Midi Libre",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVnNKaEZDcS1ZZ0dvc3BaVjZaekpWVlhaSXE2Q2hDaWZNN3hUaGlZdkVVb1JYMl9tNV9ENE1BNmVSYmZVSm9PcFJ0UWdtRnNRODh4SU51TXdLVklTVDNIeVJFNWpJZW1mNW9lZmk2dWFqb1o4RnJCbGpCSnhUaFozTkM0OVc0Qy1yaWg1ajNkQlNPWnRTaUhQcnVITGlVZ1A2TjEwTXpLTUZKdnRzc2hXcA?oc=5",
+      "source": "Midi Libre",
+      "sourceDomain": "midilibre.fr",
+      "publishedAt": "2026-08-16T03:06:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (midilibre.fr)",
+        "midilibre.fr seen before (11 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-c08e8fc8aec6954d",
+      "country": "FR",
+      "title": "La traditionnelle fête du village a tenu toutes ses promesses - Midi Libre",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeTFLV25OSklaLS1KVHlBZHdJSnNONUg1dFhvWUV0azV4VFRkZUYxRUk2QTE5dk8tLV9oQ2RHNV9aUFNJWVhXMTYwN0NCdlVTQ1JDbk02YUJoZXlwOVUtYjVaQnFrRkNHZHdGcHNZcUFYUlp1X09ZV0ZydVJqajRYN01pNldEYUY2N3c5eTZNSk03Q2xRcUtZYjBDeFRXTFA2dlNGdTRfeGtlTlVfWFdj?oc=5",
+      "source": "Midi Libre",
+      "sourceDomain": "midilibre.fr",
+      "publishedAt": "2026-08-16T03:05:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (midilibre.fr)",
+        "midilibre.fr seen before (11 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-10f9819a9256a0c5",
+      "country": "FR",
+      "title": "Le fête du village a connu un joli succès pendant trois jours - Midi Libre",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYzliN3licVJjaC05czA1Z0tLM01paVdJYkF4Tkdpenh2YjNmd0FXdTBUS3owQ24wVVBDWEZpU0NvTGdrSkJSNFhYTWZXb01oYzloRE1od3F6dWExUFloXzI1eC1wM1pzSEhGOFNzeFlraHU3NFV3elVWOWhQd29uYjZWSW9OQldzVW9TV0VaNmVvV0tqVkdfTU8zUTY1TGtpSkxrNUdCT3p1eWI3SDVV?oc=5",
+      "source": "Midi Libre",
+      "sourceDomain": "midilibre.fr",
+      "publishedAt": "2026-08-16T03:05:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (midilibre.fr)",
+        "midilibre.fr seen before (11 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-033d8368cf3464f1",
+      "country": "FR",
+      "title": "La Fête de la Saint-Roch revient à La Verdière - frequence-sud.fr",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONDNBbEVQVEE2SlFkYXpKc1dUdkZGM3dzYm03MUdyTjd2U0JKM0tsVzREMXpYb2t2c3VRSF9uaE03Q2Jldy11TGpKVWdZRXJCQ2dZRWhTV2szNkZQQTdtZ1FpMkthMWpiZWZEdjl5TUlhNVNMN2IyMUl2VHBkTzRyNEZMNW9VN2lEVF9kdGtGd0lwWkJsb3k1UE1OZUFTcThYZXc?oc=5",
+      "source": "frequence-sud.fr",
+      "sourceDomain": "frequence-sud.fr",
+      "publishedAt": "2026-08-15T16:23:06Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (frequence-sud.fr)",
+        "frequence-sud.fr seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-f8829e882672c3b7",
+      "country": "FR",
+      "title": "Frontignan : joutes, balades en mer, pirates… ce qu’il faut retenir de la fête du port - Midi Libre",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdWIxOE1vMGt6SlpYVUkxTHBKUDlfMFFEaEU4dUlUbzhMOXEzNzMxaktGX2hoSXlGV2hzeDZvNTdEQkhjSHJ6R0VDbXZTYmthOWRFcTM4N29uU19oWmNGb0xwY0dyYUZEcHNlWXIwSHQ2VmxPZVgyeXZDWTR4cjdJVWJ6VW1GOVRtZW56LTVtWXJRNWl2VjZyalpRNFdhY1ZZT0hHRm5IY0R5SFU3LU5YejM2elBVNDVEbG11MHNXWV9BU2ZCbXdrYg?oc=5",
+      "source": "Midi Libre",
+      "sourceDomain": "midilibre.fr",
+      "publishedAt": "2026-08-15T14:01:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (midilibre.fr)",
+        "midilibre.fr seen before (11 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-c47e3d9cad8aa11a",
+      "country": "FR",
+      "title": "« Une fête populaire toujours très attendue et fréquentée » : un repas et un grand fest-noz au Juch ce samedi 15 août - Ouest-France",
+      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPTFZtaVZsYUJtQ0hzTkZpb0tvcF9ES01oOW9YWXIxeHBGdlpMaUdlSngyQ21fRFFvbDU0SDdBUmY5R1BxT3EwOWxuNTRlaWFLN3AxZzJya29CREI5d3FpcnZqT1JWYXNsazY0aC1zZEhMX1czYmJGTHpMbG81b1hBSmFfSjZBRDVQejRScHU5MWhSQ2dwX0JiRDloM05RWUhwT005TTA4ejZ5cVEtczJtdVp2VnAwbV9MZE1hQTZDejlySXJieldXTmw4elNFNzFNWGZsRXNVd2trU2RYaEYxNjJEdVpGZV9KNkJNMC1MZVVZNlhpa24xUUh0eVNGblo5ZFNKVDIzajZtSVdXUjE0X0FjMklXcHhRUzY3YUtiWG9pR0dmS3c?oc=5",
+      "source": "Ouest-France",
+      "sourceDomain": "ouest-france.fr",
+      "publishedAt": "2026-08-15T09:13:50Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (ouest-france.fr)",
+        "ouest-france.fr seen before (14 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-e882641b2fba7410",
+      "country": "FR",
+      "title": "VIDÉO. La messe de l’Assomption en plein air débute à Pontmain - Ouest-France",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPTUlxbHJJV0ROal9ZRVJHZU9KV0xhWVdCRlpjNzZmZHVjM25NYW5QWjZVVjA4aUo1VkhvODFOZGZ3bVF2WVN5VWtXU1A5VnMxdktaR01pLV9JQVI3dUJIejNLckhuZ3hKQzYxN1h2XzJGU3F0bGhJYVRoU0xUakhGU3BlTUFzdWtCN2p1RVVsczJTY0dkNGJ1U0duWTItVUl3MkFQUmZOb3hIZXJNWW1HVjFObzZUXzJseWwwUUtfMHBzMzFqTVRzLVVpNVhVR2lKNUQtRk5CSWZGNlV0UlhBMjcyZ3BrenRtN1hoeG9hSlRwNlY1eS1MYUh3?oc=5",
+      "source": "Ouest-France",
+      "sourceDomain": "ouest-france.fr",
+      "publishedAt": "2026-08-15T08:51:55Z",
+      "query": "procession pèlerinage",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (ouest-france.fr)",
+        "ouest-france.fr seen before (14 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-5720b53703e55274",
+      "country": "FR",
+      "title": "Fête votive du 15 Août - 15/08/2026 - Chaillol - frequence-sud.fr",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9BU0tYYXZJYmVTbE1ySC1TVE5NTGtwbnBSbzdaS01xa3phNUJmQzJFYXkwWTJ3eks3UjFIQzhncDVJNFlfUHRETkdTdEtuSGlNVGZfTzdhWE1nWTFXb0NYd09qbnh4UkNNWmhQRjg5TElXSmt2MUYwdGQzbUgxZw?oc=5",
+      "source": "frequence-sud.fr",
+      "sourceDomain": "frequence-sud.fr",
+      "publishedAt": "2026-08-15T07:00:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (frequence-sud.fr)",
+        "frequence-sud.fr seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-b22f4d4de4f60762",
+      "country": "FR",
+      "title": "Fête du Patrimoine du Vars - 15/08/2026 - Vars - frequence-sud.fr",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fUDNxdmtyMVhiS3ZEUFREUjZhSmxmOHl2WlRQRnMtWE9HcmZwS3cwRmtUX0ZKWklNbnk0Ym0tT0g1X3BfQjZLRmYtMkFTQ3NuLWQ3THJkcEIxLXpOc0NHNDlrQVEwaW55bWk1VFNSTUlWXzhOakJuVC1TUmt6UQ?oc=5",
+      "source": "frequence-sud.fr",
+      "sourceDomain": "frequence-sud.fr",
+      "publishedAt": "2026-08-15T07:00:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (frequence-sud.fr)",
+        "frequence-sud.fr seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-1297c93a716a51d8",
+      "country": "FR",
+      "title": "Fête de la Saint Roch à Peryuis - frequence-sud.fr",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYy1rNVh5SmVzT3pnZ25nX013SFZObmNheWNPNEZpUnFYMnZVcXlpaWVIRnVOOUZTdWlkSmdHVFlyaXNtVW1GckdnZ0twTG5zNUs0MG1DQkhXOFFGMFZ3X2lXaHo0M3RKQUZmSHIwdUNJYlIxTHptMHVVWXQyWS04WjF6VVpLY2s1?oc=5",
+      "source": "frequence-sud.fr",
+      "sourceDomain": "frequence-sud.fr",
+      "publishedAt": "2026-08-15T04:14:06Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (frequence-sud.fr)",
+        "frequence-sud.fr seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-c91edf399a2d3cbc",
+      "country": "FR",
+      "title": "Fête Patronale de La Mure - frequence-sud.fr",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWG5hUFRTVV93aUw1anBEYVp0R1hpUUpzMXphbUF1bEg4TnVrSHlkUFFjMHozWnNlbHA5dExsaGFuS1pjaHM5dGpaSjNMQlpweG00VTV6cmxDc0hsc19CRDA0ZkFydWRiRjJmLXloRVYyUV9wWDZEenV6cTBoc1luVFJ1MTZUYnBiUFE?oc=5",
+      "source": "frequence-sud.fr",
+      "sourceDomain": "frequence-sud.fr",
+      "publishedAt": "2026-08-15T04:14:03Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (frequence-sud.fr)",
+        "frequence-sud.fr seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-feb62872c194e7c5",
+      "country": "FR",
+      "title": "Fête locale : programme des perturbations - Midi Libre",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT2ZEMlRhb2JuVk1TeGZKTXJHLV9rSzA1WG1BSncwci03TjJvY2VMMzRQSHhrRlVJUDdUYjd1S0dpZzdJOUc3MnRzMWVuWDdCdDV4MXZLN0ZRMThsMWVpLXRnZEswRmY4MWFQU29lOHFhT2JHN3dJQWdWRG44Y2pVN1ZMSWdocURqOGJBbW55UmItdw?oc=5",
+      "source": "Midi Libre",
+      "sourceDomain": "midilibre.fr",
+      "publishedAt": "2026-08-15T03:06:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (midilibre.fr)",
+        "midilibre.fr seen before (11 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-6d77335e72b5a327",
+      "country": "FR",
+      "title": "Vayres : Fête locale et mascaret sont au programme du 15 août - Sud Ouest",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOT2I0RlBacmZXaE9nMVJEa3RSWUJxbGk4ZnVzSDFpYmZrQUlkb2hnTHQ5Wi1EM1Z3dXJ0ZUFiazd3TkR0ZkNuOU45bGszeVpmOEZuSVF6M0xBZ2ttaDlYMkVvQk56dzgwaENuTUJzRjhDQlo0WlV1TkZoVU5aZ1pxUkQwanZTaVJ6X21XWEdXLTk5dlVCM1MyeE5wOURjUzdtUUVKR1JOQzhPa1EzZXp0eQ?oc=5",
+      "source": "Sud Ouest",
+      "sourceDomain": "sudouest.fr",
+      "publishedAt": "2026-08-14T18:08:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (sudouest.fr)",
+        "sudouest.fr seen before (6 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-2523bf87cba29f42",
+      "country": "FR",
+      "title": "Fête Votive des Paluds et de la Saint Roch de Noves - frequence-sud.fr",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQV0FWeTRta1lNMVVNaXJFZ0R4RmhKaW1hRUhGSjdzQkFOTGlmckY0Tm9VVFRnRDgxd3p1ajN6NThmMmlvM09UaVNZSm40cXlvdFE3UWpObWI3OUs0cGJtOG1yb3ZlSVl6eUplWGRUR3RCOHlkaTFZSW9YemVjdnV2VlVIa2lFTk9pMF9BODF1WktMRWZ6NHlvZFpHUnhkRnZK?oc=5",
+      "source": "frequence-sud.fr",
+      "sourceDomain": "frequence-sud.fr",
+      "publishedAt": "2026-08-14T16:26:56Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (frequence-sud.fr)",
+        "frequence-sud.fr seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-18509ac9d439b09e",
+      "country": "FR",
+      "title": "Sainte-Bazeille : la traditionnelle fête de la Saint-Roch va faire son grand retour dans le centre-ville - Actu.fr",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPMXVrNG5hdEJ5TXZXUGt2US1aRzFKLTU2U19HZVRod1FFNlFKNVU2SGZ5TkN2elloQ0tZSzAyS1hzQkJoSjViczgtTTVXLWxIV0dRdHBVdVNqTFZqQmJuUjRKTzdQWXJaVkJmMVpHOWZKMXpIaXVJbjZDcmFiVFMyeThpV1FONWdvZnhfcmkxYjNVZER0c2oyRU5jVWxIMFdkazBCM29YQWdMbUVrVmExT3N3aG9vLUN4R1lVdS1oOHQ3dkF6bHg0bFBmcFRPb0pPbjhuYTBFZXZSUjF0T29VaVpHaWJxNDZlX0lsUGlPbE9CQVdJVWZHcWU1ZlhzS0ZybWdz?oc=5",
+      "source": "Actu.fr",
+      "sourceDomain": "actu.fr",
+      "publishedAt": "2026-08-14T16:00:02Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (actu.fr)",
+        "actu.fr seen before (7 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-5323293270760999",
+      "country": "FR",
+      "title": "Processions, messes en plein air, pèlerinages… Où fêter l’Assomption dans le Maine-et-Loire ? - Ouest-France",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQNTl0QWEtRS1oUTBURkVwUUFYUGdmN2tCYVJQeUR5c3hKQUdmSmZTZzNxWXZfeGdrNm1wajNlZUpWY0RqLUo4a091YUF6ZExBRnIwVlNYWUtwajlnV3pkaEtTVEg5bkZBUFcwUEQ1YjRkODdVcWs5anZ6VDJQNUhwUF9WSkdCQ1JhUGlud1RxZlBtQ1M0dDlIdml5S3FVS0lOZlBpV29fcGxGbTVLTHJoZlh3dkRCY0NVZ2t5cE1KR005RjdlMVgzUVoyTTUyNTBRUkdJU2dVWno1ang5MGR5dUVBa0xzdWZvaUZrb0NZVk9zZ1dZVk5oajZNREtyRDA?oc=5",
+      "source": "Ouest-France",
+      "sourceDomain": "ouest-france.fr",
+      "publishedAt": "2026-08-14T15:47:54Z",
+      "query": "procession pèlerinage",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (ouest-france.fr)",
+        "ouest-france.fr seen before (14 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-4c35f5d54995151f",
+      "country": "FR",
+      "title": "Plus de 40 fêtes de village et fêtes traditionnelles à ne pas rater ce weekend du 15 août dans la région - frequence-sud.fr",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxORkhIc0lvaVNlLVZVWlg2YWgwMlZ0NmtRNXFEVmJVMHZUeHowMVFLNmlJZ2ZkajhjOFN4SldGVlVDOE9UcmdFdVNMMEhOTFo5WWpHS0tDdWVvcGFnbFlsUk1rMFJteWRocTJpNUQ0MlA5ZHhtVjZWc1Z5VEhqUDBlNGhub3A0b3lHRThJbFFoSXBRdS1NVXNvaWxLeUtOOHZaZ2Rtcm9BOFNmeWtzcVVWNUtjd0FpcThibC1fbXl0X1diRU85MlZpZjlyTW04RHBmajFSM0pjQTlVSVpLcHg4NlpHaTF0eDZmdGpFdXdBOA?oc=5",
+      "source": "frequence-sud.fr",
+      "sourceDomain": "frequence-sud.fr",
+      "publishedAt": "2026-08-14T11:17:03Z",
+      "query": "fête patronale village",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (frequence-sud.fr)",
+        "frequence-sud.fr seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-5fa9f457c0674be5",
+      "country": "FR",
+      "title": "Fête Patronale d'Allos - frequence-sud.fr",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA5OEU0azNjZEl3OGlHUHhDV2otZmR5ZmFsNkc5RmVhM3lXdmJXOUdpSGtsS1JJWXA5Zl9ZX1RDNkotYjV4alNKRHlzYmtXUlZWX0Rac2lPc082VmFSNThsTTV5TjNZelU1Ny1OeVZhZ2tjNV9hR1J2dzFR?oc=5",
+      "source": "frequence-sud.fr",
+      "sourceDomain": "frequence-sud.fr",
+      "publishedAt": "2026-08-14T09:44:38Z",
+      "query": "fête patronale village",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (frequence-sud.fr)",
+        "frequence-sud.fr seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-e69bd469200031a7",
+      "country": "FR",
+      "title": "Plus de 15 fêtes de village et des feux d'artifice : Votre programme des festivités du 15 août dans les Alpes du Sud - frequence-sud.fr",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPNWQ0OWxiTU5fRHpoQ3IwLUY0UHZQZXZydk1VdlpmOW9oNFJ1cXZZYVcxNDdYajFoWU5UeUZDanRnd2VPcXpnTl84dk9ISDJHVHhBNERoQjRfZEJQVmNBUGJ5Q0llaU1QVVFKSk1yb2RzYWtZa0F1d25Pb3NNYUVXdkNhMndxcDJ6eHJUTlV4d0NybDJUd0hhYnUxRExyUV9LZG5oSXJUZHVaV3hBZVVaQjh5VGZDTUtMYWRsaDhmMlNCSlhxWG95Qk9KZXZtdmpUSWpDVTNaUVBNcFBYZXA4YTd4MVFpQTVBRVp1b0ZMRDdxa2NOcC1YS202eTRjT2fSAYMCQVVfeXFMTjgzRkgyYUd4ak1KcHZYODlmX0p4YVUwNm10dm1paElsTXFXQXVKX19NbFNKS3ZOX0lDYlhHSUdjTUVUN1MxX1hHN29ZVjhsZWg5WGRxNy1HRk5FYkkwUXA1MkgzSVpaUW5NN3dGdFFwRGxrZ185eWtsaGdaRGpxTDhzM3hRMG1aNEF0Q3hyRlptYk01TEpBS2NXRlAzR2k1bGN5X0l2MDI2dmJvX0tfbDdIZDRjRUVTbzY2RnpBX04xSC1JMjlDZ29mZUMwM1pMQmRPUDdkMEh0M29tbEpZczVNLWYxRGJmMXJCWjBZZ3ZlNjJqdC15c2poTU9lMTdsaDdFRQ?oc=5",
+      "source": "frequence-sud.fr",
+      "sourceDomain": "frequence-sud.fr",
+      "publishedAt": "2026-08-14T09:42:23Z",
+      "query": "fête patronale village",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (frequence-sud.fr)",
+        "frequence-sud.fr seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-0365c10bef9004fa",
+      "country": "FR",
+      "title": "Le programme et les dates des feux d'artifice pour les festivités du 15 août et de la Libération dans le Var - frequence-sud.fr",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQM0JFWi1CQWNfT2hUSEdIWk5RMzFKSE9nSG4yQlp1Y2ZtY21YckJ4NllIUFBrQTJSaWF4TUstaGtvclZhSXpicUpjaGpkdVd3NUo5YXl0U2ptcGdFa0pLQ0hBU1ZFV0RzMldpVTZYb3NrdG90N2Y4dUZTczJOa3ZGczJrT1N4TTNCWkVyNnJ2RUNfQW11OHZXZDJBbG1zblFfaVFmNk12NlhLY1Bpc21aM3BPZlhCclJYc09XMzI1NWpoM3lrS1FHOENkdjZWM3RqQVRCN2E5Q1RobDdKUUczZFhJbnlMREFzVUHSAe4BQVVfeXFMTUcxNWRtR0RDdnpxcHc4Q1JRMFNlVEE1SVZMRzJuTGxTY0VCVGM4YVIyc2xHZ0lPMFptTElPaHc1WDE0UEVsUDlac0lBUWpZTXd2TjNmUWZyaG1zNHpqUmtzbEgwalNZQlZ0SjB3QmhUTnVHWnFLVC05ck5vNnVXMnRmT2lpYno2Nml2dWFlYndoeWlhYTBwZFZGUDEtMDhZRjR5UnNIZG1WcnNSZ1ZYUkdPNUlvVnRxTDh1N25JbG1ya3p0RjRYNTJOMEk3Tl9ENUh2SDQydzE2WmUzeW9XVDdwbnpyMXQwaDQ1V0dEUQ?oc=5",
+      "source": "frequence-sud.fr",
+      "sourceDomain": "frequence-sud.fr",
+      "publishedAt": "2026-08-14T07:00:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (frequence-sud.fr)",
+        "frequence-sud.fr seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-12937101a4cbccee",
+      "country": "FR",
+      "title": "Couffé. Le pèlerinage, une tradition vieille de 149 ans - Ouest-France",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQzh1UUNleGNZSHY0bXpHU25WVlI3R3VVOVB5Z0Z6b20xVXl4bGhjTTRtSi13Y21pU0Fia2FpVDdLSkgxT1RNSUFUNk53WWZoNjZFNTktbFJFMXptX0poa3VCVWhXdHEwUVVjT3ZIRTN1bktXQktKbFdIQ3FkdVYtMlE5TG9OQzJNZ3FfSU5CaUZfT1ladlpMRGFqUjdVX0wwQXBONkpzOG03SHp3YlpjWGZOdlVkS2dfekN5ckZINzJ5d3NSZTk2aWl3TF8wRnFkRzI4WUdOVUFndGlETmRpM1V3?oc=5",
+      "source": "Ouest-France",
+      "sourceDomain": "ouest-france.fr",
+      "publishedAt": "2026-08-14T03:10:48Z",
+      "query": "procession pèlerinage",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (ouest-france.fr)",
+        "ouest-france.fr seen before (14 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-14de7fed270ac2cb",
+      "country": "FR",
+      "title": "Un programme riche pour quatre jours de Fête Locale - Midi Libre",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOa0dzQVZTNUIyYkhqNDdRcU84V0lHbWRjd2M5VnBxUzFvZXVvcnZKbHBGZW82MXgwQkFTeU1VUFh0UHJZdjFyMHRvWkFvdER6UVdzT01XNEJlV1ppRkNLZ3BQQWxuYlZtN1BLcVFKdmJYSU41WmNUN2M1cWJ0d2d2MGJZbHFmRUwzSXNidHNWTzNMZHJLX1k2Y1ctWExnekg1NkE?oc=5",
+      "source": "Midi Libre",
+      "sourceDomain": "midilibre.fr",
+      "publishedAt": "2026-08-14T03:06:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (midilibre.fr)",
+        "midilibre.fr seen before (11 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-0adbe2badbdd914e",
+      "country": "FR",
+      "title": "Loubens. La fête locale annuelle est là - ladepeche.fr",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdFpmekhEWWZjeWc2eEtOQjFIZFN3MXNZZFNKalUyNzc3MWtOVkZkc1drb05RaThtWkVzOE9pWS1Cdi1PQUlZRVdxbWR3YUJDWFQwbUNGQjhBdlhxa0pYWWJhb01SdmxwSWUyME5VaDRSNkJTTjhVMEV1TGh5LUpWVjNGZFg5Zw?oc=5",
+      "source": "ladepeche.fr",
+      "sourceDomain": "ladepeche.fr",
+      "publishedAt": "2026-08-13T21:43:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (ladepeche.fr)",
+        "ladepeche.fr seen before (8 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-43ebb424f78cad17",
+      "country": "FR",
+      "title": "Lancer de bottes de foin, funambules, spectacles : ce village va faire revivre sa fête patronale comme autrefois - Actu.fr",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPN3ZjUUVRRjFhSXlLYWoydV9Bai03VTNSdkktR2g2eWpvVzhfSTlSZXZJQmxnaldOLTlrNnI1TnhiaGRGSkRzU3A3VnVGQU5oRVd3bnlNdHdHV1JEWXMxTU1mZWFQS0dqUy12bkV5WTlrZGFIOEZ2S1lvWmRMdHJFX0RSSFpPMldnN0RXUUhUTDV1c0RTVzlYRVJaV3gzQ0EwdW5vd3VSYm5OWlhEdkpGaHBrQWVVSm8xZV9rVXJEYW4wZlhieUtPWnZWYkNJTlR1SDhHREtacnF4R1FOcTVLbUw2cFJQeFFTRGswekwtMVFycHpSVVgyVmwtY3cwX2RzTjhpZlBGZmc4akNsVkE?oc=5",
+      "source": "Actu.fr",
+      "sourceDomain": "actu.fr",
+      "publishedAt": "2026-08-13T10:00:02Z",
+      "query": "fête patronale village",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (actu.fr)",
+        "actu.fr seen before (7 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-6a7ebc47209dfe45",
+      "country": "FR",
+      "title": "Fête patronale de la Saint-Roch à Saint-Martin-Vésubie : 5 jours de festivités - frequence-sud.fr",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVEJqRnNhMjR4bXZCWkJBQmthVlFqSHlFa1A4a2FxdVhhaVdRbjZ5aU05Unk3elpYX2gyMVNkUktqU25HYjZoSzhfOU1rMUtuc2ZLZnJlaldFeThGMUl1aUozanVpSzhJTW40bVZ2VnNRUkhqcG5ES1V4aDJkRW9lN2JqTTFoejVJTUJTS3B6Y29CQ1lWYTJvSUxmT3ByMTB1ejZSc3J2UzlMZW40NUhIMkRZUXU5X19mNHpWSi1MZFJ4YjdNVTdoUFhDd1BHZUZBNk9fcTh6QQ?oc=5",
+      "source": "frequence-sud.fr",
+      "sourceDomain": "frequence-sud.fr",
+      "publishedAt": "2026-08-13T07:00:00Z",
+      "query": "fête patronale village",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (frequence-sud.fr)",
+        "frequence-sud.fr seen before (17 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-815f45f67cf6836f",
+      "country": "FR",
+      "title": "Mauvezin. De nombreuses animations à la fête du village - ladepeche.fr",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNanFDSURzU3JXZ0ZUbG1JTEVJNUZVeWQwUjZfQzg5b3locFlyR292azVZUE9zZUdwX2JfdmEzRVNLamE0cUJvZ3FnamI5M2c1MEZBV0s2S1pSZnVXUHhpeV9ERDZmRmRHaWFmSERkMENKOEVPX3Bpb04tWDZyZGlnV3UzQWhlWWZfRUpaZ1F3Z3hOaDdzRldIMTF3?oc=5",
+      "source": "ladepeche.fr",
+      "sourceDomain": "ladepeche.fr",
+      "publishedAt": "2026-08-13T03:12:00Z",
+      "query": "fête patronale village",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (ladepeche.fr)",
+        "ladepeche.fr seen before (8 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-d7cc0a447381d557",
+      "country": "FR",
+      "title": "Laruns : trois jours de festivités entre traditions ossaloises et concerts - Sud Ouest",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ2g2VTBkQ3JNUFc2dnhHRUQ3ZVZ0bjhNWkVmV2xyTnhZaGM2RGdjYjF2YkNua1kwdUx2bmI2QlhOUmQ0dFBuSW1DYllYX3gwNXp5Z2M2NEJ3eE9lLVVpS29PTUlETV8tQ0VXdzRjdHZXYnFMRlktMzB4RUxMZEUzel9aX0pyLUFYTXY3QmRrZFh4ek1MQmNva3FsMlM4ejFLcTJBRExZNGx0WlFfQ1c2dlBnaWgxVDZ1WEg0VXZlNlU4MGZ2LTdYZVZxeFF0OThISVpz?oc=5",
+      "source": "Sud Ouest",
+      "sourceDomain": "sudouest.fr",
+      "publishedAt": "2026-08-10T09:41:00Z",
+      "query": "fête patronale village",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (sudouest.fr)",
+        "sudouest.fr seen before (6 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-33668df8f777baff",
+      "country": "FR",
+      "title": "Près de Rennes, un pèlerinage à la fontaine miraculeuse organisé pour fêter le saint patron de cette commune - Actu.fr",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTDIwVHNtX3o1Y01Dd2I3cVFJQm9LLXc4UXlNaTg4Q09sTTdfaUlUUC1qWkJ4WGw1N2Z3OWl2QUEweFpiOGFud1JYRVI1M0Q5R05uX3h0LV9UU2tkcTMtaUF0RUNXUExuN3hnOTROc3dqUE85dTRVT2s2aU4yRHJTRWJuRk45V202NEI0VHRockJtLS1qUUtfZ3c0LWJvVTNVblBVNmR2OEFSRHJpZnlYamc4d0lVMjZuUXR3RGpVUDZ1Tk5XdDh1MWh5ZU1KcW5abmNabFByRldFYXI5ZUVIYUtrYVlhWHczWXJQeHE1NFFRaEpEeVNj?oc=5",
+      "source": "Actu.fr",
+      "sourceDomain": "actu.fr",
+      "publishedAt": "2026-08-10T07:00:00Z",
+      "query": "procession pèlerinage",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.51,
+      "reasons": [
+        "published by a FR domain (actu.fr)",
+        "actu.fr seen before (7 stories)"
+      ]
+    },
+    {
+      "id": "news-fr-436b605ea91369f2",
+      "country": "FR",
+      "title": "Pour son 60e anniversaire, le comité des fêtes de Champagné-Saint-Hilaire honore six décennies de rencontres et de partage - lanouvellerepublique.fr",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPMWJBSjJVenhNcEdCTWNqWDVmUkFCQ3Mtdk5IOXNTQkE0bzNSZ2NHUmxGbW9SSElfQlU5Uy1rekhtdUJ5aFUwQ3oxRGszX0J5ZTA4Y3lrN1VkSXd3Z2FxUFU1bmVodTBBN21Ndk1jWXE0dGhLVEVZQ1I2cGJhYm1paDlLNDF6UmdXUTgyRzZkeGtJUTFTOUt1YVdWeVpfRm9zSjh5d2QyQmlMQkQzZ3JsQWxqaVdtUmZ1WG54QXB0THBSUVcwUnBSVUFBdk1RV1BzaTBHa1d4aWx3Ymd3MGF5MlFNbkdmZkFXVUtuN0JKMlpKWWZwcDNaQ2tKQ01uU0hYNlZoWDhybDZsUVhodXkw?oc=5",
+      "source": "lanouvellerepublique.fr",
+      "sourceDomain": "lanouvellerepublique.fr",
+      "publishedAt": "2026-08-18T14:06:55Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (lanouvellerepublique.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-8a6f34857be131af",
+      "country": "FR",
+      "title": "[en images]. La fête du cheval a comblé tous les publics - lecourriercauchois.fr",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdk5kNThMVE9uYUZrOW1hV1R3bk9SczJnSGcxWE5NU0hZeVlVV0txLVowSFlBck8zdFFaeXpiR1JGdmU2RGVyNkpwQ09DcGswVnpWeWN3MnpKVElJSXdjSDVmUmNDdnI5QWMwblNIVTAwbDczZ2plcWktM0gwdnc5Z0dDZVBBQ19TeVB5Y3VKUnZPZDRFcTFSNWM4MElEUGRSUm9DMXRZUQ?oc=5",
+      "source": "lecourriercauchois.fr",
+      "sourceDomain": "lecourriercauchois.fr",
+      "publishedAt": "2026-08-18T13:02:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (lecourriercauchois.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-42505ed39a5c138c",
+      "country": "FR",
+      "title": "Carantilly. La fête Saint-Louis s'installe dimanche autour de l'étang - lamanchelibre.fr",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc3BfeU94TmZfMWRnemFLb3QwbnlhNGZSaVEteXJtUE9xcGZtVE44LW9FY0dzQVZJbC1zNjlrOHBfMFBfM1FmVU1aUUo1X0V2aVFRVVBZekpzQVBxSG1jeHlNOXNldnJXb29falNqRnBrVHlnOWhuNzVKYjJ5WGwydF8xM3RIR0p2WGJWTi1oUWJ4b0pKYUVabUpzWmxtTW9TVGJQd0xxRU9CVEVhbTNka21pV0s3UQ?oc=5",
+      "source": "lamanchelibre.fr",
+      "sourceDomain": "lamanchelibre.fr",
+      "publishedAt": "2026-08-18T12:43:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (lamanchelibre.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-c42a52b6b275c760",
+      "country": "FR",
+      "title": "Riotord : le Roi de l'Oiseau s'est déporté à \"Clavas\" pour la fête du 15 août - lacommere43.fr",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbkFLMzZuRGY2alZWaUE4ZXNqNkFNc1RQZzVRWFBWcWw4UDQwMDZqa1pjWkxiWFAxZmMtdUxsQUZTNnhpd1AzYUJ6RXVJWFRtcW5mZ0hrZE9NUzR3Yjg4b1ZfaEJSb2trN3BYdS1TT2xpaWdZZmRqVEtoNUk0XzYwbWcxdllWdGtSTlczTUc3SG9QOXR0S3VIQmlXZ25KSVdtN0NVbGVMRHRZdXEwTkFKUXRabE9IdE1aeFVKWUk1QQ?oc=5",
+      "source": "lacommere43.fr",
+      "sourceDomain": "lacommere43.fr",
+      "publishedAt": "2026-08-18T08:19:27Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (lacommere43.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-21622fa4ec3bd798",
+      "country": "FR",
+      "title": "Saint-Laurent d’Arce. Immersion dans quatre jours de fête - Haute Gironde",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRnZOeElqTHgwMndSZm0wTzRINEhYMmpSeW5BQ3RUYUZHQVpJRmFCUFZPR1J0Q3ZXVHNfUFYxWkJ4LVVmSFY0NkRsU0kyV0hWV2lvYnl5MHZqUkVyeElXejlnYXdlR01EcnBMUU9BMW0zYThLUkprTXhabVo4Vjh5VmVQZkI5Q040X3BvRlFzMHdHUTNmUHJpY0g5X0Vjd1FZNmpzU0hxQllHTG4xXzJn?oc=5",
+      "source": "Haute Gironde",
+      "sourceDomain": "hautegironde.fr",
+      "publishedAt": "2026-08-18T05:21:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (hautegironde.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-2bc64a7cde3f8ef8",
+      "country": "FR",
+      "title": "Neuvic-Entier : la fête de l’étang dévoile des nouveautés avec concours, randonnées et animations musicales - Le Populaire du Centre",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNMGkwUEk2aG5XLWlPb2VlejJYNHJUQWFUWmVCS3Zza0JQU09fNEg3M3MtMnFqQ1Q0M3NSOWw4UHZEVGVCREdiVGdsWVlVS3VrU0V0UW9fWlR3RnJmUC1lbXU4M1VoT04tX3JNZ2lRV1NfbnpQRVlVeFhXUjJzd0VjZ2lmNk1keDdvVUFxVW83OXV1enRYNjFYdEV0U1JfX19Kdk02UnZLOVZ1VnR1M2NTbVFhTTdoUm5iN1pMZkNiTElLT0Z6LXZoNmZKWEQ5VkpTclZUbXFoNWthdDAtTHYxVHI3dTFoQzBUZGhndGsyR2lJOXRVX1QyU013U1k?oc=5",
+      "source": "Le Populaire du Centre",
+      "sourceDomain": "lepopulaire.fr",
+      "publishedAt": "2026-08-18T04:44:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (lepopulaire.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-28cd2a55d3ee1f90",
+      "country": "FR",
+      "title": "À Melay, le week-end du 15 août a été synonyme de fête - Le Pays Roannais",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLXVUMHh0OGN6V2hMMjJoR3pFdVhqdENaY3FMZVBZMVpLZ3dUQ3E1Q0R2NzFTaWc3SThmT2xNWDlDcFduQ0hPUFY4TG01M3dxLUY1UVp5LUNPa0tQcUVwS3BPa3RQTDlESmtKRDViZlRGcnlDZThCaW5iXzF4OUQ2SE5sWTZLeVZwMm5udU80VHQ1UEpWYmlvN2l6QjdkUnc4S3I1cEVmVzlLQQ?oc=5",
+      "source": "Le Pays Roannais",
+      "sourceDomain": "le-pays.fr",
+      "publishedAt": "2026-08-18T04:00:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (le-pays.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-d5e1d4c36e0c0f23",
+      "country": "FR",
+      "title": "Fête du rugby à Torreilles : les générations réunies autour d’une même passion - L'Indépendant",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQVR6Z05JbDRQbFZ5V05rRTZDSThKSE40bXlhU3RBdzNfdHVJSVF2b3BWU1ZRb0ZSSEgxUjhGQlBaaE92SEwyOVpyLVgzXzRYak5VOWFMTGRkbi1xOXotNm9oN01RSlMyMnpqdHNHNTlleGpvWVZTM2YxRE5SclZ3Nmd3SXA5d29oS3VycUhya2hGcnZWZmpzUmNxYWJUYjEzRDdheVI4dzVVTE5TMGZUQ2NsSksxMk0yYVZPUkhLNXpJNnpBZGc?oc=5",
+      "source": "L'Indépendant",
+      "sourceDomain": "lindependant.fr",
+      "publishedAt": "2026-08-17T19:12:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (lindependant.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-dff9b93b8cdfab80",
+      "country": "FR",
+      "title": "Concerts, convivialité et élection de Miss : la fête patronale d'Apatou fait le plein par-delà les contraintes de la route - Outre-mer La 1ère",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNbFNIb0gyN0FtMkJLM0hFaDI4dG9aWEJxWXRjVnBBUVhKQmh2OUJVVXJKTTdSd0NKcG5ZcW9kYktKa1ZXYkFaRm54NjByejFSY3pidnRsZW1xalhUcmlBTFk1ZldVQ0VxbW5qV0V1ZlczSURsY0xWeDRWZGZDRXdxQlFGM2h0WVdjOHdOc01VYU1Zd0lxenhIT2YwWVh2a2ZIUEthWHdieFJWTmY0elJ0MEVnNWNWd3ZMTTZEOVl1TWt1U1RaR0V1T0YtYS1zdm40MnFkVTUtU0pKVk1oczZFZWdRMWJGd2NMSWxBdGo5blRyQ1Ewcl9TRjNOYmdnUXdRWXZRTU9JZGhYZGNicXVZag?oc=5",
+      "source": "Outre-mer La 1ère",
+      "sourceDomain": "la1ere.franceinfo.fr",
+      "publishedAt": "2026-08-17T18:41:36Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (la1ere.franceinfo.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-a9e997d807fbce0e",
+      "country": "FR",
+      "title": "À Bourgueil, la fête des vins du Val de Loire a attiré visiteurs et amateurs malgré la canicule - lanouvellerepublique.fr",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPcVVLbUJyNXlnY21WVDFfNFlRSGJxNDF5VzRPWUdVd2xManZ2TkdBeDhsQll5STVyVFdDM1htNnVtZ004WTdXX2QtdE9aaGdLVlQ2ZjlwbjZCdTh1X3N6NjBWS0dwMHdEUVNRcmpYeWZnZ3lpV0tkTWVneTktY3BvYUxOd0o3TW42d2d5OWpEVFVoQmtLaXp6TjVvdVBxc2FIckdBWWM2WEhqN0dVdzdRSzBkVkpiNkdUcjB1Vld1bmszZTVCOGIwN21aRDhUc0F6VTZEY2NKN0cwNWVzUGFETWFQMmkzeUFPeVo5V29RelgxaVRLTXIxN1RrN3lWMFlMNmRDRQ?oc=5",
+      "source": "lanouvellerepublique.fr",
+      "sourceDomain": "lanouvellerepublique.fr",
+      "publishedAt": "2026-08-17T18:19:50Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (lanouvellerepublique.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-6f674ca67b8d8361",
+      "country": "FR",
+      "title": "Laissac-Sévérac-l'Église. Le coup d’éclat préparé par l’USLB pour la soirée du 22 août - Centre Presse Aveyron",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNGdyWDF5M3E0aVZVU1IzYUNubllTa1hFUGNNaVBzU0RDV1d1Sk14S19IV05Lem5OS095alVIMjRjNV9fSzBRV0pMMjhfdHByYWNwTWZFOGhVVTBpRUFYVzA0R3NlOWZzZldsSFhUUmMxRm5uVGNZX2ZLZ1JiVVdKWWEzeVZJSDV2bWFleG9aeDZWbkQ1ZVBzcVZPT0dlVV9Yem5BemUyZlJ2N2FLWnV5MVItR3NiZDM3?oc=5",
+      "source": "Centre Presse Aveyron",
+      "sourceDomain": "centrepresseaveyron.fr",
+      "publishedAt": "2026-08-17T17:19:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (centrepresseaveyron.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-a1bae217d7d834a2",
+      "country": "FR",
+      "title": "Les Saisies - La Fête du Beaufort : le club des sports met à l’honneur le patrimoine local - Savoie News",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRDV6bld1ZnZfNmhaNkVDRUsyUFdTRWFocjhUZ1E3VVBaZHZ5cmZobWI1eDJETk9zZFYxVUhVQzBiVmhHVUQ3R1UwQmVIU1R4eGRJMFItVC1nQ0R6YzRPVDVvdzNUSmhBUVZMMlNDWFd2VEs1ZFdFWno4TUpadW8xNXBUVTZPanJVY0VKSFl1dGFwemlsaDIyN1h4akEtQzVvRTUwaUlTZ3dSRXgzS0NmR3U2UWVob2pqV2Z4YUIwUUdMVzk1WkN1cUgxaEU1UWdraFFB?oc=5",
+      "source": "Savoie News",
+      "sourceDomain": "savoie-news.fr",
+      "publishedAt": "2026-08-17T17:00:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (savoie-news.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-8b0e7df730a198f2",
+      "country": "FR",
+      "title": "Fête du Pays Berjallien à Bourgoin-Jallieu : cérémonies commémoratives, banquet, bal et feu d'artifice - jds.fr",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQUnE3NFJZQlVjTEpZeWVEbEJQd2Q0dmR0Y3Z3cjZJSHFaWVViMkdjSjZrcnRhbzFIaHhaNkFaZTBPZVd6LVpIRm9TY281eFhtZXE1dVU2bHRLaFQ4ektSRHJnUDlqUWdnUS1YQmlZdGlfTE93czlfb29RU212Q3dkWFFiLXplWkxBa2Z5OGU1Y1BDOHNfak91SFprZXZUNEZlekJLbFBPUmZtdEtUSE1CVEF4UlBaRzUtRGN6ZEUtTDJmbm9BcHFrT3Z1OVFJOFo3bWRlU0xndXUyLWZRdjQ2Y3BsOE1PbmtS?oc=5",
+      "source": "jds.fr",
+      "sourceDomain": "jds.fr",
+      "publishedAt": "2026-08-17T15:52:43Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (jds.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-e58fae44fe4c8d32",
+      "country": "FR",
+      "title": "Pétanque, loto et moules-frites au programme de la fête du village de Mouterre-sur-Blourde - lanouvellerepublique.fr",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQb3lLb3pOTGs0TkZpNkNfeVZMTnJiS1lPSlUwd1hMSWtpUFVZcEVFVExIZng1MjNnUWtReHVhazRCaFZVUDlWWndCOFFpeXMxMXpkR0hGZUF3ZXpsdHJDZ1k5eGt1QkFGZ1lhX3VkMTdDRmRCcGo0SEtnR0tuZWo4UjkxMWpkY01ma2g3ZzZubjN1Zk1TaHEtQ2tzcUZNLWxTUXlONkVEVl9DczlRUXFucERNR1ppWlBfdFRaN3FrQ2dGWXZoT05vMm5DMUlNaS1hTHlaYTdTZDNEQTdiMlZRQTBJYXIwM2NqRnNsS3AtVzBMS1VyQUk4TGNmQkN5VVV5akE?oc=5",
+      "source": "lanouvellerepublique.fr",
+      "sourceDomain": "lanouvellerepublique.fr",
+      "publishedAt": "2026-08-17T14:40:59Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (lanouvellerepublique.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-a207d29647936cc0",
+      "country": "FR",
+      "title": "Thézillieu. Une journée entre partage et convivialité pour la traditionnelle fête du village - Le Progrès",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWjRMM3EtZTNwU2tvRUIwUV9QYXY1YWVmVG9Qa3JvRzRDVFVoYmstZUhUZjlEb0I2V3EyUmNnbWNsNnhBYjUzSjEtdnpaczdqYkpCNkllTUFiVXJHN3pQcTdrNnp0QnFiTDVSWEdHSzVoM3NKNUc3R01IdGVmMUpPdTRBb0taXzhVMzBVTnJvT3k0ZVRuWEExQnQxUjV3QWhfVE55d1N3UHhHTF9tSFZtRHdkV2JTenpfdmN0ZkxQcFNYdw?oc=5",
+      "source": "Le Progrès",
+      "sourceDomain": "leprogres.fr",
+      "publishedAt": "2026-08-17T14:40:17Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (leprogres.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-17e4c61409355858",
+      "country": "FR",
+      "title": "Coteaux-du-Blanzacais : La fête de Cressac a finalement pu se dérouler - Charente Libre",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObmZ5LUtQN0JiTXRDYTRyU3FuQTNVaXJ0OFRNY2Nrd0FLV3k3NE5KMEkzdHBVNGFzUFhmSzJ0aUlzM3NpUFhSUEd6SzR2X2JHUnpIcWNfYWdjb29pcjJqSFM4RHBiRnBMZkRpMXRTZnlVd21scGVFTFd4OW14OWJEN1JPblREU3FpVGJvbWdUZlNabTRoOG00a2hwUmcxMWkzZVNwamh1UVE2QllGNDBaRVJuTHFGOVMtYXRwMXBPY09BSDJUZnl2N3pOcDZzMmJzNVdabzFn?oc=5",
+      "source": "Charente Libre",
+      "sourceDomain": "charentelibre.fr",
+      "publishedAt": "2026-08-17T14:01:59Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (charentelibre.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-0ecd6138ccf440ff",
+      "country": "FR",
+      "title": "LA FÊTE DU VALLON à Sernhac - Nîmes Métropole",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE14V0tuQW1DbXY3dW5UNWxlNVc5WU5aWG1fNXRaUTJndEVGenhwR25QLWVJV2MzT3RfQjlVT2RNNDVycXZpdE9YZVM1S29tV0V2V1FoLWhDanBfWjJjLWF0Q0VtakFMbWw3ZEp5TTNzc2V3MERJY1E?oc=5",
+      "source": "Nîmes Métropole",
+      "sourceDomain": "nimes-metropole.fr",
+      "publishedAt": "2026-08-17T13:44:23Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (nimes-metropole.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-6efdf2f5bbe8f4fa",
+      "country": "FR",
+      "title": "« Je retrouve mon âme d’enfant » : à Sausset-les-Pins, la Fête Vénitienne a fait briller les yeux des spectateurs - maritima.fr",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbmtZYVVpLWNqSFdBRUh5ZUZ6RnZ6V2hsLV9LM1Y1dzI3Y0ZBVHJLVC1OaWFlbUExUENjeW1WNTZDbVJFTlFlaTBSSVBEVTliQ1NvYWdLYVN6dzFHdHdkV3BuVk10VHdjbkhFWmsyVEFfUlk3ekwzTTlBdDU2dVdTc2hERS1Bb2IwUVJWNnAyZUpkWUJuZmZobDJ1MzY4VEllYXdYYzhiTFdqUXBxSW9BZHNwd2U2dm84TGxDSHlPWTlVbTlJd0VKcmdEa3NsSzV1LW1mc0dsUU1LUGN1LXRGdHNjWWxxeTJKVWM5UlhoUU1IejdfTmZqM3JNdw?oc=5",
+      "source": "maritima.fr",
+      "sourceDomain": "maritima.fr",
+      "publishedAt": "2026-08-17T10:02:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (maritima.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-d8faaf3892d492a3",
+      "country": "FR",
+      "title": "Notre-Dame de la Roche : un week-end de pèlerinage entre ferveur, tradition et histoire - mesinfos",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWUg4eTE2VVJLcHNhdm11WG1YVnVmYTdHTVhJeU5aRF9nSjhyVnlZTWxrZGk1eG1JXzFBcWJxeG1QOXRsNTQ2M21KU3hKa1NnQ2xES2VobVpHWGg2R0J0cC1Mbzg2UTF4Nm5RdlZVcjlxU29EZkV3MGFmNy1laGVOUnVuVWM1OHdpc1NrLWRZcVBiczViYXdYVjNncFZkaWZOUWdmR2plUFlUTkxNSlIzbmFTX19pa29kamJRWlo3NEhjcWMwQjRGaWxNZzFObjZW?oc=5",
+      "source": "mesinfos",
+      "sourceDomain": "mesinfos.fr",
+      "publishedAt": "2026-08-17T09:00:00Z",
+      "query": "procession pèlerinage",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (mesinfos.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-f882d65881bef5c0",
+      "country": "FR",
+      "title": "Pays-de-Montbenoît. La 43e fête villageoise et sportive a trouvé son public - L'Est Républicain",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcWg2d2VWZHdTNjBEMWkyQnpjSk9vRVc0Y2tBVjUxaUpkN3BidTBqdllHX3VuaGwzSHZpMG5iS3JjSGhyWjRVYnYzUzlxUzRxbWdzdUVmWFE3dE9TcmtHOTVOeEhPM01za2R2OUVhZ044Q2cwMTBxdzc5Mi1PVklzOUhoMFVNWXNYQnN3WnJPZ0hRdlVWSkEzMndjRkZkWEhyYzBjdVh0dlZMUVRVRmw2TUhLakRsQ2d4aHRwZlhn?oc=5",
+      "source": "L'Est Républicain",
+      "sourceDomain": "estrepublicain.fr",
+      "publishedAt": "2026-08-17T06:06:12Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (estrepublicain.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-b66c9a5c238ea1f7",
+      "country": "FR",
+      "title": "Metzeral. Fête de la tarte aux myrtilles : affluence inespérée et produits dévalisés - dna.fr",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPV25NX09NZ1JFMlI2dC1iREt5VE15TmtGcFNYWkRDS2RNWUtZOGtNVlFnMklCaEJONmEwaHh5SG92NGY5RDJQcVdta29JVS1YT000a0owUXppZllwQnBzQ3RRMktnenpSWFpBQzNqTW1mSFVuVC15TDVwQTE1ZnFDSHBwaWNxUWxBRFlOanFNcHpDd09sSExGY25veTh4Qzl0aEdIRG5tVHlpdm9kTXFhTXJUbFlsUXJFNFE?oc=5",
+      "source": "dna.fr",
+      "sourceDomain": "dna.fr",
+      "publishedAt": "2026-08-17T04:18:30Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (dna.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-1de3cc8544c6d577",
+      "country": "FR",
+      "title": "\"C'est bon de revoir les copains\" : trois semaines après l'incendie, Lanton célèbre la fête de la mer - ici.fr",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNRFFDZXZTcUp3TWpPbFI2ajZxZk9IckdrRjdaZUlhMjgyTFNQWW1rWjlFWDNkWXkyVTJ1NEpHNWxBT2gtMzlyOFh6Wm9pdDVhanZNS0dRZ2N5bmoxMGltUXdlSVZVYVd2Rmk1VlZfeWRSUG9laTY1UlJvcVp6SmVyc0FweEFUbUNPWUlzU2RFSTUza3hwcGpJX2dERm5hc0puNDd3TzlaSGdtMkpyN0VaazhsakViVlVlVmd6eVpnSFU5NWZ0V2dvcWsxT1ZxdEdVOWZXUjRtY1dibG0xanNrUVFtVlVVUVVJV0ROTzZDbw?oc=5",
+      "source": "ici.fr",
+      "sourceDomain": "ici.fr",
+      "publishedAt": "2026-08-16T06:31:30Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (ici.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-f58661fe7e19e54a",
+      "country": "FR",
+      "title": "Depuis 25 ans, le comité des fêtes de Semoy se mobilise pour la Fête de la ville qui aura lieu les 5 et 6 septembre - La République du Centre",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNUUJIRzZRZTI2Y2F2Q29KYmRJVlVhNGJxN3dodDVFUlV6M29QNFJWXzIwN2FtVUtObWp4WjBLeUhlQ3YtSDVfc2RZOGR5Nk9iQXhDdWJMTTBkOWtoMHdfX0psWHFMMUdIVnlpNXdVaFBqWF9HR2NkcDd2ZEZSWU9nMERjTUJrRWRERklkcGxtQXV6MW1JZDVRZC11YWR6YlFuMkV0Nmt6ZURNNk5HQ0I2bE1PMHhlYVB1OEZYTGVUUHRoV1dsS01QajA0eGdJenZHRFRCeFJmeG1INzdvMzRWWHc0UDYxZWxVWlV6eTBvLW9kcVV0ZGc0eg?oc=5",
+      "source": "La République du Centre",
+      "sourceDomain": "larep.fr",
+      "publishedAt": "2026-08-16T05:00:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (larep.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-7f4a4c486cded3b5",
+      "country": "FR",
+      "title": "Procession mariale du 15 août : pourquoi ces fidèles participent au traditionnel pèlerinage de Notre-Dame de l'Hermitage ? - France 3 Régions",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQZXFrbE56MkR1T3VUN3BOaGlqZllqZHl0N0pfTlRvZVFXbEl0MEtjcHF3Z0JRS1FzRjVzdzI0dS1HQ0N6bWRXSDdQM1pPUUdadFNmVnhud1RkTmI4dXNMdFV1SFB3Ry15aDUyOHdlMFB2QXZEOUJ1YzlOX3NJNm5iZ3RlZnhrdWtUYk50amZfSm0xeVp4LVRvVDZjNzc0UEZRRjN6NUI2UGRwUWVSNFJ0RkZQTVdNZFBKOFQtVDBwcldUQUpNX3VlcVhYT29heXBfSFpucWhlMEpGMjFhUmxIX2F2anhadExMNjRIOXpCTTZQSGx4NnBIUDljajRINXA5bC11dVBVSzRNM1R5X08zMjhJbjRNRS1lNExpNFZsakhWdw?oc=5",
+      "source": "France 3 Régions",
+      "sourceDomain": "france3-regions.franceinfo.fr",
+      "publishedAt": "2026-08-15T17:11:40Z",
+      "query": "procession pèlerinage",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (france3-regions.franceinfo.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-ad3cb433235d917e",
+      "country": "FR",
+      "title": "Saint-Valery-en-Caux célèbre sa traditionnelle Fête de la mer et des marins - Paris Normandie",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaUQwLXJjMC1UX3R1eHh5Tk5Rdzk0T3FwcFZiU2drZWNCQl9SLUVwTVRBbl9uMWw0VmdSRTNTNlZ4RXN4Z1JBMGZtVWFjNmcyYVNneDNCMUdaZktMT2JEY1N6Rkc2aElRUU1fR3UtS3FBaENlcXFYNU5adll2Zy0yVEVkYmlBSVVvTnhfdl80OWoydFdWS2dLSEpyQmdEdElTb085WHB1UmxwVjV0VEZTU00zNUxHczNsenlVTjRPUkdqUk8tZC04M2JQOVVUeE0?oc=5",
+      "source": "Paris Normandie",
+      "sourceDomain": "paris-normandie.fr",
+      "publishedAt": "2026-08-15T14:16:32Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (paris-normandie.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-1cc9d181d076016f",
+      "country": "FR",
+      "title": "Faute de bénévoles, la tradition de la fête patronale s’est éteinte : le témoignage de Françoise Vanleene à Montierchaume - lanouvellerepublique.fr",
+      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOMndVVlZFQm1yNU9hOF9zOFNISkZRenNkREFtWU56MUhwUkxNVGhhd3FXeV9mRXZOVGEtQ2d0R25DVWFncUZYOFhvT1lHZF9XVXhrUkM5bFpjdVlVanBmeElHbDkyczBWNDJoQjdZWlBBX3pIWHRkVGdlMVpMU05iR3NmeEpfVTVWVVc5WnQ1U0xvNHl5cnBEWHFrWDVUc1ZYcHB3RTBfeExkX01RbjNrTTFXSEx6dGF6NGd2dzE4SHVQQlRGTFZNWEVwWUVKUnl6ZE5aa3QtY2NZcnJkbnBmdjhfTWRqWnBscVpjTlFFMFcxWVBHQkJoNHN4dVhHWUNVRXBBblN4VTVQa0FaeGpJV2ZBbUpjR1VJRUozaEVB?oc=5",
+      "source": "lanouvellerepublique.fr",
+      "sourceDomain": "lanouvellerepublique.fr",
+      "publishedAt": "2026-08-15T12:53:03Z",
+      "query": "fête patronale village",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (lanouvellerepublique.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-9d1d41fb10e5f743",
+      "country": "FR",
+      "title": "La fête patronale du 15 août aux Etilleux se prépare dans la bonne humeur - lechorepublicain.fr",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTEppSmZqQ3hNZEZoMjVGSFJQSGIzd0dha1BrNm8xTmhUMDhVR3pjZHlNTEZLRjBhOEpMdHZxMnhpQ0EzeUZmWjJsWHpnR0c3LVBfUFAxdnhhOWI4Q1haeF94Mm9NcTJ0Nng3U2NrNVlHU2pkVUpqVlZRT25qUFRWT2hCdS1DYW1HdHhrYmljclVhNDQzbFNMalpKaG1xeVpZc01GVEhzLUQ3WnhRUFh2UnpHbUlrcm5RN1BzR2RrazUzMzl6SFNSdGR2WkRFLWVTZFJiSQ?oc=5",
+      "source": "lechorepublicain.fr",
+      "sourceDomain": "lechorepublicain.fr",
+      "publishedAt": "2026-08-15T08:00:00Z",
+      "query": "fête patronale village",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (lechorepublicain.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-09fe95b1b4bbde40",
+      "country": "FR",
+      "title": "Goudargues : quatre jours de fête pour le traditionnel rendez-vous du 15 août - tvsudmagazine.fr",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV01aV3BjSTNCejFJc1prQVgxV1J2VHV6MVpsNldSZGJYSWlFTHA3ekFSejc4dWF2bDRSMHJYM0EzSk9fYng5S080SVBJYVFGNWEzdjVsTjdkQjRMYkxvbkl5QTZ6QnNoMHNVQjJEd1dIYXIyMnN5Uk1UazJuUXN5MjhuQ3RwdjFMSU13OWR0NEJ0bFZDNGw5LUJuamR1WFM5U09OSGtQdENjcGctdXc?oc=5",
+      "source": "tvsudmagazine.fr",
+      "sourceDomain": "tvsudmagazine.fr",
+      "publishedAt": "2026-08-15T07:00:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (tvsudmagazine.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-75de4915c4df0a58",
+      "country": "FR",
+      "title": "Azy-le-Vif : la fête de la Saint-Laurent attire les foules avec des animations variées et une planche de surf - Le Journal du Centre",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNd05oUGVyZjhsaTRncmFVWk5EOEljcTFhT1JUVFcwYjdmRUJ0VGkwVVVhOEpUSkVyUjVSVk95TG9kU3VuVXhTWUJWQUN4bnNtcURVVGwxUGhZNktZODk1WDhHaUxRWmtGZmd5b3JwZ21pTGgteVJjZVF0SzRVSkFoLUl5R2ZnUkluVHQzTlZ1RVZrRWt4VnR0NXMtbGdSclViazhoLXVnVDVkMDlPODBsWnJnMkxHZE1GemZDZU5FSThnWkczd181eko2WU9UY3Vka2RmOXFmSzdpTE5EVElhYkNKOWhKSDZBWEJLUEdZX1BzYmhDTkE?oc=5",
+      "source": "Le Journal du Centre",
+      "sourceDomain": "lejdc.fr",
+      "publishedAt": "2026-08-15T04:07:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (lejdc.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-b2ee38c106084729",
+      "country": "FR",
+      "title": "742 habitants, 1 000+ pèlerins à Notre-Dame-de-la-Mer - infosyvelines.fr",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObUxNYjhnQ3hDWl9YaUx6Zl9ZbjhZUUtKcHh6cEJ4Ti1Hb09YTC1mSGpGTUNmVVIyTktybHlkUUptMVRhdmhMSklLUWNPeWtIREJGOUx1MXNrN3dQanB1SEtjejBJN0ltVVpWcnhYV1ZUcGFNMTBoSVVpX1hlN2FndjZoQzdVZ2UxVFE?oc=5",
+      "source": "infosyvelines.fr",
+      "sourceDomain": "infosyvelines.fr",
+      "publishedAt": "2026-08-14T17:50:55Z",
+      "query": "procession pèlerinage",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (infosyvelines.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-7abe419293317de8",
+      "country": "FR",
+      "title": "Pierrefontaine-les-Varans. La fête patronale s’apprête à faire vibrer le village - L'Est Républicain",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOem9zb20tOGVNX29mSVRoSmpTSUdDbzlQTWdsam1WRkl4YVQyZ3hEZ2kzSDFISkhBZmQ1czhGQkQtY2lWazlQaW5wSzlqbXhlQ1VWWC1FU0R4eHNUWXpXNGJrLTJ2X3ZDel9LY0h5WUUtc2VjanN0MVphaG53VVpvMVVkUExhdWFVaXdiWmV5dUJFd1lSd0dnM05XLWNiYzZVSlBUX09PNFdMUzJhZ1FyMC1OOUtiQQ?oc=5",
+      "source": "L'Est Républicain",
+      "sourceDomain": "estrepublicain.fr",
+      "publishedAt": "2026-08-13T13:20:00Z",
+      "query": "fête patronale village",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (estrepublicain.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-2150a24764574fc8",
+      "country": "FR",
+      "title": "Consenvoye. Trois jours de festivités pour la fête patronale du village - L'Est Républicain",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNXzdyUklKUHFOVVZZYUR3MlRRUndyVVFHeXNLWUM2OU4tVGVzaDV4TTBxU05JZTBRbk1TZEFkb2NxNTJKdy1jajNKdzBrX240WTZxQ2J5OTRGbmgyejRGTW01ZEpqVHE3UGVNWFN1bGFGWUp3dE9rWnJlWjJYSTIxTXdLZENvOUZFOHdWeXM3VGNiUWlDV3dua0NFWVpac0xwWksyYmJLZGkwMHhlYy1HVVlhdG15RzA?oc=5",
+      "source": "L'Est Républicain",
+      "sourceDomain": "estrepublicain.fr",
+      "publishedAt": "2026-08-12T16:00:00Z",
+      "query": "fête patronale village",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (estrepublicain.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-8b289ba820b8b8e0",
+      "country": "FR",
+      "title": "Lourdes : 153ème Pèlerinage National de l’Assomption du 12 au 17 août avec pour thème pastoral «Je vous salue, Marie, comblée de grâce - lourdes-actu",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPdXNCVzNzbDc0QWd6MVRMODBzUkdlYzU3WVJxeEQtellfR1Z2M2Y2N2lFb1JLYkZNcXpTWDFsQWVJRkp2RkxNOGtRbFdsNHVKYTF2aExMcjRtZ0lkRmM3bTFMZF9wV0lLNVJrU01tVzUyMk9lVlBQOXNNS1pTeUdlQ1NhRWMzcWRuLXU2V3ktcWl3N01XRHlEOGYwTlZNa0NPbFZNWlowRjdFSUVrSG92eHIwYms3VFd0UEYwSExGVjRFQTg1Z2EzakpfQ21UV2sxZkJ5eGs3T1NNbE1MYUxZeF8tQnpYMFJfbk5EYms3WnViTGpSQnc?oc=5",
+      "source": "lourdes-actu",
+      "sourceDomain": "lourdesactu.fr",
+      "publishedAt": "2026-08-12T14:04:30Z",
+      "query": "procession pèlerinage",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (lourdesactu.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-2b6ed1b19a4f9528",
+      "country": "FR",
+      "title": "C’est parti pour trois jours de fête, spectacle et manèges à Laval-Morency ! - L'Ardennais",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd2pLaGpkeEVVLU14Y2t5N2c1ajJyMW1PNVdPRGlfbVVMcV95VS0yV0ZHVzVPMFcyckpkSlg2c1lRbHFWMUlkamJZcXJrbEVIZTJ6YUhEUFJzUTZua1p2QnRiY0cyQmhTclhxTmJ4RGtEQ0NHVFdoeDRrOWJRd00zM0tzUjZubEF5UUt1RHpCdk5aQWNpcXZDQUlVdE1UTGJUTnFHSDEzNHJ4UXR5bU4zT05jYzQzMGVUQmU5RkpYWEZxZw?oc=5",
+      "source": "L'Ardennais",
+      "sourceDomain": "lardennais.fr",
+      "publishedAt": "2026-08-12T13:57:00Z",
+      "query": "fête patronale village",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (lardennais.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-87e74460e4f7fb07",
+      "country": "FR",
+      "title": "Des milliers de pèlerins se réunissent à Fátima pour les célébrations d’août - Portugal.fr",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX3BMN3ItRG1MVG9MWWtGQ1h6RDJJYVo3am5QWmQwcE0xVUhhWU00WFQ3ZkNNNThVSlBfTzl1TmtRWlV5c0hMOGFkNFR6QzVPWmdVOEtITnI4bUdQcUxEc3pURy1JVmtoNEtHM3k3NkxEN25UTVpoSkZ5elJVVG9VVjRHTTFxR2wwcE5jeXJuZE5VLW1zUzRfMXp4LVZoYW1OaEFkRFlBYw?oc=5",
+      "source": "Portugal.fr",
+      "sourceDomain": "portugal.fr",
+      "publishedAt": "2026-08-12T12:22:46Z",
+      "query": "procession pèlerinage",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (portugal.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-fc96d1576b2c78dc",
+      "country": "FR",
+      "title": "Près de Cluny. La fête traditionnelle célèbre 50 ans de choucroute, de jeux et de musique le 15 août - larenaissancehebdo.fr",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWXFkMUNmVDlfZk9IRG1OeWlhYUp3TnRDa0F2a1FxQTdoWjQzUG9SMDRiMk8yU2Z1THhKdTd4ZzUtdzNqUWhwX1oxU0cxNDlfcU5iSHRkQTJPNGoyeG1IVEV6R0gyNE1aQTVrRUNYalExVVN5MFFDWkZJVTJDTHRXRUFmQlFpLXo2UUNmOHg4a3N5ZjRFR19CdlVCcWJ6VXZVU3BnTGpoRTNlNTZ4OGo4dUZZM1ZGblV3RHpQN1BjMUdmLWxobHRhR3ctdlFCRVZ1UHdnOEk1eGluSy1MNl91Nlpn?oc=5",
+      "source": "larenaissancehebdo.fr",
+      "sourceDomain": "larenaissancehebdo.fr",
+      "publishedAt": "2026-08-12T12:00:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (larenaissancehebdo.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-2663b45cda118332",
+      "country": "FR",
+      "title": "Le 15 août, Le Faou vibrera au rythme du Pardon de Rumengol - Le Télégramme",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVzFfbVZDTHBKVFM3SjVzYVBvMXhXV2l3S0dHcFR3amVHTUtRWDlZSDc0S3dsRUtsOGpjT3g1b1pUWUdWcHZTRHg3ZEVLbHdxdVAyaFdUdGR2TGgxcXVDenN3SDBOZElMRVlaTkZHTjBvZVpNdkNvLXFCMHJOMEFuTTEtLW4xRFJ4UkZiNEQ5YVdJUlMxQi1pZmVlNVdJaDhqSVNMaGRrSi1EQUxRQjJXMHhpSlNaVGEtQmIwckgwTQ?oc=5",
+      "source": "Le Télégramme",
+      "sourceDomain": "letelegramme.fr",
+      "publishedAt": "2026-08-12T11:32:04Z",
+      "query": "procession pèlerinage",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (letelegramme.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-3bc2b588c0373dce",
+      "country": "FR",
+      "title": "Noirétable. 1 500 à 2 000 pèlerins attendus pour la procession mariale du 15-Août - Le Progrès",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV2ptVWVSVFFlYThVakFLMXJXRlUxc3ZKYlJNRUhUWlNkQnZuWlFsTWN6MWRKQUlPbjJtTzlnMnRHbDhHT2pxY1pkSk4taEctQllsMDMxSWM2d0Zkb0lHNUJpb3Q4RjB1SmpWNzhpYkV1aWZSd0hBRjZrbU5CYTRuWHpRYWZVSDhkdnpRdHVxM1FzNHhDMWRQVnZMNEFSdGp1Y2RleXY1b2phc3dIbl9lR19JYw?oc=5",
+      "source": "Le Progrès",
+      "sourceDomain": "leprogres.fr",
+      "publishedAt": "2026-08-12T10:00:00Z",
+      "query": "procession pèlerinage",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (leprogres.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-6e06dc5714fcadb0",
+      "country": "FR",
+      "title": "Magneux-Haute-Rive. Les 14 et 15 août, la fête patronale animera le village - Le Progrès",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZHdTVzZQMzNHRG9CeFRrZDQ2cExhWlpOZzNzT0hZbUw2R0ZBOTBycm5rR3RJOXBkLXQ5UzMzT1dQYTh0cVlsRGtfZHJSMUczWFd2Um5kNGZIY0IyZmZKajdiQjhKcE8wdGxYbkx5NU8wZ0k0MHYwa3BGbUlsT0ttT2JnQlBRMVVlOEVvWjNWMHNtMFNZTmprZzNNVHhHSkdpb3UxMTQybFJhQQ?oc=5",
+      "source": "Le Progrès",
+      "sourceDomain": "leprogres.fr",
+      "publishedAt": "2026-08-11T21:24:00Z",
+      "query": "fête patronale village",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (leprogres.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-68fcf4a72d21d060",
+      "country": "FR",
+      "title": "Valfleury. Les fidèles attendus pour le pèlerinage de l’Assomption - Le Progrès",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZzhSQnZwWlZ6VDlzdVc3QWY0Nzh5UU9lTmlXZVM3VElRbnhmRnpQc2I0c0V1dUY1RWZWUlN0MlZwSlN1OWwtQjV6b0NqcEtwZ1h3czF1NzAwaFQwQXZYYi11TF92Z1dkVTNLaDBkd2NJTkpocEFnMUlTWVo0UU5fZ3lxT21SYWtlYndkOVV0OEJqZFgtbUpXRmFROXlMbUFO?oc=5",
+      "source": "Le Progrès",
+      "sourceDomain": "leprogres.fr",
+      "publishedAt": "2026-08-11T16:50:00Z",
+      "query": "procession pèlerinage",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (leprogres.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-391e15584a460d78",
+      "country": "FR",
+      "title": "La fête patronale du 15 août au Veurdre : programme complet des animations et événements - La Montagne",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdE1LUXhqTDFuWTVEYVBGTU54UEI4TXFxU2theTkwMHZLT2JjdEZlZGVHNTN0OGotSFNhd0ZDRHYycmIxMVRTNG5JcVFpeHVaV2t2SkVyc0NiX3VvX2EtQS14OGJoTWZUQk92RHNrekVPXzNwM2pwc0MzQzVxVUdmQTlHdDQ4Snlyb0FxSGE1VjRjanBQaktVVE1uR3dQRS1aUzBuNDJxUHVEVWFUSXZVVHlKUWxjNzIxZG9NdEN6ZVJIRkxwMHV6YklEeXRGRXlmY0o3WUp5SWZtSDBv?oc=5",
+      "source": "La Montagne",
+      "sourceDomain": "lamontagne.fr",
+      "publishedAt": "2026-08-11T04:46:00Z",
+      "query": "fête patronale village",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (lamontagne.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-89d3fc0789f86489",
+      "country": "FR",
+      "title": "Belleherbe. Trois fêtes en une au village le samedi 15 août - L'Est Républicain",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQS2hyT2ZUVHMyb3Nic1lnSDNfbGlqTUk4c21FMnZjYm93cTItM2xvaVVVeU0tUWZidl9QRVJrY3RDMkt4dmdsaExaV25yaHZ1eW9HRHFCVFFuX0VHZEZjVXNSYkdIZmNPa1NIbmVLZVA4ZWQwYkFKcFpGNnlLbTlFaFplMDMxbkZONERCLWJXZWJJRG55YjMtVVJ4cF9zMmVNN19HTXpVOA?oc=5",
+      "source": "L'Est Républicain",
+      "sourceDomain": "estrepublicain.fr",
+      "publishedAt": "2026-08-10T17:06:00Z",
+      "query": "fête patronale village",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a FR domain (estrepublicain.fr)"
+      ]
+    },
+    {
+      "id": "news-fr-ed7ef5bf1765d1a8",
+      "country": "FR",
+      "title": "Feu d’artifice, bal, défilé... Voici le programme des cinq jours de festivités pour le 60e anniversaire de la Fête du Vieux Tende - Nice-Matin",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOd2NJdnJfa0Y0aWJNM2djbUFURnF6VlBRcGU3cWtPd3cxaHZhTUM4Zl9iVEFIb1VKVlpLQW9nS183OTRlcm0tc3JjZFFZbUpGT3djQlpNN0hkalZjSm9NMjd6bXFMUTJ0dDAzdnpMU0NQLWdZNXY4ZmpfcXVNUmVzbXdoeFBuMGE5TnpCaFpOQU0zcHAxNzdXS1dpT043UDlGc1JiY01kRWJjY1pYekQxS1c5YUdWbWFGLS1oN1FMbm1NTl85VGtMVnZvQ2Q4S3pHdkNubVBnUnIwa1pIcEdFem9YVE05NGkwZE5TN1ZpYTk3ZVRjUkdDbGxfbWNoYVlxZ1BOU05CU2hwZw?oc=5",
+      "source": "Nice-Matin",
+      "sourceDomain": "nicematin.com",
+      "publishedAt": "2026-08-18T13:30:01Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-fr-51bd78e1c8910a6c",
+      "country": "FR",
+      "title": "\"On n'est pas loin des 400 personnes\" : le mardi de la fête à Saint-Mard a fait le plein pour sa 70e édition (photos et vidéo) - L'Avenir",
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQR3J1NENJOXc1U1lTOXNrWU5KeXZfRmtHdjlaREtEMTRidlhDN0pLVVlvbzNiRUZESGlvT2FBc1Z0SzZtRnhmdEJoSThYdXR5V2hNdld6bi12ZFh4VjJ1dDNQa1FNOEt4Ymx0NVJWeTJHM0V1Q0V1bE92N3licGxmSXZud1hrSThXNUh2TTZ2NFNTUEFYMnVjTHpRT2hVZjRGMzB2eW1DRlZoc0kxbE1DVjBuUV9jSHQyZEtlamV2NkVHRjN3bGRTZU1ZR20tMFNSREEyeDdnbkt3dlpCbVAtUDQxa2dab21idVpBdlYtV0dXUk9YN05lS3FWYV9qWlVfdGtTckFUWlJ2cjJzQ0ZxX091Ym5sNVNILTBfRw?oc=5",
+      "source": "L'Avenir",
+      "sourceDomain": "lavenir.net",
+      "publishedAt": "2026-08-18T12:55:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-fr-f958df9ba7ead688",
+      "country": "FR",
+      "title": "Le programme de la Fête de la terre près de Flers - l'Agriculteur Normand",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWGN3cXJCSFNwd3RKUW5OUnFWMFF2ZUpHdVRMaklZemlxODV4MXZBYmZYWVJGcVNYTzJjUllVMmRzYkk3bi0tMHpyQXBnbU40S3JJSl9VbHlsQXBxQnlXenZTQjlIYi1yVGJzOElONXhpTHRhMGs3N1NzYWJ4Q2dmMWstRWVMT0RTdTdVd3h3?oc=5",
+      "source": "l'Agriculteur Normand",
+      "sourceDomain": "agriculteur-normand.com",
+      "publishedAt": "2026-08-18T09:40:42Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-fr-c6b2d7cba504bb6f",
+      "country": "FR",
+      "title": "Cinq jours sous le signe du cochonnet et de la fête pour la Saint-Just à Banon - La Provence",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUnNvdzFHX201MWpNWDdQam1sS3NlZjlPdWtlZEZyOFZ3VG81QzBBdURuRVJROTBaQm05S1RXbzZpeHJEeDAxeUYxbGcyTms3NXVFMmJzV0tqUXVjQ1N2emRlbmJmbnNacjVacUhHaVhEWXdjaU91WHV0ZXo3ajg5M3VlUUt2bnI3YjUyeVpvTkViSGZuQ1R3NWNCNG9BaVhfb21QbXoyUVIzdlVkLUp6bDYzMWZFRW5EMFQ5aGRndXU3T19Gc29BcW9XbFBnT3df?oc=5",
+      "source": "La Provence",
+      "sourceDomain": "laprovence.com",
+      "publishedAt": "2026-08-18T08:40:48Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-fr-f342eb981bb831fc",
+      "country": "FR",
+      "title": "Nouveau succès pour la fête folklorique du 15 août à Saint-Maixent-sur-Vie - - Les Sables d'Olonne.maville.com",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWjhRc2p2S2Z0UGZuRWR1STdnMkpBYTdjdXVYLXVVdUVHXzFlNDlRVzFqUEJHQnJTaUdBVzNFRnhMOUF5Y3BfRVY2MDNmQ1IxempvdE1QeWdoWTZDajZZRXBGSUtydHNoTE9BTGRnMzU1OEhKMDZEM0NYV0hPLUFjOE9JdEg3MTk4dGViUWFMemp4LU1Pc21uV3RZdExqeGtCTGhRTFh4em12WHE5d25pZHY3dWJoSHgxZHByUmFuaXRucWVfazluMnRFTnd6NHRmZ2tPOEZyVF95UnlESHRN?oc=5",
+      "source": "- Les Sables d'Olonne.maville.com",
+      "sourceDomain": "lessablesdolonne.maville.com",
+      "publishedAt": "2026-08-18T08:05:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-fr-d0834e73b5003404",
+      "country": "FR",
+      "title": "Fête du Village : Fête patronale à Saint-Julien-de-Jonzy - Le JSL",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQazBPRHJNX0w5Z1RCR0hmVEwzdVB5YXlUaXE2ckluNVRkVHd5Rk1uM3dnQ21qTUY3eThrM2FieGdvMUc1Yko2OXRFeDNlQndwbFRmcFlzaHVXNENsSXo4djJPVU5hSi02V1M0Q2NNX3pmdF9RX0Q2dTNHZE5vSnlYYmp6WGhnN2dHVTdXdU45U0lMSnIzS0tJWWJwZk5RSHN5ZG5lcFRpQlZUTElpVktWYmF0d2M0d0lEcmU0S3ZFakFJOFlSVlZzOTI3NDdFaXpQRXpVdHRUc1R4aW5tcEs2a2RBM2RGdEc0dmdZ?oc=5",
+      "source": "Le JSL",
+      "sourceDomain": "lejsl.com",
+      "publishedAt": "2026-08-18T07:38:55Z",
+      "query": "fête patronale village",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-fr-2a52d6a0cf119c07",
+      "country": "FR",
+      "title": "Hautes-Alpes : la fête de la Saint-Louis annulée à Charance face au risque d’incendie - Alpes 1",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObjRvWEkyNGZHTXpYZE1sSkZWVnk2ZVoxSmllb1d2Z2JyUllxU1JKLTMyemx2bkJtUloyNjdMSUZnbDNGWWwtM3pOTXlZNmsydHZqakNWWHRjUlJfRFlnMDdIY1F2SVVldmZoTzl0S3h4VjZZaEctcGFoT215Ml9KV2pKZFpucXNqLUV2clhIVnBNVnRfaE1ENkJPcUJjNXYtU3BEWDlmUGhhaXYyc0gwazhHdWVjeUZvMW45RHpMM255WWc4UDVkMlIwZ2hUNFF1RV92Yg?oc=5",
+      "source": "Alpes 1",
+      "sourceDomain": "alpesdusud.alpes1.com",
+      "publishedAt": "2026-08-18T05:05:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-fr-ce420d9f5ed200f9",
+      "country": "FR",
+      "title": "Benet. Fête du 15 août : le succès n’était pas au rendez-vous - - Les Sables d'Olonne.maville.com",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVk9DUlo1SzVya2gzWS11aE1VYVYtV2JBTS1yZEJydXI5TkxPV0JiX2l6Tlk2RnZGZGpfRjhPVjYxUS1NbmN0b2F2NU10X2N2ZENIYi15azlCOEk1Ylh5d0RoX2FRWHVDQmtqN0JxcHE2aDJmZHAyME5CSi1pMS1GR0pKS1lhd0tpZUZHeEhHeVVTTm9oNnlFaW5na1d0TVk2SWIzazFhNmxwLWRwTHk5S0hEWXVOMjJrTjJUc2M2djJBakRYX2NFS19n?oc=5",
+      "source": "- Les Sables d'Olonne.maville.com",
+      "sourceDomain": "lessablesdolonne.maville.com",
+      "publishedAt": "2026-08-18T03:05:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-fr-6fc0064a79152060",
+      "country": "FR",
+      "title": "Merville-Franceville-Plage. Une fête de la mer traditionnelle dans un cadre idyllique - caen.maville.com",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSGlGVnoxQk5VaHlQZTQxMU9qRFFlbDJLWGg5WWdRVGx0VllqaVJLSk9JejVTcXBfeDFwOGZLblE2UDJmTGFoM25CM0tXNkM4VGNWaFVWZmdXckNiSlJTNTBFNmN5Q1VnTWNxRzNFS0djTWxlTjh4VV9MVE1fTUdjRTFyVXVxSEJZbWJ1Mnh6UTMyRVR0ZVRuZHAzbS1OX1NhbHgxOFNqX1ptSXRQV3l5TXlESDJ3bXRwdVF0TjJwX011WU8yUXRFLV9SZl9jNUFFRzFEQlhQNUM?oc=5",
+      "source": "caen.maville.com",
+      "sourceDomain": "caen.maville.com",
+      "publishedAt": "2026-08-18T03:03:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-fr-b957809cf02a0c78",
+      "country": "FR",
+      "title": "Merville-Franceville-Plage. Une fête de la mer traditionnelle dans un cadre idyllique . Sport - caen.maville.com",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOU3h6WTZkUnBHR0xCc25CRUVNYUQ5OHdJQ01RWnJsWE0xbHhKUldmeHRuOVhHVmE3eUhTbXZWNWdWS09OSzhzS1p0UFIzcDladThJWkpVQXdIRDdINjVyZzJHajI1ZWJJM3QxZjBIWkV6NkdlSFY5aTRvbXRTWGZzS0lhZF9SZEZTNnZacjcxNjlyVXNremI1MHZWZEUtbDZuSXB5Q3YwY3Z5WW0tX1A3QjVlU3lsU0NHc2VIZUxEeGkxTnh6eXBPOWJwQU1ZV3BxOVJuSWI2XzktdDVn?oc=5",
+      "source": "caen.maville.com",
+      "sourceDomain": "caen.maville.com",
+      "publishedAt": "2026-08-18T03:03:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-fr-85f384fe7c14245d",
+      "country": "FR",
+      "title": "« Une fête qui plaît beaucoup » : la Saint-Louis, fête médiévale, est imminente - MaVille.com",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPcGZjMXBJLTY3elZMbUMtTDJUM0M0TEdUV1N0M2tMbXl3dmtzdGZ3NDNDQ2gtVS1Vb09hWWNYbXRBemgwOVlKLUpLanZuckJobjRCdktEcGswVHk2dmZTYVZmMVBlZXN1Z1RvSGptVTc2eV9pYkxqTHh3WmV5VDBONXdDNXh5a2hnejZDaHJRTU5yUEFnS0Q3TmMzNUozeWJrRDZfNl9rZ2VYUEpKbmFfdTJUTzA1MWJLR3F5aG0wRV9zQ3ROVG1kZDh3UVJzdw?oc=5",
+      "source": "MaVille.com",
+      "sourceDomain": "cholet.maville.com",
+      "publishedAt": "2026-08-17T17:30:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-fr-656d890ba81a2d73",
+      "country": "FR",
+      "title": "Saint-Paul : la ville célèbre la traditionnelle Fête des pêcheurs au Débarcadère - Imaz Press",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jQl9nQ0VKaXNyWjNZcERWRjNidTBVWjBCM3QwRWhkVW83eFBIdldPZVVLUFBsSDBCbkgwTVFELVZoUC1JbHhqcENvSEFraTItc3NuanpIQTJvZHlOWXVqRFJSVkFRTTRheVdxUVpKbVRtclE1?oc=5",
+      "source": "Imaz Press",
+      "sourceDomain": "imazpress.com",
+      "publishedAt": "2026-08-17T10:56:57Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-fr-78cf0a3ee503cecf",
+      "country": "FR",
+      "title": "« C’est un moment de reconnaissance de l’importance du lieu » : le pèlerinage de - - Alençon.maville.com",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQRVRGem14U3ZYdy1yMFBGZHA5Ni1ObmVuVG9FT21kd01VSU9SdUc1WUpxN25FbWF5cERlZ3JUYllYZmJQbm9QYkVicF9XTUlFaDBxMVpYN0xKWnNvVWdFQmdjajF6LWloWk1EWnRCbUN5eXk0MW12UXlob1U1SXR1b0V0dC1KYmRLS3dvNWQxUzVVN3NVWTl0NUhDRW5IVkpTX0dFM1IweUVORWZZdHRjMV9hVmd5WHN6Zmp0TlB6OGczNzJEd0NHc3BySC0zWVRYYThqYW52eVhRN2x0MWNwQTFaT2dmcmsyTWY5NmI3dXJZNGZsTWwxNzVwV3owNFg4SXZNMzhCSy0?oc=5",
+      "source": "- Alençon.maville.com",
+      "sourceDomain": "alencon.maville.com",
+      "publishedAt": "2026-08-17T07:12:00Z",
+      "query": "procession pèlerinage",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-fr-964f598e3b50c3d6",
+      "country": "FR",
+      "title": "En images. Entre fabrication et défilés folkloriques, la traditionnelle Fête du beaufort a battu son plein aux Saisies - Le Dauphiné Libéré",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQZXd5LTZfTzQ0MHNybktZNDNSTXluZzF1VWF4eGdCR0I5UG93Tzdla2hzVkdZVHRrZkdLMGFRQlF2VUM1b3lpMjNkOEw5ZHdmOUlaY1dvWkx3cFk3ZXZiTUlMWXlaOXQyRGRSV3M3bDNUVWp6azZTWG9HTG0tcnNRelhvcG5ieTIzSDUyUURDLVdxY2hTbzk4UC1zY2t2S2dHQ0dQQ05Rdmt6REJTS3JRYlRRTFpXb1JZNnNHZ0s4Z1BVb0NVMDBwR1lWTDZKVzdGZjF4d1lsOG56Y2hUVk1YcGhraGMzd0RxV1Z3UEhsSEI1QQ?oc=5",
+      "source": "Le Dauphiné Libéré",
+      "sourceDomain": "ledauphine.com",
+      "publishedAt": "2026-08-16T17:02:31Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-fr-8fc18e2f73b00a79",
+      "country": "FR",
+      "title": "L'info en images. Melay : c'est parti pour la traditionnelle fête du village - Le JSL",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZC1wN0pJVWhxM2c5anR5WE5PUF93QjhGX2VMcWRrS3lCbUU4YU52bjNLMHVmamt6QXFuaHlOeVpabTR1RG02YjZWQXpqTzNKYWplRU5VMWk4ZktYazlUT0h6dHZ4a1RNdkpWZHpGU1loaXk0YjM2dnhYUzdKTnVab1M1OG52Y3pVQ2VDRXpiR3FPQzAwTmhxVXNEejQ1WnA5MXZsTUxaeE0?oc=5",
+      "source": "Le JSL",
+      "sourceDomain": "lejsl.com",
+      "publishedAt": "2026-08-15T09:12:40Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-fr-4a0039cfb7aa76b8",
+      "country": "FR",
+      "title": "La traditionnelle Fête des foins de Montfavet revient le week-end du 21 au 23 août - La Provence",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMjBxRm5mZl9oajZ0NmdrdmxSTE1WUFg4bDg5MFdrRk0yQ0dyc2pKVWtNbUpPRGlVRGMzR2tGaFp1dGRlU0FZX2VwUHkySzhkMnRsVVZ4dlJBS0RtZkZZVWV5el82VUVzUkRRNEVIVzJBeVhLX2VtQXF4LU9ob1d5QjB0cG4zR1l5Rmg3V051RC1uaEhqRHdDYUFLX01heE1sT1Jya0c3aXBkcXBZcW5UTUlUc1U3NXZ6VGtKaTN1NFFYdVJZclUwcFBFbk1yRWh4OWpSMnE3cnU?oc=5",
+      "source": "La Provence",
+      "sourceDomain": "laprovence.com",
+      "publishedAt": "2026-08-15T07:35:00Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-fr-3d3124654d6651da",
+      "country": "FR",
+      "title": "Procession, aïoli et bals vont rythmer trois jours de fête patronale dans ce village du pays de Fayence - Nice-Matin",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNOURPWU00QXVleGYyYnhKV3JKY2VlMzdkSzFZemNhS0x3VnBhbGd1aTFJRTczbmxXZHN6emJaWDFZdjEzdzBmTzExUS1JdG5ITkpCS0N6aklsRTNDNFIxWm84NHpWSmF3UFViWG1SQWZMYW5LQXYyYTJXTVg5NTBlVmYxbFUzdVpkbjFNcnA4ejc2T2hmZndVR1FVWHBFSmlMUFd5OGZqLTFQX0lCd21TUU80Qk5zdVdkQ2F2TDBEVmp0WWI3RzBJSE5kTmdFbkJJbi1kdEdlYmVJTlhiU0E?oc=5",
+      "source": "Nice-Matin",
+      "sourceDomain": "nicematin.com",
+      "publishedAt": "2026-08-14T16:00:07Z",
+      "query": "fête patronale village",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-fr-332a8c254050ecc3",
+      "country": "FR",
+      "title": "Léon XIV en France: à Lourdes, pourquoi le pape participera-t-il à la procession aux flambeaux? - Le Pèlerin",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPaDRsT0VGakhveTFYLXBHakRXRkdvc0JMNjF5ZHNsRldrSjFqYm84UGNlSkJkT1lqa0hBRVVVcXpwQTVVSVppZXNRZGdZWjZGOUFDWnRES19OWWRtejlpdExQVjhOUzBfNzZHXzI5NXVBSHlJQjNvWU1KLU1kaGhYX0lLTmVKZm01dzRkWkhCTHRYZXBfdXkwejdUM2syckNyOU05SUp2Mjd3MWRlcnJLNkc2UjhkLXFHU2JCa1k0a09RdFhjZ3o3UnlnR1dBUUJTVjcxUVluRVBnc3BJQjBEN091b0F3bDVNbjRDT3RQNVhfS1FlVXl6bk1MamdleXY1c1RBR2hn?oc=5",
+      "source": "Le Pèlerin",
+      "sourceDomain": "lepelerin.com",
+      "publishedAt": "2026-08-14T16:00:05Z",
+      "query": "procession pèlerinage",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-fr-313899804af3f353",
+      "country": "FR",
+      "title": "Fête de la Saint-Éloi : c’est parti pour trois jours de traditions provençales à Roquevaire - La Provence",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQOHdEMkZfZVZyME9PSURBQVgxUlJaeDFtUW1oX2VCaU5wVzVQLXl6eEluVzFtMWRqTGlkWjZ0Z2lCVVVaM3A1Y2xuWjhha2NYMFVoeFFqcVViZ2duLVBYTUplVFk1UnRuc05lRi00b1NrejNmSHB4clQxOVZBQXAtdEdnYXJOQURnc1V3T0FxWWVoYjhtRHJMQ0h5enhfSWtJajhsUjBqa3JxbTBjS1hZUXZRbS1qZnBtZWo2bXFhcWpEMV9UZ3JBc2w1UFJFVG0wZ3B0NTZ1TThSYjVoSm9KS0toV0xIRVlfVWc?oc=5",
+      "source": "La Provence",
+      "sourceDomain": "laprovence.com",
+      "publishedAt": "2026-08-14T12:01:09Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-fr-a83c27a583781f30",
+      "country": "FR",
+      "title": "Fête de la Mer au Canon 2026 : le programme complet - Quoi Faire à Bordeaux",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1fcnllbnhfZWVyVkhuRTZPbnI0dzJLMFlEZHpLX0R6QVpBeWtiWFVqamtQbWJVMkFvcWtTRXBMWDJkdWhkZkJLR182N2NxanZ2WWxXeGRnU0dzZDJzTnVENlR6X2Uya3d0RDBqeWpLS01JUWpTM25aVVlB?oc=5",
+      "source": "Quoi Faire à Bordeaux",
+      "sourceDomain": "quoifaireabordeaux.com",
+      "publishedAt": "2026-08-14T09:37:43Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-fr-62bdf4dae1f5bf67",
+      "country": "FR",
+      "title": "Week-end du 15 août : notre sélection des 5 fêtes traditionnelles à faire ce week-end en Provence - La Provence",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPR3dkaWM1Z1IwRl9PVC1xX2FOaWNsXzRPSjlzcV9kT2RpNnJOUS10b3RZeDhpNHRtd2E2U2Frb1ZEbDV0YVpfMVFacEtYVHdlSElrazcySXE0dnNNRDhqeC14WnJmUFdCTmh2bFFDTmVPc0Nzd1RxeWd1Ry15SDJhODBNSGtXM0dfeG5ldFdaREtIX1JSVjhlb2xWZU80Rnd6dTVvMjJjTDNPTmtz?oc=5",
+      "source": "La Provence",
+      "sourceDomain": "laprovence.com",
+      "publishedAt": "2026-08-14T08:16:15Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-fr-ddcd06830faf223b",
+      "country": "FR",
+      "title": "Faucon-de-Barcelonnette. Le village célèbre sa fête patronale - Le Dauphiné Libéré",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWmd5MHo5YWhqOENfeHFjMUNyb3BONXI3MEk2TTd4UzljaE5TQ3RDZl8wazdUWWY4cUp5X3BfY0NPV2FLM2NDVWQzMjdpajhqZ1pqd3F5MlRyNnhhdzBFOVRiM1pUMVFzdFpJZnRuV1BTaTgtQnNfRUJ5aDRjY0lnWGRCSWxna3F5MDAzN2h6d0p5cVQt?oc=5",
+      "source": "Le Dauphiné Libéré",
+      "sourceDomain": "ledauphine.com",
+      "publishedAt": "2026-08-13T18:01:00Z",
+      "query": "fête patronale village",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-fr-ed1b21517b21b826",
+      "country": "FR",
+      "title": "« Mon premier, c’était en 1944 » : nonagénaires, elles se souviennent du pèlerinage à la grotte de La Pernelle - MaVille.com",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQVzRXRUpGam0xdjRvdHhkRU9uem5pVHBhYXp3dDdNNUZHZzd0TURaV2pUN1JzaUpjbU1KMnc2c3BiYVFXclM3WVU2NzctaVJTMjM0R1VicDk3RGExNkcyMS0ta3diYWp0U1pGV1FHUVRUYlQ4dk9XbzlpZ1FGekc2TUpVV2lmdVNfVVdIQS1KdG1LbFZZazlZcERKRGhCUGtHbDFCZVR2NzloVU1oSmFkNFJXeTBRQWZqRGdLTG43bGRuRmdEbUttRVJkZlRXWFlxY2tXRW5ZZGk2aUZzb1VNU2FIZS1OMlJ1ZXBOYnBzLVUyZEpLb1JQQlRB?oc=5",
+      "source": "MaVille.com",
+      "sourceDomain": "saint-lo.maville.com",
+      "publishedAt": "2026-08-13T12:15:00Z",
+      "query": "procession pèlerinage",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-fr-6192f96d20ac84a3",
+      "country": "FR",
+      "title": "Peillonnex. La Fête patronale de retour au village - Le Dauphiné Libéré",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNa0lrSVRtZi1QY28wLUdXMElVYVF5RmdGN2xSTDhjTmQtdkNQbEp6b3J6TmRzN1hzV2EwaHZmNDFHUXNHSHRJUUpMb3F1N0tmVGpyQnVrQjdmSWR1ZEhzcldDMU11RmJJQ3BIS290NGJleEpMNUdodElsZmozdnhjd0pOU1JqbktjOFpyMWkyd2NGRGVCNVd3?oc=5",
+      "source": "Le Dauphiné Libéré",
+      "sourceDomain": "ledauphine.com",
+      "publishedAt": "2026-08-13T11:33:00Z",
+      "query": "fête patronale village",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-fr-5c186989fb54b720",
+      "country": "FR",
+      "title": "Campile - Fête patronale et nouveau prieur pour la confrérie - Corse Net Infos",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNX01iSFE5SkszMWRBS1RPakMwanFETEU5ZGRqcnlNNXdBZGJNN2l2YjVRTVlIc3VQQ0Qxb0tSVHdqbjNGSFVVYVJtZnVpYkxMdVB6WlY4S28wa0FzT0ttVVFfcE1xeDRYTkN4U1Jlb2MxWWh5bEV6VjFDSzJHMlpPNTBWZm95ZVpIOUIxRWM1WTBTellibklScVhyMnh3Y2JyQzNHVXBSbw?oc=5",
+      "source": "Corse Net Infos",
+      "sourceDomain": "corsenetinfos.corsica",
+      "publishedAt": "2026-08-09T13:13:00Z",
+      "query": "fête patronale village",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": []
+    },
+    {
+      "id": "news-fr-aca39451cf5e75c6",
+      "country": "FR",
+      "title": "Huê prépare une série d’événements culturels et artistiques pour la Fête nationale - Thông tấn xã Việt Nam",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbFlfVGJWa3BwYVEzbklSLVA5UFVPblZjUWNLbG9YZjZxZlFaV0VXWjFpU25UVzV5b3NMUHdXdERLNlRPd0Jtc3Z6YkVoNEc1ZlhHRnh3cHppeVRhYzlITEZzUkdiakU1UmI0TlA4YVlwSHplcUxkQXZGOUg0MEp2V1YzeGJManlPR2tka05HWTNZeUdaY2RUVndDZUY2MUpjQUZZNHl0bm5Ua21Jc3FOYktiS3RoYXFZdy1SM3ltdHNWWV9va1FMZ1J5RU50WUU?oc=5",
+      "source": "Thông tấn xã Việt Nam",
+      "sourceDomain": "vietnam.vnanet.vn",
+      "publishedAt": "2026-08-18T04:45:11Z",
+      "query": "fête traditionnelle",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-FR domain (vietnam.vnanet.vn)"
+      ]
+    }
+  ]
+}

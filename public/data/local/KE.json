@@ -1,0 +1,224 @@
+{
+  "country": "KE",
+  "name": "Kenya",
+  "generatedAt": "2026-08-18T14:54:06.239129Z",
+  "refreshHours": 168,
+  "status": "unfiltered",
+  "count": 12,
+  "reports": [
+    {
+      "id": "news-ke-3e7e53ea308f9037",
+      "country": "KE",
+      "title": "Cleansing ceremony opens new chapter for Sabaot community - standardmedia.co.ke",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPelFrMnl2aURBc3B0b2dsU1g1aGtoSWdMeU1ublhFZ182NWNkNHZJc0dPSS1qd1dzc0NHLUFMQmtpci1RVjhKczNYRjY3YzNaZ3Q3a0w5alFvTFNtb0podUx5VWNRNjlqSjZyZlBpeE1uVTJGbGVyM29CUGtSc2o2amUzdHVnVUlaUlhTX2Y5UnJOSXdHWHFTblhLOVl4enQwWUN2UW1MSnc0blBHVUh3R2lpYUpVVlF1a29Pdkw4czE3UnJyT1HSAcYBQVVfeXFMT3pRazJ5dmlEQXNwdG9nbFNYNWhraElnTHlNbm5YRWdfNjVjZDR2SXNHT0ktandXc3NDRy1BTEJraXItUVY4SnMzWEY2N2MzWmd0N2tMOWpRb0xTbW9KaHVMeVVjUTY5ako2cmZQaXhNblUyRmxlcjNvQlBrUnNqNmplM3R1Z1VJWlJYU19mOVJyTkl3R1hxU25YSzlZeHp0MFlDdlFtTEp3NG5QR1VId0dpaWFKVVZRdWtvT3ZMOHMxN1Jyck9R?oc=5",
+      "source": "standardmedia.co.ke",
+      "sourceDomain": "standardmedia.co.ke",
+      "publishedAt": "2026-08-16T09:43:16Z",
+      "query": "traditional ceremony community",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a KE domain (standardmedia.co.ke)"
+      ]
+    },
+    {
+      "id": "news-ke-b704610c3aff9ba9",
+      "country": "KE",
+      "title": "Understanding the Kalenjin Koito ceremony - Education News",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1LVzI1azRwYnRYd1d0cWExcHRlYWRvMG0wdm55QjV0Z0NUZjJmWU5OS25saC00amJTZjBENXZtRHZNNmw1a3JabzZiMG1Ydzc4dnVxVEVCQVpmTzh4WWtZUFUycktZb01UX0gzeWtsQzNiRldWTktpUFF3?oc=5",
+      "source": "Education News",
+      "sourceDomain": "educationnews.co.ke",
+      "publishedAt": "2026-08-08T15:33:03Z",
+      "query": "traditional ceremony community",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.45,
+      "reasons": [
+        "published by a KE domain (educationnews.co.ke)"
+      ]
+    },
+    {
+      "id": "news-ke-e9929395654d9252",
+      "country": "KE",
+      "title": "The Dahi Handi Festival - INSIGHTS IAS",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1NcC1SbHpuVHdWMUZ3RTZjMllaXzRFRU92UWR4T0xXZWNjdzZocV9BWl9zZS1TbG0tcTJOX3YyQ2oyNUV3eGRib0R3b1gxYjRfZHRGVHZBd2FQY0gtWEFrTkFWdGVJeXJ6MmwzUjNoN0k2SDJyeVE?oc=5",
+      "source": "INSIGHTS IAS",
+      "sourceDomain": "insightsonindia.com",
+      "publishedAt": "2026-08-17T07:54:57Z",
+      "query": "cultural festival traditional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-ke-b71ccafb779664bf",
+      "country": "KE",
+      "title": "Lanterns, Music and Molten Iron Light Up Rongchang’s Qixi Festival - iChongqing",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSUdGOE5mNmoyWFBZYzd0QU4wajQzTzFqWXQzSzRhV0dxSThPUVFYai0wcmkwNzNwS3NlcW0yZHkzNTZWdUw1T09EdUhaYm84aDE1TF9MbDlwX194dlIwSTVGUktvYU05aE5PREdTNnhad3hvczJ6YkQxdFYtTUx5MWRRTFI2RG1XaS05dWlTdFdlNWZYc09sdDFEVUw0V25zeE83Y2NFY9IBrAFBVV95cUxOXy1leEZTUlNYZnViWVloeGJsMGJmWFkwZkRYODRBMHJzang2c2twSUNDSzNDZE1sTndIZ3FpaTMyeEtNVDJzZ0ZxNXoxX0trbXpCczNHOVFSbXFHT2JnanVmdHhkOHc2SlhQTnZoaDh6NXN3S0dQNGxEZWdnUFpLNlBWY3Z3MVk3ZEduUnJjOGVQQ1N5Tmd3d3pfWDVaTVlWM1YwZ2ktTVNJVUN2?oc=5",
+      "source": "iChongqing",
+      "sourceDomain": "ichongqing.info",
+      "publishedAt": "2026-08-17T04:11:20Z",
+      "query": "cultural festival traditional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": []
+    },
+    {
+      "id": "news-ke-fbe871822e3a3ab1",
+      "country": "KE",
+      "title": "Stockton Obon Festival Invites Community to Celebrate Japanese Culture, Food and Tradition - caravannews.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVlhrM2Z2bFB2RVp0c0htVlVvajlXSEpZZDE2cXpQZUd3WDQ0NGNEZUpzYWVNR2Q5ai1yVlRwVHJYbWd4QlJQeUp1cTB4U1c4cWZjeGdHTzV5TmtELXR5OGZWTGpicXg1ODhtaXRSZW0zajJzQ0pPaHRsdzIzVl91a2Z5eGhzTzdmdWVuNDZiNXJaNFdia0RlWjFid2hoRGNFNlUyN2dtTWNwNzRRd2R3eVMzeU8xSmRXc0l4ZUFxaw?oc=5",
+      "source": "caravannews.com",
+      "sourceDomain": "caravannews.com",
+      "publishedAt": "2026-08-16T19:25:04Z",
+      "query": "cultural festival traditional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-ke-402376ad75d9a900",
+      "country": "KE",
+      "title": "Onam 2026: History, Hindu heritage, traditions and cultural significance of Kerala’s harvest festival - organiser.org",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOV09uWnl1WGVGeU90SWhIaDlDUUR0SWpNM1F2SjAwcXZ5aGt2SGVJemprcGxYdXZ0amJTOUFEanBCalYzaUE5SGs2TWJ2X2M4X0ZVQlhzNTlQY2ZyenNoX2hPMkd5dVc3dHB2WXNjcEtKUmtjYXE3UVVpeTY4OFJWS0wzdVNRZHNOb05tdzE3ZXNzbHFTQTdTbVhYNkJ6ekR2Z1FkY0EyRjJuQW9UU1NBSUdMWmJkRnAyVktJZ3pUR1BIWUpMS2o3SGJlYnIxclEyYl9acFBMN1JnRXozcmc?oc=5",
+      "source": "organiser.org",
+      "sourceDomain": "organiser.org",
+      "publishedAt": "2026-08-16T03:32:21Z",
+      "query": "cultural festival traditional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-ke-aa1b93d16ff90d47",
+      "country": "KE",
+      "title": "A cultural festival to inaugurate France's first traditional Hindu temple arrives in September. - Sortir à Paris",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQMDlpMnF3M3VQZldGQUo2ZEtnb0loUGk0UjR6dVNfYlh4bzFiQ0JVSnhGeGtEcElCMS1TNXJpZkRMemoyMHQzZ244ZV9mRDAwaXp1dlR6eHlUZk1ybjVvSlljWEdIQTlhY0U3YTk1YkswVlJobk95LWQxTXZKdlJNaldCVDhjWDNVSFY4bjZaQjFMdVNIWG5fbFEwVXd1NjZrQmpIT2tNM2RZZDhhSjZtaE5xelFZTmdXd2xESlQwYmJMMjByS005TzhkU0JmaGotRHA0M3ViVjRfckJKZkt4TjU1RXRzTFkyUzRkOXFMLW5feXUxTWVtdEUwaktfUnU1ZnQ0MzRGczZuSGk0WTdoQ013?oc=5",
+      "source": "Sortir à Paris",
+      "sourceDomain": "sortiraparis.com",
+      "publishedAt": "2026-08-12T11:31:16Z",
+      "query": "cultural festival traditional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-ke-f3f4b43f6ea201e0",
+      "country": "KE",
+      "title": "New Cantonese Opera \"Ancient Tune of Guangling\" to Premiere at Chinese Culture Festival 2026, Recreating the Wei-Jin Style through Traditional Artistry - 巴士的報",
+      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPYWl3WGtmamNCSUR5Skw1U3hxckdEYzVERmZVNkg0c0VpMC1ualdhSGFRc0RMUTJoSU9UVEhLdk96dENneGNSRmNURk1aejhDNVQ3cnVMUm12M2JtSVZHY0Rka1Z3XzV5WC1tbmlERlpzdTJKZWdEQlBXd1VCTEJuTVZhTm5YaTRCWlhpWU9wN2hDdHZwMTlhbDQ0QVVENnZ4WUlMdEk5VmM4OVBFVm5rY05hRlhvWVAzcUdOcXg5QjlVNV9VU2drVkpjdGUzNENTNEQwVVhQU3JxNWNnRHBSbHNTdnoxOXFoLTdTbS0zenZycm1sNVhzZWxILWZNTEVFRGhQTUpINzdETEVqTzhlM0YxNmxtb0RaejJWdGV4UElMMHVacmFv?oc=5",
+      "source": "巴士的報",
+      "sourceDomain": "bastillepost.com",
+      "publishedAt": "2026-08-12T03:00:00Z",
+      "query": "cultural festival traditional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-ke-edaa8e07ed423a36",
+      "country": "KE",
+      "title": "Wakefield Jewish Festival returns for a major celebration of culture, tradition and community - winchesternews.org",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQ2hNR3ktbHNWUjNpT3FIajdpVjRpSUVqU2FIa1AyY3M5bmVkalBWTHozeEQwX3JtZFpkR0VEd2lSa0dzdGFmRjhmSWJsWDY0aDNfM3pqVUFWbGgzV3VvYkVXVmxWZWI3X1RIU0pGM1d4ZWVsSkJaWGhvdEc3Vmh4ZU1iT2tXWUxZM1M4ZGhLNHdRQ3ZYbWhKVjZlVnV3VVlOTlNxSkNzTjBCTUx5UkRHT3ZyS0dWenpTOXR2UnhOY3dpUDhWMDB6UA?oc=5",
+      "source": "winchesternews.org",
+      "sourceDomain": "winchesternews.org",
+      "publishedAt": "2026-08-10T14:01:12Z",
+      "query": "traditional ceremony community",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-ke-2be21186b16e6862",
+      "country": "KE",
+      "title": "When Celebration Becomes a Burden: The Road Blockage Menace in Lokoja’s Traditional Communities - Kogi Reports",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX1BLREtmaVBvUm5Mb3V5MU1ibnRPcWVhVXdFbkR1WWJmb2VaNFBTU2t2WFA5b3V4bEk3Q25kM243SlNWdXZwTG4wMEFwanFPSjdpQ3JfejFqUkd4SzBqRW9VRjd1OUtZMEhQdW1sOC1ZcjZkeTNGMUpIQW5xZDd6ZUVFeHE1bUhMRVhlaEVoRWM4RkhiX201dUQ0bklyMnIzVUhPbUJrTUFpS3hiQ0l3YlFCc0tvTTZ1YWc?oc=5",
+      "source": "Kogi Reports",
+      "sourceDomain": "kogireports.com",
+      "publishedAt": "2026-08-09T15:43:00Z",
+      "query": "traditional ceremony community",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-ke-b379727f576c6f46",
+      "country": "KE",
+      "title": "Puʻukoholā Heiau National Historic Site celebrating 54th anniversary with free Hawaiian Cultural Festival - Big Island Now",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZy0xbFNZSXZHWmo5OElhaS1uQTRkWENIcXlzSHJCczNnSFJzbi1KTVlnRkt2Y0dSMXhXUGY4S0hmR3NXUDdhQkhsQkZrbXFNRDJ4Yk1vMDFoWVVRdHM3WEJLWWwxMVpEejZoU1h1RjQxRHIweGpMRTlDTWJ6V3B0dzVnRDdYWTA5dzRTNzk2VDk0SGY1dEktRDhycXhRa2xYX2c5RVp0bnh5b2x5OU5GaGMtbDF6czVXUjlQVUNXUWNlNXhfcllPN2JESFdpNTdselhXNV9EMkE4bnROOVFwS3JB?oc=5",
+      "source": "Big Island Now",
+      "sourceDomain": "bigislandnow.com",
+      "publishedAt": "2026-08-09T11:00:00Z",
+      "query": "cultural festival traditional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.2,
+      "reasons": [
+        "generic domain, origin unverified"
+      ]
+    },
+    {
+      "id": "news-ke-125cc35df51032b2",
+      "country": "KE",
+      "title": "Ha Noi world cultural festival aims to become an international rendezvous - Nhan Dan Online",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVVZMcTNoV2dMcS1NMnpBWGJmNjBBRzIxeEhwYjJfbjN3dXROcTJpTDJSbXhzOGNBSWdPQXlnTlpObEN1eHJfUklLRUlEUjRiMU9XemY0clVKRVdnUlZxRG05SHg4MkJ1c1dsNndEcnRWNTB3N25ERUF0R2FoVG82aENqak9qVmlQN29rbW5ac0JwZlNsVHNOMm1DcHFoeFRmN0dBdW54cDFESkpzVVNQSA?oc=5",
+      "source": "Nhan Dan Online",
+      "sourceDomain": "en.nhandan.vn",
+      "publishedAt": "2026-08-11T02:01:56Z",
+      "query": "cultural festival traditional",
+      "kind": "unclassified",
+      "isPublic": null,
+      "place": "",
+      "whenText": "",
+      "confidence": 0.05,
+      "reasons": [
+        "published by a non-KE domain (en.nhandan.vn)"
+      ]
+    }
+  ]
+}
