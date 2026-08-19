@@ -16,7 +16,7 @@
         "emoji": "🦀",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Spawning peaks on new and full moon high tides, drawing the red knot migration that feeds on the eggs. Underway — roughly 93% through the typical window, with 65 reports in the last two weeks.",
+        "description": "Spawning peaks on new and full moon high tides, drawing the red knot migration that feeds on the eggs. Underway — roughly 94% through the typical window, with 65 reports in the last two weeks.",
         "locationHint": "Delaware Bay",
         "geocodedAddress": "United States",
         "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=48302",
@@ -53,56 +53,6 @@
     },
     {
       "type": "Feature",
-      "id": "bloom-1436a05fad",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.8833,
-          -30.1667
-        ]
-      },
-      "properties": {
-        "name": "Namaqualand Daisy Bloom",
-        "emoji": "🌼",
-        "category": "Botanical Event",
-        "categoryLabel": "Botanical Event",
-        "description": "Dimorphotheca sinuata and Namaqualand annuals. Heat sum reached — bloom underway (100% of threshold accumulated). Growing-degree-day model, base 10.0C from 04-15.",
-        "locationHint": "Skilpad, Namaqua National Park",
-        "geocodedAddress": "South Africa",
-        "sourceUrl": "https://api.open-meteo.com/v1/forecast",
-        "startUtc": "2026-08-14T00:00:00Z",
-        "endUtc": "2026-09-18T00:00:00Z",
-        "confidence": 0.531,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-8644ecd689",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -21.9426,
-          64.1466
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Reykjavik",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 11% overhead tonight. Planetary Kp is forecast to peak near 4.67 on 19 Aug 03:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Reykjavik",
-        "geocodedAddress": "Iceland",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-19T02:57:36.251047Z",
-        "endUtc": "2026-08-22T02:57:36.251047Z",
-        "confidence": 0.388,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
       "id": "aurora-135f794d96",
       "geometry": {
         "type": "Point",
@@ -116,13 +66,38 @@
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 11% overhead tonight. Planetary Kp is forecast to peak near 4.67 on 19 Aug 03:00 UTC. Clear skies and darkness still decide it.",
+        "description": "OVATION puts auroral visibility at 21% overhead tonight. Planetary Kp is forecast to peak near 4.67 on 19 Aug 09:00 UTC. Clear skies and darkness still decide it.",
         "locationHint": "Yellowknife",
         "geocodedAddress": "Canada",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-19T02:57:36.251047Z",
-        "endUtc": "2026-08-22T02:57:36.251047Z",
-        "confidence": 0.388,
+        "startUtc": "2026-08-19T06:43:08.233721Z",
+        "endUtc": "2026-08-22T06:43:08.233721Z",
+        "confidence": 0.497,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-1ea7c2f54d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Fairbanks",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 17% overhead tonight. Planetary Kp is forecast to peak near 4.67 on 19 Aug 09:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Fairbanks",
+        "geocodedAddress": "United States",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-08-19T06:43:08.233721Z",
+        "endUtc": "2026-08-22T06:43:08.233721Z",
+        "confidence": 0.453,
         "isWithinLiveWindow": true
       }
     },
