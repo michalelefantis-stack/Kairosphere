@@ -53,31 +53,6 @@
     },
     {
       "type": "Feature",
-      "id": "bloom-1436a05fad",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.8833,
-          -30.1667
-        ]
-      },
-      "properties": {
-        "name": "Namaqualand Daisy Bloom",
-        "emoji": "🌼",
-        "category": "Botanical Event",
-        "categoryLabel": "Botanical Event",
-        "description": "Dimorphotheca sinuata and Namaqualand annuals. Heat sum reached — bloom underway (100% of threshold accumulated). Growing-degree-day model, base 10.0C from 04-15.",
-        "locationHint": "Skilpad, Namaqua National Park",
-        "geocodedAddress": "South Africa",
-        "sourceUrl": "https://api.open-meteo.com/v1/forecast",
-        "startUtc": "2026-08-14T00:00:00Z",
-        "endUtc": "2026-09-18T00:00:00Z",
-        "confidence": 0.531,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
       "id": "aurora-1ea7c2f54d",
       "geometry": {
         "type": "Point",
@@ -95,9 +70,9 @@
         "locationHint": "Fairbanks",
         "geocodedAddress": "United States",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-19T16:31:27.306810Z",
-        "endUtc": "2026-08-22T16:31:27.306810Z",
-        "confidence": 0.398,
+        "startUtc": "2026-08-19T18:35:33.727540Z",
+        "endUtc": "2026-08-22T18:35:33.727540Z",
+        "confidence": 0.39,
         "isWithinLiveWindow": true
       }
     },
@@ -120,9 +95,9 @@
         "locationHint": "Yellowknife",
         "geocodedAddress": "Canada",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-19T16:31:27.306810Z",
-        "endUtc": "2026-08-22T16:31:27.306810Z",
-        "confidence": 0.345,
+        "startUtc": "2026-08-19T18:35:33.727540Z",
+        "endUtc": "2026-08-22T18:35:33.727540Z",
+        "confidence": 0.339,
         "isWithinLiveWindow": true
       }
     },
