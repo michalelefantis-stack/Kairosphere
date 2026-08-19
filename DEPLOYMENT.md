@@ -40,12 +40,29 @@ Nothing ships until these are true.
   - [ ] `ALLOWED_ORIGINS` set to the real origins, keeping `https://localhost`
         and `capacitor://localhost` — the mobile app needs both.
   - [ ] `GEMINI_API_KEY` in `server/.env`.
-- [ ] **Deploy the app to Cloudflare Pages.** Config is committed:
-      `public/_headers` and `public/_redirects`. Connect the repo at
-      dash.cloudflare.com → Workers & Pages → Create → Pages → Connect to Git.
-      Build command `npm run build`, output directory `dist`. Set
-      `VITE_CONTENT_BASE_URL` and `VITE_PHENOMENA_URL` as build environment
-      variables there. It rebuilds on every push after that.
+- [ ] **Deploy the app to Cloudflare Pages.** dash.cloudflare.com → Workers &
+      Pages → Create → Pages → Connect to Git.
+
+          Framework preset          None
+          Build command             npm run build
+          Build output directory    dist
+
+      Environment variables, set for Production:
+
+          VITE_CONTENT_BASE_URL=https://michalelefantis-stack.github.io/Kairosphere/data
+          VITE_PHENOMENA_URL=https://michalelefantis-stack.github.io/Kairosphere/data/phenomena.json
+
+      `.nvmrc` pins Node 22; Cloudflare reads it, and Vite 6 with React 19
+      will not build on the older default it might otherwise pick.
+
+      **Turn off builds for non-production branches.** The free tier allows
+      500 builds a month and the feed bot pushes to `main` every two hours —
+      360 a month on its own. Those commits carry `[skip ci]`, which
+      Cloudflare honours, so they should not build at all; check that on the
+      first bot commit after setup, because if the marker is missed the quota
+      is gone in three weeks. Belt and braces: Settings → Builds &
+      deployments → Build watch paths → exclude `public/data/*`. Nothing the
+      app serves depends on those files — the live copies come from the CDN.
 
       Chosen on measurement, not preference. A first load is 206 KB gzipped
       (+504 KB if a desktop reader opens the globe). Firebase Hosting allows
