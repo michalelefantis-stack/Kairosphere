@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T01:16:48.070832Z",
+  "generatedAt": "2026-08-20T02:58:53.355027Z",
   "horizonDays": 7,
   "counts": {
     "total": 11,
@@ -47,13 +47,13 @@
       "uncertaintyDays": 21.0,
       "confidence": 0.34,
       "baseConfidence": 0.85,
-      "lastVerifiedAt": "2026-08-20T01:16:42.370619Z",
+      "lastVerifiedAt": "2026-08-20T02:58:50.020353Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=48302",
           "kind": "citizen",
-          "retrievedAt": "2026-08-20T01:16:42.370619Z",
+          "retrievedAt": "2026-08-20T02:58:50.020353Z",
           "note": "6402 research-grade records in region; peak week 21; 63 in last 14 days."
         }
       ],
@@ -81,13 +81,13 @@
       "uncertaintyDays": 21.0,
       "confidence": 0.28,
       "baseConfidence": 0.7,
-      "lastVerifiedAt": "2026-08-20T01:16:42.370619Z",
+      "lastVerifiedAt": "2026-08-20T02:58:50.020353Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=41566",
           "kind": "citizen",
-          "retrievedAt": "2026-08-20T01:16:42.370619Z",
+          "retrievedAt": "2026-08-20T02:58:50.020353Z",
           "note": "2074 research-grade records in region; peak week 30; 12 in last 14 days."
         }
       ],
@@ -115,20 +115,20 @@
       "uncertaintyDays": 3.0,
       "confidence": 0.531,
       "baseConfidence": 0.576,
-      "lastVerifiedAt": "2026-08-20T01:15:11.022196Z",
+      "lastVerifiedAt": "2026-08-20T02:57:18.784088Z",
       "sources": [
         {
           "name": "Open-Meteo temperature series",
           "url": "https://api.open-meteo.com/v1/forecast",
           "kind": "model",
-          "retrievedAt": "2026-08-20T01:15:11.022179Z",
-          "note": "GDD base 10.0C, threshold 520, accumulated 522."
+          "retrievedAt": "2026-08-20T02:57:18.784077Z",
+          "note": "GDD base 10.0C, threshold 520, accumulated 687."
         },
         {
           "name": "Bloom model calibration (first-pass)",
           "url": "pipeline/registry/bloom_models.json",
           "kind": "model",
-          "retrievedAt": "2026-08-20T01:15:11.022193Z",
+          "retrievedAt": "2026-08-20T02:57:18.784086Z",
           "note": "SANParks bloom-season reporting, typically mid-August to mid-September."
         }
       ],
@@ -150,11 +150,11 @@
       ],
       "locationHint": "Reykjavik",
       "country": "Iceland",
-      "windowStart": "2026-08-20T01:14:19.041206Z",
-      "windowEnd": "2026-08-23T01:14:19.041206Z",
+      "windowStart": "2026-08-20T02:57:11.832106Z",
+      "windowEnd": "2026-08-23T02:57:11.832106Z",
       "peak": "2026-08-21T00:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.651,
+      "confidence": 0.64,
       "baseConfidence": 0.61,
       "lastVerifiedAt": "2026-08-19T23:50:00Z",
       "sources": [
@@ -162,14 +162,14 @@
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-08-20T01:14:19.041191Z",
+          "retrievedAt": "2026-08-20T02:57:11.832090Z",
           "note": "30-minute nowcast; forecast time 2026-08-20T00:38:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-08-20T01:14:19.041196Z",
+          "retrievedAt": "2026-08-20T02:57:11.832095Z",
           "note": "3-day outlook, peak Kp 4."
         }
       ],
@@ -191,11 +191,11 @@
       ],
       "locationHint": "Abisko",
       "country": "Sweden",
-      "windowStart": "2026-08-20T01:14:19.041206Z",
-      "windowEnd": "2026-08-23T01:14:19.041206Z",
+      "windowStart": "2026-08-20T02:57:11.832106Z",
+      "windowEnd": "2026-08-23T02:57:11.832106Z",
       "peak": "2026-08-21T00:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.587,
+      "confidence": 0.577,
       "baseConfidence": 0.55,
       "lastVerifiedAt": "2026-08-19T23:50:00Z",
       "sources": [
@@ -203,14 +203,14 @@
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-08-20T01:14:19.041191Z",
+          "retrievedAt": "2026-08-20T02:57:11.832090Z",
           "note": "30-minute nowcast; forecast time 2026-08-20T00:38:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-08-20T01:14:19.041196Z",
+          "retrievedAt": "2026-08-20T02:57:11.832095Z",
           "note": "3-day outlook, peak Kp 4."
         }
       ],
@@ -232,11 +232,11 @@
       ],
       "locationHint": "Tromso",
       "country": "Norway",
-      "windowStart": "2026-08-20T01:14:19.041206Z",
-      "windowEnd": "2026-08-23T01:14:19.041206Z",
+      "windowStart": "2026-08-20T02:57:11.832106Z",
+      "windowEnd": "2026-08-23T02:57:11.832106Z",
       "peak": "2026-08-21T00:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.576,
+      "confidence": 0.567,
       "baseConfidence": 0.54,
       "lastVerifiedAt": "2026-08-19T23:50:00Z",
       "sources": [
@@ -244,14 +244,14 @@
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-08-20T01:14:19.041191Z",
+          "retrievedAt": "2026-08-20T02:57:11.832090Z",
           "note": "30-minute nowcast; forecast time 2026-08-20T00:38:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-08-20T01:14:19.041196Z",
+          "retrievedAt": "2026-08-20T02:57:11.832095Z",
           "note": "3-day outlook, peak Kp 4."
         }
       ],
@@ -273,11 +273,11 @@
       ],
       "locationHint": "Rovaniemi",
       "country": "Finland",
-      "windowStart": "2026-08-20T01:14:19.041206Z",
-      "windowEnd": "2026-08-23T01:14:19.041206Z",
+      "windowStart": "2026-08-20T02:57:11.832106Z",
+      "windowEnd": "2026-08-23T02:57:11.832106Z",
       "peak": "2026-08-21T00:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.576,
+      "confidence": 0.567,
       "baseConfidence": 0.54,
       "lastVerifiedAt": "2026-08-19T23:50:00Z",
       "sources": [
@@ -285,14 +285,14 @@
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-08-20T01:14:19.041191Z",
+          "retrievedAt": "2026-08-20T02:57:11.832090Z",
           "note": "30-minute nowcast; forecast time 2026-08-20T00:38:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-08-20T01:14:19.041196Z",
+          "retrievedAt": "2026-08-20T02:57:11.832095Z",
           "note": "3-day outlook, peak Kp 4."
         }
       ],
@@ -314,11 +314,11 @@
       ],
       "locationHint": "Murmansk",
       "country": "Russia",
-      "windowStart": "2026-08-20T01:14:19.041206Z",
-      "windowEnd": "2026-08-23T01:14:19.041206Z",
+      "windowStart": "2026-08-20T02:57:11.832106Z",
+      "windowEnd": "2026-08-23T02:57:11.832106Z",
       "peak": "2026-08-21T00:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.555,
+      "confidence": 0.546,
       "baseConfidence": 0.52,
       "lastVerifiedAt": "2026-08-19T23:50:00Z",
       "sources": [
@@ -326,14 +326,14 @@
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-08-20T01:14:19.041191Z",
+          "retrievedAt": "2026-08-20T02:57:11.832090Z",
           "note": "30-minute nowcast; forecast time 2026-08-20T00:38:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-08-20T01:14:19.041196Z",
+          "retrievedAt": "2026-08-20T02:57:11.832095Z",
           "note": "3-day outlook, peak Kp 4."
         }
       ],
@@ -355,11 +355,11 @@
       ],
       "locationHint": "Yellowknife",
       "country": "Canada",
-      "windowStart": "2026-08-20T01:14:19.041206Z",
-      "windowEnd": "2026-08-23T01:14:19.041206Z",
+      "windowStart": "2026-08-20T02:57:11.832106Z",
+      "windowEnd": "2026-08-23T02:57:11.832106Z",
       "peak": "2026-08-21T00:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.501,
+      "confidence": 0.493,
       "baseConfidence": 0.47,
       "lastVerifiedAt": "2026-08-19T23:50:00Z",
       "sources": [
@@ -367,14 +367,14 @@
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-08-20T01:14:19.041191Z",
+          "retrievedAt": "2026-08-20T02:57:11.832090Z",
           "note": "30-minute nowcast; forecast time 2026-08-20T00:38:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-08-20T01:14:19.041196Z",
+          "retrievedAt": "2026-08-20T02:57:11.832095Z",
           "note": "3-day outlook, peak Kp 4."
         }
       ],
@@ -402,13 +402,13 @@
       "uncertaintyDays": 1.5,
       "confidence": 0.813,
       "baseConfidence": 0.9,
-      "lastVerifiedAt": "2026-08-20T01:14:18.811928Z",
+      "lastVerifiedAt": "2026-08-20T02:57:11.449438Z",
       "sources": [
         {
           "name": "Calendrical conversion",
           "url": "https://www.staff.science.uu.nl/~gent0113/islam/islam_tabcal.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-08-20T01:14:18.811927Z",
+          "retrievedAt": "2026-08-20T02:57:11.449438Z",
           "note": "Tabular Islamic calendar; regional moon sighting shifts observance by up to a day."
         }
       ],
@@ -436,13 +436,13 @@
       "uncertaintyDays": 12.25,
       "confidence": 0.108,
       "baseConfidence": 0.202,
-      "lastVerifiedAt": "2026-08-20T01:16:42.370619Z",
+      "lastVerifiedAt": "2026-08-20T02:58:50.020353Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
           "kind": "citizen",
-          "retrievedAt": "2026-08-20T01:16:42.370619Z",
+          "retrievedAt": "2026-08-20T02:58:50.020353Z",
           "note": "766 research-grade records in region; peak week 40; 0 in last 14 days."
         }
       ],
