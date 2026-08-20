@@ -16,7 +16,7 @@
         "emoji": "🦀",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Spawning peaks on new and full moon high tides, drawing the red knot migration that feeds on the eggs. Underway — roughly 94% through the typical window, with 66 reports in the last two weeks.",
+        "description": "Spawning peaks on new and full moon high tides, drawing the red knot migration that feeds on the eggs. Underway — roughly 94% through the typical window, with 63 reports in the last two weeks.",
         "locationHint": "Delaware Bay",
         "geocodedAddress": "United States",
         "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=48302",
@@ -41,13 +41,13 @@
         "emoji": "🐋",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Cooperative bubble-net feeding, a learned behaviour passed between individuals rather than inherited. Underway — roughly 78% through the typical window, with 13 reports in the last two weeks.",
+        "description": "Cooperative bubble-net feeding, a learned behaviour passed between individuals rather than inherited. Underway — roughly 78% through the typical window, with 12 reports in the last two weeks.",
         "locationHint": "Southeast Alaska, Chatham Strait",
         "geocodedAddress": "United States",
         "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=41566",
         "startUtc": "2026-05-14T00:00:00Z",
         "endUtc": "2026-09-17T00:00:00Z",
-        "confidence": 0.286,
+        "confidence": 0.28,
         "isWithinLiveWindow": true
       }
     },
@@ -78,7 +78,7 @@
     },
     {
       "type": "Feature",
-      "id": "aurora-8644ecd689",
+      "id": "aurora-7ed38f43f0",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -91,19 +91,19 @@
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 33% overhead tonight. Planetary Kp is forecast to peak near 4 on 20 Aug 00:00 UTC. Clear skies and darkness still decide it.",
+        "description": "OVATION puts auroral visibility at 36% overhead tonight. Planetary Kp is forecast to peak near 4 on 21 Aug 00:00 UTC. Clear skies and darkness still decide it.",
         "locationHint": "Reykjavik",
         "geocodedAddress": "Iceland",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-19T22:24:37.158696Z",
-        "endUtc": "2026-08-22T22:24:37.158696Z",
-        "confidence": 0.626,
+        "startUtc": "2026-08-20T01:14:19.041206Z",
+        "endUtc": "2026-08-23T01:14:19.041206Z",
+        "confidence": 0.651,
         "isWithinLiveWindow": true
       }
     },
     {
       "type": "Feature",
-      "id": "aurora-9a2a521d61",
+      "id": "aurora-60677fbce2",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -116,44 +116,19 @@
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 28% overhead tonight. Planetary Kp is forecast to peak near 4 on 20 Aug 00:00 UTC. Clear skies and darkness still decide it.",
+        "description": "OVATION puts auroral visibility at 30% overhead tonight. Planetary Kp is forecast to peak near 4 on 21 Aug 00:00 UTC. Clear skies and darkness still decide it.",
         "locationHint": "Abisko",
         "geocodedAddress": "Sweden",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-19T22:24:37.158696Z",
-        "endUtc": "2026-08-22T22:24:37.158696Z",
-        "confidence": 0.572,
+        "startUtc": "2026-08-20T01:14:19.041206Z",
+        "endUtc": "2026-08-23T01:14:19.041206Z",
+        "confidence": 0.587,
         "isWithinLiveWindow": true
       }
     },
     {
       "type": "Feature",
-      "id": "aurora-bea1ef16cf",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.7294,
-          66.5039
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Rovaniemi",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 28% overhead tonight. Planetary Kp is forecast to peak near 4 on 20 Aug 00:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Rovaniemi",
-        "geocodedAddress": "Finland",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-19T22:24:37.158696Z",
-        "endUtc": "2026-08-22T22:24:37.158696Z",
-        "confidence": 0.572,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-331acc35b7",
+      "id": "aurora-48360411c8",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -166,19 +141,44 @@
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 27% overhead tonight. Planetary Kp is forecast to peak near 4 on 20 Aug 00:00 UTC. Clear skies and darkness still decide it.",
+        "description": "OVATION puts auroral visibility at 29% overhead tonight. Planetary Kp is forecast to peak near 4 on 21 Aug 00:00 UTC. Clear skies and darkness still decide it.",
         "locationHint": "Tromso",
         "geocodedAddress": "Norway",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-19T22:24:37.158696Z",
-        "endUtc": "2026-08-22T22:24:37.158696Z",
-        "confidence": 0.561,
+        "startUtc": "2026-08-20T01:14:19.041206Z",
+        "endUtc": "2026-08-23T01:14:19.041206Z",
+        "confidence": 0.576,
         "isWithinLiveWindow": true
       }
     },
     {
       "type": "Feature",
-      "id": "aurora-84356711df",
+      "id": "aurora-4bb6af0386",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7294,
+          66.5039
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Rovaniemi",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 29% overhead tonight. Planetary Kp is forecast to peak near 4 on 21 Aug 00:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Rovaniemi",
+        "geocodedAddress": "Finland",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-08-20T01:14:19.041206Z",
+        "endUtc": "2026-08-23T01:14:19.041206Z",
+        "confidence": 0.576,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-ef6347ce39",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -191,19 +191,19 @@
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 27% overhead tonight. Planetary Kp is forecast to peak near 4 on 20 Aug 00:00 UTC. Clear skies and darkness still decide it.",
+        "description": "OVATION puts auroral visibility at 27% overhead tonight. Planetary Kp is forecast to peak near 4 on 21 Aug 00:00 UTC. Clear skies and darkness still decide it.",
         "locationHint": "Murmansk",
         "geocodedAddress": "Russia",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-19T22:24:37.158696Z",
-        "endUtc": "2026-08-22T22:24:37.158696Z",
-        "confidence": 0.561,
+        "startUtc": "2026-08-20T01:14:19.041206Z",
+        "endUtc": "2026-08-23T01:14:19.041206Z",
+        "confidence": 0.555,
         "isWithinLiveWindow": true
       }
     },
     {
       "type": "Feature",
-      "id": "aurora-135f794d96",
+      "id": "aurora-356cfec51e",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -216,13 +216,13 @@
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 9% overhead tonight. Planetary Kp is forecast to peak near 4 on 20 Aug 00:00 UTC. Clear skies and darkness still decide it.",
+        "description": "OVATION puts auroral visibility at 22% overhead tonight. Planetary Kp is forecast to peak near 4 on 21 Aug 00:00 UTC. Clear skies and darkness still decide it.",
         "locationHint": "Yellowknife",
         "geocodedAddress": "Canada",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-19T22:24:37.158696Z",
-        "endUtc": "2026-08-22T22:24:37.158696Z",
-        "confidence": 0.367,
+        "startUtc": "2026-08-20T01:14:19.041206Z",
+        "endUtc": "2026-08-23T01:14:19.041206Z",
+        "confidence": 0.501,
         "isWithinLiveWindow": true
       }
     },
@@ -248,6 +248,31 @@
         "startUtc": "2026-08-24T00:00:00Z",
         "endUtc": "2026-08-26T00:00:00Z",
         "confidence": 0.813,
+        "isWithinLiveWindow": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "citizen-7d87b1b9ca",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6,
+          50.9
+        ]
+      },
+      "properties": {
+        "name": "Sockeye Salmon Run",
+        "emoji": "🐟",
+        "category": "Animal Migration",
+        "categoryLabel": "Animal Migration",
+        "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Season opens in about 6 days; 0 reports in the last two weeks.",
+        "locationHint": "Adams River, British Columbia",
+        "geocodedAddress": "Canada",
+        "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
+        "startUtc": "2026-08-27T00:00:00Z",
+        "endUtc": "2026-10-15T00:00:00Z",
+        "confidence": 0.108,
         "isWithinLiveWindow": false
       }
     }
