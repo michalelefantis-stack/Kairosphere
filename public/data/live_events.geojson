@@ -70,9 +70,34 @@
         "locationHint": "Murmansk",
         "geocodedAddress": "Russia",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-20T16:35:14.098470Z",
-        "endUtc": "2026-08-23T16:35:14.098470Z",
+        "startUtc": "2026-08-20T18:39:05.640814Z",
+        "endUtc": "2026-08-23T18:39:05.640814Z",
         "confidence": 0.399,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-4bb6af0386",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7294,
+          66.5039
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Rovaniemi",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 11% overhead tonight. Planetary Kp is forecast to peak near 4 on 21 Aug 00:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Rovaniemi",
+        "geocodedAddress": "Finland",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-08-20T18:39:05.640814Z",
+        "endUtc": "2026-08-23T18:39:05.640814Z",
+        "confidence": 0.389,
         "isWithinLiveWindow": true
       }
     },
@@ -95,8 +120,8 @@
         "locationHint": "Tromso",
         "geocodedAddress": "Norway",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-20T16:35:14.098470Z",
-        "endUtc": "2026-08-23T16:35:14.098470Z",
+        "startUtc": "2026-08-20T18:39:05.640814Z",
+        "endUtc": "2026-08-23T18:39:05.640814Z",
         "confidence": 0.378,
         "isWithinLiveWindow": true
       }
@@ -120,33 +145,8 @@
         "locationHint": "Abisko",
         "geocodedAddress": "Sweden",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-20T16:35:14.098470Z",
-        "endUtc": "2026-08-23T16:35:14.098470Z",
-        "confidence": 0.378,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-4bb6af0386",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.7294,
-          66.5039
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Rovaniemi",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 10% overhead tonight. Planetary Kp is forecast to peak near 4 on 21 Aug 00:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Rovaniemi",
-        "geocodedAddress": "Finland",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-20T16:35:14.098470Z",
-        "endUtc": "2026-08-23T16:35:14.098470Z",
+        "startUtc": "2026-08-20T18:39:05.640814Z",
+        "endUtc": "2026-08-23T18:39:05.640814Z",
         "confidence": 0.378,
         "isWithinLiveWindow": true
       }
