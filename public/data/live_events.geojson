@@ -16,7 +16,7 @@
         "emoji": "🦀",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Spawning peaks on new and full moon high tides, drawing the red knot migration that feeds on the eggs. Underway — roughly 95% through the typical window, with 63 reports in the last two weeks.",
+        "description": "Spawning peaks on new and full moon high tides, drawing the red knot migration that feeds on the eggs. Underway — roughly 95% through the typical window, with 64 reports in the last two weeks.",
         "locationHint": "Delaware Bay",
         "geocodedAddress": "United States",
         "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=48302",
@@ -95,9 +95,9 @@
         "locationHint": "Reykjavik",
         "geocodedAddress": "Iceland",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-20T12:49:50.138732Z",
-        "endUtc": "2026-08-23T12:49:50.138732Z",
-        "confidence": 0.582,
+        "startUtc": "2026-08-20T14:36:41.732127Z",
+        "endUtc": "2026-08-23T14:36:41.732127Z",
+        "confidence": 0.572,
         "isWithinLiveWindow": true
       }
     },
@@ -120,9 +120,9 @@
         "locationHint": "Abisko",
         "geocodedAddress": "Sweden",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-20T12:49:50.138732Z",
-        "endUtc": "2026-08-23T12:49:50.138732Z",
-        "confidence": 0.525,
+        "startUtc": "2026-08-20T14:36:41.732127Z",
+        "endUtc": "2026-08-23T14:36:41.732127Z",
+        "confidence": 0.516,
         "isWithinLiveWindow": true
       }
     },
@@ -145,9 +145,9 @@
         "locationHint": "Tromso",
         "geocodedAddress": "Norway",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-20T12:49:50.138732Z",
-        "endUtc": "2026-08-23T12:49:50.138732Z",
-        "confidence": 0.515,
+        "startUtc": "2026-08-20T14:36:41.732127Z",
+        "endUtc": "2026-08-23T14:36:41.732127Z",
+        "confidence": 0.506,
         "isWithinLiveWindow": true
       }
     },
@@ -170,9 +170,9 @@
         "locationHint": "Rovaniemi",
         "geocodedAddress": "Finland",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-20T12:49:50.138732Z",
-        "endUtc": "2026-08-23T12:49:50.138732Z",
-        "confidence": 0.515,
+        "startUtc": "2026-08-20T14:36:41.732127Z",
+        "endUtc": "2026-08-23T14:36:41.732127Z",
+        "confidence": 0.506,
         "isWithinLiveWindow": true
       }
     },
@@ -195,9 +195,9 @@
         "locationHint": "Murmansk",
         "geocodedAddress": "Russia",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-20T12:49:50.138732Z",
-        "endUtc": "2026-08-23T12:49:50.138732Z",
-        "confidence": 0.496,
+        "startUtc": "2026-08-20T14:36:41.732127Z",
+        "endUtc": "2026-08-23T14:36:41.732127Z",
+        "confidence": 0.488,
         "isWithinLiveWindow": true
       }
     },
@@ -220,9 +220,9 @@
         "locationHint": "Yellowknife",
         "geocodedAddress": "Canada",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-20T12:49:50.138732Z",
-        "endUtc": "2026-08-23T12:49:50.138732Z",
-        "confidence": 0.448,
+        "startUtc": "2026-08-20T14:36:41.732127Z",
+        "endUtc": "2026-08-23T14:36:41.732127Z",
+        "confidence": 0.441,
         "isWithinLiveWindow": true
       }
     },
