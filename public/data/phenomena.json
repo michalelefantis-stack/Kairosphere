@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-21T08:43:21.695681Z",
+  "generatedAt": "2026-08-21T10:33:23.502786Z",
   "horizonDays": 7,
   "counts": {
     "total": 7,
@@ -47,13 +47,13 @@
       "uncertaintyDays": 21.0,
       "confidence": 0.34,
       "baseConfidence": 0.85,
-      "lastVerifiedAt": "2026-08-21T08:43:13.760061Z",
+      "lastVerifiedAt": "2026-08-21T10:33:18.432359Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=48302",
           "kind": "citizen",
-          "retrievedAt": "2026-08-21T08:43:13.760061Z",
+          "retrievedAt": "2026-08-21T10:33:18.432359Z",
           "note": "6405 research-grade records in region; peak week 21; 62 in last 14 days."
         }
       ],
@@ -81,14 +81,14 @@
       "uncertaintyDays": 21.0,
       "confidence": 0.268,
       "baseConfidence": 0.67,
-      "lastVerifiedAt": "2026-08-21T08:43:13.760061Z",
+      "lastVerifiedAt": "2026-08-21T10:33:18.432359Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=41566",
           "kind": "citizen",
-          "retrievedAt": "2026-08-21T08:43:13.760061Z",
-          "note": "2074 research-grade records in region; peak week 30; 10 in last 14 days."
+          "retrievedAt": "2026-08-21T10:33:18.432359Z",
+          "note": "2075 research-grade records in region; peak week 30; 10 in last 14 days."
         }
       ],
       "sensitivity": "public",
@@ -115,20 +115,20 @@
       "uncertaintyDays": 3.0,
       "confidence": 0.531,
       "baseConfidence": 0.576,
-      "lastVerifiedAt": "2026-08-21T08:40:57.842597Z",
+      "lastVerifiedAt": "2026-08-21T10:31:02.784653Z",
       "sources": [
         {
           "name": "Open-Meteo temperature series",
           "url": "https://api.open-meteo.com/v1/forecast",
           "kind": "model",
-          "retrievedAt": "2026-08-21T08:40:57.842586Z",
+          "retrievedAt": "2026-08-21T10:31:02.784642Z",
           "note": "GDD base 10.0C, threshold 520, accumulated 727."
         },
         {
           "name": "Bloom model calibration (first-pass)",
           "url": "pipeline/registry/bloom_models.json",
           "kind": "model",
-          "retrievedAt": "2026-08-21T08:40:57.842595Z",
+          "retrievedAt": "2026-08-21T10:31:02.784651Z",
           "note": "SANParks bloom-season reporting, typically mid-August to mid-September."
         }
       ],
@@ -140,7 +140,7 @@
     {
       "id": "aurora-03f701cf21",
       "name": "Aurora over Fairbanks",
-      "description": "OVATION puts auroral visibility at 16% overhead tonight. Planetary Kp is forecast to peak near 4 on 22 Aug 03:00 UTC. Clear skies and darkness still decide it.",
+      "description": "OVATION puts auroral visibility at 13% overhead tonight. Planetary Kp is forecast to peak near 4 on 22 Aug 03:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
@@ -150,26 +150,26 @@
       ],
       "locationHint": "Fairbanks",
       "country": "United States",
-      "windowStart": "2026-08-21T08:40:51.450400Z",
-      "windowEnd": "2026-08-24T08:40:51.450400Z",
+      "windowStart": "2026-08-21T10:30:55.516432Z",
+      "windowEnd": "2026-08-24T10:30:55.516432Z",
       "peak": "2026-08-22T03:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.442,
-      "baseConfidence": 0.41,
-      "lastVerifiedAt": "2026-08-21T08:30:00Z",
+      "confidence": 0.41,
+      "baseConfidence": 0.38,
+      "lastVerifiedAt": "2026-08-21T10:20:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-08-21T08:40:51.450385Z",
-          "note": "30-minute nowcast; forecast time 2026-08-21T09:24:00Z."
+          "retrievedAt": "2026-08-21T10:30:55.516418Z",
+          "note": "30-minute nowcast; forecast time 2026-08-21T11:13:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-08-21T08:40:51.450390Z",
+          "retrievedAt": "2026-08-21T10:30:55.516423Z",
           "note": "3-day outlook, peak Kp 4."
         }
       ],
@@ -181,7 +181,7 @@
     {
       "id": "aurora-ff251200b1",
       "name": "Aurora over Yellowknife",
-      "description": "OVATION puts auroral visibility at 14% overhead tonight. Planetary Kp is forecast to peak near 4 on 22 Aug 03:00 UTC. Clear skies and darkness still decide it.",
+      "description": "OVATION puts auroral visibility at 8% overhead tonight. Planetary Kp is forecast to peak near 4 on 22 Aug 03:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
@@ -191,26 +191,26 @@
       ],
       "locationHint": "Yellowknife",
       "country": "Canada",
-      "windowStart": "2026-08-21T08:40:51.450400Z",
-      "windowEnd": "2026-08-24T08:40:51.450400Z",
+      "windowStart": "2026-08-21T10:30:55.516432Z",
+      "windowEnd": "2026-08-24T10:30:55.516432Z",
       "peak": "2026-08-22T03:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.421,
-      "baseConfidence": 0.39,
-      "lastVerifiedAt": "2026-08-21T08:30:00Z",
+      "confidence": 0.356,
+      "baseConfidence": 0.33,
+      "lastVerifiedAt": "2026-08-21T10:20:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-08-21T08:40:51.450385Z",
-          "note": "30-minute nowcast; forecast time 2026-08-21T09:24:00Z."
+          "retrievedAt": "2026-08-21T10:30:55.516418Z",
+          "note": "30-minute nowcast; forecast time 2026-08-21T11:13:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-08-21T08:40:51.450390Z",
+          "retrievedAt": "2026-08-21T10:30:55.516423Z",
           "note": "3-day outlook, peak Kp 4."
         }
       ],
@@ -238,13 +238,13 @@
       "uncertaintyDays": 1.5,
       "confidence": 0.813,
       "baseConfidence": 0.9,
-      "lastVerifiedAt": "2026-08-21T08:40:51.137604Z",
+      "lastVerifiedAt": "2026-08-21T10:30:55.284579Z",
       "sources": [
         {
           "name": "Calendrical conversion",
           "url": "https://www.staff.science.uu.nl/~gent0113/islam/islam_tabcal.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-08-21T08:40:51.137603Z",
+          "retrievedAt": "2026-08-21T10:30:55.284578Z",
           "note": "Tabular Islamic calendar; regional moon sighting shifts observance by up to a day."
         }
       ],
@@ -272,13 +272,13 @@
       "uncertaintyDays": 12.25,
       "confidence": 0.108,
       "baseConfidence": 0.202,
-      "lastVerifiedAt": "2026-08-21T08:43:13.760061Z",
+      "lastVerifiedAt": "2026-08-21T10:33:18.432359Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
           "kind": "citizen",
-          "retrievedAt": "2026-08-21T08:43:13.760061Z",
+          "retrievedAt": "2026-08-21T10:33:18.432359Z",
           "note": "766 research-grade records in region; peak week 40; 0 in last 14 days."
         }
       ],
