@@ -78,56 +78,6 @@
     },
     {
       "type": "Feature",
-      "id": "aurora-5a3c323085",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          33.0827,
-          68.9585
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Murmansk",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 15% overhead tonight. Planetary Kp is forecast to peak near 4 on 22 Aug 03:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Murmansk",
-        "geocodedAddress": "Russia",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-21T18:36:24.692330Z",
-        "endUtc": "2026-08-24T18:36:24.692330Z",
-        "confidence": 0.432,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-0bc5b25af8",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.7294,
-          66.5039
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Rovaniemi",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 14% overhead tonight. Planetary Kp is forecast to peak near 4 on 22 Aug 03:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Rovaniemi",
-        "geocodedAddress": "Finland",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-21T18:36:24.692330Z",
-        "endUtc": "2026-08-24T18:36:24.692330Z",
-        "confidence": 0.421,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
       "id": "aurora-2ed8777683",
       "geometry": {
         "type": "Point",
@@ -141,13 +91,13 @@
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 13% overhead tonight. Planetary Kp is forecast to peak near 4 on 22 Aug 03:00 UTC. Clear skies and darkness still decide it.",
+        "description": "OVATION puts auroral visibility at 19% overhead tonight. Planetary Kp is forecast to peak near 4 on 22 Aug 03:00 UTC. Clear skies and darkness still decide it.",
         "locationHint": "Tromso",
         "geocodedAddress": "Norway",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-21T18:36:24.692330Z",
-        "endUtc": "2026-08-24T18:36:24.692330Z",
-        "confidence": 0.41,
+        "startUtc": "2026-08-21T20:25:43.474284Z",
+        "endUtc": "2026-08-24T20:25:43.474284Z",
+        "confidence": 0.475,
         "isWithinLiveWindow": true
       }
     },
@@ -166,13 +116,88 @@
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 13% overhead tonight. Planetary Kp is forecast to peak near 4 on 22 Aug 03:00 UTC. Clear skies and darkness still decide it.",
+        "description": "OVATION puts auroral visibility at 19% overhead tonight. Planetary Kp is forecast to peak near 4 on 22 Aug 03:00 UTC. Clear skies and darkness still decide it.",
         "locationHint": "Abisko",
         "geocodedAddress": "Sweden",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-21T18:36:24.692330Z",
-        "endUtc": "2026-08-24T18:36:24.692330Z",
-        "confidence": 0.41,
+        "startUtc": "2026-08-21T20:25:43.474284Z",
+        "endUtc": "2026-08-24T20:25:43.474284Z",
+        "confidence": 0.475,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-0bc5b25af8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7294,
+          66.5039
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Rovaniemi",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 19% overhead tonight. Planetary Kp is forecast to peak near 4 on 22 Aug 03:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Rovaniemi",
+        "geocodedAddress": "Finland",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-08-21T20:25:43.474284Z",
+        "endUtc": "2026-08-24T20:25:43.474284Z",
+        "confidence": 0.475,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-5a3c323085",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.0827,
+          68.9585
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Murmansk",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 18% overhead tonight. Planetary Kp is forecast to peak near 4 on 22 Aug 03:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Murmansk",
+        "geocodedAddress": "Russia",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-08-21T20:25:43.474284Z",
+        "endUtc": "2026-08-24T20:25:43.474284Z",
+        "confidence": 0.464,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-d3367b2365",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -21.9426,
+          64.1466
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Reykjavik",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 15% overhead tonight. Planetary Kp is forecast to peak near 4 on 22 Aug 03:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Reykjavik",
+        "geocodedAddress": "Iceland",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-08-21T20:25:43.474284Z",
+        "endUtc": "2026-08-24T20:25:43.474284Z",
+        "confidence": 0.432,
         "isWithinLiveWindow": true
       }
     },
