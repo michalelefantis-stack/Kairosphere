@@ -91,13 +91,13 @@
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 13% overhead tonight. Planetary Kp is forecast to peak near 4 on 22 Aug 03:00 UTC. Clear skies and darkness still decide it.",
+        "description": "OVATION puts auroral visibility at 14% overhead tonight. Planetary Kp is forecast to peak near 4 on 22 Aug 03:00 UTC. Clear skies and darkness still decide it.",
         "locationHint": "Fairbanks",
         "geocodedAddress": "United States",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-21T10:30:55.516432Z",
-        "endUtc": "2026-08-24T10:30:55.516432Z",
-        "confidence": 0.41,
+        "startUtc": "2026-08-21T12:47:55.950873Z",
+        "endUtc": "2026-08-24T12:47:55.950873Z",
+        "confidence": 0.421,
         "isWithinLiveWindow": true
       }
     },
@@ -120,8 +120,8 @@
         "locationHint": "Yellowknife",
         "geocodedAddress": "Canada",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-21T10:30:55.516432Z",
-        "endUtc": "2026-08-24T10:30:55.516432Z",
+        "startUtc": "2026-08-21T12:47:55.950873Z",
+        "endUtc": "2026-08-24T12:47:55.950873Z",
         "confidence": 0.356,
         "isWithinLiveWindow": true
       }
