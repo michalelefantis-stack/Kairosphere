@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T14:21:17.904238Z",
+  "generatedAt": "2026-08-22T16:25:09.095685Z",
   "horizonDays": 7,
   "counts": {
     "total": 5,
@@ -31,7 +31,7 @@
     {
       "id": "citizen-91513997e8",
       "name": "Horseshoe Crab Spawning",
-      "description": "Spawning peaks on new and full moon high tides, drawing the red knot migration that feeds on the eggs. Underway — roughly 96% through the typical window, with 62 reports in the last two weeks.",
+      "description": "Spawning peaks on new and full moon high tides, drawing the red knot migration that feeds on the eggs. Underway — roughly 96% through the typical window, with 63 reports in the last two weeks.",
       "category": "Animal Migration",
       "emoji": "🦀",
       "tier": 3,
@@ -47,14 +47,14 @@
       "uncertaintyDays": 21.0,
       "confidence": 0.34,
       "baseConfidence": 0.85,
-      "lastVerifiedAt": "2026-08-22T14:21:09.726445Z",
+      "lastVerifiedAt": "2026-08-22T16:25:03.415649Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=48302",
           "kind": "citizen",
-          "retrievedAt": "2026-08-22T14:21:09.726445Z",
-          "note": "6411 research-grade records in region; peak week 21; 62 in last 14 days."
+          "retrievedAt": "2026-08-22T16:25:03.415649Z",
+          "note": "6411 research-grade records in region; peak week 21; 63 in last 14 days."
         }
       ],
       "sensitivity": "public",
@@ -81,13 +81,13 @@
       "uncertaintyDays": 21.0,
       "confidence": 0.268,
       "baseConfidence": 0.67,
-      "lastVerifiedAt": "2026-08-22T14:21:09.726445Z",
+      "lastVerifiedAt": "2026-08-22T16:25:03.415649Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=41566",
           "kind": "citizen",
-          "retrievedAt": "2026-08-22T14:21:09.726445Z",
+          "retrievedAt": "2026-08-22T16:25:03.415649Z",
           "note": "2076 research-grade records in region; peak week 30; 10 in last 14 days."
         }
       ],
@@ -115,20 +115,20 @@
       "uncertaintyDays": 3.0,
       "confidence": 0.531,
       "baseConfidence": 0.576,
-      "lastVerifiedAt": "2026-08-22T14:21:07.534578Z",
+      "lastVerifiedAt": "2026-08-22T16:24:16.414498Z",
       "sources": [
         {
           "name": "Open-Meteo temperature series",
           "url": "https://api.open-meteo.com/v1/forecast",
           "kind": "model",
-          "retrievedAt": "2026-08-22T14:21:07.534566Z",
+          "retrievedAt": "2026-08-22T16:24:16.414486Z",
           "note": "GDD base 10.0C, threshold 520, accumulated 701."
         },
         {
           "name": "Bloom model calibration (first-pass)",
           "url": "pipeline/registry/bloom_models.json",
           "kind": "model",
-          "retrievedAt": "2026-08-22T14:21:07.534576Z",
+          "retrievedAt": "2026-08-22T16:24:16.414496Z",
           "note": "SANParks bloom-season reporting, typically mid-August to mid-September."
         }
       ],
@@ -156,13 +156,13 @@
       "uncertaintyDays": 1.5,
       "confidence": 0.813,
       "baseConfidence": 0.9,
-      "lastVerifiedAt": "2026-08-22T14:21:01.408225Z",
+      "lastVerifiedAt": "2026-08-22T16:24:09.089739Z",
       "sources": [
         {
           "name": "Calendrical conversion",
           "url": "https://www.staff.science.uu.nl/~gent0113/islam/islam_tabcal.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-08-22T14:21:01.408224Z",
+          "retrievedAt": "2026-08-22T16:24:09.089739Z",
           "note": "Tabular Islamic calendar; regional moon sighting shifts observance by up to a day."
         }
       ],
@@ -190,13 +190,13 @@
       "uncertaintyDays": 12.25,
       "confidence": 0.108,
       "baseConfidence": 0.202,
-      "lastVerifiedAt": "2026-08-22T14:21:09.726445Z",
+      "lastVerifiedAt": "2026-08-22T16:25:03.415649Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
           "kind": "citizen",
-          "retrievedAt": "2026-08-22T14:21:09.726445Z",
+          "retrievedAt": "2026-08-22T16:25:03.415649Z",
           "note": "766 research-grade records in region; peak week 40; 0 in last 14 days."
         }
       ],
