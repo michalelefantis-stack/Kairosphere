@@ -78,56 +78,6 @@
     },
     {
       "type": "Feature",
-      "id": "aurora-10da641efd",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          33.0827,
-          68.9585
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Murmansk",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 20% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 23 Aug 21:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Murmansk",
-        "geocodedAddress": "Russia",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-23T18:29:37.508366Z",
-        "endUtc": "2026-08-26T18:29:37.508366Z",
-        "confidence": 0.486,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-de6279099c",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.7294,
-          66.5039
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Rovaniemi",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 19% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 23 Aug 21:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Rovaniemi",
-        "geocodedAddress": "Finland",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-23T18:29:37.508366Z",
-        "endUtc": "2026-08-26T18:29:37.508366Z",
-        "confidence": 0.475,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
       "id": "aurora-d91ee1ad65",
       "geometry": {
         "type": "Point",
@@ -141,13 +91,13 @@
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 18% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 23 Aug 21:00 UTC. Clear skies and darkness still decide it.",
+        "description": "OVATION puts auroral visibility at 14% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 23 Aug 21:00 UTC. Clear skies and darkness still decide it.",
         "locationHint": "Tromso",
         "geocodedAddress": "Norway",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-23T18:29:37.508366Z",
-        "endUtc": "2026-08-26T18:29:37.508366Z",
-        "confidence": 0.464,
+        "startUtc": "2026-08-23T20:22:58.576112Z",
+        "endUtc": "2026-08-26T20:22:58.576112Z",
+        "confidence": 0.421,
         "isWithinLiveWindow": true
       }
     },
@@ -166,13 +116,63 @@
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 18% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 23 Aug 21:00 UTC. Clear skies and darkness still decide it.",
+        "description": "OVATION puts auroral visibility at 14% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 23 Aug 21:00 UTC. Clear skies and darkness still decide it.",
         "locationHint": "Abisko",
         "geocodedAddress": "Sweden",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-23T18:29:37.508366Z",
-        "endUtc": "2026-08-26T18:29:37.508366Z",
-        "confidence": 0.464,
+        "startUtc": "2026-08-23T20:22:58.576112Z",
+        "endUtc": "2026-08-26T20:22:58.576112Z",
+        "confidence": 0.421,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-de6279099c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7294,
+          66.5039
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Rovaniemi",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 14% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 23 Aug 21:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Rovaniemi",
+        "geocodedAddress": "Finland",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-08-23T20:22:58.576112Z",
+        "endUtc": "2026-08-26T20:22:58.576112Z",
+        "confidence": 0.421,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-10da641efd",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.0827,
+          68.9585
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Murmansk",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 14% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 23 Aug 21:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Murmansk",
+        "geocodedAddress": "Russia",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-08-23T20:22:58.576112Z",
+        "endUtc": "2026-08-26T20:22:58.576112Z",
+        "confidence": 0.421,
         "isWithinLiveWindow": true
       }
     },
@@ -195,8 +195,8 @@
         "locationHint": "Reykjavik",
         "geocodedAddress": "Iceland",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-23T18:29:37.508366Z",
-        "endUtc": "2026-08-26T18:29:37.508366Z",
+        "startUtc": "2026-08-23T20:22:58.576112Z",
+        "endUtc": "2026-08-26T20:22:58.576112Z",
         "confidence": 0.378,
         "isWithinLiveWindow": true
       }
