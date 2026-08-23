@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T01:20:23.391385Z",
+  "generatedAt": "2026-08-23T03:05:01.910809Z",
   "horizonDays": 7,
   "counts": {
     "total": 6,
@@ -12,16 +12,16 @@
     },
     "byBand": {
       "high": 1,
-      "medium": 1,
-      "low": 3,
+      "medium": 0,
+      "low": 4,
       "speculative": 1
     },
     "sourced": {
-      "collected": 65,
-      "reconciled": 65,
+      "collected": 66,
+      "reconciled": 66,
       "byTier": {
         "1": 56,
-        "2": 2,
+        "2": 3,
         "3": 3,
         "4": 4
       }
@@ -31,7 +31,7 @@
     {
       "id": "citizen-91513997e8",
       "name": "Horseshoe Crab Spawning",
-      "description": "Spawning peaks on new and full moon high tides, drawing the red knot migration that feeds on the eggs. Underway — roughly 97% through the typical window, with 61 reports in the last two weeks.",
+      "description": "Spawning peaks on new and full moon high tides, drawing the red knot migration that feeds on the eggs. Underway — roughly 97% through the typical window, with 63 reports in the last two weeks.",
       "category": "Animal Migration",
       "emoji": "🦀",
       "tier": 3,
@@ -47,14 +47,14 @@
       "uncertaintyDays": 21.0,
       "confidence": 0.34,
       "baseConfidence": 0.85,
-      "lastVerifiedAt": "2026-08-23T01:20:14.923311Z",
+      "lastVerifiedAt": "2026-08-23T03:04:56.453031Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=48302",
           "kind": "citizen",
-          "retrievedAt": "2026-08-23T01:20:14.923311Z",
-          "note": "6413 research-grade records in region; peak week 21; 61 in last 14 days."
+          "retrievedAt": "2026-08-23T03:04:56.453031Z",
+          "note": "6418 research-grade records in region; peak week 21; 63 in last 14 days."
         }
       ],
       "sensitivity": "public",
@@ -80,15 +80,15 @@
       "peak": "2026-07-23T00:00:00Z",
       "uncertaintyDays": 21.0,
       "confidence": 0.274,
-      "baseConfidence": 0.685,
-      "lastVerifiedAt": "2026-08-23T01:20:14.923311Z",
+      "baseConfidence": 0.686,
+      "lastVerifiedAt": "2026-08-23T03:04:56.453031Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=41566",
           "kind": "citizen",
-          "retrievedAt": "2026-08-23T01:20:14.923311Z",
-          "note": "2076 research-grade records in region; peak week 30; 11 in last 14 days."
+          "retrievedAt": "2026-08-23T03:04:56.453031Z",
+          "note": "2077 research-grade records in region; peak week 30; 11 in last 14 days."
         }
       ],
       "sensitivity": "public",
@@ -97,50 +97,50 @@
       "recurrence": "annual, observed"
     },
     {
-      "id": "bloom-1436a05fad",
-      "name": "Namaqualand Daisy Bloom",
-      "description": "Dimorphotheca sinuata and Namaqualand annuals. Heat sum reached — bloom underway (100% of threshold accumulated). Growing-degree-day model, base 10.0C from 04-15.",
-      "category": "Botanical Event",
-      "emoji": "🌼",
+      "id": "aurora-fb9784d6e6",
+      "name": "Aurora over Yellowknife",
+      "description": "OVATION puts auroral visibility at 9% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 23 Aug 18:00 UTC. Clear skies and darkness still decide it.",
+      "category": "Atmospheric Phenomenon",
+      "emoji": "🌌",
       "tier": 2,
       "coordinates": [
-        -30.1667,
-        17.8833
+        62.454,
+        -114.3718
       ],
-      "locationHint": "Skilpad, Namaqua National Park",
-      "country": "South Africa",
-      "windowStart": "2026-08-14T00:00:00Z",
-      "windowEnd": "2026-09-18T00:00:00Z",
-      "peak": "2026-08-25T00:00:00Z",
-      "uncertaintyDays": 3.0,
-      "confidence": 0.531,
-      "baseConfidence": 0.576,
-      "lastVerifiedAt": "2026-08-23T01:20:12.979817Z",
+      "locationHint": "Yellowknife",
+      "country": "Canada",
+      "windowStart": "2026-08-23T03:02:32.998805Z",
+      "windowEnd": "2026-08-26T03:02:32.998805Z",
+      "peak": "2026-08-23T18:00:00Z",
+      "uncertaintyDays": 0.5,
+      "confidence": 0.367,
+      "baseConfidence": 0.34,
+      "lastVerifiedAt": "2026-08-23T02:49:00Z",
       "sources": [
         {
-          "name": "Open-Meteo temperature series",
-          "url": "https://api.open-meteo.com/v1/forecast",
+          "name": "NOAA SWPC OVATION Aurora Model",
+          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-08-23T01:20:12.979803Z",
-          "note": "GDD base 10.0C, threshold 520, accumulated 683."
+          "retrievedAt": "2026-08-23T03:02:32.998788Z",
+          "note": "30-minute nowcast; forecast time 2026-08-23T03:54:00Z."
         },
         {
-          "name": "Bloom model calibration (first-pass)",
-          "url": "pipeline/registry/bloom_models.json",
+          "name": "NOAA SWPC Planetary K-index Forecast",
+          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-08-23T01:20:12.979815Z",
-          "note": "SANParks bloom-season reporting, typically mid-August to mid-September."
+          "retrievedAt": "2026-08-23T03:02:32.998794Z",
+          "note": "3-day outlook, peak Kp 1.67."
         }
       ],
       "sensitivity": "public",
       "precision": "point",
       "consent": "",
-      "recurrence": "annual, temperature-driven"
+      "recurrence": "solar-driven, episodic"
     },
     {
       "id": "aurora-e2152e0a63",
       "name": "Aurora over Reykjavik",
-      "description": "OVATION puts auroral visibility at 10% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 23 Aug 18:00 UTC. Clear skies and darkness still decide it.",
+      "description": "OVATION puts auroral visibility at 8% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 23 Aug 18:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
@@ -150,26 +150,26 @@
       ],
       "locationHint": "Reykjavik",
       "country": "Iceland",
-      "windowStart": "2026-08-23T01:20:08.080032Z",
-      "windowEnd": "2026-08-26T01:20:08.080032Z",
+      "windowStart": "2026-08-23T03:02:32.998805Z",
+      "windowEnd": "2026-08-26T03:02:32.998805Z",
       "peak": "2026-08-23T18:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.378,
-      "baseConfidence": 0.35,
-      "lastVerifiedAt": "2026-08-23T01:10:00Z",
+      "confidence": 0.356,
+      "baseConfidence": 0.33,
+      "lastVerifiedAt": "2026-08-23T02:49:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-08-23T01:20:08.080014Z",
-          "note": "30-minute nowcast; forecast time 2026-08-23T02:14:00Z."
+          "retrievedAt": "2026-08-23T03:02:32.998788Z",
+          "note": "30-minute nowcast; forecast time 2026-08-23T03:54:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-08-23T01:20:08.080020Z",
+          "retrievedAt": "2026-08-23T03:02:32.998794Z",
           "note": "3-day outlook, peak Kp 1.67."
         }
       ],
@@ -197,13 +197,13 @@
       "uncertaintyDays": 1.5,
       "confidence": 0.813,
       "baseConfidence": 0.9,
-      "lastVerifiedAt": "2026-08-23T01:20:07.699071Z",
+      "lastVerifiedAt": "2026-08-23T03:02:32.773292Z",
       "sources": [
         {
           "name": "Calendrical conversion",
           "url": "https://www.staff.science.uu.nl/~gent0113/islam/islam_tabcal.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-08-23T01:20:07.699071Z",
+          "retrievedAt": "2026-08-23T03:02:32.773292Z",
           "note": "Tabular Islamic calendar; regional moon sighting shifts observance by up to a day."
         }
       ],
@@ -215,7 +215,7 @@
     {
       "id": "citizen-7d87b1b9ca",
       "name": "Sockeye Salmon Run",
-      "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Season opens in about 3 days; 0 reports in the last two weeks.",
+      "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Season opens in about 3 days; 1 reports in the last two weeks.",
       "category": "Animal Migration",
       "emoji": "🐟",
       "tier": 3,
@@ -229,16 +229,16 @@
       "windowEnd": "2026-10-15T00:00:00Z",
       "peak": "2026-10-01T00:00:00Z",
       "uncertaintyDays": 12.25,
-      "confidence": 0.108,
-      "baseConfidence": 0.202,
-      "lastVerifiedAt": "2026-08-23T01:20:14.923311Z",
+      "confidence": 0.145,
+      "baseConfidence": 0.272,
+      "lastVerifiedAt": "2026-08-23T03:04:56.453031Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
           "kind": "citizen",
-          "retrievedAt": "2026-08-23T01:20:14.923311Z",
-          "note": "766 research-grade records in region; peak week 40; 0 in last 14 days."
+          "retrievedAt": "2026-08-23T03:04:56.453031Z",
+          "note": "767 research-grade records in region; peak week 40; 1 in last 14 days."
         }
       ],
       "sensitivity": "public",
