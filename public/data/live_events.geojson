@@ -53,6 +53,31 @@
     },
     {
       "type": "Feature",
+      "id": "bloom-1436a05fad",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8833,
+          -30.1667
+        ]
+      },
+      "properties": {
+        "name": "Namaqualand Daisy Bloom",
+        "emoji": "🌼",
+        "category": "Botanical Event",
+        "categoryLabel": "Botanical Event",
+        "description": "Dimorphotheca sinuata and Namaqualand annuals. Heat sum reached — bloom underway (100% of threshold accumulated). Growing-degree-day model, base 10.0C from 04-15.",
+        "locationHint": "Skilpad, Namaqua National Park",
+        "geocodedAddress": "South Africa",
+        "sourceUrl": "https://api.open-meteo.com/v1/forecast",
+        "startUtc": "2026-08-14T00:00:00Z",
+        "endUtc": "2026-09-18T00:00:00Z",
+        "confidence": 0.531,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
       "id": "cal-islamic-be85b4e65a",
       "geometry": {
         "type": "Point",
@@ -78,31 +103,6 @@
     },
     {
       "type": "Feature",
-      "id": "aurora-5b9eef45b5",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.3718,
-          62.454
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Yellowknife",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 15% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 24 Aug 21:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Yellowknife",
-        "geocodedAddress": "Canada",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-24T06:58:35.132133Z",
-        "endUtc": "2026-08-27T06:58:35.132133Z",
-        "confidence": 0.432,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
       "id": "aurora-ce77a9daa8",
       "geometry": {
         "type": "Point",
@@ -116,13 +116,38 @@
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 10% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 24 Aug 21:00 UTC. Clear skies and darkness still decide it.",
+        "description": "OVATION puts auroral visibility at 14% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 24 Aug 21:00 UTC. Clear skies and darkness still decide it.",
         "locationHint": "Fairbanks",
         "geocodedAddress": "United States",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-24T06:58:35.132133Z",
-        "endUtc": "2026-08-27T06:58:35.132133Z",
-        "confidence": 0.378,
+        "startUtc": "2026-08-24T08:48:20.165006Z",
+        "endUtc": "2026-08-27T08:48:20.165006Z",
+        "confidence": 0.421,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-5b9eef45b5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.3718,
+          62.454
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Yellowknife",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 12% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 24 Aug 21:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Yellowknife",
+        "geocodedAddress": "Canada",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-08-24T08:48:20.165006Z",
+        "endUtc": "2026-08-27T08:48:20.165006Z",
+        "confidence": 0.4,
         "isWithinLiveWindow": true
       }
     },
