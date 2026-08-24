@@ -103,31 +103,6 @@
     },
     {
       "type": "Feature",
-      "id": "aurora-ce77a9daa8",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.7164,
-          64.8378
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Fairbanks",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 8% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 24 Aug 21:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Fairbanks",
-        "geocodedAddress": "United States",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-24T12:50:42.226290Z",
-        "endUtc": "2026-08-27T12:50:42.226290Z",
-        "confidence": 0.356,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
       "id": "citizen-7d87b1b9ca",
       "geometry": {
         "type": "Point",
