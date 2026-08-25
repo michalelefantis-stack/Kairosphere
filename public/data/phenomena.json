@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T10:35:01.785326Z",
+  "generatedAt": "2026-08-25T12:49:53.746473Z",
   "horizonDays": 7,
   "counts": {
-    "total": 8,
-    "active": 6,
+    "total": 6,
+    "active": 4,
     "byTier": {
       "1": 1,
-      "2": 3,
+      "2": 1,
       "3": 3,
       "4": 1
     },
     "byBand": {
       "high": 1,
-      "medium": 1,
-      "low": 5,
+      "medium": 0,
+      "low": 4,
       "speculative": 1
     },
     "sourced": {
-      "collected": 66,
-      "reconciled": 66,
+      "collected": 65,
+      "reconciled": 65,
       "byTier": {
         "1": 56,
-        "2": 3,
+        "2": 2,
         "3": 3,
         "4": 4
       }
@@ -48,13 +48,13 @@
       "uncertaintyDays": 21.0,
       "confidence": 0.34,
       "baseConfidence": 0.85,
-      "lastVerifiedAt": "2026-08-25T10:34:56.590777Z",
+      "lastVerifiedAt": "2026-08-25T12:49:50.835882Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=48302",
           "kind": "citizen",
-          "retrievedAt": "2026-08-25T10:34:56.590777Z",
+          "retrievedAt": "2026-08-25T12:49:50.835882Z",
           "note": "6423 research-grade records in region; peak week 21; 54 in last 14 days."
         }
       ],
@@ -82,13 +82,13 @@
       "uncertaintyDays": 21.0,
       "confidence": 0.28,
       "baseConfidence": 0.7,
-      "lastVerifiedAt": "2026-08-25T10:34:56.590777Z",
+      "lastVerifiedAt": "2026-08-25T12:49:50.835882Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=41566",
           "kind": "citizen",
-          "retrievedAt": "2026-08-25T10:34:56.590777Z",
+          "retrievedAt": "2026-08-25T12:49:50.835882Z",
           "note": "2079 research-grade records in region; peak week 30; 12 in last 14 days."
         }
       ],
@@ -96,47 +96,6 @@
       "precision": "regional",
       "consent": "",
       "recurrence": "annual, observed"
-    },
-    {
-      "id": "bloom-1436a05fad",
-      "name": "Namaqualand Daisy Bloom",
-      "description": "Dimorphotheca sinuata and Namaqualand annuals. Heat sum reached — bloom underway (100% of threshold accumulated). Growing-degree-day model, base 10.0C from 04-15.",
-      "category": "Botanical Event",
-      "emoji": "🌼",
-      "tier": 2,
-      "coordinates": [
-        -30.1667,
-        17.8833
-      ],
-      "locationHint": "Skilpad, Namaqua National Park",
-      "country": "South Africa",
-      "windowStart": "2026-08-14T00:00:00Z",
-      "windowEnd": "2026-09-18T00:00:00Z",
-      "peak": "2026-08-25T00:00:00Z",
-      "uncertaintyDays": 3.0,
-      "confidence": 0.531,
-      "baseConfidence": 0.576,
-      "lastVerifiedAt": "2026-08-25T10:33:25.051995Z",
-      "sources": [
-        {
-          "name": "Open-Meteo temperature series",
-          "url": "https://api.open-meteo.com/v1/forecast",
-          "kind": "model",
-          "retrievedAt": "2026-08-25T10:33:25.051983Z",
-          "note": "GDD base 10.0C, threshold 520, accumulated 739."
-        },
-        {
-          "name": "Bloom model calibration (first-pass)",
-          "url": "pipeline/registry/bloom_models.json",
-          "kind": "model",
-          "retrievedAt": "2026-08-25T10:33:25.051993Z",
-          "note": "SANParks bloom-season reporting, typically mid-August to mid-September."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "annual, temperature-driven"
     },
     {
       "id": "cal-islamic-be85b4e65a",
@@ -157,13 +116,13 @@
       "uncertaintyDays": 1.5,
       "confidence": 0.813,
       "baseConfidence": 0.9,
-      "lastVerifiedAt": "2026-08-25T10:33:17.346029Z",
+      "lastVerifiedAt": "2026-08-25T12:47:26.843958Z",
       "sources": [
         {
           "name": "Calendrical conversion",
           "url": "https://www.staff.science.uu.nl/~gent0113/islam/islam_tabcal.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-08-25T10:33:17.346028Z",
+          "retrievedAt": "2026-08-25T12:47:26.843957Z",
           "note": "Tabular Islamic calendar; regional moon sighting shifts observance by up to a day."
         }
       ],
@@ -175,7 +134,7 @@
     {
       "id": "aurora-4746af18da",
       "name": "Aurora over Fairbanks",
-      "description": "OVATION puts auroral visibility at 13% overhead tonight. Planetary Kp is forecast to peak near 4 on 27 Aug 18:00 UTC. Clear skies and darkness still decide it.",
+      "description": "OVATION puts auroral visibility at 10% overhead tonight. Planetary Kp is forecast to peak near 4 on 27 Aug 18:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
@@ -185,67 +144,26 @@
       ],
       "locationHint": "Fairbanks",
       "country": "United States",
-      "windowStart": "2026-08-25T10:33:17.588825Z",
-      "windowEnd": "2026-08-28T10:33:17.588825Z",
+      "windowStart": "2026-08-25T12:47:27.130623Z",
+      "windowEnd": "2026-08-28T12:47:27.130623Z",
       "peak": "2026-08-27T18:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.41,
-      "baseConfidence": 0.38,
-      "lastVerifiedAt": "2026-08-25T10:26:00Z",
+      "confidence": 0.378,
+      "baseConfidence": 0.35,
+      "lastVerifiedAt": "2026-08-25T12:35:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-08-25T10:33:17.588809Z",
-          "note": "30-minute nowcast; forecast time 2026-08-25T11:44:00Z."
+          "retrievedAt": "2026-08-25T12:47:27.130598Z",
+          "note": "30-minute nowcast; forecast time 2026-08-25T13:54:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-08-25T10:33:17.588815Z",
-          "note": "3-day outlook, peak Kp 4."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
-    },
-    {
-      "id": "aurora-eedf86445d",
-      "name": "Aurora over Yellowknife",
-      "description": "OVATION puts auroral visibility at 8% overhead tonight. Planetary Kp is forecast to peak near 4 on 27 Aug 18:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        62.454,
-        -114.3718
-      ],
-      "locationHint": "Yellowknife",
-      "country": "Canada",
-      "windowStart": "2026-08-25T10:33:17.588825Z",
-      "windowEnd": "2026-08-28T10:33:17.588825Z",
-      "peak": "2026-08-27T18:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.356,
-      "baseConfidence": 0.33,
-      "lastVerifiedAt": "2026-08-25T10:26:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-08-25T10:33:17.588809Z",
-          "note": "30-minute nowcast; forecast time 2026-08-25T11:44:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-08-25T10:33:17.588815Z",
+          "retrievedAt": "2026-08-25T12:47:27.130604Z",
           "note": "3-day outlook, peak Kp 4."
         }
       ],
@@ -273,13 +191,13 @@
       "uncertaintyDays": 12.25,
       "confidence": 0.145,
       "baseConfidence": 0.272,
-      "lastVerifiedAt": "2026-08-25T10:34:56.590777Z",
+      "lastVerifiedAt": "2026-08-25T12:49:50.835882Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
           "kind": "citizen",
-          "retrievedAt": "2026-08-25T10:34:56.590777Z",
+          "retrievedAt": "2026-08-25T12:49:50.835882Z",
           "note": "767 research-grade records in region; peak week 40; 1 in last 14 days."
         }
       ],
