@@ -16,7 +16,7 @@
         "emoji": "🦀",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Spawning peaks on new and full moon high tides, drawing the red knot migration that feeds on the eggs. Underway — roughly 98% through the typical window, with 60 reports in the last two weeks.",
+        "description": "Spawning peaks on new and full moon high tides, drawing the red knot migration that feeds on the eggs. Underway — roughly 98% through the typical window, with 53 reports in the last two weeks.",
         "locationHint": "Delaware Bay",
         "geocodedAddress": "United States",
         "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=48302",
@@ -103,7 +103,7 @@
     },
     {
       "type": "Feature",
-      "id": "aurora-9eb61ba813",
+      "id": "aurora-868ce6674c",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -116,113 +116,13 @@
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 18% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 25 Aug 00:00 UTC. Clear skies and darkness still decide it.",
+        "description": "OVATION puts auroral visibility at 11% overhead tonight. Planetary Kp is forecast to peak near 4 on 27 Aug 18:00 UTC. Clear skies and darkness still decide it.",
         "locationHint": "Reykjavik",
         "geocodedAddress": "Iceland",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-24T22:26:51.377284Z",
-        "endUtc": "2026-08-27T22:26:51.377284Z",
-        "confidence": 0.464,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-ef8926a22d",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.9553,
-          69.6492
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Tromso",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 16% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 25 Aug 00:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Tromso",
-        "geocodedAddress": "Norway",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-24T22:26:51.377284Z",
-        "endUtc": "2026-08-27T22:26:51.377284Z",
-        "confidence": 0.443,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-aa6a40ce19",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.8303,
-          68.3494
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Abisko",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 16% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 25 Aug 00:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Abisko",
-        "geocodedAddress": "Sweden",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-24T22:26:51.377284Z",
-        "endUtc": "2026-08-27T22:26:51.377284Z",
-        "confidence": 0.443,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-a2537c8d34",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.7294,
-          66.5039
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Rovaniemi",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 15% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 25 Aug 00:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Rovaniemi",
-        "geocodedAddress": "Finland",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-24T22:26:51.377284Z",
-        "endUtc": "2026-08-27T22:26:51.377284Z",
-        "confidence": 0.432,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-3d179ecd82",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          33.0827,
-          68.9585
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Murmansk",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 14% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 25 Aug 00:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Murmansk",
-        "geocodedAddress": "Russia",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-24T22:26:51.377284Z",
-        "endUtc": "2026-08-27T22:26:51.377284Z",
-        "confidence": 0.421,
+        "startUtc": "2026-08-25T01:15:46.714311Z",
+        "endUtc": "2026-08-28T01:15:46.714311Z",
+        "confidence": 0.389,
         "isWithinLiveWindow": true
       }
     },
@@ -241,13 +141,38 @@
         "emoji": "🐟",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Season opens in about 2 days; 1 reports in the last two weeks.",
+        "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Season opens in about 1 days; 1 reports in the last two weeks.",
         "locationHint": "Adams River, British Columbia",
         "geocodedAddress": "Canada",
         "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
         "startUtc": "2026-08-27T00:00:00Z",
         "endUtc": "2026-10-15T00:00:00Z",
         "confidence": 0.145,
+        "isWithinLiveWindow": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "curated-71555bddfe",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10,
+          15
+        ]
+      },
+      "properties": {
+        "name": "Gerewol",
+        "emoji": "💃",
+        "category": "Human Ritual",
+        "categoryLabel": "Human Ritual",
+        "description": "Wodaabe men dance the yaake in ochre and beads for hours in the heat, judged by women of the clan. Held where herding groups converge as the rains end. Nomadic and weather-dependent — the gathering point shifts year to year, so coordinates are country-level on purpose.",
+        "locationHint": "Southern Niger (location follows the herds)",
+        "geocodedAddress": "Niger",
+        "sourceUrl": "https://ich.unesco.org/",
+        "startUtc": "2026-09-01T00:00:00Z",
+        "endUtc": "2026-09-30T00:00:00Z",
+        "confidence": 0.324,
         "isWithinLiveWindow": false
       }
     }
