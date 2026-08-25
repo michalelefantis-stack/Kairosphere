@@ -16,7 +16,7 @@
         "emoji": "🦀",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Spawning peaks on new and full moon high tides, drawing the red knot migration that feeds on the eggs. Underway — roughly 98% through the typical window, with 53 reports in the last two weeks.",
+        "description": "Spawning peaks on new and full moon high tides, drawing the red knot migration that feeds on the eggs. Underway — roughly 98% through the typical window, with 54 reports in the last two weeks.",
         "locationHint": "Delaware Bay",
         "geocodedAddress": "United States",
         "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=48302",
@@ -98,31 +98,6 @@
         "startUtc": "2026-08-24T00:00:00Z",
         "endUtc": "2026-08-26T00:00:00Z",
         "confidence": 0.813,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-868ce6674c",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -21.9426,
-          64.1466
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Reykjavik",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 11% overhead tonight. Planetary Kp is forecast to peak near 4 on 27 Aug 18:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Reykjavik",
-        "geocodedAddress": "Iceland",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-25T01:15:46.714311Z",
-        "endUtc": "2026-08-28T01:15:46.714311Z",
-        "confidence": 0.389,
         "isWithinLiveWindow": true
       }
     },
