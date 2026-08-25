@@ -103,6 +103,31 @@
     },
     {
       "type": "Feature",
+      "id": "aurora-eedf86445d",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.3718,
+          62.454
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Yellowknife",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 9% overhead tonight. Planetary Kp is forecast to peak near 4 on 27 Aug 18:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Yellowknife",
+        "geocodedAddress": "Canada",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-08-25T04:38:38.711568Z",
+        "endUtc": "2026-08-28T04:38:38.711568Z",
+        "confidence": 0.367,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
       "id": "citizen-7d87b1b9ca",
       "geometry": {
         "type": "Point",
