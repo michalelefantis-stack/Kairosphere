@@ -16,7 +16,7 @@
         "emoji": "🦀",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Spawning peaks on new and full moon high tides, drawing the red knot migration that feeds on the eggs. Underway — roughly 100% through the typical window, with 55 reports in the last two weeks.",
+        "description": "Spawning peaks on new and full moon high tides, drawing the red knot migration that feeds on the eggs. Underway — roughly 100% through the typical window, with 56 reports in the last two weeks.",
         "locationHint": "Delaware Bay",
         "geocodedAddress": "United States",
         "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=48302",
@@ -48,6 +48,31 @@
         "startUtc": "2026-05-14T00:00:00Z",
         "endUtc": "2026-09-17T00:00:00Z",
         "confidence": 0.268,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bloom-1436a05fad",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8833,
+          -30.1667
+        ]
+      },
+      "properties": {
+        "name": "Namaqualand Daisy Bloom",
+        "emoji": "🌼",
+        "category": "Botanical Event",
+        "categoryLabel": "Botanical Event",
+        "description": "Dimorphotheca sinuata and Namaqualand annuals. Heat sum reached — bloom underway (100% of threshold accumulated). Growing-degree-day model, base 10.0C from 04-15.",
+        "locationHint": "Skilpad, Namaqua National Park",
+        "geocodedAddress": "South Africa",
+        "sourceUrl": "https://api.open-meteo.com/v1/forecast",
+        "startUtc": "2026-08-14T00:00:00Z",
+        "endUtc": "2026-09-18T00:00:00Z",
+        "confidence": 0.531,
         "isWithinLiveWindow": true
       }
     },
