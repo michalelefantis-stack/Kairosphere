@@ -91,13 +91,13 @@
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 12% overhead tonight. Planetary Kp is forecast to peak near 5.67 on 28 Aug 00:00 UTC. Clear skies and darkness still decide it.",
+        "description": "OVATION puts auroral visibility at 9% overhead tonight. Planetary Kp is forecast to peak near 5.67 on 28 Aug 00:00 UTC. Clear skies and darkness still decide it.",
         "locationHint": "Fairbanks",
         "geocodedAddress": "United States",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-26T10:35:18.598468Z",
-        "endUtc": "2026-08-29T10:35:18.598468Z",
-        "confidence": 0.399,
+        "startUtc": "2026-08-26T12:52:06.101374Z",
+        "endUtc": "2026-08-29T12:52:06.101374Z",
+        "confidence": 0.367,
         "isWithinLiveWindow": true
       }
     },
