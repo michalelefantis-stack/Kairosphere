@@ -16,38 +16,13 @@
         "emoji": "🐋",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Cooperative bubble-net feeding, a learned behaviour passed between individuals rather than inherited. Underway — roughly 84% through the typical window, with 12 reports in the last two weeks.",
+        "description": "Cooperative bubble-net feeding, a learned behaviour passed between individuals rather than inherited. Underway — roughly 85% through the typical window, with 13 reports in the last two weeks.",
         "locationHint": "Southeast Alaska, Chatham Strait",
         "geocodedAddress": "United States",
         "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=41566",
         "startUtc": "2026-05-14T00:00:00Z",
         "endUtc": "2026-09-17T00:00:00Z",
-        "confidence": 0.28,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "bloom-1436a05fad",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.8833,
-          -30.1667
-        ]
-      },
-      "properties": {
-        "name": "Namaqualand Daisy Bloom",
-        "emoji": "🌼",
-        "category": "Botanical Event",
-        "categoryLabel": "Botanical Event",
-        "description": "Dimorphotheca sinuata and Namaqualand annuals. Heat sum reached — bloom underway (100% of threshold accumulated). Growing-degree-day model, base 10.0C from 04-15.",
-        "locationHint": "Skilpad, Namaqua National Park",
-        "geocodedAddress": "South Africa",
-        "sourceUrl": "https://api.open-meteo.com/v1/forecast",
-        "startUtc": "2026-08-14T00:00:00Z",
-        "endUtc": "2026-09-18T00:00:00Z",
-        "confidence": 0.531,
+        "confidence": 0.286,
         "isWithinLiveWindow": true
       }
     },
@@ -66,13 +41,163 @@
         "emoji": "🐟",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Underway — roughly 2% through the typical window, with 2 reports in the last two weeks.",
+        "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Underway — roughly 4% through the typical window, with 3 reports in the last two weeks.",
         "locationHint": "Adams River, British Columbia",
         "geocodedAddress": "Canada",
         "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
         "startUtc": "2026-08-27T00:00:00Z",
         "endUtc": "2026-10-15T00:00:00Z",
-        "confidence": 0.229,
+        "confidence": 0.246,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-f17af8c382",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.0827,
+          68.9585
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Murmansk",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 30% overhead tonight. Planetary Kp is forecast to peak near 5.67 on 28 Aug 21:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Murmansk",
+        "geocodedAddress": "Russia",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-08-28T18:16:26.441142Z",
+        "endUtc": "2026-08-31T18:16:26.441142Z",
+        "confidence": 0.594,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-5e24283941",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9553,
+          69.6492
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Tromso",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 29% overhead tonight. Planetary Kp is forecast to peak near 5.67 on 28 Aug 21:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Tromso",
+        "geocodedAddress": "Norway",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-08-28T18:16:26.441142Z",
+        "endUtc": "2026-08-31T18:16:26.441142Z",
+        "confidence": 0.583,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-a0468a83de",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8303,
+          68.3494
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Abisko",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 29% overhead tonight. Planetary Kp is forecast to peak near 5.67 on 28 Aug 21:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Abisko",
+        "geocodedAddress": "Sweden",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-08-28T18:16:26.441142Z",
+        "endUtc": "2026-08-31T18:16:26.441142Z",
+        "confidence": 0.583,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-5c819c6cb0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7294,
+          66.5039
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Rovaniemi",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 29% overhead tonight. Planetary Kp is forecast to peak near 5.67 on 28 Aug 21:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Rovaniemi",
+        "geocodedAddress": "Finland",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-08-28T18:16:26.441142Z",
+        "endUtc": "2026-08-31T18:16:26.441142Z",
+        "confidence": 0.583,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-3a5693dcd1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -21.9426,
+          64.1466
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Reykjavik",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 18% overhead tonight. Planetary Kp is forecast to peak near 5.67 on 28 Aug 21:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Reykjavik",
+        "geocodedAddress": "Iceland",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-08-28T18:16:26.441142Z",
+        "endUtc": "2026-08-31T18:16:26.441142Z",
+        "confidence": 0.464,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-7a25dba442",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Fairbanks",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 9% overhead tonight. Planetary Kp is forecast to peak near 5.67 on 28 Aug 21:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Fairbanks",
+        "geocodedAddress": "United States",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-08-28T18:16:26.441142Z",
+        "endUtc": "2026-08-31T18:16:26.441142Z",
+        "confidence": 0.367,
         "isWithinLiveWindow": true
       }
     },
@@ -97,7 +222,7 @@
         "sourceUrl": "https://ich.unesco.org/",
         "startUtc": "2026-09-01T00:00:00Z",
         "endUtc": "2026-09-30T00:00:00Z",
-        "confidence": 0.318,
+        "confidence": 0.317,
         "isWithinLiveWindow": false
       }
     }
