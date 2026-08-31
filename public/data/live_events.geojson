@@ -78,26 +78,26 @@
     },
     {
       "type": "Feature",
-      "id": "aurora-ebd2406858",
+      "id": "aurora-02e8c92e07",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.0827,
-          68.9585
+          -21.9426,
+          64.1466
         ]
       },
       "properties": {
-        "name": "Aurora over Murmansk",
+        "name": "Aurora over Reykjavik",
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 19% overhead tonight. Planetary Kp is forecast to peak near 3 on 01 Sep 00:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Murmansk",
-        "geocodedAddress": "Russia",
+        "description": "OVATION puts auroral visibility at 13% overhead tonight. Planetary Kp is forecast to peak near 3 on 01 Sep 00:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Reykjavik",
+        "geocodedAddress": "Iceland",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-31T17:24:57.402760Z",
-        "endUtc": "2026-09-03T17:24:57.402760Z",
-        "confidence": 0.475,
+        "startUtc": "2026-08-31T22:33:56.777605Z",
+        "endUtc": "2026-09-03T22:33:56.777605Z",
+        "confidence": 0.41,
         "isWithinLiveWindow": true
       }
     },
@@ -116,13 +116,13 @@
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 17% overhead tonight. Planetary Kp is forecast to peak near 3 on 01 Sep 00:00 UTC. Clear skies and darkness still decide it.",
+        "description": "OVATION puts auroral visibility at 11% overhead tonight. Planetary Kp is forecast to peak near 3 on 01 Sep 00:00 UTC. Clear skies and darkness still decide it.",
         "locationHint": "Tromso",
         "geocodedAddress": "Norway",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-31T17:24:57.402760Z",
-        "endUtc": "2026-09-03T17:24:57.402760Z",
-        "confidence": 0.453,
+        "startUtc": "2026-08-31T22:33:56.777605Z",
+        "endUtc": "2026-09-03T22:33:56.777605Z",
+        "confidence": 0.389,
         "isWithinLiveWindow": true
       }
     },
@@ -141,13 +141,13 @@
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 17% overhead tonight. Planetary Kp is forecast to peak near 3 on 01 Sep 00:00 UTC. Clear skies and darkness still decide it.",
+        "description": "OVATION puts auroral visibility at 11% overhead tonight. Planetary Kp is forecast to peak near 3 on 01 Sep 00:00 UTC. Clear skies and darkness still decide it.",
         "locationHint": "Abisko",
         "geocodedAddress": "Sweden",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-31T17:24:57.402760Z",
-        "endUtc": "2026-09-03T17:24:57.402760Z",
-        "confidence": 0.453,
+        "startUtc": "2026-08-31T22:33:56.777605Z",
+        "endUtc": "2026-09-03T22:33:56.777605Z",
+        "confidence": 0.389,
         "isWithinLiveWindow": true
       }
     },
@@ -166,38 +166,38 @@
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 17% overhead tonight. Planetary Kp is forecast to peak near 3 on 01 Sep 00:00 UTC. Clear skies and darkness still decide it.",
+        "description": "OVATION puts auroral visibility at 11% overhead tonight. Planetary Kp is forecast to peak near 3 on 01 Sep 00:00 UTC. Clear skies and darkness still decide it.",
         "locationHint": "Rovaniemi",
         "geocodedAddress": "Finland",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-31T17:24:57.402760Z",
-        "endUtc": "2026-09-03T17:24:57.402760Z",
-        "confidence": 0.453,
+        "startUtc": "2026-08-31T22:33:56.777605Z",
+        "endUtc": "2026-09-03T22:33:56.777605Z",
+        "confidence": 0.389,
         "isWithinLiveWindow": true
       }
     },
     {
       "type": "Feature",
-      "id": "aurora-02e8c92e07",
+      "id": "aurora-ebd2406858",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -21.9426,
-          64.1466
+          33.0827,
+          68.9585
         ]
       },
       "properties": {
-        "name": "Aurora over Reykjavik",
+        "name": "Aurora over Murmansk",
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 8% overhead tonight. Planetary Kp is forecast to peak near 3 on 01 Sep 00:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Reykjavik",
-        "geocodedAddress": "Iceland",
+        "description": "OVATION puts auroral visibility at 10% overhead tonight. Planetary Kp is forecast to peak near 3 on 01 Sep 00:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Murmansk",
+        "geocodedAddress": "Russia",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-08-31T17:24:57.402760Z",
-        "endUtc": "2026-09-03T17:24:57.402760Z",
-        "confidence": 0.356,
+        "startUtc": "2026-08-31T22:33:56.777605Z",
+        "endUtc": "2026-09-03T22:33:56.777605Z",
+        "confidence": 0.378,
         "isWithinLiveWindow": true
       }
     },
@@ -222,7 +222,7 @@
         "sourceUrl": "https://ich.unesco.org/",
         "startUtc": "2026-09-01T00:00:00Z",
         "endUtc": "2026-09-30T00:00:00Z",
-        "confidence": 0.312,
+        "confidence": 0.311,
         "isWithinLiveWindow": false
       }
     }
