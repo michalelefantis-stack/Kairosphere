@@ -16,7 +16,7 @@
         "emoji": "🐋",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Cooperative bubble-net feeding, a learned behaviour passed between individuals rather than inherited. Underway — roughly 88% through the typical window, with 13 reports in the last two weeks.",
+        "description": "Cooperative bubble-net feeding, a learned behaviour passed between individuals rather than inherited. Underway — roughly 89% through the typical window, with 13 reports in the last two weeks.",
         "locationHint": "Southeast Alaska, Chatham Strait",
         "geocodedAddress": "United States",
         "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=41566",
@@ -72,57 +72,7 @@
         "sourceUrl": "https://ich.unesco.org/",
         "startUtc": "2026-09-01T00:00:00Z",
         "endUtc": "2026-09-30T00:00:00Z",
-        "confidence": 0.309,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-70d624d68b",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -147.7164,
-          64.8378
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Fairbanks",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 21% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 02 Sep 21:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Fairbanks",
-        "geocodedAddress": "United States",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-09-02T08:28:15.164550Z",
-        "endUtc": "2026-09-05T08:28:15.164550Z",
-        "confidence": 0.497,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-ab4bcba860",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.3718,
-          62.454
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Yellowknife",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 18% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 02 Sep 21:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Yellowknife",
-        "geocodedAddress": "Canada",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-09-02T08:28:15.164550Z",
-        "endUtc": "2026-09-05T08:28:15.164550Z",
-        "confidence": 0.464,
+        "confidence": 0.308,
         "isWithinLiveWindow": true
       }
     }

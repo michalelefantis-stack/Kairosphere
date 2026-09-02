@@ -1,27 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T08:30:45.541468Z",
+  "generatedAt": "2026-09-02T14:11:03.776938Z",
   "horizonDays": 7,
   "counts": {
-    "total": 5,
-    "active": 5,
+    "total": 3,
+    "active": 3,
     "byTier": {
-      "2": 2,
       "3": 2,
       "4": 1
     },
     "byBand": {
       "high": 0,
-      "medium": 2,
+      "medium": 0,
       "low": 3,
       "speculative": 0
     },
     "sourced": {
-      "collected": 66,
-      "reconciled": 66,
+      "collected": 64,
+      "reconciled": 64,
       "byTier": {
         "1": 56,
-        "2": 3,
+        "2": 1,
         "3": 3,
         "4": 4
       }
@@ -31,7 +30,7 @@
     {
       "id": "citizen-2fecf84856",
       "name": "Humpback Bubble-Net Feeding",
-      "description": "Cooperative bubble-net feeding, a learned behaviour passed between individuals rather than inherited. Underway — roughly 88% through the typical window, with 13 reports in the last two weeks.",
+      "description": "Cooperative bubble-net feeding, a learned behaviour passed between individuals rather than inherited. Underway — roughly 89% through the typical window, with 13 reports in the last two weeks.",
       "category": "Animal Migration",
       "emoji": "🐋",
       "tier": 3,
@@ -47,14 +46,14 @@
       "uncertaintyDays": 21.0,
       "confidence": 0.286,
       "baseConfidence": 0.715,
-      "lastVerifiedAt": "2026-09-02T08:30:38.665282Z",
+      "lastVerifiedAt": "2026-09-02T14:10:57.115482Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=41566",
           "kind": "citizen",
-          "retrievedAt": "2026-09-02T08:30:38.665282Z",
-          "note": "2092 research-grade records in region; peak week 30; 13 in last 14 days."
+          "retrievedAt": "2026-09-02T14:10:57.115482Z",
+          "note": "2093 research-grade records in region; peak week 30; 13 in last 14 days."
         }
       ],
       "sensitivity": "public",
@@ -81,13 +80,13 @@
       "uncertaintyDays": 12.25,
       "confidence": 0.305,
       "baseConfidence": 0.572,
-      "lastVerifiedAt": "2026-09-02T08:30:38.665282Z",
+      "lastVerifiedAt": "2026-09-02T14:10:57.115482Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
           "kind": "citizen",
-          "retrievedAt": "2026-09-02T08:30:38.665282Z",
+          "retrievedAt": "2026-09-02T14:10:57.115482Z",
           "note": "774 research-grade records in region; peak week 40; 8 in last 14 days."
         }
       ],
@@ -113,7 +112,7 @@
       "windowEnd": "2026-09-30T00:00:00Z",
       "peak": null,
       "uncertaintyDays": 9.67,
-      "confidence": 0.309,
+      "confidence": 0.308,
       "baseConfidence": 0.85,
       "lastVerifiedAt": "2026-06-10T00:00:00Z",
       "sources": [
@@ -129,88 +128,6 @@
       "precision": "country",
       "consent": "Attend only with Wodaabe hosts or the specialist operators who arrange with them. No fixed public venue exists.",
       "recurrence": "month_window"
-    },
-    {
-      "id": "aurora-70d624d68b",
-      "name": "Aurora over Fairbanks",
-      "description": "OVATION puts auroral visibility at 21% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 02 Sep 21:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        64.8378,
-        -147.7164
-      ],
-      "locationHint": "Fairbanks",
-      "country": "United States",
-      "windowStart": "2026-09-02T08:28:15.164550Z",
-      "windowEnd": "2026-09-05T08:28:15.164550Z",
-      "peak": "2026-09-02T21:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.497,
-      "baseConfidence": 0.46,
-      "lastVerifiedAt": "2026-09-02T08:20:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-09-02T08:28:15.164531Z",
-          "note": "30-minute nowcast; forecast time 2026-09-02T09:31:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-09-02T08:28:15.164538Z",
-          "note": "3-day outlook, peak Kp 1.67."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
-    },
-    {
-      "id": "aurora-ab4bcba860",
-      "name": "Aurora over Yellowknife",
-      "description": "OVATION puts auroral visibility at 18% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 02 Sep 21:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        62.454,
-        -114.3718
-      ],
-      "locationHint": "Yellowknife",
-      "country": "Canada",
-      "windowStart": "2026-09-02T08:28:15.164550Z",
-      "windowEnd": "2026-09-05T08:28:15.164550Z",
-      "peak": "2026-09-02T21:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.464,
-      "baseConfidence": 0.43,
-      "lastVerifiedAt": "2026-09-02T08:20:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-09-02T08:28:15.164531Z",
-          "note": "30-minute nowcast; forecast time 2026-09-02T09:31:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-09-02T08:28:15.164538Z",
-          "note": "3-day outlook, peak Kp 1.67."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
     }
   ]
 }
