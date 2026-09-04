@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-04T08:32:37.485655Z",
+  "generatedAt": "2026-09-04T14:04:16.015061Z",
   "horizonDays": 7,
   "counts": {
-    "total": 6,
-    "active": 6,
+    "total": 4,
+    "active": 4,
     "byTier": {
-      "2": 3,
+      "2": 1,
       "3": 2,
       "4": 1
     },
     "byBand": {
       "high": 0,
-      "medium": 3,
+      "medium": 1,
       "low": 3,
       "speculative": 0
     },
     "sourced": {
-      "collected": 66,
-      "reconciled": 66,
+      "collected": 64,
+      "reconciled": 64,
       "byTier": {
         "1": 56,
-        "2": 3,
+        "2": 1,
         "3": 3,
         "4": 4
       }
@@ -45,16 +45,16 @@
       "windowEnd": "2026-09-17T00:00:00Z",
       "peak": "2026-07-23T00:00:00Z",
       "uncertaintyDays": 21.0,
-      "confidence": 0.28,
+      "confidence": 0.281,
       "baseConfidence": 0.701,
-      "lastVerifiedAt": "2026-09-04T08:32:31.335851Z",
+      "lastVerifiedAt": "2026-09-04T14:04:07.363209Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=41566",
           "kind": "citizen",
-          "retrievedAt": "2026-09-04T08:32:31.335851Z",
-          "note": "2094 research-grade records in region; peak week 30; 12 in last 14 days."
+          "retrievedAt": "2026-09-04T14:04:07.363209Z",
+          "note": "2097 research-grade records in region; peak week 30; 12 in last 14 days."
         }
       ],
       "sensitivity": "public",
@@ -81,20 +81,20 @@
       "uncertaintyDays": 3.0,
       "confidence": 0.531,
       "baseConfidence": 0.576,
-      "lastVerifiedAt": "2026-09-04T08:31:44.883112Z",
+      "lastVerifiedAt": "2026-09-04T14:02:33.439262Z",
       "sources": [
         {
           "name": "Open-Meteo temperature series",
           "url": "https://api.open-meteo.com/v1/forecast",
           "kind": "model",
-          "retrievedAt": "2026-09-04T08:31:44.883101Z",
-          "note": "GDD base 10.0C, threshold 520, accumulated 875."
+          "retrievedAt": "2026-09-04T14:02:33.439245Z",
+          "note": "GDD base 10.0C, threshold 520, accumulated 876."
         },
         {
           "name": "Bloom model calibration (first-pass)",
           "url": "pipeline/registry/bloom_models.json",
           "kind": "model",
-          "retrievedAt": "2026-09-04T08:31:44.883111Z",
+          "retrievedAt": "2026-09-04T14:02:33.439259Z",
           "note": "SANParks bloom-season reporting, typically mid-August to mid-September."
         }
       ],
@@ -106,7 +106,7 @@
     {
       "id": "citizen-7d87b1b9ca",
       "name": "Sockeye Salmon Run",
-      "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Underway — roughly 17% through the typical window, with 9 reports in the last two weeks.",
+      "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Underway — roughly 18% through the typical window, with 9 reports in the last two weeks.",
       "category": "Animal Migration",
       "emoji": "🐟",
       "tier": 3,
@@ -122,13 +122,13 @@
       "uncertaintyDays": 12.25,
       "confidence": 0.314,
       "baseConfidence": 0.589,
-      "lastVerifiedAt": "2026-09-04T08:32:31.335851Z",
+      "lastVerifiedAt": "2026-09-04T14:04:07.363209Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
           "kind": "citizen",
-          "retrievedAt": "2026-09-04T08:32:31.335851Z",
+          "retrievedAt": "2026-09-04T14:04:07.363209Z",
           "note": "776 research-grade records in region; peak week 40; 9 in last 14 days."
         }
       ],
@@ -170,88 +170,6 @@
       "precision": "country",
       "consent": "Attend only with Wodaabe hosts or the specialist operators who arrange with them. No fixed public venue exists.",
       "recurrence": "month_window"
-    },
-    {
-      "id": "aurora-3102925da9",
-      "name": "Aurora over Fairbanks",
-      "description": "OVATION puts auroral visibility at 19% overhead tonight. Planetary Kp is forecast to peak near 3.33 on 07 Sep 00:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        64.8378,
-        -147.7164
-      ],
-      "locationHint": "Fairbanks",
-      "country": "United States",
-      "windowStart": "2026-09-04T08:31:37.617974Z",
-      "windowEnd": "2026-09-07T08:31:37.617974Z",
-      "peak": "2026-09-07T00:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.475,
-      "baseConfidence": 0.44,
-      "lastVerifiedAt": "2026-09-04T08:20:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-09-04T08:31:37.617957Z",
-          "note": "30-minute nowcast; forecast time 2026-09-04T09:30:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-09-04T08:31:37.617963Z",
-          "note": "3-day outlook, peak Kp 3.33."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
-    },
-    {
-      "id": "aurora-b1835b42c7",
-      "name": "Aurora over Yellowknife",
-      "description": "OVATION puts auroral visibility at 17% overhead tonight. Planetary Kp is forecast to peak near 3.33 on 07 Sep 00:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        62.454,
-        -114.3718
-      ],
-      "locationHint": "Yellowknife",
-      "country": "Canada",
-      "windowStart": "2026-09-04T08:31:37.617974Z",
-      "windowEnd": "2026-09-07T08:31:37.617974Z",
-      "peak": "2026-09-07T00:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.453,
-      "baseConfidence": 0.42,
-      "lastVerifiedAt": "2026-09-04T08:20:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-09-04T08:31:37.617957Z",
-          "note": "30-minute nowcast; forecast time 2026-09-04T09:30:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-09-04T08:31:37.617963Z",
-          "note": "3-day outlook, peak Kp 3.33."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
     }
   ]
 }
