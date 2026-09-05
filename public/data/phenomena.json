@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-05T13:19:31.334668Z",
+  "generatedAt": "2026-09-05T16:35:13.588467Z",
   "horizonDays": 7,
   "counts": {
     "total": 4,
@@ -47,13 +47,13 @@
       "uncertaintyDays": 21.0,
       "confidence": 0.286,
       "baseConfidence": 0.716,
-      "lastVerifiedAt": "2026-09-05T13:19:26.724751Z",
+      "lastVerifiedAt": "2026-09-05T16:35:04.973103Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=41566",
           "kind": "citizen",
-          "retrievedAt": "2026-09-05T13:19:26.724751Z",
+          "retrievedAt": "2026-09-05T16:35:04.973103Z",
           "note": "2099 research-grade records in region; peak week 30; 13 in last 14 days."
         }
       ],
@@ -81,20 +81,20 @@
       "uncertaintyDays": 3.0,
       "confidence": 0.531,
       "baseConfidence": 0.576,
-      "lastVerifiedAt": "2026-09-05T13:17:10.737008Z",
+      "lastVerifiedAt": "2026-09-05T16:34:18.922988Z",
       "sources": [
         {
           "name": "Open-Meteo temperature series",
           "url": "https://api.open-meteo.com/v1/forecast",
           "kind": "model",
-          "retrievedAt": "2026-09-05T13:17:10.736996Z",
-          "note": "GDD base 10.0C, threshold 520, accumulated 672."
+          "retrievedAt": "2026-09-05T16:34:18.922975Z",
+          "note": "GDD base 10.0C, threshold 520, accumulated 844."
         },
         {
           "name": "Bloom model calibration (first-pass)",
           "url": "pipeline/registry/bloom_models.json",
           "kind": "model",
-          "retrievedAt": "2026-09-05T13:17:10.737006Z",
+          "retrievedAt": "2026-09-05T16:34:18.922986Z",
           "note": "SANParks bloom-season reporting, typically mid-August to mid-September."
         }
       ],
@@ -122,13 +122,13 @@
       "uncertaintyDays": 12.25,
       "confidence": 0.323,
       "baseConfidence": 0.605,
-      "lastVerifiedAt": "2026-09-05T13:19:26.724751Z",
+      "lastVerifiedAt": "2026-09-05T16:35:04.973103Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
           "kind": "citizen",
-          "retrievedAt": "2026-09-05T13:19:26.724751Z",
+          "retrievedAt": "2026-09-05T16:35:04.973103Z",
           "note": "777 research-grade records in region; peak week 40; 10 in last 14 days."
         }
       ],
