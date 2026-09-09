@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T14:12:46.571399Z",
+  "generatedAt": "2026-09-09T19:08:26.683556Z",
   "horizonDays": 7,
   "counts": {
-    "total": 11,
-    "active": 10,
+    "total": 10,
+    "active": 9,
     "byTier": {
-      "2": 7,
+      "2": 6,
       "3": 2,
       "4": 2
     },
     "byBand": {
       "high": 0,
-      "medium": 5,
-      "low": 6,
+      "medium": 6,
+      "low": 4,
       "speculative": 0
     },
     "sourced": {
-      "collected": 71,
-      "reconciled": 71,
+      "collected": 70,
+      "reconciled": 70,
       "byTier": {
         "1": 56,
-        "2": 7,
+        "2": 6,
         "3": 4,
         "4": 4
       }
@@ -47,13 +47,13 @@
       "uncertaintyDays": 21.0,
       "confidence": 0.302,
       "baseConfidence": 0.756,
-      "lastVerifiedAt": "2026-09-09T14:12:38.670122Z",
+      "lastVerifiedAt": "2026-09-09T19:08:20.139274Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=41566",
           "kind": "citizen",
-          "retrievedAt": "2026-09-09T14:12:38.670122Z",
+          "retrievedAt": "2026-09-09T19:08:20.139274Z",
           "note": "2110 research-grade records in region; peak week 30; 16 in last 14 days."
         }
       ],
@@ -81,20 +81,20 @@
       "uncertaintyDays": 3.0,
       "confidence": 0.531,
       "baseConfidence": 0.576,
-      "lastVerifiedAt": "2026-09-09T14:12:37.032101Z",
+      "lastVerifiedAt": "2026-09-09T19:06:49.291927Z",
       "sources": [
         {
           "name": "Open-Meteo temperature series",
           "url": "https://api.open-meteo.com/v1/forecast",
           "kind": "model",
-          "retrievedAt": "2026-09-09T14:12:37.032088Z",
-          "note": "GDD base 10.0C, threshold 520, accumulated 872."
+          "retrievedAt": "2026-09-09T19:06:49.291915Z",
+          "note": "GDD base 10.0C, threshold 520, accumulated 870."
         },
         {
           "name": "Bloom model calibration (first-pass)",
           "url": "pipeline/registry/bloom_models.json",
           "kind": "model",
-          "retrievedAt": "2026-09-09T14:12:37.032099Z",
+          "retrievedAt": "2026-09-09T19:06:49.291925Z",
           "note": "SANParks bloom-season reporting, typically mid-August to mid-September."
         }
       ],
@@ -122,14 +122,14 @@
       "uncertaintyDays": 12.25,
       "confidence": 0.387,
       "baseConfidence": 0.725,
-      "lastVerifiedAt": "2026-09-09T14:12:38.670122Z",
+      "lastVerifiedAt": "2026-09-09T19:08:20.139274Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
           "kind": "citizen",
-          "retrievedAt": "2026-09-09T14:12:38.670122Z",
-          "note": "785 research-grade records in region; peak week 40; 19 in last 14 days."
+          "retrievedAt": "2026-09-09T19:08:20.139274Z",
+          "note": "786 research-grade records in region; peak week 40; 19 in last 14 days."
         }
       ],
       "sensitivity": "public",
@@ -172,38 +172,38 @@
       "recurrence": "month_window"
     },
     {
-      "id": "aurora-584a0dfb61",
-      "name": "Aurora over Murmansk",
-      "description": "OVATION puts auroral visibility at 20% overhead tonight. Planetary Kp is forecast to peak near 5.67 on 09 Sep 21:00 UTC. Clear skies and darkness still decide it.",
+      "id": "aurora-ed98472385",
+      "name": "Aurora over Rovaniemi",
+      "description": "OVATION puts auroral visibility at 21% overhead tonight. Planetary Kp is forecast to peak near 5.67 on 09 Sep 21:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
       "coordinates": [
-        68.9585,
-        33.0827
+        66.5039,
+        25.7294
       ],
-      "locationHint": "Murmansk",
-      "country": "Russia",
-      "windowStart": "2026-09-09T14:12:32.520174Z",
-      "windowEnd": "2026-09-12T14:12:32.520174Z",
+      "locationHint": "Rovaniemi",
+      "country": "Finland",
+      "windowStart": "2026-09-09T19:06:41.371631Z",
+      "windowEnd": "2026-09-12T19:06:41.371631Z",
       "peak": "2026-09-09T21:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.486,
-      "baseConfidence": 0.45,
-      "lastVerifiedAt": "2026-09-09T13:59:00Z",
+      "confidence": 0.496,
+      "baseConfidence": 0.46,
+      "lastVerifiedAt": "2026-09-09T18:54:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-09-09T14:12:32.520151Z",
-          "note": "30-minute nowcast; forecast time 2026-09-09T15:02:00Z."
+          "retrievedAt": "2026-09-09T19:06:41.371614Z",
+          "note": "30-minute nowcast; forecast time 2026-09-09T20:00:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-09-09T14:12:32.520159Z",
+          "retrievedAt": "2026-09-09T19:06:41.371620Z",
           "note": "3-day outlook, peak Kp 5.67."
         }
       ],
@@ -213,38 +213,38 @@
       "recurrence": "solar-driven, episodic"
     },
     {
-      "id": "aurora-d4784a91c9",
-      "name": "Aurora over Fairbanks",
-      "description": "OVATION puts auroral visibility at 19% overhead tonight. Planetary Kp is forecast to peak near 5.67 on 09 Sep 21:00 UTC. Clear skies and darkness still decide it.",
+      "id": "aurora-584a0dfb61",
+      "name": "Aurora over Murmansk",
+      "description": "OVATION puts auroral visibility at 21% overhead tonight. Planetary Kp is forecast to peak near 5.67 on 09 Sep 21:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
       "coordinates": [
-        64.8378,
-        -147.7164
+        68.9585,
+        33.0827
       ],
-      "locationHint": "Fairbanks",
-      "country": "United States",
-      "windowStart": "2026-09-09T14:12:32.520174Z",
-      "windowEnd": "2026-09-12T14:12:32.520174Z",
+      "locationHint": "Murmansk",
+      "country": "Russia",
+      "windowStart": "2026-09-09T19:06:41.371631Z",
+      "windowEnd": "2026-09-12T19:06:41.371631Z",
       "peak": "2026-09-09T21:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.475,
-      "baseConfidence": 0.44,
-      "lastVerifiedAt": "2026-09-09T13:59:00Z",
+      "confidence": 0.496,
+      "baseConfidence": 0.46,
+      "lastVerifiedAt": "2026-09-09T18:54:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-09-09T14:12:32.520151Z",
-          "note": "30-minute nowcast; forecast time 2026-09-09T15:02:00Z."
+          "retrievedAt": "2026-09-09T19:06:41.371614Z",
+          "note": "30-minute nowcast; forecast time 2026-09-09T20:00:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-09-09T14:12:32.520159Z",
+          "retrievedAt": "2026-09-09T19:06:41.371620Z",
           "note": "3-day outlook, peak Kp 5.67."
         }
       ],
@@ -256,7 +256,7 @@
     {
       "id": "aurora-a96afdc333",
       "name": "Aurora over Tromso",
-      "description": "OVATION puts auroral visibility at 17% overhead tonight. Planetary Kp is forecast to peak near 5.67 on 09 Sep 21:00 UTC. Clear skies and darkness still decide it.",
+      "description": "OVATION puts auroral visibility at 20% overhead tonight. Planetary Kp is forecast to peak near 5.67 on 09 Sep 21:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
@@ -266,67 +266,26 @@
       ],
       "locationHint": "Tromso",
       "country": "Norway",
-      "windowStart": "2026-09-09T14:12:32.520174Z",
-      "windowEnd": "2026-09-12T14:12:32.520174Z",
+      "windowStart": "2026-09-09T19:06:41.371631Z",
+      "windowEnd": "2026-09-12T19:06:41.371631Z",
       "peak": "2026-09-09T21:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.453,
-      "baseConfidence": 0.42,
-      "lastVerifiedAt": "2026-09-09T13:59:00Z",
+      "confidence": 0.485,
+      "baseConfidence": 0.45,
+      "lastVerifiedAt": "2026-09-09T18:54:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-09-09T14:12:32.520151Z",
-          "note": "30-minute nowcast; forecast time 2026-09-09T15:02:00Z."
+          "retrievedAt": "2026-09-09T19:06:41.371614Z",
+          "note": "30-minute nowcast; forecast time 2026-09-09T20:00:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-09-09T14:12:32.520159Z",
-          "note": "3-day outlook, peak Kp 5.67."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
-    },
-    {
-      "id": "aurora-0d8522ce02",
-      "name": "Aurora over Yellowknife",
-      "description": "OVATION puts auroral visibility at 15% overhead tonight. Planetary Kp is forecast to peak near 5.67 on 09 Sep 21:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        62.454,
-        -114.3718
-      ],
-      "locationHint": "Yellowknife",
-      "country": "Canada",
-      "windowStart": "2026-09-09T14:12:32.520174Z",
-      "windowEnd": "2026-09-12T14:12:32.520174Z",
-      "peak": "2026-09-09T21:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.432,
-      "baseConfidence": 0.4,
-      "lastVerifiedAt": "2026-09-09T13:59:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-09-09T14:12:32.520151Z",
-          "note": "30-minute nowcast; forecast time 2026-09-09T15:02:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-09-09T14:12:32.520159Z",
+          "retrievedAt": "2026-09-09T19:06:41.371620Z",
           "note": "3-day outlook, peak Kp 5.67."
         }
       ],
@@ -338,7 +297,7 @@
     {
       "id": "aurora-4443906f95",
       "name": "Aurora over Abisko",
-      "description": "OVATION puts auroral visibility at 14% overhead tonight. Planetary Kp is forecast to peak near 5.67 on 09 Sep 21:00 UTC. Clear skies and darkness still decide it.",
+      "description": "OVATION puts auroral visibility at 20% overhead tonight. Planetary Kp is forecast to peak near 5.67 on 09 Sep 21:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
@@ -348,26 +307,26 @@
       ],
       "locationHint": "Abisko",
       "country": "Sweden",
-      "windowStart": "2026-09-09T14:12:32.520174Z",
-      "windowEnd": "2026-09-12T14:12:32.520174Z",
+      "windowStart": "2026-09-09T19:06:41.371631Z",
+      "windowEnd": "2026-09-12T19:06:41.371631Z",
       "peak": "2026-09-09T21:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.421,
-      "baseConfidence": 0.39,
-      "lastVerifiedAt": "2026-09-09T13:59:00Z",
+      "confidence": 0.485,
+      "baseConfidence": 0.45,
+      "lastVerifiedAt": "2026-09-09T18:54:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-09-09T14:12:32.520151Z",
-          "note": "30-minute nowcast; forecast time 2026-09-09T15:02:00Z."
+          "retrievedAt": "2026-09-09T19:06:41.371614Z",
+          "note": "30-minute nowcast; forecast time 2026-09-09T20:00:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-09-09T14:12:32.520159Z",
+          "retrievedAt": "2026-09-09T19:06:41.371620Z",
           "note": "3-day outlook, peak Kp 5.67."
         }
       ],
@@ -377,38 +336,38 @@
       "recurrence": "solar-driven, episodic"
     },
     {
-      "id": "aurora-ed98472385",
-      "name": "Aurora over Rovaniemi",
+      "id": "aurora-08b4e93366",
+      "name": "Aurora over Reykjavik",
       "description": "OVATION puts auroral visibility at 13% overhead tonight. Planetary Kp is forecast to peak near 5.67 on 09 Sep 21:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
       "coordinates": [
-        66.5039,
-        25.7294
+        64.1466,
+        -21.9426
       ],
-      "locationHint": "Rovaniemi",
-      "country": "Finland",
-      "windowStart": "2026-09-09T14:12:32.520174Z",
-      "windowEnd": "2026-09-12T14:12:32.520174Z",
+      "locationHint": "Reykjavik",
+      "country": "Iceland",
+      "windowStart": "2026-09-09T19:06:41.371631Z",
+      "windowEnd": "2026-09-12T19:06:41.371631Z",
       "peak": "2026-09-09T21:00:00Z",
       "uncertaintyDays": 0.5,
       "confidence": 0.41,
       "baseConfidence": 0.38,
-      "lastVerifiedAt": "2026-09-09T13:59:00Z",
+      "lastVerifiedAt": "2026-09-09T18:54:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-09-09T14:12:32.520151Z",
-          "note": "30-minute nowcast; forecast time 2026-09-09T15:02:00Z."
+          "retrievedAt": "2026-09-09T19:06:41.371614Z",
+          "note": "30-minute nowcast; forecast time 2026-09-09T20:00:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-09-09T14:12:32.520159Z",
+          "retrievedAt": "2026-09-09T19:06:41.371620Z",
           "note": "3-day outlook, peak Kp 5.67."
         }
       ],
@@ -434,7 +393,7 @@
       "windowEnd": "2026-09-16T00:00:00Z",
       "peak": null,
       "uncertaintyDays": 1.0,
-      "confidence": 0.617,
+      "confidence": 0.616,
       "baseConfidence": 0.85,
       "lastVerifiedAt": "2026-07-28T00:00:00Z",
       "sources": [
