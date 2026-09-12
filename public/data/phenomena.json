@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-12T08:25:01.849782Z",
+  "generatedAt": "2026-09-12T13:24:36.595968Z",
   "horizonDays": 7,
   "counts": {
-    "total": 7,
-    "active": 6,
+    "total": 6,
+    "active": 5,
     "byTier": {
-      "2": 3,
+      "2": 2,
       "3": 2,
       "4": 2
     },
     "byBand": {
       "high": 0,
-      "medium": 4,
-      "low": 3,
+      "medium": 2,
+      "low": 4,
       "speculative": 0
     },
     "sourced": {
-      "collected": 67,
-      "reconciled": 67,
+      "collected": 66,
+      "reconciled": 66,
       "byTier": {
         "1": 56,
-        "2": 3,
+        "2": 2,
         "3": 4,
         "4": 4
       }
@@ -47,13 +47,13 @@
       "uncertaintyDays": 21.0,
       "confidence": 0.302,
       "baseConfidence": 0.756,
-      "lastVerifiedAt": "2026-09-12T08:24:54.160895Z",
+      "lastVerifiedAt": "2026-09-12T13:24:27.133936Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=41566",
           "kind": "citizen",
-          "retrievedAt": "2026-09-12T08:24:54.160895Z",
+          "retrievedAt": "2026-09-12T13:24:27.133936Z",
           "note": "2121 research-grade records in region; peak week 30; 16 in last 14 days."
         }
       ],
@@ -81,20 +81,20 @@
       "uncertaintyDays": 3.0,
       "confidence": 0.531,
       "baseConfidence": 0.576,
-      "lastVerifiedAt": "2026-09-12T08:24:52.142198Z",
+      "lastVerifiedAt": "2026-09-12T13:22:54.459090Z",
       "sources": [
         {
           "name": "Open-Meteo temperature series",
           "url": "https://api.open-meteo.com/v1/forecast",
           "kind": "model",
-          "retrievedAt": "2026-09-12T08:24:52.142186Z",
-          "note": "GDD base 10.0C, threshold 520, accumulated 871."
+          "retrievedAt": "2026-09-12T13:22:54.459077Z",
+          "note": "GDD base 10.0C, threshold 520, accumulated 862."
         },
         {
           "name": "Bloom model calibration (first-pass)",
           "url": "pipeline/registry/bloom_models.json",
           "kind": "model",
-          "retrievedAt": "2026-09-12T08:24:52.142196Z",
+          "retrievedAt": "2026-09-12T13:22:54.459088Z",
           "note": "SANParks bloom-season reporting, typically mid-August to mid-September."
         }
       ],
@@ -106,7 +106,7 @@
     {
       "id": "citizen-7d87b1b9ca",
       "name": "Sockeye Salmon Run",
-      "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Underway — roughly 33% through the typical window, with 24 reports in the last two weeks.",
+      "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Underway — roughly 34% through the typical window, with 24 reports in the last two weeks.",
       "category": "Animal Migration",
       "emoji": "🐟",
       "tier": 3,
@@ -122,13 +122,13 @@
       "uncertaintyDays": 12.25,
       "confidence": 0.394,
       "baseConfidence": 0.74,
-      "lastVerifiedAt": "2026-09-12T08:24:54.160895Z",
+      "lastVerifiedAt": "2026-09-12T13:24:27.133936Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
           "kind": "citizen",
-          "retrievedAt": "2026-09-12T08:24:54.160895Z",
+          "retrievedAt": "2026-09-12T13:24:27.133936Z",
           "note": "791 research-grade records in region; peak week 40; 24 in last 14 days."
         }
       ],
@@ -154,7 +154,7 @@
       "windowEnd": "2026-09-30T00:00:00Z",
       "peak": null,
       "uncertaintyDays": 9.67,
-      "confidence": 0.292,
+      "confidence": 0.291,
       "baseConfidence": 0.85,
       "lastVerifiedAt": "2026-06-10T00:00:00Z",
       "sources": [
@@ -174,7 +174,7 @@
     {
       "id": "aurora-2dcad584d8",
       "name": "Aurora over Fairbanks",
-      "description": "OVATION puts auroral visibility at 26% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 14 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+      "description": "OVATION puts auroral visibility at 11% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 14 Sep 03:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
@@ -184,67 +184,26 @@
       ],
       "locationHint": "Fairbanks",
       "country": "United States",
-      "windowStart": "2026-09-12T08:24:49.121170Z",
-      "windowEnd": "2026-09-15T08:24:49.121170Z",
+      "windowStart": "2026-09-12T13:22:47.994391Z",
+      "windowEnd": "2026-09-15T13:22:47.994391Z",
       "peak": "2026-09-14T03:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.551,
-      "baseConfidence": 0.51,
-      "lastVerifiedAt": "2026-09-12T08:16:00Z",
+      "confidence": 0.388,
+      "baseConfidence": 0.36,
+      "lastVerifiedAt": "2026-09-12T13:10:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-09-12T08:24:49.121155Z",
-          "note": "30-minute nowcast; forecast time 2026-09-12T09:20:00Z."
+          "retrievedAt": "2026-09-12T13:22:47.994375Z",
+          "note": "30-minute nowcast; forecast time 2026-09-12T14:19:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-09-12T08:24:49.121160Z",
-          "note": "3-day outlook, peak Kp 3.67."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
-    },
-    {
-      "id": "aurora-58d055ae10",
-      "name": "Aurora over Yellowknife",
-      "description": "OVATION puts auroral visibility at 22% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 14 Sep 03:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        62.454,
-        -114.3718
-      ],
-      "locationHint": "Yellowknife",
-      "country": "Canada",
-      "windowStart": "2026-09-12T08:24:49.121170Z",
-      "windowEnd": "2026-09-15T08:24:49.121170Z",
-      "peak": "2026-09-14T03:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.508,
-      "baseConfidence": 0.47,
-      "lastVerifiedAt": "2026-09-12T08:16:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-09-12T08:24:49.121155Z",
-          "note": "30-minute nowcast; forecast time 2026-09-12T09:20:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-09-12T08:24:49.121160Z",
+          "retrievedAt": "2026-09-12T13:22:47.994381Z",
           "note": "3-day outlook, peak Kp 3.67."
         }
       ],
@@ -270,7 +229,7 @@
       "windowEnd": "2026-09-16T00:00:00Z",
       "peak": null,
       "uncertaintyDays": 1.0,
-      "confidence": 0.607,
+      "confidence": 0.606,
       "baseConfidence": 0.85,
       "lastVerifiedAt": "2026-07-28T00:00:00Z",
       "sources": [
