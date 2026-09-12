@@ -103,6 +103,31 @@
     },
     {
       "type": "Feature",
+      "id": "aurora-6e60a4d299",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7294,
+          66.5039
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Rovaniemi",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 11% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 14 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Rovaniemi",
+        "geocodedAddress": "Finland",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-09-12T20:16:04.401952Z",
+        "endUtc": "2026-09-15T20:16:04.401952Z",
+        "confidence": 0.389,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
       "id": "aurora-1b0e965220",
       "geometry": {
         "type": "Point",
@@ -116,13 +141,63 @@
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 8% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 14 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+        "description": "OVATION puts auroral visibility at 11% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 14 Sep 03:00 UTC. Clear skies and darkness still decide it.",
         "locationHint": "Murmansk",
         "geocodedAddress": "Russia",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-09-12T16:47:20.015631Z",
-        "endUtc": "2026-09-15T16:47:20.015631Z",
-        "confidence": 0.356,
+        "startUtc": "2026-09-12T20:16:04.401952Z",
+        "endUtc": "2026-09-15T20:16:04.401952Z",
+        "confidence": 0.389,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-fe2557ba94",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9553,
+          69.6492
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Tromso",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 10% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 14 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Tromso",
+        "geocodedAddress": "Norway",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-09-12T20:16:04.401952Z",
+        "endUtc": "2026-09-15T20:16:04.401952Z",
+        "confidence": 0.378,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-c6822d1eac",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8303,
+          68.3494
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Abisko",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 10% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 14 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Abisko",
+        "geocodedAddress": "Sweden",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-09-12T20:16:04.401952Z",
+        "endUtc": "2026-09-15T20:16:04.401952Z",
+        "confidence": 0.378,
         "isWithinLiveWindow": true
       }
     },
@@ -147,7 +222,7 @@
         "sourceUrl": "https://www.papuanewguinea.travel/",
         "startUtc": "2026-09-13T00:00:00Z",
         "endUtc": "2026-09-16T00:00:00Z",
-        "confidence": 0.606,
+        "confidence": 0.605,
         "isWithinLiveWindow": false
       }
     }
