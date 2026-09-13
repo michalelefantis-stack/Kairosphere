@@ -66,7 +66,7 @@
         "emoji": "🐟",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Underway — roughly 35% through the typical window, with 23 reports in the last two weeks.",
+        "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Underway — roughly 36% through the typical window, with 23 reports in the last two weeks.",
         "locationHint": "Adams River, British Columbia",
         "geocodedAddress": "Canada",
         "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
@@ -97,7 +97,7 @@
         "sourceUrl": "https://ich.unesco.org/",
         "startUtc": "2026-09-01T00:00:00Z",
         "endUtc": "2026-09-30T00:00:00Z",
-        "confidence": 0.29,
+        "confidence": 0.289,
         "isWithinLiveWindow": true
       }
     },
@@ -141,13 +141,63 @@
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 15% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 14 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+        "description": "OVATION puts auroral visibility at 16% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 14 Sep 03:00 UTC. Clear skies and darkness still decide it.",
         "locationHint": "Fairbanks",
         "geocodedAddress": "United States",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-09-13T09:06:36.977804Z",
-        "endUtc": "2026-09-16T09:06:36.977804Z",
+        "startUtc": "2026-09-13T14:06:25.643186Z",
+        "endUtc": "2026-09-16T14:06:25.643186Z",
+        "confidence": 0.442,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-b8bf867863",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.0827,
+          68.9585
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Murmansk",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 15% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 14 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Murmansk",
+        "geocodedAddress": "Russia",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-09-13T14:06:25.643186Z",
+        "endUtc": "2026-09-16T14:06:25.643186Z",
         "confidence": 0.432,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-dd69940790",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9553,
+          69.6492
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Tromso",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 14% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 14 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Tromso",
+        "geocodedAddress": "Norway",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-09-13T14:06:25.643186Z",
+        "endUtc": "2026-09-16T14:06:25.643186Z",
+        "confidence": 0.421,
         "isWithinLiveWindow": true
       }
     },
@@ -170,9 +220,59 @@
         "locationHint": "Yellowknife",
         "geocodedAddress": "Canada",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-09-13T09:06:36.977804Z",
-        "endUtc": "2026-09-16T09:06:36.977804Z",
+        "startUtc": "2026-09-13T14:06:25.643186Z",
+        "endUtc": "2026-09-16T14:06:25.643186Z",
         "confidence": 0.399,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-15ef9a77ad",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8303,
+          68.3494
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Abisko",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 11% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 14 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Abisko",
+        "geocodedAddress": "Sweden",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-09-13T14:06:25.643186Z",
+        "endUtc": "2026-09-16T14:06:25.643186Z",
+        "confidence": 0.388,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-d729431c6c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7294,
+          66.5039
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Rovaniemi",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 10% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 14 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Rovaniemi",
+        "geocodedAddress": "Finland",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-09-13T14:06:25.643186Z",
+        "endUtc": "2026-09-16T14:06:25.643186Z",
+        "confidence": 0.378,
         "isWithinLiveWindow": true
       }
     }
