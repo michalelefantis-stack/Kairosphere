@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T03:43:59.473585Z",
+  "generatedAt": "2026-09-14T09:39:24.784343Z",
   "horizonDays": 7,
   "counts": {
     "total": 7,
@@ -47,14 +47,14 @@
       "uncertaintyDays": 21.0,
       "confidence": 0.317,
       "baseConfidence": 0.792,
-      "lastVerifiedAt": "2026-09-14T03:43:51.124289Z",
+      "lastVerifiedAt": "2026-09-14T09:39:21.227694Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=41566",
           "kind": "citizen",
-          "retrievedAt": "2026-09-14T03:43:51.124289Z",
-          "note": "2125 research-grade records in region; peak week 30; 19 in last 14 days."
+          "retrievedAt": "2026-09-14T09:39:21.227694Z",
+          "note": "2126 research-grade records in region; peak week 30; 19 in last 14 days."
         }
       ],
       "sensitivity": "public",
@@ -81,20 +81,20 @@
       "uncertaintyDays": 3.0,
       "confidence": 0.531,
       "baseConfidence": 0.576,
-      "lastVerifiedAt": "2026-09-14T03:43:49.463136Z",
+      "lastVerifiedAt": "2026-09-14T09:37:47.320209Z",
       "sources": [
         {
           "name": "Open-Meteo temperature series",
           "url": "https://api.open-meteo.com/v1/forecast",
           "kind": "model",
-          "retrievedAt": "2026-09-14T03:43:49.463124Z",
-          "note": "GDD base 10.0C, threshold 520, accumulated 875."
+          "retrievedAt": "2026-09-14T09:37:47.320197Z",
+          "note": "GDD base 10.0C, threshold 520, accumulated 883."
         },
         {
           "name": "Bloom model calibration (first-pass)",
           "url": "pipeline/registry/bloom_models.json",
           "kind": "model",
-          "retrievedAt": "2026-09-14T03:43:49.463134Z",
+          "retrievedAt": "2026-09-14T09:37:47.320207Z",
           "note": "SANParks bloom-season reporting, typically mid-August to mid-September."
         }
       ],
@@ -106,7 +106,7 @@
     {
       "id": "citizen-7d87b1b9ca",
       "name": "Sockeye Salmon Run",
-      "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Underway — roughly 37% through the typical window, with 28 reports in the last two weeks.",
+      "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Underway — roughly 38% through the typical window, with 28 reports in the last two weeks.",
       "category": "Animal Migration",
       "emoji": "🐟",
       "tier": 3,
@@ -122,13 +122,13 @@
       "uncertaintyDays": 12.25,
       "confidence": 0.395,
       "baseConfidence": 0.74,
-      "lastVerifiedAt": "2026-09-14T03:43:51.124289Z",
+      "lastVerifiedAt": "2026-09-14T09:39:21.227694Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
           "kind": "citizen",
-          "retrievedAt": "2026-09-14T03:43:51.124289Z",
+          "retrievedAt": "2026-09-14T09:39:21.227694Z",
           "note": "800 research-grade records in region; peak week 40; 28 in last 14 days."
         }
       ],
@@ -154,7 +154,7 @@
       "windowEnd": "2026-09-30T00:00:00Z",
       "peak": null,
       "uncertaintyDays": 9.67,
-      "confidence": 0.289,
+      "confidence": 0.288,
       "baseConfidence": 0.85,
       "lastVerifiedAt": "2026-06-10T00:00:00Z",
       "sources": [
@@ -188,7 +188,7 @@
       "windowEnd": "2026-09-16T00:00:00Z",
       "peak": null,
       "uncertaintyDays": 1.0,
-      "confidence": 0.601,
+      "confidence": 0.6,
       "baseConfidence": 0.85,
       "lastVerifiedAt": "2026-07-28T00:00:00Z",
       "sources": [
@@ -206,38 +206,38 @@
       "recurrence": "fixed"
     },
     {
-      "id": "aurora-9ebcac0768",
-      "name": "Aurora over Yellowknife",
+      "id": "aurora-acfee75695",
+      "name": "Aurora over Fairbanks",
       "description": "OVATION puts auroral visibility at 14% overhead tonight. Planetary Kp is forecast to peak near 4.67 on 16 Sep 21:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
       "coordinates": [
-        62.454,
-        -114.3718
+        64.8378,
+        -147.7164
       ],
-      "locationHint": "Yellowknife",
-      "country": "Canada",
-      "windowStart": "2026-09-14T03:43:46.373811Z",
-      "windowEnd": "2026-09-17T03:43:46.373811Z",
+      "locationHint": "Fairbanks",
+      "country": "United States",
+      "windowStart": "2026-09-14T09:37:40.104507Z",
+      "windowEnd": "2026-09-17T09:37:40.104507Z",
       "peak": "2026-09-16T21:00:00Z",
       "uncertaintyDays": 0.5,
       "confidence": 0.421,
       "baseConfidence": 0.39,
-      "lastVerifiedAt": "2026-09-14T03:34:00Z",
+      "lastVerifiedAt": "2026-09-14T09:25:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-09-14T03:43:46.373793Z",
-          "note": "30-minute nowcast; forecast time 2026-09-14T04:51:00Z."
+          "retrievedAt": "2026-09-14T09:37:40.104466Z",
+          "note": "30-minute nowcast; forecast time 2026-09-14T10:49:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-09-14T03:43:46.373799Z",
+          "retrievedAt": "2026-09-14T09:37:40.104473Z",
           "note": "3-day outlook, peak Kp 4.67."
         }
       ],
@@ -247,38 +247,38 @@
       "recurrence": "solar-driven, episodic"
     },
     {
-      "id": "aurora-d0b7bee87d",
-      "name": "Aurora over Reykjavik",
-      "description": "OVATION puts auroral visibility at 9% overhead tonight. Planetary Kp is forecast to peak near 4.67 on 16 Sep 21:00 UTC. Clear skies and darkness still decide it.",
+      "id": "aurora-9ebcac0768",
+      "name": "Aurora over Yellowknife",
+      "description": "OVATION puts auroral visibility at 11% overhead tonight. Planetary Kp is forecast to peak near 4.67 on 16 Sep 21:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
       "coordinates": [
-        64.1466,
-        -21.9426
+        62.454,
+        -114.3718
       ],
-      "locationHint": "Reykjavik",
-      "country": "Iceland",
-      "windowStart": "2026-09-14T03:43:46.373811Z",
-      "windowEnd": "2026-09-17T03:43:46.373811Z",
+      "locationHint": "Yellowknife",
+      "country": "Canada",
+      "windowStart": "2026-09-14T09:37:40.104507Z",
+      "windowEnd": "2026-09-17T09:37:40.104507Z",
       "peak": "2026-09-16T21:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.367,
-      "baseConfidence": 0.34,
-      "lastVerifiedAt": "2026-09-14T03:34:00Z",
+      "confidence": 0.388,
+      "baseConfidence": 0.36,
+      "lastVerifiedAt": "2026-09-14T09:25:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-09-14T03:43:46.373793Z",
-          "note": "30-minute nowcast; forecast time 2026-09-14T04:51:00Z."
+          "retrievedAt": "2026-09-14T09:37:40.104466Z",
+          "note": "30-minute nowcast; forecast time 2026-09-14T10:49:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-09-14T03:43:46.373799Z",
+          "retrievedAt": "2026-09-14T09:37:40.104473Z",
           "note": "3-day outlook, peak Kp 4.67."
         }
       ],
