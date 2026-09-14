@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T09:39:24.784343Z",
+  "generatedAt": "2026-09-14T16:19:19.127675Z",
   "horizonDays": 7,
   "counts": {
-    "total": 7,
-    "active": 7,
+    "total": 11,
+    "active": 10,
     "byTier": {
-      "2": 3,
+      "2": 7,
       "3": 2,
       "4": 2
     },
     "byBand": {
       "high": 0,
-      "medium": 2,
+      "medium": 6,
       "low": 5,
       "speculative": 0
     },
     "sourced": {
-      "collected": 67,
-      "reconciled": 67,
+      "collected": 74,
+      "reconciled": 74,
       "byTier": {
         "1": 56,
-        "2": 3,
+        "2": 10,
         "3": 4,
         "4": 4
       }
@@ -47,13 +47,13 @@
       "uncertaintyDays": 21.0,
       "confidence": 0.317,
       "baseConfidence": 0.792,
-      "lastVerifiedAt": "2026-09-14T09:39:21.227694Z",
+      "lastVerifiedAt": "2026-09-14T16:19:00.726434Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=41566",
           "kind": "citizen",
-          "retrievedAt": "2026-09-14T09:39:21.227694Z",
+          "retrievedAt": "2026-09-14T16:19:00.726434Z",
           "note": "2126 research-grade records in region; peak week 30; 19 in last 14 days."
         }
       ],
@@ -61,47 +61,6 @@
       "precision": "regional",
       "consent": "",
       "recurrence": "annual, observed"
-    },
-    {
-      "id": "bloom-1436a05fad",
-      "name": "Namaqualand Daisy Bloom",
-      "description": "Dimorphotheca sinuata and Namaqualand annuals. Heat sum reached — bloom underway (100% of threshold accumulated). Growing-degree-day model, base 10.0C from 04-15.",
-      "category": "Botanical Event",
-      "emoji": "🌼",
-      "tier": 2,
-      "coordinates": [
-        -30.1667,
-        17.8833
-      ],
-      "locationHint": "Skilpad, Namaqua National Park",
-      "country": "South Africa",
-      "windowStart": "2026-08-14T00:00:00Z",
-      "windowEnd": "2026-09-18T00:00:00Z",
-      "peak": "2026-08-25T00:00:00Z",
-      "uncertaintyDays": 3.0,
-      "confidence": 0.531,
-      "baseConfidence": 0.576,
-      "lastVerifiedAt": "2026-09-14T09:37:47.320209Z",
-      "sources": [
-        {
-          "name": "Open-Meteo temperature series",
-          "url": "https://api.open-meteo.com/v1/forecast",
-          "kind": "model",
-          "retrievedAt": "2026-09-14T09:37:47.320197Z",
-          "note": "GDD base 10.0C, threshold 520, accumulated 883."
-        },
-        {
-          "name": "Bloom model calibration (first-pass)",
-          "url": "pipeline/registry/bloom_models.json",
-          "kind": "model",
-          "retrievedAt": "2026-09-14T09:37:47.320207Z",
-          "note": "SANParks bloom-season reporting, typically mid-August to mid-September."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "annual, temperature-driven"
     },
     {
       "id": "citizen-7d87b1b9ca",
@@ -122,13 +81,13 @@
       "uncertaintyDays": 12.25,
       "confidence": 0.395,
       "baseConfidence": 0.74,
-      "lastVerifiedAt": "2026-09-14T09:39:21.227694Z",
+      "lastVerifiedAt": "2026-09-14T16:19:00.726434Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
           "kind": "citizen",
-          "retrievedAt": "2026-09-14T09:39:21.227694Z",
+          "retrievedAt": "2026-09-14T16:19:00.726434Z",
           "note": "800 research-grade records in region; peak week 40; 28 in last 14 days."
         }
       ],
@@ -188,7 +147,7 @@
       "windowEnd": "2026-09-16T00:00:00Z",
       "peak": null,
       "uncertaintyDays": 1.0,
-      "confidence": 0.6,
+      "confidence": 0.599,
       "baseConfidence": 0.85,
       "lastVerifiedAt": "2026-07-28T00:00:00Z",
       "sources": [
@@ -206,9 +165,173 @@
       "recurrence": "fixed"
     },
     {
+      "id": "aurora-3090a74ecc",
+      "name": "Aurora over Murmansk",
+      "description": "OVATION puts auroral visibility at 25% overhead tonight. Planetary Kp is forecast to peak near 4.67 on 16 Sep 21:00 UTC. Clear skies and darkness still decide it.",
+      "category": "Atmospheric Phenomenon",
+      "emoji": "🌌",
+      "tier": 2,
+      "coordinates": [
+        68.9585,
+        33.0827
+      ],
+      "locationHint": "Murmansk",
+      "country": "Russia",
+      "windowStart": "2026-09-14T16:11:17.777001Z",
+      "windowEnd": "2026-09-17T16:11:17.777001Z",
+      "peak": "2026-09-16T21:00:00Z",
+      "uncertaintyDays": 0.5,
+      "confidence": 0.539,
+      "baseConfidence": 0.5,
+      "lastVerifiedAt": "2026-09-14T16:01:00Z",
+      "sources": [
+        {
+          "name": "NOAA SWPC OVATION Aurora Model",
+          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+          "kind": "model",
+          "retrievedAt": "2026-09-14T16:11:17.776983Z",
+          "note": "30-minute nowcast; forecast time 2026-09-14T17:13:00Z."
+        },
+        {
+          "name": "NOAA SWPC Planetary K-index Forecast",
+          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
+          "kind": "model",
+          "retrievedAt": "2026-09-14T16:11:17.776990Z",
+          "note": "3-day outlook, peak Kp 4.67."
+        }
+      ],
+      "sensitivity": "public",
+      "precision": "point",
+      "consent": "",
+      "recurrence": "solar-driven, episodic"
+    },
+    {
+      "id": "aurora-2d724c2e1a",
+      "name": "Aurora over Tromso",
+      "description": "OVATION puts auroral visibility at 22% overhead tonight. Planetary Kp is forecast to peak near 4.67 on 16 Sep 21:00 UTC. Clear skies and darkness still decide it.",
+      "category": "Atmospheric Phenomenon",
+      "emoji": "🌌",
+      "tier": 2,
+      "coordinates": [
+        69.6492,
+        18.9553
+      ],
+      "locationHint": "Tromso",
+      "country": "Norway",
+      "windowStart": "2026-09-14T16:11:17.777001Z",
+      "windowEnd": "2026-09-17T16:11:17.777001Z",
+      "peak": "2026-09-16T21:00:00Z",
+      "uncertaintyDays": 0.5,
+      "confidence": 0.507,
+      "baseConfidence": 0.47,
+      "lastVerifiedAt": "2026-09-14T16:01:00Z",
+      "sources": [
+        {
+          "name": "NOAA SWPC OVATION Aurora Model",
+          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+          "kind": "model",
+          "retrievedAt": "2026-09-14T16:11:17.776983Z",
+          "note": "30-minute nowcast; forecast time 2026-09-14T17:13:00Z."
+        },
+        {
+          "name": "NOAA SWPC Planetary K-index Forecast",
+          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
+          "kind": "model",
+          "retrievedAt": "2026-09-14T16:11:17.776990Z",
+          "note": "3-day outlook, peak Kp 4.67."
+        }
+      ],
+      "sensitivity": "public",
+      "precision": "point",
+      "consent": "",
+      "recurrence": "solar-driven, episodic"
+    },
+    {
+      "id": "aurora-3d68644781",
+      "name": "Aurora over Abisko",
+      "description": "OVATION puts auroral visibility at 21% overhead tonight. Planetary Kp is forecast to peak near 4.67 on 16 Sep 21:00 UTC. Clear skies and darkness still decide it.",
+      "category": "Atmospheric Phenomenon",
+      "emoji": "🌌",
+      "tier": 2,
+      "coordinates": [
+        68.3494,
+        18.8303
+      ],
+      "locationHint": "Abisko",
+      "country": "Sweden",
+      "windowStart": "2026-09-14T16:11:17.777001Z",
+      "windowEnd": "2026-09-17T16:11:17.777001Z",
+      "peak": "2026-09-16T21:00:00Z",
+      "uncertaintyDays": 0.5,
+      "confidence": 0.496,
+      "baseConfidence": 0.46,
+      "lastVerifiedAt": "2026-09-14T16:01:00Z",
+      "sources": [
+        {
+          "name": "NOAA SWPC OVATION Aurora Model",
+          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+          "kind": "model",
+          "retrievedAt": "2026-09-14T16:11:17.776983Z",
+          "note": "30-minute nowcast; forecast time 2026-09-14T17:13:00Z."
+        },
+        {
+          "name": "NOAA SWPC Planetary K-index Forecast",
+          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
+          "kind": "model",
+          "retrievedAt": "2026-09-14T16:11:17.776990Z",
+          "note": "3-day outlook, peak Kp 4.67."
+        }
+      ],
+      "sensitivity": "public",
+      "precision": "point",
+      "consent": "",
+      "recurrence": "solar-driven, episodic"
+    },
+    {
+      "id": "aurora-f8dc310aeb",
+      "name": "Aurora over Rovaniemi",
+      "description": "OVATION puts auroral visibility at 21% overhead tonight. Planetary Kp is forecast to peak near 4.67 on 16 Sep 21:00 UTC. Clear skies and darkness still decide it.",
+      "category": "Atmospheric Phenomenon",
+      "emoji": "🌌",
+      "tier": 2,
+      "coordinates": [
+        66.5039,
+        25.7294
+      ],
+      "locationHint": "Rovaniemi",
+      "country": "Finland",
+      "windowStart": "2026-09-14T16:11:17.777001Z",
+      "windowEnd": "2026-09-17T16:11:17.777001Z",
+      "peak": "2026-09-16T21:00:00Z",
+      "uncertaintyDays": 0.5,
+      "confidence": 0.496,
+      "baseConfidence": 0.46,
+      "lastVerifiedAt": "2026-09-14T16:01:00Z",
+      "sources": [
+        {
+          "name": "NOAA SWPC OVATION Aurora Model",
+          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+          "kind": "model",
+          "retrievedAt": "2026-09-14T16:11:17.776983Z",
+          "note": "30-minute nowcast; forecast time 2026-09-14T17:13:00Z."
+        },
+        {
+          "name": "NOAA SWPC Planetary K-index Forecast",
+          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
+          "kind": "model",
+          "retrievedAt": "2026-09-14T16:11:17.776990Z",
+          "note": "3-day outlook, peak Kp 4.67."
+        }
+      ],
+      "sensitivity": "public",
+      "precision": "point",
+      "consent": "",
+      "recurrence": "solar-driven, episodic"
+    },
+    {
       "id": "aurora-acfee75695",
       "name": "Aurora over Fairbanks",
-      "description": "OVATION puts auroral visibility at 14% overhead tonight. Planetary Kp is forecast to peak near 4.67 on 16 Sep 21:00 UTC. Clear skies and darkness still decide it.",
+      "description": "OVATION puts auroral visibility at 13% overhead tonight. Planetary Kp is forecast to peak near 4.67 on 16 Sep 21:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
@@ -218,26 +341,26 @@
       ],
       "locationHint": "Fairbanks",
       "country": "United States",
-      "windowStart": "2026-09-14T09:37:40.104507Z",
-      "windowEnd": "2026-09-17T09:37:40.104507Z",
+      "windowStart": "2026-09-14T16:11:17.777001Z",
+      "windowEnd": "2026-09-17T16:11:17.777001Z",
       "peak": "2026-09-16T21:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.421,
-      "baseConfidence": 0.39,
-      "lastVerifiedAt": "2026-09-14T09:25:00Z",
+      "confidence": 0.41,
+      "baseConfidence": 0.38,
+      "lastVerifiedAt": "2026-09-14T16:01:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-09-14T09:37:40.104466Z",
-          "note": "30-minute nowcast; forecast time 2026-09-14T10:49:00Z."
+          "retrievedAt": "2026-09-14T16:11:17.776983Z",
+          "note": "30-minute nowcast; forecast time 2026-09-14T17:13:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-09-14T09:37:40.104473Z",
+          "retrievedAt": "2026-09-14T16:11:17.776990Z",
           "note": "3-day outlook, peak Kp 4.67."
         }
       ],
@@ -249,7 +372,7 @@
     {
       "id": "aurora-9ebcac0768",
       "name": "Aurora over Yellowknife",
-      "description": "OVATION puts auroral visibility at 11% overhead tonight. Planetary Kp is forecast to peak near 4.67 on 16 Sep 21:00 UTC. Clear skies and darkness still decide it.",
+      "description": "OVATION puts auroral visibility at 12% overhead tonight. Planetary Kp is forecast to peak near 4.67 on 16 Sep 21:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
@@ -259,26 +382,26 @@
       ],
       "locationHint": "Yellowknife",
       "country": "Canada",
-      "windowStart": "2026-09-14T09:37:40.104507Z",
-      "windowEnd": "2026-09-17T09:37:40.104507Z",
+      "windowStart": "2026-09-14T16:11:17.777001Z",
+      "windowEnd": "2026-09-17T16:11:17.777001Z",
       "peak": "2026-09-16T21:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.388,
-      "baseConfidence": 0.36,
-      "lastVerifiedAt": "2026-09-14T09:25:00Z",
+      "confidence": 0.399,
+      "baseConfidence": 0.37,
+      "lastVerifiedAt": "2026-09-14T16:01:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-09-14T09:37:40.104466Z",
-          "note": "30-minute nowcast; forecast time 2026-09-14T10:49:00Z."
+          "retrievedAt": "2026-09-14T16:11:17.776983Z",
+          "note": "30-minute nowcast; forecast time 2026-09-14T17:13:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-09-14T09:37:40.104473Z",
+          "retrievedAt": "2026-09-14T16:11:17.776990Z",
           "note": "3-day outlook, peak Kp 4.67."
         }
       ],
@@ -286,6 +409,47 @@
       "precision": "point",
       "consent": "",
       "recurrence": "solar-driven, episodic"
+    },
+    {
+      "id": "bloom-473a8c776b",
+      "name": "Kyoto Cherry Blossom",
+      "description": "Prunus x yedoensis (Somei-Yoshino). Heat sum reached; bloom expected to open around 19 Sep (100% accumulated). Growing-degree-day model, base 5.0C from 02-01.",
+      "category": "Botanical Event",
+      "emoji": "🌸",
+      "tier": 2,
+      "coordinates": [
+        35.0116,
+        135.7681
+      ],
+      "locationHint": "Kyoto",
+      "country": "Japan",
+      "windowStart": "2026-09-19T00:00:00Z",
+      "windowEnd": "2026-10-01T00:00:00Z",
+      "peak": "2026-09-23T00:00:00Z",
+      "uncertaintyDays": 3.0,
+      "confidence": 0.531,
+      "baseConfidence": 0.576,
+      "lastVerifiedAt": "2026-09-14T16:12:03.413980Z",
+      "sources": [
+        {
+          "name": "Open-Meteo temperature series",
+          "url": "https://api.open-meteo.com/v1/forecast",
+          "kind": "model",
+          "retrievedAt": "2026-09-14T16:12:03.413967Z",
+          "note": "GDD base 5.0C, threshold 310, accumulated 493."
+        },
+        {
+          "name": "Bloom model calibration (first-pass)",
+          "url": "pipeline/registry/bloom_models.json",
+          "kind": "model",
+          "retrievedAt": "2026-09-14T16:12:03.413978Z",
+          "note": "Osaka/Kyoto full-flowering records; the Kyoto series runs to the 9th century and is the best training set available for any single-species bloom model."
+        }
+      ],
+      "sensitivity": "public",
+      "precision": "point",
+      "consent": "",
+      "recurrence": "annual, temperature-driven"
     }
   ]
 }
