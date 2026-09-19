@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T08:38:27.051338Z",
+  "generatedAt": "2026-09-19T13:44:41.599218Z",
   "horizonDays": 7,
   "counts": {
-    "total": 5,
-    "active": 4,
+    "total": 4,
+    "active": 3,
     "byTier": {
       "1": 1,
-      "2": 2,
+      "2": 1,
       "3": 1,
       "4": 1
     },
     "byBand": {
       "high": 1,
       "medium": 0,
-      "low": 4,
+      "low": 3,
       "speculative": 0
     },
     "sourced": {
-      "collected": 66,
-      "reconciled": 66,
+      "collected": 64,
+      "reconciled": 64,
       "byTier": {
         "1": 56,
-        "2": 3,
+        "2": 1,
         "3": 4,
         "4": 3
       }
@@ -48,13 +48,13 @@
       "uncertaintyDays": 12.25,
       "confidence": 0.395,
       "baseConfidence": 0.74,
-      "lastVerifiedAt": "2026-09-19T08:38:21.365867Z",
+      "lastVerifiedAt": "2026-09-19T13:44:32.949372Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
           "kind": "citizen",
-          "retrievedAt": "2026-09-19T08:38:21.365867Z",
+          "retrievedAt": "2026-09-19T13:44:32.949372Z",
           "note": "806 research-grade records in region; peak week 40; 31 in last 14 days."
         }
       ],
@@ -100,7 +100,7 @@
     {
       "id": "aurora-1b379dcae6",
       "name": "Aurora over Fairbanks",
-      "description": "OVATION puts auroral visibility at 9% overhead tonight. Planetary Kp is forecast to peak near 2 on 20 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+      "description": "OVATION puts auroral visibility at 10% overhead tonight. Planetary Kp is forecast to peak near 2 on 20 Sep 03:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
@@ -110,67 +110,26 @@
       ],
       "locationHint": "Fairbanks",
       "country": "United States",
-      "windowStart": "2026-09-19T08:35:57.616160Z",
-      "windowEnd": "2026-09-22T08:35:57.616160Z",
+      "windowStart": "2026-09-19T13:42:54.870212Z",
+      "windowEnd": "2026-09-22T13:42:54.870212Z",
       "peak": "2026-09-20T03:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.367,
-      "baseConfidence": 0.34,
-      "lastVerifiedAt": "2026-09-19T08:24:00Z",
+      "confidence": 0.378,
+      "baseConfidence": 0.35,
+      "lastVerifiedAt": "2026-09-19T13:35:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-09-19T08:35:57.616144Z",
-          "note": "30-minute nowcast; forecast time 2026-09-19T09:27:00Z."
+          "retrievedAt": "2026-09-19T13:42:54.870195Z",
+          "note": "30-minute nowcast; forecast time 2026-09-19T14:37:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-09-19T08:35:57.616150Z",
-          "note": "3-day outlook, peak Kp 2."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
-    },
-    {
-      "id": "aurora-e2fb3372cd",
-      "name": "Aurora over Yellowknife",
-      "description": "OVATION puts auroral visibility at 9% overhead tonight. Planetary Kp is forecast to peak near 2 on 20 Sep 03:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        62.454,
-        -114.3718
-      ],
-      "locationHint": "Yellowknife",
-      "country": "Canada",
-      "windowStart": "2026-09-19T08:35:57.616160Z",
-      "windowEnd": "2026-09-22T08:35:57.616160Z",
-      "peak": "2026-09-20T03:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.367,
-      "baseConfidence": 0.34,
-      "lastVerifiedAt": "2026-09-19T08:24:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-09-19T08:35:57.616144Z",
-          "note": "30-minute nowcast; forecast time 2026-09-19T09:27:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-09-19T08:35:57.616150Z",
+          "retrievedAt": "2026-09-19T13:42:54.870202Z",
           "note": "3-day outlook, peak Kp 2."
         }
       ],
@@ -198,13 +157,13 @@
       "uncertaintyDays": 0.0,
       "confidence": 1.0,
       "baseConfidence": 1.0,
-      "lastVerifiedAt": "2026-09-19T08:35:57.410529Z",
+      "lastVerifiedAt": "2026-09-19T13:42:54.508252Z",
       "sources": [
         {
           "name": "Meeus, Astronomical Algorithms (2nd ed.)",
           "url": "https://www.willbell.com/math/mc1.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-09-19T08:35:57.405585Z",
+          "retrievedAt": "2026-09-19T13:42:54.503548Z",
           "note": "Computed locally; no feed involved."
         }
       ],
