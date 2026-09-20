@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T14:00:40.123258Z",
+  "generatedAt": "2026-09-20T17:25:49.153678Z",
   "horizonDays": 7,
   "counts": {
     "total": 3,
@@ -46,13 +46,13 @@
       "uncertaintyDays": 12.25,
       "confidence": 0.396,
       "baseConfidence": 0.742,
-      "lastVerifiedAt": "2026-09-20T14:00:33.610549Z",
+      "lastVerifiedAt": "2026-09-20T17:25:41.231347Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
           "kind": "citizen",
-          "retrievedAt": "2026-09-20T14:00:33.610549Z",
+          "retrievedAt": "2026-09-20T17:25:41.231347Z",
           "note": "841 research-grade records in region; peak week 38; 67 in last 14 days."
         }
       ],
@@ -114,13 +114,13 @@
       "uncertaintyDays": 0.0,
       "confidence": 1.0,
       "baseConfidence": 1.0,
-      "lastVerifiedAt": "2026-09-20T13:58:54.467436Z",
+      "lastVerifiedAt": "2026-09-20T17:24:02.413637Z",
       "sources": [
         {
           "name": "Meeus, Astronomical Algorithms (2nd ed.)",
           "url": "https://www.willbell.com/math/mc1.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-09-20T13:58:54.463297Z",
+          "retrievedAt": "2026-09-20T17:24:02.408702Z",
           "note": "Computed locally; no feed involved."
         }
       ],
