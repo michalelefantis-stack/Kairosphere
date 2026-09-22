@@ -16,7 +16,7 @@
         "emoji": "🐟",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Underway — roughly 54% through the typical window, with 67 reports in the last two weeks.",
+        "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Underway — roughly 55% through the typical window, with 67 reports in the last two weeks.",
         "locationHint": "Adams River, British Columbia",
         "geocodedAddress": "Canada",
         "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
@@ -78,26 +78,101 @@
     },
     {
       "type": "Feature",
-      "id": "aurora-ce80749dff",
+      "id": "aurora-6336768642",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.7164,
-          64.8378
+          33.0827,
+          68.9585
         ]
       },
       "properties": {
-        "name": "Aurora over Fairbanks",
+        "name": "Aurora over Murmansk",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 10% overhead tonight. Planetary Kp is forecast to peak near 5.33 on 24 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Murmansk",
+        "geocodedAddress": "Russia",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-09-22T17:58:31.623160Z",
+        "endUtc": "2026-09-25T17:58:31.623160Z",
+        "confidence": 0.378,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-2453081f63",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9553,
+          69.6492
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Tromso",
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
         "description": "OVATION puts auroral visibility at 8% overhead tonight. Planetary Kp is forecast to peak near 5.33 on 24 Sep 03:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Fairbanks",
-        "geocodedAddress": "United States",
+        "locationHint": "Tromso",
+        "geocodedAddress": "Norway",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-09-22T13:09:15.292468Z",
-        "endUtc": "2026-09-25T13:09:15.292468Z",
-        "confidence": 0.351,
+        "startUtc": "2026-09-22T17:58:31.623160Z",
+        "endUtc": "2026-09-25T17:58:31.623160Z",
+        "confidence": 0.356,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-370c8f403e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8303,
+          68.3494
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Abisko",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 8% overhead tonight. Planetary Kp is forecast to peak near 5.33 on 24 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Abisko",
+        "geocodedAddress": "Sweden",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-09-22T17:58:31.623160Z",
+        "endUtc": "2026-09-25T17:58:31.623160Z",
+        "confidence": 0.356,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-69d634d576",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7294,
+          66.5039
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Rovaniemi",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 8% overhead tonight. Planetary Kp is forecast to peak near 5.33 on 24 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Rovaniemi",
+        "geocodedAddress": "Finland",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-09-22T17:58:31.623160Z",
+        "endUtc": "2026-09-25T17:58:31.623160Z",
+        "confidence": 0.356,
         "isWithinLiveWindow": true
       }
     }
