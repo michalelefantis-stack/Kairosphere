@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T07:25:23.856529Z",
+  "generatedAt": "2026-09-22T13:11:44.638967Z",
   "horizonDays": 7,
   "counts": {
     "total": 4,
@@ -32,7 +32,7 @@
     {
       "id": "citizen-7d87b1b9ca",
       "name": "Sockeye Salmon Run",
-      "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Underway — roughly 54% through the typical window, with 66 reports in the last two weeks.",
+      "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Underway — roughly 54% through the typical window, with 67 reports in the last two weeks.",
       "category": "Animal Migration",
       "emoji": "🐟",
       "tier": 3,
@@ -48,14 +48,14 @@
       "uncertaintyDays": 12.25,
       "confidence": 0.396,
       "baseConfidence": 0.742,
-      "lastVerifiedAt": "2026-09-22T07:25:18.844431Z",
+      "lastVerifiedAt": "2026-09-22T13:11:38.518643Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
           "kind": "citizen",
-          "retrievedAt": "2026-09-22T07:25:18.844431Z",
-          "note": "846 research-grade records in region; peak week 38; 66 in last 14 days."
+          "retrievedAt": "2026-09-22T13:11:38.518643Z",
+          "note": "846 research-grade records in region; peak week 38; 67 in last 14 days."
         }
       ],
       "sensitivity": "public",
@@ -116,13 +116,13 @@
       "uncertaintyDays": 0.0,
       "confidence": 1.0,
       "baseConfidence": 1.0,
-      "lastVerifiedAt": "2026-09-22T07:23:40.271220Z",
+      "lastVerifiedAt": "2026-09-22T13:09:14.971266Z",
       "sources": [
         {
           "name": "Meeus, Astronomical Algorithms (2nd ed.)",
           "url": "https://www.willbell.com/math/mc1.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-09-22T07:23:40.266307Z",
+          "retrievedAt": "2026-09-22T13:09:14.967622Z",
           "note": "Computed locally; no feed involved."
         }
       ],
@@ -132,38 +132,38 @@
       "recurrence": "annual, solar"
     },
     {
-      "id": "aurora-81b1730198",
-      "name": "Aurora over Yellowknife",
-      "description": "OVATION puts auroral visibility at 11% overhead tonight. Planetary Kp is forecast to peak near 5.33 on 24 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+      "id": "aurora-ce80749dff",
+      "name": "Aurora over Fairbanks",
+      "description": "OVATION puts auroral visibility at 8% overhead tonight. Planetary Kp is forecast to peak near 5.33 on 24 Sep 03:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
       "coordinates": [
-        62.454,
-        -114.3718
+        64.8378,
+        -147.7164
       ],
-      "locationHint": "Yellowknife",
-      "country": "Canada",
-      "windowStart": "2026-09-22T07:23:40.484652Z",
-      "windowEnd": "2026-09-25T07:23:40.484652Z",
+      "locationHint": "Fairbanks",
+      "country": "United States",
+      "windowStart": "2026-09-22T13:09:15.292468Z",
+      "windowEnd": "2026-09-25T13:09:15.292468Z",
       "peak": "2026-09-24T03:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.388,
-      "baseConfidence": 0.36,
-      "lastVerifiedAt": "2026-09-22T07:09:00Z",
+      "confidence": 0.351,
+      "baseConfidence": 0.33,
+      "lastVerifiedAt": "2026-09-22T11:34:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-09-22T07:23:40.484635Z",
-          "note": "30-minute nowcast; forecast time 2026-09-22T08:34:00Z."
+          "retrievedAt": "2026-09-22T13:09:15.292453Z",
+          "note": "30-minute nowcast; forecast time 2026-09-22T14:26:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-09-22T07:23:40.484642Z",
+          "retrievedAt": "2026-09-22T13:09:15.292458Z",
           "note": "3-day outlook, peak Kp 5.33."
         }
       ],

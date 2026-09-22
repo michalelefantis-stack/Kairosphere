@@ -16,7 +16,7 @@
         "emoji": "🐟",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Underway — roughly 54% through the typical window, with 66 reports in the last two weeks.",
+        "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Underway — roughly 54% through the typical window, with 67 reports in the last two weeks.",
         "locationHint": "Adams River, British Columbia",
         "geocodedAddress": "Canada",
         "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
@@ -78,26 +78,26 @@
     },
     {
       "type": "Feature",
-      "id": "aurora-81b1730198",
+      "id": "aurora-ce80749dff",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.3718,
-          62.454
+          -147.7164,
+          64.8378
         ]
       },
       "properties": {
-        "name": "Aurora over Yellowknife",
+        "name": "Aurora over Fairbanks",
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 11% overhead tonight. Planetary Kp is forecast to peak near 5.33 on 24 Sep 03:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Yellowknife",
-        "geocodedAddress": "Canada",
+        "description": "OVATION puts auroral visibility at 8% overhead tonight. Planetary Kp is forecast to peak near 5.33 on 24 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Fairbanks",
+        "geocodedAddress": "United States",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-09-22T07:23:40.484652Z",
-        "endUtc": "2026-09-25T07:23:40.484652Z",
-        "confidence": 0.388,
+        "startUtc": "2026-09-22T13:09:15.292468Z",
+        "endUtc": "2026-09-25T13:09:15.292468Z",
+        "confidence": 0.351,
         "isWithinLiveWindow": true
       }
     }
