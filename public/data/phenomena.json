@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T17:59:16.659667Z",
+  "generatedAt": "2026-09-22T21:12:40.908754Z",
   "horizonDays": 7,
   "counts": {
-    "total": 7,
-    "active": 7,
+    "total": 8,
+    "active": 8,
     "byTier": {
       "1": 1,
-      "2": 4,
+      "2": 5,
       "3": 1,
       "4": 1
     },
     "byBand": {
       "high": 1,
       "medium": 0,
-      "low": 6,
+      "low": 7,
       "speculative": 0
     },
     "sourced": {
-      "collected": 67,
-      "reconciled": 67,
+      "collected": 68,
+      "reconciled": 68,
       "byTier": {
         "1": 56,
-        "2": 4,
+        "2": 5,
         "3": 3,
         "4": 4
       }
@@ -32,7 +32,7 @@
     {
       "id": "citizen-7d87b1b9ca",
       "name": "Sockeye Salmon Run",
-      "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Underway — roughly 55% through the typical window, with 67 reports in the last two weeks.",
+      "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Underway — roughly 55% through the typical window, with 68 reports in the last two weeks.",
       "category": "Animal Migration",
       "emoji": "🐟",
       "tier": 3,
@@ -48,14 +48,14 @@
       "uncertaintyDays": 12.25,
       "confidence": 0.396,
       "baseConfidence": 0.742,
-      "lastVerifiedAt": "2026-09-22T17:58:39.261204Z",
+      "lastVerifiedAt": "2026-09-22T21:12:36.353815Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
           "kind": "citizen",
-          "retrievedAt": "2026-09-22T17:58:39.261204Z",
-          "note": "847 research-grade records in region; peak week 38; 67 in last 14 days."
+          "retrievedAt": "2026-09-22T21:12:36.353815Z",
+          "note": "848 research-grade records in region; peak week 38; 68 in last 14 days."
         }
       ],
       "sensitivity": "public",
@@ -80,7 +80,7 @@
       "windowEnd": "2026-09-30T00:00:00Z",
       "peak": null,
       "uncertaintyDays": 9.67,
-      "confidence": 0.275,
+      "confidence": 0.274,
       "baseConfidence": 0.85,
       "lastVerifiedAt": "2026-06-10T00:00:00Z",
       "sources": [
@@ -116,13 +116,13 @@
       "uncertaintyDays": 0.0,
       "confidence": 1.0,
       "baseConfidence": 1.0,
-      "lastVerifiedAt": "2026-09-22T17:58:31.321039Z",
+      "lastVerifiedAt": "2026-09-22T21:11:42.682157Z",
       "sources": [
         {
           "name": "Meeus, Astronomical Algorithms (2nd ed.)",
           "url": "https://www.willbell.com/math/mc1.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-09-22T17:58:31.315966Z",
+          "retrievedAt": "2026-09-22T21:11:42.677332Z",
           "note": "Computed locally; no feed involved."
         }
       ],
@@ -132,50 +132,9 @@
       "recurrence": "annual, solar"
     },
     {
-      "id": "aurora-6336768642",
-      "name": "Aurora over Murmansk",
-      "description": "OVATION puts auroral visibility at 10% overhead tonight. Planetary Kp is forecast to peak near 5.33 on 24 Sep 03:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        68.9585,
-        33.0827
-      ],
-      "locationHint": "Murmansk",
-      "country": "Russia",
-      "windowStart": "2026-09-22T17:58:31.623160Z",
-      "windowEnd": "2026-09-25T17:58:31.623160Z",
-      "peak": "2026-09-24T03:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.378,
-      "baseConfidence": 0.35,
-      "lastVerifiedAt": "2026-09-22T17:49:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-09-22T17:58:31.623142Z",
-          "note": "30-minute nowcast; forecast time 2026-09-22T19:20:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-09-22T17:58:31.623149Z",
-          "note": "3-day outlook, peak Kp 5.33."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
-    },
-    {
       "id": "aurora-2453081f63",
       "name": "Aurora over Tromso",
-      "description": "OVATION puts auroral visibility at 8% overhead tonight. Planetary Kp is forecast to peak near 5.33 on 24 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+      "description": "OVATION puts auroral visibility at 12% overhead tonight. Planetary Kp is forecast to peak near 5.33 on 24 Sep 03:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
@@ -185,26 +144,26 @@
       ],
       "locationHint": "Tromso",
       "country": "Norway",
-      "windowStart": "2026-09-22T17:58:31.623160Z",
-      "windowEnd": "2026-09-25T17:58:31.623160Z",
+      "windowStart": "2026-09-22T21:11:43.012133Z",
+      "windowEnd": "2026-09-25T21:11:43.012133Z",
       "peak": "2026-09-24T03:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.356,
-      "baseConfidence": 0.33,
-      "lastVerifiedAt": "2026-09-22T17:49:00Z",
+      "confidence": 0.399,
+      "baseConfidence": 0.37,
+      "lastVerifiedAt": "2026-09-22T20:59:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-09-22T17:58:31.623142Z",
-          "note": "30-minute nowcast; forecast time 2026-09-22T19:20:00Z."
+          "retrievedAt": "2026-09-22T21:11:43.012116Z",
+          "note": "30-minute nowcast; forecast time 2026-09-22T22:30:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-09-22T17:58:31.623149Z",
+          "retrievedAt": "2026-09-22T21:11:43.012122Z",
           "note": "3-day outlook, peak Kp 5.33."
         }
       ],
@@ -216,7 +175,7 @@
     {
       "id": "aurora-370c8f403e",
       "name": "Aurora over Abisko",
-      "description": "OVATION puts auroral visibility at 8% overhead tonight. Planetary Kp is forecast to peak near 5.33 on 24 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+      "description": "OVATION puts auroral visibility at 12% overhead tonight. Planetary Kp is forecast to peak near 5.33 on 24 Sep 03:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
@@ -226,26 +185,26 @@
       ],
       "locationHint": "Abisko",
       "country": "Sweden",
-      "windowStart": "2026-09-22T17:58:31.623160Z",
-      "windowEnd": "2026-09-25T17:58:31.623160Z",
+      "windowStart": "2026-09-22T21:11:43.012133Z",
+      "windowEnd": "2026-09-25T21:11:43.012133Z",
       "peak": "2026-09-24T03:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.356,
-      "baseConfidence": 0.33,
-      "lastVerifiedAt": "2026-09-22T17:49:00Z",
+      "confidence": 0.399,
+      "baseConfidence": 0.37,
+      "lastVerifiedAt": "2026-09-22T20:59:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-09-22T17:58:31.623142Z",
-          "note": "30-minute nowcast; forecast time 2026-09-22T19:20:00Z."
+          "retrievedAt": "2026-09-22T21:11:43.012116Z",
+          "note": "30-minute nowcast; forecast time 2026-09-22T22:30:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-09-22T17:58:31.623149Z",
+          "retrievedAt": "2026-09-22T21:11:43.012122Z",
           "note": "3-day outlook, peak Kp 5.33."
         }
       ],
@@ -257,7 +216,7 @@
     {
       "id": "aurora-69d634d576",
       "name": "Aurora over Rovaniemi",
-      "description": "OVATION puts auroral visibility at 8% overhead tonight. Planetary Kp is forecast to peak near 5.33 on 24 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+      "description": "OVATION puts auroral visibility at 12% overhead tonight. Planetary Kp is forecast to peak near 5.33 on 24 Sep 03:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
@@ -267,26 +226,108 @@
       ],
       "locationHint": "Rovaniemi",
       "country": "Finland",
-      "windowStart": "2026-09-22T17:58:31.623160Z",
-      "windowEnd": "2026-09-25T17:58:31.623160Z",
+      "windowStart": "2026-09-22T21:11:43.012133Z",
+      "windowEnd": "2026-09-25T21:11:43.012133Z",
       "peak": "2026-09-24T03:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.356,
-      "baseConfidence": 0.33,
-      "lastVerifiedAt": "2026-09-22T17:49:00Z",
+      "confidence": 0.399,
+      "baseConfidence": 0.37,
+      "lastVerifiedAt": "2026-09-22T20:59:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-09-22T17:58:31.623142Z",
-          "note": "30-minute nowcast; forecast time 2026-09-22T19:20:00Z."
+          "retrievedAt": "2026-09-22T21:11:43.012116Z",
+          "note": "30-minute nowcast; forecast time 2026-09-22T22:30:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-09-22T17:58:31.623149Z",
+          "retrievedAt": "2026-09-22T21:11:43.012122Z",
+          "note": "3-day outlook, peak Kp 5.33."
+        }
+      ],
+      "sensitivity": "public",
+      "precision": "point",
+      "consent": "",
+      "recurrence": "solar-driven, episodic"
+    },
+    {
+      "id": "aurora-6336768642",
+      "name": "Aurora over Murmansk",
+      "description": "OVATION puts auroral visibility at 11% overhead tonight. Planetary Kp is forecast to peak near 5.33 on 24 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+      "category": "Atmospheric Phenomenon",
+      "emoji": "🌌",
+      "tier": 2,
+      "coordinates": [
+        68.9585,
+        33.0827
+      ],
+      "locationHint": "Murmansk",
+      "country": "Russia",
+      "windowStart": "2026-09-22T21:11:43.012133Z",
+      "windowEnd": "2026-09-25T21:11:43.012133Z",
+      "peak": "2026-09-24T03:00:00Z",
+      "uncertaintyDays": 0.5,
+      "confidence": 0.388,
+      "baseConfidence": 0.36,
+      "lastVerifiedAt": "2026-09-22T20:59:00Z",
+      "sources": [
+        {
+          "name": "NOAA SWPC OVATION Aurora Model",
+          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+          "kind": "model",
+          "retrievedAt": "2026-09-22T21:11:43.012116Z",
+          "note": "30-minute nowcast; forecast time 2026-09-22T22:30:00Z."
+        },
+        {
+          "name": "NOAA SWPC Planetary K-index Forecast",
+          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
+          "kind": "model",
+          "retrievedAt": "2026-09-22T21:11:43.012122Z",
+          "note": "3-day outlook, peak Kp 5.33."
+        }
+      ],
+      "sensitivity": "public",
+      "precision": "point",
+      "consent": "",
+      "recurrence": "solar-driven, episodic"
+    },
+    {
+      "id": "aurora-a3698c8b65",
+      "name": "Aurora over Reykjavik",
+      "description": "OVATION puts auroral visibility at 9% overhead tonight. Planetary Kp is forecast to peak near 5.33 on 24 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+      "category": "Atmospheric Phenomenon",
+      "emoji": "🌌",
+      "tier": 2,
+      "coordinates": [
+        64.1466,
+        -21.9426
+      ],
+      "locationHint": "Reykjavik",
+      "country": "Iceland",
+      "windowStart": "2026-09-22T21:11:43.012133Z",
+      "windowEnd": "2026-09-25T21:11:43.012133Z",
+      "peak": "2026-09-24T03:00:00Z",
+      "uncertaintyDays": 0.5,
+      "confidence": 0.367,
+      "baseConfidence": 0.34,
+      "lastVerifiedAt": "2026-09-22T20:59:00Z",
+      "sources": [
+        {
+          "name": "NOAA SWPC OVATION Aurora Model",
+          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+          "kind": "model",
+          "retrievedAt": "2026-09-22T21:11:43.012116Z",
+          "note": "30-minute nowcast; forecast time 2026-09-22T22:30:00Z."
+        },
+        {
+          "name": "NOAA SWPC Planetary K-index Forecast",
+          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
+          "kind": "model",
+          "retrievedAt": "2026-09-22T21:11:43.012122Z",
           "note": "3-day outlook, peak Kp 5.33."
         }
       ],
