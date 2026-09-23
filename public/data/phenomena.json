@@ -1,28 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T07:28:02.764990Z",
+  "generatedAt": "2026-09-23T13:25:03.600870Z",
   "horizonDays": 7,
   "counts": {
-    "total": 4,
-    "active": 4,
+    "total": 3,
+    "active": 3,
     "byTier": {
       "1": 1,
-      "2": 1,
       "3": 1,
       "4": 1
     },
     "byBand": {
       "high": 1,
       "medium": 0,
-      "low": 3,
+      "low": 2,
       "speculative": 0
     },
     "sourced": {
-      "collected": 64,
-      "reconciled": 64,
+      "collected": 63,
+      "reconciled": 63,
       "byTier": {
         "1": 56,
-        "2": 1,
         "3": 3,
         "4": 4
       }
@@ -48,13 +46,13 @@
       "uncertaintyDays": 12.25,
       "confidence": 0.396,
       "baseConfidence": 0.743,
-      "lastVerifiedAt": "2026-09-23T07:28:00.667064Z",
+      "lastVerifiedAt": "2026-09-23T13:24:56.026955Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
           "kind": "citizen",
-          "retrievedAt": "2026-09-23T07:28:00.667064Z",
+          "retrievedAt": "2026-09-23T13:24:56.026955Z",
           "note": "851 research-grade records in region; peak week 38; 68 in last 14 days."
         }
       ],
@@ -80,7 +78,7 @@
       "windowEnd": "2026-09-30T00:00:00Z",
       "peak": null,
       "uncertaintyDays": 9.67,
-      "confidence": 0.274,
+      "confidence": 0.273,
       "baseConfidence": 0.85,
       "lastVerifiedAt": "2026-06-10T00:00:00Z",
       "sources": [
@@ -116,13 +114,13 @@
       "uncertaintyDays": 0.0,
       "confidence": 1.0,
       "baseConfidence": 1.0,
-      "lastVerifiedAt": "2026-09-23T07:26:21.754392Z",
+      "lastVerifiedAt": "2026-09-23T13:24:04.510139Z",
       "sources": [
         {
           "name": "Meeus, Astronomical Algorithms (2nd ed.)",
           "url": "https://www.willbell.com/math/mc1.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-09-23T07:26:21.749779Z",
+          "retrievedAt": "2026-09-23T13:24:04.505309Z",
           "note": "Computed locally; no feed involved."
         }
       ],
@@ -130,47 +128,6 @@
       "precision": "point",
       "consent": "",
       "recurrence": "annual, solar"
-    },
-    {
-      "id": "aurora-048bd43c19",
-      "name": "Aurora over Yellowknife",
-      "description": "OVATION puts auroral visibility at 10% overhead tonight. Planetary Kp is forecast to peak near 5.33 on 24 Sep 03:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        62.454,
-        -114.3718
-      ],
-      "locationHint": "Yellowknife",
-      "country": "Canada",
-      "windowStart": "2026-09-23T07:26:22.040034Z",
-      "windowEnd": "2026-09-26T07:26:22.040034Z",
-      "peak": "2026-09-24T03:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.378,
-      "baseConfidence": 0.35,
-      "lastVerifiedAt": "2026-09-23T07:14:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-09-23T07:26:22.040013Z",
-          "note": "30-minute nowcast; forecast time 2026-09-23T08:46:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-09-23T07:26:22.040020Z",
-          "note": "3-day outlook, peak Kp 5.33."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
     }
   ]
 }
