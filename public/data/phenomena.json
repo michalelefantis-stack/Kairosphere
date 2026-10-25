@@ -1,60 +1,102 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T19:54:15.269277Z",
+  "generatedAt": "2026-10-25T19:56:13.893300Z",
   "horizonDays": 7,
   "counts": {
-    "total": 7,
+    "total": 9,
     "active": 7,
     "byTier": {
+      "1": 2,
       "2": 5,
       "3": 1,
       "4": 1
     },
     "byBand": {
-      "high": 0,
-      "medium": 5,
+      "high": 2,
+      "medium": 4,
       "low": 2,
-      "speculative": 0
+      "speculative": 1
     },
     "sourced": {
-      "collected": 68,
-      "reconciled": 68,
+      "collected": 67,
+      "reconciled": 67,
       "byTier": {
         "1": 56,
         "2": 5,
         "3": 3,
-        "4": 4
+        "4": 3
       }
     }
   },
   "events": [
     {
-      "id": "citizen-7d87b1b9ca",
-      "name": "Sockeye Salmon Run",
-      "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Underway — roughly 61% through the typical window, with 68 reports in the last two weeks.",
+      "id": "astro-meteor-a7573b9d84",
+      "name": "Orionids Meteor Shower",
+      "description": "Peak rate around 20 meteors/hour under ideal conditions. Moon 73% lit — a poor year for this shower.",
+      "category": "Cosmic Event",
+      "emoji": "☄️",
+      "tier": 1,
+      "coordinates": [
+        -23.0294,
+        -67.7548
+      ],
+      "locationHint": "Atacama Desert (ALMA plateau)",
+      "country": "Chile",
+      "windowStart": "2026-10-16T02:00:00Z",
+      "windowEnd": "2026-10-26T02:00:00Z",
+      "peak": "2026-10-21T02:00:00Z",
+      "uncertaintyDays": 0.5,
+      "confidence": 0.966,
+      "baseConfidence": 1.0,
+      "lastVerifiedAt": "2026-10-25T19:54:30.814477Z",
+      "sources": [
+        {
+          "name": "Meeus, Astronomical Algorithms (2nd ed.)",
+          "url": "https://www.willbell.com/math/mc1.htm",
+          "kind": "deterministic",
+          "retrievedAt": "2026-10-25T19:54:30.809418Z",
+          "note": "Computed locally; no feed involved."
+        },
+        {
+          "name": "IMO Meteor Shower Calendar",
+          "url": "https://www.imo.net/resources/calendar/",
+          "kind": "deterministic",
+          "retrievedAt": "2026-10-25T19:54:30.809427Z",
+          "note": "Peak dates are stable year to year; ZHR is the published nominal rate."
+        }
+      ],
+      "sensitivity": "public",
+      "precision": "point",
+      "consent": "",
+      "recurrence": "annual"
+    },
+    {
+      "id": "citizen-5c23737ea3",
+      "name": "Monarch Overwintering Roosts",
+      "description": "Hundreds of millions of monarchs clustering on oyamel fir, dense enough to bend the branches. Underway — roughly 6% through the typical window, with 24 reports in the last two weeks.",
       "category": "Animal Migration",
-      "emoji": "🐟",
+      "emoji": "🦋",
       "tier": 3,
       "coordinates": [
-        50.9,
-        -119.6
+        19.6,
+        -100.3
       ],
-      "locationHint": "Adams River, British Columbia",
-      "country": "Canada",
-      "windowStart": "2026-08-27T00:00:00Z",
-      "windowEnd": "2026-10-15T00:00:00Z",
-      "peak": "2026-09-17T00:00:00Z",
-      "uncertaintyDays": 12.25,
-      "confidence": 0.396,
-      "baseConfidence": 0.743,
-      "lastVerifiedAt": "2026-09-25T19:54:08.595400Z",
+      "locationHint": "Michoacan oyamel forests",
+      "country": "Mexico",
+      "windowStart": "2026-10-22T00:00:00Z",
+      "windowEnd": "2026-12-24T00:00:00Z",
+      "peak": "2026-11-05T00:00:00Z",
+      "uncertaintyDays": 15.75,
+      "confidence": 0.4,
+      "baseConfidence": 0.85,
+      "lastVerifiedAt": "2026-10-25T19:56:09.266340Z",
       "sources": [
         {
           "name": "iNaturalist observations",
-          "url": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
+          "url": "https://api.inaturalist.org/v1/observations?taxon_id=48662",
           "kind": "citizen",
-          "retrievedAt": "2026-09-25T19:54:08.595400Z",
-          "note": "853 research-grade records in region; peak week 38; 68 in last 14 days."
+          "retrievedAt": "2026-10-25T19:56:09.266340Z",
+          "note": "11392 research-grade records in region; peak week 45; 24 in last 14 days."
         }
       ],
       "sensitivity": "public",
@@ -63,125 +105,9 @@
       "recurrence": "annual, observed"
     },
     {
-      "id": "curated-71555bddfe",
-      "name": "Gerewol",
-      "description": "Wodaabe men dance the yaake in ochre and beads for hours in the heat, judged by women of the clan. Held where herding groups converge as the rains end. Nomadic and weather-dependent — the gathering point shifts year to year, so coordinates are country-level on purpose.",
-      "category": "Human Ritual",
-      "emoji": "💃",
-      "tier": 4,
-      "coordinates": [
-        15,
-        10
-      ],
-      "locationHint": "Southern Niger (location follows the herds)",
-      "country": "Niger",
-      "windowStart": "2026-09-01T00:00:00Z",
-      "windowEnd": "2026-09-30T00:00:00Z",
-      "peak": null,
-      "uncertaintyDays": 9.67,
-      "confidence": 0.27,
-      "baseConfidence": 0.85,
-      "lastVerifiedAt": "2026-06-10T00:00:00Z",
-      "sources": [
-        {
-          "name": "UNESCO ICH nomination context",
-          "url": "https://ich.unesco.org/",
-          "kind": "curated",
-          "retrievedAt": "2026-06-10T00:00:00Z",
-          "note": "Attend only with Wodaabe hosts or the specialist operators who arrange with them. No fixed public venue exists."
-        }
-      ],
-      "sensitivity": "restricted",
-      "precision": "country",
-      "consent": "Attend only with Wodaabe hosts or the specialist operators who arrange with them. No fixed public venue exists.",
-      "recurrence": "month_window"
-    },
-    {
-      "id": "aurora-7ed4428e6c",
-      "name": "Aurora over Tromso",
-      "description": "OVATION puts auroral visibility at 34% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 26 Sep 03:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        69.6492,
-        18.9553
-      ],
-      "locationHint": "Tromso",
-      "country": "Norway",
-      "windowStart": "2026-09-25T19:52:08.169895Z",
-      "windowEnd": "2026-09-28T19:52:08.169895Z",
-      "peak": "2026-09-26T03:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.636,
-      "baseConfidence": 0.59,
-      "lastVerifiedAt": "2026-09-25T19:39:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-09-25T19:52:08.169880Z",
-          "note": "30-minute nowcast; forecast time 2026-09-25T20:34:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-09-25T19:52:08.169884Z",
-          "note": "3-day outlook, peak Kp 3.67."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
-    },
-    {
-      "id": "aurora-1899b257bd",
-      "name": "Aurora over Abisko",
-      "description": "OVATION puts auroral visibility at 34% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 26 Sep 03:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        68.3494,
-        18.8303
-      ],
-      "locationHint": "Abisko",
-      "country": "Sweden",
-      "windowStart": "2026-09-25T19:52:08.169895Z",
-      "windowEnd": "2026-09-28T19:52:08.169895Z",
-      "peak": "2026-09-26T03:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.636,
-      "baseConfidence": 0.59,
-      "lastVerifiedAt": "2026-09-25T19:39:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-09-25T19:52:08.169880Z",
-          "note": "30-minute nowcast; forecast time 2026-09-25T20:34:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-09-25T19:52:08.169884Z",
-          "note": "3-day outlook, peak Kp 3.67."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
-    },
-    {
-      "id": "aurora-6111bd3f3a",
+      "id": "aurora-f0b518ea3f",
       "name": "Aurora over Rovaniemi",
-      "description": "OVATION puts auroral visibility at 34% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 26 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+      "description": "OVATION puts auroral visibility at 21% overhead tonight. Planetary Kp is forecast to peak near 3 on 26 Oct 00:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
@@ -191,27 +117,27 @@
       ],
       "locationHint": "Rovaniemi",
       "country": "Finland",
-      "windowStart": "2026-09-25T19:52:08.169895Z",
-      "windowEnd": "2026-09-28T19:52:08.169895Z",
-      "peak": "2026-09-26T03:00:00Z",
+      "windowStart": "2026-10-25T19:54:31.116133Z",
+      "windowEnd": "2026-10-28T19:54:31.116133Z",
+      "peak": "2026-10-26T00:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.636,
-      "baseConfidence": 0.59,
-      "lastVerifiedAt": "2026-09-25T19:39:00Z",
+      "confidence": 0.496,
+      "baseConfidence": 0.46,
+      "lastVerifiedAt": "2026-10-25T19:42:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-09-25T19:52:08.169880Z",
-          "note": "30-minute nowcast; forecast time 2026-09-25T20:34:00Z."
+          "retrievedAt": "2026-10-25T19:54:31.116117Z",
+          "note": "30-minute nowcast; forecast time 2026-10-25T21:02:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-09-25T19:52:08.169884Z",
-          "note": "3-day outlook, peak Kp 3.67."
+          "retrievedAt": "2026-10-25T19:54:31.116123Z",
+          "note": "3-day outlook, peak Kp 3."
         }
       ],
       "sensitivity": "public",
@@ -220,9 +146,9 @@
       "recurrence": "solar-driven, episodic"
     },
     {
-      "id": "aurora-d4b934c5a8",
+      "id": "aurora-25e717be4e",
       "name": "Aurora over Murmansk",
-      "description": "OVATION puts auroral visibility at 33% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 26 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+      "description": "OVATION puts auroral visibility at 21% overhead tonight. Planetary Kp is forecast to peak near 3 on 26 Oct 00:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
@@ -232,27 +158,27 @@
       ],
       "locationHint": "Murmansk",
       "country": "Russia",
-      "windowStart": "2026-09-25T19:52:08.169895Z",
-      "windowEnd": "2026-09-28T19:52:08.169895Z",
-      "peak": "2026-09-26T03:00:00Z",
+      "windowStart": "2026-10-25T19:54:31.116133Z",
+      "windowEnd": "2026-10-28T19:54:31.116133Z",
+      "peak": "2026-10-26T00:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.626,
-      "baseConfidence": 0.58,
-      "lastVerifiedAt": "2026-09-25T19:39:00Z",
+      "confidence": 0.496,
+      "baseConfidence": 0.46,
+      "lastVerifiedAt": "2026-10-25T19:42:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-09-25T19:52:08.169880Z",
-          "note": "30-minute nowcast; forecast time 2026-09-25T20:34:00Z."
+          "retrievedAt": "2026-10-25T19:54:31.116117Z",
+          "note": "30-minute nowcast; forecast time 2026-10-25T21:02:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-09-25T19:52:08.169884Z",
-          "note": "3-day outlook, peak Kp 3.67."
+          "retrievedAt": "2026-10-25T19:54:31.116123Z",
+          "note": "3-day outlook, peak Kp 3."
         }
       ],
       "sensitivity": "public",
@@ -261,9 +187,91 @@
       "recurrence": "solar-driven, episodic"
     },
     {
-      "id": "aurora-639f8f5fec",
+      "id": "aurora-1f2feedf8e",
+      "name": "Aurora over Tromso",
+      "description": "OVATION puts auroral visibility at 20% overhead tonight. Planetary Kp is forecast to peak near 3 on 26 Oct 00:00 UTC. Clear skies and darkness still decide it.",
+      "category": "Atmospheric Phenomenon",
+      "emoji": "🌌",
+      "tier": 2,
+      "coordinates": [
+        69.6492,
+        18.9553
+      ],
+      "locationHint": "Tromso",
+      "country": "Norway",
+      "windowStart": "2026-10-25T19:54:31.116133Z",
+      "windowEnd": "2026-10-28T19:54:31.116133Z",
+      "peak": "2026-10-26T00:00:00Z",
+      "uncertaintyDays": 0.5,
+      "confidence": 0.486,
+      "baseConfidence": 0.45,
+      "lastVerifiedAt": "2026-10-25T19:42:00Z",
+      "sources": [
+        {
+          "name": "NOAA SWPC OVATION Aurora Model",
+          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+          "kind": "model",
+          "retrievedAt": "2026-10-25T19:54:31.116117Z",
+          "note": "30-minute nowcast; forecast time 2026-10-25T21:02:00Z."
+        },
+        {
+          "name": "NOAA SWPC Planetary K-index Forecast",
+          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
+          "kind": "model",
+          "retrievedAt": "2026-10-25T19:54:31.116123Z",
+          "note": "3-day outlook, peak Kp 3."
+        }
+      ],
+      "sensitivity": "public",
+      "precision": "point",
+      "consent": "",
+      "recurrence": "solar-driven, episodic"
+    },
+    {
+      "id": "aurora-54943499d2",
+      "name": "Aurora over Abisko",
+      "description": "OVATION puts auroral visibility at 20% overhead tonight. Planetary Kp is forecast to peak near 3 on 26 Oct 00:00 UTC. Clear skies and darkness still decide it.",
+      "category": "Atmospheric Phenomenon",
+      "emoji": "🌌",
+      "tier": 2,
+      "coordinates": [
+        68.3494,
+        18.8303
+      ],
+      "locationHint": "Abisko",
+      "country": "Sweden",
+      "windowStart": "2026-10-25T19:54:31.116133Z",
+      "windowEnd": "2026-10-28T19:54:31.116133Z",
+      "peak": "2026-10-26T00:00:00Z",
+      "uncertaintyDays": 0.5,
+      "confidence": 0.486,
+      "baseConfidence": 0.45,
+      "lastVerifiedAt": "2026-10-25T19:42:00Z",
+      "sources": [
+        {
+          "name": "NOAA SWPC OVATION Aurora Model",
+          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+          "kind": "model",
+          "retrievedAt": "2026-10-25T19:54:31.116117Z",
+          "note": "30-minute nowcast; forecast time 2026-10-25T21:02:00Z."
+        },
+        {
+          "name": "NOAA SWPC Planetary K-index Forecast",
+          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
+          "kind": "model",
+          "retrievedAt": "2026-10-25T19:54:31.116123Z",
+          "note": "3-day outlook, peak Kp 3."
+        }
+      ],
+      "sensitivity": "public",
+      "precision": "point",
+      "consent": "",
+      "recurrence": "solar-driven, episodic"
+    },
+    {
+      "id": "aurora-8b5bd86a57",
       "name": "Aurora over Reykjavik",
-      "description": "OVATION puts auroral visibility at 30% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 26 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+      "description": "OVATION puts auroral visibility at 13% overhead tonight. Planetary Kp is forecast to peak near 3 on 26 Oct 00:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
@@ -273,33 +281,108 @@
       ],
       "locationHint": "Reykjavik",
       "country": "Iceland",
-      "windowStart": "2026-09-25T19:52:08.169895Z",
-      "windowEnd": "2026-09-28T19:52:08.169895Z",
-      "peak": "2026-09-26T03:00:00Z",
+      "windowStart": "2026-10-25T19:54:31.116133Z",
+      "windowEnd": "2026-10-28T19:54:31.116133Z",
+      "peak": "2026-10-26T00:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.593,
-      "baseConfidence": 0.55,
-      "lastVerifiedAt": "2026-09-25T19:39:00Z",
+      "confidence": 0.41,
+      "baseConfidence": 0.38,
+      "lastVerifiedAt": "2026-10-25T19:42:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-09-25T19:52:08.169880Z",
-          "note": "30-minute nowcast; forecast time 2026-09-25T20:34:00Z."
+          "retrievedAt": "2026-10-25T19:54:31.116117Z",
+          "note": "30-minute nowcast; forecast time 2026-10-25T21:02:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-09-25T19:52:08.169884Z",
-          "note": "3-day outlook, peak Kp 3.67."
+          "retrievedAt": "2026-10-25T19:54:31.116123Z",
+          "note": "3-day outlook, peak Kp 3."
         }
       ],
       "sensitivity": "public",
       "precision": "point",
       "consent": "",
       "recurrence": "solar-driven, episodic"
+    },
+    {
+      "id": "astro-meteor-81f148fa95",
+      "name": "Southern Taurids Meteor Shower",
+      "description": "Peak rate around 5 meteors/hour under ideal conditions. Dark skies at peak — near-ideal viewing.",
+      "category": "Cosmic Event",
+      "emoji": "☄️",
+      "tier": 1,
+      "coordinates": [
+        -23.0294,
+        -67.7548
+      ],
+      "locationHint": "Atacama Desert (ALMA plateau)",
+      "country": "Chile",
+      "windowStart": "2026-10-26T02:00:00Z",
+      "windowEnd": "2026-11-15T02:00:00Z",
+      "peak": "2026-11-05T02:00:00Z",
+      "uncertaintyDays": 0.5,
+      "confidence": 0.966,
+      "baseConfidence": 1.0,
+      "lastVerifiedAt": "2026-10-25T19:54:30.814487Z",
+      "sources": [
+        {
+          "name": "Meeus, Astronomical Algorithms (2nd ed.)",
+          "url": "https://www.willbell.com/math/mc1.htm",
+          "kind": "deterministic",
+          "retrievedAt": "2026-10-25T19:54:30.809418Z",
+          "note": "Computed locally; no feed involved."
+        },
+        {
+          "name": "IMO Meteor Shower Calendar",
+          "url": "https://www.imo.net/resources/calendar/",
+          "kind": "deterministic",
+          "retrievedAt": "2026-10-25T19:54:30.809427Z",
+          "note": "Peak dates are stable year to year; ZHR is the published nominal rate."
+        }
+      ],
+      "sensitivity": "public",
+      "precision": "point",
+      "consent": "",
+      "recurrence": "annual"
+    },
+    {
+      "id": "curated-0b70a303de",
+      "name": "Dia de Muertos",
+      "description": "Families keep vigil at gravesides through the night with marigolds, candles and the food the dead preferred. Village cemeteries around Oaxaca differ sharply from the city's tourist-heavy comparsas.",
+      "category": "Human Ritual",
+      "emoji": "💀",
+      "tier": 4,
+      "coordinates": [
+        17.0732,
+        -96.7266
+      ],
+      "locationHint": "Oaxaca de Juarez",
+      "country": "Mexico",
+      "windowStart": "2026-11-01T00:00:00Z",
+      "windowEnd": "2026-11-03T00:00:00Z",
+      "peak": null,
+      "uncertaintyDays": 0.67,
+      "confidence": 0.103,
+      "baseConfidence": 0.85,
+      "lastVerifiedAt": "2025-11-03T00:00:00Z",
+      "sources": [
+        {
+          "name": "UNESCO Intangible Cultural Heritage",
+          "url": "https://ich.unesco.org/en/RL/indigenous-festivity-dedicated-to-the-dead-00054",
+          "kind": "curated",
+          "retrievedAt": "2025-11-03T00:00:00Z",
+          "note": "Public observance; cemetery vigils are family occasions where visitors are expected to be unobtrusive."
+        }
+      ],
+      "sensitivity": "public",
+      "precision": "point",
+      "consent": "Public observance; cemetery vigils are family occasions where visitors are expected to be unobtrusive.",
+      "recurrence": "fixed"
     }
   ]
 }

@@ -3,107 +3,57 @@
   "features": [
     {
       "type": "Feature",
-      "id": "citizen-7d87b1b9ca",
+      "id": "astro-meteor-a7573b9d84",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.6,
-          50.9
+          -67.7548,
+          -23.0294
         ]
       },
       "properties": {
-        "name": "Sockeye Salmon Run",
-        "emoji": "🐟",
+        "name": "Orionids Meteor Shower",
+        "emoji": "☄️",
+        "category": "Cosmic Event",
+        "categoryLabel": "Cosmic Event",
+        "description": "Peak rate around 20 meteors/hour under ideal conditions. Moon 73% lit — a poor year for this shower.",
+        "locationHint": "Atacama Desert (ALMA plateau)",
+        "geocodedAddress": "Chile",
+        "sourceUrl": "https://www.willbell.com/math/mc1.htm",
+        "startUtc": "2026-10-16T02:00:00Z",
+        "endUtc": "2026-10-26T02:00:00Z",
+        "confidence": 0.966,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "citizen-5c23737ea3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.3,
+          19.6
+        ]
+      },
+      "properties": {
+        "name": "Monarch Overwintering Roosts",
+        "emoji": "🦋",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Spawning sockeye turn the river red. Dominant-year runs are an order of magnitude larger than off years. Underway — roughly 61% through the typical window, with 68 reports in the last two weeks.",
-        "locationHint": "Adams River, British Columbia",
-        "geocodedAddress": "Canada",
-        "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=69922",
-        "startUtc": "2026-08-27T00:00:00Z",
-        "endUtc": "2026-10-15T00:00:00Z",
-        "confidence": 0.396,
+        "description": "Hundreds of millions of monarchs clustering on oyamel fir, dense enough to bend the branches. Underway — roughly 6% through the typical window, with 24 reports in the last two weeks.",
+        "locationHint": "Michoacan oyamel forests",
+        "geocodedAddress": "Mexico",
+        "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=48662",
+        "startUtc": "2026-10-22T00:00:00Z",
+        "endUtc": "2026-12-24T00:00:00Z",
+        "confidence": 0.4,
         "isWithinLiveWindow": true
       }
     },
     {
       "type": "Feature",
-      "id": "curated-71555bddfe",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10,
-          15
-        ]
-      },
-      "properties": {
-        "name": "Gerewol",
-        "emoji": "💃",
-        "category": "Human Ritual",
-        "categoryLabel": "Human Ritual",
-        "description": "Wodaabe men dance the yaake in ochre and beads for hours in the heat, judged by women of the clan. Held where herding groups converge as the rains end. Nomadic and weather-dependent — the gathering point shifts year to year, so coordinates are country-level on purpose.",
-        "locationHint": "Southern Niger (location follows the herds)",
-        "geocodedAddress": "Niger",
-        "sourceUrl": "https://ich.unesco.org/",
-        "startUtc": "2026-09-01T00:00:00Z",
-        "endUtc": "2026-09-30T00:00:00Z",
-        "confidence": 0.27,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-7ed4428e6c",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.9553,
-          69.6492
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Tromso",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 34% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 26 Sep 03:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Tromso",
-        "geocodedAddress": "Norway",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-09-25T19:52:08.169895Z",
-        "endUtc": "2026-09-28T19:52:08.169895Z",
-        "confidence": 0.636,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-1899b257bd",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.8303,
-          68.3494
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Abisko",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 34% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 26 Sep 03:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Abisko",
-        "geocodedAddress": "Sweden",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-09-25T19:52:08.169895Z",
-        "endUtc": "2026-09-28T19:52:08.169895Z",
-        "confidence": 0.636,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-6111bd3f3a",
+      "id": "aurora-f0b518ea3f",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -116,19 +66,19 @@
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 34% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 26 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+        "description": "OVATION puts auroral visibility at 21% overhead tonight. Planetary Kp is forecast to peak near 3 on 26 Oct 00:00 UTC. Clear skies and darkness still decide it.",
         "locationHint": "Rovaniemi",
         "geocodedAddress": "Finland",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-09-25T19:52:08.169895Z",
-        "endUtc": "2026-09-28T19:52:08.169895Z",
-        "confidence": 0.636,
+        "startUtc": "2026-10-25T19:54:31.116133Z",
+        "endUtc": "2026-10-28T19:54:31.116133Z",
+        "confidence": 0.496,
         "isWithinLiveWindow": true
       }
     },
     {
       "type": "Feature",
-      "id": "aurora-d4b934c5a8",
+      "id": "aurora-25e717be4e",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -141,19 +91,69 @@
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 33% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 26 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+        "description": "OVATION puts auroral visibility at 21% overhead tonight. Planetary Kp is forecast to peak near 3 on 26 Oct 00:00 UTC. Clear skies and darkness still decide it.",
         "locationHint": "Murmansk",
         "geocodedAddress": "Russia",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-09-25T19:52:08.169895Z",
-        "endUtc": "2026-09-28T19:52:08.169895Z",
-        "confidence": 0.626,
+        "startUtc": "2026-10-25T19:54:31.116133Z",
+        "endUtc": "2026-10-28T19:54:31.116133Z",
+        "confidence": 0.496,
         "isWithinLiveWindow": true
       }
     },
     {
       "type": "Feature",
-      "id": "aurora-639f8f5fec",
+      "id": "aurora-1f2feedf8e",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9553,
+          69.6492
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Tromso",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 20% overhead tonight. Planetary Kp is forecast to peak near 3 on 26 Oct 00:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Tromso",
+        "geocodedAddress": "Norway",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-10-25T19:54:31.116133Z",
+        "endUtc": "2026-10-28T19:54:31.116133Z",
+        "confidence": 0.486,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-54943499d2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8303,
+          68.3494
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Abisko",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 20% overhead tonight. Planetary Kp is forecast to peak near 3 on 26 Oct 00:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Abisko",
+        "geocodedAddress": "Sweden",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-10-25T19:54:31.116133Z",
+        "endUtc": "2026-10-28T19:54:31.116133Z",
+        "confidence": 0.486,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-8b5bd86a57",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -166,14 +166,64 @@
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 30% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 26 Sep 03:00 UTC. Clear skies and darkness still decide it.",
+        "description": "OVATION puts auroral visibility at 13% overhead tonight. Planetary Kp is forecast to peak near 3 on 26 Oct 00:00 UTC. Clear skies and darkness still decide it.",
         "locationHint": "Reykjavik",
         "geocodedAddress": "Iceland",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-09-25T19:52:08.169895Z",
-        "endUtc": "2026-09-28T19:52:08.169895Z",
-        "confidence": 0.593,
+        "startUtc": "2026-10-25T19:54:31.116133Z",
+        "endUtc": "2026-10-28T19:54:31.116133Z",
+        "confidence": 0.41,
         "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "astro-meteor-81f148fa95",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.7548,
+          -23.0294
+        ]
+      },
+      "properties": {
+        "name": "Southern Taurids Meteor Shower",
+        "emoji": "☄️",
+        "category": "Cosmic Event",
+        "categoryLabel": "Cosmic Event",
+        "description": "Peak rate around 5 meteors/hour under ideal conditions. Dark skies at peak — near-ideal viewing.",
+        "locationHint": "Atacama Desert (ALMA plateau)",
+        "geocodedAddress": "Chile",
+        "sourceUrl": "https://www.willbell.com/math/mc1.htm",
+        "startUtc": "2026-10-26T02:00:00Z",
+        "endUtc": "2026-11-15T02:00:00Z",
+        "confidence": 0.966,
+        "isWithinLiveWindow": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "curated-0b70a303de",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7266,
+          17.0732
+        ]
+      },
+      "properties": {
+        "name": "Dia de Muertos",
+        "emoji": "💀",
+        "category": "Human Ritual",
+        "categoryLabel": "Human Ritual",
+        "description": "Families keep vigil at gravesides through the night with marigolds, candles and the food the dead preferred. Village cemeteries around Oaxaca differ sharply from the city's tourist-heavy comparsas.",
+        "locationHint": "Oaxaca de Juarez",
+        "geocodedAddress": "Mexico",
+        "sourceUrl": "https://ich.unesco.org/en/RL/indigenous-festivity-dedicated-to-the-dead-00054",
+        "startUtc": "2026-11-01T00:00:00Z",
+        "endUtc": "2026-11-03T00:00:00Z",
+        "confidence": 0.103,
+        "isWithinLiveWindow": false
       }
     }
   ]
