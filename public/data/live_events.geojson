@@ -3,31 +3,6 @@
   "features": [
     {
       "type": "Feature",
-      "id": "astro-meteor-a7573b9d84",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.7548,
-          -23.0294
-        ]
-      },
-      "properties": {
-        "name": "Orionids Meteor Shower",
-        "emoji": "☄️",
-        "category": "Cosmic Event",
-        "categoryLabel": "Cosmic Event",
-        "description": "Peak rate around 20 meteors/hour under ideal conditions. Moon 73% lit — a poor year for this shower.",
-        "locationHint": "Atacama Desert (ALMA plateau)",
-        "geocodedAddress": "Chile",
-        "sourceUrl": "https://www.willbell.com/math/mc1.htm",
-        "startUtc": "2026-10-16T02:00:00Z",
-        "endUtc": "2026-10-26T02:00:00Z",
-        "confidence": 0.966,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
       "id": "citizen-5c23737ea3",
       "geometry": {
         "type": "Point",
@@ -41,138 +16,13 @@
         "emoji": "🦋",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Hundreds of millions of monarchs clustering on oyamel fir, dense enough to bend the branches. Underway — roughly 6% through the typical window, with 24 reports in the last two weeks.",
+        "description": "Hundreds of millions of monarchs clustering on oyamel fir, dense enough to bend the branches. Underway — roughly 7% through the typical window, with 23 reports in the last two weeks.",
         "locationHint": "Michoacan oyamel forests",
         "geocodedAddress": "Mexico",
         "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=48662",
         "startUtc": "2026-10-22T00:00:00Z",
         "endUtc": "2026-12-24T00:00:00Z",
         "confidence": 0.4,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-8b5bd86a57",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -21.9426,
-          64.1466
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Reykjavik",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 16% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 26 Oct 00:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Reykjavik",
-        "geocodedAddress": "Iceland",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-10-25T23:52:09.053999Z",
-        "endUtc": "2026-10-28T23:52:09.053999Z",
-        "confidence": 0.443,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-1f2feedf8e",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.9553,
-          69.6492
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Tromso",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 11% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 26 Oct 00:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Tromso",
-        "geocodedAddress": "Norway",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-10-25T23:52:09.053999Z",
-        "endUtc": "2026-10-28T23:52:09.053999Z",
-        "confidence": 0.389,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-54943499d2",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.8303,
-          68.3494
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Abisko",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 11% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 26 Oct 00:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Abisko",
-        "geocodedAddress": "Sweden",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-10-25T23:52:09.053999Z",
-        "endUtc": "2026-10-28T23:52:09.053999Z",
-        "confidence": 0.389,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-f0b518ea3f",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.7294,
-          66.5039
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Rovaniemi",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 10% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 26 Oct 00:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Rovaniemi",
-        "geocodedAddress": "Finland",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-10-25T23:52:09.053999Z",
-        "endUtc": "2026-10-28T23:52:09.053999Z",
-        "confidence": 0.378,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-25e717be4e",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          33.0827,
-          68.9585
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Murmansk",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 9% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 26 Oct 00:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Murmansk",
-        "geocodedAddress": "Russia",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-10-25T23:52:09.053999Z",
-        "endUtc": "2026-10-28T23:52:09.053999Z",
-        "confidence": 0.367,
         "isWithinLiveWindow": true
       }
     },
@@ -198,7 +48,57 @@
         "startUtc": "2026-10-26T02:00:00Z",
         "endUtc": "2026-11-15T02:00:00Z",
         "confidence": 0.966,
-        "isWithinLiveWindow": false
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-a226fc8f3f",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7164,
+          64.8378
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Fairbanks",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 25% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 26 Oct 18:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Fairbanks",
+        "geocodedAddress": "United States",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-10-26T09:48:09.350498Z",
+        "endUtc": "2026-10-29T09:48:09.350498Z",
+        "confidence": 0.54,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-18dcce8ffa",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.3718,
+          62.454
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Yellowknife",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 18% overhead tonight. Planetary Kp is forecast to peak near 1.67 on 26 Oct 18:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Yellowknife",
+        "geocodedAddress": "Canada",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-10-26T09:48:09.350498Z",
+        "endUtc": "2026-10-29T09:48:09.350498Z",
+        "confidence": 0.464,
+        "isWithinLiveWindow": true
       }
     },
     {
