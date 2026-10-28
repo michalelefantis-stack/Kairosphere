@@ -1,28 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T07:59:57.320185Z",
+  "generatedAt": "2026-10-28T15:01:46.378587Z",
   "horizonDays": 7,
   "counts": {
-    "total": 5,
-    "active": 4,
+    "total": 3,
+    "active": 2,
     "byTier": {
       "1": 1,
-      "2": 2,
       "3": 1,
       "4": 1
     },
     "byBand": {
       "high": 1,
-      "medium": 2,
+      "medium": 0,
       "low": 1,
       "speculative": 1
     },
     "sourced": {
-      "collected": 63,
-      "reconciled": 63,
+      "collected": 61,
+      "reconciled": 61,
       "byTier": {
         "1": 56,
-        "2": 2,
         "3": 2,
         "4": 3
       }
@@ -32,7 +30,7 @@
     {
       "id": "citizen-5c23737ea3",
       "name": "Monarch Overwintering Roosts",
-      "description": "Hundreds of millions of monarchs clustering on oyamel fir, dense enough to bend the branches. Underway — roughly 10% through the typical window, with 57 reports in the last two weeks.",
+      "description": "Hundreds of millions of monarchs clustering on oyamel fir, dense enough to bend the branches. Underway — roughly 11% through the typical window, with 57 reports in the last two weeks.",
       "category": "Animal Migration",
       "emoji": "🦋",
       "tier": 3,
@@ -48,13 +46,13 @@
       "uncertaintyDays": 15.75,
       "confidence": 0.4,
       "baseConfidence": 0.85,
-      "lastVerifiedAt": "2026-10-28T07:59:51.772527Z",
+      "lastVerifiedAt": "2026-10-28T15:01:27.935630Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=48662",
           "kind": "citizen",
-          "retrievedAt": "2026-10-28T07:59:51.772527Z",
+          "retrievedAt": "2026-10-28T15:01:27.935630Z",
           "note": "11434 research-grade records in region; peak week 45; 57 in last 14 days."
         }
       ],
@@ -82,20 +80,20 @@
       "uncertaintyDays": 0.5,
       "confidence": 0.966,
       "baseConfidence": 1.0,
-      "lastVerifiedAt": "2026-10-28T07:58:13.631727Z",
+      "lastVerifiedAt": "2026-10-28T15:01:18.726700Z",
       "sources": [
         {
           "name": "Meeus, Astronomical Algorithms (2nd ed.)",
           "url": "https://www.willbell.com/math/mc1.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-10-28T07:58:13.627764Z",
+          "retrievedAt": "2026-10-28T15:01:18.721204Z",
           "note": "Computed locally; no feed involved."
         },
         {
           "name": "IMO Meteor Shower Calendar",
           "url": "https://www.imo.net/resources/calendar/",
           "kind": "deterministic",
-          "retrievedAt": "2026-10-28T07:58:13.627772Z",
+          "retrievedAt": "2026-10-28T15:01:18.721216Z",
           "note": "Peak dates are stable year to year; ZHR is the published nominal rate."
         }
       ],
@@ -103,88 +101,6 @@
       "precision": "point",
       "consent": "",
       "recurrence": "annual"
-    },
-    {
-      "id": "aurora-c2b35b3522",
-      "name": "Aurora over Fairbanks",
-      "description": "OVATION puts auroral visibility at 26% overhead tonight. Planetary Kp is forecast to peak near 4 on 31 Oct 00:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        64.8378,
-        -147.7164
-      ],
-      "locationHint": "Fairbanks",
-      "country": "United States",
-      "windowStart": "2026-10-28T07:58:13.936816Z",
-      "windowEnd": "2026-10-31T07:58:13.936816Z",
-      "peak": "2026-10-31T00:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.551,
-      "baseConfidence": 0.51,
-      "lastVerifiedAt": "2026-10-28T07:49:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-10-28T07:58:13.936800Z",
-          "note": "30-minute nowcast; forecast time 2026-10-28T09:00:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-10-28T07:58:13.936805Z",
-          "note": "3-day outlook, peak Kp 4."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
-    },
-    {
-      "id": "aurora-08d08097b1",
-      "name": "Aurora over Yellowknife",
-      "description": "OVATION puts auroral visibility at 24% overhead tonight. Planetary Kp is forecast to peak near 4 on 31 Oct 00:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        62.454,
-        -114.3718
-      ],
-      "locationHint": "Yellowknife",
-      "country": "Canada",
-      "windowStart": "2026-10-28T07:58:13.936816Z",
-      "windowEnd": "2026-10-31T07:58:13.936816Z",
-      "peak": "2026-10-31T00:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.529,
-      "baseConfidence": 0.49,
-      "lastVerifiedAt": "2026-10-28T07:49:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-10-28T07:58:13.936800Z",
-          "note": "30-minute nowcast; forecast time 2026-10-28T09:00:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-10-28T07:58:13.936805Z",
-          "note": "3-day outlook, peak Kp 4."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
     },
     {
       "id": "curated-0b70a303de",
