@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T19:00:03.392967Z",
+  "generatedAt": "2026-10-30T23:29:22.115566Z",
   "horizonDays": 7,
   "counts": {
-    "total": 8,
-    "active": 7,
+    "total": 9,
+    "active": 8,
     "byTier": {
       "1": 1,
-      "2": 5,
+      "2": 6,
       "3": 1,
       "4": 1
     },
     "byBand": {
       "high": 1,
-      "medium": 4,
+      "medium": 5,
       "low": 2,
       "speculative": 1
     },
     "sourced": {
-      "collected": 66,
-      "reconciled": 66,
+      "collected": 67,
+      "reconciled": 67,
       "byTier": {
         "1": 56,
-        "2": 5,
+        "2": 6,
         "3": 2,
         "4": 3
       }
@@ -48,13 +48,13 @@
       "uncertaintyDays": 15.75,
       "confidence": 0.4,
       "baseConfidence": 0.85,
-      "lastVerifiedAt": "2026-10-30T18:59:55.375628Z",
+      "lastVerifiedAt": "2026-10-30T23:29:16.236540Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=48662",
           "kind": "citizen",
-          "retrievedAt": "2026-10-30T18:59:55.375628Z",
+          "retrievedAt": "2026-10-30T23:29:16.236540Z",
           "note": "11438 research-grade records in region; peak week 45; 57 in last 14 days."
         }
       ],
@@ -82,20 +82,20 @@
       "uncertaintyDays": 0.5,
       "confidence": 0.966,
       "baseConfidence": 1.0,
-      "lastVerifiedAt": "2026-10-30T18:59:49.885442Z",
+      "lastVerifiedAt": "2026-10-30T23:29:08.494300Z",
       "sources": [
         {
           "name": "Meeus, Astronomical Algorithms (2nd ed.)",
           "url": "https://www.willbell.com/math/mc1.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-10-30T18:59:49.881443Z",
+          "retrievedAt": "2026-10-30T23:29:08.491335Z",
           "note": "Computed locally; no feed involved."
         },
         {
           "name": "IMO Meteor Shower Calendar",
           "url": "https://www.imo.net/resources/calendar/",
           "kind": "deterministic",
-          "retrievedAt": "2026-10-30T18:59:49.881451Z",
+          "retrievedAt": "2026-10-30T23:29:08.491343Z",
           "note": "Peak dates are stable year to year; ZHR is the published nominal rate."
         }
       ],
@@ -105,79 +105,38 @@
       "recurrence": "annual"
     },
     {
-      "id": "aurora-442bbc5815",
-      "name": "Aurora over Murmansk",
-      "description": "OVATION puts auroral visibility at 24% overhead tonight. Planetary Kp is forecast to peak near 5 on 31 Oct 00:00 UTC. Clear skies and darkness still decide it.",
+      "id": "aurora-992f74d334",
+      "name": "Aurora over Reykjavik",
+      "description": "OVATION puts auroral visibility at 36% overhead tonight. Planetary Kp is forecast to peak near 5 on 31 Oct 00:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
       "coordinates": [
-        68.9585,
-        33.0827
+        64.1466,
+        -21.9426
       ],
-      "locationHint": "Murmansk",
-      "country": "Russia",
-      "windowStart": "2026-10-30T18:59:50.195009Z",
-      "windowEnd": "2026-11-02T18:59:50.195009Z",
+      "locationHint": "Reykjavik",
+      "country": "Iceland",
+      "windowStart": "2026-10-30T23:29:08.805310Z",
+      "windowEnd": "2026-11-02T23:29:08.805310Z",
       "peak": "2026-10-31T00:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.529,
-      "baseConfidence": 0.49,
-      "lastVerifiedAt": "2026-10-30T18:47:00Z",
+      "confidence": 0.658,
+      "baseConfidence": 0.61,
+      "lastVerifiedAt": "2026-10-30T23:17:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-10-30T18:59:50.194993Z",
-          "note": "30-minute nowcast; forecast time 2026-10-30T20:11:00Z."
+          "retrievedAt": "2026-10-30T23:29:08.805295Z",
+          "note": "30-minute nowcast; forecast time 2026-10-31T00:36:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-10-30T18:59:50.194998Z",
-          "note": "3-day outlook, peak Kp 5."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
-    },
-    {
-      "id": "aurora-6a8706a8cb",
-      "name": "Aurora over Tromso",
-      "description": "OVATION puts auroral visibility at 22% overhead tonight. Planetary Kp is forecast to peak near 5 on 31 Oct 00:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        69.6492,
-        18.9553
-      ],
-      "locationHint": "Tromso",
-      "country": "Norway",
-      "windowStart": "2026-10-30T18:59:50.195009Z",
-      "windowEnd": "2026-11-02T18:59:50.195009Z",
-      "peak": "2026-10-31T00:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.507,
-      "baseConfidence": 0.47,
-      "lastVerifiedAt": "2026-10-30T18:47:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-10-30T18:59:50.194993Z",
-          "note": "30-minute nowcast; forecast time 2026-10-30T20:11:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-10-30T18:59:50.194998Z",
+          "retrievedAt": "2026-10-30T23:29:08.805300Z",
           "note": "3-day outlook, peak Kp 5."
         }
       ],
@@ -189,7 +148,7 @@
     {
       "id": "aurora-690537c4cb",
       "name": "Aurora over Abisko",
-      "description": "OVATION puts auroral visibility at 22% overhead tonight. Planetary Kp is forecast to peak near 5 on 31 Oct 00:00 UTC. Clear skies and darkness still decide it.",
+      "description": "OVATION puts auroral visibility at 29% overhead tonight. Planetary Kp is forecast to peak near 5 on 31 Oct 00:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
@@ -199,26 +158,67 @@
       ],
       "locationHint": "Abisko",
       "country": "Sweden",
-      "windowStart": "2026-10-30T18:59:50.195009Z",
-      "windowEnd": "2026-11-02T18:59:50.195009Z",
+      "windowStart": "2026-10-30T23:29:08.805310Z",
+      "windowEnd": "2026-11-02T23:29:08.805310Z",
       "peak": "2026-10-31T00:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.507,
-      "baseConfidence": 0.47,
-      "lastVerifiedAt": "2026-10-30T18:47:00Z",
+      "confidence": 0.583,
+      "baseConfidence": 0.54,
+      "lastVerifiedAt": "2026-10-30T23:17:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-10-30T18:59:50.194993Z",
-          "note": "30-minute nowcast; forecast time 2026-10-30T20:11:00Z."
+          "retrievedAt": "2026-10-30T23:29:08.805295Z",
+          "note": "30-minute nowcast; forecast time 2026-10-31T00:36:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-10-30T18:59:50.194998Z",
+          "retrievedAt": "2026-10-30T23:29:08.805300Z",
+          "note": "3-day outlook, peak Kp 5."
+        }
+      ],
+      "sensitivity": "public",
+      "precision": "point",
+      "consent": "",
+      "recurrence": "solar-driven, episodic"
+    },
+    {
+      "id": "aurora-6a8706a8cb",
+      "name": "Aurora over Tromso",
+      "description": "OVATION puts auroral visibility at 28% overhead tonight. Planetary Kp is forecast to peak near 5 on 31 Oct 00:00 UTC. Clear skies and darkness still decide it.",
+      "category": "Atmospheric Phenomenon",
+      "emoji": "🌌",
+      "tier": 2,
+      "coordinates": [
+        69.6492,
+        18.9553
+      ],
+      "locationHint": "Tromso",
+      "country": "Norway",
+      "windowStart": "2026-10-30T23:29:08.805310Z",
+      "windowEnd": "2026-11-02T23:29:08.805310Z",
+      "peak": "2026-10-31T00:00:00Z",
+      "uncertaintyDays": 0.5,
+      "confidence": 0.572,
+      "baseConfidence": 0.53,
+      "lastVerifiedAt": "2026-10-30T23:17:00Z",
+      "sources": [
+        {
+          "name": "NOAA SWPC OVATION Aurora Model",
+          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+          "kind": "model",
+          "retrievedAt": "2026-10-30T23:29:08.805295Z",
+          "note": "30-minute nowcast; forecast time 2026-10-31T00:36:00Z."
+        },
+        {
+          "name": "NOAA SWPC Planetary K-index Forecast",
+          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
+          "kind": "model",
+          "retrievedAt": "2026-10-30T23:29:08.805300Z",
           "note": "3-day outlook, peak Kp 5."
         }
       ],
@@ -230,7 +230,7 @@
     {
       "id": "aurora-e6226d772b",
       "name": "Aurora over Rovaniemi",
-      "description": "OVATION puts auroral visibility at 22% overhead tonight. Planetary Kp is forecast to peak near 5 on 31 Oct 00:00 UTC. Clear skies and darkness still decide it.",
+      "description": "OVATION puts auroral visibility at 27% overhead tonight. Planetary Kp is forecast to peak near 5 on 31 Oct 00:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
@@ -240,26 +240,26 @@
       ],
       "locationHint": "Rovaniemi",
       "country": "Finland",
-      "windowStart": "2026-10-30T18:59:50.195009Z",
-      "windowEnd": "2026-11-02T18:59:50.195009Z",
+      "windowStart": "2026-10-30T23:29:08.805310Z",
+      "windowEnd": "2026-11-02T23:29:08.805310Z",
       "peak": "2026-10-31T00:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.507,
-      "baseConfidence": 0.47,
-      "lastVerifiedAt": "2026-10-30T18:47:00Z",
+      "confidence": 0.561,
+      "baseConfidence": 0.52,
+      "lastVerifiedAt": "2026-10-30T23:17:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-10-30T18:59:50.194993Z",
-          "note": "30-minute nowcast; forecast time 2026-10-30T20:11:00Z."
+          "retrievedAt": "2026-10-30T23:29:08.805295Z",
+          "note": "30-minute nowcast; forecast time 2026-10-31T00:36:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-10-30T18:59:50.194998Z",
+          "retrievedAt": "2026-10-30T23:29:08.805300Z",
           "note": "3-day outlook, peak Kp 5."
         }
       ],
@@ -269,38 +269,79 @@
       "recurrence": "solar-driven, episodic"
     },
     {
-      "id": "aurora-992f74d334",
-      "name": "Aurora over Reykjavik",
-      "description": "OVATION puts auroral visibility at 12% overhead tonight. Planetary Kp is forecast to peak near 5 on 31 Oct 00:00 UTC. Clear skies and darkness still decide it.",
+      "id": "aurora-442bbc5815",
+      "name": "Aurora over Murmansk",
+      "description": "OVATION puts auroral visibility at 25% overhead tonight. Planetary Kp is forecast to peak near 5 on 31 Oct 00:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
       "coordinates": [
-        64.1466,
-        -21.9426
+        68.9585,
+        33.0827
       ],
-      "locationHint": "Reykjavik",
-      "country": "Iceland",
-      "windowStart": "2026-10-30T18:59:50.195009Z",
-      "windowEnd": "2026-11-02T18:59:50.195009Z",
+      "locationHint": "Murmansk",
+      "country": "Russia",
+      "windowStart": "2026-10-30T23:29:08.805310Z",
+      "windowEnd": "2026-11-02T23:29:08.805310Z",
       "peak": "2026-10-31T00:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.399,
-      "baseConfidence": 0.37,
-      "lastVerifiedAt": "2026-10-30T18:47:00Z",
+      "confidence": 0.54,
+      "baseConfidence": 0.5,
+      "lastVerifiedAt": "2026-10-30T23:17:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-10-30T18:59:50.194993Z",
-          "note": "30-minute nowcast; forecast time 2026-10-30T20:11:00Z."
+          "retrievedAt": "2026-10-30T23:29:08.805295Z",
+          "note": "30-minute nowcast; forecast time 2026-10-31T00:36:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-10-30T18:59:50.194998Z",
+          "retrievedAt": "2026-10-30T23:29:08.805300Z",
+          "note": "3-day outlook, peak Kp 5."
+        }
+      ],
+      "sensitivity": "public",
+      "precision": "point",
+      "consent": "",
+      "recurrence": "solar-driven, episodic"
+    },
+    {
+      "id": "aurora-31f59e1a36",
+      "name": "Aurora over Yellowknife",
+      "description": "OVATION puts auroral visibility at 13% overhead tonight. Planetary Kp is forecast to peak near 5 on 31 Oct 00:00 UTC. Clear skies and darkness still decide it.",
+      "category": "Atmospheric Phenomenon",
+      "emoji": "🌌",
+      "tier": 2,
+      "coordinates": [
+        62.454,
+        -114.3718
+      ],
+      "locationHint": "Yellowknife",
+      "country": "Canada",
+      "windowStart": "2026-10-30T23:29:08.805310Z",
+      "windowEnd": "2026-11-02T23:29:08.805310Z",
+      "peak": "2026-10-31T00:00:00Z",
+      "uncertaintyDays": 0.5,
+      "confidence": 0.41,
+      "baseConfidence": 0.38,
+      "lastVerifiedAt": "2026-10-30T23:17:00Z",
+      "sources": [
+        {
+          "name": "NOAA SWPC OVATION Aurora Model",
+          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+          "kind": "model",
+          "retrievedAt": "2026-10-30T23:29:08.805295Z",
+          "note": "30-minute nowcast; forecast time 2026-10-31T00:36:00Z."
+        },
+        {
+          "name": "NOAA SWPC Planetary K-index Forecast",
+          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
+          "kind": "model",
+          "retrievedAt": "2026-10-30T23:29:08.805300Z",
           "note": "3-day outlook, peak Kp 5."
         }
       ],
