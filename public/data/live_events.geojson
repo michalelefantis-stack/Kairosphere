@@ -16,7 +16,7 @@
         "emoji": "🦋",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Hundreds of millions of monarchs clustering on oyamel fir, dense enough to bend the branches. Underway — roughly 19% through the typical window, with 80 reports in the last two weeks.",
+        "description": "Hundreds of millions of monarchs clustering on oyamel fir, dense enough to bend the branches. Underway — roughly 19% through the typical window, with 83 reports in the last two weeks.",
         "locationHint": "Michoacan oyamel forests",
         "geocodedAddress": "Mexico",
         "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=48662",
@@ -53,126 +53,26 @@
     },
     {
       "type": "Feature",
-      "id": "curated-0b70a303de",
+      "id": "aurora-4c291d0808",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -96.7266,
-          17.0732
+          -21.9426,
+          64.1466
         ]
       },
       "properties": {
-        "name": "Dia de Muertos",
-        "emoji": "💀",
-        "category": "Human Ritual",
-        "categoryLabel": "Human Ritual",
-        "description": "Families keep vigil at gravesides through the night with marigolds, candles and the food the dead preferred. Village cemeteries around Oaxaca differ sharply from the city's tourist-heavy comparsas.",
-        "locationHint": "Oaxaca de Juarez",
-        "geocodedAddress": "Mexico",
-        "sourceUrl": "https://ich.unesco.org/en/RL/indigenous-festivity-dedicated-to-the-dead-00054",
-        "startUtc": "2026-11-01T00:00:00Z",
-        "endUtc": "2026-11-03T00:00:00Z",
-        "confidence": 0.099,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-0929cb05a1",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          33.0827,
-          68.9585
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Murmansk",
+        "name": "Aurora over Reykjavik",
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 16% overhead tonight. Planetary Kp is forecast to peak near 2.67 on 05 Nov 00:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Murmansk",
-        "geocodedAddress": "Russia",
+        "description": "OVATION puts auroral visibility at 8% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 05 Nov 06:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Reykjavik",
+        "geocodedAddress": "Iceland",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-11-02T19:59:32.962617Z",
-        "endUtc": "2026-11-05T19:59:32.962617Z",
-        "confidence": 0.442,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-5592567c75",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.9553,
-          69.6492
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Tromso",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 15% overhead tonight. Planetary Kp is forecast to peak near 2.67 on 05 Nov 00:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Tromso",
-        "geocodedAddress": "Norway",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-11-02T19:59:32.962617Z",
-        "endUtc": "2026-11-05T19:59:32.962617Z",
-        "confidence": 0.431,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-aac041bb13",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.8303,
-          68.3494
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Abisko",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 15% overhead tonight. Planetary Kp is forecast to peak near 2.67 on 05 Nov 00:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Abisko",
-        "geocodedAddress": "Sweden",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-11-02T19:59:32.962617Z",
-        "endUtc": "2026-11-05T19:59:32.962617Z",
-        "confidence": 0.431,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-793e0ad75d",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.7294,
-          66.5039
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Rovaniemi",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 15% overhead tonight. Planetary Kp is forecast to peak near 2.67 on 05 Nov 00:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Rovaniemi",
-        "geocodedAddress": "Finland",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-11-02T19:59:32.962617Z",
-        "endUtc": "2026-11-05T19:59:32.962617Z",
-        "confidence": 0.431,
+        "startUtc": "2026-11-03T02:10:56.617667Z",
+        "endUtc": "2026-11-06T02:10:56.617667Z",
+        "confidence": 0.356,
         "isWithinLiveWindow": true
       }
     },

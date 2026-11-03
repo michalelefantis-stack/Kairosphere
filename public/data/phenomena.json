@@ -1,28 +1,27 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T20:01:31.862645Z",
+  "generatedAt": "2026-11-03T02:11:10.334582Z",
   "horizonDays": 7,
   "counts": {
-    "total": 8,
-    "active": 7,
+    "total": 4,
+    "active": 3,
     "byTier": {
       "1": 2,
-      "2": 4,
-      "3": 1,
-      "4": 1
+      "2": 1,
+      "3": 1
     },
     "byBand": {
       "high": 2,
       "medium": 0,
-      "low": 5,
-      "speculative": 1
+      "low": 2,
+      "speculative": 0
     },
     "sourced": {
-      "collected": 65,
-      "reconciled": 65,
+      "collected": 62,
+      "reconciled": 62,
       "byTier": {
         "1": 56,
-        "2": 4,
+        "2": 1,
         "3": 2,
         "4": 3
       }
@@ -32,7 +31,7 @@
     {
       "id": "citizen-5c23737ea3",
       "name": "Monarch Overwintering Roosts",
-      "description": "Hundreds of millions of monarchs clustering on oyamel fir, dense enough to bend the branches. Underway — roughly 19% through the typical window, with 80 reports in the last two weeks.",
+      "description": "Hundreds of millions of monarchs clustering on oyamel fir, dense enough to bend the branches. Underway — roughly 19% through the typical window, with 83 reports in the last two weeks.",
       "category": "Animal Migration",
       "emoji": "🦋",
       "tier": 3,
@@ -48,14 +47,14 @@
       "uncertaintyDays": 15.75,
       "confidence": 0.4,
       "baseConfidence": 0.85,
-      "lastVerifiedAt": "2026-11-02T20:01:12.536719Z",
+      "lastVerifiedAt": "2026-11-03T02:11:02.992567Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=48662",
           "kind": "citizen",
-          "retrievedAt": "2026-11-02T20:01:12.536719Z",
-          "note": "11465 research-grade records in region; peak week 45; 80 in last 14 days."
+          "retrievedAt": "2026-11-03T02:11:02.992567Z",
+          "note": "11466 research-grade records in region; peak week 45; 83 in last 14 days."
         }
       ],
       "sensitivity": "public",
@@ -82,20 +81,20 @@
       "uncertaintyDays": 0.5,
       "confidence": 0.966,
       "baseConfidence": 1.0,
-      "lastVerifiedAt": "2026-11-02T19:59:32.756800Z",
+      "lastVerifiedAt": "2026-11-03T02:10:56.342540Z",
       "sources": [
         {
           "name": "Meeus, Astronomical Algorithms (2nd ed.)",
           "url": "https://www.willbell.com/math/mc1.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-11-02T19:59:32.751303Z",
+          "retrievedAt": "2026-11-03T02:10:56.337279Z",
           "note": "Computed locally; no feed involved."
         },
         {
           "name": "IMO Meteor Shower Calendar",
           "url": "https://www.imo.net/resources/calendar/",
           "kind": "deterministic",
-          "retrievedAt": "2026-11-02T19:59:32.751314Z",
+          "retrievedAt": "2026-11-03T02:10:56.337287Z",
           "note": "Peak dates are stable year to year; ZHR is the published nominal rate."
         }
       ],
@@ -105,196 +104,39 @@
       "recurrence": "annual"
     },
     {
-      "id": "curated-0b70a303de",
-      "name": "Dia de Muertos",
-      "description": "Families keep vigil at gravesides through the night with marigolds, candles and the food the dead preferred. Village cemeteries around Oaxaca differ sharply from the city's tourist-heavy comparsas.",
-      "category": "Human Ritual",
-      "emoji": "💀",
-      "tier": 4,
-      "coordinates": [
-        17.0732,
-        -96.7266
-      ],
-      "locationHint": "Oaxaca de Juarez",
-      "country": "Mexico",
-      "windowStart": "2026-11-01T00:00:00Z",
-      "windowEnd": "2026-11-03T00:00:00Z",
-      "peak": null,
-      "uncertaintyDays": 0.67,
-      "confidence": 0.099,
-      "baseConfidence": 0.85,
-      "lastVerifiedAt": "2025-11-03T00:00:00Z",
-      "sources": [
-        {
-          "name": "UNESCO Intangible Cultural Heritage",
-          "url": "https://ich.unesco.org/en/RL/indigenous-festivity-dedicated-to-the-dead-00054",
-          "kind": "curated",
-          "retrievedAt": "2025-11-03T00:00:00Z",
-          "note": "Public observance; cemetery vigils are family occasions where visitors are expected to be unobtrusive."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "Public observance; cemetery vigils are family occasions where visitors are expected to be unobtrusive.",
-      "recurrence": "fixed"
-    },
-    {
-      "id": "aurora-0929cb05a1",
-      "name": "Aurora over Murmansk",
-      "description": "OVATION puts auroral visibility at 16% overhead tonight. Planetary Kp is forecast to peak near 2.67 on 05 Nov 00:00 UTC. Clear skies and darkness still decide it.",
+      "id": "aurora-4c291d0808",
+      "name": "Aurora over Reykjavik",
+      "description": "OVATION puts auroral visibility at 8% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 05 Nov 06:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
       "coordinates": [
-        68.9585,
-        33.0827
+        64.1466,
+        -21.9426
       ],
-      "locationHint": "Murmansk",
-      "country": "Russia",
-      "windowStart": "2026-11-02T19:59:32.962617Z",
-      "windowEnd": "2026-11-05T19:59:32.962617Z",
-      "peak": "2026-11-05T00:00:00Z",
+      "locationHint": "Reykjavik",
+      "country": "Iceland",
+      "windowStart": "2026-11-03T02:10:56.617667Z",
+      "windowEnd": "2026-11-06T02:10:56.617667Z",
+      "peak": "2026-11-05T06:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.442,
-      "baseConfidence": 0.41,
-      "lastVerifiedAt": "2026-11-02T19:46:00Z",
+      "confidence": 0.356,
+      "baseConfidence": 0.33,
+      "lastVerifiedAt": "2026-11-03T01:57:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-11-02T19:59:32.962598Z",
-          "note": "30-minute nowcast; forecast time 2026-11-02T20:59:00Z."
+          "retrievedAt": "2026-11-03T02:10:56.617651Z",
+          "note": "30-minute nowcast; forecast time 2026-11-03T03:07:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-11-02T19:59:32.962606Z",
-          "note": "3-day outlook, peak Kp 2.67."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
-    },
-    {
-      "id": "aurora-5592567c75",
-      "name": "Aurora over Tromso",
-      "description": "OVATION puts auroral visibility at 15% overhead tonight. Planetary Kp is forecast to peak near 2.67 on 05 Nov 00:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        69.6492,
-        18.9553
-      ],
-      "locationHint": "Tromso",
-      "country": "Norway",
-      "windowStart": "2026-11-02T19:59:32.962617Z",
-      "windowEnd": "2026-11-05T19:59:32.962617Z",
-      "peak": "2026-11-05T00:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.431,
-      "baseConfidence": 0.4,
-      "lastVerifiedAt": "2026-11-02T19:46:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-11-02T19:59:32.962598Z",
-          "note": "30-minute nowcast; forecast time 2026-11-02T20:59:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-11-02T19:59:32.962606Z",
-          "note": "3-day outlook, peak Kp 2.67."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
-    },
-    {
-      "id": "aurora-aac041bb13",
-      "name": "Aurora over Abisko",
-      "description": "OVATION puts auroral visibility at 15% overhead tonight. Planetary Kp is forecast to peak near 2.67 on 05 Nov 00:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        68.3494,
-        18.8303
-      ],
-      "locationHint": "Abisko",
-      "country": "Sweden",
-      "windowStart": "2026-11-02T19:59:32.962617Z",
-      "windowEnd": "2026-11-05T19:59:32.962617Z",
-      "peak": "2026-11-05T00:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.431,
-      "baseConfidence": 0.4,
-      "lastVerifiedAt": "2026-11-02T19:46:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-11-02T19:59:32.962598Z",
-          "note": "30-minute nowcast; forecast time 2026-11-02T20:59:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-11-02T19:59:32.962606Z",
-          "note": "3-day outlook, peak Kp 2.67."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
-    },
-    {
-      "id": "aurora-793e0ad75d",
-      "name": "Aurora over Rovaniemi",
-      "description": "OVATION puts auroral visibility at 15% overhead tonight. Planetary Kp is forecast to peak near 2.67 on 05 Nov 00:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        66.5039,
-        25.7294
-      ],
-      "locationHint": "Rovaniemi",
-      "country": "Finland",
-      "windowStart": "2026-11-02T19:59:32.962617Z",
-      "windowEnd": "2026-11-05T19:59:32.962617Z",
-      "peak": "2026-11-05T00:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.431,
-      "baseConfidence": 0.4,
-      "lastVerifiedAt": "2026-11-02T19:46:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-11-02T19:59:32.962598Z",
-          "note": "30-minute nowcast; forecast time 2026-11-02T20:59:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-11-02T19:59:32.962606Z",
-          "note": "3-day outlook, peak Kp 2.67."
+          "retrievedAt": "2026-11-03T02:10:56.617657Z",
+          "note": "3-day outlook, peak Kp 3.67."
         }
       ],
       "sensitivity": "public",
@@ -321,20 +163,20 @@
       "uncertaintyDays": 1.0,
       "confidence": 0.887,
       "baseConfidence": 0.95,
-      "lastVerifiedAt": "2026-11-02T19:59:32.757447Z",
+      "lastVerifiedAt": "2026-11-03T02:10:56.343166Z",
       "sources": [
         {
           "name": "Meeus, Astronomical Algorithms (2nd ed.)",
           "url": "https://www.willbell.com/math/mc1.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-11-02T19:59:32.751303Z",
+          "retrievedAt": "2026-11-03T02:10:56.337279Z",
           "note": "Computed locally; no feed involved."
         },
         {
           "name": "Calendrical conversion",
           "url": "https://www.staff.science.uu.nl/~gent0113/islam/islam_tabcal.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-11-02T19:59:32.757446Z",
+          "retrievedAt": "2026-11-03T02:10:56.343165Z",
           "note": "Amavasya of Kartika."
         }
       ],
