@@ -1,27 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T05:30:56.112528Z",
+  "generatedAt": "2026-11-05T14:07:38.036519Z",
   "horizonDays": 7,
   "counts": {
-    "total": 5,
-    "active": 3,
+    "total": 4,
+    "active": 2,
     "byTier": {
       "1": 2,
-      "2": 1,
       "3": 2
     },
     "byBand": {
       "high": 2,
       "medium": 0,
-      "low": 2,
+      "low": 1,
       "speculative": 1
     },
     "sourced": {
-      "collected": 61,
-      "reconciled": 61,
+      "collected": 60,
+      "reconciled": 60,
       "byTier": {
         "1": 56,
-        "2": 1,
         "3": 2,
         "4": 2
       }
@@ -31,7 +29,7 @@
     {
       "id": "citizen-5c23737ea3",
       "name": "Monarch Overwintering Roosts",
-      "description": "Hundreds of millions of monarchs clustering on oyamel fir, dense enough to bend the branches. Underway — roughly 25% through the typical window, with 114 reports in the last two weeks.",
+      "description": "Hundreds of millions of monarchs clustering on oyamel fir, dense enough to bend the branches. Underway — roughly 26% through the typical window, with 115 reports in the last two weeks.",
       "category": "Animal Migration",
       "emoji": "🦋",
       "tier": 3,
@@ -47,14 +45,14 @@
       "uncertaintyDays": 14.0,
       "confidence": 0.425,
       "baseConfidence": 0.85,
-      "lastVerifiedAt": "2026-11-05T05:30:51.799426Z",
+      "lastVerifiedAt": "2026-11-05T14:07:28.271136Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=48662",
           "kind": "citizen",
-          "retrievedAt": "2026-11-05T05:30:51.799426Z",
-          "note": "11486 research-grade records in region; peak week 45; 114 in last 14 days."
+          "retrievedAt": "2026-11-05T14:07:28.271136Z",
+          "note": "11508 research-grade records in region; peak week 45; 115 in last 14 days."
         }
       ],
       "sensitivity": "public",
@@ -81,20 +79,20 @@
       "uncertaintyDays": 0.5,
       "confidence": 0.966,
       "baseConfidence": 1.0,
-      "lastVerifiedAt": "2026-11-05T05:28:27.870669Z",
+      "lastVerifiedAt": "2026-11-05T14:07:21.964400Z",
       "sources": [
         {
           "name": "Meeus, Astronomical Algorithms (2nd ed.)",
           "url": "https://www.willbell.com/math/mc1.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-11-05T05:28:27.865150Z",
+          "retrievedAt": "2026-11-05T14:07:21.959132Z",
           "note": "Computed locally; no feed involved."
         },
         {
           "name": "IMO Meteor Shower Calendar",
           "url": "https://www.imo.net/resources/calendar/",
           "kind": "deterministic",
-          "retrievedAt": "2026-11-05T05:28:27.865159Z",
+          "retrievedAt": "2026-11-05T14:07:21.959142Z",
           "note": "Peak dates are stable year to year; ZHR is the published nominal rate."
         }
       ],
@@ -102,47 +100,6 @@
       "precision": "point",
       "consent": "",
       "recurrence": "annual"
-    },
-    {
-      "id": "aurora-cf9611f85f",
-      "name": "Aurora over Yellowknife",
-      "description": "OVATION puts auroral visibility at 13% overhead tonight. Planetary Kp is forecast to peak near 5 on 07 Nov 00:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        62.454,
-        -114.3718
-      ],
-      "locationHint": "Yellowknife",
-      "country": "Canada",
-      "windowStart": "2026-11-05T05:28:28.086438Z",
-      "windowEnd": "2026-11-08T05:28:28.086438Z",
-      "peak": "2026-11-07T00:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.41,
-      "baseConfidence": 0.38,
-      "lastVerifiedAt": "2026-11-05T05:22:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-11-05T05:28:28.086417Z",
-          "note": "30-minute nowcast; forecast time 2026-11-05T06:34:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-11-05T05:28:28.086426Z",
-          "note": "3-day outlook, peak Kp 5."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
     },
     {
       "id": "cal-diwali-aee655773d",
@@ -163,20 +120,20 @@
       "uncertaintyDays": 1.0,
       "confidence": 0.887,
       "baseConfidence": 0.95,
-      "lastVerifiedAt": "2026-11-05T05:28:27.871299Z",
+      "lastVerifiedAt": "2026-11-05T14:07:21.965249Z",
       "sources": [
         {
           "name": "Meeus, Astronomical Algorithms (2nd ed.)",
           "url": "https://www.willbell.com/math/mc1.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-11-05T05:28:27.865150Z",
+          "retrievedAt": "2026-11-05T14:07:21.959132Z",
           "note": "Computed locally; no feed involved."
         },
         {
           "name": "Calendrical conversion",
           "url": "https://www.staff.science.uu.nl/~gent0113/islam/islam_tabcal.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-11-05T05:28:27.871298Z",
+          "retrievedAt": "2026-11-05T14:07:21.965248Z",
           "note": "Amavasya of Kartika."
         }
       ],
@@ -204,13 +161,13 @@
       "uncertaintyDays": 8.75,
       "confidence": 0.115,
       "baseConfidence": 0.187,
-      "lastVerifiedAt": "2026-11-05T05:30:51.799426Z",
+      "lastVerifiedAt": "2026-11-05T14:07:28.271136Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=123100",
           "kind": "citizen",
-          "retrievedAt": "2026-11-05T05:30:51.799426Z",
+          "retrievedAt": "2026-11-05T14:07:28.271136Z",
           "note": "338 research-grade records in region; peak week 48; 0 in last 14 days."
         }
       ],
