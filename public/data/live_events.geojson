@@ -16,7 +16,7 @@
         "emoji": "🦋",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Hundreds of millions of monarchs clustering on oyamel fir, dense enough to bend the branches. Underway — roughly 25% through the typical window, with 111 reports in the last two weeks.",
+        "description": "Hundreds of millions of monarchs clustering on oyamel fir, dense enough to bend the branches. Underway — roughly 25% through the typical window, with 114 reports in the last two weeks.",
         "locationHint": "Michoacan oyamel forests",
         "geocodedAddress": "Mexico",
         "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=48662",
@@ -53,132 +53,7 @@
     },
     {
       "type": "Feature",
-      "id": "aurora-565bc42d3b",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -21.9426,
-          64.1466
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Reykjavik",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 28% overhead tonight. Planetary Kp is forecast to peak near 5 on 07 Nov 00:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Reykjavik",
-        "geocodedAddress": "Iceland",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-11-04T23:17:12.171504Z",
-        "endUtc": "2026-11-07T23:17:12.171504Z",
-        "confidence": 0.572,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-a822ac50a4",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.9553,
-          69.6492
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Tromso",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 22% overhead tonight. Planetary Kp is forecast to peak near 5 on 07 Nov 00:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Tromso",
-        "geocodedAddress": "Norway",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-11-04T23:17:12.171504Z",
-        "endUtc": "2026-11-07T23:17:12.171504Z",
-        "confidence": 0.507,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-89af521274",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.8303,
-          68.3494
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Abisko",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 22% overhead tonight. Planetary Kp is forecast to peak near 5 on 07 Nov 00:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Abisko",
-        "geocodedAddress": "Sweden",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-11-04T23:17:12.171504Z",
-        "endUtc": "2026-11-07T23:17:12.171504Z",
-        "confidence": 0.507,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-aae11988c7",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.7294,
-          66.5039
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Rovaniemi",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 21% overhead tonight. Planetary Kp is forecast to peak near 5 on 07 Nov 00:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Rovaniemi",
-        "geocodedAddress": "Finland",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-11-04T23:17:12.171504Z",
-        "endUtc": "2026-11-07T23:17:12.171504Z",
-        "confidence": 0.497,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-006705d8c1",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          33.0827,
-          68.9585
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Murmansk",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 19% overhead tonight. Planetary Kp is forecast to peak near 5 on 07 Nov 00:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Murmansk",
-        "geocodedAddress": "Russia",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-11-04T23:17:12.171504Z",
-        "endUtc": "2026-11-07T23:17:12.171504Z",
-        "confidence": 0.475,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-f8a046053d",
+      "id": "aurora-cf9611f85f",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -191,13 +66,13 @@
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 9% overhead tonight. Planetary Kp is forecast to peak near 5 on 07 Nov 00:00 UTC. Clear skies and darkness still decide it.",
+        "description": "OVATION puts auroral visibility at 13% overhead tonight. Planetary Kp is forecast to peak near 5 on 07 Nov 00:00 UTC. Clear skies and darkness still decide it.",
         "locationHint": "Yellowknife",
         "geocodedAddress": "Canada",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-11-04T23:17:12.171504Z",
-        "endUtc": "2026-11-07T23:17:12.171504Z",
-        "confidence": 0.367,
+        "startUtc": "2026-11-05T05:28:28.086438Z",
+        "endUtc": "2026-11-08T05:28:28.086438Z",
+        "confidence": 0.41,
         "isWithinLiveWindow": true
       }
     },
@@ -223,6 +98,31 @@
         "startUtc": "2026-11-07T00:00:00Z",
         "endUtc": "2026-11-12T00:00:00Z",
         "confidence": 0.887,
+        "isWithinLiveWindow": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "citizen-03be958229",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7,
+          -10.4
+        ]
+      },
+      "properties": {
+        "name": "Christmas Island Red Crab Migration",
+        "emoji": "🦀",
+        "category": "Animal Migration",
+        "categoryLabel": "Animal Migration",
+        "description": "Around 50 million crabs cross the island to spawn, triggered by the first heavy rains and timed to a specific lunar phase. Season opens in about 6 days; 0 reports in the last two weeks.",
+        "locationHint": "Christmas Island",
+        "geocodedAddress": "Australia",
+        "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=123100",
+        "startUtc": "2026-11-12T00:00:00Z",
+        "endUtc": "2026-12-17T00:00:00Z",
+        "confidence": 0.115,
         "isWithinLiveWindow": false
       }
     }

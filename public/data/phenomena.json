@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T23:17:26.568019Z",
+  "generatedAt": "2026-11-05T05:30:56.112528Z",
   "horizonDays": 7,
   "counts": {
-    "total": 9,
-    "active": 8,
+    "total": 5,
+    "active": 3,
     "byTier": {
       "1": 2,
-      "2": 6,
-      "3": 1
+      "2": 1,
+      "3": 2
     },
     "byBand": {
       "high": 2,
-      "medium": 5,
+      "medium": 0,
       "low": 2,
-      "speculative": 0
+      "speculative": 1
     },
     "sourced": {
-      "collected": 66,
-      "reconciled": 66,
+      "collected": 61,
+      "reconciled": 61,
       "byTier": {
         "1": 56,
-        "2": 6,
+        "2": 1,
         "3": 2,
         "4": 2
       }
@@ -31,7 +31,7 @@
     {
       "id": "citizen-5c23737ea3",
       "name": "Monarch Overwintering Roosts",
-      "description": "Hundreds of millions of monarchs clustering on oyamel fir, dense enough to bend the branches. Underway — roughly 25% through the typical window, with 111 reports in the last two weeks.",
+      "description": "Hundreds of millions of monarchs clustering on oyamel fir, dense enough to bend the branches. Underway — roughly 25% through the typical window, with 114 reports in the last two weeks.",
       "category": "Animal Migration",
       "emoji": "🦋",
       "tier": 3,
@@ -47,14 +47,14 @@
       "uncertaintyDays": 14.0,
       "confidence": 0.425,
       "baseConfidence": 0.85,
-      "lastVerifiedAt": "2026-11-04T23:17:19.685399Z",
+      "lastVerifiedAt": "2026-11-05T05:30:51.799426Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=48662",
           "kind": "citizen",
-          "retrievedAt": "2026-11-04T23:17:19.685399Z",
-          "note": "11486 research-grade records in region; peak week 45; 111 in last 14 days."
+          "retrievedAt": "2026-11-05T05:30:51.799426Z",
+          "note": "11486 research-grade records in region; peak week 45; 114 in last 14 days."
         }
       ],
       "sensitivity": "public",
@@ -81,20 +81,20 @@
       "uncertaintyDays": 0.5,
       "confidence": 0.966,
       "baseConfidence": 1.0,
-      "lastVerifiedAt": "2026-11-04T23:17:11.891987Z",
+      "lastVerifiedAt": "2026-11-05T05:28:27.870669Z",
       "sources": [
         {
           "name": "Meeus, Astronomical Algorithms (2nd ed.)",
           "url": "https://www.willbell.com/math/mc1.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-11-04T23:17:11.886744Z",
+          "retrievedAt": "2026-11-05T05:28:27.865150Z",
           "note": "Computed locally; no feed involved."
         },
         {
           "name": "IMO Meteor Shower Calendar",
           "url": "https://www.imo.net/resources/calendar/",
           "kind": "deterministic",
-          "retrievedAt": "2026-11-04T23:17:11.886754Z",
+          "retrievedAt": "2026-11-05T05:28:27.865159Z",
           "note": "Peak dates are stable year to year; ZHR is the published nominal rate."
         }
       ],
@@ -104,214 +104,9 @@
       "recurrence": "annual"
     },
     {
-      "id": "aurora-565bc42d3b",
-      "name": "Aurora over Reykjavik",
-      "description": "OVATION puts auroral visibility at 28% overhead tonight. Planetary Kp is forecast to peak near 5 on 07 Nov 00:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        64.1466,
-        -21.9426
-      ],
-      "locationHint": "Reykjavik",
-      "country": "Iceland",
-      "windowStart": "2026-11-04T23:17:12.171504Z",
-      "windowEnd": "2026-11-07T23:17:12.171504Z",
-      "peak": "2026-11-07T00:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.572,
-      "baseConfidence": 0.53,
-      "lastVerifiedAt": "2026-11-04T23:08:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-11-04T23:17:12.171487Z",
-          "note": "30-minute nowcast; forecast time 2026-11-05T00:16:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-11-04T23:17:12.171493Z",
-          "note": "3-day outlook, peak Kp 5."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
-    },
-    {
-      "id": "aurora-a822ac50a4",
-      "name": "Aurora over Tromso",
-      "description": "OVATION puts auroral visibility at 22% overhead tonight. Planetary Kp is forecast to peak near 5 on 07 Nov 00:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        69.6492,
-        18.9553
-      ],
-      "locationHint": "Tromso",
-      "country": "Norway",
-      "windowStart": "2026-11-04T23:17:12.171504Z",
-      "windowEnd": "2026-11-07T23:17:12.171504Z",
-      "peak": "2026-11-07T00:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.507,
-      "baseConfidence": 0.47,
-      "lastVerifiedAt": "2026-11-04T23:08:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-11-04T23:17:12.171487Z",
-          "note": "30-minute nowcast; forecast time 2026-11-05T00:16:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-11-04T23:17:12.171493Z",
-          "note": "3-day outlook, peak Kp 5."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
-    },
-    {
-      "id": "aurora-89af521274",
-      "name": "Aurora over Abisko",
-      "description": "OVATION puts auroral visibility at 22% overhead tonight. Planetary Kp is forecast to peak near 5 on 07 Nov 00:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        68.3494,
-        18.8303
-      ],
-      "locationHint": "Abisko",
-      "country": "Sweden",
-      "windowStart": "2026-11-04T23:17:12.171504Z",
-      "windowEnd": "2026-11-07T23:17:12.171504Z",
-      "peak": "2026-11-07T00:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.507,
-      "baseConfidence": 0.47,
-      "lastVerifiedAt": "2026-11-04T23:08:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-11-04T23:17:12.171487Z",
-          "note": "30-minute nowcast; forecast time 2026-11-05T00:16:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-11-04T23:17:12.171493Z",
-          "note": "3-day outlook, peak Kp 5."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
-    },
-    {
-      "id": "aurora-aae11988c7",
-      "name": "Aurora over Rovaniemi",
-      "description": "OVATION puts auroral visibility at 21% overhead tonight. Planetary Kp is forecast to peak near 5 on 07 Nov 00:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        66.5039,
-        25.7294
-      ],
-      "locationHint": "Rovaniemi",
-      "country": "Finland",
-      "windowStart": "2026-11-04T23:17:12.171504Z",
-      "windowEnd": "2026-11-07T23:17:12.171504Z",
-      "peak": "2026-11-07T00:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.497,
-      "baseConfidence": 0.46,
-      "lastVerifiedAt": "2026-11-04T23:08:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-11-04T23:17:12.171487Z",
-          "note": "30-minute nowcast; forecast time 2026-11-05T00:16:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-11-04T23:17:12.171493Z",
-          "note": "3-day outlook, peak Kp 5."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
-    },
-    {
-      "id": "aurora-006705d8c1",
-      "name": "Aurora over Murmansk",
-      "description": "OVATION puts auroral visibility at 19% overhead tonight. Planetary Kp is forecast to peak near 5 on 07 Nov 00:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        68.9585,
-        33.0827
-      ],
-      "locationHint": "Murmansk",
-      "country": "Russia",
-      "windowStart": "2026-11-04T23:17:12.171504Z",
-      "windowEnd": "2026-11-07T23:17:12.171504Z",
-      "peak": "2026-11-07T00:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.475,
-      "baseConfidence": 0.44,
-      "lastVerifiedAt": "2026-11-04T23:08:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-11-04T23:17:12.171487Z",
-          "note": "30-minute nowcast; forecast time 2026-11-05T00:16:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-11-04T23:17:12.171493Z",
-          "note": "3-day outlook, peak Kp 5."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
-    },
-    {
-      "id": "aurora-f8a046053d",
+      "id": "aurora-cf9611f85f",
       "name": "Aurora over Yellowknife",
-      "description": "OVATION puts auroral visibility at 9% overhead tonight. Planetary Kp is forecast to peak near 5 on 07 Nov 00:00 UTC. Clear skies and darkness still decide it.",
+      "description": "OVATION puts auroral visibility at 13% overhead tonight. Planetary Kp is forecast to peak near 5 on 07 Nov 00:00 UTC. Clear skies and darkness still decide it.",
       "category": "Atmospheric Phenomenon",
       "emoji": "🌌",
       "tier": 2,
@@ -321,26 +116,26 @@
       ],
       "locationHint": "Yellowknife",
       "country": "Canada",
-      "windowStart": "2026-11-04T23:17:12.171504Z",
-      "windowEnd": "2026-11-07T23:17:12.171504Z",
+      "windowStart": "2026-11-05T05:28:28.086438Z",
+      "windowEnd": "2026-11-08T05:28:28.086438Z",
       "peak": "2026-11-07T00:00:00Z",
       "uncertaintyDays": 0.5,
-      "confidence": 0.367,
-      "baseConfidence": 0.34,
-      "lastVerifiedAt": "2026-11-04T23:08:00Z",
+      "confidence": 0.41,
+      "baseConfidence": 0.38,
+      "lastVerifiedAt": "2026-11-05T05:22:00Z",
       "sources": [
         {
           "name": "NOAA SWPC OVATION Aurora Model",
           "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
           "kind": "model",
-          "retrievedAt": "2026-11-04T23:17:12.171487Z",
-          "note": "30-minute nowcast; forecast time 2026-11-05T00:16:00Z."
+          "retrievedAt": "2026-11-05T05:28:28.086417Z",
+          "note": "30-minute nowcast; forecast time 2026-11-05T06:34:00Z."
         },
         {
           "name": "NOAA SWPC Planetary K-index Forecast",
           "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
           "kind": "model",
-          "retrievedAt": "2026-11-04T23:17:12.171493Z",
+          "retrievedAt": "2026-11-05T05:28:28.086426Z",
           "note": "3-day outlook, peak Kp 5."
         }
       ],
@@ -368,20 +163,20 @@
       "uncertaintyDays": 1.0,
       "confidence": 0.887,
       "baseConfidence": 0.95,
-      "lastVerifiedAt": "2026-11-04T23:17:11.892625Z",
+      "lastVerifiedAt": "2026-11-05T05:28:27.871299Z",
       "sources": [
         {
           "name": "Meeus, Astronomical Algorithms (2nd ed.)",
           "url": "https://www.willbell.com/math/mc1.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-11-04T23:17:11.886744Z",
+          "retrievedAt": "2026-11-05T05:28:27.865150Z",
           "note": "Computed locally; no feed involved."
         },
         {
           "name": "Calendrical conversion",
           "url": "https://www.staff.science.uu.nl/~gent0113/islam/islam_tabcal.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-11-04T23:17:11.892624Z",
+          "retrievedAt": "2026-11-05T05:28:27.871298Z",
           "note": "Amavasya of Kartika."
         }
       ],
@@ -389,6 +184,40 @@
       "precision": "point",
       "consent": "",
       "recurrence": "annual, lunisolar"
+    },
+    {
+      "id": "citizen-03be958229",
+      "name": "Christmas Island Red Crab Migration",
+      "description": "Around 50 million crabs cross the island to spawn, triggered by the first heavy rains and timed to a specific lunar phase. Season opens in about 6 days; 0 reports in the last two weeks.",
+      "category": "Animal Migration",
+      "emoji": "🦀",
+      "tier": 3,
+      "coordinates": [
+        -10.4,
+        105.7
+      ],
+      "locationHint": "Christmas Island",
+      "country": "Australia",
+      "windowStart": "2026-11-12T00:00:00Z",
+      "windowEnd": "2026-12-17T00:00:00Z",
+      "peak": "2026-11-26T00:00:00Z",
+      "uncertaintyDays": 8.75,
+      "confidence": 0.115,
+      "baseConfidence": 0.187,
+      "lastVerifiedAt": "2026-11-05T05:30:51.799426Z",
+      "sources": [
+        {
+          "name": "iNaturalist observations",
+          "url": "https://api.inaturalist.org/v1/observations?taxon_id=123100",
+          "kind": "citizen",
+          "retrievedAt": "2026-11-05T05:30:51.799426Z",
+          "note": "338 research-grade records in region; peak week 48; 0 in last 14 days."
+        }
+      ],
+      "sensitivity": "public",
+      "precision": "regional",
+      "consent": "",
+      "recurrence": "annual, observed"
     }
   ]
 }
