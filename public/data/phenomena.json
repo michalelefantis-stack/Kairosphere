@@ -1,27 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T04:57:58.705949Z",
+  "generatedAt": "2026-11-09T15:26:35.655228Z",
   "horizonDays": 7,
   "counts": {
-    "total": 6,
-    "active": 4,
+    "total": 5,
+    "active": 3,
     "byTier": {
       "1": 3,
-      "2": 1,
       "3": 2
     },
     "byBand": {
       "high": 3,
       "medium": 0,
-      "low": 2,
+      "low": 1,
       "speculative": 1
     },
     "sourced": {
-      "collected": 61,
-      "reconciled": 61,
+      "collected": 60,
+      "reconciled": 60,
       "byTier": {
         "1": 56,
-        "2": 1,
         "3": 2,
         "4": 2
       }
@@ -47,13 +45,13 @@
       "uncertaintyDays": 14.0,
       "confidence": 0.425,
       "baseConfidence": 0.85,
-      "lastVerifiedAt": "2026-11-09T04:57:53.705450Z",
+      "lastVerifiedAt": "2026-11-09T15:26:30.094126Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=48662",
           "kind": "citizen",
-          "retrievedAt": "2026-11-09T04:57:53.705450Z",
+          "retrievedAt": "2026-11-09T15:26:30.094126Z",
           "note": "11536 research-grade records in region; peak week 45; 114 in last 14 days."
         }
       ],
@@ -81,20 +79,20 @@
       "uncertaintyDays": 0.5,
       "confidence": 0.966,
       "baseConfidence": 1.0,
-      "lastVerifiedAt": "2026-11-09T04:57:26.365871Z",
+      "lastVerifiedAt": "2026-11-09T15:24:51.864443Z",
       "sources": [
         {
           "name": "Meeus, Astronomical Algorithms (2nd ed.)",
           "url": "https://www.willbell.com/math/mc1.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-11-09T04:57:26.361845Z",
+          "retrievedAt": "2026-11-09T15:24:51.860257Z",
           "note": "Computed locally; no feed involved."
         },
         {
           "name": "IMO Meteor Shower Calendar",
           "url": "https://www.imo.net/resources/calendar/",
           "kind": "deterministic",
-          "retrievedAt": "2026-11-09T04:57:26.361854Z",
+          "retrievedAt": "2026-11-09T15:24:51.860266Z",
           "note": "Peak dates are stable year to year; ZHR is the published nominal rate."
         }
       ],
@@ -122,20 +120,20 @@
       "uncertaintyDays": 1.0,
       "confidence": 0.887,
       "baseConfidence": 0.95,
-      "lastVerifiedAt": "2026-11-09T04:57:26.366349Z",
+      "lastVerifiedAt": "2026-11-09T15:24:51.864916Z",
       "sources": [
         {
           "name": "Meeus, Astronomical Algorithms (2nd ed.)",
           "url": "https://www.willbell.com/math/mc1.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-11-09T04:57:26.361845Z",
+          "retrievedAt": "2026-11-09T15:24:51.860257Z",
           "note": "Computed locally; no feed involved."
         },
         {
           "name": "Calendrical conversion",
           "url": "https://www.staff.science.uu.nl/~gent0113/islam/islam_tabcal.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-11-09T04:57:26.366349Z",
+          "retrievedAt": "2026-11-09T15:24:51.864915Z",
           "note": "Amavasya of Kartika."
         }
       ],
@@ -143,47 +141,6 @@
       "precision": "point",
       "consent": "",
       "recurrence": "annual, lunisolar"
-    },
-    {
-      "id": "aurora-f0c72d1a82",
-      "name": "Aurora over Yellowknife",
-      "description": "OVATION puts auroral visibility at 12% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 09 Nov 06:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
-      "coordinates": [
-        62.454,
-        -114.3718
-      ],
-      "locationHint": "Yellowknife",
-      "country": "Canada",
-      "windowStart": "2026-11-09T04:57:26.710303Z",
-      "windowEnd": "2026-11-12T04:57:26.710303Z",
-      "peak": "2026-11-09T06:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.4,
-      "baseConfidence": 0.37,
-      "lastVerifiedAt": "2026-11-09T04:53:00Z",
-      "sources": [
-        {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-11-09T04:57:26.710286Z",
-          "note": "30-minute nowcast; forecast time 2026-11-09T05:29:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-11-09T04:57:26.710291Z",
-          "note": "3-day outlook, peak Kp 3.67."
-        }
-      ],
-      "sensitivity": "public",
-      "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
     },
     {
       "id": "citizen-03be958229",
@@ -204,13 +161,13 @@
       "uncertaintyDays": 8.75,
       "confidence": 0.115,
       "baseConfidence": 0.187,
-      "lastVerifiedAt": "2026-11-09T04:57:53.705450Z",
+      "lastVerifiedAt": "2026-11-09T15:26:30.094126Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=123100",
           "kind": "citizen",
-          "retrievedAt": "2026-11-09T04:57:53.705450Z",
+          "retrievedAt": "2026-11-09T15:26:30.094126Z",
           "note": "338 research-grade records in region; peak week 48; 0 in last 14 days."
         }
       ],
@@ -238,20 +195,20 @@
       "uncertaintyDays": 0.5,
       "confidence": 0.966,
       "baseConfidence": 1.0,
-      "lastVerifiedAt": "2026-11-09T04:57:26.365879Z",
+      "lastVerifiedAt": "2026-11-09T15:24:51.864451Z",
       "sources": [
         {
           "name": "Meeus, Astronomical Algorithms (2nd ed.)",
           "url": "https://www.willbell.com/math/mc1.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-11-09T04:57:26.361845Z",
+          "retrievedAt": "2026-11-09T15:24:51.860257Z",
           "note": "Computed locally; no feed involved."
         },
         {
           "name": "IMO Meteor Shower Calendar",
           "url": "https://www.imo.net/resources/calendar/",
           "kind": "deterministic",
-          "retrievedAt": "2026-11-09T04:57:26.361854Z",
+          "retrievedAt": "2026-11-09T15:24:51.860266Z",
           "note": "Peak dates are stable year to year; ZHR is the published nominal rate."
         }
       ],
