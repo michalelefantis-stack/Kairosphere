@@ -16,7 +16,7 @@
         "emoji": "🦋",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Hundreds of millions of monarchs clustering on oyamel fir, dense enough to bend the branches. Underway — roughly 72% through the typical window, with 148 reports in the last two weeks.",
+        "description": "Hundreds of millions of monarchs clustering on oyamel fir, dense enough to bend the branches. Underway — roughly 72% through the typical window, with 149 reports in the last two weeks.",
         "locationHint": "Michoacan oyamel forests",
         "geocodedAddress": "Mexico",
         "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=48662",
@@ -41,7 +41,7 @@
         "emoji": "🦀",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Around 50 million crabs cross the island to spawn, triggered by the first heavy rains and timed to a specific lunar phase. Underway — roughly 38% through the typical window, with 1 reports in the last two weeks.",
+        "description": "Around 50 million crabs cross the island to spawn, triggered by the first heavy rains and timed to a specific lunar phase. Underway — roughly 39% through the typical window, with 1 reports in the last two weeks.",
         "locationHint": "Christmas Island",
         "geocodedAddress": "Australia",
         "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=123100",
@@ -53,76 +53,51 @@
     },
     {
       "type": "Feature",
-      "id": "aurora-9392fa4a4a",
+      "id": "aurora-b96d3a2249",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -21.9426,
-          64.1466
+          -147.7164,
+          64.8378
         ]
       },
       "properties": {
-        "name": "Aurora over Reykjavik",
+        "name": "Aurora over Fairbanks",
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 15% overhead tonight. Planetary Kp is forecast to peak near 4 on 23 Nov 12:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Reykjavik",
-        "geocodedAddress": "Iceland",
+        "description": "OVATION puts auroral visibility at 26% overhead tonight. Planetary Kp is forecast to peak near 4 on 23 Nov 12:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Fairbanks",
+        "geocodedAddress": "United States",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-11-21T01:07:42.107756Z",
-        "endUtc": "2026-11-24T01:07:42.107756Z",
-        "confidence": 0.432,
+        "startUtc": "2026-11-21T09:17:06.394551Z",
+        "endUtc": "2026-11-24T09:17:06.394551Z",
+        "confidence": 0.551,
         "isWithinLiveWindow": true
       }
     },
     {
       "type": "Feature",
-      "id": "aurora-5533ea575f",
+      "id": "aurora-c7eb9cf63c",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.9553,
-          69.6492
+          -114.3718,
+          62.454
         ]
       },
       "properties": {
-        "name": "Aurora over Tromso",
+        "name": "Aurora over Yellowknife",
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 8% overhead tonight. Planetary Kp is forecast to peak near 4 on 23 Nov 12:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Tromso",
-        "geocodedAddress": "Norway",
+        "description": "OVATION puts auroral visibility at 19% overhead tonight. Planetary Kp is forecast to peak near 4 on 23 Nov 12:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Yellowknife",
+        "geocodedAddress": "Canada",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-11-21T01:07:42.107756Z",
-        "endUtc": "2026-11-24T01:07:42.107756Z",
-        "confidence": 0.356,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-8b3f877ee5",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.8303,
-          68.3494
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Abisko",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 8% overhead tonight. Planetary Kp is forecast to peak near 4 on 23 Nov 12:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Abisko",
-        "geocodedAddress": "Sweden",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-11-21T01:07:42.107756Z",
-        "endUtc": "2026-11-24T01:07:42.107756Z",
-        "confidence": 0.356,
+        "startUtc": "2026-11-21T09:17:06.394551Z",
+        "endUtc": "2026-11-24T09:17:06.394551Z",
+        "confidence": 0.475,
         "isWithinLiveWindow": true
       }
     },
