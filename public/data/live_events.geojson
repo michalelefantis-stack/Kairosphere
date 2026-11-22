@@ -16,7 +16,7 @@
         "emoji": "🦋",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Hundreds of millions of monarchs clustering on oyamel fir, dense enough to bend the branches. Underway — roughly 75% through the typical window, with 310 reports in the last two weeks.",
+        "description": "Hundreds of millions of monarchs clustering on oyamel fir, dense enough to bend the branches. Underway — roughly 76% through the typical window, with 313 reports in the last two weeks.",
         "locationHint": "Michoacan oyamel forests",
         "geocodedAddress": "Mexico",
         "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=48662",
@@ -41,13 +41,138 @@
         "emoji": "🦀",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Around 50 million crabs cross the island to spawn, triggered by the first heavy rains and timed to a specific lunar phase. Underway — roughly 42% through the typical window, with 4 reports in the last two weeks.",
+        "description": "Around 50 million crabs cross the island to spawn, triggered by the first heavy rains and timed to a specific lunar phase. Underway — roughly 43% through the typical window, with 4 reports in the last two weeks.",
         "locationHint": "Christmas Island",
         "geocodedAddress": "Australia",
         "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=123100",
         "startUtc": "2026-11-05T00:00:00Z",
         "endUtc": "2026-12-17T00:00:00Z",
         "confidence": 0.267,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-099a098c70",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9553,
+          69.6492
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Tromso",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 21% overhead tonight. Planetary Kp is forecast to peak near 4 on 23 Nov 12:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Tromso",
+        "geocodedAddress": "Norway",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-11-22T21:34:24.709179Z",
+        "endUtc": "2026-11-25T21:34:24.709179Z",
+        "confidence": 0.497,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-321bf0ec5c",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8303,
+          68.3494
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Abisko",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 21% overhead tonight. Planetary Kp is forecast to peak near 4 on 23 Nov 12:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Abisko",
+        "geocodedAddress": "Sweden",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-11-22T21:34:24.709179Z",
+        "endUtc": "2026-11-25T21:34:24.709179Z",
+        "confidence": 0.497,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-e79337c653",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7294,
+          66.5039
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Rovaniemi",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 21% overhead tonight. Planetary Kp is forecast to peak near 4 on 23 Nov 12:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Rovaniemi",
+        "geocodedAddress": "Finland",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-11-22T21:34:24.709179Z",
+        "endUtc": "2026-11-25T21:34:24.709179Z",
+        "confidence": 0.497,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-c196b51e40",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.0827,
+          68.9585
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Murmansk",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 20% overhead tonight. Planetary Kp is forecast to peak near 4 on 23 Nov 12:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Murmansk",
+        "geocodedAddress": "Russia",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-11-22T21:34:24.709179Z",
+        "endUtc": "2026-11-25T21:34:24.709179Z",
+        "confidence": 0.486,
+        "isWithinLiveWindow": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aurora-33e2ea751a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -21.9426,
+          64.1466
+        ]
+      },
+      "properties": {
+        "name": "Aurora over Reykjavik",
+        "emoji": "🌌",
+        "category": "Atmospheric Phenomenon",
+        "categoryLabel": "Atmospheric Phenomenon",
+        "description": "OVATION puts auroral visibility at 18% overhead tonight. Planetary Kp is forecast to peak near 4 on 23 Nov 12:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Reykjavik",
+        "geocodedAddress": "Iceland",
+        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
+        "startUtc": "2026-11-22T21:34:24.709179Z",
+        "endUtc": "2026-11-25T21:34:24.709179Z",
+        "confidence": 0.464,
         "isWithinLiveWindow": true
       }
     },
