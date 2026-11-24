@@ -1,27 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T14:07:14.670352Z",
+  "generatedAt": "2026-11-24T02:45:56.557296Z",
   "horizonDays": 7,
   "counts": {
     "total": 4,
-    "active": 4,
+    "active": 3,
     "byTier": {
       "1": 1,
-      "2": 1,
-      "3": 2
+      "3": 2,
+      "4": 1
     },
     "byBand": {
       "high": 1,
       "medium": 1,
-      "low": 2,
-      "speculative": 0
+      "low": 1,
+      "speculative": 1
     },
     "sourced": {
-      "collected": 62,
-      "reconciled": 62,
+      "collected": 60,
+      "reconciled": 60,
       "byTier": {
         "1": 56,
-        "2": 2,
         "3": 2,
         "4": 2
       }
@@ -31,7 +30,7 @@
     {
       "id": "citizen-5c23737ea3",
       "name": "Monarch Overwintering Roosts",
-      "description": "Hundreds of millions of monarchs clustering on oyamel fir, dense enough to bend the branches. Underway — roughly 78% through the typical window, with 309 reports in the last two weeks.",
+      "description": "Hundreds of millions of monarchs clustering on oyamel fir, dense enough to bend the branches. Underway — roughly 79% through the typical window, with 323 reports in the last two weeks.",
       "category": "Animal Migration",
       "emoji": "🦋",
       "tier": 3,
@@ -47,14 +46,14 @@
       "uncertaintyDays": 10.5,
       "confidence": 0.486,
       "baseConfidence": 0.85,
-      "lastVerifiedAt": "2026-11-23T14:07:10.795583Z",
+      "lastVerifiedAt": "2026-11-24T02:45:51.048457Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=48662",
           "kind": "citizen",
-          "retrievedAt": "2026-11-23T14:07:10.795583Z",
-          "note": "11835 research-grade records in region; peak week 45; 309 in last 14 days."
+          "retrievedAt": "2026-11-24T02:45:51.048457Z",
+          "note": "11846 research-grade records in region; peak week 45; 323 in last 14 days."
         }
       ],
       "sensitivity": "public",
@@ -65,7 +64,7 @@
     {
       "id": "citizen-9560cbe18d",
       "name": "Christmas Island Red Crab Migration",
-      "description": "Around 50 million crabs cross the island to spawn, triggered by the first heavy rains and timed to a specific lunar phase. Underway — roughly 44% through the typical window, with 5 reports in the last two weeks.",
+      "description": "Around 50 million crabs cross the island to spawn, triggered by the first heavy rains and timed to a specific lunar phase. Underway — roughly 46% through the typical window, with 5 reports in the last two weeks.",
       "category": "Animal Migration",
       "emoji": "🦀",
       "tier": 3,
@@ -81,14 +80,14 @@
       "uncertaintyDays": 10.5,
       "confidence": 0.28,
       "baseConfidence": 0.491,
-      "lastVerifiedAt": "2026-11-23T14:07:10.795583Z",
+      "lastVerifiedAt": "2026-11-24T02:45:51.048457Z",
       "sources": [
         {
           "name": "iNaturalist observations",
           "url": "https://api.inaturalist.org/v1/observations?taxon_id=123100",
           "kind": "citizen",
-          "retrievedAt": "2026-11-23T14:07:10.795583Z",
-          "note": "344 research-grade records in region; peak week 48; 5 in last 14 days."
+          "retrievedAt": "2026-11-24T02:45:51.048457Z",
+          "note": "345 research-grade records in region; peak week 48; 5 in last 14 days."
         }
       ],
       "sensitivity": "public",
@@ -115,13 +114,13 @@
       "uncertaintyDays": 1.0,
       "confidence": 0.887,
       "baseConfidence": 0.95,
-      "lastVerifiedAt": "2026-11-23T14:05:35.128972Z",
+      "lastVerifiedAt": "2026-11-24T02:45:44.843983Z",
       "sources": [
         {
           "name": "Meeus, Astronomical Algorithms (2nd ed.)",
           "url": "https://www.willbell.com/math/mc1.htm",
           "kind": "deterministic",
-          "retrievedAt": "2026-11-23T14:05:35.122822Z",
+          "retrievedAt": "2026-11-24T02:45:44.838229Z",
           "note": "Computed locally; no feed involved."
         }
       ],
@@ -131,45 +130,38 @@
       "recurrence": "annual, lunisolar"
     },
     {
-      "id": "aurora-9f2c9b1c35",
-      "name": "Aurora over Fairbanks",
-      "description": "OVATION puts auroral visibility at 8% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 23 Nov 15:00 UTC. Clear skies and darkness still decide it.",
-      "category": "Atmospheric Phenomenon",
-      "emoji": "🌌",
-      "tier": 2,
+      "id": "curated-b83f23dd00",
+      "name": "Hornbill Festival",
+      "description": "Seventeen Naga tribes gather at Kisama for a week of morungs, log drums and dance — a state-organised meeting of groups that were once hostile. Protected Area Permit rules for foreign visitors change periodically — re-check before each season.",
+      "category": "Human Ritual",
+      "emoji": "🪘",
+      "tier": 4,
       "coordinates": [
-        64.8378,
-        -147.7164
+        25.6,
+        94.1
       ],
-      "locationHint": "Fairbanks",
-      "country": "United States",
-      "windowStart": "2026-11-23T14:05:35.310572Z",
-      "windowEnd": "2026-11-26T14:05:35.310572Z",
-      "peak": "2026-11-23T15:00:00Z",
-      "uncertaintyDays": 0.5,
-      "confidence": 0.356,
-      "baseConfidence": 0.33,
-      "lastVerifiedAt": "2026-11-23T13:57:00Z",
+      "locationHint": "Kisama Heritage Village, Kohima",
+      "country": "India",
+      "windowStart": "2026-12-01T00:00:00Z",
+      "windowEnd": "2026-12-11T00:00:00Z",
+      "peak": null,
+      "uncertaintyDays": 3.33,
+      "confidence": 0.089,
+      "baseConfidence": 0.85,
+      "lastVerifiedAt": "2025-12-05T00:00:00Z",
       "sources": [
         {
-          "name": "NOAA SWPC OVATION Aurora Model",
-          "url": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-          "kind": "model",
-          "retrievedAt": "2026-11-23T14:05:35.310552Z",
-          "note": "30-minute nowcast; forecast time 2026-11-23T15:17:00Z."
-        },
-        {
-          "name": "NOAA SWPC Planetary K-index Forecast",
-          "url": "https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
-          "kind": "model",
-          "retrievedAt": "2026-11-23T14:05:35.310559Z",
-          "note": "3-day outlook, peak Kp 3.67."
+          "name": "Nagaland Tourism",
+          "url": "https://tourism.nagaland.gov.in/",
+          "kind": "curated",
+          "retrievedAt": "2025-12-05T00:00:00Z",
+          "note": "Organised by the Nagaland state tourism department."
         }
       ],
       "sensitivity": "public",
       "precision": "point",
-      "consent": "",
-      "recurrence": "solar-driven, episodic"
+      "consent": "Organised by the Nagaland state tourism department.",
+      "recurrence": "fixed"
     }
   ]
 }

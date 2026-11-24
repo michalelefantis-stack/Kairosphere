@@ -16,7 +16,7 @@
         "emoji": "🦋",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Hundreds of millions of monarchs clustering on oyamel fir, dense enough to bend the branches. Underway — roughly 78% through the typical window, with 309 reports in the last two weeks.",
+        "description": "Hundreds of millions of monarchs clustering on oyamel fir, dense enough to bend the branches. Underway — roughly 79% through the typical window, with 323 reports in the last two weeks.",
         "locationHint": "Michoacan oyamel forests",
         "geocodedAddress": "Mexico",
         "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=48662",
@@ -41,7 +41,7 @@
         "emoji": "🦀",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Around 50 million crabs cross the island to spawn, triggered by the first heavy rains and timed to a specific lunar phase. Underway — roughly 44% through the typical window, with 5 reports in the last two weeks.",
+        "description": "Around 50 million crabs cross the island to spawn, triggered by the first heavy rains and timed to a specific lunar phase. Underway — roughly 46% through the typical window, with 5 reports in the last two weeks.",
         "locationHint": "Christmas Island",
         "geocodedAddress": "Australia",
         "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=123100",
@@ -78,27 +78,27 @@
     },
     {
       "type": "Feature",
-      "id": "aurora-9f2c9b1c35",
+      "id": "curated-b83f23dd00",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.7164,
-          64.8378
+          94.1,
+          25.6
         ]
       },
       "properties": {
-        "name": "Aurora over Fairbanks",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 8% overhead tonight. Planetary Kp is forecast to peak near 3.67 on 23 Nov 15:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Fairbanks",
-        "geocodedAddress": "United States",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-11-23T14:05:35.310572Z",
-        "endUtc": "2026-11-26T14:05:35.310572Z",
-        "confidence": 0.356,
-        "isWithinLiveWindow": true
+        "name": "Hornbill Festival",
+        "emoji": "🪘",
+        "category": "Human Ritual",
+        "categoryLabel": "Human Ritual",
+        "description": "Seventeen Naga tribes gather at Kisama for a week of morungs, log drums and dance — a state-organised meeting of groups that were once hostile. Protected Area Permit rules for foreign visitors change periodically — re-check before each season.",
+        "locationHint": "Kisama Heritage Village, Kohima",
+        "geocodedAddress": "India",
+        "sourceUrl": "https://tourism.nagaland.gov.in/",
+        "startUtc": "2026-12-01T00:00:00Z",
+        "endUtc": "2026-12-11T00:00:00Z",
+        "confidence": 0.089,
+        "isWithinLiveWindow": false
       }
     }
   ]
