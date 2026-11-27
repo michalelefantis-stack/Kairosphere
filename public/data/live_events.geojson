@@ -28,7 +28,7 @@
     },
     {
       "type": "Feature",
-      "id": "citizen-9560cbe18d",
+      "id": "citizen-03be958229",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -41,138 +41,63 @@
         "emoji": "🦀",
         "category": "Animal Migration",
         "categoryLabel": "Animal Migration",
-        "description": "Around 50 million crabs cross the island to spawn, triggered by the first heavy rains and timed to a specific lunar phase. Underway — roughly 52% through the typical window, with 9 reports in the last two weeks.",
+        "description": "Around 50 million crabs cross the island to spawn, triggered by the first heavy rains and timed to a specific lunar phase. Underway — roughly 44% through the typical window, with 12 reports in the last two weeks.",
         "locationHint": "Christmas Island",
         "geocodedAddress": "Australia",
         "sourceUrl": "https://api.inaturalist.org/v1/observations?taxon_id=123100",
-        "startUtc": "2026-11-05T00:00:00Z",
+        "startUtc": "2026-11-12T00:00:00Z",
         "endUtc": "2026-12-17T00:00:00Z",
-        "confidence": 0.324,
+        "confidence": 0.378,
         "isWithinLiveWindow": true
       }
     },
     {
       "type": "Feature",
-      "id": "aurora-e8f255a296",
+      "id": "aurora-105cd59e83",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -21.9426,
-          64.1466
+          -114.3718,
+          62.454
         ]
       },
       "properties": {
-        "name": "Aurora over Reykjavik",
+        "name": "Aurora over Yellowknife",
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 28% overhead tonight. Planetary Kp is forecast to peak near 5 on 27 Nov 03:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Reykjavik",
-        "geocodedAddress": "Iceland",
+        "description": "OVATION puts auroral visibility at 16% overhead tonight. Planetary Kp is forecast to peak near 4 on 27 Nov 09:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Yellowknife",
+        "geocodedAddress": "Canada",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-11-26T22:50:00.675583Z",
-        "endUtc": "2026-11-29T22:50:00.675583Z",
-        "confidence": 0.572,
+        "startUtc": "2026-11-27T07:03:10.194260Z",
+        "endUtc": "2026-11-30T07:03:10.194260Z",
+        "confidence": 0.443,
         "isWithinLiveWindow": true
       }
     },
     {
       "type": "Feature",
-      "id": "aurora-70d4271fbb",
+      "id": "aurora-f6db60e733",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.9553,
-          69.6492
+          -147.7164,
+          64.8378
         ]
       },
       "properties": {
-        "name": "Aurora over Tromso",
+        "name": "Aurora over Fairbanks",
         "emoji": "🌌",
         "category": "Atmospheric Phenomenon",
         "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 24% overhead tonight. Planetary Kp is forecast to peak near 5 on 27 Nov 03:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Tromso",
-        "geocodedAddress": "Norway",
+        "description": "OVATION puts auroral visibility at 9% overhead tonight. Planetary Kp is forecast to peak near 4 on 27 Nov 09:00 UTC. Clear skies and darkness still decide it.",
+        "locationHint": "Fairbanks",
+        "geocodedAddress": "United States",
         "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-11-26T22:50:00.675583Z",
-        "endUtc": "2026-11-29T22:50:00.675583Z",
-        "confidence": 0.529,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-b0ad01de33",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.8303,
-          68.3494
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Abisko",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 24% overhead tonight. Planetary Kp is forecast to peak near 5 on 27 Nov 03:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Abisko",
-        "geocodedAddress": "Sweden",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-11-26T22:50:00.675583Z",
-        "endUtc": "2026-11-29T22:50:00.675583Z",
-        "confidence": 0.529,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-80f14e87e3",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.7294,
-          66.5039
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Rovaniemi",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 23% overhead tonight. Planetary Kp is forecast to peak near 5 on 27 Nov 03:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Rovaniemi",
-        "geocodedAddress": "Finland",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-11-26T22:50:00.675583Z",
-        "endUtc": "2026-11-29T22:50:00.675583Z",
-        "confidence": 0.518,
-        "isWithinLiveWindow": true
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "aurora-7ade503625",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          33.0827,
-          68.9585
-        ]
-      },
-      "properties": {
-        "name": "Aurora over Murmansk",
-        "emoji": "🌌",
-        "category": "Atmospheric Phenomenon",
-        "categoryLabel": "Atmospheric Phenomenon",
-        "description": "OVATION puts auroral visibility at 21% overhead tonight. Planetary Kp is forecast to peak near 5 on 27 Nov 03:00 UTC. Clear skies and darkness still decide it.",
-        "locationHint": "Murmansk",
-        "geocodedAddress": "Russia",
-        "sourceUrl": "https://services.swpc.noaa.gov/json/ovation_aurora_latest.json",
-        "startUtc": "2026-11-26T22:50:00.675583Z",
-        "endUtc": "2026-11-29T22:50:00.675583Z",
-        "confidence": 0.497,
+        "startUtc": "2026-11-27T07:03:10.194260Z",
+        "endUtc": "2026-11-30T07:03:10.194260Z",
+        "confidence": 0.367,
         "isWithinLiveWindow": true
       }
     },
